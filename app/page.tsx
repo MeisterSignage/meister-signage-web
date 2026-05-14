@@ -8,6 +8,7 @@ import IndustrySection from "@/components/sections/IndustrySection";
 import ProofSection from "@/components/sections/ProofSection";
 import FAQSection from "@/components/sections/FAQSection";
 import CTASection from "@/components/sections/CTASection";
+import ContactSection from "@/components/sections/ContactSection";
 import { UtensilsCrossed, Store, CalendarRange, Building2, Hotel, MonitorPlay } from "lucide-react";
 import { Clock, PencilRuler, BadgeCheck, MapPin, Wrench, RefreshCw } from "lucide-react";
 
@@ -159,6 +160,18 @@ export default function Home() {
         subtitle="Kurz erklären, was Sie vorhaben – wir zeigen Ihnen, welche Lösung sinnvoll ist und wie der Einstieg einfach gelingt."
         primaryCta={{ label: "Beratung anfragen", href: "/kontakt" }}
         secondaryCta={{ label: "Mehr über Meister Signage", href: "/ueber-uns" }}
+      />
+
+      {/* ── KONTAKT ── */}
+      <ContactSection
+        eyebrow="Persönlicher Kontakt"
+        title="Sie möchten wissen, ob Digital Signage zu Ihrem Betrieb passt?"
+        subtitle="Schreiben Sie kurz, was Sie vorhaben. Wir melden uns persönlich und unkompliziert."
+        contactName="Chris Meister"
+        role="Meister Signage"
+        phone="+41 76 452 66 87"
+        email="info@meister-signage.ch"
+        whatsapp="https://wa.me/41764526687"
       />
 
       {/* ── SCHMERZPUNKTE ── */}
