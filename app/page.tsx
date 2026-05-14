@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
+import HeroSection from "@/components/sections/HeroSection";
 
 export const metadata: Metadata = {
   title: "Meister Signage – Digital Signage Luzern & Zentralschweiz",
@@ -25,73 +25,18 @@ export default function Home() {
   return (
     <>
       {/* ── HERO ── */}
-      <section style={{ backgroundColor: "var(--navy)", minHeight: "100vh", position: "relative", overflow: "hidden" }}
-        className="flex items-center">
-        {/* Background texture */}
-        <div style={{
-          position: "absolute", inset: 0,
-          backgroundImage: "radial-gradient(circle at 70% 50%, rgba(254,1,154,0.08) 0%, transparent 60%), radial-gradient(circle at 20% 80%, rgba(201,168,76,0.06) 0%, transparent 50%)",
-        }} />
-        {/* Decorative squares (from logo motif) */}
-        <div style={{ position: "absolute", right: "5%", top: "20%", opacity: 0.06 }}>
-          <div style={{ width: 80, height: 80, backgroundColor: "var(--magenta)", borderRadius: 4, marginBottom: 16 }} />
-          <div style={{ width: 56, height: 56, backgroundColor: "var(--magenta)", borderRadius: 4, marginLeft: 40 }} />
-          <div style={{ width: 40, height: 40, backgroundColor: "var(--magenta)", borderRadius: 4, marginTop: 8 }} />
-        </div>
-
-        <div className="max-w-content mx-auto px-6 py-32 relative z-10">
-          <div style={{ maxWidth: 680 }}>
-            <span style={{
-              display: "inline-block", marginBottom: 24,
-              fontSize: 11, fontWeight: 700, letterSpacing: "0.12em", textTransform: "uppercase",
-              color: "var(--magenta)",
-            }}>
-              Digital Signage · Zentralschweiz
-            </span>
-
-            <h1 style={{ color: "white", marginBottom: 24, fontSize: "clamp(32px, 5vw, 52px)", fontWeight: 300, lineHeight: 1.1 }}>
-              Ihre Botschaft.<br />
-              <span style={{ color: "var(--magenta)" }}>Zur richtigen Zeit.</span>
-            </h1>
-
-            <p style={{ color: "rgba(255,255,255,0.7)", fontSize: 17, lineHeight: 1.8, marginBottom: 40, maxWidth: 560 }}>
-              Schlüsselfertige Digital-Signage-Lösungen für Gastronomie, Hotellerie und Retail.
-              Kein IT-Aufwand. Persönlicher Service aus der Schweiz.
-            </p>
-
-            <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
-              <Link href="/kontakt" style={{
-                backgroundColor: "var(--magenta)", color: "white",
-                padding: "14px 28px", borderRadius: 7, fontWeight: 700,
-                textDecoration: "none", fontSize: 14, display: "inline-flex", alignItems: "center", gap: 8,
-                transition: "opacity 0.2s",
-              }}>
-                Kostenloses Gespräch buchen →
-              </Link>
-              <Link href="/blog" style={{
-                backgroundColor: "transparent", color: "rgba(255,255,255,0.8)",
-                padding: "14px 28px", borderRadius: 7, fontWeight: 700,
-                textDecoration: "none", fontSize: 14, border: "2px solid rgba(255,255,255,0.25)",
-                display: "inline-flex", alignItems: "center", gap: 8,
-              }}>
-                Use Cases ansehen
-              </Link>
-            </div>
-
-            {/* Social proof strip */}
-            <div style={{ marginTop: 56, paddingTop: 32, borderTop: "1px solid rgba(255,255,255,0.1)" }}>
-              <p style={{ color: "rgba(255,255,255,0.35)", fontSize: 11, fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: 16 }}>
-                Bereits im Einsatz
-              </p>
-              <div style={{ display: "flex", gap: 32, flexWrap: "wrap" }}>
-                {["Gastronomie", "Hotellerie", "Events & Messen", "Retail"].map((s) => (
-                  <span key={s} style={{ color: "rgba(255,255,255,0.5)", fontSize: 13, fontWeight: 400 }}>{s}</span>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <HeroSection
+        eyebrow="Digital Signage aus der Zentralschweiz"
+        title="Digitale Beschilderung, die im Alltag wirklich funktioniert."
+        subtitle="Meister Signage plant und realisiert Digital-Signage-Lösungen für Gastronomie, Retail und Events – persönlich, verständlich und schlüsselfertig."
+        bullets={[
+          "Inhalte einfach und zentral aktualisieren",
+          "Weniger Druckaufwand und weniger manuelle Arbeit",
+          "Persönliche Betreuung statt anonymem Ticketsystem",
+        ]}
+        primaryCta={{ label: "Beratung anfragen", href: "/kontakt" }}
+        secondaryCta={{ label: "Lösungen ansehen", href: "/loesungen" }}
+      />
 
       {/* ── SCHMERZPUNKTE ── */}
       <section style={{ backgroundColor: "var(--offwhite)", padding: "80px 24px" }}>

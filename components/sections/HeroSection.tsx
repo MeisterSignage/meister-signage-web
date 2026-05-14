@@ -13,8 +13,8 @@ type HeroSectionProps = {
   bullets: [string, string, string];
   primaryCta: Cta;
   secondaryCta?: Cta;
-  imageSrc: string;
-  imageAlt: string;
+  imageSrc?: string;
+  imageAlt?: string;
 };
 
 export default function HeroSection({
@@ -25,7 +25,7 @@ export default function HeroSection({
   primaryCta,
   secondaryCta,
   imageSrc,
-  imageAlt,
+  imageAlt = "",
 }: HeroSectionProps) {
   return (
     <SectionContainer className="bg-slate-50">
@@ -71,16 +71,22 @@ export default function HeroSection({
           </div>
         </div>
 
-        {/* Image */}
-        <div className="relative w-full overflow-hidden rounded-xl shadow-lg">
-          <Image
-            src={imageSrc}
-            alt={imageAlt}
-            width={720}
-            height={480}
-            className="h-auto w-full object-cover"
-            priority
-          />
+        {/* Image or placeholder */}
+        <div className="relative w-full overflow-hidden rounded-xl">
+          {imageSrc ? (
+            <Image
+              src={imageSrc}
+              alt={imageAlt}
+              width={720}
+              height={480}
+              className="h-auto w-full object-cover shadow-lg"
+              priority
+            />
+          ) : (
+            <div className="flex aspect-[3/2] w-full items-center justify-center rounded-xl bg-neutral-200">
+              <span className="text-sm text-neutral-400">Bild folgt</span>
+            </div>
+          )}
         </div>
       </div>
     </SectionContainer>
