@@ -97,22 +97,9 @@ a { color: inherit; text-decoration: none; }
 /* ─── Design System ──────────────────────────────────────────── */
 @layer components {
 
-  /* ── Headline max-2-lines helper ───────────────────────── */
+  /* ── Headline balanced wrapping ────────────────────────── */
   .heading-max-2 {
-    max-width: 16ch;
     text-wrap: balance;
-  }
-
-  @media (max-width: 1024px) {
-    .heading-max-2 {
-      max-width: 20ch;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .heading-max-2 {
-      max-width: 100%;
-    }
   }
 
   /* ── Hero headline ──────────────────────────────────────── */
