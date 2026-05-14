@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import SectionContainer from "@/components/ui/SectionContainer";
 
 export const metadata: Metadata = {
@@ -6,157 +7,243 @@ export const metadata: Metadata = {
   description: "Datenschutzerklärung von Meister Signage. Informationen zur Verarbeitung personenbezogener Daten gemäss DSG und DSGVO.",
 };
 
-const sections = [
-  {
-    number: "1",
-    title: "Allgemeine Hinweise",
-    content: "Der Schutz Ihrer personenbezogenen Daten ist uns wichtig. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften der Schweiz (DSG) sowie – soweit anwendbar – der Datenschutz-Grundverordnung der Europäischen Union (DSGVO).",
-  },
-  {
-    number: "2",
-    title: "Verantwortliche Stelle",
-    content: null,
-    address: [
-      "Christopher Meister",
-      "Meister Signage Einzelunternehmen",
-      "Chriesimatt 20",
-      "6340 Baar",
-      "Schweiz",
-      "",
-      "Telefon: +41 76 452 66 87",
-      "E-Mail: chris@meister-signage.ch",
-    ],
-  },
-  {
-    number: "3",
-    title: "Hosting und Server-Logfiles",
-    content: "Diese Website wird bei Novatrend in der Schweiz gehostet.",
-  },
-  {
-    number: "4",
-    title: "SSL-/TLS-Verschlüsselung",
-    content: "Diese Website nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte eine SSL-/TLS-Verschlüsselung.",
-  },
-  {
-    number: "5",
-    title: "Kontaktformular und Kontaktaufnahme",
-    content: "Wenn Sie uns per Kontaktformular, E-Mail, Telefon oder WhatsApp kontaktieren, werden die von Ihnen übermittelten Daten zur Bearbeitung Ihrer Anfrage gespeichert und verarbeitet.",
-  },
-  {
-    number: "6",
-    title: "Cookies",
-    content: "Diese Website verwendet Cookies. Zur Verwaltung der Einwilligungen wird CookieYes verwendet.",
-  },
-  {
-    number: "7",
-    title: "Google Analytics",
-    content: "Diese Website verwendet Google Analytics 4 (GA4).",
-  },
-  {
-    number: "8",
-    title: "Microsoft Clarity",
-    content: "Diese Website verwendet Microsoft Clarity zur Analyse und Verbesserung der Benutzerfreundlichkeit.",
-  },
-  {
-    number: "9",
-    title: "Google Search Console",
-    content: "Zur technischen Optimierung und Überwachung der Auffindbarkeit der Website wird Google Search Console verwendet.",
-  },
-  {
-    number: "10",
-    title: "YouTube",
-    content: "Auf dieser Website können künftig Videos der Plattform YouTube eingebunden werden.",
-  },
-  {
-    number: "11",
-    title: "Social Media",
-    content: "Diese Website enthält Links zu LinkedIn, Instagram, WhatsApp und YouTube.",
-  },
-  {
-    number: "12",
-    title: "AI-gestützte Inhalte",
-    content: "Zur Erstellung und Optimierung von Inhalten können künftig AI-/KI-gestützte Systeme eingesetzt werden.",
-  },
-  {
-    number: "13",
-    title: "Speicherung und Aufbewahrung",
-    content: "Personenbezogene Daten werden nur so lange gespeichert, wie dies für den jeweiligen Zweck erforderlich ist.",
-  },
-  {
-    number: "14",
-    title: "Datensicherheit",
-    content: "Wir treffen angemessene technische und organisatorische Sicherheitsmassnahmen zum Schutz personenbezogener Daten.",
-  },
-  {
-    number: "15",
-    title: "Rechte betroffener Personen",
-    content: null,
-    list: ["Auskunft", "Berichtigung", "Löschung", "Widerruf"],
-    listIntro: "Sie haben insbesondere folgende Rechte:",
-  },
-  {
-    number: "16",
-    title: "Datenübermittlung ins Ausland",
-    content: "Einzelne Dienste können Daten ausserhalb der Schweiz bzw. EU verarbeiten.",
-  },
-  {
-    number: "17",
-    title: "Änderungen",
-    content: "Wir behalten uns vor, diese Datenschutzerklärung jederzeit anzupassen.",
-  },
-];
+// ─── Hinweise für zukünftige Dienste (noch nicht aktiv) ──────────
+// TODO: CookieYes-Abschnitt ergänzen, sobald CookieYes eingebunden ist
+// TODO: Google Analytics 4-Abschnitt ergänzen, sobald GA4 aktiv ist
+// TODO: Microsoft Clarity-Abschnitt ergänzen, sobald Clarity aktiv ist
+// TODO: YouTube-Abschnitt ergänzen, sobald Videos eingebettet werden
+// TODO: HubSpot-Abschnitt ergänzen, sobald HubSpot eingebunden ist
+// ─────────────────────────────────────────────────────────────────
 
 export default function DatenschutzPage() {
   return (
     <SectionContainer white>
-      <div className="mx-auto max-w-3xl">
+      <div className="legal-page mx-auto max-w-3xl">
 
         {/* Header */}
-        <div className="mb-12">
-          <span className="eyebrow">Rechtliches</span>
-          <h1 className="mb-3 text-navy">Datenschutzerklärung</h1>
-          <p className="text-cgray">Stand: Mai 2026</p>
+        <div className="mb-10 border-b border-navy/10 pb-8">
+          <p className="eyebrow mb-2">Rechtliches</p>
+          <h1 className="mb-2 text-navy">Datenschutzerklärung</h1>
+          <p className="text-sm text-cgray">Stand: Mai 2026</p>
+          <p className="mt-4 text-sm text-cgray">
+            Weitere rechtliche Informationen finden Sie im{" "}
+            <Link href="/impressum" className="text-magenta underline underline-offset-2">
+              Impressum
+            </Link>
+            .
+          </p>
         </div>
 
-        {/* Sections */}
-        <dl className="divide-y divide-navy/10 border-t border-navy/10">
-          {sections.map((s) => (
-            <div key={s.number} className="py-8">
-              <dt className="mb-3 flex items-baseline gap-3">
-                <span className="shrink-0 text-sm font-semibold text-gold">{s.number}.</span>
-                <h2 className="text-[18px] font-semibold leading-snug text-navy md:text-[20px]">
-                  {s.title}
-                </h2>
-              </dt>
-              <dd className="pl-6">
-                {s.content && (
-                  <p className="card-body">{s.content}</p>
-                )}
-                {s.address && (
-                  <address className="card-body not-italic">
-                    {s.address.map((line, i) =>
-                      line === "" ? (
-                        <br key={i} />
-                      ) : (
-                        <span key={i} className="block">{line}</span>
-                      )
-                    )}
-                  </address>
-                )}
-                {s.listIntro && (
-                  <p className="card-body mb-2">{s.listIntro}</p>
-                )}
-                {s.list && (
-                  <ul className="ml-4 flex flex-col gap-1">
-                    {s.list.map((item) => (
-                      <li key={item} className="card-body list-disc">{item}</li>
-                    ))}
-                  </ul>
-                )}
-              </dd>
-            </div>
-          ))}
-        </dl>
+        <div className="flex flex-col divide-y divide-navy/10">
+
+          {/* 1 */}
+          <section className="py-7">
+            <h2 className="mb-3 text-navy">1. Allgemeine Hinweise</h2>
+            <p className="card-body">
+              Der Schutz Ihrer personenbezogenen Daten ist uns wichtig. Wir behandeln Ihre
+              personenbezogenen Daten vertraulich und entsprechend den gesetzlichen
+              Datenschutzvorschriften der Schweiz (DSG) sowie – soweit anwendbar – der
+              Datenschutz-Grundverordnung der Europäischen Union (DSGVO).
+            </p>
+          </section>
+
+          {/* 2 */}
+          <section className="py-7">
+            <h2 className="mb-3 text-navy">2. Verantwortliche Stelle</h2>
+            <address className="card-body not-italic">
+              <span className="block font-semibold text-navy">Christopher Meister</span>
+              <span className="block">Meister Signage Einzelunternehmen</span>
+              <span className="block mt-2">Chriesimatt 20</span>
+              <span className="block">6340 Baar</span>
+              <span className="block">Schweiz</span>
+              <span className="block mt-2">
+                Telefon:{" "}
+                <a href="tel:+41764526687" className="text-magenta hover:underline">
+                  +41 76 452 66 87
+                </a>
+              </span>
+              <span className="block">
+                E-Mail:{" "}
+                <a href="mailto:chris@meister-signage.ch" className="text-magenta hover:underline">
+                  chris@meister-signage.ch
+                </a>
+              </span>
+            </address>
+          </section>
+
+          {/* 3 */}
+          <section className="py-7">
+            <h2 className="mb-3 text-navy">3. Hosting und Server-Logfiles</h2>
+            <p className="card-body">
+              Diese Website wird bei Novatrend in der Schweiz gehostet. Beim Aufruf der Website
+              werden automatisch Verbindungsdaten (IP-Adresse, Datum und Uhrzeit des Zugriffs,
+              aufgerufene Seite, Browser-Typ) in Server-Logfiles gespeichert. Diese Daten dienen
+              ausschliesslich der technischen Sicherheit und werden nicht mit anderen Datenquellen
+              zusammengeführt.
+            </p>
+          </section>
+
+          {/* 4 */}
+          <section className="py-7">
+            <h2 className="mb-3 text-navy">4. SSL-/TLS-Verschlüsselung</h2>
+            <p className="card-body">
+              Diese Website nutzt aus Sicherheitsgründen und zum Schutz der Übertragung
+              vertraulicher Inhalte eine SSL-/TLS-Verschlüsselung. Eine verschlüsselte Verbindung
+              erkennen Sie an der Adresszeile Ihres Browsers sowie am Schloss-Symbol.
+            </p>
+          </section>
+
+          {/* 5 */}
+          <section className="py-7">
+            <h2 className="mb-3 text-navy">5. Cookies</h2>
+            <p className="card-body mb-3">
+              Diese Website verwendet technisch notwendige Cookies, die für den Betrieb der Website
+              erforderlich sind. Diese Cookies speichern keine personenbezogenen Daten und können
+              nicht deaktiviert werden.
+            </p>
+            <p className="card-body">
+              Analyse- oder Marketing-Cookies werden derzeit nicht eingesetzt. Sollten künftig
+              entsprechende Dienste aktiviert werden, erfolgt dies ausschliesslich nach Ihrer
+              ausdrücklichen Einwilligung über einen Cookie-Banner.
+            </p>
+          </section>
+
+          {/* 6 */}
+          <section className="py-7">
+            <h2 className="mb-3 text-navy">6. Kontaktaufnahme</h2>
+            <p className="card-body mb-3">
+              Wenn Sie uns per E-Mail, Telefon oder Kontaktformular kontaktieren, werden die von
+              Ihnen übermittelten Daten zur Bearbeitung Ihrer Anfrage gespeichert und verarbeitet.
+              Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
+            </p>
+            <h2 className="mb-2 text-navy mt-5">WhatsApp</h2>
+            <p className="card-body">
+              Auf dieser Website besteht die Möglichkeit, über WhatsApp Kontakt aufzunehmen.
+              WhatsApp wird von Meta Platforms Ireland Limited, 4 Grand Canal Square, Dublin 2,
+              Irland betrieben. Bei der Nutzung von WhatsApp können Daten an Server von Meta
+              übertragen werden, auch ausserhalb der Schweiz und der EU. Bitte beachten Sie die
+              Datenschutzhinweise von WhatsApp:{" "}
+              <a
+                href="https://www.whatsapp.com/legal/privacy-policy-eea"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-magenta hover:underline"
+              >
+                whatsapp.com/legal/privacy-policy-eea
+              </a>
+              .
+            </p>
+          </section>
+
+          {/* 7 */}
+          <section className="py-7">
+            <h2 className="mb-3 text-navy">7. Google Search Console</h2>
+            <p className="card-body">
+              Wir nutzen die Google Search Console zur technischen Überwachung und Optimierung der
+              Sichtbarkeit dieser Website in der Google-Suche. Dabei werden aggregierte Daten über
+              Suchanfragen und technische Fehler ausgewertet. Es werden keine personenbezogenen
+              Daten einzelner Besucher verarbeitet. Weitere Informationen:{" "}
+              <a
+                href="https://policies.google.com/privacy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-magenta hover:underline"
+              >
+                policies.google.com/privacy
+              </a>
+              .
+            </p>
+          </section>
+
+          {/* 8 */}
+          <section className="py-7">
+            <h2 className="mb-3 text-navy">8. Social Media</h2>
+            <p className="card-body">
+              Diese Website enthält Links zu LinkedIn, Instagram, WhatsApp und YouTube. Beim
+              blossen Besuch dieser Website werden über diese einfachen Links grundsätzlich keine
+              Daten an die jeweiligen Plattformen übertragen. Erst wenn Sie einen Link anklicken und
+              die externe Plattform besuchen, gelten deren Datenschutzbestimmungen.
+            </p>
+          </section>
+
+          {/* 9 */}
+          <section className="py-7">
+            <h2 className="mb-3 text-navy">9. Speicherung und Aufbewahrung</h2>
+            <p className="card-body">
+              Personenbezogene Daten werden nur so lange gespeichert, wie dies für den jeweiligen
+              Zweck erforderlich ist oder gesetzliche Aufbewahrungspflichten bestehen.
+            </p>
+          </section>
+
+          {/* 10 */}
+          <section className="py-7">
+            <h2 className="mb-3 text-navy">10. Datenübermittlung ins Ausland</h2>
+            <p className="card-body">
+              Einzelne Dienste (z. B. Google Search Console, WhatsApp) können Daten ausserhalb der
+              Schweiz bzw. der EU verarbeiten. Wir stellen sicher, dass dabei ein angemessenes
+              Datenschutzniveau gewährleistet ist.
+            </p>
+          </section>
+
+          {/* 11 */}
+          <section className="py-7">
+            <h2 className="mb-4 text-navy">11. Rechte betroffener Personen</h2>
+            <p className="card-body mb-4">
+              Sie haben gegenüber uns folgende Rechte bezüglich Ihrer personenbezogenen Daten:
+            </p>
+            <ul className="mb-4 ml-4 flex flex-col gap-1">
+              {[
+                "Recht auf Auskunft",
+                "Recht auf Berichtigung unrichtiger Daten",
+                "Recht auf Löschung",
+                "Recht auf Einschränkung der Verarbeitung",
+                "Recht auf Widerruf erteilter Einwilligungen",
+              ].map((r) => (
+                <li key={r} className="card-body list-disc">{r}</li>
+              ))}
+            </ul>
+            <p className="card-body mb-3">
+              Zur Ausübung Ihrer Rechte wenden Sie sich an:{" "}
+              <a href="mailto:chris@meister-signage.ch" className="text-magenta hover:underline">
+                chris@meister-signage.ch
+              </a>
+            </p>
+            <p className="card-body">
+              Sie haben zudem das Recht, sich beim Eidgenössischen Datenschutz- und
+              Öffentlichkeitsbeauftragten (EDÖB) zu beschweren:{" "}
+              <a
+                href="https://www.edoeb.admin.ch"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-magenta hover:underline"
+              >
+                edoeb.admin.ch
+              </a>
+              .
+            </p>
+          </section>
+
+          {/* 12 */}
+          <section className="py-7">
+            <h2 className="mb-3 text-navy">12. Änderungen dieser Datenschutzerklärung</h2>
+            <p className="card-body">
+              Wir behalten uns vor, diese Datenschutzerklärung jederzeit anzupassen, insbesondere
+              wenn neue Dienste eingesetzt werden. Die jeweils aktuelle Version ist auf dieser Seite
+              abrufbar.
+            </p>
+          </section>
+
+        </div>
+
+        {/* Footer link */}
+        <div className="mt-8 border-t border-navy/10 pt-6">
+          <p className="text-sm text-cgray">
+            Weitere rechtliche Informationen:{" "}
+            <Link href="/impressum" className="text-magenta hover:underline">
+              Impressum
+            </Link>
+          </p>
+        </div>
 
       </div>
     </SectionContainer>

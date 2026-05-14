@@ -67,10 +67,10 @@ export default function Footer() {
             © {new Date().getFullYear()} Meister Signage · Zentralschweiz
           </p>
           <div className="flex gap-4">
-            <Link href="/datenschutz" className="text-white/30 hover:text-white/60 text-xs transition-colors">
+            <Link href="/datenschutz" className="text-white/50 hover:text-white text-xs transition-colors">
               Datenschutz
             </Link>
-            <Link href="/impressum" className="text-white/30 hover:text-white/60 text-xs transition-colors">
+            <Link href="/impressum" className="text-white/50 hover:text-white text-xs transition-colors">
               Impressum
             </Link>
           </div>

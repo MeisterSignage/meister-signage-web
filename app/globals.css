@@ -79,6 +79,23 @@ h3 { font-size: clamp(1.15rem, 2vw, 1.5rem); font-weight: 700; line-height: 1.3;
 
 a { color: inherit; text-decoration: none; }
 
+/* ─── Legal pages — override global heading clamp sizes ─────── */
+/* Specificity (0,1,1) beats plain h1/h2 (0,0,1) */
+.legal-page h1 {
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.legal-page h2 {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+@media (min-width: 768px) {
+  .legal-page h1 { font-size: 2.25rem; }
+  .legal-page h2 { font-size: 1.125rem; }
+}
+
 /* ─── Design System ──────────────────────────────────────────── */
 @layer components {
 
