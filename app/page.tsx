@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import HeroSection from "@/components/sections/HeroSection";
 import ProblemSolutionSection from "@/components/sections/ProblemSolutionSection";
+import BenefitsSection from "@/components/sections/BenefitsSection";
+import { Clock, PencilRuler, BadgeCheck, MapPin, Wrench, RefreshCw } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Meister Signage – Digital Signage Luzern & Zentralschweiz",
@@ -71,6 +73,21 @@ export default function Home() {
             title: "Persönliche Betreuung",
             description: "Sie haben einen direkten Ansprechpartner und keine anonyme Plattform, bei der Sie zuerst ein Ticket eröffnen müssen.",
           },
+        ]}
+      />
+
+      {/* ── BENEFITS ── */}
+      <BenefitsSection
+        eyebrow="Was Sie gewinnen"
+        title="Mehr Wirkung im Alltag – mit weniger Aufwand."
+        subtitle="Digital Signage soll nicht komplizierter machen, sondern Kommunikation einfacher, aktueller und sichtbarer machen."
+        benefits={[
+          { icon: Clock,       title: "Inhalte schneller aktualisieren", description: "Angebote, Öffnungszeiten, Menüs oder Hinweise lassen sich kurzfristig anpassen, ohne jedes Mal neu zu drucken." },
+          { icon: PencilRuler, title: "Passend zu Ihrem Auftritt",       description: "Inhalte und Darstellung werden so umgesetzt, dass sie zu Ihrem Betrieb, Ihrer Zielgruppe und Ihrem visuellen Stil passen." },
+          { icon: BadgeCheck,  title: "Professioneller Eindruck",        description: "Digitale Beschilderung wirkt gepflegt, aktuell und wertig – besonders dort, wo Kunden sofort einen Eindruck gewinnen." },
+          { icon: MapPin,      title: "Lokal und persönlich",            description: "Als Anbieter aus der Zentralschweiz sind wir greifbar, direkt erreichbar und bei Bedarf auch vor Ort." },
+          { icon: Wrench,      title: "Schlüsselfertig umgesetzt",       description: "Von der Planung bis zur Inbetriebnahme erhalten Sie eine Lösung, die im Alltag funktioniert." },
+          { icon: RefreshCw,   title: "Flexibel erweiterbar",            description: "Ob ein einzelner Bildschirm oder mehrere Standorte: Die Lösung kann Schritt für Schritt mitwachsen." },
         ]}
       />
 
