@@ -162,50 +162,69 @@ a { color: inherit; text-decoration: none; }
 
   /* ── Buttons ────────────────────────────────────────────── */
 
-  .btn-primary,
-  .btn-secondary,
-  .btn-ghost {
+  .btn-primary {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     min-height: 3.5rem;
     padding: 0 2rem;
-    border-radius: 0.75rem;
-    font-size: 0.9375rem;
+    border-radius: 7px;
+    border: 1px solid var(--magenta);
+    background-color: var(--magenta);
+    color: #ffffff !important;
+    font-size: 1rem;
     font-weight: 600;
     line-height: 1;
     text-decoration: none;
     cursor: pointer;
     white-space: nowrap;
-    flex-shrink: 0;
-    transition: background-color 250ms ease, border-color 250ms ease, color 250ms ease, transform 250ms ease;
+    transition:
+      background-color 250ms ease,
+      border-color 250ms ease,
+      color 250ms ease,
+      transform 250ms ease;
   }
 
-  .btn-primary {
-    background-color: var(--magenta);
-    color: #ffffff;
-    border: 1px solid var(--magenta);
+  .btn-primary:hover {
+    background-color: #d9007c;
+    border-color: #d9007c;
+    color: #ffffff !important;
+    transform: translateY(-1px);
   }
-  .btn-primary:hover  { background-color: #d9007c; border-color: #d9007c; transform: translateY(-1px); }
+
   .btn-primary:active { transform: scale(0.98); }
 
   .btn-secondary {
-    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3.5rem;
+    padding: 0 2rem;
+    border-radius: 7px;
     border: 1px solid var(--magenta);
-    color: var(--magenta);
+    background-color: #ffffff;
+    color: var(--magenta) !important;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    transition:
+      background-color 250ms ease,
+      border-color 250ms ease,
+      color 250ms ease,
+      transform 250ms ease;
   }
-  .btn-secondary:hover  { background-color: var(--magenta); color: #ffffff; transform: translateY(-1px); }
-  .btn-secondary:active { transform: scale(0.98); }
 
-  /* For use on dark/navy backgrounds */
-  .btn-ghost {
-    background-color: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    color: white;
-    transition: border-color var(--transition-base), background-color var(--transition-base), transform var(--transition-base);
+  .btn-secondary:hover {
+    background-color: var(--magenta);
+    border-color: var(--magenta);
+    color: #ffffff !important;
+    transform: translateY(-1px);
   }
-  .btn-ghost:hover  { border-color: white; background-color: rgba(255, 255, 255, 0.1); transform: translateY(-1px); }
-  .btn-ghost:active { transform: scale(0.98); }
+
+  .btn-secondary:active { transform: scale(0.98); }
 
   /* ── Cards ──────────────────────────────────────────────── */
 

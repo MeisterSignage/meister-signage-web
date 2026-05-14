@@ -20,7 +20,7 @@ export default function CTASection({ eyebrow, title, subtitle, primaryCta, secon
           <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
             <a href={primaryCta.href} className="btn-primary">{primaryCta.label}</a>
             {secondaryCta && (
-              <a href={secondaryCta.href} className="btn-ghost">{secondaryCta.label}</a>
+              <a href={secondaryCta.href} className="btn-secondary">{secondaryCta.label}</a>
             )}
           </div>
         </div>
