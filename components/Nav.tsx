@@ -33,8 +33,6 @@ const navItems: NavItem[] = [
   { label: "Kontakt",  href: "/kontakt" },
 ];
 
-const navLinkSize = "text-[clamp(1rem,0.9vw,1.1rem)]";
-
 export default function Nav() {
   const [menuOpen,   setMenuOpen]   = useState(false);
   const [mobileOpen, setMobileOpen] = useState<string | null>(null);
@@ -47,14 +45,14 @@ export default function Nav() {
     <header className="sticky top-0 z-50 w-full border-b border-navy/10 bg-white">
       <div className="mx-auto flex h-[72px] max-w-content items-center justify-between px-4 md:px-10">
 
-        {/* Logo — hard-capped at 58% of header height */}
+        {/* Logo — explicit SVG viewBox dimensions so browser computes correct ratio */}
         <Link href="/" className="flex shrink-0 items-center">
           <Image
             src="/logo.svg"
             alt="Meister Signage"
-            width={130}
-            height={42}
-            className="block h-auto max-h-[42px] w-auto max-w-[130px]"
+            width={1036}
+            height={708}
+            style={{ height: "40px", width: "auto", display: "block" }}
             priority
           />
         </Link>
@@ -65,7 +63,7 @@ export default function Nav() {
             item.dropdown ? (
               <div key={item.href} className="group relative">
                 <button
-                  className={`${navLinkSize} flex items-center gap-1.5 tracking-wide transition-colors ${
+                  className={`flex items-center gap-1.5 text-[clamp(1.02rem,0.9vw,1.15rem)] tracking-wide transition-colors duration-150 ${
                     isActive(item.href)
                       ? "font-bold text-navy"
                       : "font-semibold text-navy/70 hover:text-magenta"
@@ -75,13 +73,13 @@ export default function Nav() {
                   <ChevronDown className="h-3.5 w-3.5 text-cgray" strokeWidth={2} />
                 </button>
 
-                {/* Dropdown panel */}
+                {/* Dropdown */}
                 <div className="invisible absolute left-0 top-full z-10 min-w-[220px] border border-navy/10 bg-white opacity-0 transition-opacity duration-150 group-hover:visible group-hover:opacity-100">
                   {item.dropdown.map((d) => (
                     <Link
                       key={d.href}
                       href={d.href}
-                      className="block px-5 py-3 text-[0.9rem] text-navy/60 hover:bg-offwhite hover:text-navy"
+                      className="block px-5 py-3 text-[0.92rem] text-navy/60 transition-colors duration-100 hover:bg-offwhite hover:text-navy"
                     >
                       {d.label}
                     </Link>
@@ -92,7 +90,7 @@ export default function Nav() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`${navLinkSize} tracking-wide transition-colors ${
+                className={`text-[clamp(1.02rem,0.9vw,1.15rem)] tracking-wide transition-colors duration-150 ${
                   isActive(item.href)
                     ? "font-bold text-navy"
                     : "font-semibold text-navy/70 hover:text-magenta"
@@ -107,7 +105,7 @@ export default function Nav() {
         {/* Desktop CTA */}
         <Link
           href="/kontakt"
-          className="hidden rounded-btn bg-magenta px-5 py-2.5 text-[0.9rem] font-bold text-white hover:opacity-90 lg:inline-block"
+          className="hidden rounded-btn bg-magenta px-5 py-2.5 text-[0.92rem] font-bold text-white transition-opacity duration-150 hover:opacity-85 lg:inline-block"
         >
           Beratung anfragen
         </Link>
@@ -153,7 +151,7 @@ export default function Nav() {
                             <Link
                               key={d.href}
                               href={d.href}
-                              className="py-2.5 text-[0.9rem] text-navy/60 hover:text-navy"
+                              className="py-2.5 text-[0.92rem] text-navy/60 hover:text-navy"
                               onClick={() => setMenuOpen(false)}
                             >
                               {d.label}

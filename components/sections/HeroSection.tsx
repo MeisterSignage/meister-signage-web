@@ -25,11 +25,11 @@ export default function HeroSection({
 }: HeroSectionProps) {
   return (
     <section className="w-full overflow-hidden bg-offwhite">
-      <div className="mx-auto max-w-content px-4 py-10 md:px-10 md:py-16">
+      <div className="mx-auto max-w-content px-4 py-12 md:px-10 md:py-20">
         <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16">
 
           {/* Text */}
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-6">
             {eyebrow && (
               <span className="text-xs font-semibold uppercase tracking-widest text-gold">
                 {eyebrow}
@@ -41,7 +41,7 @@ export default function HeroSection({
             <p className="max-w-[480px] text-cgray">
               {subtitle}
             </p>
-            <ul className="flex flex-col gap-2.5">
+            <ul className="flex flex-col gap-3">
               {bullets.map((bullet) => (
                 <li key={bullet} className="flex items-start gap-3">
                   <CheckIcon />
@@ -49,17 +49,17 @@ export default function HeroSection({
                 </li>
               ))}
             </ul>
-            <div className="flex flex-wrap items-center gap-4 pt-2">
+            <div className="flex flex-wrap items-center gap-4 pt-1">
               <a
                 href={primaryCta.href}
-                className="inline-flex h-12 items-center rounded-btn bg-magenta px-7 text-[1rem] font-bold text-white hover:opacity-90"
+                className="inline-flex h-12 items-center rounded-btn bg-magenta px-7 text-[1rem] font-bold text-white transition-all duration-150 hover:opacity-85 active:scale-[0.98]"
               >
                 {primaryCta.label}
               </a>
               {secondaryCta && (
                 <a
                   href={secondaryCta.href}
-                  className="inline-flex h-12 items-center rounded-btn border border-navy bg-transparent px-7 text-[1rem] font-bold text-navy hover:bg-navy hover:text-white"
+                  className="inline-flex h-12 items-center rounded-btn border border-magenta bg-transparent px-7 text-[1rem] font-bold text-magenta transition-all duration-150 hover:bg-magenta hover:text-white active:scale-[0.98]"
                 >
                   {secondaryCta.label}
                 </a>
@@ -74,12 +74,12 @@ export default function HeroSection({
                 src={imageSrc}
                 alt={imageAlt}
                 width={720}
-                height={420}
-                className="h-auto max-h-[420px] w-full object-cover"
+                height={480}
+                className="h-auto w-full object-cover"
                 priority
               />
             ) : (
-              <div className="relative flex h-[420px] w-full flex-col overflow-hidden border border-navy/10 bg-offwhite">
+              <div className="relative flex h-[460px] w-full flex-col overflow-hidden border border-navy/10 bg-white">
                 <div className="h-[3px] w-full bg-magenta" />
                 <div className="flex flex-1 items-center justify-center">
                   <span className="text-sm text-cgray">Bild folgt</span>
@@ -97,7 +97,7 @@ export default function HeroSection({
 function CheckIcon() {
   return (
     <svg
-      className="mt-1 h-4 w-4 shrink-0 text-navy"
+      className="mt-1 h-4 w-4 shrink-0 text-gold"
       viewBox="0 0 20 20"
       fill="currentColor"
       aria-hidden="true"

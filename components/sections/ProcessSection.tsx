@@ -23,37 +23,21 @@ export default function ProcessSection({ eyebrow, title, subtitle, steps }: Proc
         {subtitle && <p className="text-cgray">{subtitle}</p>}
       </div>
 
-      <div className="relative grid grid-cols-1 gap-8 md:grid-cols-4 md:gap-6">
-        {/* Desktop connector */}
-        <div className="absolute left-0 right-0 top-5 hidden border-t border-dashed border-navy/15 md:block" />
-
-        {steps.map((step, index) => {
-          const Icon = step.icon;
-          return (
-            <div key={step.number} className="relative flex flex-col gap-4">
-              {/* Mobile connector */}
-              {index < steps.length - 1 && (
-                <div className="absolute left-5 top-12 h-full w-px border-l border-dashed border-navy/15 md:hidden" />
-              )}
-
-              <div className="relative z-10 flex items-center gap-4 md:flex-col md:items-start">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-gold text-xs font-bold text-gold">
-                  {String(step.number).padStart(2, "0")}
-                </div>
-                {Icon && (
-                  <div className="flex h-7 w-7 items-center justify-center bg-offwhite md:mt-3">
-                    <Icon className="h-3.5 w-3.5 text-cgray" strokeWidth={1.5} />
-                  </div>
-                )}
-              </div>
-
-              <div className="md:mt-4">
-                <h3 className="mb-1.5 text-sm font-bold text-navy">{step.title}</h3>
-                <p className="text-sm leading-relaxed text-cgray">{step.description}</p>
-              </div>
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4">
+        {steps.map((step) => (
+          <div
+            key={step.number}
+            className="flex flex-col gap-5 border border-navy/10 bg-white p-7 transition-colors duration-150 hover:border-navy/20"
+          >
+            <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border-2 border-gold text-sm font-bold text-gold">
+              {String(step.number).padStart(2, "0")}
             </div>
-          );
-        })}
+            <div>
+              <h3 className="mb-2 text-navy">{step.title}</h3>
+              <p className="leading-relaxed text-cgray">{step.description}</p>
+            </div>
+          </div>
+        ))}
       </div>
     </SectionContainer>
   );

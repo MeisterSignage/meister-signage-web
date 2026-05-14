@@ -11,6 +11,13 @@ export const metadata: Metadata = {
   },
   description: "Schlüsselfertige Digital-Signage-Lösungen für Gastronomie, Retail und Events in der Zentralschweiz. Persönlich betreut. Kein IT-Aufwand.",
   keywords: ["digital signage luzern","digital signage zentralschweiz","digital signage mieten schweiz"],
+  icons: {
+    icon: [
+      { url: "/logo.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/logo.svg",
+    apple: "/logo.svg",
+  },
   openGraph: { siteName: "Meister Signage", locale: "de_CH", type: "website" },
   robots: { index: true, follow: true },
 };
