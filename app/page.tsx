@@ -6,6 +6,7 @@ import BenefitsSection from "@/components/sections/BenefitsSection";
 import ProcessSection from "@/components/sections/ProcessSection";
 import IndustrySection from "@/components/sections/IndustrySection";
 import ProofSection from "@/components/sections/ProofSection";
+import FAQSection from "@/components/sections/FAQSection";
 import { UtensilsCrossed, Store, CalendarRange, Building2, Hotel, MonitorPlay } from "lucide-react";
 import { Clock, PencilRuler, BadgeCheck, MapPin, Wrench, RefreshCw } from "lucide-react";
 
@@ -133,6 +134,20 @@ export default function Home() {
           { metric: "Praxisnah", title: "Lösungen statt Produktverkauf", description: "Im Zentrum steht nicht der Bildschirm, sondern die Frage, was Ihre Kommunikation im Alltag leisten soll." },
           { metric: "Lokal",     title: "Aus der Zentralschweiz",        description: "Kurze Wege, regionale Nähe und bei Bedarf Unterstützung vor Ort." },
           { metric: "Skalierbar", title: "Schrittweise erweiterbar",     description: "Starten Sie klein und erweitern Sie die Lösung, wenn neue Standorte, Inhalte oder Anwendungen dazukommen." },
+        ]}
+      />
+
+      {/* ── FAQ ── */}
+      <FAQSection
+        eyebrow="Häufige Fragen"
+        title="Was Sie vor dem Start wissen sollten."
+        subtitle="Die wichtigsten Antworten für Betriebe, die Digital Signage einfach und sinnvoll einsetzen möchten."
+        faqs={[
+          { question: "Was kostet eine Digital-Signage-Lösung?",      answer: "Das hängt von Anzahl Bildschirmen, Einsatzort, Inhaltspflege und gewünschter Betreuung ab. Für kleine Lösungen ist ein schlanker Einstieg möglich." },
+          { question: "Kann ich Inhalte selbst ändern?",              answer: "Ja. Inhalte können so vorbereitet werden, dass sie einfach aktualisiert werden können. Auf Wunsch übernehmen wir auch die laufende Pflege." },
+          { question: "Brauche ich dafür eine eigene IT-Abteilung?",  answer: "Nein. Die Lösung wird so geplant, dass sie im Alltag verständlich funktioniert und keine unnötige technische Komplexität entsteht." },
+          { question: "Kann ich mit einem Bildschirm starten?",       answer: "Ja. Viele Projekte starten bewusst klein und werden später erweitert." },
+          { question: "Für welche Branchen eignet sich Digital Signage?", answer: "Besonders sinnvoll ist es für Gastronomie, Hotellerie, Retail, Events, Empfangsbereiche und überall dort, wo Informationen regelmässig sichtbar aktualisiert werden müssen." },
         ]}
       />
 
