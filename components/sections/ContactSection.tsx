@@ -28,18 +28,14 @@ export default function ContactSection({
 
         {/* Left — text */}
         <div>
-          {eyebrow && (
-            <span className="mb-2 block text-xs font-semibold uppercase tracking-widest text-gold">
-              {eyebrow}
-            </span>
-          )}
+          {eyebrow && <span className="eyebrow">{eyebrow}</span>}
           <h2 className="mb-3 max-w-2xl text-navy">{title}</h2>
           {subtitle && <p className="mb-8 text-cgray">{subtitle}</p>}
 
           <div className="mb-2 h-px w-8 bg-gold" />
           <div className="mb-7 pt-4">
-            <p className="text-[17px] font-semibold text-navy md:text-[19px]">{contactName}</p>
-            <p className="text-[15px] text-cgray md:text-[16px]">{role}</p>
+            <p className="card-title">{contactName}</p>
+            <p className="card-body">{role}</p>
           </div>
 
           <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -85,10 +81,10 @@ export default function ContactSection({
                 <div className="mx-auto mb-3 flex h-16 w-16 items-center justify-center bg-navy/8 text-2xl font-light text-navy">
                   {contactName.charAt(0)}
                 </div>
-                <p className="font-semibold text-navy">{contactName}</p>
-                <p className="mt-1 text-xs text-cgray">{role}</p>
+                <p className="card-title">{contactName}</p>
+                <p className="card-body">{role}</p>
                 <div className="mx-auto mt-4 h-px w-8 bg-gold" />
-                <p className="mt-3 text-xs text-cgray">Foto folgt</p>
+                <p className="card-body mt-3">Foto folgt</p>
               </div>
             </div>
           )}

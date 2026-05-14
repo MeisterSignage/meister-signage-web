@@ -12,22 +12,15 @@ type ProofSectionProps = {
 export default function ProofSection({ eyebrow, title, subtitle, proofItems }: ProofSectionProps) {
   return (
     <SectionContainer>
-      <div className="mb-10 max-w-3xl">
-        {eyebrow && (
-          <span className="mb-2 block text-xs font-semibold uppercase tracking-widest text-gold">
-            {eyebrow}
-          </span>
-        )}
+      <div className="section-header">
+        {eyebrow && <span className="eyebrow">{eyebrow}</span>}
         <h2 className="mb-3 text-navy">{title}</h2>
         {subtitle && <p className="text-cgray">{subtitle}</p>}
       </div>
 
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="card-grid card-grid-4">
         {proofItems.map((item) => (
-          <div
-            key={item.title}
-            className="flex h-full flex-col border border-navy/10 bg-white px-5 py-6 transition-all duration-200 hover:-translate-y-0.5 hover:border-navy/25 hover:shadow-sm"
-          >
+          <div key={item.title} className="card card-hover flex h-full flex-col">
             {item.metric && (
               <>
                 <div className="mb-3 h-px w-6 bg-gold" />
@@ -36,8 +29,8 @@ export default function ProofSection({ eyebrow, title, subtitle, proofItems }: P
                 </p>
               </>
             )}
-            <p className="mb-2 text-[17px] font-semibold text-navy md:text-[19px]">{item.title}</p>
-            <p className="text-[15px] leading-relaxed text-cgray md:text-[16px]">{item.description}</p>
+            <p className="card-title">{item.title}</p>
+            <p className="card-body">{item.description}</p>
           </div>
         ))}
       </div>

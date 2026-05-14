@@ -23,34 +23,26 @@ export default function ProblemSolutionSection({
 }: ProblemSolutionSectionProps) {
   return (
     <SectionContainer white>
-      <div className="mb-10 max-w-3xl">
-        {eyebrow && (
-          <span className="mb-2 block text-xs font-semibold uppercase tracking-widest text-gold">
-            {eyebrow}
-          </span>
-        )}
+      <div className="section-header">
+        {eyebrow && <span className="eyebrow">{eyebrow}</span>}
         <h2 className="mb-3 text-navy">{title}</h2>
         {subtitle && <p className="text-cgray">{subtitle}</p>}
       </div>
 
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+
         {/* Problems */}
         <div className="flex flex-col gap-3">
           <p className="mb-1 text-xs font-semibold uppercase tracking-widest text-cgray">
             {problemsLabel}
           </p>
           {problems.map((item) => (
-            <div
-              key={item.title}
-              className="border-l-2 border-navy/20 bg-offwhite px-4 py-4"
-            >
+            <div key={item.title} className="border-l-2 border-navy/20 bg-offwhite px-4 py-4">
               <div className="mb-1.5 flex items-start gap-2.5">
                 <XIcon />
-                <p className="text-[15px] font-semibold text-navy md:text-[16px]">{item.title}</p>
+                <p className="card-body font-semibold text-navy">{item.title}</p>
               </div>
-              <p className="pl-6 text-[14px] leading-relaxed text-cgray md:text-[15px]">
-                {item.description}
-              </p>
+              <p className="card-body pl-6">{item.description}</p>
             </div>
           ))}
         </div>
@@ -61,20 +53,16 @@ export default function ProblemSolutionSection({
             {solutionsLabel}
           </p>
           {solutions.map((item) => (
-            <div
-              key={item.title}
-              className="border-l-2 border-gold bg-offwhite px-4 py-4"
-            >
+            <div key={item.title} className="border-l-2 border-gold bg-offwhite px-4 py-4">
               <div className="mb-1.5 flex items-start gap-2.5">
                 <CheckIcon />
-                <p className="text-[15px] font-semibold text-navy md:text-[16px]">{item.title}</p>
+                <p className="card-body font-semibold text-navy">{item.title}</p>
               </div>
-              <p className="pl-6 text-[14px] leading-relaxed text-cgray md:text-[15px]">
-                {item.description}
-              </p>
+              <p className="card-body pl-6">{item.description}</p>
             </div>
           ))}
         </div>
+
       </div>
     </SectionContainer>
   );

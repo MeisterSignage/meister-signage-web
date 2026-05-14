@@ -25,49 +25,31 @@ export default function HeroSection({
 }: HeroSectionProps) {
   return (
     <section className="w-full overflow-hidden bg-offwhite">
-      <div className="mx-auto max-w-content px-4 py-10 md:px-10 md:py-16">
+      <div className="section-inner">
         <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-14">
 
-          {/* Text */}
+          {/* Text column */}
           <div className="flex flex-col gap-5">
-            {eyebrow && (
-              <span className="text-xs font-semibold uppercase tracking-widest text-gold">
-                {eyebrow}
-              </span>
-            )}
-            <h1 className="max-w-2xl text-navy">
-              {title}
-            </h1>
-            <p className="max-w-xl text-cgray">
-              {subtitle}
-            </p>
+            {eyebrow && <span className="eyebrow">{eyebrow}</span>}
+            <h1 className="max-w-2xl text-navy">{title}</h1>
+            <p className="max-w-xl text-cgray">{subtitle}</p>
             <ul className="flex flex-col gap-2.5">
               {bullets.map((bullet) => (
                 <li key={bullet} className="flex items-start gap-3">
                   <CheckIcon />
-                  <span className="text-[15px] text-navy md:text-[16px]">{bullet}</span>
+                  <span className="card-body text-navy">{bullet}</span>
                 </li>
               ))}
             </ul>
             <div className="flex flex-col gap-3 pt-1 sm:flex-row sm:flex-wrap sm:items-center">
-              <a
-                href={primaryCta.href}
-                className="inline-flex h-12 items-center justify-center rounded-btn bg-magenta px-7 text-[15px] font-semibold text-white transition-all duration-200 hover:-translate-y-px hover:bg-[#d60080] active:scale-[0.98]"
-              >
-                {primaryCta.label}
-              </a>
+              <a href={primaryCta.href} className="btn-primary">{primaryCta.label}</a>
               {secondaryCta && (
-                <a
-                  href={secondaryCta.href}
-                  className="inline-flex h-12 items-center justify-center rounded-btn border border-magenta bg-transparent px-7 text-[15px] font-semibold text-magenta transition-all duration-200 hover:bg-magenta hover:text-white active:scale-[0.98]"
-                >
-                  {secondaryCta.label}
-                </a>
+                <a href={secondaryCta.href} className="btn-secondary">{secondaryCta.label}</a>
               )}
             </div>
           </div>
 
-          {/* Image or placeholder */}
+          {/* Image column */}
           <div className="w-full overflow-hidden">
             {imageSrc ? (
               <Image
@@ -82,7 +64,7 @@ export default function HeroSection({
               <div className="relative flex h-[420px] w-full flex-col overflow-hidden border border-navy/10 bg-white">
                 <div className="h-[3px] w-full bg-magenta" />
                 <div className="flex flex-1 items-center justify-center">
-                  <span className="text-sm text-cgray">Bild folgt</span>
+                  <span className="card-body">Bild folgt</span>
                 </div>
               </div>
             )}

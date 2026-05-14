@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "meister-signage",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-c", "cd /Users/meister/Downloads/meister-signage && npm run dev"],
+      "port": 3000
+    }
+  ]
+}

@@ -3,6 +3,7 @@ type SectionContainerProps = {
   bg?: "white" | "offwhite" | "navy";
   dark?: boolean;
   white?: boolean;
+  compact?: boolean;
   className?: string;
 };
 
@@ -17,6 +18,7 @@ export default function SectionContainer({
   bg,
   dark = false,
   white = false,
+  compact = false,
   className = "",
 }: SectionContainerProps) {
   const bgClass = bg
@@ -27,9 +29,11 @@ export default function SectionContainer({
     ? "bg-white"
     : "bg-offwhite";
 
+  const innerClass = compact ? "section-inner-compact" : "section-inner";
+
   return (
     <section className={`w-full ${bgClass} ${className}`}>
-      <div className="mx-auto max-w-content px-4 py-14 md:px-10 md:py-20">
+      <div className={innerClass}>
         {children}
       </div>
     </section>
