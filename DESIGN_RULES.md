@@ -32,8 +32,12 @@ Jede neue Section braucht:
 - H1 nur **einmal** pro Seite
 - H2 für Section-Überschriften
 - H3 für Card-Titel (via `.card-title`)
-- Maximal 2–3 Zeilen — keine extrem schmalen Textspalten
-- Section-Headlines: `.section-header` wrappen (max-w 48rem)
+- **Jede H1/H2 Section-Headline MUSS `.heading-max-2` verwenden**
+- Desktop maximal **2 Zeilen** — Tablet maximal 3 Zeilen — Mobile natürlicher Umbruch
+- Keine lokalen `max-w-*` Klassen direkt auf H1/H2 setzen — Breite nur über `.heading-max-2`
+- Kein Editorial-/Fashion-Magazin-Look, keine 4-zeiligen Headlines
+- Hero-Headline: zusätzlich `.hero-title` (grosse, leichte Schrift)
+- Section-Header-Block: `.section-header` wrappen (max-w 64rem)
 
 ## 5. Cards
 
@@ -56,12 +60,12 @@ Alle Cards verwenden:
 | Typ | Verwendung | Klasse |
 |-----|------------|--------|
 | Primary | Standard-CTA | `.btn-primary` |
-| Secondary | Zweite Option | `.btn-secondary` |
-| Ghost | Auf dunklem Hintergrund | `.btn-ghost` |
+| Secondary | Zweite Option / Outline | `.btn-secondary` |
 
-- Primär: immer Magenta mit weisser Schrift
-- Sekundär: Magenta Outline
-- Nie schlecht lesbare Farbkombinationen
+- **Nur zwei Varianten — kein `.btn-ghost` oder eigene Button-Stile**
+- Primary: Magenta Fläche, weisse Schrift, Hover `#d9007c`
+- Secondary: weisser Hintergrund, Magenta Border/Schrift, Hover füllt Magenta
+- Keine lokalen Farbklassen auf `<a>`- oder `<button>`-Elementen
 - Maximal 1 primärer CTA pro Section
 
 ## 7. Farben
@@ -258,9 +262,9 @@ Jede Seite muss beantworten:
 | Bereich | Klasse / Wert |
 |---------|---------------|
 | Content | `max-w-content` (1200px) |
-| Section-Header | `.section-header` (48rem) |
+| Section-Header | `.section-header` (64rem) |
 | Prose / Text | `max-w-prose` (640px) |
-| Hero | `max-w-2xl` / `max-w-3xl` |
+| **H1/H2 Headlines** | **`.heading-max-2` (16ch Desktop / 20ch Tablet)** |
 
 ## 28. Icon-System
 
@@ -289,7 +293,7 @@ Verboten:
 ## 30. CTA-Hierarchie
 
 Pro Section: maximal 1 primärer CTA (`.btn-primary`).
-Sekundäre CTAs (`.btn-secondary`, `.btn-ghost`) nur unterstützend.
+Sekundäre CTAs (`.btn-secondary`) nur unterstützend.
 
 ## 31. Grid-System
 

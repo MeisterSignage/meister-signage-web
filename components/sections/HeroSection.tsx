@@ -31,7 +31,7 @@ export default function HeroSection({
           {/* Text column */}
           <div className="flex flex-col gap-5">
             {eyebrow && <span className="eyebrow">{eyebrow}</span>}
-            <h1 className="hero-title text-navy">{title}</h1>
+            <h1 className="hero-title heading-max-2 text-navy">{title}</h1>
             <p className="max-w-xl text-cgray">{subtitle}</p>
             <ul className="flex flex-col gap-2.5">
               {bullets.map((bullet) => (
