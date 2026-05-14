@@ -1,5 +1,4 @@
 import Image from "next/image";
-import SectionContainer from "@/components/ui/SectionContainer";
 
 type Cta = {
   label: string;
@@ -28,68 +27,68 @@ export default function HeroSection({
   imageAlt = "",
 }: HeroSectionProps) {
   return (
-    <SectionContainer className="bg-slate-50">
-      <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16">
-        {/* Text */}
-        <div className="flex flex-col gap-6">
-          {eyebrow && (
-            <span className="text-sm font-semibold uppercase tracking-widest text-blue-700">
-              {eyebrow}
-            </span>
-          )}
-
-          <h1 className="text-4xl font-bold leading-tight tracking-tight text-neutral-900 md:text-5xl">
-            {title}
-          </h1>
-
-          <p className="text-lg leading-relaxed text-neutral-600">{subtitle}</p>
-
-          <ul className="flex flex-col gap-3">
-            {bullets.map((bullet) => (
-              <li key={bullet} className="flex items-start gap-3">
-                <CheckIcon />
-                <span className="text-neutral-700">{bullet}</span>
-              </li>
-            ))}
-          </ul>
-
-          <div className="flex flex-wrap gap-4 pt-2">
-            <a
-              href={primaryCta.href}
-              className="inline-block rounded-md bg-blue-700 px-6 py-3 text-sm font-semibold text-white hover:bg-blue-800"
-            >
-              {primaryCta.label}
-            </a>
-            {secondaryCta && (
+    <section className="w-full overflow-hidden bg-slate-50">
+      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24 lg:px-8">
+        <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-14">
+          {/* Text */}
+          <div className="flex flex-col gap-5">
+            {eyebrow && (
+              <span className="text-sm font-semibold uppercase tracking-widest text-blue-700">
+                {eyebrow}
+              </span>
+            )}
+            <h1 className="text-3xl font-bold leading-tight tracking-tight text-neutral-900 sm:text-4xl md:text-5xl">
+              {title}
+            </h1>
+            <p className="text-base leading-relaxed text-neutral-600 sm:text-lg">
+              {subtitle}
+            </p>
+            <ul className="flex flex-col gap-2.5">
+              {bullets.map((bullet) => (
+                <li key={bullet} className="flex items-start gap-3">
+                  <CheckIcon />
+                  <span className="text-neutral-700">{bullet}</span>
+                </li>
+              ))}
+            </ul>
+            <div className="flex flex-wrap gap-3 pt-1">
               <a
-                href={secondaryCta.href}
-                className="inline-block rounded-md border border-neutral-300 px-6 py-3 text-sm font-semibold text-neutral-700 hover:border-neutral-400 hover:bg-neutral-100"
+                href={primaryCta.href}
+                className="inline-block rounded-md bg-blue-700 px-6 py-3 text-sm font-semibold text-white hover:bg-blue-800"
               >
-                {secondaryCta.label}
+                {primaryCta.label}
               </a>
+              {secondaryCta && (
+                <a
+                  href={secondaryCta.href}
+                  className="inline-block rounded-md border border-neutral-300 px-6 py-3 text-sm font-semibold text-neutral-700 hover:border-neutral-400 hover:bg-neutral-100"
+                >
+                  {secondaryCta.label}
+                </a>
+              )}
+            </div>
+          </div>
+
+          {/* Image or placeholder */}
+          <div className="w-full overflow-hidden rounded-xl">
+            {imageSrc ? (
+              <Image
+                src={imageSrc}
+                alt={imageAlt}
+                width={720}
+                height={420}
+                className="h-auto max-h-[420px] w-full object-cover shadow-md"
+                priority
+              />
+            ) : (
+              <div className="flex h-[420px] w-full items-center justify-center rounded-xl bg-neutral-200">
+                <span className="text-sm text-neutral-400">Bild folgt</span>
+              </div>
             )}
           </div>
         </div>
-
-        {/* Image or placeholder */}
-        <div className="relative w-full overflow-hidden rounded-xl">
-          {imageSrc ? (
-            <Image
-              src={imageSrc}
-              alt={imageAlt}
-              width={720}
-              height={480}
-              className="h-auto w-full object-cover shadow-lg"
-              priority
-            />
-          ) : (
-            <div className="flex aspect-[3/2] w-full items-center justify-center rounded-xl bg-neutral-200">
-              <span className="text-sm text-neutral-400">Bild folgt</span>
-            </div>
-          )}
-        </div>
       </div>
-    </SectionContainer>
+    </section>
   );
 }
 
