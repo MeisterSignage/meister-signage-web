@@ -39,26 +39,15 @@ export default function ContactSection({
           </div>
 
           <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-            <a
-              href={phoneHref}
-              className="inline-flex items-center gap-3 rounded-btn border border-navy/15 px-5 py-3 text-[15px] text-navy transition-all duration-200 hover:-translate-y-px hover:border-magenta hover:text-magenta"
-            >
+            <a href={phoneHref} className="btn-secondary gap-3">
               <Phone className="h-4 w-4 shrink-0" strokeWidth={1.5} />
               {phone}
             </a>
-            <a
-              href={emailHref}
-              className="inline-flex items-center gap-3 rounded-btn border border-navy/15 px-5 py-3 text-[15px] text-navy transition-all duration-200 hover:-translate-y-px hover:border-magenta hover:text-magenta"
-            >
+            <a href={emailHref} className="btn-secondary gap-3">
               <Mail className="h-4 w-4 shrink-0" strokeWidth={1.5} />
               {email}
             </a>
-            <a
-              href={whatsappHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 rounded-btn border border-navy/15 px-5 py-3 text-[15px] text-navy transition-all duration-200 hover:-translate-y-px hover:border-magenta hover:text-magenta"
-            >
+            <a href={whatsappHref} target="_blank" rel="noopener noreferrer" className="btn-secondary gap-3">
               <MessageCircle className="h-4 w-4 shrink-0" strokeWidth={1.5} />
               WhatsApp
             </a>
