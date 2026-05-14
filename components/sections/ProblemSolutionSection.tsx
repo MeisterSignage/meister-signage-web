@@ -23,9 +23,9 @@ export default function ProblemSolutionSection({
 }: ProblemSolutionSectionProps) {
   return (
     <SectionContainer white>
-      <div className="mb-10 max-w-prose">
+      <div className="mb-10 max-w-3xl">
         {eyebrow && (
-          <span className="mb-3 block text-xs font-semibold uppercase tracking-widest text-gold">
+          <span className="mb-2 block text-xs font-semibold uppercase tracking-widest text-gold">
             {eyebrow}
           </span>
         )}
@@ -44,11 +44,11 @@ export default function ProblemSolutionSection({
               key={item.title}
               className="border-l-2 border-navy/20 bg-offwhite px-4 py-4"
             >
-              <div className="mb-1 flex items-start gap-2.5">
+              <div className="mb-1.5 flex items-start gap-2.5">
                 <XIcon />
-                <p className="text-sm font-bold text-navy">{item.title}</p>
+                <p className="text-[15px] font-semibold text-navy md:text-[16px]">{item.title}</p>
               </div>
-              <p className="pl-6 text-sm leading-relaxed text-cgray">
+              <p className="pl-6 text-[14px] leading-relaxed text-cgray md:text-[15px]">
                 {item.description}
               </p>
             </div>
@@ -65,11 +65,11 @@ export default function ProblemSolutionSection({
               key={item.title}
               className="border-l-2 border-gold bg-offwhite px-4 py-4"
             >
-              <div className="mb-1 flex items-start gap-2.5">
+              <div className="mb-1.5 flex items-start gap-2.5">
                 <CheckIcon />
-                <p className="text-sm font-bold text-navy">{item.title}</p>
+                <p className="text-[15px] font-semibold text-navy md:text-[16px]">{item.title}</p>
               </div>
-              <p className="pl-6 text-sm leading-relaxed text-cgray">
+              <p className="pl-6 text-[14px] leading-relaxed text-cgray md:text-[15px]">
                 {item.description}
               </p>
             </div>

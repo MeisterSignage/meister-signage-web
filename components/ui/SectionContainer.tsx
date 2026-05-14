@@ -29,7 +29,7 @@ export default function SectionContainer({
 
   return (
     <section className={`w-full ${bgClass} ${className}`}>
-      <div className="mx-auto max-w-content px-4 py-24 md:px-10 md:py-32">
+      <div className="mx-auto max-w-content px-4 py-14 md:px-10 md:py-20">
         {children}
       </div>
     </section>
