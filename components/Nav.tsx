@@ -57,7 +57,7 @@ export default function Nav() {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden items-center gap-7 md:flex">
+        <nav className="hidden items-center gap-7 lg:flex">
           {navItems.map((item) =>
             item.dropdown ? (
               <div key={item.href} className="group relative">
@@ -104,14 +104,14 @@ export default function Nav() {
         {/* Desktop CTA */}
         <Link
           href="/kontakt"
-          className="hidden rounded-btn bg-magenta px-5 py-2.5 text-sm font-bold text-white hover:opacity-90 md:inline-block"
+          className="hidden rounded-btn bg-magenta px-5 py-2.5 text-sm font-bold text-white hover:opacity-90 lg:inline-block"
         >
           Beratung anfragen
         </Link>
 
         {/* Mobile toggle */}
         <button
-          className="flex h-10 w-10 items-center justify-center text-navy md:hidden"
+          className="flex h-10 w-10 items-center justify-center text-navy lg:hidden"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Menü öffnen"
         >
@@ -123,7 +123,7 @@ export default function Nav() {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="border-t border-navy/10 bg-white md:hidden">
+        <div className="border-t border-navy/10 bg-white lg:hidden">
           <div className="mx-auto max-w-content px-4 py-6">
             <nav className="flex flex-col">
               {navItems.map((item) => (
