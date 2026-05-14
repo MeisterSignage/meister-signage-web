@@ -4,6 +4,8 @@ import HeroSection from "@/components/sections/HeroSection";
 import ProblemSolutionSection from "@/components/sections/ProblemSolutionSection";
 import BenefitsSection from "@/components/sections/BenefitsSection";
 import ProcessSection from "@/components/sections/ProcessSection";
+import IndustrySection from "@/components/sections/IndustrySection";
+import { UtensilsCrossed, Store, CalendarRange, Building2, Hotel, MonitorPlay } from "lucide-react";
 import { Clock, PencilRuler, BadgeCheck, MapPin, Wrench, RefreshCw } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -102,6 +104,21 @@ export default function Home() {
           { number: 2, title: "Lösung planen",          description: "Daraus entsteht ein schlankes Konzept mit passenden Bildschirmen, Inhalten, Steuerung und klarer Umsetzung." },
           { number: 3, title: "Einrichten und starten", description: "Wir kümmern uns um Einrichtung, Übergabe und einen sauberen Start – ohne unnötigen technischen Ballast." },
           { number: 4, title: "Betreuen und erweitern", description: "Nach dem Start bleiben wir erreichbar, unterstützen bei Anpassungen und erweitern die Lösung bei Bedarf." },
+        ]}
+      />
+
+      {/* ── BRANCHEN ── */}
+      <IndustrySection
+        eyebrow="Lösungen nach Anwendung"
+        title="Digital Signage dort einsetzen, wo Informationen sichtbar sein müssen."
+        subtitle="Ob Menü, Angebot, Wegweisung oder Eventinformation – entscheidend ist, dass die Lösung zum Alltag passt."
+        industries={[
+          { icon: UtensilsCrossed, title: "Gastronomie",       description: "Digitale Menüboards, Tagesangebote und Hinweise schnell aktualisieren – ohne neue Drucksachen.",                         href: "/gastronomie" },
+          { icon: Store,           title: "Retail und Handel", description: "Aktionen, Produktinformationen und Markenbotschaften sichtbar und flexibel präsentieren.",                               href: "/retail" },
+          { icon: CalendarRange,   title: "Events",            description: "Zeitpläne, Sponsoren, Wegweisung und Live-Informationen professionell anzeigen.",                                        href: "/events" },
+          { icon: Hotel,           title: "Hotellerie",        description: "Gäste informieren, Angebote hervorheben und Empfangsbereiche moderner gestalten.",                                      href: "/hotellerie" },
+          { icon: Building2,       title: "Unternehmen",       description: "Empfang, interne Kommunikation oder Besucherinformationen klar und zentral steuern.",                                   href: "/unternehmen" },
+          { icon: MonitorPlay,     title: "Bildschirm mieten", description: "Für Events, Pop-ups oder temporäre Einsätze passende Displays flexibel einsetzen.",                                    href: "/mieten" },
         ]}
       />
 
