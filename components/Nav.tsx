@@ -21,17 +21,19 @@ const navItems: NavItem[] = [
     label: "Branchen",
     href: "/branchen",
     dropdown: [
-      { label: "Gastronomie",    href: "/gastronomie" },
+      { label: "Gastronomie",     href: "/gastronomie" },
       { label: "Retail & Handel", href: "/retail" },
-      { label: "Events",         href: "/events" },
-      { label: "Hotellerie",     href: "/hotellerie" },
-      { label: "Unternehmen",    href: "/unternehmen" },
+      { label: "Events",          href: "/events" },
+      { label: "Hotellerie",      href: "/hotellerie" },
+      { label: "Unternehmen",     href: "/unternehmen" },
     ],
   },
-  { label: "Mieten",    href: "/mieten" },
-  { label: "Über uns",  href: "/ueber-uns" },
-  { label: "Kontakt",   href: "/kontakt" },
+  { label: "Mieten",   href: "/mieten" },
+  { label: "Über uns", href: "/ueber-uns" },
+  { label: "Kontakt",  href: "/kontakt" },
 ];
+
+const navLinkSize = "text-[clamp(1rem,0.9vw,1.1rem)]";
 
 export default function Nav() {
   const [menuOpen,   setMenuOpen]   = useState(false);
@@ -45,28 +47,28 @@ export default function Nav() {
     <header className="sticky top-0 z-50 w-full border-b border-navy/10 bg-white">
       <div className="mx-auto flex h-[72px] max-w-content items-center justify-between px-4 md:px-10">
 
-        {/* Logo — max 80% of header height, never overflows */}
+        {/* Logo — hard-capped at 58% of header height */}
         <Link href="/" className="flex shrink-0 items-center">
           <Image
             src="/logo.svg"
             alt="Meister Signage"
-            width={160}
-            height={58}
-            className="block h-auto max-h-[58px] w-auto max-w-[160px]"
+            width={130}
+            height={42}
+            className="block h-auto max-h-[42px] w-auto max-w-[130px]"
             priority
           />
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden items-center gap-7 lg:flex">
+        <nav className="hidden items-center gap-8 lg:flex">
           {navItems.map((item) =>
             item.dropdown ? (
               <div key={item.href} className="group relative">
                 <button
-                  className={`flex items-center gap-1 text-[15px] tracking-wide transition-colors ${
+                  className={`${navLinkSize} flex items-center gap-1.5 tracking-wide transition-colors ${
                     isActive(item.href)
                       ? "font-bold text-navy"
-                      : "font-semibold text-navy/60 hover:text-navy"
+                      : "font-semibold text-navy/70 hover:text-magenta"
                   }`}
                 >
                   {item.label}
@@ -74,12 +76,12 @@ export default function Nav() {
                 </button>
 
                 {/* Dropdown panel */}
-                <div className="invisible absolute left-0 top-full z-10 min-w-[210px] border border-navy/10 bg-white opacity-0 transition-opacity duration-100 group-hover:visible group-hover:opacity-100">
+                <div className="invisible absolute left-0 top-full z-10 min-w-[220px] border border-navy/10 bg-white opacity-0 transition-opacity duration-150 group-hover:visible group-hover:opacity-100">
                   {item.dropdown.map((d) => (
                     <Link
                       key={d.href}
                       href={d.href}
-                      className="block px-5 py-3 text-sm text-navy/60 hover:bg-offwhite hover:text-navy"
+                      className="block px-5 py-3 text-[0.9rem] text-navy/60 hover:bg-offwhite hover:text-navy"
                     >
                       {d.label}
                     </Link>
@@ -90,10 +92,10 @@ export default function Nav() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`text-[15px] tracking-wide transition-colors ${
+                className={`${navLinkSize} tracking-wide transition-colors ${
                   isActive(item.href)
                     ? "font-bold text-navy"
-                    : "font-semibold text-navy/60 hover:text-navy"
+                    : "font-semibold text-navy/70 hover:text-magenta"
                 }`}
               >
                 {item.label}
@@ -105,7 +107,7 @@ export default function Nav() {
         {/* Desktop CTA */}
         <Link
           href="/kontakt"
-          className="hidden rounded-btn bg-magenta px-5 py-2.5 text-sm font-bold text-white hover:opacity-90 lg:inline-block"
+          className="hidden rounded-btn bg-magenta px-5 py-2.5 text-[0.9rem] font-bold text-white hover:opacity-90 lg:inline-block"
         >
           Beratung anfragen
         </Link>
@@ -135,7 +137,7 @@ export default function Nav() {
                         onClick={() =>
                           setMobileOpen(mobileOpen === item.href ? null : item.href)
                         }
-                        className="flex w-full items-center justify-between py-3.5 text-sm font-semibold text-navy/70"
+                        className="flex w-full items-center justify-between py-3.5 text-[1rem] font-semibold text-navy/70"
                       >
                         {item.label}
                         <ChevronDown
@@ -151,7 +153,7 @@ export default function Nav() {
                             <Link
                               key={d.href}
                               href={d.href}
-                              className="py-2.5 text-sm text-navy/60 hover:text-navy"
+                              className="py-2.5 text-[0.9rem] text-navy/60 hover:text-navy"
                               onClick={() => setMenuOpen(false)}
                             >
                               {d.label}
@@ -163,7 +165,7 @@ export default function Nav() {
                   ) : (
                     <Link
                       href={item.href}
-                      className={`block py-3.5 text-sm font-semibold ${
+                      className={`block py-3.5 text-[1rem] font-semibold ${
                         isActive(item.href) ? "text-navy" : "text-navy/70 hover:text-navy"
                       }`}
                       onClick={() => setMenuOpen(false)}
@@ -178,7 +180,7 @@ export default function Nav() {
             <div className="mt-4 border-t border-navy/10 pt-5">
               <Link
                 href="/kontakt"
-                className="block rounded-btn bg-magenta px-5 py-3 text-center text-sm font-bold text-white hover:opacity-90"
+                className="block rounded-btn bg-magenta px-5 py-3 text-center text-[1rem] font-bold text-white hover:opacity-90"
                 onClick={() => setMenuOpen(false)}
               >
                 Beratung anfragen

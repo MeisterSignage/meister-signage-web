@@ -15,7 +15,7 @@ export default function CTASection({ eyebrow, title, subtitle, primaryCta, secon
         <div className="mb-8 h-px w-10 bg-gold" />
         <div className="max-w-prose">
           {eyebrow && (
-            <span className="mb-4 block text-xs font-semibold uppercase tracking-widest text-magenta">
+            <span className="mb-4 block text-xs font-semibold uppercase tracking-widest text-gold">
               {eyebrow}
             </span>
           )}
@@ -26,14 +26,14 @@ export default function CTASection({ eyebrow, title, subtitle, primaryCta, secon
           <div className="flex flex-wrap gap-4">
             <a
               href={primaryCta.href}
-              className="inline-block rounded-btn bg-magenta px-6 py-3 text-sm font-bold text-white hover:opacity-90"
+              className="inline-flex h-12 items-center rounded-btn bg-magenta px-7 text-[1rem] font-bold text-white hover:opacity-90"
             >
               {primaryCta.label}
             </a>
             {secondaryCta && (
               <a
                 href={secondaryCta.href}
-                className="inline-block rounded-btn border border-white/25 px-6 py-3 text-sm font-bold text-white/80 hover:border-white/50 hover:text-white"
+                className="inline-flex h-12 items-center rounded-btn border border-white/40 bg-transparent px-7 text-[1rem] font-bold text-white hover:border-white hover:bg-white/10"
               >
                 {secondaryCta.label}
               </a>

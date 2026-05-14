@@ -49,17 +49,17 @@ export default function HeroSection({
                 </li>
               ))}
             </ul>
-            <div className="flex flex-wrap items-center gap-3 pt-2">
+            <div className="flex flex-wrap items-center gap-4 pt-2">
               <a
                 href={primaryCta.href}
-                className="inline-flex h-11 items-center rounded-btn bg-magenta px-6 text-sm font-bold text-white hover:opacity-90"
+                className="inline-flex h-12 items-center rounded-btn bg-magenta px-7 text-[1rem] font-bold text-white hover:opacity-90"
               >
                 {primaryCta.label}
               </a>
               {secondaryCta && (
                 <a
                   href={secondaryCta.href}
-                  className="inline-flex h-11 items-center rounded-btn border border-navy px-6 text-sm font-bold text-navy hover:bg-navy hover:text-white"
+                  className="inline-flex h-12 items-center rounded-btn border border-navy bg-transparent px-7 text-[1rem] font-bold text-navy hover:bg-navy hover:text-white"
                 >
                   {secondaryCta.label}
                 </a>
