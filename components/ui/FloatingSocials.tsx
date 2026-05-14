@@ -30,7 +30,7 @@ const socials = [
 
 export default function FloatingSocials() {
   return (
-    <div className="fixed right-6 top-1/2 z-50 hidden -translate-y-1/2 flex-col gap-4 xl:flex">
+    <div className="fixed right-0 top-1/2 z-50 hidden -translate-y-1/2 flex-col lg:flex">
       {socials.map((s) => (
         <a
           key={s.label}
@@ -38,7 +38,7 @@ export default function FloatingSocials() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label={s.label}
-          className="flex h-16 w-16 items-center justify-center rounded-xl border border-magenta/50 bg-white text-magenta transition-all duration-300 ease-out hover:scale-105 hover:border-magenta hover:bg-magenta hover:text-white"
+          className="flex h-[72px] w-[72px] items-center justify-center border border-magenta bg-white text-magenta transition-all duration-300 ease-out hover:bg-magenta hover:text-white"
         >
           {s.icon}
         </a>
