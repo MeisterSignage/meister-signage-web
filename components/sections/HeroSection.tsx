@@ -31,7 +31,7 @@ export default function HeroSection({
           {/* Text */}
           <div className="flex flex-col gap-5">
             {eyebrow && (
-              <span className="text-xs font-semibold uppercase tracking-widest text-cgray">
+              <span className="text-xs font-semibold uppercase tracking-widest text-gold">
                 {eyebrow}
               </span>
             )}

@@ -15,7 +15,7 @@ export default function BenefitsSection({ eyebrow, title, subtitle, benefits }: 
     <SectionContainer>
       <div className="mb-10 max-w-prose">
         {eyebrow && (
-          <span className="mb-3 block text-xs font-semibold uppercase tracking-widest text-cgray">
+          <span className="mb-3 block text-xs font-semibold uppercase tracking-widest text-gold">
             {eyebrow}
           </span>
         )}
@@ -27,7 +27,8 @@ export default function BenefitsSection({ eyebrow, title, subtitle, benefits }: 
         {benefits.map((benefit) => {
           const Icon = benefit.icon;
           return (
-            <div key={benefit.title} className="flex flex-col gap-3 border border-navy/10 bg-white px-5 py-6">
+            <div key={benefit.title} className="relative flex flex-col gap-3 overflow-hidden border border-navy/10 bg-white px-5 pb-6 pt-7">
+              <div className="absolute inset-x-0 top-0 h-[2px] bg-magenta" />
               <div className="flex h-9 w-9 items-center justify-center bg-offwhite">
                 <Icon className="h-4 w-4 text-navy" strokeWidth={1.5} />
               </div>

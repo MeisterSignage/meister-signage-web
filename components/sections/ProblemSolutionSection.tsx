@@ -25,7 +25,7 @@ export default function ProblemSolutionSection({
     <SectionContainer white>
       <div className="mb-10 max-w-prose">
         {eyebrow && (
-          <span className="mb-3 block text-xs font-semibold uppercase tracking-widest text-cgray">
+          <span className="mb-3 block text-xs font-semibold uppercase tracking-widest text-gold">
             {eyebrow}
           </span>
         )}

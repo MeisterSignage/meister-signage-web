@@ -15,7 +15,7 @@ export default function ProcessSection({ eyebrow, title, subtitle, steps }: Proc
     <SectionContainer white>
       <div className="mb-12 max-w-prose">
         {eyebrow && (
-          <span className="mb-3 block text-xs font-semibold uppercase tracking-widest text-cgray">
+          <span className="mb-3 block text-xs font-semibold uppercase tracking-widest text-gold">
             {eyebrow}
           </span>
         )}
@@ -37,7 +37,7 @@ export default function ProcessSection({ eyebrow, title, subtitle, steps }: Proc
               )}
 
               <div className="relative z-10 flex items-center gap-4 md:flex-col md:items-start">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-navy text-xs font-bold text-white">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-gold text-xs font-bold text-gold">
                   {String(step.number).padStart(2, "0")}
                 </div>
                 {Icon && (

@@ -27,7 +27,7 @@ export default function ContactSection({
         {/* Left */}
         <div>
           {eyebrow && (
-            <span className="mb-3 block text-xs font-semibold uppercase tracking-widest text-cgray">
+            <span className="mb-3 block text-xs font-semibold uppercase tracking-widest text-gold">
               {eyebrow}
             </span>
           )}
