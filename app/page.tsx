@@ -5,6 +5,7 @@ import ProblemSolutionSection from "@/components/sections/ProblemSolutionSection
 import BenefitsSection from "@/components/sections/BenefitsSection";
 import ProcessSection from "@/components/sections/ProcessSection";
 import IndustrySection from "@/components/sections/IndustrySection";
+import ProofSection from "@/components/sections/ProofSection";
 import { UtensilsCrossed, Store, CalendarRange, Building2, Hotel, MonitorPlay } from "lucide-react";
 import { Clock, PencilRuler, BadgeCheck, MapPin, Wrench, RefreshCw } from "lucide-react";
 
@@ -119,6 +120,19 @@ export default function Home() {
           { icon: Hotel,           title: "Hotellerie",        description: "Gäste informieren, Angebote hervorheben und Empfangsbereiche moderner gestalten.",                                      href: "/hotellerie" },
           { icon: Building2,       title: "Unternehmen",       description: "Empfang, interne Kommunikation oder Besucherinformationen klar und zentral steuern.",                                   href: "/unternehmen" },
           { icon: MonitorPlay,     title: "Bildschirm mieten", description: "Für Events, Pop-ups oder temporäre Einsätze passende Displays flexibel einsetzen.",                                    href: "/mieten" },
+        ]}
+      />
+
+      {/* ── PROOF ── */}
+      <ProofSection
+        eyebrow="Vertrauen entsteht im Alltag"
+        title="Persönlich, nahbar und lösungsorientiert."
+        subtitle="Meister Signage steht nicht für anonyme Standardpakete, sondern für Lösungen, die zu Betrieb, Anwendung und Alltag passen."
+        proofItems={[
+          { metric: "Persönlich", title: "Direkter Ansprechpartner",    description: "Sie sprechen nicht mit einem Ticketsystem, sondern mit einer Person, die Ihr Projekt kennt." },
+          { metric: "Praxisnah", title: "Lösungen statt Produktverkauf", description: "Im Zentrum steht nicht der Bildschirm, sondern die Frage, was Ihre Kommunikation im Alltag leisten soll." },
+          { metric: "Lokal",     title: "Aus der Zentralschweiz",        description: "Kurze Wege, regionale Nähe und bei Bedarf Unterstützung vor Ort." },
+          { metric: "Skalierbar", title: "Schrittweise erweiterbar",     description: "Starten Sie klein und erweitern Sie die Lösung, wenn neue Standorte, Inhalte oder Anwendungen dazukommen." },
         ]}
       />
 
