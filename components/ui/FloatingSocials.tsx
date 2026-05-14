@@ -38,7 +38,7 @@ export default function FloatingSocials() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label={s.label}
-          className="flex h-8 w-8 items-center justify-center rounded-lg bg-white text-neutral-600 shadow-md hover:text-neutral-900 hover:shadow-lg md:h-10 md:w-10 md:rounded-xl"
+          className="flex h-7 w-7 items-center justify-center border border-navy/10 bg-white text-cgray hover:border-navy/25 hover:text-navy md:h-8 md:w-8"
         >
           {s.icon}
         </a>

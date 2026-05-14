@@ -25,7 +25,7 @@ export default function HeroSection({
 }: HeroSectionProps) {
   return (
     <section className="w-full overflow-hidden bg-offwhite">
-      <div className="mx-auto max-w-content px-4 py-16 md:px-10 md:py-24">
+      <div className="mx-auto max-w-content px-4 py-10 md:px-10 md:py-16">
         <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16">
 
           {/* Text */}
@@ -35,10 +35,10 @@ export default function HeroSection({
                 {eyebrow}
               </span>
             )}
-            <h1 className="text-navy">
+            <h1 className="max-w-[560px] text-navy">
               {title}
             </h1>
-            <p className="max-w-prose text-cgray">
+            <p className="max-w-[480px] text-cgray">
               {subtitle}
             </p>
             <ul className="flex flex-col gap-2.5">
@@ -49,17 +49,17 @@ export default function HeroSection({
                 </li>
               ))}
             </ul>
-            <div className="flex flex-wrap gap-3 pt-2">
+            <div className="flex flex-wrap items-center gap-3 pt-2">
               <a
                 href={primaryCta.href}
-                className="inline-block rounded-btn bg-magenta px-6 py-3 text-sm font-bold text-white hover:opacity-90"
+                className="inline-flex h-11 items-center rounded-btn bg-magenta px-6 text-sm font-bold text-white hover:opacity-90"
               >
                 {primaryCta.label}
               </a>
               {secondaryCta && (
                 <a
                   href={secondaryCta.href}
-                  className="inline-block rounded-btn border border-navy px-6 py-3 text-sm font-bold text-navy hover:bg-navy hover:text-white"
+                  className="inline-flex h-11 items-center rounded-btn border border-navy px-6 text-sm font-bold text-navy hover:bg-navy hover:text-white"
                 >
                   {secondaryCta.label}
                 </a>
@@ -68,7 +68,7 @@ export default function HeroSection({
           </div>
 
           {/* Image or placeholder */}
-          <div className="w-full overflow-hidden rounded-card">
+          <div className="w-full overflow-hidden">
             {imageSrc ? (
               <Image
                 src={imageSrc}
@@ -79,8 +79,11 @@ export default function HeroSection({
                 priority
               />
             ) : (
-              <div className="flex h-[420px] w-full items-center justify-center rounded-card bg-navy/8">
-                <span className="text-sm text-cgray">Bild folgt</span>
+              <div className="relative flex h-[420px] w-full flex-col overflow-hidden border border-navy/10 bg-offwhite">
+                <div className="h-[3px] w-full bg-magenta" />
+                <div className="flex flex-1 items-center justify-center">
+                  <span className="text-sm text-cgray">Bild folgt</span>
+                </div>
               </div>
             )}
           </div>

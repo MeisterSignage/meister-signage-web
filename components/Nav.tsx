@@ -43,15 +43,15 @@ export default function Nav() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-navy/10 bg-white">
-      <div className="mx-auto flex h-20 max-w-content items-center justify-between px-4 md:px-10">
+      <div className="mx-auto flex h-[72px] max-w-content items-center justify-between px-4 md:px-10">
 
         {/* Logo */}
         <Link href="/" className="shrink-0">
           <Image
             src="/logo.svg"
             alt="Meister Signage"
-            width={152}
-            height={40}
+            width={120}
+            height={32}
             priority
           />
         </Link>
