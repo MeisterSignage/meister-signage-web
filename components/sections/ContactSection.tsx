@@ -24,10 +24,10 @@ export default function ContactSection({
 
   return (
     <SectionContainer white>
-      <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16">
+      <div className="flex flex-col items-start gap-10 lg:flex-row lg:items-center lg:gap-16">
 
         {/* Left — text */}
-        <div>
+        <div className="flex-1">
           {eyebrow && <span className="eyebrow">{eyebrow}</span>}
           <h2 className="mb-3 max-w-2xl text-navy">{title}</h2>
           {subtitle && <p className="mb-8 text-cgray">{subtitle}</p>}
@@ -66,7 +66,7 @@ export default function ContactSection({
         </div>
 
         {/* Right — photo */}
-        <div className="relative overflow-hidden">
+        <div className="relative w-full shrink-0 overflow-hidden lg:w-[200px]">
           {imageSrc ? (
             <Image
               src={imageSrc}
