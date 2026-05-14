@@ -13,89 +13,66 @@ type ContactSectionProps = {
 };
 
 export default function ContactSection({
-  eyebrow,
-  title,
-  subtitle,
-  contactName,
-  role,
-  phone,
-  email,
-  whatsapp,
+  eyebrow, title, subtitle,
+  contactName, role, phone, email, whatsapp,
 }: ContactSectionProps) {
-  const phoneHref     = `tel:${phone.replace(/\s/g, "")}`;
-  const emailHref     = `mailto:${email}`;
-  const whatsappHref  = `https://wa.me/${whatsapp.replace(/[^0-9]/g, "")}`;
+  const phoneHref    = `tel:${phone.replace(/\s/g, "")}`;
+  const emailHref    = `mailto:${email}`;
+  const whatsappHref = `https://wa.me/${whatsapp.replace(/[^0-9]/g, "")}`;
 
   return (
-    <SectionContainer>
+    <SectionContainer white>
       <div className="grid grid-cols-1 items-start gap-12 lg:grid-cols-2 lg:gap-20">
-        {/* Left: text + contact buttons */}
+
+        {/* Left */}
         <div>
           {eyebrow && (
-            <span className="mb-3 block text-sm font-semibold uppercase tracking-widest text-neutral-400">
+            <span className="mb-3 block text-xs font-semibold uppercase tracking-widest text-cgray">
               {eyebrow}
             </span>
           )}
-          <h2 className="mb-4 text-3xl font-bold tracking-tight text-neutral-900 md:text-4xl">
-            {title}
-          </h2>
-          {subtitle && (
-            <p className="mb-10 text-lg leading-relaxed text-neutral-500">
-              {subtitle}
-            </p>
-          )}
+          <h2 className="mb-3 text-navy">{title}</h2>
+          {subtitle && <p className="mb-8 text-cgray">{subtitle}</p>}
 
-          {/* Contact person */}
-          <div className="mb-8 flex items-center gap-4">
-            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-neutral-100 text-lg font-bold text-neutral-600">
+          <div className="mb-7 flex items-center gap-3">
+            <div className="flex h-10 w-10 shrink-0 items-center justify-center bg-offwhite text-sm font-bold text-navy">
               {contactName.charAt(0)}
             </div>
             <div>
-              <p className="font-semibold text-neutral-900">{contactName}</p>
-              <p className="text-sm text-neutral-500">{role}</p>
+              <p className="text-sm font-bold text-navy">{contactName}</p>
+              <p className="text-xs text-cgray">{role}</p>
             </div>
           </div>
 
-          {/* Contact buttons */}
-          <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-            <a
-              href={phoneHref}
-              className="flex items-center gap-2.5 rounded-btn border border-neutral-200 bg-white px-5 py-3 text-sm font-semibold text-neutral-700 shadow-sm hover:border-neutral-300 hover:bg-neutral-50"
-            >
-              <Phone className="h-4 w-4 text-neutral-500" strokeWidth={1.5} />
+          <div className="flex flex-col gap-2.5 sm:flex-row sm:flex-wrap">
+            <a href={phoneHref} className="flex items-center gap-2 border border-navy/15 px-4 py-2.5 text-sm text-navy hover:border-navy/30">
+              <Phone className="h-3.5 w-3.5 text-cgray" strokeWidth={1.5} />
               {phone}
             </a>
-            <a
-              href={emailHref}
-              className="flex items-center gap-2.5 rounded-btn border border-neutral-200 bg-white px-5 py-3 text-sm font-semibold text-neutral-700 shadow-sm hover:border-neutral-300 hover:bg-neutral-50"
-            >
-              <Mail className="h-4 w-4 text-neutral-500" strokeWidth={1.5} />
+            <a href={emailHref} className="flex items-center gap-2 border border-navy/15 px-4 py-2.5 text-sm text-navy hover:border-navy/30">
+              <Mail className="h-3.5 w-3.5 text-cgray" strokeWidth={1.5} />
               {email}
             </a>
-            <a
-              href={whatsappHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2.5 rounded-btn border border-neutral-200 bg-white px-5 py-3 text-sm font-semibold text-neutral-700 shadow-sm hover:border-neutral-300 hover:bg-neutral-50"
-            >
-              <MessageCircle className="h-4 w-4 text-neutral-500" strokeWidth={1.5} />
+            <a href={whatsappHref} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 border border-navy/15 px-4 py-2.5 text-sm text-navy hover:border-navy/30">
+              <MessageCircle className="h-3.5 w-3.5 text-cgray" strokeWidth={1.5} />
               WhatsApp
             </a>
           </div>
         </div>
 
-        {/* Right: contact card placeholder */}
-        <div className="flex h-full min-h-[240px] items-center justify-center rounded-xl border border-neutral-200 bg-neutral-50 p-10">
+        {/* Right: placeholder */}
+        <div className="flex min-h-[240px] items-center justify-center border border-navy/10 bg-offwhite p-10">
           <div className="text-center">
-            <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-neutral-200 text-2xl font-bold text-neutral-500">
+            <div className="mx-auto mb-3 flex h-14 w-14 items-center justify-center bg-navy/8 text-xl font-light text-navy">
               {contactName.charAt(0)}
             </div>
-            <p className="font-semibold text-neutral-800">{contactName}</p>
-            <p className="mt-1 text-sm text-neutral-500">{role}</p>
-            <div className="mx-auto mt-4 h-px w-10 bg-neutral-300" />
-            <p className="mt-4 text-sm text-neutral-400">Foto folgt</p>
+            <p className="text-sm font-bold text-navy">{contactName}</p>
+            <p className="mt-0.5 text-xs text-cgray">{role}</p>
+            <div className="mx-auto mt-4 h-px w-8 bg-gold" />
+            <p className="mt-3 text-xs text-cgray">Foto folgt</p>
           </div>
         </div>
+
       </div>
     </SectionContainer>
   );

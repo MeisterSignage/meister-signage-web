@@ -1,9 +1,6 @@
 import Image from "next/image";
 
-type Cta = {
-  label: string;
-  href: string;
-};
+type Cta = { label: string; href: string };
 
 type HeroSectionProps = {
   eyebrow?: string;
@@ -27,41 +24,42 @@ export default function HeroSection({
   imageAlt = "",
 }: HeroSectionProps) {
   return (
-    <section className="w-full overflow-hidden bg-slate-50">
-      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24 lg:px-8">
-        <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-14">
+    <section className="w-full overflow-hidden bg-offwhite">
+      <div className="mx-auto max-w-content px-4 py-16 md:px-10 md:py-24">
+        <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16">
+
           {/* Text */}
           <div className="flex flex-col gap-5">
             {eyebrow && (
-              <span className="text-sm font-semibold uppercase tracking-widest text-blue-700">
+              <span className="text-xs font-semibold uppercase tracking-widest text-cgray">
                 {eyebrow}
               </span>
             )}
-            <h1 className="text-3xl font-bold leading-tight tracking-tight text-neutral-900 sm:text-4xl md:text-5xl">
+            <h1 className="text-navy">
               {title}
             </h1>
-            <p className="text-base leading-relaxed text-neutral-600 sm:text-lg">
+            <p className="max-w-prose text-cgray">
               {subtitle}
             </p>
             <ul className="flex flex-col gap-2.5">
               {bullets.map((bullet) => (
                 <li key={bullet} className="flex items-start gap-3">
                   <CheckIcon />
-                  <span className="text-neutral-700">{bullet}</span>
+                  <span className="text-navy">{bullet}</span>
                 </li>
               ))}
             </ul>
-            <div className="flex flex-wrap gap-3 pt-1">
+            <div className="flex flex-wrap gap-3 pt-2">
               <a
                 href={primaryCta.href}
-                className="inline-block rounded-md bg-blue-700 px-6 py-3 text-sm font-semibold text-white hover:bg-blue-800"
+                className="inline-block rounded-btn bg-magenta px-6 py-3 text-sm font-bold text-white hover:opacity-90"
               >
                 {primaryCta.label}
               </a>
               {secondaryCta && (
                 <a
                   href={secondaryCta.href}
-                  className="inline-block rounded-md border border-neutral-300 px-6 py-3 text-sm font-semibold text-neutral-700 hover:border-neutral-400 hover:bg-neutral-100"
+                  className="inline-block rounded-btn border border-navy px-6 py-3 text-sm font-bold text-navy hover:bg-navy hover:text-white"
                 >
                   {secondaryCta.label}
                 </a>
@@ -70,22 +68,23 @@ export default function HeroSection({
           </div>
 
           {/* Image or placeholder */}
-          <div className="w-full overflow-hidden rounded-xl">
+          <div className="w-full overflow-hidden rounded-card">
             {imageSrc ? (
               <Image
                 src={imageSrc}
                 alt={imageAlt}
                 width={720}
                 height={420}
-                className="h-auto max-h-[420px] w-full object-cover shadow-md"
+                className="h-auto max-h-[420px] w-full object-cover"
                 priority
               />
             ) : (
-              <div className="flex h-[420px] w-full items-center justify-center rounded-xl bg-neutral-200">
-                <span className="text-sm text-neutral-400">Bild folgt</span>
+              <div className="flex h-[420px] w-full items-center justify-center rounded-card bg-navy/8">
+                <span className="text-sm text-cgray">Bild folgt</span>
               </div>
             )}
           </div>
+
         </div>
       </div>
     </section>
@@ -95,7 +94,7 @@ export default function HeroSection({
 function CheckIcon() {
   return (
     <svg
-      className="mt-0.5 h-5 w-5 shrink-0 text-blue-700"
+      className="mt-1 h-4 w-4 shrink-0 text-navy"
       viewBox="0 0 20 20"
       fill="currentColor"
       aria-hidden="true"
