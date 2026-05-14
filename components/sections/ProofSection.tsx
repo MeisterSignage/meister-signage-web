@@ -14,7 +14,7 @@ export default function ProofSection({ eyebrow, title, subtitle, proofItems }: P
     <SectionContainer>
       <div className="section-header">
         {eyebrow && <span className="eyebrow">{eyebrow}</span>}
-        <h2 className="mb-3 text-navy">{title}</h2>
+        <h2 className="heading-max-2 mb-3 text-navy">{title}</h2>
         {subtitle && <p className="text-cgray">{subtitle}</p>}
       </div>
 

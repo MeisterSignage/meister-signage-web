@@ -105,7 +105,7 @@ export default function Nav() {
         {/* Desktop CTA */}
         <Link
           href="/kontakt"
-          className="hidden rounded-btn bg-magenta px-5 py-2.5 text-[15px] font-semibold text-white transition-all duration-200 hover:-translate-y-px hover:bg-[#d60080] lg:inline-block"
+          className="btn-primary hidden lg:inline-flex"
         >
           Beratung anfragen
         </Link>
@@ -178,7 +178,7 @@ export default function Nav() {
             <div className="mt-5 border-t border-navy/10 pt-5">
               <Link
                 href="/kontakt"
-                className="block rounded-btn bg-magenta px-5 py-3 text-center text-[16px] font-semibold text-white hover:bg-[#d60080]"
+                className="btn-primary w-full justify-center"
                 onClick={() => setMenuOpen(false)}
               >
                 Beratung anfragen

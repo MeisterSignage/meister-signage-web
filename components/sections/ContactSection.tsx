@@ -29,7 +29,7 @@ export default function ContactSection({
         {/* Left — text */}
         <div className="flex-1">
           {eyebrow && <span className="eyebrow">{eyebrow}</span>}
-          <h2 className="mb-3 max-w-2xl text-navy">{title}</h2>
+          <h2 className="heading-max-2 mb-3 text-navy">{title}</h2>
           {subtitle && <p className="mb-8 text-cgray">{subtitle}</p>}
 
           <div className="mb-2 h-px w-8 bg-gold" />
