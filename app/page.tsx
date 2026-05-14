@@ -130,7 +130,7 @@ export default function Home() {
         phone="+41 76 452 66 87"
         email="info@meister-signage.ch"
         whatsapp="https://wa.me/41764526687"
-        imageSrc="/images/chris-meister.png"
+        imageSrc="/images/Chris-Meister.png"
       />
     </>
   );
