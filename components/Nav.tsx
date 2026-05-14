@@ -45,13 +45,14 @@ export default function Nav() {
     <header className="sticky top-0 z-50 w-full border-b border-navy/10 bg-white">
       <div className="mx-auto flex h-[72px] max-w-content items-center justify-between px-4 md:px-10">
 
-        {/* Logo */}
-        <Link href="/" className="shrink-0">
+        {/* Logo — max 80% of header height, never overflows */}
+        <Link href="/" className="flex shrink-0 items-center">
           <Image
             src="/logo.svg"
             alt="Meister Signage"
-            width={120}
-            height={32}
+            width={160}
+            height={58}
+            className="block h-auto max-h-[58px] w-auto max-w-[160px]"
             priority
           />
         </Link>
@@ -62,7 +63,7 @@ export default function Nav() {
             item.dropdown ? (
               <div key={item.href} className="group relative">
                 <button
-                  className={`flex items-center gap-1 text-sm tracking-wide transition-colors ${
+                  className={`flex items-center gap-1 text-[15px] tracking-wide transition-colors ${
                     isActive(item.href)
                       ? "font-bold text-navy"
                       : "font-semibold text-navy/60 hover:text-navy"
@@ -89,7 +90,7 @@ export default function Nav() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`text-sm tracking-wide transition-colors ${
+                className={`text-[15px] tracking-wide transition-colors ${
                   isActive(item.href)
                     ? "font-bold text-navy"
                     : "font-semibold text-navy/60 hover:text-navy"
