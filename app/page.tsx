@@ -7,6 +7,7 @@ import ProcessSection from "@/components/sections/ProcessSection";
 import IndustrySection from "@/components/sections/IndustrySection";
 import ProofSection from "@/components/sections/ProofSection";
 import FAQSection from "@/components/sections/FAQSection";
+import CTASection from "@/components/sections/CTASection";
 import { UtensilsCrossed, Store, CalendarRange, Building2, Hotel, MonitorPlay } from "lucide-react";
 import { Clock, PencilRuler, BadgeCheck, MapPin, Wrench, RefreshCw } from "lucide-react";
 
@@ -149,6 +150,15 @@ export default function Home() {
           { question: "Kann ich mit einem Bildschirm starten?",       answer: "Ja. Viele Projekte starten bewusst klein und werden später erweitert." },
           { question: "Für welche Branchen eignet sich Digital Signage?", answer: "Besonders sinnvoll ist es für Gastronomie, Hotellerie, Retail, Events, Empfangsbereiche und überall dort, wo Informationen regelmässig sichtbar aktualisiert werden müssen." },
         ]}
+      />
+
+      {/* ── CTA ── */}
+      <CTASection
+        eyebrow="Projekt besprechen"
+        title="Lassen Sie uns gemeinsam die passende Digital-Signage-Lösung planen."
+        subtitle="Kurz erklären, was Sie vorhaben – wir zeigen Ihnen, welche Lösung sinnvoll ist und wie der Einstieg einfach gelingt."
+        primaryCta={{ label: "Beratung anfragen", href: "/kontakt" }}
+        secondaryCta={{ label: "Mehr über Meister Signage", href: "/ueber-uns" }}
       />
 
       {/* ── SCHMERZPUNKTE ── */}
