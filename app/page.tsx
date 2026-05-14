@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import HeroSection from "@/components/sections/HeroSection";
+import ProblemSolutionSection from "@/components/sections/ProblemSolutionSection";
 
 export const metadata: Metadata = {
   title: "Meister Signage – Digital Signage Luzern & Zentralschweiz",
@@ -36,6 +37,41 @@ export default function Home() {
         ]}
         primaryCta={{ label: "Beratung anfragen", href: "/kontakt" }}
         secondaryCta={{ label: "Lösungen ansehen", href: "/loesungen" }}
+      />
+
+      {/* ── PROBLEM / SOLUTION ── */}
+      <ProblemSolutionSection
+        eyebrow="Vom Aufwand zur einfachen Lösung"
+        title="Digitale Kommunikation soll entlasten – nicht zusätzliche Arbeit machen."
+        subtitle="Viele Betriebe wissen, dass digitale Bildschirme sinnvoll wären. Oft scheitert es aber an Zeit, Technik oder der Frage, wer sich später darum kümmert."
+        problems={[
+          {
+            title: "Inhalte sind schnell veraltet",
+            description: "Aushänge, Menükarten oder Eventinformationen müssen immer wieder neu erstellt, gedruckt und ausgetauscht werden.",
+          },
+          {
+            title: "Technik wirkt kompliziert",
+            description: "Displays, Player, Inhalte und Steuerung sollen funktionieren, ohne dass intern jemand zum IT-Spezialisten werden muss.",
+          },
+          {
+            title: "Zuständigkeiten sind unklar",
+            description: "Wenn niemand weiss, wer Inhalte pflegt oder Probleme löst, bleibt Digital Signage schnell ungenutzt.",
+          },
+        ]}
+        solutions={[
+          {
+            title: "Inhalte zentral aktualisieren",
+            description: "Informationen lassen sich einfach anpassen und auf Wunsch für verschiedene Standorte oder Anwendungen vorbereiten.",
+          },
+          {
+            title: "Schlüsselfertig umgesetzt",
+            description: "Wir kümmern uns um Planung, passende Komponenten, Einrichtung und Übergabe – verständlich und praxisnah.",
+          },
+          {
+            title: "Persönliche Betreuung",
+            description: "Sie haben einen direkten Ansprechpartner und keine anonyme Plattform, bei der Sie zuerst ein Ticket eröffnen müssen.",
+          },
+        ]}
       />
 
       {/* ── SCHMERZPUNKTE ── */}
