@@ -3,6 +3,7 @@ import Link from "next/link";
 import HeroSection from "@/components/sections/HeroSection";
 import ProblemSolutionSection from "@/components/sections/ProblemSolutionSection";
 import BenefitsSection from "@/components/sections/BenefitsSection";
+import ProcessSection from "@/components/sections/ProcessSection";
 import { Clock, PencilRuler, BadgeCheck, MapPin, Wrench, RefreshCw } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -88,6 +89,19 @@ export default function Home() {
           { icon: MapPin,      title: "Lokal und persönlich",            description: "Als Anbieter aus der Zentralschweiz sind wir greifbar, direkt erreichbar und bei Bedarf auch vor Ort." },
           { icon: Wrench,      title: "Schlüsselfertig umgesetzt",       description: "Von der Planung bis zur Inbetriebnahme erhalten Sie eine Lösung, die im Alltag funktioniert." },
           { icon: RefreshCw,   title: "Flexibel erweiterbar",            description: "Ob ein einzelner Bildschirm oder mehrere Standorte: Die Lösung kann Schritt für Schritt mitwachsen." },
+        ]}
+      />
+
+      {/* ── PROZESS ── */}
+      <ProcessSection
+        eyebrow="So läuft die Zusammenarbeit"
+        title="Von der Idee bis zur laufenden Lösung – klar und unkompliziert."
+        subtitle="Sie müssen nicht wissen, welches Display, welcher Player oder welche Software passt. Wir führen Sie Schritt für Schritt zur passenden Lösung."
+        steps={[
+          { number: 1, title: "Bedarf verstehen",       description: "Wir klären, wo Digital Signage eingesetzt werden soll, welche Inhalte sichtbar sein müssen und was im Alltag wirklich gebraucht wird." },
+          { number: 2, title: "Lösung planen",          description: "Daraus entsteht ein schlankes Konzept mit passenden Bildschirmen, Inhalten, Steuerung und klarer Umsetzung." },
+          { number: 3, title: "Einrichten und starten", description: "Wir kümmern uns um Einrichtung, Übergabe und einen sauberen Start – ohne unnötigen technischen Ballast." },
+          { number: 4, title: "Betreuen und erweitern", description: "Nach dem Start bleiben wir erreichbar, unterstützen bei Anpassungen und erweitern die Lösung bei Bedarf." },
         ]}
       />
 
