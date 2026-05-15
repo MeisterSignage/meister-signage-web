@@ -16,6 +16,7 @@ type RentalPackagesSectionProps = {
   packages: Package[];
   ctaLabel?: string;
   ctaHref?: string;
+  note?: string;
 };
 
 export default function RentalPackagesSection({
@@ -25,6 +26,7 @@ export default function RentalPackagesSection({
   packages,
   ctaLabel = "Anfrage starten",
   ctaHref = "/kontakt",
+  note,
 }: RentalPackagesSectionProps) {
   return (
     <section id="pakete" className="w-full bg-offwhite">
@@ -103,7 +105,7 @@ export default function RentalPackagesSection({
 
         {/* Footer note */}
         <p className="mt-8 text-center text-xs text-cgray">
-          Alle Preise exkl. MwSt. · Mindestmietdauer auf Anfrage · Einmalige Setup-Gebühr möglich.
+          {note ?? "Alle Preise exkl. MwSt. · Mindestmietdauer auf Anfrage · Einmalige Setup-Gebühr möglich."}
         </p>
 
       </div>
