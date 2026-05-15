@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /mieten/
 
 Sitemap: https://www.meister-signage.ch/sitemap.xml

@@ -59,7 +59,7 @@ export default function ContactSection({
           {imageSrc ? (
             <Image
               src={imageSrc}
-              alt={contactName}
+              alt={`${contactName} – ${role}`}
               width={600}
               height={720}
               className="h-auto w-full object-cover object-top"

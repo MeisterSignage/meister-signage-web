@@ -41,10 +41,29 @@ const PAGE_FAQS = [
   },
 ];
 
+const SITE_URL = "https://www.meister-signage.ch";
+const PAGE_URL = `${SITE_URL}/retail`;
+
 export const metadata: Metadata = {
   title: "Digital Signage Retail | Meister Signage",
   description:
     "Digital-Signage-Lösungen für Retail und Handel. Aktionen, Produkte und Informationen flexibel sichtbar machen – persönlich geplant und schlüsselfertig umgesetzt.",
+  alternates: { canonical: PAGE_URL },
+  openGraph: {
+    type: "website",
+    locale: "de_CH",
+    url: PAGE_URL,
+    siteName: "Meister Signage",
+    title: "Digital Signage Retail | Meister Signage",
+    description: "Digital-Signage-Lösungen für Retail und Handel. Aktionen, Produkte und Informationen flexibel sichtbar machen.",
+    images: [{ url: `${SITE_URL}/og/meister-signage-og.png`, width: 1200, height: 630, alt: "Digital Signage Retail – Meister Signage" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Digital Signage Retail | Meister Signage",
+    description: "Digital-Signage-Lösungen für Retail und Handel. Aktionen, Produkte und Informationen flexibel sichtbar machen.",
+    images: [`${SITE_URL}/og/meister-signage-og.png`],
+  },
 };
 
 export default function RetailPage() {

@@ -116,7 +116,8 @@ export default function Nav() {
         <button
           className="flex h-10 w-10 items-center justify-center text-navy lg:hidden"
           onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Menü öffnen"
+          aria-label={menuOpen ? "Menü schliessen" : "Menü öffnen"}
+          aria-expanded={menuOpen}
         >
           {menuOpen
             ? <X className="h-5 w-5" strokeWidth={1.5} />

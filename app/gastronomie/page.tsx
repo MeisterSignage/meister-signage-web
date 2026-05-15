@@ -41,10 +41,29 @@ const PAGE_FAQS = [
   },
 ];
 
+const SITE_URL = "https://www.meister-signage.ch";
+const PAGE_URL = `${SITE_URL}/gastronomie`;
+
 export const metadata: Metadata = {
   title: "Digital Signage Gastronomie | Meister Signage",
   description:
     "Digitale Menüboards und Digital-Signage-Lösungen für Gastronomie und Hotellerie. Persönlich geplant, schlüsselfertig umgesetzt und lokal betreut.",
+  alternates: { canonical: PAGE_URL },
+  openGraph: {
+    type: "website",
+    locale: "de_CH",
+    url: PAGE_URL,
+    siteName: "Meister Signage",
+    title: "Digital Signage Gastronomie | Meister Signage",
+    description: "Digitale Menüboards und Digital-Signage-Lösungen für Gastronomie und Hotellerie. Persönlich geplant, schlüsselfertig umgesetzt und lokal betreut.",
+    images: [{ url: `${SITE_URL}/og/meister-signage-og.png`, width: 1200, height: 630, alt: "Digital Signage Gastronomie – Meister Signage" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Digital Signage Gastronomie | Meister Signage",
+    description: "Digitale Menüboards und Digital-Signage-Lösungen für Gastronomie und Hotellerie.",
+    images: [`${SITE_URL}/og/meister-signage-og.png`],
+  },
 };
 
 export default function GastronomiePage() {

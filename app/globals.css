@@ -77,6 +77,15 @@ h3 { font-size: clamp(1.1rem, 1.6vw, 1.4rem);  font-weight: 700; line-height: 1.
 
 a { color: inherit; text-decoration: none; }
 
+/* ─── Focus-visible — keyboard navigation ring ───────────────── */
+/* Visible only on keyboard nav, hidden for mouse — WCAG 2.4.7  */
+:focus { outline: none; }
+:focus-visible {
+  outline: 2px solid var(--magenta);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
 /* ─── Legal pages — override global heading clamp sizes ─────── */
 /* Specificity (0,1,1) beats plain h1/h2 (0,0,1) */
 .legal-page h1 {

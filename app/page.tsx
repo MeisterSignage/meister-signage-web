@@ -12,9 +12,28 @@ import { Clock, PencilRuler, BadgeCheck, MapPin, Wrench, RefreshCw } from "lucid
 import { UtensilsCrossed, Store, CalendarRange, Building2, Hotel, MonitorPlay } from "lucide-react";
 import InternalLinksSection from "@/components/sections/InternalLinksSection";
 
+const SITE_URL = "https://www.meister-signage.ch";
+const PAGE_URL = SITE_URL;
+
 export const metadata: Metadata = {
   title: "Meister Signage – Digital Signage Luzern & Zentralschweiz",
   description: "Schlüsselfertige Digital-Signage-Lösungen für Gastronomie, Retail und Events. Persönlicher Service aus der Zentralschweiz. Kein IT-Aufwand.",
+  alternates: { canonical: PAGE_URL },
+  openGraph: {
+    type: "website",
+    locale: "de_CH",
+    url: PAGE_URL,
+    siteName: "Meister Signage",
+    title: "Meister Signage – Digital Signage Luzern & Zentralschweiz",
+    description: "Schlüsselfertige Digital-Signage-Lösungen für Gastronomie, Retail und Events. Persönlicher Service aus der Zentralschweiz. Kein IT-Aufwand.",
+    images: [{ url: `${SITE_URL}/og/meister-signage-og.png`, width: 1200, height: 630, alt: "Meister Signage – Digital Signage Zentralschweiz" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Meister Signage – Digital Signage Luzern & Zentralschweiz",
+    description: "Schlüsselfertige Digital-Signage-Lösungen für Gastronomie, Retail und Events. Persönlicher Service aus der Zentralschweiz.",
+    images: [`${SITE_URL}/og/meister-signage-og.png`],
+  },
 };
 
 export default function Home() {

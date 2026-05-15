@@ -42,10 +42,29 @@ const PAGE_FAQS = [
   },
 ];
 
+const SITE_URL = "https://www.meister-signage.ch";
+const PAGE_URL = `${SITE_URL}/digital-signage-mieten`;
+
 export const metadata: Metadata = {
   title: "Digital Signage mieten | Meister Signage",
   description:
     "Digital-Signage-Screens flexibel mieten – inklusive Lizenz, einfacher Handhabung und persönlicher Betreuung. Ideal für Events, Retail, Gastronomie und temporäre Einsätze.",
+  alternates: { canonical: PAGE_URL },
+  openGraph: {
+    type: "website",
+    locale: "de_CH",
+    url: PAGE_URL,
+    siteName: "Meister Signage",
+    title: "Digital Signage mieten | Meister Signage",
+    description: "Digital-Signage-Screens flexibel mieten – inklusive Lizenz, einfacher Handhabung und persönlicher Betreuung.",
+    images: [{ url: `${SITE_URL}/og/meister-signage-og.png`, width: 1200, height: 630, alt: "Digital Signage mieten – Meister Signage" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Digital Signage mieten | Meister Signage",
+    description: "Digital-Signage-Screens flexibel mieten – inklusive Lizenz und persönlicher Betreuung.",
+    images: [`${SITE_URL}/og/meister-signage-og.png`],
+  },
 };
 
 const PACKAGES = [

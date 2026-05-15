@@ -5,6 +5,8 @@ import SectionContainer from "@/components/ui/SectionContainer";
 export const metadata: Metadata = {
   title: "Datenschutzerklärung – Meister Signage",
   description: "Datenschutzerklärung von Meister Signage. Informationen zur Verarbeitung personenbezogener Daten gemäss DSG und DSGVO.",
+  alternates: { canonical: "https://www.meister-signage.ch/datenschutz" },
+  robots: { index: false, follow: false },
 };
 
 // ─── Hinweise für zukünftige Dienste (noch nicht aktiv) ──────────
