@@ -10,6 +10,7 @@ const nav = [
 
 const loesungen = [
   { label: "Digital Signage Schweiz", href: "/digital-signage-schweiz" },
+  { label: "Digital Signage kaufen",  href: "/digital-signage-kaufen" },
   { label: "Kostenübersicht",         href: "/was-kostet-digital-signage-schweiz" },
   { label: "Gastronomie",             href: "/gastronomie" },
   { label: "Retail",                  href: "/retail" },
