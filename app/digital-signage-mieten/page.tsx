@@ -73,9 +73,9 @@ const PACKAGES = [
     size: '18.5" Digital Signage Screen',
     price: 129,
     benefits: [
-      "inkl. Lizenzgebühren",
-      "einfache Handhabung",
-      "Montage in ca. 15 Minuten",
+      "Software-Lizenz inklusive",
+      "Plug & Play in 15 Minuten",
+      "Persönliche Einrichtungshilfe",
     ],
   },
   {
@@ -83,9 +83,9 @@ const PACKAGES = [
     size: '32" Digital Signage Screen',
     price: 129,
     benefits: [
-      "inkl. Lizenzgebühren",
-      "einfache Handhabung",
-      "Montage in ca. 15 Minuten",
+      "Software-Lizenz inklusive",
+      "Plug & Play in 15 Minuten",
+      "Persönliche Einrichtungshilfe",
     ],
   },
   {
@@ -93,9 +93,9 @@ const PACKAGES = [
     size: '43" Digital Signage Screen',
     price: 139,
     benefits: [
-      "inkl. Lizenzgebühren",
-      "einfache Handhabung",
-      "Montage in ca. 15 Minuten",
+      "Software-Lizenz inklusive",
+      "Plug & Play in 15 Minuten",
+      "Persönliche Einrichtungshilfe",
     ],
   },
   {
@@ -105,21 +105,21 @@ const PACKAGES = [
     badge: "Populär",
     featured: true,
     benefits: [
-      "inkl. Lizenzgebühren",
-      "einfache Handhabung",
-      "Montage in ca. 15 Minuten",
+      "Software-Lizenz inklusive",
+      "Plug & Play in 15 Minuten",
+      "Persönliche Einrichtungshilfe",
     ],
   },
   {
     name: "Spark Q",
-    size: '33" Digital Signage Screen',
+    size: '33" Querformat Screen',
     price: 159,
     badge: "Populär",
     featured: true,
     benefits: [
-      "inkl. Lizenzgebühren",
-      "einfache Handhabung",
-      "Montage in ca. 15 Minuten",
+      "Software-Lizenz inklusive",
+      "Plug & Play in 15 Minuten",
+      "Persönliche Einrichtungshilfe",
     ],
   },
 ];
@@ -154,9 +154,9 @@ export default function DigitalSignageMietenPage() {
       />
 
       <RentalPackagesSection
-        eyebrow="Verfügbare Pakete"
-        title="Das passende Paket für Ihren Einsatz."
-        subtitle="Alle Pakete beinhalten den jeweiligen Screen sowie die Lizenzgebühren. Setup und Konfiguration auf Anfrage."
+        eyebrow="Digital Signage mieten"
+        title={"Transparente Preise.\nVolle Leistung."}
+        subtitle="Unsere Spark-Pakete bieten professionelle Digital-Signage-Lösungen zum monatlichen Fixpreis – inklusive Software, Support und Service."
         packages={PACKAGES}
         ctaLabel="Anfrage starten"
         ctaHref="/kontakt"
