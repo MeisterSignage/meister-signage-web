@@ -103,6 +103,7 @@ const PACKAGES = [
     size: '50" Digital Signage Screen',
     price: 149,
     badge: "Populär",
+    featured: true,
     benefits: [
       "inkl. Lizenzgebühren",
       "einfache Handhabung",
@@ -114,6 +115,7 @@ const PACKAGES = [
     size: '33" Digital Signage Screen',
     price: 159,
     badge: "Populär",
+    featured: true,
     benefits: [
       "inkl. Lizenzgebühren",
       "einfache Handhabung",
