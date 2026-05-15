@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Check } from "lucide-react";
+import SpotlightCard from "@/components/ui/SpotlightCard";
 
 type Package = {
   name: string;
@@ -42,9 +43,9 @@ export default function RentalPackagesSection({
         {/* Package grid */}
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {packages.map((pkg) => (
-            <div
+            <SpotlightCard
               key={pkg.name}
-              className="relative flex flex-col overflow-hidden rounded-[7px] border border-navy/10 bg-white"
+              className="flex flex-col rounded-[7px] border border-navy/10 bg-white"
             >
               {/* Magenta accent line top */}
               <div className="h-[3px] w-full bg-magenta" />
@@ -99,7 +100,7 @@ export default function RentalPackagesSection({
                 </div>
 
               </div>
-            </div>
+            </SpotlightCard>
           ))}
         </div>
 
