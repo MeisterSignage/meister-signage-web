@@ -12,6 +12,7 @@ const loesungen = [
   { label: "Gastronomie", href: "/gastronomie" },
   { label: "Retail",      href: "/retail" },
   { label: "Events",      href: "/events" },
+  { label: "Hotellerie",  href: "/hotellerie" },
 ];
 
 const socials = [

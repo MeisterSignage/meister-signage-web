@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "/gastronomie", priority: 0.9, cf: "monthly" as const },
     { url: "/retail",      priority: 0.9, cf: "monthly" as const },
     { url: "/events",      priority: 0.8, cf: "monthly" as const },
+    { url: "/hotellerie",  priority: 0.9, cf: "monthly" as const },
     { url: "/mieten",      priority: 0.9, cf: "monthly" as const },
     { url: "/luzern",      priority: 0.9, cf: "monthly" as const },
     { url: "/blog",        priority: 0.7, cf: "weekly"  as const },
