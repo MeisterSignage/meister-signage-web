@@ -3,6 +3,10 @@ import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import FloatingSocials from "@/components/ui/FloatingSocials";
+import JsonLd from "@/components/JsonLd";
+import { organizationSchema } from "@/lib/schema/organization";
+import { localBusinessSchema } from "@/lib/schema/localBusiness";
+import { websiteSchema } from "@/lib/schema/website";
 
 const siteUrl = "https://www.meister-signage.ch";
 const ogImage = `${siteUrl}/og/meister-signage-og.png`;
@@ -70,15 +74,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "LocalBusiness",
-          name: "Meister Signage",
-          description: "Digital-Signage-Lösungen für Gastronomie, Retail und Events in der Zentralschweiz",
-          url: "https://www.meister-signage.ch",
-          areaServed: [{ "@type": "City", name: "Luzern" },{ "@type": "State", name: "Zentralschweiz" }],
-          serviceType: "Digital Signage",
-        })}} />
+        {/* Global structured data — Organization, LocalBusiness, WebSite */}
+        <JsonLd schema={organizationSchema as Record<string, unknown>} />
+        <JsonLd schema={localBusinessSchema as Record<string, unknown>} />
+        <JsonLd schema={websiteSchema as Record<string, unknown>} />
       </head>
       <body>
         <Nav />

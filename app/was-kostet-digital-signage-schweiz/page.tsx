@@ -11,6 +11,38 @@ import CTASection from "@/components/sections/CTASection";
 import ContactSection from "@/components/sections/ContactSection";
 import { Wrench, BadgeCheck, Truck, Palette, MapPin, Zap } from "lucide-react";
 import InternalLinksSection from "@/components/sections/InternalLinksSection";
+import JsonLd from "@/components/JsonLd";
+import { faqSchema } from "@/lib/schema/faq";
+import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
+import { serviceSchema } from "@/lib/schema/service";
+
+const PAGE_FAQS = [
+  {
+    question: "Was kostet ein Digital-Signage-Display in der Schweiz?",
+    answer:
+      "Professionelle Displays beginnen je nach Modell bei rund CHF 1'299. Im Mietmodell ist der Einstieg ab CHF 129 pro Monat möglich.",
+  },
+  {
+    question: "Was kostet Digital Signage monatlich?",
+    answer:
+      "Die Mietpreise starten bei CHF 129 pro Monat. Je nach Displaygrösse liegen die monatlichen Kosten zwischen CHF 129 und CHF 159. Die Lizenz ist im Mietmodell enthalten.",
+  },
+  {
+    question: "Gibt es versteckte Kosten?",
+    answer:
+      "Wichtig sind Einrichtung, Versand, Softwarelizenz beim Kauf, Content-Erstellung und je nach Einsatz eine mögliche Installation. Diese Punkte sollten im Angebot transparent ausgewiesen werden.",
+  },
+  {
+    question: "Ist Mieten oder Kaufen günstiger?",
+    answer:
+      "Für kurze oder flexible Einsätze ist Mieten meist sinnvoller. Bei langfristiger Nutzung über mehrere Jahre kann sich ein Kauf lohnen. Nach einer Mietphase können 30 % der bezahlten Mieten auf den Kaufpreis angerechnet werden.",
+  },
+  {
+    question: "Lohnt sich Digital Signage für kleine Betriebe?",
+    answer:
+      "Ja, besonders wenn Inhalte regelmässig aktualisiert werden, Druckkosten reduziert werden sollen oder Angebote sichtbarer präsentiert werden sollen. Das Mietmodell macht den Einstieg auch für kleinere Budgets möglich.",
+  },
+];
 
 export const metadata: Metadata = {
   title: "Was kostet Digital Signage in der Schweiz? | Meister Signage",
@@ -56,6 +88,19 @@ const RENTAL_PACKAGES = [
 export default function WasKostetDigitalSignagePage() {
   return (
     <>
+      {/* Structured data */}
+      <JsonLd schema={faqSchema(PAGE_FAQS) as Record<string, unknown>} />
+      <JsonLd schema={breadcrumbSchema([
+        { name: "Home",         path: "/" },
+        { name: "Kostenübersicht", path: "/was-kostet-digital-signage-schweiz" },
+      ]) as Record<string, unknown>} />
+      <JsonLd schema={serviceSchema({
+        name: "Digital Signage Kosten Schweiz",
+        description: "Transparente Kostenübersicht für Digital-Signage-Lösungen in der Schweiz – Kauf, Miete, Lizenz und Einrichtung.",
+        url: "https://www.meister-signage.ch/was-kostet-digital-signage-schweiz",
+        serviceType: "Digital Signage Beratung",
+      }) as Record<string, unknown>} />
+
       <HeroSection
         eyebrow="Digital Signage Kosten Schweiz"
         title="Was kostet Digital Signage in der Schweiz?"
@@ -222,33 +267,7 @@ export default function WasKostetDigitalSignagePage() {
         eyebrow="Häufige Fragen"
         title="Häufige Fragen zu Digital Signage Kosten."
         subtitle="Klare Antworten zu Preisen, Modellen und Entscheidungshilfen."
-        faqs={[
-          {
-            question: "Was kostet ein Digital-Signage-Display in der Schweiz?",
-            answer:
-              "Professionelle Displays beginnen je nach Modell bei rund CHF 1'299. Im Mietmodell ist der Einstieg ab CHF 129 pro Monat möglich.",
-          },
-          {
-            question: "Was kostet Digital Signage monatlich?",
-            answer:
-              "Die Mietpreise starten bei CHF 129 pro Monat. Je nach Displaygrösse liegen die monatlichen Kosten zwischen CHF 129 und CHF 159. Die Lizenz ist im Mietmodell enthalten.",
-          },
-          {
-            question: "Gibt es versteckte Kosten?",
-            answer:
-              "Wichtig sind Einrichtung, Versand, Softwarelizenz beim Kauf, Content-Erstellung und je nach Einsatz eine mögliche Installation. Diese Punkte sollten im Angebot transparent ausgewiesen werden.",
-          },
-          {
-            question: "Ist Mieten oder Kaufen günstiger?",
-            answer:
-              "Für kurze oder flexible Einsätze ist Mieten meist sinnvoller. Bei langfristiger Nutzung über mehrere Jahre kann sich ein Kauf lohnen. Nach einer Mietphase können 30 % der bezahlten Mieten auf den Kaufpreis angerechnet werden.",
-          },
-          {
-            question: "Lohnt sich Digital Signage für kleine Betriebe?",
-            answer:
-              "Ja, besonders wenn Inhalte regelmässig aktualisiert werden, Druckkosten reduziert werden sollen oder Angebote sichtbarer präsentiert werden sollen. Das Mietmodell macht den Einstieg auch für kleinere Budgets möglich.",
-          },
-        ]}
+        faqs={PAGE_FAQS}
       />
 
       <InternalLinksSection

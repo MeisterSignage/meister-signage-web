@@ -8,6 +8,38 @@ import CTASection from "@/components/sections/CTASection";
 import ContactSection from "@/components/sections/ContactSection";
 import { Clock, BadgeCheck, MapPin, Zap, Receipt, Users } from "lucide-react";
 import InternalLinksSection from "@/components/sections/InternalLinksSection";
+import JsonLd from "@/components/JsonLd";
+import { faqSchema } from "@/lib/schema/faq";
+import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
+import { serviceSchema } from "@/lib/schema/service";
+
+const PAGE_FAQS = [
+  {
+    question: "Kann ich das Menü selbst täglich aktualisieren?",
+    answer:
+      "Ja. Die Lösung wird so eingerichtet, dass Sie oder Ihr Team Inhalte einfach und schnell anpassen können – ohne IT-Kenntnisse und ohne fremde Hilfe.",
+  },
+  {
+    question: "Was kostet ein digitales Menüboard?",
+    answer:
+      "Das hängt von Anzahl Displays, Grösse, Montage und gewünschtem Funktionsumfang ab. Ein schlanker Einstieg mit einem Bildschirm ist bereits ab einem überschaubaren Betrag möglich. Wir erstellen gerne ein konkretes Angebot.",
+  },
+  {
+    question: "Brauche ich dafür schnelles Internet oder besondere IT?",
+    answer:
+      "In den meisten Fällen reicht ein normaler WLAN-Anschluss. Die Lösung wird so geplant, dass keine technisch aufwändige Infrastruktur nötig ist.",
+  },
+  {
+    question: "Kann ich mit einem einzelnen Bildschirm starten?",
+    answer:
+      "Ja. Viele Gastronomiebetriebe starten mit einem Menüboard und erweitern später. Die Lösung ist von Anfang an auf Erweiterbarkeit ausgelegt.",
+  },
+  {
+    question: "Was passiert, wenn ein Display ausfällt oder etwas nicht funktioniert?",
+    answer:
+      "Sie erreichen uns direkt – keine anonyme Hotline, kein Ticketsystem. Als lokaler Anbieter aus der Zentralschweiz sind wir schnell erreichbar und reagieren unkompliziert.",
+  },
+];
 
 export const metadata: Metadata = {
   title: "Digital Signage Gastronomie | Meister Signage",
@@ -18,6 +50,19 @@ export const metadata: Metadata = {
 export default function GastronomiePage() {
   return (
     <>
+      {/* Structured data */}
+      <JsonLd schema={faqSchema(PAGE_FAQS) as Record<string, unknown>} />
+      <JsonLd schema={breadcrumbSchema([
+        { name: "Home",         path: "/" },
+        { name: "Gastronomie",  path: "/gastronomie" },
+      ]) as Record<string, unknown>} />
+      <JsonLd schema={serviceSchema({
+        name: "Digital Signage für Gastronomie",
+        description: "Digitale Menüboards und Bildschirmlösungen für Restaurants, Cafés und Gastronomiebetriebe in der Schweiz.",
+        url: "https://www.meister-signage.ch/gastronomie",
+        serviceType: "Menüboard",
+      }) as Record<string, unknown>} />
+
       <HeroSection
         eyebrow="Digital Signage für Gastronomie"
         title="Digital Signage für Gastronomie, die im Alltag funktioniert."
@@ -153,33 +198,7 @@ export default function GastronomiePage() {
         eyebrow="Häufige Fragen"
         title="Was Gastronomiebetriebe vor dem Start wissen wollen."
         subtitle="Die wichtigsten Antworten für Restaurants, Cafés und Betriebe, die Digital Signage einsetzen möchten."
-        faqs={[
-          {
-            question: "Kann ich das Menü selbst täglich aktualisieren?",
-            answer:
-              "Ja. Die Lösung wird so eingerichtet, dass Sie oder Ihr Team Inhalte einfach und schnell anpassen können – ohne IT-Kenntnisse und ohne fremde Hilfe.",
-          },
-          {
-            question: "Was kostet ein digitales Menüboard?",
-            answer:
-              "Das hängt von Anzahl Displays, Grösse, Montage und gewünschtem Funktionsumfang ab. Ein schlanker Einstieg mit einem Bildschirm ist bereits ab einem überschaubaren Betrag möglich. Wir erstellen gerne ein konkretes Angebot.",
-          },
-          {
-            question: "Brauche ich dafür schnelles Internet oder besondere IT?",
-            answer:
-              "In den meisten Fällen reicht ein normaler WLAN-Anschluss. Die Lösung wird so geplant, dass keine technisch aufwändige Infrastruktur nötig ist.",
-          },
-          {
-            question: "Kann ich mit einem einzelnen Bildschirm starten?",
-            answer:
-              "Ja. Viele Gastronomiebetriebe starten mit einem Menüboard und erweitern später. Die Lösung ist von Anfang an auf Erweiterbarkeit ausgelegt.",
-          },
-          {
-            question: "Was passiert, wenn ein Display ausfällt oder etwas nicht funktioniert?",
-            answer:
-              "Sie erreichen uns direkt – keine anonyme Hotline, kein Ticketsystem. Als lokaler Anbieter aus der Zentralschweiz sind wir schnell erreichbar und reagieren unkompliziert.",
-          },
-        ]}
+        faqs={PAGE_FAQS}
       />
 
       <InternalLinksSection

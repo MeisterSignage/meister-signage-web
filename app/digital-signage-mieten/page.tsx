@@ -9,6 +9,38 @@ import CTASection from "@/components/sections/CTASection";
 import ContactSection from "@/components/sections/ContactSection";
 import { Banknote, CalendarRange, Zap, BadgeCheck, MonitorPlay, UserCheck } from "lucide-react";
 import InternalLinksSection from "@/components/sections/InternalLinksSection";
+import JsonLd from "@/components/JsonLd";
+import { faqSchema } from "@/lib/schema/faq";
+import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
+import { serviceSchema } from "@/lib/schema/service";
+
+const PAGE_FAQS = [
+  {
+    question: "Was ist im monatlichen Preis enthalten?",
+    answer:
+      "Die Pakete beinhalten den jeweiligen Digital-Signage-Screen sowie die Lizenzgebühren für die Nutzung. Je nach Projekt können zusätzliche Setup- oder Serviceleistungen anfallen – das klären wir transparent im Voraus.",
+  },
+  {
+    question: "Gibt es eine Setup-Gebühr?",
+    answer:
+      "Je nach Anwendung kann eine einmalige Setup-Gebühr für Vorbereitung, Einrichtung und individuelle Konfiguration anfallen. Das wird im Angebot ausgewiesen.",
+  },
+  {
+    question: "Für welche Einsätze eignet sich die Miete?",
+    answer:
+      "Besonders bewährt hat sich die Miete für Events, Messen, Pop-ups, saisonale Aktionen, Gastronomie, Retail und temporäre Informationsflächen – überall dort, wo Flexibilität wichtiger ist als Eigentum.",
+  },
+  {
+    question: "Kann ich später kaufen statt mieten?",
+    answer:
+      "Das kann individuell besprochen werden. Die Miete eignet sich auch gut, um Digital Signage zuerst im Alltag zu testen, bevor eine langfristige Kaufentscheidung getroffen wird.",
+  },
+  {
+    question: "Unterstützt Meister Signage bei der Einrichtung?",
+    answer:
+      "Ja. Die Lösung wird so vorbereitet, dass sie verständlich eingesetzt werden kann. Auf Wunsch unterstützen wir persönlich vor Ort oder remote bei der Inbetriebnahme.",
+  },
+];
 
 export const metadata: Metadata = {
   title: "Digital Signage mieten | Meister Signage",
@@ -74,6 +106,19 @@ const PACKAGES = [
 export default function DigitalSignageMietenPage() {
   return (
     <>
+      {/* Structured data */}
+      <JsonLd schema={faqSchema(PAGE_FAQS) as Record<string, unknown>} />
+      <JsonLd schema={breadcrumbSchema([
+        { name: "Home",                  path: "/" },
+        { name: "Digital Signage mieten", path: "/digital-signage-mieten" },
+      ]) as Record<string, unknown>} />
+      <JsonLd schema={serviceSchema({
+        name: "Digital Signage mieten",
+        description: "Flexible Bildschirmmiete für Events, Messen, Pop-ups und temporäre Einsätze – inklusive Einrichtung, Lizenz und persönlicher Betreuung.",
+        url: "https://www.meister-signage.ch/digital-signage-mieten",
+        serviceType: "Bildschirmvermietung",
+      }) as Record<string, unknown>} />
+
       <HeroSection
         eyebrow="Digital Signage mieten"
         title="Digital Signage mieten – flexibel, einfach und persönlich betreut."
@@ -218,33 +263,7 @@ export default function DigitalSignageMietenPage() {
         eyebrow="Häufige Fragen"
         title="Was Sie zur Miete wissen sollten."
         subtitle="Antworten auf die häufigsten Fragen rund um die Digital-Signage-Mietpakete."
-        faqs={[
-          {
-            question: "Was ist im monatlichen Preis enthalten?",
-            answer:
-              "Die Pakete beinhalten den jeweiligen Digital-Signage-Screen sowie die Lizenzgebühren für die Nutzung. Je nach Projekt können zusätzliche Setup- oder Serviceleistungen anfallen – das klären wir transparent im Voraus.",
-          },
-          {
-            question: "Gibt es eine Setup-Gebühr?",
-            answer:
-              "Je nach Anwendung kann eine einmalige Setup-Gebühr für Vorbereitung, Einrichtung und individuelle Konfiguration anfallen. Das wird im Angebot ausgewiesen.",
-          },
-          {
-            question: "Für welche Einsätze eignet sich die Miete?",
-            answer:
-              "Besonders bewährt hat sich die Miete für Events, Messen, Pop-ups, saisonale Aktionen, Gastronomie, Retail und temporäre Informationsflächen – überall dort, wo Flexibilität wichtiger ist als Eigentum.",
-          },
-          {
-            question: "Kann ich später kaufen statt mieten?",
-            answer:
-              "Das kann individuell besprochen werden. Die Miete eignet sich auch gut, um Digital Signage zuerst im Alltag zu testen, bevor eine langfristige Kaufentscheidung getroffen wird.",
-          },
-          {
-            question: "Unterstützt Meister Signage bei der Einrichtung?",
-            answer:
-              "Ja. Die Lösung wird so vorbereitet, dass sie verständlich eingesetzt werden kann. Auf Wunsch unterstützen wir persönlich vor Ort oder remote bei der Inbetriebnahme.",
-          },
-        ]}
+        faqs={PAGE_FAQS}
       />
 
       <InternalLinksSection

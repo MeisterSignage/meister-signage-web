@@ -8,6 +8,43 @@ import CTASection from "@/components/sections/CTASection";
 import ContactSection from "@/components/sections/ContactSection";
 import { BellRing, MapPin, CalendarDays, BadgeCheck, LayoutDashboard, Users } from "lucide-react";
 import InternalLinksSection from "@/components/sections/InternalLinksSection";
+import JsonLd from "@/components/JsonLd";
+import { faqSchema } from "@/lib/schema/faq";
+import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
+import { serviceSchema } from "@/lib/schema/service";
+
+const PAGE_FAQS = [
+  {
+    question: "Für welche Hotelbereiche eignet sich Digital Signage?",
+    answer:
+      "Besonders bewährt hat sich der Einsatz in Lobbys und Empfangsbereichen, bei Tagungsraumbeschilderungen, im Restaurant (digitale Speisekarten), in Korridoren zur Wegweisung sowie im Spa- und Wellnessbereich. Auch digitale Willkommensbildschirme für Gruppen oder Tagungsgäste sind beliebt.",
+  },
+  {
+    question: "Wie aufwendig ist die tägliche Pflege der Inhalte?",
+    answer:
+      "Die Bedienung ist einfach und für Hotelmitarbeitende ohne technische Vorkenntnisse geeignet. Typische Anpassungen wie das Aktualisieren von Öffnungszeiten, Veranstaltungstiteln oder Tagesmenüs dauern wenige Minuten.",
+  },
+  {
+    question: "Können verschiedene Bereiche unterschiedliche Inhalte zeigen?",
+    answer:
+      "Ja. Jeder Bildschirm oder jede Gruppe von Bildschirmen kann individuell bespielt werden. Das Restaurant zeigt andere Inhalte als die Tagungsraumbeschilderung – alles aus einem zentralen System steuerbar.",
+  },
+  {
+    question: "Was passiert, wenn sich die Tagungsraumbelegung kurzfristig ändert?",
+    answer:
+      "Raumzuweisungen lassen sich in wenigen Sekunden anpassen. Die aktualisierten Informationen erscheinen sofort auf den entsprechenden Displays – ohne Ausdrucken, Aushängen oder manuelle Eingriffe vor Ort.",
+  },
+  {
+    question: "Wie hoch ist der Installationsaufwand im laufenden Hotelbetrieb?",
+    answer:
+      "Wir planen die Installation so, dass der Gästebetrieb möglichst wenig beeinträchtigt wird. Montage und Einrichtung finden in der Regel ausserhalb der Stosszeiten statt. Die meisten Installationen sind innerhalb eines Tages abgeschlossen.",
+  },
+  {
+    question: "Ist eine Anbindung an das Hotel-PMS oder Reservierungssystem möglich?",
+    answer:
+      "Je nach eingesetztem System sind Integrationen möglich. Wir klären im Beratungsgespräch, welche Anbindungen sinnvoll und machbar sind – und was sich auch ohne Integration effizient lösen lässt.",
+  },
+];
 
 export const metadata: Metadata = {
   title: "Digital Signage Hotellerie | Meister Signage",
@@ -18,6 +55,19 @@ export const metadata: Metadata = {
 export default function HotelleriePage() {
   return (
     <>
+      {/* Structured data */}
+      <JsonLd schema={faqSchema(PAGE_FAQS) as Record<string, unknown>} />
+      <JsonLd schema={breadcrumbSchema([
+        { name: "Home",       path: "/" },
+        { name: "Hotellerie", path: "/hotellerie" },
+      ]) as Record<string, unknown>} />
+      <JsonLd schema={serviceSchema({
+        name: "Digital Signage für Hotellerie",
+        description: "Gästekommunikation, Wegweisung und digitale Raumbeschilderung für Hotels in der Schweiz.",
+        url: "https://www.meister-signage.ch/hotellerie",
+        serviceType: "Infoscreen Hotellerie",
+      }) as Record<string, unknown>} />
+
       <HeroSection
         eyebrow="Digital Signage für Hotellerie"
         title="Digital Signage für moderne Hotellerie."
@@ -153,38 +203,7 @@ export default function HotelleriePage() {
         eyebrow="Häufige Fragen"
         title="Was Hotels vor dem Start wissen wollen."
         subtitle="Die wichtigsten Antworten rund um Digital Signage in der Hotellerie."
-        faqs={[
-          {
-            question: "Für welche Hotelbereiche eignet sich Digital Signage?",
-            answer:
-              "Besonders bewährt hat sich der Einsatz in Lobbys und Empfangsbereichen, bei Tagungsraumbeschilderungen, im Restaurant (digitale Speisekarten), in Korridoren zur Wegweisung sowie im Spa- und Wellnessbereich. Auch digitale Willkommensbildschirme für Gruppen oder Tagungsgäste sind beliebt.",
-          },
-          {
-            question: "Wie aufwendig ist die tägliche Pflege der Inhalte?",
-            answer:
-              "Die Bedienung ist einfach und für Hotelmitarbeitende ohne technische Vorkenntnisse geeignet. Typische Anpassungen wie das Aktualisieren von Öffnungszeiten, Veranstaltungstiteln oder Tagesmenüs dauern wenige Minuten.",
-          },
-          {
-            question: "Können verschiedene Bereiche unterschiedliche Inhalte zeigen?",
-            answer:
-              "Ja. Jeder Bildschirm oder jede Gruppe von Bildschirmen kann individuell bespielt werden. Das Restaurant zeigt andere Inhalte als die Tagungsraumbeschilderung – alles aus einem zentralen System steuerbar.",
-          },
-          {
-            question: "Was passiert, wenn sich die Tagungsraumbelegung kurzfristig ändert?",
-            answer:
-              "Raumzuweisungen lassen sich in wenigen Sekunden anpassen. Die aktualisierten Informationen erscheinen sofort auf den entsprechenden Displays – ohne Ausdrucken, Aushängen oder manuelle Eingriffe vor Ort.",
-          },
-          {
-            question: "Wie hoch ist der Installationsaufwand im laufenden Hotelbetrieb?",
-            answer:
-              "Wir planen die Installation so, dass der Gästebetrieb möglichst wenig beeinträchtigt wird. Montage und Einrichtung finden in der Regel ausserhalb der Stosszeiten statt. Die meisten Installationen sind innerhalb eines Tages abgeschlossen.",
-          },
-          {
-            question: "Ist eine Anbindung an das Hotel-PMS oder Reservierungssystem möglich?",
-            answer:
-              "Je nach eingesetztem System sind Integrationen möglich. Wir klären im Beratungsgespräch, welche Anbindungen sinnvoll und machbar sind – und was sich auch ohne Integration effizient lösen lässt.",
-          },
-        ]}
+        faqs={PAGE_FAQS}
       />
 
       <InternalLinksSection

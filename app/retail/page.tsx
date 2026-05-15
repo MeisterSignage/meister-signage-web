@@ -8,6 +8,38 @@ import CTASection from "@/components/sections/CTASection";
 import ContactSection from "@/components/sections/ContactSection";
 import { Tag, TrendingUp, BadgeCheck, MapPin, Zap, LayoutTemplate } from "lucide-react";
 import InternalLinksSection from "@/components/sections/InternalLinksSection";
+import JsonLd from "@/components/JsonLd";
+import { faqSchema } from "@/lib/schema/faq";
+import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
+import { serviceSchema } from "@/lib/schema/service";
+
+const PAGE_FAQS = [
+  {
+    question: "Kann ich Aktionen selbst schnell anpassen?",
+    answer:
+      "Ja. Die Lösung wird so eingerichtet, dass Sie oder Ihr Team Inhalte jederzeit selbst ändern können – auch kurzfristig, auch ohne IT-Kenntnisse.",
+  },
+  {
+    question: "Was kostet eine Digital-Signage-Lösung für ein Geschäft?",
+    answer:
+      "Das hängt von Anzahl Displays, Standorten und gewünschtem Funktionsumfang ab. Ein schlanker Einstieg mit einem oder zwei Bildschirmen ist bereits mit überschaubarem Budget möglich. Wir erstellen gerne ein konkretes Angebot.",
+  },
+  {
+    question: "Kann ich verschiedene Inhalte für verschiedene Bereiche zeigen?",
+    answer:
+      "Ja. Verschiedene Displays können unterschiedliche Inhalte anzeigen – zum Beispiel Eingangsbereich, Kassenzone und Schaufenster je separat bespielt werden.",
+  },
+  {
+    question: "Brauche ich dafür besondere Technik oder IT?",
+    answer:
+      "Nein. In den meisten Fällen genügt ein normaler WLAN-Anschluss. Wir planen die Lösung so, dass sie ohne IT-Abteilung funktioniert.",
+  },
+  {
+    question: "Was passiert, wenn etwas nicht funktioniert?",
+    answer:
+      "Sie erreichen uns direkt – kein Ticketsystem, keine anonyme Hotline. Als lokaler Anbieter aus der Zentralschweiz reagieren wir schnell und unkompliziert.",
+  },
+];
 
 export const metadata: Metadata = {
   title: "Digital Signage Retail | Meister Signage",
@@ -18,6 +50,19 @@ export const metadata: Metadata = {
 export default function RetailPage() {
   return (
     <>
+      {/* Structured data */}
+      <JsonLd schema={faqSchema(PAGE_FAQS) as Record<string, unknown>} />
+      <JsonLd schema={breadcrumbSchema([
+        { name: "Home",            path: "/" },
+        { name: "Retail & Handel", path: "/retail" },
+      ]) as Record<string, unknown>} />
+      <JsonLd schema={serviceSchema({
+        name: "Digital Signage für Retail und Handel",
+        description: "Digitale Beschilderung für Aktionen, Produktinformationen und Markenkommunikation am Point of Sale in der Schweiz.",
+        url: "https://www.meister-signage.ch/retail",
+        serviceType: "Digital Signage Retail",
+      }) as Record<string, unknown>} />
+
       <HeroSection
         eyebrow="Digital Signage für Retail und Handel"
         title="Digital Signage für Retail und Handel."
@@ -153,33 +198,7 @@ export default function RetailPage() {
         eyebrow="Häufige Fragen"
         title="Was Retail-Betriebe vor dem Start wissen wollen."
         subtitle="Die wichtigsten Antworten für Geschäfte und Handelsbetriebe, die Digital Signage einsetzen möchten."
-        faqs={[
-          {
-            question: "Kann ich Aktionen selbst schnell anpassen?",
-            answer:
-              "Ja. Die Lösung wird so eingerichtet, dass Sie oder Ihr Team Inhalte jederzeit selbst ändern können – auch kurzfristig, auch ohne IT-Kenntnisse.",
-          },
-          {
-            question: "Was kostet eine Digital-Signage-Lösung für ein Geschäft?",
-            answer:
-              "Das hängt von Anzahl Displays, Standorten und gewünschtem Funktionsumfang ab. Ein schlanker Einstieg mit einem oder zwei Bildschirmen ist bereits mit überschaubarem Budget möglich. Wir erstellen gerne ein konkretes Angebot.",
-          },
-          {
-            question: "Kann ich verschiedene Inhalte für verschiedene Bereiche zeigen?",
-            answer:
-              "Ja. Verschiedene Displays können unterschiedliche Inhalte anzeigen – zum Beispiel Eingangsbereich, Kassenzone und Schaufenster je separat bespielt werden.",
-          },
-          {
-            question: "Brauche ich dafür besondere Technik oder IT?",
-            answer:
-              "Nein. In den meisten Fällen genügt ein normaler WLAN-Anschluss. Wir planen die Lösung so, dass sie ohne IT-Abteilung funktioniert.",
-          },
-          {
-            question: "Was passiert, wenn etwas nicht funktioniert?",
-            answer:
-              "Sie erreichen uns direkt – kein Ticketsystem, keine anonyme Hotline. Als lokaler Anbieter aus der Zentralschweiz reagieren wir schnell und unkompliziert.",
-          },
-        ]}
+        faqs={PAGE_FAQS}
       />
 
       <InternalLinksSection

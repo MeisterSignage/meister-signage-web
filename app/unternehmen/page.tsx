@@ -8,6 +8,43 @@ import CTASection from "@/components/sections/CTASection";
 import ContactSection from "@/components/sections/ContactSection";
 import { BarChart2, UserCheck, MonitorPlay, BadgeCheck, LayoutDashboard, Building2 } from "lucide-react";
 import InternalLinksSection from "@/components/sections/InternalLinksSection";
+import JsonLd from "@/components/JsonLd";
+import { faqSchema } from "@/lib/schema/faq";
+import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
+import { serviceSchema } from "@/lib/schema/service";
+
+const PAGE_FAQS = [
+  {
+    question: "Für welche Unternehmensgrössen eignet sich Digital Signage?",
+    answer:
+      "Von kleinen Betrieben mit einem Empfangsbildschirm bis zu grösseren Unternehmen mit mehreren Standorten und Dutzenden Displays. Meister Signage plant Lösungen, die zur Unternehmensgrösse passen – nicht umgekehrt.",
+  },
+  {
+    question: "Können verschiedene Bereiche unterschiedliche Inhalte anzeigen?",
+    answer:
+      "Ja. Empfang, Pausenraum, Produktionshalle und Meetingbereiche können jeweils unterschiedliche Inhalte zeigen – alles zentral aus einem System steuerbar.",
+  },
+  {
+    question: "Wie aufwendig ist die tägliche Inhaltspflege?",
+    answer:
+      "Die Bedienung ist einfach und für Mitarbeitende ohne technische Vorkenntnisse geeignet. Wiederkehrende Inhalte lassen sich einmal einrichten und automatisch aus Zeitplänen abspielen.",
+  },
+  {
+    question: "Ist eine Anbindung an interne Systeme wie SharePoint, Teams oder ERP möglich?",
+    answer:
+      "Je nach System sind Integrationen möglich. Wir klären im Beratungsgespräch, was sinnvoll und umsetzbar ist – und was sich auch ohne tiefe Integration effizient lösen lässt.",
+  },
+  {
+    question: "Was kostet eine typische Unternehmenslösung?",
+    answer:
+      "Die Kosten hängen von Anzahl der Displays, Standortgrösse und gewünschter Funktionalität ab. Nach einem kurzen Gespräch erhalten Sie ein transparentes Angebot – ohne versteckte Kosten.",
+  },
+  {
+    question: "Was passiert, wenn ein Bildschirm ausfällt oder ein technisches Problem auftritt?",
+    answer:
+      "Meister Signage ist direkt erreichbar – kein Ticketsystem, keine Hotline. Wir reagieren schnell und lösen Probleme unkompliziert, damit Ihr Betrieb nicht stillsteht.",
+  },
+];
 
 export const metadata: Metadata = {
   title: "Digital Signage Unternehmen | Meister Signage",
@@ -18,6 +55,19 @@ export const metadata: Metadata = {
 export default function UnternehmenPage() {
   return (
     <>
+      {/* Structured data */}
+      <JsonLd schema={faqSchema(PAGE_FAQS) as Record<string, unknown>} />
+      <JsonLd schema={breadcrumbSchema([
+        { name: "Home",        path: "/" },
+        { name: "Unternehmen", path: "/unternehmen" },
+      ]) as Record<string, unknown>} />
+      <JsonLd schema={serviceSchema({
+        name: "Digital Signage für Unternehmen",
+        description: "Interne Kommunikation, Empfangsbildschirme und digitale Informationssysteme für Unternehmen in der Schweiz.",
+        url: "https://www.meister-signage.ch/unternehmen",
+        serviceType: "Interne Kommunikation",
+      }) as Record<string, unknown>} />
+
       <HeroSection
         eyebrow="Digital Signage für Unternehmen"
         title="Digital Signage für Unternehmen und interne Kommunikation."
@@ -153,38 +203,7 @@ export default function UnternehmenPage() {
         eyebrow="Häufige Fragen"
         title="Was Unternehmen vor dem Start fragen."
         subtitle="Die wichtigsten Antworten rund um Digital Signage für Unternehmen und interne Kommunikation."
-        faqs={[
-          {
-            question: "Für welche Unternehmensgrössen eignet sich Digital Signage?",
-            answer:
-              "Von kleinen Betrieben mit einem Empfangsbildschirm bis zu grösseren Unternehmen mit mehreren Standorten und Dutzenden Displays. Meister Signage plant Lösungen, die zur Unternehmensgrösse passen – nicht umgekehrt.",
-          },
-          {
-            question: "Können verschiedene Bereiche unterschiedliche Inhalte anzeigen?",
-            answer:
-              "Ja. Empfang, Pausenraum, Produktionshalle und Meetingbereiche können jeweils unterschiedliche Inhalte zeigen – alles zentral aus einem System steuerbar.",
-          },
-          {
-            question: "Wie aufwendig ist die tägliche Inhaltspflege?",
-            answer:
-              "Die Bedienung ist einfach und für Mitarbeitende ohne technische Vorkenntnisse geeignet. Wiederkehrende Inhalte lassen sich einmal einrichten und automatisch aus Zeitplänen abspielen.",
-          },
-          {
-            question: "Ist eine Anbindung an interne Systeme wie SharePoint, Teams oder ERP möglich?",
-            answer:
-              "Je nach System sind Integrationen möglich. Wir klären im Beratungsgespräch, was sinnvoll und umsetzbar ist – und was sich auch ohne tiefe Integration effizient lösen lässt.",
-          },
-          {
-            question: "Was kostet eine typische Unternehmenslösung?",
-            answer:
-              "Die Kosten hängen von Anzahl der Displays, Standortgrösse und gewünschter Funktionalität ab. Nach einem kurzen Gespräch erhalten Sie ein transparentes Angebot – ohne versteckte Kosten.",
-          },
-          {
-            question: "Was passiert, wenn ein Bildschirm ausfällt oder ein technisches Problem auftritt?",
-            answer:
-              "Meister Signage ist direkt erreichbar – kein Ticketsystem, keine Hotline. Wir reagieren schnell und lösen Probleme unkompliziert, damit Ihr Betrieb nicht stillsteht.",
-          },
-        ]}
+        faqs={PAGE_FAQS}
       />
 
       <InternalLinksSection

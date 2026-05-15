@@ -8,6 +8,38 @@ import CTASection from "@/components/sections/CTASection";
 import ContactSection from "@/components/sections/ContactSection";
 import { CalendarRange, Navigation, Users, Zap, BadgeCheck, MapPin } from "lucide-react";
 import InternalLinksSection from "@/components/sections/InternalLinksSection";
+import JsonLd from "@/components/JsonLd";
+import { faqSchema } from "@/lib/schema/faq";
+import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
+import { serviceSchema } from "@/lib/schema/service";
+
+const PAGE_FAQS = [
+  {
+    question: "Kann ich Bildschirme auch mieten statt kaufen?",
+    answer:
+      "Ja. Für temporäre Events bieten wir Bildschirme zur Miete an – inklusive Einrichtung und Betreuung. Kaufen lohnt sich bei wiederkehrenden Veranstaltungen.",
+  },
+  {
+    question: "Wie kurzfristig können Inhalte während des Events geändert werden?",
+    answer:
+      "Inhalte können in Echtzeit angepasst werden – Zeitplanänderungen, Hinweise oder Notfallinformationen sind innerhalb von Sekunden auf allen Displays sichtbar.",
+  },
+  {
+    question: "Brauche ich am Veranstaltungsort Internet?",
+    answer:
+      "Eine WLAN-Verbindung erleichtert kurzfristige Anpassungen. Für einfachere Setups ohne Liveupdates sind auch offline Lösungen möglich – wir planen das gemeinsam.",
+  },
+  {
+    question: "Wie früh muss ich anfragen?",
+    answer:
+      "Je früher, desto besser – damit genügend Zeit für Planung, Inhaltsvorbereitung und Einrichtung bleibt. Bei kleineren Setups sind auch kurzfristigere Anfragen möglich.",
+  },
+  {
+    question: "Können verschiedene Zonen unterschiedliche Inhalte anzeigen?",
+    answer:
+      "Ja. Eingangsbereich, Bühnennahe Displays, Sponsorenwände und Wegweisung können je separat und unabhängig voneinander bespielt werden.",
+  },
+];
 
 export const metadata: Metadata = {
   title: "Digital Signage Events | Meister Signage",
@@ -18,6 +50,19 @@ export const metadata: Metadata = {
 export default function EventsPage() {
   return (
     <>
+      {/* Structured data */}
+      <JsonLd schema={faqSchema(PAGE_FAQS) as Record<string, unknown>} />
+      <JsonLd schema={breadcrumbSchema([
+        { name: "Home",   path: "/" },
+        { name: "Events", path: "/events" },
+      ]) as Record<string, unknown>} />
+      <JsonLd schema={serviceSchema({
+        name: "Digital Signage für Events",
+        description: "Digitale Bildschirmlösungen für Events, Messen und Veranstaltungen – Zeitpläne, Wegweisung und Sponsoreninformationen auf Displays.",
+        url: "https://www.meister-signage.ch/events",
+        serviceType: "Event Digital Signage",
+      }) as Record<string, unknown>} />
+
       <HeroSection
         eyebrow="Digital Signage für Events"
         title="Digital Signage für Events und Veranstaltungen."
@@ -153,33 +198,7 @@ export default function EventsPage() {
         eyebrow="Häufige Fragen"
         title="Was Veranstalter vor dem Start wissen wollen."
         subtitle="Die wichtigsten Antworten für Events, Messen und Veranstaltungen, die Digital Signage einsetzen möchten."
-        faqs={[
-          {
-            question: "Kann ich Bildschirme auch mieten statt kaufen?",
-            answer:
-              "Ja. Für temporäre Events bieten wir Bildschirme zur Miete an – inklusive Einrichtung und Betreuung. Kaufen lohnt sich bei wiederkehrenden Veranstaltungen.",
-          },
-          {
-            question: "Wie kurzfristig können Inhalte während des Events geändert werden?",
-            answer:
-              "Inhalte können in Echtzeit angepasst werden – Zeitplanänderungen, Hinweise oder Notfallinformationen sind innerhalb von Sekunden auf allen Displays sichtbar.",
-          },
-          {
-            question: "Brauche ich am Veranstaltungsort Internet?",
-            answer:
-              "Eine WLAN-Verbindung erleichtert kurzfristige Anpassungen. Für einfachere Setups ohne Liveupdates sind auch offline Lösungen möglich – wir planen das gemeinsam.",
-          },
-          {
-            question: "Wie früh muss ich anfragen?",
-            answer:
-              "Je früher, desto besser – damit genügend Zeit für Planung, Inhaltsvorbereitung und Einrichtung bleibt. Bei kleineren Setups sind auch kurzfristigere Anfragen möglich.",
-          },
-          {
-            question: "Können verschiedene Zonen unterschiedliche Inhalte anzeigen?",
-            answer:
-              "Ja. Eingangsbereich, Bühnennahe Displays, Sponsorenwände und Wegweisung können je separat und unabhängig voneinander bespielt werden.",
-          },
-        ]}
+        faqs={PAGE_FAQS}
       />
 
       <InternalLinksSection

@@ -23,6 +23,10 @@ import {
   MessageSquare,
   Users,
 } from "lucide-react";
+import JsonLd from "@/components/JsonLd";
+import { faqSchema } from "@/lib/schema/faq";
+import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
+import { serviceSchema } from "@/lib/schema/service";
 
 const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/digital-signage-schweiz`;
@@ -60,81 +64,40 @@ export const metadata: Metadata = {
   },
 };
 
-// ── Structured data ────────────────────────────────────────────────────────────
+// ── Page-specific FAQ data (shared between FAQSection and JSON-LD) ─────────────
 
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "Was ist Digital Signage?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Digital Signage beschreibt den Einsatz digitaler Bildschirme zur Anzeige von Informationen, Werbung, Angeboten oder interner Kommunikation. Inhalte werden zentral verwaltet und können flexibel angepasst werden.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Für welche Unternehmen eignet sich Digital Signage?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Digital Signage eignet sich für Gastronomie, Hotellerie, Retail, Unternehmen, Events und alle Betriebe, die Informationen sichtbar und aktuell halten möchten.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Was kostet Digital Signage in der Schweiz?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Mietlösungen starten ab CHF 129 pro Monat inklusive Lizenz. Beim Kauf beginnen professionelle Displays bei CHF 1'299. Zusätzliche Kosten können für Einrichtung, Versand und Installation entstehen.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Kann man Digital Signage mieten?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Ja. Meister Signage bietet flexible Mietpakete ab CHF 129 pro Monat an – inklusive Lizenz, Cloud-Steuerung und Support. Ideal für Events, temporäre Einsätze oder als Einstieg ohne grosse Investition.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Wie werden Inhalte verwaltet?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Inhalte werden über ein cloudbasiertes System zentral verwaltet. Änderungen sind jederzeit möglich und erscheinen sofort auf den entsprechenden Displays.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Unterstützt Meister Signage bei der Einrichtung?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Ja. Meister Signage übernimmt Planung, Einrichtung und Inbetriebnahme und bleibt auch nach dem Start direkt erreichbar – ohne Ticketsystem.",
-      },
-    },
-  ],
-};
-
-const breadcrumbSchema = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    {
-      "@type": "ListItem",
-      position: 1,
-      name: "Home",
-      item: SITE_URL,
-    },
-    {
-      "@type": "ListItem",
-      position: 2,
-      name: "Digital Signage Schweiz",
-      item: PAGE_URL,
-    },
-  ],
-};
+const PAGE_FAQS = [
+  {
+    question: "Was ist Digital Signage?",
+    answer:
+      "Digital Signage beschreibt den Einsatz digitaler Bildschirme zur Anzeige von Informationen, Werbung, Angeboten oder interner Kommunikation. Inhalte werden zentral verwaltet und können flexibel angepasst werden.",
+  },
+  {
+    question: "Für welche Unternehmen eignet sich Digital Signage?",
+    answer:
+      "Für Gastronomie, Hotellerie, Retail, Unternehmen, Events und alle Betriebe, die Informationen sichtbar und aktuell halten möchten. Besonders sinnvoll ist Digital Signage, wenn Inhalte regelmässig wechseln oder mehrere Standorte versorgt werden sollen.",
+  },
+  {
+    question: "Was kostet Digital Signage in der Schweiz?",
+    answer:
+      "Mietlösungen starten ab CHF 129 pro Monat inklusive Lizenz. Beim Kauf beginnen professionelle Displays bei CHF 1'299. Zusätzliche Kosten können für Einrichtung (ab CHF 149), Versand (ca. CHF 60 pro Display) und optionale Installation entstehen.",
+  },
+  {
+    question: "Kann man Digital Signage mieten?",
+    answer:
+      "Ja. Meister Signage bietet flexible Mietpakete ab CHF 129 pro Monat an — inklusive Lizenz, Cloud-Steuerung und Support. Ideal für Events, temporäre Einsätze oder als Einstieg ohne grosse Anfangsinvestition.",
+  },
+  {
+    question: "Wie werden Inhalte verwaltet?",
+    answer:
+      "Inhalte werden über ein cloudbasiertes System zentral verwaltet. Änderungen sind jederzeit möglich und erscheinen sofort auf den entsprechenden Displays — von überall steuerbar.",
+  },
+  {
+    question: "Unterstützt Meister Signage bei der Einrichtung?",
+    answer:
+      "Ja. Meister Signage übernimmt Planung, Einrichtung und Inbetriebnahme. Das Personal wird in der Bedienung eingeführt und der direkte Ansprechpartner bleibt auch nach dem Start erreichbar.",
+  },
+];
 
 // ── Page ───────────────────────────────────────────────────────────────────────
 
@@ -142,14 +105,16 @@ export default function DigitalSignageSchweiPage() {
   return (
     <>
       {/* Structured data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
+      <JsonLd schema={faqSchema(PAGE_FAQS) as Record<string, unknown>} />
+      <JsonLd schema={breadcrumbSchema([
+        { name: "Home",                   path: "/" },
+        { name: "Digital Signage Schweiz", path: "/digital-signage-schweiz" },
+      ]) as Record<string, unknown>} />
+      <JsonLd schema={serviceSchema({
+        name: "Digital Signage",
+        description: "Planung und Umsetzung von Digital-Signage-Lösungen für Gastronomie, Retail, Unternehmen, Hotellerie und Events in der Schweiz.",
+        url: PAGE_URL,
+      }) as Record<string, unknown>} />
 
       {/* 1 — Hero */}
       <HeroSection
@@ -379,38 +344,7 @@ export default function DigitalSignageSchweiPage() {
         eyebrow="Häufige Fragen"
         title="Häufige Fragen zu Digital Signage."
         subtitle="Die wichtigsten Antworten für Betriebe, die Digital Signage sinnvoll und verständlich einsetzen möchten."
-        faqs={[
-          {
-            question: "Was ist Digital Signage?",
-            answer:
-              "Digital Signage beschreibt den Einsatz digitaler Bildschirme zur Anzeige von Informationen, Werbung, Angeboten oder interner Kommunikation. Inhalte werden zentral verwaltet und können flexibel angepasst werden.",
-          },
-          {
-            question: "Für welche Unternehmen eignet sich Digital Signage?",
-            answer:
-              "Für Gastronomie, Hotellerie, Retail, Unternehmen, Events und alle Betriebe, die Informationen sichtbar und aktuell halten möchten. Besonders sinnvoll ist Digital Signage, wenn Inhalte regelmässig wechseln oder mehrere Standorte versorgt werden sollen.",
-          },
-          {
-            question: "Was kostet Digital Signage in der Schweiz?",
-            answer:
-              "Mietlösungen starten ab CHF 129 pro Monat inklusive Lizenz. Beim Kauf beginnen professionelle Displays bei CHF 1'299. Zusätzliche Kosten können für Einrichtung (ab CHF 149), Versand (ca. CHF 60 pro Display) und optionale Installation entstehen.",
-          },
-          {
-            question: "Kann man Digital Signage mieten?",
-            answer:
-              "Ja. Meister Signage bietet flexible Mietpakete ab CHF 129 pro Monat an — inklusive Lizenz, Cloud-Steuerung und Support. Ideal für Events, temporäre Einsätze oder als Einstieg ohne grosse Anfangsinvestition.",
-          },
-          {
-            question: "Wie werden Inhalte verwaltet?",
-            answer:
-              "Inhalte werden über ein cloudbasiertes System zentral verwaltet. Änderungen sind jederzeit möglich und erscheinen sofort auf den entsprechenden Displays — von überall steuerbar.",
-          },
-          {
-            question: "Unterstützt Meister Signage bei der Einrichtung?",
-            answer:
-              "Ja. Meister Signage übernimmt Planung, Einrichtung und Inbetriebnahme. Das Personal wird in der Bedienung eingeführt und der direkte Ansprechpartner bleibt auch nach dem Start erreichbar.",
-          },
-        ]}
+        faqs={PAGE_FAQS}
       />
 
       {/* 9 — Interne Links */}
