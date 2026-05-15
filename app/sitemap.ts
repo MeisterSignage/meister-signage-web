@@ -5,7 +5,8 @@ export const dynamic = "force-static";
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://www.meister-signage.ch";
   const pages = [
-    { url: "/",            priority: 1.0, cf: "weekly"  as const },
+    { url: "/",                            priority: 1.0, cf: "weekly"  as const },
+    { url: "/digital-signage-schweiz",     priority: 1.0, cf: "weekly"  as const },
     { url: "/gastronomie", priority: 0.9, cf: "monthly" as const },
     { url: "/retail",      priority: 0.9, cf: "monthly" as const },
     { url: "/events",      priority: 0.8, cf: "monthly" as const },

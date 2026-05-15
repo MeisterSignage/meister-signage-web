@@ -13,8 +13,10 @@ const navItems: NavItem[] = [
     label: "Lösungen",
     href: "/loesungen",
     dropdown: [
-      { label: "Digital Signage kaufen", href: "/loesungen" },
-      { label: "Digital Signage mieten",  href: "/digital-signage-mieten" },
+      { label: "Digital Signage Schweiz",  href: "/digital-signage-schweiz" },
+      { label: "Digital Signage kaufen",   href: "/loesungen" },
+      { label: "Digital Signage mieten",   href: "/digital-signage-mieten" },
+      { label: "Kosten & Preise",          href: "/was-kostet-digital-signage-schweiz" },
     ],
   },
   {
