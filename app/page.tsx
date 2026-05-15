@@ -84,7 +84,7 @@ export default function Home() {
           { icon: CalendarRange,   title: "Events",            description: "Zeitpläne, Sponsoren, Wegweisung und Live-Informationen professionell anzeigen.",                       href: "/events" },
           { icon: Hotel,           title: "Hotellerie",        description: "Gäste informieren, Angebote hervorheben und Empfangsbereiche moderner gestalten.",                     href: "/hotellerie" },
           { icon: Building2,       title: "Unternehmen",       description: "Empfang, interne Kommunikation oder Besucherinformationen klar und zentral steuern.",                  href: "/unternehmen" },
-          { icon: MonitorPlay,     title: "Bildschirm mieten", description: "Für Events, Pop-ups oder temporäre Einsätze passende Displays flexibel einsetzen.",                   href: "/mieten" },
+          { icon: MonitorPlay,     title: "Bildschirm mieten", description: "Für Events, Pop-ups oder temporäre Einsätze passende Displays flexibel einsetzen.",                   href: "/digital-signage-mieten" },
         ]}
       />
 

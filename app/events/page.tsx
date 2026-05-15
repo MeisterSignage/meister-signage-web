@@ -27,7 +27,7 @@ export default function EventsPage() {
           "Schnelle Einrichtung vor Ort – auch als temporäre Miete",
         ]}
         primaryCta={{ label: "Beratung anfragen", href: "/kontakt" }}
-        secondaryCta={{ label: "Bildschirme mieten", href: "/mieten" }}
+        secondaryCta={{ label: "Bildschirme mieten", href: "/digital-signage-mieten" }}
       />
 
       <ProblemSolutionSection
@@ -186,7 +186,7 @@ export default function EventsPage() {
         title="Digital Signage für Ihr nächstes Event planen?"
         subtitle="Kurz erklären, was Sie vorhaben – wir zeigen Ihnen, wie die passende Lösung für Ihre Veranstaltung aussehen kann."
         primaryCta={{ label: "Beratung anfragen", href: "/kontakt" }}
-        secondaryCta={{ label: "Bildschirme mieten", href: "/mieten" }}
+        secondaryCta={{ label: "Bildschirme mieten", href: "/digital-signage-mieten" }}
       />
 
       <ContactSection

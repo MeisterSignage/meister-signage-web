@@ -4,7 +4,7 @@ import Image from "next/image";
 const nav = [
   { label: "Home",       href: "/" },
   { label: "Über uns",   href: "/ueber-uns" },
-  { label: "Vermietung", href: "/mieten" },
+  { label: "Vermietung", href: "/digital-signage-mieten" },
   { label: "Kontakt",    href: "/kontakt" },
 ];
 

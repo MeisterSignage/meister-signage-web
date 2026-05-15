@@ -14,7 +14,7 @@ const navItems: NavItem[] = [
     href: "/loesungen",
     dropdown: [
       { label: "Digital Signage kaufen", href: "/loesungen" },
-      { label: "Digital Signage mieten",  href: "/mieten" },
+      { label: "Digital Signage mieten",  href: "/digital-signage-mieten" },
     ],
   },
   {
@@ -28,7 +28,7 @@ const navItems: NavItem[] = [
       { label: "Unternehmen",     href: "/unternehmen" },
     ],
   },
-  { label: "Vermietung", href: "/mieten" },
+  { label: "Vermietung", href: "/digital-signage-mieten" },
   { label: "Über uns",   href: "/ueber-uns" },
   { label: "Kontakt",    href: "/kontakt" },
 ];
