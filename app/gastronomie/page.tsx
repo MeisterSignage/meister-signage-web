@@ -204,6 +204,7 @@ export default function GastronomiePage() {
       <InternalLinksSection
         eyebrow="Weitere Seiten"
         links={[
+          { label: "Digitales Menüboard",      href: "/digitales-menueboard" },
           { label: "Digital Signage Schweiz",  href: "/digital-signage-schweiz" },
           { label: "Kosten & Preise",          href: "/was-kostet-digital-signage-schweiz" },
           { label: "Digital Signage mieten",   href: "/digital-signage-mieten" },
