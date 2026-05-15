@@ -7,6 +7,7 @@ import FAQSection from "@/components/sections/FAQSection";
 import CTASection from "@/components/sections/CTASection";
 import ContactSection from "@/components/sections/ContactSection";
 import { BellRing, MapPin, CalendarDays, BadgeCheck, LayoutDashboard, Users } from "lucide-react";
+import InternalLinksSection from "@/components/sections/InternalLinksSection";
 
 export const metadata: Metadata = {
   title: "Digital Signage Hotellerie | Meister Signage",
@@ -183,6 +184,16 @@ export default function HotelleriePage() {
             answer:
               "Je nach eingesetztem System sind Integrationen möglich. Wir klären im Beratungsgespräch, welche Anbindungen sinnvoll und machbar sind – und was sich auch ohne Integration effizient lösen lässt.",
           },
+        ]}
+      />
+
+      <InternalLinksSection
+        eyebrow="Weitere Seiten"
+        links={[
+          { label: "Digital Signage Schweiz",  href: "/digital-signage-schweiz" },
+          { label: "Kosten & Preise",          href: "/was-kostet-digital-signage-schweiz" },
+          { label: "Digital Signage mieten",   href: "/digital-signage-mieten" },
+          { label: "Beratung anfragen",        href: "/kontakt" },
         ]}
       />
 

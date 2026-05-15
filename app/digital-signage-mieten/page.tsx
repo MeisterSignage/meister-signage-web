@@ -8,6 +8,7 @@ import FAQSection from "@/components/sections/FAQSection";
 import CTASection from "@/components/sections/CTASection";
 import ContactSection from "@/components/sections/ContactSection";
 import { Banknote, CalendarRange, Zap, BadgeCheck, MonitorPlay, UserCheck } from "lucide-react";
+import InternalLinksSection from "@/components/sections/InternalLinksSection";
 
 export const metadata: Metadata = {
   title: "Digital Signage mieten | Meister Signage",
@@ -243,6 +244,16 @@ export default function DigitalSignageMietenPage() {
             answer:
               "Ja. Die Lösung wird so vorbereitet, dass sie verständlich eingesetzt werden kann. Auf Wunsch unterstützen wir persönlich vor Ort oder remote bei der Inbetriebnahme.",
           },
+        ]}
+      />
+
+      <InternalLinksSection
+        eyebrow="Weitere Seiten"
+        links={[
+          { label: "Kosten & Preise",          href: "/was-kostet-digital-signage-schweiz" },
+          { label: "Events",                   href: "/events" },
+          { label: "Gastronomie",              href: "/gastronomie" },
+          { label: "Beratung anfragen",        href: "/kontakt" },
         ]}
       />
 

@@ -7,6 +7,7 @@ import FAQSection from "@/components/sections/FAQSection";
 import CTASection from "@/components/sections/CTASection";
 import ContactSection from "@/components/sections/ContactSection";
 import { Tag, TrendingUp, BadgeCheck, MapPin, Zap, LayoutTemplate } from "lucide-react";
+import InternalLinksSection from "@/components/sections/InternalLinksSection";
 
 export const metadata: Metadata = {
   title: "Digital Signage Retail | Meister Signage",
@@ -178,6 +179,16 @@ export default function RetailPage() {
             answer:
               "Sie erreichen uns direkt – kein Ticketsystem, keine anonyme Hotline. Als lokaler Anbieter aus der Zentralschweiz reagieren wir schnell und unkompliziert.",
           },
+        ]}
+      />
+
+      <InternalLinksSection
+        eyebrow="Weitere Seiten"
+        links={[
+          { label: "Digital Signage Schweiz",  href: "/digital-signage-schweiz" },
+          { label: "Kosten & Preise",          href: "/was-kostet-digital-signage-schweiz" },
+          { label: "Digital Signage mieten",   href: "/digital-signage-mieten" },
+          { label: "Beratung anfragen",        href: "/kontakt" },
         ]}
       />
 

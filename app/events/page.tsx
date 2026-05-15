@@ -7,6 +7,7 @@ import FAQSection from "@/components/sections/FAQSection";
 import CTASection from "@/components/sections/CTASection";
 import ContactSection from "@/components/sections/ContactSection";
 import { CalendarRange, Navigation, Users, Zap, BadgeCheck, MapPin } from "lucide-react";
+import InternalLinksSection from "@/components/sections/InternalLinksSection";
 
 export const metadata: Metadata = {
   title: "Digital Signage Events | Meister Signage",
@@ -178,6 +179,16 @@ export default function EventsPage() {
             answer:
               "Ja. Eingangsbereich, Bühnennahe Displays, Sponsorenwände und Wegweisung können je separat und unabhängig voneinander bespielt werden.",
           },
+        ]}
+      />
+
+      <InternalLinksSection
+        eyebrow="Weitere Seiten"
+        links={[
+          { label: "Digital Signage Schweiz",  href: "/digital-signage-schweiz" },
+          { label: "Kosten & Preise",          href: "/was-kostet-digital-signage-schweiz" },
+          { label: "Digital Signage mieten",   href: "/digital-signage-mieten" },
+          { label: "Beratung anfragen",        href: "/kontakt" },
         ]}
       />
 

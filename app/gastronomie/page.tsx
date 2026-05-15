@@ -7,6 +7,7 @@ import FAQSection from "@/components/sections/FAQSection";
 import CTASection from "@/components/sections/CTASection";
 import ContactSection from "@/components/sections/ContactSection";
 import { Clock, BadgeCheck, MapPin, Zap, Receipt, Users } from "lucide-react";
+import InternalLinksSection from "@/components/sections/InternalLinksSection";
 
 export const metadata: Metadata = {
   title: "Digital Signage Gastronomie | Meister Signage",
@@ -178,6 +179,16 @@ export default function GastronomiePage() {
             answer:
               "Sie erreichen uns direkt – keine anonyme Hotline, kein Ticketsystem. Als lokaler Anbieter aus der Zentralschweiz sind wir schnell erreichbar und reagieren unkompliziert.",
           },
+        ]}
+      />
+
+      <InternalLinksSection
+        eyebrow="Weitere Seiten"
+        links={[
+          { label: "Digital Signage Schweiz",  href: "/digital-signage-schweiz" },
+          { label: "Kosten & Preise",          href: "/was-kostet-digital-signage-schweiz" },
+          { label: "Digital Signage mieten",   href: "/digital-signage-mieten" },
+          { label: "Beratung anfragen",        href: "/kontakt" },
         ]}
       />
 

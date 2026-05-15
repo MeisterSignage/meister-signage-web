@@ -10,6 +10,7 @@ import CTASection from "@/components/sections/CTASection";
 import ContactSection from "@/components/sections/ContactSection";
 import { Clock, PencilRuler, BadgeCheck, MapPin, Wrench, RefreshCw } from "lucide-react";
 import { UtensilsCrossed, Store, CalendarRange, Building2, Hotel, MonitorPlay } from "lucide-react";
+import InternalLinksSection from "@/components/sections/InternalLinksSection";
 
 export const metadata: Metadata = {
   title: "Meister Signage – Digital Signage Luzern & Zentralschweiz",
@@ -29,7 +30,7 @@ export default function Home() {
           "Persönliche Betreuung statt anonymem Ticketsystem",
         ]}
         primaryCta={{ label: "Beratung anfragen", href: "/kontakt" }}
-        secondaryCta={{ label: "Lösungen ansehen", href: "/loesungen" }}
+        secondaryCta={{ label: "Lösungen entdecken", href: "/digital-signage-schweiz" }}
       />
 
       <ProblemSolutionSection
@@ -110,6 +111,20 @@ export default function Home() {
           { question: "Brauche ich dafür eine eigene IT-Abteilung?",      answer: "Nein. Die Lösung wird so geplant, dass sie im Alltag verständlich funktioniert und keine unnötige technische Komplexität entsteht." },
           { question: "Kann ich mit einem Bildschirm starten?",           answer: "Ja. Viele Projekte starten bewusst klein und werden später erweitert." },
           { question: "Für welche Branchen eignet sich Digital Signage?", answer: "Besonders sinnvoll ist es für Gastronomie, Hotellerie, Retail, Events, Empfangsbereiche und überall dort, wo Informationen regelmässig sichtbar aktualisiert werden müssen." },
+        ]}
+      />
+
+      <InternalLinksSection
+        eyebrow="Weitere Seiten"
+        links={[
+          { label: "Digital Signage Schweiz",  href: "/digital-signage-schweiz" },
+          { label: "Kosten & Preise",          href: "/was-kostet-digital-signage-schweiz" },
+          { label: "Digital Signage mieten",   href: "/digital-signage-mieten" },
+          { label: "Gastronomie",              href: "/gastronomie" },
+          { label: "Hotellerie",               href: "/hotellerie" },
+          { label: "Retail",                   href: "/retail" },
+          { label: "Unternehmen",              href: "/unternehmen" },
+          { label: "Events",                   href: "/events" },
         ]}
       />
 

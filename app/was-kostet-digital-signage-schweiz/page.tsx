@@ -10,6 +10,7 @@ import FAQSection from "@/components/sections/FAQSection";
 import CTASection from "@/components/sections/CTASection";
 import ContactSection from "@/components/sections/ContactSection";
 import { Wrench, BadgeCheck, Truck, Palette, MapPin, Zap } from "lucide-react";
+import InternalLinksSection from "@/components/sections/InternalLinksSection";
 
 export const metadata: Metadata = {
   title: "Was kostet Digital Signage in der Schweiz? | Meister Signage",
@@ -247,6 +248,15 @@ export default function WasKostetDigitalSignagePage() {
             answer:
               "Ja, besonders wenn Inhalte regelmässig aktualisiert werden, Druckkosten reduziert werden sollen oder Angebote sichtbarer präsentiert werden sollen. Das Mietmodell macht den Einstieg auch für kleinere Budgets möglich.",
           },
+        ]}
+      />
+
+      <InternalLinksSection
+        eyebrow="Weitere Seiten"
+        links={[
+          { label: "Digital Signage mieten",   href: "/digital-signage-mieten" },
+          { label: "Digital Signage Schweiz",  href: "/digital-signage-schweiz" },
+          { label: "Beratung anfragen",        href: "/kontakt" },
         ]}
       />
 

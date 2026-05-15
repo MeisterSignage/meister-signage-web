@@ -9,11 +9,13 @@ const nav = [
 ];
 
 const loesungen = [
-  { label: "Gastronomie", href: "/gastronomie" },
-  { label: "Retail",      href: "/retail" },
-  { label: "Events",      href: "/events" },
-  { label: "Hotellerie",  href: "/hotellerie" },
-  { label: "Unternehmen", href: "/unternehmen" },
+  { label: "Digital Signage Schweiz", href: "/digital-signage-schweiz" },
+  { label: "Kostenübersicht",         href: "/was-kostet-digital-signage-schweiz" },
+  { label: "Gastronomie",             href: "/gastronomie" },
+  { label: "Retail",                  href: "/retail" },
+  { label: "Events",                  href: "/events" },
+  { label: "Hotellerie",              href: "/hotellerie" },
+  { label: "Unternehmen",             href: "/unternehmen" },
 ];
 
 const socials = [
