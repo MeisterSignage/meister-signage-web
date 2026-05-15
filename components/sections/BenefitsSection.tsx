@@ -25,14 +25,22 @@ export default function BenefitsSection({ eyebrow, title, subtitle, benefits }: 
           return (
             <div
               key={benefit.title}
-              className="card card-hover relative flex h-full flex-col gap-4 overflow-hidden pt-7"
+              className="group flex h-full flex-col gap-5 border border-navy/8 bg-white p-6 transition-all duration-200 hover:border-navy/[0.14] hover:shadow-[0_4px_20px_rgba(26,39,68,0.06)]"
             >
-              <div className="absolute inset-x-0 top-0 h-[2px] bg-magenta" />
-              <div className="flex h-10 w-10 items-center justify-center bg-offwhite">
-                <Icon className="h-5 w-5 text-navy" strokeWidth={1.5} />
+              {/* Icon container — transitions to magenta-tint on hover */}
+              <div className="flex h-11 w-11 items-center justify-center border border-navy/8 bg-offwhite transition-colors duration-200 group-hover:border-magenta/20 group-hover:bg-magenta/[0.04]">
+                <Icon
+                  className="h-5 w-5 text-navy transition-colors duration-200 group-hover:text-magenta"
+                  strokeWidth={1.5}
+                />
               </div>
+
+              {/* Gold accent — extends slightly on hover */}
+              <div className="h-px w-8 bg-gold/50 transition-all duration-300 group-hover:w-12 group-hover:bg-gold" />
+
+              {/* Text */}
               <div>
-                <p className="card-title">{benefit.title}</p>
+                <p className="card-title mb-2">{benefit.title}</p>
                 <p className="card-body">{benefit.description}</p>
               </div>
             </div>

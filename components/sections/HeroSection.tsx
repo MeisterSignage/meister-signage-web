@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 
 type Cta = { label: string; href: string };
 
@@ -24,33 +26,64 @@ export default function HeroSection({
   imageAlt = "",
 }: HeroSectionProps) {
   return (
-    <section className="w-full overflow-hidden bg-offwhite">
-      <div className="section-inner">
-        <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-14">
+    <section className="relative w-full overflow-hidden bg-offwhite">
+
+      {/* Subtle grid backdrop */}
+      <div className="pointer-events-none absolute inset-0 bg-grid" aria-hidden="true" />
+
+      {/* Magenta glow — top-left, very low opacity */}
+      <div
+        className="pointer-events-none absolute -left-48 -top-48 h-[640px] w-[640px]"
+        style={{ background: "radial-gradient(circle, rgba(254,1,154,0.07) 0%, transparent 65%)" }}
+        aria-hidden="true"
+      />
+
+      <div className="section-inner relative">
+        <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16">
 
           {/* Text column */}
-          <div className="flex flex-col gap-5">
+          <div className="flex max-w-[540px] flex-col gap-6">
             {eyebrow && <span className="eyebrow">{eyebrow}</span>}
-            <h1 className="hero-title heading-max-2 text-navy">{title}</h1>
-            <p className="max-w-xl text-cgray">{subtitle}</p>
-            <ul className="flex flex-col gap-2.5">
+            <h1 className="hero-title text-navy">{title}</h1>
+            <p className="max-w-[440px] text-[17px] leading-relaxed text-cgray">{subtitle}</p>
+
+            <ul className="flex flex-col gap-3">
               {bullets.map((bullet) => (
-                <li key={bullet} className="flex items-start gap-3">
-                  <CheckIcon />
-                  <span className="card-body text-navy">{bullet}</span>
+                <li key={bullet} className="flex items-center gap-3">
+                  <span
+                    className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-magenta/8"
+                    aria-hidden="true"
+                  >
+                    <svg className="h-3 w-3 text-magenta" viewBox="0 0 12 12" fill="none">
+                      <path
+                        d="M2 6l3 3 5-5"
+                        stroke="currentColor"
+                        strokeWidth="1.8"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </span>
+                  <span className="text-[15px] text-navy/80">{bullet}</span>
                 </li>
               ))}
             </ul>
-            <div className="flex flex-col gap-3 pt-1 sm:flex-row sm:flex-wrap sm:items-center">
-              <a href={primaryCta.href} className="btn-primary">{primaryCta.label}</a>
+
+            <div className="flex flex-wrap items-center gap-3 pt-1">
+              <Link href={primaryCta.href} className="btn-primary gap-2.5">
+                {primaryCta.label}
+                <ArrowRight className="h-4 w-4 shrink-0" strokeWidth={2} />
+              </Link>
               {secondaryCta && (
-                <a href={secondaryCta.href} className="btn-secondary">{secondaryCta.label}</a>
+                <Link href={secondaryCta.href} className="btn-secondary">
+                  {secondaryCta.label}
+                </Link>
               )}
             </div>
           </div>
 
-          {/* Image column */}
-          <div className="w-full overflow-hidden">
+          {/* Visual column */}
+          <div className="relative w-full overflow-hidden">
             {imageSrc ? (
               <Image
                 src={imageSrc}
@@ -61,12 +94,7 @@ export default function HeroSection({
                 priority
               />
             ) : (
-              <div className="relative flex h-[420px] w-full flex-col overflow-hidden border border-navy/10 bg-white">
-                <div className="h-[3px] w-full bg-magenta" />
-                <div className="flex flex-1 items-center justify-center">
-                  <span className="card-body">Bild folgt</span>
-                </div>
-              </div>
+              <ScreenMockup />
             )}
           </div>
 
@@ -76,19 +104,63 @@ export default function HeroSection({
   );
 }
 
-function CheckIcon() {
+/** Premium screen mockup — replaces the old "Bild folgt" placeholder */
+function ScreenMockup() {
   return (
-    <svg
-      className="mt-0.5 h-4 w-4 shrink-0 text-gold"
-      viewBox="0 0 20 20"
-      fill="currentColor"
-      aria-hidden="true"
-    >
-      <path
-        fillRule="evenodd"
-        d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-        clipRule="evenodd"
-      />
-    </svg>
+    <div className="overflow-hidden border border-navy/10 bg-white">
+
+      {/* Browser / app chrome bar */}
+      <div className="flex items-center gap-1.5 border-b border-navy/8 bg-offwhite/80 px-4 py-3">
+        <div className="h-2.5 w-2.5 rounded-full bg-magenta/25" />
+        <div className="h-2.5 w-2.5 rounded-full bg-gold/35" />
+        <div className="h-2.5 w-2.5 rounded-full bg-navy/12" />
+        <div className="ml-4 h-2 w-36 rounded-full bg-navy/8" />
+      </div>
+
+      {/* Content mockup */}
+      <div className="p-7">
+
+        {/* Eyebrow skeleton */}
+        <div className="mb-3 h-2 w-20 rounded-full bg-gold/25" />
+
+        {/* Title skeletons */}
+        <div className="mb-2 h-4 w-4/5 rounded-full bg-navy/10" />
+        <div className="mb-7 h-4 w-3/5 rounded-full bg-navy/7" />
+
+        {/* Metric / stat row */}
+        <div className="mb-6 flex gap-4">
+          {[80, 55, 65].map((w, i) => (
+            <div key={i} className="flex flex-col gap-1.5">
+              <div className="h-5 rounded" style={{ width: `${w}px`, background: "rgba(254,1,154,0.10)" }} />
+              <div className="h-2 w-12 rounded-full bg-navy/8" />
+            </div>
+          ))}
+        </div>
+
+        {/* Card grid */}
+        <div className="grid grid-cols-3 gap-2.5">
+          {[0, 1, 2, 3, 4, 5].map((i) => (
+            <div
+              key={i}
+              className="flex flex-col gap-2 border border-navy/6 p-3"
+              style={{ opacity: Math.max(0.35, 1 - i * 0.12) }}
+            >
+              <div className="h-5 w-5 rounded-sm bg-magenta/10" />
+              <div className="h-2 w-3/4 rounded-full bg-navy/10" />
+              <div className="h-2 w-1/2 rounded-full bg-navy/6" />
+            </div>
+          ))}
+        </div>
+
+        {/* Bottom action bar */}
+        <div className="mt-5 flex items-center justify-between">
+          <div className="h-2 w-24 rounded-full bg-navy/6" />
+          <div className="flex h-7 w-24 items-center justify-center rounded border border-magenta/25 bg-magenta/5">
+            <div className="h-2 w-14 rounded-full bg-magenta/20" />
+          </div>
+        </div>
+
+      </div>
+    </div>
   );
 }

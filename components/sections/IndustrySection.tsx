@@ -14,6 +14,9 @@ type IndustrySectionProps = {
 };
 
 export default function IndustrySection({ eyebrow, title, subtitle, industries }: IndustrySectionProps) {
+  // Bento layout activated when there are 5+ industries
+  const isBento = industries.length >= 5;
+
   return (
     <SectionContainer white>
       <div className="section-header">
@@ -22,15 +25,23 @@ export default function IndustrySection({ eyebrow, title, subtitle, industries }
         {subtitle && <p className="text-cgray">{subtitle}</p>}
       </div>
 
-      <div className="card-grid card-grid-3">
-        {industries.map((industry) => {
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {industries.map((industry, i) => {
           const Icon = industry.icon;
+          // Bento roles — only active at lg+
+          const isFeatured  = isBento && i === 0;
+          const isLastWide  = isBento && i === industries.length - 1;
+
           return (
             <SpotlightCard
               key={industry.href}
-              className="card group flex h-full cursor-pointer flex-col justify-between"
+              className={[
+                "card group relative flex cursor-pointer flex-col",
+                isFeatured ? "lg:row-span-2" : "",
+                isLastWide ? "sm:col-span-2 lg:col-span-3" : "",
+              ].join(" ")}
             >
-              {/* Full-card accessible link — invisible, covers the whole card */}
+              {/* Full-card accessible link */}
               <Link
                 href={industry.href}
                 className="absolute inset-0 z-[1]"
@@ -38,26 +49,81 @@ export default function IndustrySection({ eyebrow, title, subtitle, industries }
                 tabIndex={0}
               />
 
-              {/* Magenta left accent */}
-              <div className="absolute inset-y-0 left-0 w-[3px] bg-magenta" />
-
-              {/* Card content — sits above the link overlay */}
-              <div className="relative">
-                <div className="mb-4 flex h-10 w-10 items-center justify-center bg-offwhite">
-                  <Icon className="h-5 w-5 text-navy" strokeWidth={1.5} />
+              {isLastWide ? (
+                /* ── Full-width wide card — horizontal layout ── */
+                <div className="relative flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
+                  <div className="flex items-start gap-5">
+                    <IconBox icon={Icon} size="lg" />
+                    <div>
+                      <p className="card-title mb-1">{industry.title}</p>
+                      <p className="card-body max-w-xl">{industry.description}</p>
+                    </div>
+                  </div>
+                  <ArrowChip />
                 </div>
-                <p className="card-title">{industry.title}</p>
-                <p className="card-body">{industry.description}</p>
-              </div>
 
-              <div className="relative mt-5 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-navy/60 transition-colors duration-150 group-hover:text-magenta">
-                Mehr erfahren
-                <ArrowRight className="h-3.5 w-3.5" strokeWidth={2} />
-              </div>
+              ) : isFeatured ? (
+                /* ── Featured tall card — fills 2 rows ── */
+                <div className="relative flex flex-1 flex-col justify-between gap-6">
+                  <div>
+                    <IconBox icon={Icon} size="lg" className="mb-6" />
+                    <p className="mb-2 text-[1.1875rem] font-semibold leading-snug text-navy md:text-[1.25rem]">
+                      {industry.title}
+                    </p>
+                    <p className="card-body">{industry.description}</p>
+                  </div>
+                  <ArrowChip />
+                </div>
+
+              ) : (
+                /* ── Standard card ── */
+                <div className="relative flex h-full flex-col justify-between gap-5">
+                  <div>
+                    <IconBox icon={Icon} size="sm" className="mb-4" />
+                    <p className="card-title">{industry.title}</p>
+                    <p className="card-body">{industry.description}</p>
+                  </div>
+                  <ArrowChip />
+                </div>
+              )}
             </SpotlightCard>
           );
         })}
       </div>
     </SectionContainer>
+  );
+}
+
+/* ── Shared sub-components ── */
+
+function IconBox({
+  icon: Icon,
+  size,
+  className = "",
+}: {
+  icon: LucideIcon;
+  size: "sm" | "lg";
+  className?: string;
+}) {
+  const dim = size === "lg" ? "h-12 w-12" : "h-10 w-10";
+  const ico = size === "lg" ? "h-5 w-5" : "h-4 w-4";
+  return (
+    <div
+      className={`flex ${dim} shrink-0 items-center justify-center border border-navy/8 bg-offwhite transition-colors duration-200 group-hover:border-magenta/20 group-hover:bg-magenta/[0.04] ${className}`}
+    >
+      <Icon
+        className={`${ico} text-navy transition-colors duration-200 group-hover:text-magenta`}
+        strokeWidth={1.5}
+      />
+    </div>
+  );
+}
+
+function ArrowChip() {
+  return (
+    <div className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-navy/50 transition-colors duration-150 group-hover:text-magenta">
+      Mehr erfahren
+      <ArrowRight className="h-3.5 w-3.5" strokeWidth={2} />
+    </div>
   );
 }
