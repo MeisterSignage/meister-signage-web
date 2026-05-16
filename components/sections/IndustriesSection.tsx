@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect, useRef, useCallback } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
@@ -46,6 +47,8 @@ const industries: Industry[] = [
   },
 ];
 
+const INTERVAL_MS = 2200;
+
 /* ─────────────────────────────────────────────────────────────────────────── */
 
 function IndustryCard({
@@ -55,7 +58,16 @@ function IndustryCard({
   imageSrc,
   className = "",
   large = false,
-}: Industry & { className?: string; large?: boolean }) {
+  isLit = false,
+  onMouseEnter,
+  onMouseLeave,
+}: Industry & {
+  className?: string;
+  large?: boolean;
+  isLit?: boolean;
+  onMouseEnter?: () => void;
+  onMouseLeave?: () => void;
+}) {
   return (
     <motion.div
       className={className}
@@ -63,14 +75,16 @@ function IndustryCard({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={viewport}
       transition={{ duration: 0.52, ease: easeOut }}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
     >
       <Link href={href} className="group block h-full">
         <div
           className={`
-            industry-card
             relative overflow-hidden rounded-[32px] h-full
             transition-transform duration-500 ease-out
             hover:-translate-y-2
+            ${isLit ? "industry-card-lit" : ""}
           `}
           style={{
             boxShadow: "0 4px 32px rgba(0,0,0,0.28)",
@@ -94,7 +108,6 @@ function IndustryCard({
                     "linear-gradient(145deg, #1e2f52 0%, #111d38 50%, #0d1628 100%)",
                 }}
               />
-              {/* Dot texture */}
               <div
                 className="absolute inset-0 opacity-25"
                 style={{
@@ -103,7 +116,6 @@ function IndustryCard({
                   backgroundSize: "28px 28px",
                 }}
               />
-              {/* Magenta glow accent */}
               <div
                 className="pointer-events-none absolute -right-16 -top-16 h-64 w-64"
                 style={{
@@ -114,7 +126,7 @@ function IndustryCard({
             </div>
           )}
 
-          {/* Cinematic gradient overlay — text legibility */}
+          {/* Cinematic gradient overlay */}
           <div
             className="absolute inset-0"
             style={{
@@ -151,9 +163,7 @@ function IndustryCard({
             </p>
 
             {/* Hover arrow */}
-            <div
-              className="mt-4 inline-flex items-center gap-1.5 opacity-0 transition-all duration-300 group-hover:opacity-100"
-            >
+            <div className="mt-4 inline-flex items-center gap-1.5 opacity-0 transition-all duration-300 group-hover:opacity-100">
               <span className="text-[12px] font-semibold text-white/80">
                 Mehr erfahren
               </span>
@@ -164,12 +174,10 @@ function IndustryCard({
             </div>
           </div>
 
-          {/* Hover shadow boost */}
+          {/* Hover inset ring */}
           <div
             className="absolute inset-0 rounded-[32px] opacity-0 transition-opacity duration-500 group-hover:opacity-100"
-            style={{
-              boxShadow: "inset 0 0 0 1px rgba(255,255,255,0.08)",
-            }}
+            style={{ boxShadow: "inset 0 0 0 1px rgba(255,255,255,0.08)" }}
           />
         </div>
       </Link>
@@ -181,21 +189,53 @@ function IndustryCard({
 
 export default function IndustriesSection() {
   const reduced = useReducedMotion();
+  const [litIndex, setLitIndex] = useState(0);
+  const hoveredIndex = useRef<number | null>(null);
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  const startInterval = useCallback(() => {
+    if (intervalRef.current) clearInterval(intervalRef.current);
+    intervalRef.current = setInterval(() => {
+      if (hoveredIndex.current === null) {
+        setLitIndex((prev) => (prev + 1) % industries.length);
+      }
+    }, INTERVAL_MS);
+  }, []);
+
+  useEffect(() => {
+    if (reduced) return;
+    startInterval();
+    return () => { if (intervalRef.current) clearInterval(intervalRef.current); };
+  }, [reduced, startInterval]);
+
+  const handleMouseEnter = useCallback((i: number) => {
+    hoveredIndex.current = i;
+    setLitIndex(i);
+  }, []);
+
+  const handleMouseLeave = useCallback(() => {
+    hoveredIndex.current = null;
+    // restart interval from current card so it doesn't jump immediately
+    startInterval();
+  }, [startInterval]);
+
+  const cardProps = (i: number) => ({
+    isLit: !reduced && litIndex === i,
+    onMouseEnter: () => handleMouseEnter(i),
+    onMouseLeave: handleMouseLeave,
+  });
 
   return (
     <section
       className="relative w-full overflow-hidden"
-      style={{
-        background: "linear-gradient(180deg, #111d38 0%, #0d1628 100%)",
-      }}
+      style={{ background: "linear-gradient(180deg, #111d38 0%, #0d1628 100%)" }}
     >
       {/* Subtle top glow */}
       <div
         className="pointer-events-none absolute left-1/2 top-0 h-[320px] w-[700px] -translate-x-1/2"
         aria-hidden="true"
         style={{
-          background:
-            "radial-gradient(ellipse, rgba(254,1,154,0.07) 0%, transparent 70%)",
+          background: "radial-gradient(ellipse, rgba(254,1,154,0.07) 0%, transparent 70%)",
         }}
       />
 
@@ -227,25 +267,30 @@ export default function IndustriesSection() {
             {...industries[0]}
             large
             className="h-[280px] sm:h-[360px] lg:col-span-7 lg:h-[480px]"
+            {...cardProps(0)}
           />
           <IndustryCard
             {...industries[1]}
             large
             className="h-[280px] sm:h-[360px] lg:col-span-5 lg:h-[480px]"
+            {...cardProps(1)}
           />
 
           {/* Row 2 — 3 smaller */}
           <IndustryCard
             {...industries[2]}
             className="h-[260px] sm:h-[300px] lg:col-span-4 lg:h-[360px]"
+            {...cardProps(2)}
           />
           <IndustryCard
             {...industries[3]}
             className="h-[260px] sm:h-[300px] lg:col-span-4 lg:h-[360px]"
+            {...cardProps(3)}
           />
           <IndustryCard
             {...industries[4]}
             className="h-[260px] sm:col-span-2 sm:h-[300px] lg:col-span-4 lg:h-[360px]"
+            {...cardProps(4)}
           />
 
         </div>
