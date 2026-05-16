@@ -49,6 +49,7 @@ export default function UeberUnsPage() {
         secondaryCta={{ label: "Lösungen ansehen", href: "/loesungen" }}
         imageSrc="/images/Chris-Meister.png"
         imageAlt="Christopher Meister – Gründer Meister Signage"
+        imageCompact
       />
 
       {/* Story / About */}

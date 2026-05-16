@@ -13,6 +13,7 @@ type HeroSectionProps = {
   secondaryCta?: Cta;
   imageSrc?: string;
   imageAlt?: string;
+  imageCompact?: boolean;
 };
 
 export default function HeroSection({
@@ -24,6 +25,7 @@ export default function HeroSection({
   secondaryCta,
   imageSrc,
   imageAlt = "",
+  imageCompact = false,
 }: HeroSectionProps) {
   return (
     <section className="relative w-full overflow-hidden bg-offwhite">
@@ -74,16 +76,27 @@ export default function HeroSection({
           </div>
 
           {/* Visual column */}
-          <div className="relative w-full overflow-hidden">
+          <div className="relative flex w-full justify-center overflow-hidden">
             {imageSrc ? (
-              <Image
-                src={imageSrc}
-                alt={imageAlt}
-                width={720}
-                height={480}
-                className="h-auto w-full object-cover"
-                priority
-              />
+              <div className={`relative${imageCompact ? " w-1/2" : " w-full"}`}>
+                <Image
+                  src={imageSrc}
+                  alt={imageAlt}
+                  width={720}
+                  height={960}
+                  className="h-auto w-full object-cover"
+                  priority
+                />
+                {imageCompact && (
+                  <div
+                    className="pointer-events-none absolute inset-x-0 bottom-0 h-2/5"
+                    style={{
+                      background: "linear-gradient(to top, #f5f5f7 0%, transparent 100%)",
+                    }}
+                    aria-hidden="true"
+                  />
+                )}
+              </div>
             ) : (
               <ScreenMockup />
             )}
