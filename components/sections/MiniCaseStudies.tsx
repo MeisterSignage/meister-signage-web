@@ -1,20 +1,22 @@
 "use client";
 
-import { UtensilsCrossed, Hotel, Building2, CalendarRange } from "lucide-react";
+import { UtensilsCrossed, Hotel, CalendarRange } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { motion, useReducedMotion } from "framer-motion";
 import { staggerContainer, staggerItem, cardHover, viewport, easeOut } from "@/lib/motion";
 
 type CaseStudy = {
-  icon: React.ElementType;
+  icon?: React.ElementType;
   category: string;
   title: string;
   description: string;
   result: string;
   href: string;
-  gradient: string;
-  iconBg: string;
+  gradient?: string;
+  iconBg?: string;
+  imageSrc?: string;
 };
 
 const cases: CaseStudy[] = [
@@ -39,14 +41,12 @@ const cases: CaseStudy[] = [
     iconBg: "rgba(99,102,241,0.12)",
   },
   {
-    icon: Building2,
-    category: "Unternehmen",
-    title: "Empfangsdisplay als Visitenkarte",
-    description: "Ein Unternehmensempfang empfängt Besucher mit Namen und Wegweisung auf einem Display. Der erste Eindruck sitzt – ohne Aufwand für das Empfangspersonal.",
-    result: "Professioneller Auftritt. Sofort.",
-    href: "/unternehmen",
-    gradient: "linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%)",
-    iconBg: "rgba(34,197,94,0.12)",
+    category: "Retail",
+    title: "Kampagnen, die verkaufen",
+    description: "Ein Schuhgeschäft zeigt neue Kollektionen und Aktionen auf grossen Wanddisplays. Inhalte wechseln saisonal – ohne Druckkosten, ohne Agenturaufwand.",
+    result: "Mehr Aufmerksamkeit. Mehr Umsatz.",
+    href: "/retail",
+    imageSrc: "/images/products/Schuhladen-Meister-Signage.png",
   },
   {
     icon: CalendarRange,
@@ -102,18 +102,34 @@ export default function MiniCaseStudies() {
                     boxShadow: "0 2px 16px rgba(26,39,68,0.06), 0 0 0 1px rgba(26,39,68,0.07)",
                   }}
                 >
-                  {/* Coloured header */}
-                  <div
-                    className="flex h-[100px] items-center justify-start px-7"
-                    style={{ background: c.gradient }}
-                  >
-                    <div
-                      className="flex h-12 w-12 items-center justify-center rounded-2xl"
-                      style={{ background: c.iconBg }}
-                    >
-                      <c.icon className="h-6 w-6 text-navy/70" strokeWidth={1.5} />
+                  {/* Card header — photo or gradient */}
+                  {c.imageSrc ? (
+                    <div className="relative h-[180px] w-full overflow-hidden">
+                      <Image
+                        src={c.imageSrc}
+                        alt={c.category}
+                        fill
+                        className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                        sizes="(max-width: 640px) 100vw, 50vw"
+                      />
+                      {/* Subtle dark overlay for contrast */}
+                      <div className="absolute inset-0 bg-navy/20" />
                     </div>
-                  </div>
+                  ) : (
+                    <div
+                      className="flex h-[100px] items-center justify-start px-7"
+                      style={{ background: c.gradient }}
+                    >
+                      {c.icon && c.iconBg && (
+                        <div
+                          className="flex h-12 w-12 items-center justify-center rounded-2xl"
+                          style={{ background: c.iconBg }}
+                        >
+                          <c.icon className="h-6 w-6 text-navy/70" strokeWidth={1.5} />
+                        </div>
+                      )}
+                    </div>
+                  )}
 
                   {/* Content */}
                   <div className="p-7">
