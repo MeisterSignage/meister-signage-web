@@ -132,76 +132,104 @@ export default function Nav() {
 
         {/* Mobile toggle */}
         <button
-          className="flex h-10 w-10 items-center justify-center text-navy lg:hidden"
+          className="-mr-2 flex h-11 w-11 items-center justify-center text-navy lg:hidden"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label={menuOpen ? "Menü schliessen" : "Menü öffnen"}
           aria-expanded={menuOpen}
         >
           {menuOpen
-            ? <X className="h-5 w-5" strokeWidth={1.5} />
-            : <Menu className="h-5 w-5" strokeWidth={1.5} />}
+            ? <X className="h-5 w-5" strokeWidth={1.75} />
+            : <Menu className="h-5 w-5" strokeWidth={1.75} />}
         </button>
       </div>
 
       {/* Mobile menu */}
       {menuOpen && (
         <div className="border-t border-navy/10 bg-white lg:hidden">
-          <div className="mx-auto max-w-content px-4 py-4">
+          <div className="mx-auto max-h-[calc(100vh-68px)] max-w-content overflow-y-auto overscroll-contain px-4 pb-6 pt-2">
             <nav className="flex flex-col divide-y divide-navy/8">
-              {navItems.map((item) => (
-                <div key={item.href}>
-                  {item.dropdown ? (
-                    <>
-                      <button
-                        onClick={() =>
-                          setMobileOpen(mobileOpen === item.href ? null : item.href)
-                        }
-                        className="flex w-full items-center justify-between py-3.5 text-[16px] font-medium text-navy/80"
+              {navItems.map((item) => {
+                const itemActive = isActive(item.href);
+                return (
+                  <div key={item.href}>
+                    {item.dropdown ? (
+                      <>
+                        <button
+                          onClick={() =>
+                            setMobileOpen(mobileOpen === item.href ? null : item.href)
+                          }
+                          className={`flex w-full items-center justify-between py-4 text-[16px] font-medium transition-colors ${
+                            itemActive ? "text-magenta" : "text-navy/80 active:text-navy"
+                          }`}
+                          aria-expanded={mobileOpen === item.href}
+                        >
+                          {item.label}
+                          <ChevronDown
+                            className={`h-4 w-4 transition-transform duration-200 ${
+                              mobileOpen === item.href ? "rotate-180 text-magenta" : "text-navy/40"
+                            }`}
+                            strokeWidth={2}
+                          />
+                        </button>
+                        {mobileOpen === item.href && (
+                          <div className="mb-3 ml-1 flex flex-col gap-0.5 border-l-2 border-magenta/40 pl-4">
+                            {item.dropdown.map((d) => {
+                              const childActive = pathname === d.href;
+                              return (
+                                <Link
+                                  key={d.href}
+                                  href={d.href}
+                                  className="flex flex-col py-3"
+                                  onClick={() => setMenuOpen(false)}
+                                >
+                                  <span
+                                    className={`text-[15px] font-medium transition-colors ${
+                                      childActive
+                                        ? "text-magenta"
+                                        : "text-navy/80 active:text-magenta"
+                                    }`}
+                                  >
+                                    {d.label}
+                                  </span>
+                                  {d.desc && (
+                                    <span className="mt-0.5 text-[12px] leading-snug text-navy/45">
+                                      {d.desc}
+                                    </span>
+                                  )}
+                                </Link>
+                              );
+                            })}
+                          </div>
+                        )}
+                      </>
+                    ) : (
+                      <Link
+                        href={item.href}
+                        className={`block py-4 text-[16px] font-medium transition-colors ${
+                          itemActive ? "text-magenta" : "text-navy/80 active:text-navy"
+                        }`}
+                        onClick={() => setMenuOpen(false)}
                       >
                         {item.label}
-                        <ChevronDown
-                          className={`h-3.5 w-3.5 text-navy/40 transition-transform duration-150 ${
-                            mobileOpen === item.href ? "rotate-180" : ""
-                          }`}
-                          strokeWidth={2}
-                        />
-                      </button>
-                      {mobileOpen === item.href && (
-                        <div className="mb-3 ml-1 flex flex-col gap-0.5 border-l-2 border-navy/8 pl-4">
-                          {item.dropdown.map((d) => (
-                            <Link
-                              key={d.href}
-                              href={d.href}
-                              className="flex flex-col py-2.5"
-                              onClick={() => setMenuOpen(false)}
-                            >
-                              <span className="text-[15px] font-medium text-navy/80 hover:text-magenta transition-colors">
-                                {d.label}
-                              </span>
-                              {d.desc && (
-                                <span className="text-[12px] text-navy/40">{d.desc}</span>
-                              )}
-                            </Link>
-                          ))}
-                        </div>
-                      )}
-                    </>
-                  ) : (
-                    <Link
-                      href={item.href}
-                      className={`block py-3.5 text-[16px] font-medium ${
-                        isActive(item.href) ? "text-magenta" : "text-navy/80 hover:text-navy"
-                      }`}
-                      onClick={() => setMenuOpen(false)}
-                    >
-                      {item.label}
-                    </Link>
-                  )}
-                </div>
-              ))}
+                      </Link>
+                    )}
+                  </div>
+                );
+              })}
+
+              {/* Blog — mobile only (sits in desktop CTA area on lg) */}
+              <Link
+                href="/news"
+                className={`block py-4 text-[16px] font-medium transition-colors ${
+                  isActive("/news") ? "text-magenta" : "text-navy/80 active:text-navy"
+                }`}
+                onClick={() => setMenuOpen(false)}
+              >
+                Blog
+              </Link>
             </nav>
 
-            <div className="mt-4 border-t border-navy/10 pt-4">
+            <div className="mt-5 border-t border-navy/10 pt-5">
               <Link
                 href="/kontakt"
                 className="btn-primary w-full justify-center"
