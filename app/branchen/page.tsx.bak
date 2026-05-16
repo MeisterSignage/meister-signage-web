@@ -19,6 +19,14 @@ export const metadata: Metadata = {
     title: "Digital Signage für Branchen – Gastro, Retail, Hotel & mehr | Meister Signage",
     description:
       "Digital-Signage-Lösungen für jede Branche – schlüsselfertig geplant und persönlich betreut.",
+    images: [
+      {
+        url: `${SITE_URL}/og/meister-signage-og.png`,
+        width: 1200,
+        height: 630,
+        alt: "Meister Signage – Branchen",
+      },
+    ],
   },
 };
 

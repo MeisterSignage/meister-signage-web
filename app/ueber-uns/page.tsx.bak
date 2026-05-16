@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     siteName: "Meister Signage",
     title: "Über Meister Signage – Digital Signage aus der Zentralschweiz",
     description: "Meister Signage plant und realisiert Digital-Signage-Lösungen mit persönlicher Betreuung und direktem Ansprechpartner aus der Zentralschweiz.",
+    images: [{ url: `${SITE_URL}/og/meister-signage-og.png`, width: 1200, height: 630, alt: "Meister Signage – Über uns" }],
   },
   twitter: {
     card: "summary_large_image",

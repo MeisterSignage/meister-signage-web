@@ -23,6 +23,14 @@ export const metadata: Metadata = {
     title: "Digital Signage mieten Schweiz – flexibel ab CHF 129/Monat | Meister Signage",
     description:
       "Digital-Signage-Screens flexibel mieten – inklusive Lizenz, einfacher Handhabung und persönlicher Betreuung.",
+    images: [
+      {
+        url: `${SITE_URL}/og/meister-signage-og.png`,
+        width: 1200,
+        height: 630,
+        alt: "Digital Signage mieten – Meister Signage",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",

@@ -19,6 +19,14 @@ export const metadata: Metadata = {
     title: "Digital-Signage-Lösungen Schweiz – Kauf, Miete & LED Walls | Meister Signage",
     description:
       "Displays kaufen oder mieten, LED Walls, Menüboards und Indoor Signage – persönlich geplant und betreut.",
+    images: [
+      {
+        url: `${SITE_URL}/og/meister-signage-og.png`,
+        width: 1200,
+        height: 630,
+        alt: "Meister Signage – Lösungen",
+      },
+    ],
   },
 };
 

@@ -12,6 +12,7 @@ const siteUrl = "https://www.meister-signage.ch";
 const ogImage = `${siteUrl}/og/meister-signage-og.png`;
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
     default: "Meister Signage | Digital Signage aus der Zentralschweiz",
     template: "%s | Meister Signage",

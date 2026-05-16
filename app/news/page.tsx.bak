@@ -22,6 +22,14 @@ export const metadata: Metadata = {
     title: "Digital Signage News & Blog – Tipps aus der Schweiz | Meister Signage",
     description:
       "Tipps, Neuigkeiten und Hintergründe rund um Digital Signage.",
+    images: [
+      {
+        url: `${SITE_URL}/og/meister-signage-og.png`,
+        width: 1200,
+        height: 630,
+        alt: "News & Blog – Meister Signage",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",

@@ -59,6 +59,7 @@ export const metadata: Metadata = {
     siteName: "Meister Signage",
     title: "Was kostet Digital Signage in der Schweiz? | Meister Signage",
     description: "Digital Signage Kosten in der Schweiz: Mietpreise, Kaufpreise, Lizenzkosten und Kostenfaktoren verständlich erklärt.",
+    images: [{ url: `${SITE_URL}/og/meister-signage-og.png`, width: 1200, height: 630, alt: "Digital Signage Kosten Schweiz – Meister Signage" }],
   },
   twitter: {
     card: "summary_large_image",

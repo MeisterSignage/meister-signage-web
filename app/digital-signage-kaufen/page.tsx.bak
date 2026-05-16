@@ -24,6 +24,14 @@ export const metadata: Metadata = {
     title: "Digital Signage kaufen Schweiz – Displays schlüsselfertig | Meister Signage",
     description:
       "Digital-Signage-Displays kaufen für Gastronomie, Retail, Hotellerie und Empfang. Schlüsselfertig geplant, vor Ort installiert und persönlich aus der Schweiz betreut.",
+    images: [
+      {
+        url: `${SITE_URL}/og/meister-signage-og.png`,
+        width: 1200,
+        height: 630,
+        alt: "Digital Signage kaufen – Meister Signage",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",

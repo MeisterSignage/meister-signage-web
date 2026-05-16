@@ -27,13 +27,11 @@ export const metadata: Metadata = {
     siteName: "Meister Signage",
     title: "Meister Signage – Digital Signage Luzern & Zentralschweiz",
     description: "Schlüsselfertige Digital-Signage-Lösungen für Gastronomie, Retail und Events. Persönlicher Service aus der Zentralschweiz. Kein IT-Aufwand.",
-    images: [{ url: `${SITE_URL}/og/meister-signage-og.png`, width: 1200, height: 630, alt: "Meister Signage – Digital Signage Zentralschweiz" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Meister Signage – Digital Signage Luzern & Zentralschweiz",
     description: "Schlüsselfertige Digital-Signage-Lösungen für Gastronomie, Retail und Events. Persönlicher Service aus der Zentralschweiz.",
-    images: [`${SITE_URL}/og/meister-signage-og.png`],
   },
 };
 
