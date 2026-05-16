@@ -28,15 +28,6 @@ export default function HeroSection({
   return (
     <section className="relative w-full overflow-hidden bg-offwhite">
 
-      {/* Subtle grid backdrop */}
-      <div className="pointer-events-none absolute inset-0 bg-grid" aria-hidden="true" />
-
-      {/* Magenta glow — top-left, very low opacity */}
-      <div
-        className="pointer-events-none absolute -left-48 -top-48 h-[640px] w-[640px]"
-        style={{ background: "radial-gradient(circle, rgba(254,1,154,0.07) 0%, transparent 65%)" }}
-        aria-hidden="true"
-      />
 
       <div className="section-inner relative">
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16">
