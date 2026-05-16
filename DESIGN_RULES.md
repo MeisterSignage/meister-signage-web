@@ -398,3 +398,26 @@ html { color-scheme: only light; }
 ```
 
 Kein `dark:` Tailwind-Präfix verwenden. Kein automatisches Browser-Theming.
+
+---
+
+## 41. News-/Blog-Beiträge
+
+News-Beiträge liegen als Markdown-Dateien in `content/news/`.
+
+**Veröffentlichungsregel — absolut und ohne Ausnahme:**
+Ein Beitrag ist erst öffentlich sichtbar, wenn im Frontmatter `status: published` steht.
+`status: draft` bedeutet: der Beitrag existiert im Repository, wird aber **nicht** gebaut und **nicht** angezeigt.
+
+```yaml
+status: draft      # → unsichtbar, nicht im Build
+status: published  # → sichtbar, wird gebaut und deployt
+```
+
+**KI-Agenten und Automationen dürfen `status` niemals auf `published` setzen.**
+Das Setzen von `status: published` ist ausschliesslich Aufgabe von Christopher Meister.
+
+Rohe KI-Entwürfe kommen zuerst in `content/news/drafts/` und werden erst nach
+manueller Prüfung nach `content/news/` verschoben — weiterhin mit `status: draft`.
+
+Weitere Regeln: `content/news/NEWS_GUIDELINES.md`
