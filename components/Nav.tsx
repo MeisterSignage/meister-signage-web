@@ -104,13 +104,21 @@ export default function Nav() {
           )}
         </nav>
 
-        {/* Desktop CTA */}
-        <Link
-          href="/kontakt"
-          className="btn-primary hidden lg:inline-flex"
-        >
-          Beratung anfragen
-        </Link>
+        {/* Desktop CTAs */}
+        <div className="hidden items-center gap-3 lg:flex">
+          <Link
+            href="/news"
+            className="inline-flex items-center justify-center min-h-[2.5rem] px-5 rounded-[7px] border border-magenta text-magenta text-[15px] font-semibold transition-colors duration-150 hover:bg-magenta hover:text-white"
+          >
+            News
+          </Link>
+          <Link
+            href="/kontakt"
+            className="btn-primary"
+          >
+            Beratung anfragen
+          </Link>
+        </div>
 
         {/* Mobile toggle */}
         <button
@@ -178,7 +186,14 @@ export default function Nav() {
               ))}
             </nav>
 
-            <div className="mt-5 border-t border-navy/10 pt-5">
+            <div className="mt-5 flex flex-col gap-3 border-t border-navy/10 pt-5">
+              <Link
+                href="/news"
+                className="inline-flex w-full items-center justify-center min-h-[3.5rem] rounded-[7px] border border-magenta text-magenta text-[16px] font-semibold transition-colors duration-150 hover:bg-magenta hover:text-white"
+                onClick={() => setMenuOpen(false)}
+              >
+                News
+              </Link>
               <Link
                 href="/kontakt"
                 className="btn-primary w-full justify-center"
