@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import HomeHeroSection from "@/components/sections/HomeHeroSection";
-import LatestNewsSection from "@/components/sections/LatestNewsSection";
+import EditorialNewsSection from "@/components/sections/EditorialNewsSection";
 import { getLatestPosts } from "@/lib/news";
 import PremiumBenefitGrid from "@/components/sections/PremiumBenefitGrid";
 import IndustriesSection from "@/components/sections/IndustriesSection";
@@ -99,15 +99,8 @@ export default function Home() {
         ]}
       />
 
-      {/* 7 — Latest news */}
-      <AnimateIn>
-      <LatestNewsSection
-        posts={latestPosts}
-        eyebrow="Aktuelles"
-        title="News & Insights"
-        subtitle="Tipps, Neuigkeiten und Hintergründe rund um Digital Signage."
-      />
-      </AnimateIn>
+      {/* 7 — Editorial news */}
+      <EditorialNewsSection posts={latestPosts} />
 
       {/* 8 — Internal links */}
       <InternalLinksSection
