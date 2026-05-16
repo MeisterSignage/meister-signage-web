@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Check } from "lucide-react";
 import { motion, useReducedMotion } from "framer-motion";
 import { viewport, easeOut } from "@/lib/motion";
 
@@ -11,6 +11,7 @@ type UseCase = {
   category: string;
   headline: string;
   body: string;
+  bullets: string[];
   cta: { label: string; href: string };
   imageSrc: string;
   imageAlt: string;
@@ -19,48 +20,73 @@ type UseCase = {
 const useCases: UseCase[] = [
   {
     number: "01",
-    category: "Retail & Fashion",
-    headline: "Erlebnisse,\ndie Verkauf auslösen.",
-    body: "Digitale Displays inszenieren Kollektionen und Kampagnen direkt am Point of Sale. Inhalte wechseln saisonal, ohne Druckkosten – schnell, flexibel und wirkungsvoll.",
-    cta: { label: "Retail entdecken", href: "/retail" },
+    category: "Retail & Handel",
+    headline: "Marken am Point of Sale inszenieren.",
+    body: "Digitale Inhalte machen Kollektionen, Aktionen und Kampagnen sichtbar – direkt dort, wo Kaufentscheidungen entstehen.",
+    bullets: [
+      "Kampagnen zentral steuern",
+      "Produkte emotional präsentieren",
+      "Aufmerksamkeit im Verkaufsraum erhöhen",
+    ],
+    cta: { label: "Retail entdecken", href: "/branchen/retail" },
     imageSrc: "/images/products/Schuhladen-Meister-Signage.png",
-    imageAlt: "Retail Digital Signage – Schuhgeschäft mit digitalen Displays",
+    imageAlt: "Digital Signage Retail – Schuhgeschäft mit digitalen Displays",
   },
   {
     number: "02",
     category: "Gastronomie",
-    headline: "Menüs, die\nappetitanregend wirken.",
-    body: "Digitale Menüboards ersetzen Kreidetafeln und Laminiertes. Tagesangebote, Saisonales und Preise lassen sich in Minuten aktualisieren – ohne Umweg, ohne Druck.",
-    cta: { label: "Gastronomie entdecken", href: "/gastronomie" },
+    headline: "Menüs und Angebote flexibel aktualisieren.",
+    body: "Digitale Menüboards zeigen Tagesangebote, Preise und Aktionen klar, modern und jederzeit aktuell.",
+    bullets: [
+      "Tagesmenüs schnell ändern",
+      "Aktionen sichtbar platzieren",
+      "Weniger Aufwand mit gedruckten Tafeln",
+    ],
+    cta: { label: "Gastronomie entdecken", href: "/branchen/gastronomie" },
     imageSrc: "/images/products/Restaurant-Meister-Signage.png",
-    imageAlt: "Gastronomie Digital Signage – Restaurant Menüboard",
+    imageAlt: "Digital Signage Gastronomie – Digitales Menüboard im Restaurant",
   },
   {
     number: "03",
-    category: "Hotels & Empfang",
-    headline: "Information,\ndie Atmosphäre schafft.",
-    body: "Moderne Lobby-Displays begrüssen Gäste, informieren über Services und entlasten das Empfangspersonal – elegant in die Hotelarchitektur integriert.",
-    cta: { label: "Hotellerie entdecken", href: "/hotellerie" },
+    category: "Hotellerie",
+    headline: "Gäste informieren, ohne Atmosphäre zu verlieren.",
+    body: "Digitale Displays verbinden Orientierung, Serviceinformationen und Markenauftritt elegant im Raum.",
+    bullets: [
+      "Willkommen & Orientierung",
+      "Events und Services anzeigen",
+      "Hochwertiger erster Eindruck",
+    ],
+    cta: { label: "Hotellerie entdecken", href: "/branchen/hotellerie" },
     imageSrc: "/images/products/Hotelempfang-Meister-Signage.png",
-    imageAlt: "Hotel Digital Signage – Empfangsdisplay Lobby",
+    imageAlt: "Digital Signage Hotel – Empfangsdisplay in der Lobby",
   },
   {
     number: "04",
     category: "Unternehmen & Empfang",
-    headline: "Empfang,\nder überzeugt.",
-    body: "Ein professionell gestaltetes Empfangsdisplay hinterlässt Eindruck. Besucher werden begrüsst, Wege erklärt, Marke erlebbar gemacht – ohne Aufwand für das Team.",
-    cta: { label: "Unternehmen entdecken", href: "/unternehmen" },
+    headline: "Ein Empfang, der professionell informiert.",
+    body: "Begrüssung, interne Informationen, Termine und Besucherführung werden digital, klar und repräsentativ dargestellt.",
+    bullets: [
+      "Besucher willkommen heissen",
+      "Termine und Informationen anzeigen",
+      "Räume modern wirken lassen",
+    ],
+    cta: { label: "Unternehmen entdecken", href: "/branchen/unternehmen" },
     imageSrc: "/images/products/Unternehmen-Empfang.png",
-    imageAlt: "Unternehmens-Empfang mit Digital Signage Display",
+    imageAlt: "Digital Signage Unternehmen – Empfangsdisplay im Büro",
   },
   {
     number: "05",
     category: "Events & Messen",
-    headline: "Programme,\ndie synchron laufen.",
-    body: "Zeitpläne, Raumnavigation und Sponsorenauftritte – auf Displays in Echtzeit. Änderungen erscheinen sofort: kein Neudruck, keine Verwirrung, kein Aufwand.",
-    cta: { label: "Events entdecken", href: "/events" },
+    headline: "Informationen dort zeigen, wo Menschen sie brauchen.",
+    body: "Agenda, Raumhinweise, Sponsoren und Live-Informationen lassen sich flexibel ausspielen und laufend anpassen.",
+    bullets: [
+      "Agenda und Wegführung",
+      "Sponsoren sichtbar machen",
+      "Inhalte kurzfristig ändern",
+    ],
+    cta: { label: "Events entdecken", href: "/branchen/events" },
     imageSrc: "/images/products/Events-Meister-Signage.png",
-    imageAlt: "Event Digital Signage – Tagung und Messe Besucherführung",
+    imageAlt: "Digital Signage Events – Displays für Messen und Tagungen",
   },
 ];
 
@@ -94,26 +120,29 @@ export default function UseCasesSection() {
             return (
               <article
                 key={uc.number}
-                className="border-t border-navy/[0.07] py-16 sm:py-20 lg:py-24"
+                className="border-t border-navy/[0.07] py-16 sm:py-20 lg:py-28"
               >
                 <div
-                  className={`grid grid-cols-1 gap-10 lg:items-center lg:gap-20 ${
+                  className={`grid grid-cols-1 gap-10 lg:items-center lg:gap-16 ${
                     isRtl
-                      ? "lg:grid-cols-[42fr_58fr]"
-                      : "lg:grid-cols-[58fr_42fr]"
+                      ? "lg:grid-cols-[44fr_56fr]"
+                      : "lg:grid-cols-[56fr_44fr]"
                   }`}
                 >
                   {/* Image */}
                   <motion.div
                     className={isRtl ? "lg:order-2" : ""}
-                    initial={reduced ? false : { opacity: 0, x: isRtl ? 24 : -24 }}
+                    initial={reduced ? false : { opacity: 0, x: isRtl ? 32 : -32 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={viewport}
-                    transition={{ duration: 0.6, ease: easeOut }}
+                    transition={{ duration: 0.65, ease: easeOut }}
                   >
-                    <div className="group relative h-[280px] overflow-hidden rounded-[28px] sm:h-[360px] lg:h-[520px]"
+                    <div
+                      className="group relative overflow-hidden rounded-[28px]"
                       style={{
-                        boxShadow: "0 16px 64px rgba(26,39,68,0.10), 0 4px 16px rgba(26,39,68,0.06)",
+                        aspectRatio: "4/3",
+                        boxShadow:
+                          "0 20px 64px rgba(26,39,68,0.12), 0 4px 16px rgba(26,39,68,0.07)",
                       }}
                     >
                       <Image
@@ -121,7 +150,15 @@ export default function UseCasesSection() {
                         alt={uc.imageAlt}
                         fill
                         className="object-cover transition-transform duration-700 ease-out will-change-transform group-hover:scale-[1.04]"
-                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 58vw"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 56vw"
+                      />
+                      {/* Subtle vignette */}
+                      <div
+                        className="absolute inset-0 rounded-[28px]"
+                        style={{
+                          background:
+                            "linear-gradient(135deg, rgba(26,39,68,0.08) 0%, transparent 60%)",
+                        }}
                       />
                     </div>
                   </motion.div>
@@ -129,37 +166,61 @@ export default function UseCasesSection() {
                   {/* Text */}
                   <motion.div
                     className={`relative ${isRtl ? "lg:order-1" : ""}`}
-                    initial={reduced ? false : { opacity: 0, x: isRtl ? -24 : 24 }}
+                    initial={reduced ? false : { opacity: 0, x: isRtl ? -32 : 32 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={viewport}
-                    transition={{ duration: 0.6, ease: easeOut, delay: 0.08 }}
+                    transition={{ duration: 0.65, ease: easeOut, delay: 0.1 }}
                   >
                     {/* Ghost number */}
                     <span
-                      className="pointer-events-none absolute -top-6 right-0 select-none font-black leading-none text-navy/[0.05] lg:-top-10"
-                      style={{ fontSize: "clamp(80px, 12vw, 140px)" }}
+                      className="pointer-events-none absolute -top-4 right-0 select-none font-black leading-none text-navy/[0.045] lg:-top-8"
+                      style={{ fontSize: "clamp(72px, 11vw, 130px)" }}
                       aria-hidden="true"
                     >
                       {uc.number}
                     </span>
 
-                    <div className="relative max-w-md">
-                      <p className="mb-4 text-[11px] font-semibold uppercase tracking-[0.14em] text-gold">
+                    <div className="relative">
+                      {/* Category */}
+                      <p className="mb-4 text-[11px] font-bold uppercase tracking-[0.16em] text-gold">
                         {uc.category}
                       </p>
+
+                      {/* Headline */}
                       <h3
-                        className="mb-6 font-light leading-[1.08] text-navy"
+                        className="mb-5 font-light text-navy"
                         style={{
-                          fontSize: "clamp(1.9rem, 3vw, 2.8rem)",
+                          fontSize: "clamp(1.75rem, 2.8vw, 2.6rem)",
+                          lineHeight: 1.1,
                           letterSpacing: "-0.025em",
-                          whiteSpace: "pre-line",
                         }}
                       >
                         {uc.headline}
                       </h3>
-                      <p className="mb-8 text-[16px] leading-relaxed text-cgray">
+
+                      {/* Body */}
+                      <p className="mb-7 text-[16px] leading-relaxed text-cgray">
                         {uc.body}
                       </p>
+
+                      {/* Bullets */}
+                      <ul className="mb-9 space-y-2.5">
+                        {uc.bullets.map((b) => (
+                          <li key={b} className="flex items-start gap-3">
+                            <span className="mt-[3px] flex h-[18px] w-[18px] shrink-0 items-center justify-center rounded-full bg-gold/12">
+                              <Check
+                                className="h-[10px] w-[10px] text-gold"
+                                strokeWidth={3}
+                              />
+                            </span>
+                            <span className="text-[15px] leading-snug text-navy/75">
+                              {b}
+                            </span>
+                          </li>
+                        ))}
+                      </ul>
+
+                      {/* CTA */}
                       <Link
                         href={uc.cta.href}
                         className="group/cta inline-flex items-center gap-2 text-[14px] font-semibold text-navy transition-colors duration-150 hover:text-magenta"
@@ -177,6 +238,26 @@ export default function UseCasesSection() {
             );
           })}
         </div>
+
+        {/* Bottom CTA */}
+        <motion.div
+          className="mt-4 flex flex-col items-center gap-5 border-t border-navy/[0.07] pt-16 text-center sm:pt-20"
+          initial={reduced ? false : { opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={viewport}
+          transition={{ duration: 0.52, ease: easeOut }}
+        >
+          <p className="text-[18px] font-light text-navy/60">
+            Welche Lösung passt zu Ihrem Betrieb?
+          </p>
+          <Link href="/kontakt" className="btn-primary gap-2">
+            Beratung anfragen
+            <ArrowRight className="h-4 w-4" strokeWidth={2} />
+          </Link>
+          <p className="text-[12px] tracking-wide text-navy/35">
+            Unverbindlich · Antwort innert 24h · Persönliche Beratung
+          </p>
+        </motion.div>
 
       </div>
     </section>
