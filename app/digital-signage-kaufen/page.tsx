@@ -12,18 +12,18 @@ const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/digital-signage-kaufen`;
 
 export const metadata: Metadata = {
-  title: "Digital Signage kaufen | Meister Signage",
+  title: "Digital Signage kaufen Schweiz – Displays schlüsselfertig | Meister Signage",
   description:
-    "Digital-Signage-Displays kaufen für Gastronomie, Retail, Unternehmen und Empfangsbereiche. Professionell geplant, schlüsselfertig eingerichtet und persönlich betreut.",
+    "Digital-Signage-Displays kaufen für Gastronomie, Retail, Hotellerie und Empfang. Schlüsselfertig geplant, vor Ort installiert und persönlich aus der Schweiz betreut.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "website",
     locale: "de_CH",
     url: PAGE_URL,
     siteName: "Meister Signage",
-    title: "Digital Signage kaufen | Meister Signage",
+    title: "Digital Signage kaufen Schweiz – Displays schlüsselfertig | Meister Signage",
     description:
-      "Digital-Signage-Displays kaufen für Gastronomie, Retail, Unternehmen und Empfangsbereiche. Professionell geplant, schlüsselfertig eingerichtet und persönlich betreut.",
+      "Digital-Signage-Displays kaufen für Gastronomie, Retail, Hotellerie und Empfang. Schlüsselfertig geplant, vor Ort installiert und persönlich aus der Schweiz betreut.",
     images: [
       {
         url: `${SITE_URL}/og/meister-signage-og.png`,
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Digital Signage kaufen | Meister Signage",
+    title: "Digital Signage kaufen Schweiz – Displays schlüsselfertig | Meister Signage",
     description:
       "Digital-Signage-Displays kaufen für Gastronomie, Retail, Unternehmen und Empfangsbereiche.",
     images: [`${SITE_URL}/og/meister-signage-og.png`],

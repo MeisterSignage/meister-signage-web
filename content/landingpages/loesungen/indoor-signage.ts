@@ -3,7 +3,7 @@ import type { LandingPage } from "@/lib/lp-types";
 const page: LandingPage = {
   slug: "indoor-signage",
   type: "loesungen",
-  seoTitle: "Indoor Signage Schweiz – Digitale Displays für Innenräume – Meister Signage",
+  seoTitle: "Indoor Signage Schweiz – Displays für Innenräume | Meister Signage",
   seoDescription: "Indoor Digital Signage für Empfang, Wartebereich, Verkaufsraum und Meetingzone. Schlüsselfertig geplant und installiert in der Schweiz.",
   eyebrow: "Lösung · Indoor Signage",
   h1: "Indoor Signage – Digitale Displays für Innenräume",

@@ -10,7 +10,7 @@ const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/news`;
 
 export const metadata: Metadata = {
-  title: "News & Blog | Meister Signage",
+  title: "Digital Signage News & Blog – Tipps aus der Schweiz | Meister Signage",
   description:
     "Tipps, Neuigkeiten und Hintergründe rund um Digital Signage – für Gastronomie, Retail, Events und Unternehmen aus der Zentralschweiz.",
   alternates: { canonical: PAGE_URL },
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     locale: "de_CH",
     url: PAGE_URL,
     siteName: "Meister Signage",
-    title: "News & Blog | Meister Signage",
+    title: "Digital Signage News & Blog – Tipps aus der Schweiz | Meister Signage",
     description:
       "Tipps, Neuigkeiten und Hintergründe rund um Digital Signage.",
     images: [
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "News & Blog | Meister Signage",
+    title: "Digital Signage News & Blog – Tipps aus der Schweiz | Meister Signage",
     description: "Tipps und Hintergründe rund um Digital Signage.",
     images: [`${SITE_URL}/og/meister-signage-og.png`],
   },

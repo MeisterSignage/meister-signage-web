@@ -12,7 +12,7 @@ const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/ueber-uns`;
 
 export const metadata: Metadata = {
-  title: "Über uns | Meister Signage",
+  title: "Über Meister Signage – Digital Signage aus der Zentralschweiz",
   description:
     "Meister Signage plant und realisiert moderne Digital-Signage-Lösungen mit persönlicher Betreuung, pragmatischen Lösungen und direktem Ansprechpartner.",
   alternates: { canonical: PAGE_URL },
@@ -21,13 +21,13 @@ export const metadata: Metadata = {
     locale: "de_CH",
     url: PAGE_URL,
     siteName: "Meister Signage",
-    title: "Über uns | Meister Signage",
+    title: "Über Meister Signage – Digital Signage aus der Zentralschweiz",
     description: "Meister Signage plant und realisiert Digital-Signage-Lösungen mit persönlicher Betreuung und direktem Ansprechpartner aus der Zentralschweiz.",
     images: [{ url: `${SITE_URL}/og/meister-signage-og.png`, width: 1200, height: 630, alt: "Meister Signage – Über uns" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Über uns | Meister Signage",
+    title: "Über Meister Signage – Digital Signage aus der Zentralschweiz",
     description: "Digital-Signage-Lösungen mit persönlicher Betreuung. Direkter Ansprechpartner aus der Zentralschweiz.",
     images: [`${SITE_URL}/og/meister-signage-og.png`],
   },

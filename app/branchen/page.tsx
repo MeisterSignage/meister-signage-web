@@ -7,7 +7,7 @@ const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/branchen`;
 
 export const metadata: Metadata = {
-  title: "Branchen | Meister Signage",
+  title: "Digital Signage für Branchen – Gastro, Retail, Hotel & mehr | Meister Signage",
   description:
     "Digital-Signage-Lösungen für Gastronomie, Retail, Hotellerie, Unternehmen und Events. Branchenspezifisch geplant und persönlich betreut.",
   alternates: { canonical: PAGE_URL },
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     locale: "de_CH",
     url: PAGE_URL,
     siteName: "Meister Signage",
-    title: "Branchen | Meister Signage",
+    title: "Digital Signage für Branchen – Gastro, Retail, Hotel & mehr | Meister Signage",
     description:
       "Digital-Signage-Lösungen für jede Branche – schlüsselfertig geplant und persönlich betreut.",
     images: [
