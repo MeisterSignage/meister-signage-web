@@ -52,7 +52,7 @@ export default function HomeHeroSection({
               </span>
             )}
 
-            {/* Headline — 900 weight, magenta highlight */}
+            {/* Headline */}
             <h1
               style={{
                 fontSize: "clamp(2.5rem, 4.8vw, 4.4rem)",
@@ -62,22 +62,21 @@ export default function HomeHeroSection({
               }}
               className="text-navy"
             >
-              Digitale Kommunikation,
+              Digital Signage
               <br />
-              die{" "}
-              <span className="text-magenta">nicht kompliziert</span>
-              {" "}wird.
+              für Ihren Betrieb –{" "}
+              <span className="text-magenta">schlüsselfertig.</span>
             </h1>
 
             {/* Subtitle */}
-            <p className="max-w-[400px] text-[16px] leading-relaxed text-cgray">
-              Meister Signage macht Ihre Inhalte sichtbar – mit modernen
-              Displays, einfacher Bedienung und zuverlässigem Service.
-              Für Betriebe, die mehr erreichen wollen.
+            <p className="max-w-[420px] text-[16px] leading-relaxed text-cgray">
+              Meister Signage plant, installiert und betreut digitale Displays für
+              Restaurants, Hotels, Shops und Unternehmen in der Zentralschweiz.
+              Ohne IT-Aufwand, ohne Lernkurve.
             </p>
 
             {/* CTAs */}
-            <div className="flex flex-wrap items-center gap-3 pt-1">
+            <div className="flex flex-col gap-3 pt-1 sm:flex-row sm:flex-wrap sm:items-center">
               <Link href={primaryCta.href} className="btn-primary gap-2.5">
                 {primaryCta.label}
                 <ArrowRight className="h-4 w-4 shrink-0" strokeWidth={2.5} />
@@ -92,6 +91,11 @@ export default function HomeHeroSection({
                 </Link>
               )}
             </div>
+
+            {/* Microcopy */}
+            <p className="text-[12px] font-medium text-navy/40">
+              Unverbindlich · Antwort innert 24h · Persönliche Beratung
+            </p>
 
             {/* Trust signals */}
             <div className="flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-navy/8 pt-5">

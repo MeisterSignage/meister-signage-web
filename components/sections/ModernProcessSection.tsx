@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 import { motion, useReducedMotion } from "framer-motion";
 import { staggerContainer, staggerItem, viewport, easeOut } from "@/lib/motion";
 
@@ -144,6 +146,23 @@ export default function ModernProcessSection() {
               </div>
             </motion.div>
           ))}
+        </motion.div>
+
+        {/* Bottom CTA */}
+        <motion.div
+          className="mt-14 flex flex-col items-center gap-3 text-center sm:flex-row sm:items-center sm:justify-center"
+          initial={reduced ? false : { opacity: 0, y: 12 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={viewport}
+          transition={{ duration: 0.45, ease: easeOut, delay: 0.2 }}
+        >
+          <Link href="/kontakt" className="btn-primary gap-2.5">
+            Jetzt Beratung anfragen
+            <ArrowRight className="h-4 w-4 shrink-0" strokeWidth={2.5} />
+          </Link>
+          <p className="text-[13px] text-white/40">
+            Unverbindlich · Antwort innert 24h
+          </p>
         </motion.div>
 
       </div>

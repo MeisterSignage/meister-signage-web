@@ -27,12 +27,12 @@ export default function PremiumBenefitGrid() {
           viewport={viewport}
           transition={{ duration: 0.52, ease: easeOut }}
         >
-          <span className="eyebrow">Ihre Vorteile</span>
+          <span className="eyebrow">Warum Meister Signage</span>
           <h2 className="heading-max-2 text-navy">
-            Einfache Lösung. Starke Wirkung.
+            Schluss mit Ausdrucken, Laminieren und manuellem Aktualisieren.
           </h2>
           <p className="mt-3 max-w-xl text-cgray">
-            Meister Signage nimmt Ihnen den technischen Aufwand ab – damit Sie sich auf Ihr Kerngeschäft konzentrieren können.
+            Viele Betriebe verlieren täglich Zeit mit Papierkarten und veralteten Aushängen. Digital Signage löst das – und Meister Signage übernimmt alles, damit Sie nichts koordinieren müssen.
           </p>
         </motion.div>
 

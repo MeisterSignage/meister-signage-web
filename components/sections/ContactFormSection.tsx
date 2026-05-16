@@ -1,13 +1,12 @@
 "use client";
 
 import { useState, useId } from "react";
-import { Phone, Mail, MessageCircle, MapPin } from "lucide-react";
+import { Phone, Mail, MessageCircle, MapPin, Clock } from "lucide-react";
 
 type FormState = "idle" | "submitting" | "success" | "error";
 
 interface FieldErrors {
-  vorname?: string;
-  nachname?: string;
+  name?: string;
   email?: string;
   nachricht?: string;
   datenschutz?: string;
@@ -18,13 +17,11 @@ const FORMSPREE_ENDPOINT = "https://formspree.io/f/xlgzyjvk";
 function validateForm(data: FormData, datenschutz: boolean): FieldErrors {
   const errors: FieldErrors = {};
 
-  const vorname = (data.get("vorname") as string | null)?.trim() ?? "";
-  const nachname = (data.get("nachname") as string | null)?.trim() ?? "";
+  const name = (data.get("name") as string | null)?.trim() ?? "";
   const email = (data.get("email") as string | null)?.trim() ?? "";
   const nachricht = (data.get("nachricht") as string | null)?.trim() ?? "";
 
-  if (!vorname) errors.vorname = "Bitte geben Sie Ihren Vornamen ein.";
-  if (!nachname) errors.nachname = "Bitte geben Sie Ihren Nachnamen ein.";
+  if (!name) errors.name = "Bitte geben Sie Ihren Namen ein.";
 
   if (!email) {
     errors.email = "Bitte geben Sie Ihre E-Mail-Adresse ein.";
@@ -54,7 +51,7 @@ export default function ContactFormSection() {
   const [datenschutz, setDatenschutz] = useState(false);
 
   function clearError(field: keyof FieldErrors) {
-    if (errors[field]) {
+    if (errors[field as keyof FieldErrors]) {
       setErrors((prev) => {
         const next = { ...prev };
         delete next[field];
@@ -181,11 +178,36 @@ export default function ContactFormSection() {
                   style={{ display: "none" }}
                 />
 
+                {/* Name */}
+                <div className="flex flex-col gap-1.5">
+                  <label htmlFor={`${id}-name`} className="text-sm font-semibold text-navy">
+                    Name <span className="text-magenta" aria-hidden="true">*</span>
+                  </label>
+                  <input
+                    id={`${id}-name`}
+                    name="name"
+                    type="text"
+                    required
+                    autoComplete="name"
+                    placeholder="Vor- und Nachname"
+                    aria-required="true"
+                    aria-invalid={!!errors.name}
+                    aria-describedby={errors.name ? `${id}-name-err` : undefined}
+                    className={errors.name ? inputInvalid : inputNormal}
+                    onChange={() => clearError("name")}
+                  />
+                  {errors.name && (
+                    <p id={`${id}-name-err`} role="alert" className="text-xs text-red-600">
+                      {errors.name}
+                    </p>
+                  )}
+                </div>
+
                 {/* Firma (optional) */}
                 <div className="flex flex-col gap-1.5">
                   <label htmlFor={`${id}-firma`} className="text-sm font-semibold text-navy">
                     Firma{" "}
-                    <span className="text-cgray font-normal">(optional)</span>
+                    <span className="font-normal text-cgray">(optional)</span>
                   </label>
                   <input
                     id={`${id}-firma`}
@@ -195,57 +217,6 @@ export default function ContactFormSection() {
                     placeholder="Name Ihres Unternehmens"
                     className={inputNormal}
                   />
-                </div>
-
-                {/* Vorname / Nachname — nebeneinander auf ≥ sm */}
-                <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-                  <div className="flex flex-col gap-1.5">
-                    <label htmlFor={`${id}-vorname`} className="text-sm font-semibold text-navy">
-                      Vorname <span className="text-magenta" aria-hidden="true">*</span>
-                    </label>
-                    <input
-                      id={`${id}-vorname`}
-                      name="vorname"
-                      type="text"
-                      required
-                      autoComplete="given-name"
-                      placeholder="Vorname"
-                      aria-required="true"
-                      aria-invalid={!!errors.vorname}
-                      aria-describedby={errors.vorname ? `${id}-vorname-err` : undefined}
-                      className={errors.vorname ? inputInvalid : inputNormal}
-                      onChange={() => clearError("vorname")}
-                    />
-                    {errors.vorname && (
-                      <p id={`${id}-vorname-err`} role="alert" className="text-xs text-red-600">
-                        {errors.vorname}
-                      </p>
-                    )}
-                  </div>
-
-                  <div className="flex flex-col gap-1.5">
-                    <label htmlFor={`${id}-nachname`} className="text-sm font-semibold text-navy">
-                      Nachname <span className="text-magenta" aria-hidden="true">*</span>
-                    </label>
-                    <input
-                      id={`${id}-nachname`}
-                      name="nachname"
-                      type="text"
-                      required
-                      autoComplete="family-name"
-                      placeholder="Nachname"
-                      aria-required="true"
-                      aria-invalid={!!errors.nachname}
-                      aria-describedby={errors.nachname ? `${id}-nachname-err` : undefined}
-                      className={errors.nachname ? inputInvalid : inputNormal}
-                      onChange={() => clearError("nachname")}
-                    />
-                    {errors.nachname && (
-                      <p id={`${id}-nachname-err`} role="alert" className="text-xs text-red-600">
-                        {errors.nachname}
-                      </p>
-                    )}
-                  </div>
                 </div>
 
                 {/* E-Mail */}
@@ -370,10 +341,16 @@ export default function ContactFormSection() {
                   </a>
                 </div>
 
-                <p className="text-xs text-cgray">
-                  <span className="text-magenta" aria-hidden="true">*</span>{" "}
-                  Pflichtfelder
-                </p>
+                <div className="flex flex-col gap-1 pt-1">
+                  <p className="flex items-center gap-1.5 text-xs text-cgray/70">
+                    <Clock className="h-3 w-3 shrink-0" strokeWidth={1.75} />
+                    Antwort innert 24h · Kostenlos & unverbindlich
+                  </p>
+                  <p className="text-xs text-cgray">
+                    <span className="text-magenta" aria-hidden="true">*</span>{" "}
+                    Pflichtfelder
+                  </p>
+                </div>
               </form>
             )}
           </div>

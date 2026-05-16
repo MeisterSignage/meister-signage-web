@@ -2,6 +2,7 @@
 
 import { UtensilsCrossed, Hotel, Building2, CalendarRange } from "lucide-react";
 import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 import { motion, useReducedMotion } from "framer-motion";
 import { staggerContainer, staggerItem, cardHover, viewport, easeOut } from "@/lib/motion";
 
@@ -76,10 +77,10 @@ export default function MiniCaseStudies() {
         >
           <span className="eyebrow">Anwendungen</span>
           <h2 className="heading-max-2 text-navy">
-            Digital Signage in der Praxis
+            Welches Problem lösen Sie als nächstes?
           </h2>
           <p className="mt-3 max-w-xl text-cgray">
-            Typische Einsatzszenarien – wie Betriebe aus verschiedenen Branchen digitale Displays in ihrem Alltag nutzen.
+            Vier typische Situationen, in denen Digital Signage Zeit spart, den Betrieb entlastet und den ersten Eindruck verbessert.
           </p>
         </motion.div>
 
@@ -138,6 +139,20 @@ export default function MiniCaseStudies() {
             </motion.div>
           ))}
         </motion.div>
+
+        {/* Inline CTA */}
+        <div className="mt-10 flex flex-col items-start gap-4 rounded-[14px] border border-navy/8 bg-white px-6 py-5 sm:flex-row sm:items-center sm:justify-between">
+          <p className="text-[15px] font-medium text-navy/70">
+            Welche Lösung passt zu Ihrem Betrieb? Wir beraten Sie kostenlos.
+          </p>
+          <Link
+            href="/kontakt"
+            className="inline-flex shrink-0 items-center gap-2 rounded-[7px] bg-navy px-5 py-3 text-[14px] font-semibold text-white transition-all duration-200 hover:bg-navy/85 hover:-translate-y-px"
+          >
+            Unverbindlich anfragen
+            <ArrowRight className="h-3.5 w-3.5" strokeWidth={2.5} />
+          </Link>
+        </div>
 
       </div>
     </section>

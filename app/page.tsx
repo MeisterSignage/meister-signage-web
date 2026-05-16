@@ -123,17 +123,17 @@ export default function Home() {
       {/* 9 — CTA */}
       <CTASection
         eyebrow="Projekt besprechen"
-        title="Lassen Sie uns gemeinsam die passende Digital-Signage-Lösung planen."
-        subtitle="Kurz erklären, was Sie vorhaben – wir zeigen Ihnen, welche Lösung sinnvoll ist und wie der Einstieg einfach gelingt."
+        title="Bereit für den ersten Schritt? Wir machen es einfach."
+        subtitle="Beschreiben Sie kurz Ihren Betrieb und Ihr Ziel – wir antworten persönlich innert 24h mit einer konkreten Einschätzung."
         primaryCta={{ label: "Beratung anfragen", href: "/kontakt" }}
-        secondaryCta={{ label: "Mehr über Meister Signage", href: "/ueber-uns" }}
+        secondaryCta={{ label: "Kosten & Preise ansehen", href: "/was-kostet-digital-signage-schweiz" }}
       />
 
       {/* 10 — Contact */}
       <ContactSection
         eyebrow="Persönlicher Kontakt"
-        title="Sie möchten wissen, ob Digital Signage zu Ihrem Betrieb passt?"
-        subtitle="Schreiben Sie kurz, was Sie vorhaben. Wir melden uns persönlich und unkompliziert."
+        title="Lieber direkt? Kein Problem."
+        subtitle="Rufen Sie an, schreiben Sie eine E-Mail oder nutzen Sie WhatsApp. Chris Meister antwortet persönlich – ohne Warteschleife."
         contactName="Chris Meister"
         role="Meister Signage"
         phone="+41 76 452 66 87"
