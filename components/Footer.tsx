@@ -5,6 +5,7 @@ const nav = [
   { label: "Home",       href: "/" },
   { label: "Über uns",   href: "/ueber-uns" },
   { label: "Vermietung", href: "/digital-signage-mieten" },
+  { label: "News",       href: "/news" },
   { label: "Kontakt",    href: "/kontakt" },
 ];
 

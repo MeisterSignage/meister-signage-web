@@ -19,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // /mieten is a client-side redirect to /digital-signage-mieten — intentionally excluded
     { url: "/luzern",      priority: 0.9, cf: "monthly" as const },
     { url: "/blog",        priority: 0.7, cf: "weekly"  as const },
+    { url: "/news",        priority: 0.7, cf: "weekly"  as const },
     { url: "/ueber-uns",   priority: 0.6, cf: "yearly"  as const },
     { url: "/kontakt",     priority: 0.8, cf: "yearly"  as const },
   ];

@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import HomeHeroSection from "@/components/sections/HomeHeroSection";
+import LatestNewsSection from "@/components/sections/LatestNewsSection";
+import { getLatestPosts } from "@/lib/news";
 import ProblemSolutionSection from "@/components/sections/ProblemSolutionSection";
 import BenefitsSection from "@/components/sections/BenefitsSection";
 import ProcessSection from "@/components/sections/ProcessSection";
@@ -37,6 +39,8 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
+  const latestPosts = getLatestPosts(3);
+
   return (
     <>
       <HomeHeroSection
@@ -126,6 +130,13 @@ export default function Home() {
           { question: "Kann ich mit einem Bildschirm starten?",           answer: "Ja. Viele Projekte starten bewusst klein und werden später erweitert." },
           { question: "Für welche Branchen eignet sich Digital Signage?", answer: "Besonders sinnvoll ist es für Gastronomie, Hotellerie, Retail, Events, Empfangsbereiche und überall dort, wo Informationen regelmässig sichtbar aktualisiert werden müssen." },
         ]}
+      />
+
+      <LatestNewsSection
+        posts={latestPosts}
+        eyebrow="Aktuelles"
+        title="News & Insights"
+        subtitle="Tipps, Neuigkeiten und Hintergründe rund um Digital Signage."
       />
 
       <InternalLinksSection

@@ -304,6 +304,52 @@ a { color: inherit; text-decoration: none; }
     }
   }
 
+  /* ── Article / Blog prose ──────────────────────────────── */
+  .prose-article {
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    color: var(--navy);
+  }
+  .prose-article h2 {
+    font-size: clamp(1.25rem, 2vw, 1.5rem);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--navy);
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .prose-article h3 {
+    font-size: clamp(1.05rem, 1.5vw, 1.2rem);
+    font-weight: 700;
+    color: var(--navy);
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .prose-article p {
+    margin-bottom: 1.25rem;
+    color: var(--cgray);
+  }
+  .prose-article ul,
+  .prose-article ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1.25rem;
+    color: var(--cgray);
+  }
+  .prose-article li { margin-bottom: 0.4rem; }
+  .prose-article strong { color: var(--navy); font-weight: 700; }
+  .prose-article a {
+    color: var(--magenta);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .prose-article a:hover { opacity: 0.75; }
+  .prose-article hr {
+    border: none;
+    border-top: 1px solid rgba(26,39,68,0.08);
+    margin: 2rem 0;
+  }
+
   /* ── Grids ──────────────────────────────────────────────── */
 
   .card-grid {
