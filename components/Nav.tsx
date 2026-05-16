@@ -32,7 +32,6 @@ const navItems: NavItem[] = [
     ],
   },
   { label: "Vermietung", href: "/digital-signage-mieten" },
-  { label: "News",       href: "/news" },
   { label: "Über uns",   href: "/ueber-uns" },
   { label: "Kontakt",    href: "/kontakt" },
 ];
@@ -117,7 +116,15 @@ export default function Nav() {
         </nav>
 
         {/* Desktop CTA */}
-        <div className="hidden items-center lg:flex">
+        <div className="hidden items-center gap-3 lg:flex">
+          <Link
+            href="/news"
+            className={`text-[15px] font-medium tracking-wide transition-colors duration-150 ${
+              isActive("/news") ? "text-magenta" : "text-navy/70 hover:text-navy"
+            }`}
+          >
+            Blog
+          </Link>
           <Link href="/kontakt" className="btn-primary">
             Beratung anfragen
           </Link>
