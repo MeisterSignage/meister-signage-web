@@ -208,7 +208,7 @@ export default function DigitalSignageMietenContent() {
         className="relative w-full overflow-hidden"
         style={{
           background: "linear-gradient(160deg, #07101f 0%, #0d1628 50%, #111d38 100%)",
-          minHeight: "88vh",
+          minHeight: "86vh",
         }}
       >
         <div
@@ -225,7 +225,7 @@ export default function DigitalSignageMietenContent() {
           }}
         />
 
-        <div className="relative mx-auto grid min-h-[88vh] max-w-[1200px] grid-cols-1 items-center gap-12 px-6 py-28 md:px-10 lg:grid-cols-2 lg:gap-0 lg:py-0">
+        <div className="relative mx-auto grid min-h-[86vh] max-w-[1200px] grid-cols-1 items-center gap-12 px-6 py-24 md:px-10 lg:grid-cols-2 lg:gap-0 lg:py-0">
 
           {/* Text */}
           <motion.div
@@ -335,10 +335,29 @@ export default function DigitalSignageMietenContent() {
           </motion.div>
 
         </div>
+
+        {/* Bottom fade — cinematic transition to next section */}
+        <div
+          className="pointer-events-none absolute bottom-0 left-0 right-0 h-40"
+          aria-hidden="true"
+          style={{
+            background:
+              "linear-gradient(to bottom, transparent 0%, rgba(245,245,247,0.04) 60%, rgba(245,245,247,0.10) 100%)",
+          }}
+        />
       </section>
 
       {/* ── 2. PACKAGES ──────────────────────────────────────────────────── */}
-      <section className="w-full bg-offwhite" id="sortiment">
+      <section
+        id="sortiment"
+        className="relative w-full bg-offwhite"
+        style={{
+          marginTop: "-44px",
+          borderRadius: "28px 28px 0 0",
+          zIndex: 10,
+          boxShadow: "0 -12px 48px rgba(7,16,31,0.10)",
+        }}
+      >
         <div className="section-inner">
 
           <motion.div

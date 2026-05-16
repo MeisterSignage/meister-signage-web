@@ -278,10 +278,28 @@ export default function LandingPageContent({
             </motion.div>
           )}
         </div>
+
+        {/* Bottom fade — cinematic transition to next section */}
+        <div
+          className="pointer-events-none absolute bottom-0 left-0 right-0 h-40"
+          aria-hidden="true"
+          style={{
+            background:
+              "linear-gradient(to bottom, transparent 0%, rgba(255,255,255,0.04) 60%, rgba(255,255,255,0.10) 100%)",
+          }}
+        />
       </section>
 
       {/* ── 2. BENEFITS BENTO ────────────────────────────────────────────── */}
-      <section className="w-full bg-white">
+      <section
+        className="relative w-full bg-white"
+        style={{
+          marginTop: "-44px",
+          borderRadius: "28px 28px 0 0",
+          zIndex: 10,
+          boxShadow: "0 -12px 48px rgba(7,16,31,0.10)",
+        }}
+      >
         <div className="section-inner">
 
           <motion.div
