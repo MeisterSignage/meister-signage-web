@@ -68,8 +68,9 @@ export default function ModernFAQSection({
                   <div
                     style={{
                       maxHeight: isOpen ? "600px" : "0px",
+                      opacity: isOpen ? 1 : 0,
                       overflow: "hidden",
-                      transition: "max-height 280ms cubic-bezier(0.4,0,0.2,1)",
+                      transition: "max-height 280ms cubic-bezier(0.4,0,0.2,1), opacity 220ms cubic-bezier(0.25,0.1,0.25,1)",
                     }}
                   >
                     <p className="pb-7 pr-14 text-[15px] leading-relaxed text-cgray">

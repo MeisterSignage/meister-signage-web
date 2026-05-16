@@ -27,7 +27,7 @@ export default function LatestNewsSection({
         <div className="mb-10 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <span className="eyebrow">{eyebrow}</span>
-            <h2 className="mt-1 text-[clamp(1.6rem,2.4vw,2.2rem)] font-light tracking-tight text-navy">
+            <h2 className="heading-max-2 mt-1 text-[clamp(1.6rem,2.4vw,2.2rem)] font-light tracking-tight text-navy">
               {title}
             </h2>
             <p className="mt-2 max-w-md text-[15px] text-cgray">{subtitle}</p>

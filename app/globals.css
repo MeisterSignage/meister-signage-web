@@ -164,6 +164,9 @@ a { color: inherit; text-decoration: none; }
     max-width: 64rem;
     margin-bottom: 2.5rem;
   }
+  .section-header p {
+    text-wrap: pretty;
+  }
 
   /* ── Inner section container (padding + max-width) ──────── */
   .section-inner {
@@ -283,9 +286,9 @@ a { color: inherit; text-decoration: none; }
   /* Attach to cards that animate on hover */
   .card-hover {
     transition:
-      border-color var(--transition-base),
-      transform var(--transition-base),
-      box-shadow var(--transition-base);
+      border-color 200ms cubic-bezier(0.25, 0.1, 0.25, 1),
+      box-shadow   200ms cubic-bezier(0.25, 0.1, 0.25, 1),
+      transform    220ms cubic-bezier(0.34, 1.3, 0.64, 1);
   }
   .card-hover:hover {
     border-color: var(--border-hover);

@@ -77,7 +77,7 @@ Nur folgende Farben verwenden:
 | `--navy` | `#1a2744` | Texte, Überschriften, Hintergründe |
 | `--magenta` | `#fe019a` | CTAs, Hover, Fokus, Akzentlinien |
 | `--gold` | `#C9A84C` | Eyebrows, Linien, Nummern, Labels |
-| `--offwhite` | `#EDEAE4` | Section-Hintergründe (alternierend) |
+| `--offwhite` | `#f5f5f7` | Section-Hintergründe (alternierend) |
 | `--cgray` | `#6B7280` | Body-Text, Beschreibungen |
 | White | `#ffffff` | Card-Hintergründe |
 
