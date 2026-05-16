@@ -71,7 +71,7 @@ const page: LandingPage = {
     subtitle: "Wir zeigen Ihnen, welche Lösung für Ihren Empfang, Ihre Lobby oder Ihr Restaurant sinnvoll ist.",
     primaryLabel: "Beratung anfragen",
     primaryHref: "/kontakt",
-    secondaryLabel: "Lösungen entdecken",
+    secondaryLabel: "Lösungen ansehen",
     secondaryHref: "/digital-signage-schweiz",
   },
   related: {

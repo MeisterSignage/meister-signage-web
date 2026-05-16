@@ -44,7 +44,7 @@ export default function Home() {
       <HomeHeroSection
         eyebrow="Digital Signage aus der Zentralschweiz"
         primaryCta={{ label: "Beratung anfragen", href: "/kontakt" }}
-        secondaryCta={{ label: "Lösungen entdecken", href: "/digital-signage-schweiz" }}
+        secondaryCta={{ label: "Lösungen ansehen", href: "/digital-signage-schweiz" }}
       />
 
       {/* 2 — Micro trust strip */}

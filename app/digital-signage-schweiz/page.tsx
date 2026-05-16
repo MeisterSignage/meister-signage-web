@@ -127,7 +127,7 @@ export default function DigitalSignageSchweiPage() {
           "Persönliche Betreuung statt anonymer Plattformen",
         ]}
         primaryCta={{ label: "Beratung anfragen", href: "/kontakt" }}
-        secondaryCta={{ label: "Lösungen entdecken", href: "#loesungen" }}
+        secondaryCta={{ label: "Lösungen ansehen", href: "#loesungen" }}
       />
 
       {/* 2 — Was ist Digital Signage? */}

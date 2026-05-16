@@ -222,7 +222,7 @@ export default function UeberUnsPage() {
         title="Lernen Sie Meister Signage persönlich kennen."
         subtitle="Ein kurzes Gespräch reicht oft aus, um zu klären, ob und wie Digital Signage für Ihren Betrieb sinnvoll ist."
         primaryCta={{ label: "Projekt besprechen", href: "/kontakt" }}
-        secondaryCta={{ label: "Lösungen entdecken", href: "/loesungen" }}
+        secondaryCta={{ label: "Lösungen ansehen", href: "/loesungen" }}
       />
 
       <ContactSection

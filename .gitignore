@@ -8,6 +8,8 @@ out/
 # misc
 .DS_Store
 *.pem
+*.bak
+tsconfig.tsbuildinfo
 
 # debug
 npm-debug.log*

@@ -92,7 +92,7 @@ export default function GastronomiePage() {
           "Persönliche Betreuung statt komplizierter IT",
         ]}
         primaryCta={{ label: "Beratung anfragen", href: "/kontakt" }}
-        secondaryCta={{ label: "Alle Lösungen ansehen", href: "/loesungen" }}
+        secondaryCta={{ label: "Lösungen ansehen", href: "/loesungen" }}
       />
 
       <ProblemSolutionSection

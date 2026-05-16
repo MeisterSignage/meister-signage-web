@@ -168,7 +168,7 @@ export default async function NewsDetailPage({
         title="Interesse an Digital Signage für Ihren Betrieb?"
         subtitle="Kurz erklären, was Sie vorhaben – wir zeigen Ihnen, welche Lösung sinnvoll ist."
         primaryCta={{ label: "Beratung anfragen", href: "/kontakt" }}
-        secondaryCta={{ label: "Lösungen entdecken", href: "/digital-signage-schweiz" }}
+        secondaryCta={{ label: "Lösungen ansehen", href: "/digital-signage-schweiz" }}
       />
     </>
   );

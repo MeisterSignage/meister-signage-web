@@ -72,7 +72,7 @@ const page: LandingPage = {
     subtitle: "Sagen Sie kurz, was Sie vorhaben. Wir zeigen Ihnen, welche Lösung sinnvoll ist – ohne Verkaufsdruck.",
     primaryLabel: "Beratung anfragen",
     primaryHref: "/kontakt",
-    secondaryLabel: "Lösungen entdecken",
+    secondaryLabel: "Lösungen ansehen",
     secondaryHref: "/digital-signage-schweiz",
   },
   related: {

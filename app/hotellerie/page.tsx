@@ -97,7 +97,7 @@ export default function HotelleriePage() {
           "Inhalte zentral verwalten – ohne IT-Aufwand",
         ]}
         primaryCta={{ label: "Beratung anfragen", href: "/kontakt" }}
-        secondaryCta={{ label: "Alle Lösungen ansehen", href: "/loesungen" }}
+        secondaryCta={{ label: "Lösungen ansehen", href: "/loesungen" }}
       />
 
       <ProblemSolutionSection

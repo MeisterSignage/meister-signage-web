@@ -71,7 +71,7 @@ const page: LandingPage = {
     subtitle: "Sagen Sie kurz, was Sie planen – Datum, Ort, ungefähre Anzahl Displays. Wir melden uns mit einem Angebot.",
     primaryLabel: "Anfrage stellen",
     primaryHref: "/kontakt",
-    secondaryLabel: "Event-Lösungen entdecken",
+    secondaryLabel: "Event-Lösungen ansehen",
     secondaryHref: "/events",
   },
   related: {

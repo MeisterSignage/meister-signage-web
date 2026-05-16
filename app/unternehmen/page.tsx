@@ -97,7 +97,7 @@ export default function UnternehmenPage() {
           "KPIs, Kennzahlen und Neuigkeiten immer sichtbar",
         ]}
         primaryCta={{ label: "Projekt besprechen", href: "/kontakt" }}
-        secondaryCta={{ label: "Alle Lösungen ansehen", href: "/loesungen" }}
+        secondaryCta={{ label: "Lösungen ansehen", href: "/loesungen" }}
       />
 
       <ProblemSolutionSection

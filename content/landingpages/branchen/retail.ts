@@ -71,7 +71,7 @@ const page: LandingPage = {
     subtitle: "Wir zeigen Ihnen, wie Displays Ihren Verkaufsalltag unterstützen – von der Planung bis zur Inbetriebnahme.",
     primaryLabel: "Beratung anfragen",
     primaryHref: "/kontakt",
-    secondaryLabel: "Lösungen entdecken",
+    secondaryLabel: "Lösungen ansehen",
     secondaryHref: "/digital-signage-schweiz",
   },
   related: {

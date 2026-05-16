@@ -92,7 +92,7 @@ export default function RetailPage() {
           "Kein Nachdrucken – Inhalte jederzeit aktualisierbar",
         ]}
         primaryCta={{ label: "Beratung anfragen", href: "/kontakt" }}
-        secondaryCta={{ label: "Alle Lösungen ansehen", href: "/loesungen" }}
+        secondaryCta={{ label: "Lösungen ansehen", href: "/loesungen" }}
       />
 
       <ProblemSolutionSection
