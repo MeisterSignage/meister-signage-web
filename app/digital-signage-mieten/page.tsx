@@ -72,7 +72,7 @@ const PACKAGES = [
     name: "Spark 3",
     size: '32" Digital Signage Screen',
     price: 129,
-    image: "/images/products/Spark3-Design.png",
+    image: "/images/products/Spark3-Design.webp",
     benefits: [
       "Software-Lizenz inklusive",
       "Plug & Play in 15 Minuten",
@@ -83,7 +83,7 @@ const PACKAGES = [
     name: "Spark 4",
     size: '43" Digital Signage Screen',
     price: 139,
-    image: "/images/products/Spark4-Design.png",
+    image: "/images/products/Spark4-Design.webp",
     benefits: [
       "Software-Lizenz inklusive",
       "Plug & Play in 15 Minuten",
@@ -96,7 +96,7 @@ const PACKAGES = [
     price: 149,
     badge: "Populär",
     featured: true,
-    image: "/images/products/Spark5-Design.png",
+    image: "/images/products/Spark5-Design.webp",
     benefits: [
       "Software-Lizenz inklusive",
       "Plug & Play in 15 Minuten",
@@ -109,7 +109,7 @@ const PACKAGES = [
     price: 159,
     badge: "Populär",
     featured: true,
-    image: "/images/products/SparkQ-Design.png",
+    image: "/images/products/SparkQ-Design.webp",
     benefits: [
       "Software-Lizenz inklusive",
       "Plug & Play in 15 Minuten",

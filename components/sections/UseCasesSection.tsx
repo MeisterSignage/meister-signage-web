@@ -29,7 +29,7 @@ const useCases: UseCase[] = [
       "Aufmerksamkeit im Verkaufsraum erhöhen",
     ],
     cta: { label: "Retail entdecken", href: "/branchen/retail" },
-    imageSrc: "/images/products/Schuhladen-Meister-Signage.png",
+    imageSrc: "/images/products/Schuhladen-Meister-Signage.webp",
     imageAlt: "Digital Signage Retail – Schuhgeschäft mit digitalen Displays",
   },
   {
@@ -43,7 +43,7 @@ const useCases: UseCase[] = [
       "Weniger Aufwand mit gedruckten Tafeln",
     ],
     cta: { label: "Gastronomie entdecken", href: "/branchen/gastronomie" },
-    imageSrc: "/images/products/Restaurant-Meister-Signage.png",
+    imageSrc: "/images/products/Restaurant-Meister-Signage.webp",
     imageAlt: "Digital Signage Gastronomie – Digitales Menüboard im Restaurant",
   },
   {
@@ -57,7 +57,7 @@ const useCases: UseCase[] = [
       "Hochwertiger erster Eindruck",
     ],
     cta: { label: "Hotellerie entdecken", href: "/branchen/hotellerie" },
-    imageSrc: "/images/products/Hotelempfang-Meister-Signage.png",
+    imageSrc: "/images/products/Hotelempfang-Meister-Signage.webp",
     imageAlt: "Digital Signage Hotel – Empfangsdisplay in der Lobby",
   },
   {
@@ -71,7 +71,7 @@ const useCases: UseCase[] = [
       "Räume modern wirken lassen",
     ],
     cta: { label: "Unternehmen entdecken", href: "/branchen/unternehmen" },
-    imageSrc: "/images/products/Unternehmen-Empfang.png",
+    imageSrc: "/images/products/Unternehmen-Empfang.webp",
     imageAlt: "Digital Signage Unternehmen – Empfangsdisplay im Büro",
   },
   {
@@ -85,7 +85,7 @@ const useCases: UseCase[] = [
       "Inhalte kurzfristig ändern",
     ],
     cta: { label: "Events entdecken", href: "/branchen/events" },
-    imageSrc: "/images/products/Events-Meister-Signage.png",
+    imageSrc: "/images/products/Events-Meister-Signage.webp",
     imageAlt: "Digital Signage Events – Displays für Messen und Tagungen",
   },
 ];

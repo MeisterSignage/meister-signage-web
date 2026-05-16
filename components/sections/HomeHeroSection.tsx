@@ -119,7 +119,7 @@ function HeroVisual() {
       {/* Mobile — display only */}
       <div className="relative mx-auto w-full max-w-[480px] lg:hidden">
         <Image
-          src="/images/products/Spark5-Design.png"
+          src="/images/products/Spark5-Design.webp"
           alt="Digital Signage Display Spark 5"
           width={900}
           height={600}
@@ -145,7 +145,7 @@ function HeroVisual() {
           }}
         >
           <Image
-            src="/images/products/Spark5-Design.png"
+            src="/images/products/Spark5-Design.webp"
             alt="Digital Signage Display"
             width={900}
             height={600}

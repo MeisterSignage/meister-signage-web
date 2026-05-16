@@ -25,7 +25,7 @@ const cases: CaseStudy[] = [
     description: "Ein Restaurant wechselt das Tagesmenü täglich. Mit einem digitalen Menüboard ist die Änderung in zwei Minuten erledigt – ohne Ausdrucken, ohne Laminieren.",
     result: "Weniger Druckkosten. Mehr Flexibilität.",
     href: "/gastronomie",
-    imageSrc: "/images/products/Restaurant-Meister-Signage.png",
+    imageSrc: "/images/products/Restaurant-Meister-Signage.webp",
   },
   {
     category: "Hotellerie",
@@ -33,7 +33,7 @@ const cases: CaseStudy[] = [
     description: "Ein Hotel informiert Gäste über Frühstückszeiten, Ausflugstipps und Events – auf einem Display in der Lobby. Das Empfangspersonal wird entlastet.",
     result: "Weniger Nachfragen. Besseres Gasterlebnis.",
     href: "/hotellerie",
-    imageSrc: "/images/products/Hotelempfang-Meister-Signage.png",
+    imageSrc: "/images/products/Hotelempfang-Meister-Signage.webp",
   },
   {
     category: "Retail",
@@ -41,7 +41,7 @@ const cases: CaseStudy[] = [
     description: "Ein Schuhgeschäft zeigt neue Kollektionen und Aktionen auf grossen Wanddisplays. Inhalte wechseln saisonal – ohne Druckkosten, ohne Agenturaufwand.",
     result: "Mehr Aufmerksamkeit. Mehr Umsatz.",
     href: "/retail",
-    imageSrc: "/images/products/Schuhladen-Meister-Signage.png",
+    imageSrc: "/images/products/Schuhladen-Meister-Signage.webp",
   },
   {
     category: "Events",
@@ -49,7 +49,7 @@ const cases: CaseStudy[] = [
     description: "Eine Tagung zeigt Zeitplan, Raumbelegung und Sponsoren auf Displays. Änderungen am Programm erscheinen sofort – kein Neudruck, keine Verwirrung.",
     result: "Reibungsloser Ablauf. Professionelles Bild.",
     href: "/events",
-    imageSrc: "/images/products/Events-Meister-Signage.png",
+    imageSrc: "/images/products/Events-Meister-Signage.webp",
   },
 ];
 
