@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
@@ -184,19 +183,7 @@ export default function Footer() {
             {/* CTA button */}
             <Link
               href="/kontakt"
-              className="group/cta inline-flex w-fit items-center gap-2.5 rounded-[8px] px-5 py-3 text-[13px] font-semibold transition-all duration-200"
-              style={{
-                border: "1px solid rgba(255,255,255,0.08)",
-                color: "#d1d5db",
-              }}
-              onMouseEnter={(e) => {
-                (e.currentTarget as HTMLElement).style.borderColor = "rgba(255,255,255,0.20)";
-                (e.currentTarget as HTMLElement).style.color = "#f3f4f6";
-              }}
-              onMouseLeave={(e) => {
-                (e.currentTarget as HTMLElement).style.borderColor = "rgba(255,255,255,0.08)";
-                (e.currentTarget as HTMLElement).style.color = "#d1d5db";
-              }}
+              className="group/cta inline-flex w-fit items-center gap-2.5 rounded-[8px] border border-white/[0.08] px-5 py-3 text-[13px] font-semibold text-[#d1d5db] transition-all duration-200 hover:border-white/20 hover:text-[#f3f4f6]"
             >
               Beratung anfragen
               <ArrowRight
@@ -214,16 +201,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={s.label}
-                  className="flex h-9 w-9 items-center justify-center rounded-lg transition-all duration-150"
-                  style={{ color: "#9ca3af" }}
-                  onMouseEnter={(e) => {
-                    (e.currentTarget as HTMLElement).style.color = "#f3f4f6";
-                    (e.currentTarget as HTMLElement).style.backgroundColor = "rgba(255,255,255,0.06)";
-                  }}
-                  onMouseLeave={(e) => {
-                    (e.currentTarget as HTMLElement).style.color = "#9ca3af";
-                    (e.currentTarget as HTMLElement).style.backgroundColor = "transparent";
-                  }}
+                  className="flex h-9 w-9 items-center justify-center rounded-lg text-[#9ca3af] transition-all duration-150 hover:bg-white/[0.06] hover:text-[#f3f4f6]"
                 >
                   {s.icon}
                 </a>
@@ -260,19 +238,13 @@ export default function Footer() {
             </span>
             <Link
               href="/datenschutz"
-              className="text-[12px] transition-colors duration-150"
-              style={{ color: "#9ca3af" }}
-              onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.color = "#d1d5db"; }}
-              onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.color = "#9ca3af"; }}
+              className="text-[12px] text-[#9ca3af] transition-colors duration-150 hover:text-[#d1d5db]"
             >
               Datenschutz
             </Link>
             <Link
               href="/impressum"
-              className="text-[12px] transition-colors duration-150"
-              style={{ color: "#9ca3af" }}
-              onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.color = "#d1d5db"; }}
-              onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.color = "#9ca3af"; }}
+              className="text-[12px] text-[#9ca3af] transition-colors duration-150 hover:text-[#d1d5db]"
             >
               Impressum
             </Link>
