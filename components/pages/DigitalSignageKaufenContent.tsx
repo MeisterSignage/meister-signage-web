@@ -280,7 +280,7 @@ export default function DigitalSignageKaufenContent() {
             <h1
               className="mb-7 font-light leading-[0.95] tracking-tight"
               style={{
-                fontSize: "clamp(2.8rem, 5.5vw, 5.2rem)",
+                fontSize: "clamp(2.2rem, 3.8vw, 3.6rem)",
                 letterSpacing: "-0.035em",
                 color: "#f3f4f6",
               }}
