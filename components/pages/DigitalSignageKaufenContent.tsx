@@ -285,13 +285,9 @@ export default function DigitalSignageKaufenContent() {
                 color: "#f3f4f6",
               }}
             >
-              Investieren Sie
+              Investieren Sie <span style={{ color: "#ffffff" }}>einmal.</span>
               <br />
-              <span style={{ color: "#ffffff" }}>einmal.</span>
-              <br />
-              Kommunizieren Sie
-              <br />
-              <span style={{ color: "#ffffff" }}>dauerhaft.</span>
+              Kommunizieren Sie <span style={{ color: "#ffffff" }}>dauerhaft.</span>
             </h1>
 
             <p
