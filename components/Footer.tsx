@@ -1,23 +1,28 @@
 import Link from "next/link";
 import Image from "next/image";
+import { ArrowRight } from "lucide-react";
 
-const nav = [
-  { label: "Home",       href: "/" },
-  { label: "Über uns",   href: "/ueber-uns" },
-  { label: "Vermietung", href: "/digital-signage-mieten" },
-  { label: "News",       href: "/news" },
-  { label: "Kontakt",    href: "/kontakt" },
+/* ── Nav data ──────────────────────────────────────────────── */
+
+const colLoesungen = [
+  { label: "Displays kaufen", href: "/digital-signage-kaufen" },
+  { label: "Displays mieten", href: "/digital-signage-mieten" },
+  { label: "LED Walls",       href: "/loesungen/led-walls" },
+  { label: "Menüboards",      href: "/loesungen/digitale-menueboards" },
 ];
 
-const loesungen = [
-  { label: "Digital Signage Schweiz", href: "/digital-signage-schweiz" },
-  { label: "Digital Signage kaufen",  href: "/digital-signage-kaufen" },
-  { label: "Kostenübersicht",         href: "/was-kostet-digital-signage-schweiz" },
-  { label: "Gastronomie",             href: "/gastronomie" },
-  { label: "Retail",                  href: "/retail" },
-  { label: "Events",                  href: "/events" },
-  { label: "Hotellerie",              href: "/hotellerie" },
-  { label: "Unternehmen",             href: "/unternehmen" },
+const colBranchen = [
+  { label: "Gastronomie",     href: "/branchen/gastronomie" },
+  { label: "Retail & Handel", href: "/branchen/retail" },
+  { label: "Events",          href: "/branchen/events" },
+  { label: "Hotellerie",      href: "/branchen/hotellerie" },
+  { label: "Unternehmen",     href: "/branchen/unternehmen" },
+];
+
+const colUnternehmen = [
+  { label: "Über uns", href: "/ueber-uns" },
+  { label: "News",     href: "/news" },
+  { label: "Kontakt",  href: "/kontakt" },
 ];
 
 const socials = [
@@ -25,7 +30,7 @@ const socials = [
     label: "LinkedIn",
     href: "https://www.linkedin.com/company/meister-signage/posts/?feedView=all&viewAsMember=true",
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" className="h-[17px] w-[17px]" aria-hidden="true">
         <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
         <rect x="2" y="9" width="4" height="12" />
         <circle cx="4" cy="4" r="2" />
@@ -36,7 +41,7 @@ const socials = [
     label: "Instagram",
     href: "https://www.instagram.com/meistersignage/",
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" className="h-[17px] w-[17px]" aria-hidden="true">
         <rect x="2" y="2" width="20" height="20" rx="5" />
         <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
         <circle cx="17.5" cy="6.5" r="0.6" fill="currentColor" stroke="none" />
@@ -47,105 +52,129 @@ const socials = [
     label: "WhatsApp",
     href: "https://wa.me/41764526687",
     icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" className="h-[17px] w-[17px]" aria-hidden="true">
         <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
       </svg>
     ),
   },
 ];
 
-export default function Footer() {
+/* ── Helpers ───────────────────────────────────────────────── */
+
+function NavColumn({
+  heading,
+  links,
+}: {
+  heading: string;
+  links: { label: string; href: string }[];
+}) {
   return (
-    <footer style={{ backgroundColor: "var(--navy)", color: "white" }}>
-      <div className="mx-auto max-w-content px-6 pt-16 pb-10">
+    <div className="flex flex-col gap-5">
+      <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-white/25">
+        {heading}
+      </p>
+      <nav className="flex flex-col gap-3">
+        {links.map(({ label, href }) => (
+          <Link
+            key={href}
+            href={href}
+            className="group/link relative w-fit text-[14px] text-white/50 transition-colors duration-200 hover:text-white/90 visited:text-white/50"
+          >
+            {label}
+            <span
+              className="absolute -bottom-px left-0 h-px w-0 bg-white/30 transition-all duration-300 group-hover/link:w-full"
+              aria-hidden="true"
+            />
+          </Link>
+        ))}
+      </nav>
+    </div>
+  );
+}
 
-        {/* Main grid */}
-        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-12">
+/* ── Footer ────────────────────────────────────────────────── */
 
-          {/* Col 1 — Logo + Tagline */}
-          <div className="flex flex-col gap-5 sm:col-span-2 lg:col-span-1">
-            <Link href="/" className="inline-block">
+export default function Footer() {
+  const year = new Date().getFullYear();
+
+  return (
+    <footer
+      className="relative w-full overflow-hidden"
+      style={{ backgroundColor: "#141414" }}
+    >
+      {/* Noise texture overlay */}
+      <div
+        className="pointer-events-none absolute inset-0 opacity-[0.025]"
+        aria-hidden="true"
+        style={{
+          backgroundImage:
+            "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E\")",
+          backgroundSize: "160px 160px",
+        }}
+      />
+
+      {/* Ambient magenta glow — top left */}
+      <div
+        className="pointer-events-none absolute -left-32 -top-32 h-[400px] w-[400px]"
+        aria-hidden="true"
+        style={{
+          background:
+            "radial-gradient(circle, rgba(254,1,154,0.07) 0%, transparent 65%)",
+        }}
+      />
+
+      {/* Main content */}
+      <div className="relative mx-auto max-w-content px-6 pb-0 pt-20 md:px-10 lg:pt-24">
+
+        {/* Top grid: brand (left) + nav columns (right) */}
+        <div className="grid grid-cols-1 gap-16 lg:grid-cols-12 lg:gap-12">
+
+          {/* Brand column */}
+          <div className="flex flex-col gap-8 lg:col-span-4">
+
+            {/* Logo */}
+            <Link href="/" className="inline-block w-fit">
               <Image
                 src="/logo.svg"
                 alt="Meister Signage"
-                width={140}
-                height={38}
-                className="brightness-0 invert"
+                width={1036}
+                height={708}
+                className="h-[46px] w-auto brightness-0 invert opacity-90"
               />
             </Link>
-            <p className="text-sm leading-relaxed text-white/60 max-w-xs">
-              Digitale Kommunikation soll entlasten — nicht zusätzliche Arbeit machen.
-            </p>
-            <p className="text-xs text-white/35">
-              Persönlich geplant und sauber umgesetzt.
-            </p>
-          </div>
 
-          {/* Col 2 — Navigation */}
-          <div className="flex flex-col gap-4">
-            <p className="text-xs font-semibold uppercase tracking-widest text-white/35">
-              Navigation
-            </p>
-            <nav className="flex flex-col gap-2.5">
-              {nav.map(({ label, href }) => (
-                <Link
-                  key={href}
-                  href={href}
-                  className="text-sm text-white/60 transition-colors duration-150 hover:text-magenta"
-                >
-                  {label}
-                </Link>
-              ))}
-            </nav>
-          </div>
-
-          {/* Col 3 — Lösungen */}
-          <div className="flex flex-col gap-4">
-            <p className="text-xs font-semibold uppercase tracking-widest text-white/35">
-              Lösungen
-            </p>
-            <nav className="flex flex-col gap-2.5">
-              {loesungen.map(({ label, href }) => (
-                <Link
-                  key={href}
-                  href={href}
-                  className="text-sm text-white/60 transition-colors duration-150 hover:text-magenta"
-                >
-                  {label}
-                </Link>
-              ))}
-            </nav>
-          </div>
-
-          {/* Col 4 — Kontakt + Socials */}
-          <div className="flex flex-col gap-4">
-            <p className="text-xs font-semibold uppercase tracking-widest text-white/35">
-              Kontakt
+            {/* Tagline */}
+            <p
+              className="font-light leading-[1.2] text-white/80"
+              style={{
+                fontSize: "clamp(1.3rem, 2vw, 1.7rem)",
+                letterSpacing: "-0.02em",
+              }}
+            >
+              Digitale Kommunikation
+              <br />
+              für Räume mit Wirkung.
             </p>
 
-            <address className="not-italic flex flex-col gap-1">
-              <span className="text-sm font-semibold text-white">Christopher Meister</span>
-              <span className="text-sm text-white/50">Meister Signage</span>
-              <span className="text-sm text-white/50">6340 Baar</span>
-            </address>
+            {/* Short text */}
+            <p className="max-w-[280px] text-[13px] leading-relaxed text-white/35">
+              Modern digital signage solutions for hospitality, retail, corporate and event spaces.
+            </p>
 
-            <div className="flex flex-col gap-2">
-              <a
-                href="tel:+41764526687"
-                className="text-sm text-white/60 transition-colors duration-150 hover:text-magenta"
-              >
-                +41 76 452 66 87
-              </a>
-              <a
-                href="mailto:chris@meister-signage.ch"
-                className="text-sm text-white/60 transition-colors duration-150 hover:text-magenta"
-              >
-                chris@meister-signage.ch
-              </a>
-            </div>
+            {/* CTA */}
+            <Link
+              href="/kontakt"
+              className="group/cta inline-flex w-fit items-center gap-2.5 rounded-[8px] border border-white/15 px-5 py-3 text-[13px] font-semibold text-white/75 transition-all duration-200 hover:border-white/35 hover:text-white"
+            >
+              Beratung anfragen
+              <ArrowRight
+                className="h-3.5 w-3.5 transition-transform duration-200 group-hover/cta:translate-x-1"
+                strokeWidth={2}
+              />
+            </Link>
 
             {/* Social icons */}
-            <div className="flex items-center gap-3 pt-1">
+            <div className="flex items-center gap-1">
               {socials.map((s) => (
                 <a
                   key={s.label}
@@ -153,7 +182,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={s.label}
-                  className="flex h-8 w-8 items-center justify-center text-white/50 transition-colors duration-150 hover:text-magenta"
+                  className="flex h-9 w-9 items-center justify-center rounded-lg text-white/35 transition-all duration-150 hover:bg-white/6 hover:text-white/75"
                 >
                   {s.icon}
                 </a>
@@ -161,27 +190,49 @@ export default function Footer() {
             </div>
           </div>
 
+          {/* Spacer on desktop */}
+          <div className="hidden lg:col-span-1 lg:block" aria-hidden="true" />
+
+          {/* Nav columns */}
+          <div className="grid grid-cols-2 gap-10 sm:grid-cols-3 lg:col-span-7 lg:gap-8">
+            <NavColumn heading="Lösungen"    links={colLoesungen} />
+            <NavColumn heading="Branchen"    links={colBranchen} />
+            <NavColumn heading="Unternehmen" links={colUnternehmen} />
+          </div>
+
         </div>
 
         {/* Divider */}
-        <div className="mt-12 border-t border-white/8" />
+        <div
+          className="mt-20 h-px w-full"
+          style={{
+            background:
+              "linear-gradient(to right, transparent, rgba(255,255,255,0.07) 20%, rgba(255,255,255,0.07) 80%, transparent)",
+          }}
+        />
 
         {/* Bottom bar */}
-        <div className="flex flex-col gap-3 pt-6 sm:flex-row sm:items-center sm:justify-between">
-          <div className="flex items-center gap-5">
-            <p className="text-xs text-white/30">
-              © {new Date().getFullYear()} Meister Signage
-            </p>
-            <Link href="/impressum" className="text-xs text-white/40 transition-colors duration-150 hover:text-white">
-              Impressum
-            </Link>
-            <Link href="/datenschutz" className="text-xs text-white/40 transition-colors duration-150 hover:text-white">
+        <div className="flex flex-col gap-4 py-7 sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex items-center gap-6">
+            <span className="text-[12px] text-white/20">
+              © {year} Meister Signage
+            </span>
+            <Link
+              href="/datenschutz"
+              className="text-[12px] text-white/28 transition-colors duration-150 hover:text-white/60"
+            >
               Datenschutz
             </Link>
+            <Link
+              href="/impressum"
+              className="text-[12px] text-white/28 transition-colors duration-150 hover:text-white/60"
+            >
+              Impressum
+            </Link>
           </div>
-          <p className="text-xs text-white/25">
+          <span className="text-[11px] tracking-wide text-white/15">
             Made with care in Switzerland.
-          </p>
+          </span>
         </div>
 
       </div>
