@@ -1,6 +1,5 @@
 "use client";
 
-import { Hotel, CalendarRange } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
@@ -29,14 +28,12 @@ const cases: CaseStudy[] = [
     imageSrc: "/images/products/Restaurant-Meister-Signage.png",
   },
   {
-    icon: Hotel,
     category: "Hotellerie",
     title: "Empfang ohne Papierchaos",
     description: "Ein Hotel informiert Gäste über Frühstückszeiten, Ausflugstipps und Events – auf einem Display in der Lobby. Das Empfangspersonal wird entlastet.",
     result: "Weniger Nachfragen. Besseres Gasterlebnis.",
     href: "/hotellerie",
-    gradient: "linear-gradient(135deg, #eef2ff 0%, #dde5ff 100%)",
-    iconBg: "rgba(99,102,241,0.12)",
+    imageSrc: "/images/products/Hotelempfang-Meister-Signage.png",
   },
   {
     category: "Retail",
@@ -47,14 +44,12 @@ const cases: CaseStudy[] = [
     imageSrc: "/images/products/Schuhladen-Meister-Signage.png",
   },
   {
-    icon: CalendarRange,
     category: "Events",
     title: "Eventprogramm in Echtzeit",
     description: "Eine Tagung zeigt Zeitplan, Raumbelegung und Sponsoren auf Displays. Änderungen am Programm erscheinen sofort – kein Neudruck, keine Verwirrung.",
     result: "Reibungsloser Ablauf. Professionelles Bild.",
     href: "/events",
-    gradient: "linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%)",
-    iconBg: "rgba(254,1,154,0.10)",
+    imageSrc: "/images/products/Events-Meister-Signage.png",
   },
 ];
 
