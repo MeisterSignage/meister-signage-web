@@ -1,6 +1,6 @@
 "use client";
 
-import { UtensilsCrossed, Hotel, CalendarRange } from "lucide-react";
+import { Hotel, CalendarRange } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
@@ -21,14 +21,12 @@ type CaseStudy = {
 
 const cases: CaseStudy[] = [
   {
-    icon: UtensilsCrossed,
     category: "Gastronomie",
     title: "Menüboard statt Kreidetafel",
     description: "Ein Restaurant wechselt das Tagesmenü täglich. Mit einem digitalen Menüboard ist die Änderung in zwei Minuten erledigt – ohne Ausdrucken, ohne Laminieren.",
     result: "Weniger Druckkosten. Mehr Flexibilität.",
     href: "/gastronomie",
-    gradient: "linear-gradient(135deg, #fdf2e3 0%, #fce4c0 100%)",
-    iconBg: "rgba(201,168,76,0.15)",
+    imageSrc: "/images/products/Restaurant-Meister-Signage.png",
   },
   {
     icon: Hotel,
