@@ -3,7 +3,7 @@ import HomeHeroSection from "@/components/sections/HomeHeroSection";
 import LatestNewsSection from "@/components/sections/LatestNewsSection";
 import { getLatestPosts } from "@/lib/news";
 import PremiumBenefitGrid from "@/components/sections/PremiumBenefitGrid";
-import MiniCaseStudies from "@/components/sections/MiniCaseStudies";
+import IndustriesSection from "@/components/sections/IndustriesSection";
 import ModernProcessSection from "@/components/sections/ModernProcessSection";
 import ModernFAQSection from "@/components/sections/ModernFAQSection";
 import MicroTrustSection from "@/components/sections/MicroTrustSection";
@@ -56,8 +56,8 @@ export default function Home() {
       {/* 3 — Premium benefit grid */}
       <PremiumBenefitGrid />
 
-      {/* 4 — Mini case studies */}
-      <MiniCaseStudies />
+      {/* 4 — Industries bento */}
+      <IndustriesSection />
 
       {/* 5 — Modern 3-step process */}
       <ModernProcessSection />
