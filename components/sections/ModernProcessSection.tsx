@@ -1,3 +1,8 @@
+"use client";
+
+import { motion, useReducedMotion } from "framer-motion";
+import { staggerContainer, staggerItem, viewport, easeOut } from "@/lib/motion";
+
 type Step = {
   number: number;
   title: string;
@@ -27,6 +32,8 @@ const steps: Step[] = [
 ];
 
 export default function ModernProcessSection() {
+  const reduced = useReducedMotion();
+
   return (
     <section
       className="relative w-full overflow-hidden"
@@ -41,10 +48,26 @@ export default function ModernProcessSection() {
         }}
       />
 
+      {/* Subtle dot texture */}
+      <div
+        className="pointer-events-none absolute inset-0 opacity-[0.4]"
+        aria-hidden="true"
+        style={{
+          backgroundImage: "radial-gradient(circle at 1px 1px, rgba(255,255,255,0.06) 1px, transparent 0)",
+          backgroundSize: "28px 28px",
+        }}
+      />
+
       <div className="section-inner relative">
 
         {/* Header */}
-        <div className="mb-16 max-w-xl">
+        <motion.div
+          className="mb-16 max-w-xl"
+          initial={reduced ? false : { opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={viewport}
+          transition={{ duration: 0.52, ease: easeOut }}
+        >
           <span className="eyebrow" style={{ color: "rgba(201,168,76,0.9)" }}>
             So läuft es ab
           </span>
@@ -54,13 +77,22 @@ export default function ModernProcessSection() {
           <p className="mt-4 text-[16px] leading-relaxed text-white/45">
             Drei Schritte – klar, unkompliziert und ohne IT-Aufwand auf Ihrer Seite.
           </p>
-        </div>
+        </motion.div>
 
         {/* Steps */}
-        <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
+        <motion.div
+          className="grid grid-cols-1 gap-6 lg:grid-cols-3"
+          variants={staggerContainer}
+          initial={reduced ? false : "hidden"}
+          whileInView="visible"
+          viewport={viewport}
+        >
           {steps.map((step, i) => (
-            <div key={step.number} className="relative">
-
+            <motion.div
+              key={step.number}
+              variants={staggerItem}
+              className="relative"
+            >
               {/* Connector line (desktop) */}
               {i < steps.length - 1 && (
                 <div
@@ -70,9 +102,9 @@ export default function ModernProcessSection() {
                 />
               )}
 
-              {/* Card */}
+              {/* Glass card */}
               <div
-                className="relative h-full overflow-hidden rounded-[16px] p-7"
+                className="relative h-full overflow-hidden rounded-[16px] p-7 transition-all duration-300 hover:-translate-y-1"
                 style={{
                   background: "rgba(255,255,255,0.04)",
                   border: "1px solid rgba(255,255,255,0.08)",
@@ -110,9 +142,9 @@ export default function ModernProcessSection() {
                   {step.detail}
                 </p>
               </div>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
 
       </div>
     </section>

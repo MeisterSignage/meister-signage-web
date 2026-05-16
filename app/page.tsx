@@ -10,6 +10,7 @@ import MicroTrustSection from "@/components/sections/MicroTrustSection";
 import CTASection from "@/components/sections/CTASection";
 import ContactSection from "@/components/sections/ContactSection";
 import InternalLinksSection from "@/components/sections/InternalLinksSection";
+import AnimateIn from "@/components/ui/AnimateIn";
 
 const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = SITE_URL;
@@ -48,7 +49,9 @@ export default function Home() {
       />
 
       {/* 2 — Micro trust strip */}
-      <MicroTrustSection />
+      <AnimateIn distance={10} delay={0.1}>
+        <MicroTrustSection />
+      </AnimateIn>
 
       {/* 3 — Premium benefit grid */}
       <PremiumBenefitGrid />
@@ -93,12 +96,14 @@ export default function Home() {
       />
 
       {/* 7 — Latest news */}
+      <AnimateIn>
       <LatestNewsSection
         posts={latestPosts}
         eyebrow="Aktuelles"
         title="News & Insights"
         subtitle="Tipps, Neuigkeiten und Hintergründe rund um Digital Signage."
       />
+      </AnimateIn>
 
       {/* 8 — Internal links */}
       <InternalLinksSection

@@ -1,5 +1,9 @@
+"use client";
+
 import { UtensilsCrossed, Hotel, Building2, CalendarRange } from "lucide-react";
 import Link from "next/link";
+import { motion, useReducedMotion } from "framer-motion";
+import { staggerContainer, staggerItem, cardHover, viewport, easeOut } from "@/lib/motion";
 
 type CaseStudy = {
   icon: React.ElementType;
@@ -56,12 +60,20 @@ const cases: CaseStudy[] = [
 ];
 
 export default function MiniCaseStudies() {
+  const reduced = useReducedMotion();
+
   return (
     <section className="w-full bg-offwhite">
       <div className="section-inner">
 
         {/* Header */}
-        <div className="section-header">
+        <motion.div
+          className="section-header"
+          initial={reduced ? false : { opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={viewport}
+          transition={{ duration: 0.52, ease: easeOut }}
+        >
           <span className="eyebrow">Anwendungen</span>
           <h2 className="heading-max-2 text-navy">
             Digital Signage in der Praxis
@@ -69,49 +81,63 @@ export default function MiniCaseStudies() {
           <p className="mt-3 max-w-xl text-cgray">
             Typische Einsatzszenarien – wie Betriebe aus verschiedenen Branchen digitale Displays in ihrem Alltag nutzen.
           </p>
-        </div>
+        </motion.div>
 
         {/* Cards grid */}
-        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+        <motion.div
+          className="grid grid-cols-1 gap-5 sm:grid-cols-2"
+          variants={staggerContainer}
+          initial={reduced ? false : "hidden"}
+          whileInView="visible"
+          viewport={viewport}
+        >
           {cases.map((c) => (
-            <Link key={c.category} href={c.href} className="group block">
-              <div className="h-full overflow-hidden rounded-[16px] bg-white shadow-[0_2px_16px_rgba(26,39,68,0.06),0_0_0_1px_rgba(26,39,68,0.07)] transition-all duration-200 group-hover:-translate-y-1 group-hover:shadow-[0_12px_40px_rgba(26,39,68,0.12),0_0_0_1px_rgba(26,39,68,0.10)]">
-                {/* Coloured header */}
-                <div
-                  className="flex h-[100px] items-center justify-start px-7"
-                  style={{ background: c.gradient }}
+            <motion.div key={c.category} variants={staggerItem}>
+              <Link href={c.href} className="group block h-full">
+                <motion.div
+                  className="h-full overflow-hidden rounded-[16px] bg-white"
+                  whileHover={reduced ? undefined : cardHover}
+                  style={{
+                    boxShadow: "0 2px 16px rgba(26,39,68,0.06), 0 0 0 1px rgba(26,39,68,0.07)",
+                  }}
                 >
+                  {/* Coloured header */}
                   <div
-                    className="flex h-12 w-12 items-center justify-center rounded-2xl"
-                    style={{ background: c.iconBg }}
+                    className="flex h-[100px] items-center justify-start px-7"
+                    style={{ background: c.gradient }}
                   >
-                    <c.icon className="h-6 w-6 text-navy/70" strokeWidth={1.5} />
+                    <div
+                      className="flex h-12 w-12 items-center justify-center rounded-2xl"
+                      style={{ background: c.iconBg }}
+                    >
+                      <c.icon className="h-6 w-6 text-navy/70" strokeWidth={1.5} />
+                    </div>
                   </div>
-                </div>
 
-                {/* Content */}
-                <div className="p-7">
-                  <span className="mb-2 inline-block text-[11px] font-bold uppercase tracking-widest text-cgray">
-                    {c.category}
-                  </span>
-                  <p className="mb-3 text-[18px] font-bold leading-snug text-navy">
-                    {c.title}
-                  </p>
-                  <p className="mb-5 text-[14px] leading-relaxed text-cgray">
-                    {c.description}
-                  </p>
-                  {/* Result pill */}
-                  <div className="inline-flex items-center gap-1.5 rounded-full bg-navy/5 px-3.5 py-1.5">
-                    <span className="h-1.5 w-1.5 rounded-full bg-gold" />
-                    <span className="text-[12px] font-semibold text-navy/70">
-                      {c.result}
+                  {/* Content */}
+                  <div className="p-7">
+                    <span className="mb-2 inline-block text-[11px] font-bold uppercase tracking-widest text-cgray">
+                      {c.category}
                     </span>
+                    <p className="mb-3 text-[18px] font-bold leading-snug text-navy">
+                      {c.title}
+                    </p>
+                    <p className="mb-5 text-[14px] leading-relaxed text-cgray">
+                      {c.description}
+                    </p>
+                    {/* Result pill */}
+                    <div className="inline-flex items-center gap-1.5 rounded-full bg-navy/5 px-3.5 py-1.5">
+                      <span className="h-1.5 w-1.5 rounded-full bg-gold" />
+                      <span className="text-[12px] font-semibold text-navy/70">
+                        {c.result}
+                      </span>
+                    </div>
                   </div>
-                </div>
-              </div>
-            </Link>
+                </motion.div>
+              </Link>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
 
       </div>
     </section>
