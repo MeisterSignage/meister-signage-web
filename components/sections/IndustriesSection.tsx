@@ -36,6 +36,7 @@ const industries: Industry[] = [
     title: "Unternehmen & Empfang",
     description: "Besucher informieren. Räume modernisieren.",
     href: "/unternehmen",
+    imageSrc: "/images/products/Unternehmen-Empfang.png",
   },
   {
     title: "Events & Messen",
