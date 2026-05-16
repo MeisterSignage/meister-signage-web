@@ -4,6 +4,7 @@ import LatestNewsSection from "@/components/sections/LatestNewsSection";
 import { getLatestPosts } from "@/lib/news";
 import PremiumBenefitGrid from "@/components/sections/PremiumBenefitGrid";
 import IndustriesSection from "@/components/sections/IndustriesSection";
+import UseCasesSection from "@/components/sections/UseCasesSection";
 import ModernProcessSection from "@/components/sections/ModernProcessSection";
 import ModernFAQSection from "@/components/sections/ModernFAQSection";
 import MicroTrustSection from "@/components/sections/MicroTrustSection";
@@ -59,10 +60,13 @@ export default function Home() {
       {/* 4 — Industries bento */}
       <IndustriesSection />
 
-      {/* 5 — Modern 3-step process */}
+      {/* 5 — Use cases editorial */}
+      <UseCasesSection />
+
+      {/* 6 — Modern 3-step process */}
       <ModernProcessSection />
 
-      {/* 6 — FAQ */}
+      {/* 7 — FAQ */}
       <ModernFAQSection
         eyebrow="Häufige Fragen"
         title="Was Sie vor dem Start wissen sollten."

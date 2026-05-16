@@ -67,8 +67,9 @@ function IndustryCard({
       <Link href={href} className="group block h-full">
         <div
           className={`
+            industry-card
             relative overflow-hidden rounded-[32px] h-full
-            transition-all duration-500 ease-out
+            transition-transform duration-500 ease-out
             hover:-translate-y-2
           `}
           style={{
