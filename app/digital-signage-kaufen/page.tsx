@@ -94,12 +94,6 @@ const PAGE_FAQS = [
 /* ─── Product table ──────────────────────────────────────────────────── */
 const PRODUCTS = [
   {
-    model: "Spark 2 LTE",
-    size: '18.5" Full HD',
-    price: "CHF 1'299",
-    suitedFor: "Empfang, kleine Theken, Gastronomie",
-  },
-  {
     model: "Spark 3",
     size: '32" Full HD',
     price: "CHF 1'299",

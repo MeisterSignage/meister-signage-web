@@ -71,21 +71,17 @@ export const metadata: Metadata = {
 
 const RENTAL_PACKAGES = [
   {
-    name: "Spark 2",
-    size: '18.5" Digital Signage Screen',
-    price: 129,
-    benefits: ["inkl. Lizenz, Cloud-Steuerung und Support"],
-  },
-  {
     name: "Spark 3",
     size: '32" Digital Signage Screen',
     price: 129,
+    image: "/images/products/Spark3-Design.png",
     benefits: ["inkl. Lizenz, Cloud-Steuerung und Support"],
   },
   {
     name: "Spark 4",
     size: '43" Digital Signage Screen',
     price: 139,
+    image: "/images/products/Spark4-Design.png",
     benefits: ["inkl. Lizenz, Cloud-Steuerung und Support"],
   },
   {
@@ -93,6 +89,8 @@ const RENTAL_PACKAGES = [
     size: '50" Digital Signage Screen',
     price: 149,
     badge: "Populär",
+    featured: true,
+    image: "/images/products/Spark5-Design.png",
     benefits: ["inkl. Lizenz, Cloud-Steuerung und Support"],
   },
   {
@@ -100,6 +98,8 @@ const RENTAL_PACKAGES = [
     size: '33" Digital Signage Screen (quadratisch)',
     price: 159,
     badge: "Populär",
+    featured: true,
+    image: "/images/products/SparkQ-Design.png",
     benefits: ["inkl. Lizenz, Cloud-Steuerung und Support"],
   },
 ];
@@ -162,12 +162,6 @@ export default function WasKostetDigitalSignagePage() {
         title="Digital Signage kaufen – Preisübersicht"
         subtitle="Beim Kauf gehört das Display Ihnen. Das lohnt sich vor allem bei langfristigem Einsatz, mehreren Standorten oder wenn Sie volle Eigentümerschaft bevorzugen."
         rows={[
-          {
-            model: "Spark 2 LTE",
-            size: "18.5\" Full HD",
-            price: "CHF 1'299",
-            suitedFor: "Theken und Kassenbereiche",
-          },
           {
             model: "Spark 3",
             size: "32\" Full HD",
