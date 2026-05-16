@@ -5,7 +5,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { ChevronDown, Menu, X } from "lucide-react";
 
-type DropdownItem = { label: string; href: string };
+type DropdownItem = { label: string; href: string; desc?: string };
 type NavItem = { label: string; href: string; dropdown?: DropdownItem[] };
 
 const navItems: NavItem[] = [
@@ -13,24 +13,26 @@ const navItems: NavItem[] = [
     label: "Lösungen",
     href: "/loesungen",
     dropdown: [
-      { label: "Digital Signage Schweiz",  href: "/digital-signage-schweiz" },
-      { label: "Digital Signage kaufen",   href: "/digital-signage-kaufen" },
-      { label: "Digital Signage mieten",   href: "/digital-signage-mieten" },
-      { label: "Kosten & Preise",          href: "/was-kostet-digital-signage-schweiz" },
+      { label: "Displays kaufen",  href: "/digital-signage-kaufen",         desc: "Kauf & Komplettinstallation" },
+      { label: "Displays mieten",  href: "/digital-signage-mieten",         desc: "Flexibel für Events & Temporär" },
+      { label: "LED Walls",        href: "/loesungen/led-walls",            desc: "Grossfläche mit maximaler Wirkung" },
+      { label: "Menüboards",       href: "/loesungen/digitale-menueboards", desc: "Für Gastronomie & Retail" },
+      { label: "Indoor Signage",   href: "/loesungen/indoor-signage",       desc: "Displays für Innenräume" },
     ],
   },
   {
     label: "Branchen",
     href: "/branchen",
     dropdown: [
-      { label: "Gastronomie",     href: "/gastronomie" },
-      { label: "Retail & Handel", href: "/retail" },
-      { label: "Events",          href: "/events" },
-      { label: "Hotellerie",      href: "/hotellerie" },
-      { label: "Unternehmen",     href: "/unternehmen" },
+      { label: "Gastronomie",     href: "/branchen/gastronomie",  desc: "Restaurants, Cafés, Bistros" },
+      { label: "Retail & Handel", href: "/branchen/retail",       desc: "Shops, Schaufenster, POS" },
+      { label: "Events & Messen", href: "/branchen/events",       desc: "Tagungen, Messen, Anlässe" },
+      { label: "Hotellerie",      href: "/branchen/hotellerie",   desc: "Hotels, Empfang, Lobby" },
+      { label: "Unternehmen",     href: "/branchen/unternehmen",  desc: "KMU, Empfang, Kommunikation" },
     ],
   },
   { label: "Vermietung", href: "/digital-signage-mieten" },
+  { label: "News",       href: "/news" },
   { label: "Über uns",   href: "/ueber-uns" },
   { label: "Kontakt",    href: "/kontakt" },
 ];
@@ -44,10 +46,10 @@ export default function Nav() {
     pathname === href || (href !== "/" && pathname.startsWith(href));
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-navy/10 bg-white">
+    <header className="sticky top-0 z-50 w-full border-b border-navy/10 bg-white/95 backdrop-blur-sm">
       <div className="mx-auto flex h-[68px] max-w-content items-center justify-between px-4 md:px-10">
 
-        {/* Logo — h-[52px] ≈ 77% of 68px header, w-auto maintains SVG aspect ratio */}
+        {/* Logo */}
         <Link href="/" className="flex shrink-0 items-center">
           <Image
             src="/logo.svg"
@@ -60,42 +62,52 @@ export default function Nav() {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden items-center gap-7 lg:flex">
+        <nav className="hidden items-center gap-6 lg:flex">
           {navItems.map((item) =>
             item.dropdown ? (
               <div key={item.href} className="group relative">
                 <button
-                  className={`flex items-center gap-1.5 text-[17px] font-medium tracking-wide transition-colors duration-150 md:text-[18px] ${
-                    isActive(item.href)
-                      ? "text-magenta"
-                      : "text-navy/70 hover:text-magenta"
+                  className={`flex items-center gap-1 text-[15px] font-medium tracking-wide transition-colors duration-150 ${
+                    isActive(item.href) ? "text-magenta" : "text-navy/70 hover:text-navy"
                   }`}
                 >
                   {item.label}
-                  <ChevronDown className="h-3.5 w-3.5 text-magenta/70" strokeWidth={2} />
+                  <ChevronDown
+                    className="h-3.5 w-3.5 transition-transform duration-200 group-hover:rotate-180 text-navy/40"
+                    strokeWidth={2}
+                  />
                 </button>
 
                 {/* Dropdown */}
-                <div className="invisible absolute left-0 top-full z-10 min-w-[220px] border border-navy/10 bg-white opacity-0 transition-opacity duration-150 group-hover:visible group-hover:opacity-100">
-                  {item.dropdown.map((d) => (
-                    <Link
-                      key={d.href}
-                      href={d.href}
-                      className="block px-5 py-3 text-[15px] text-navy/60 transition-colors duration-100 hover:bg-offwhite hover:text-navy"
-                    >
-                      {d.label}
-                    </Link>
-                  ))}
+                <div className="invisible absolute left-0 top-[calc(100%+8px)] z-20 w-[260px] opacity-0 transition-all duration-150 group-hover:visible group-hover:opacity-100"
+                  style={{ filter: "drop-shadow(0 8px 32px rgba(26,39,68,0.13))" }}
+                >
+                  <div className="overflow-hidden rounded-[14px] border border-navy/8 bg-white p-1.5">
+                    {item.dropdown.map((d) => (
+                      <Link
+                        key={d.href}
+                        href={d.href}
+                        className="group/item flex flex-col rounded-[10px] px-4 py-3 transition-colors duration-100 hover:bg-offwhite"
+                      >
+                        <span className="text-[14px] font-semibold text-navy group-hover/item:text-magenta transition-colors duration-100">
+                          {d.label}
+                        </span>
+                        {d.desc && (
+                          <span className="mt-0.5 text-[12px] leading-snug text-navy/45">
+                            {d.desc}
+                          </span>
+                        )}
+                      </Link>
+                    ))}
+                  </div>
                 </div>
               </div>
             ) : (
               <Link
                 key={item.href}
                 href={item.href}
-                className={`text-[17px] font-medium tracking-wide transition-colors duration-150 md:text-[18px] ${
-                  isActive(item.href)
-                    ? "text-magenta"
-                    : "text-navy/70 hover:text-magenta"
+                className={`text-[15px] font-medium tracking-wide transition-colors duration-150 ${
+                  isActive(item.href) ? "text-magenta" : "text-navy/70 hover:text-navy"
                 }`}
               >
                 {item.label}
@@ -104,18 +116,9 @@ export default function Nav() {
           )}
         </nav>
 
-        {/* Desktop CTAs */}
-        <div className="hidden items-center gap-3 lg:flex">
-          <Link
-            href="/news"
-            className="inline-flex items-center justify-center min-h-[2.5rem] px-5 rounded-[7px] border border-magenta text-magenta text-[15px] font-semibold transition-colors duration-150 hover:bg-magenta hover:text-white"
-          >
-            News
-          </Link>
-          <Link
-            href="/kontakt"
-            className="btn-primary"
-          >
+        {/* Desktop CTA */}
+        <div className="hidden items-center lg:flex">
+          <Link href="/kontakt" className="btn-primary">
             Beratung anfragen
           </Link>
         </div>
@@ -136,7 +139,7 @@ export default function Nav() {
       {/* Mobile menu */}
       {menuOpen && (
         <div className="border-t border-navy/10 bg-white lg:hidden">
-          <div className="mx-auto max-w-content px-4 py-5">
+          <div className="mx-auto max-w-content px-4 py-4">
             <nav className="flex flex-col divide-y divide-navy/8">
               {navItems.map((item) => (
                 <div key={item.href}>
@@ -146,26 +149,31 @@ export default function Nav() {
                         onClick={() =>
                           setMobileOpen(mobileOpen === item.href ? null : item.href)
                         }
-                        className="flex w-full items-center justify-between py-3.5 text-[16px] font-medium text-navy/70"
+                        className="flex w-full items-center justify-between py-3.5 text-[16px] font-medium text-navy/80"
                       >
                         {item.label}
                         <ChevronDown
-                          className={`h-3.5 w-3.5 text-magenta/70 transition-transform duration-150 ${
+                          className={`h-3.5 w-3.5 text-navy/40 transition-transform duration-150 ${
                             mobileOpen === item.href ? "rotate-180" : ""
                           }`}
                           strokeWidth={2}
                         />
                       </button>
                       {mobileOpen === item.href && (
-                        <div className="mb-2 ml-2 flex flex-col border-l border-navy/10 pl-4">
+                        <div className="mb-3 ml-1 flex flex-col gap-0.5 border-l-2 border-navy/8 pl-4">
                           {item.dropdown.map((d) => (
                             <Link
                               key={d.href}
                               href={d.href}
-                              className="py-2.5 text-[15px] text-navy/60 hover:text-navy"
+                              className="flex flex-col py-2.5"
                               onClick={() => setMenuOpen(false)}
                             >
-                              {d.label}
+                              <span className="text-[15px] font-medium text-navy/80 hover:text-magenta transition-colors">
+                                {d.label}
+                              </span>
+                              {d.desc && (
+                                <span className="text-[12px] text-navy/40">{d.desc}</span>
+                              )}
                             </Link>
                           ))}
                         </div>
@@ -175,7 +183,7 @@ export default function Nav() {
                     <Link
                       href={item.href}
                       className={`block py-3.5 text-[16px] font-medium ${
-                        isActive(item.href) ? "text-magenta" : "text-navy/70 hover:text-navy"
+                        isActive(item.href) ? "text-magenta" : "text-navy/80 hover:text-navy"
                       }`}
                       onClick={() => setMenuOpen(false)}
                     >
@@ -186,14 +194,7 @@ export default function Nav() {
               ))}
             </nav>
 
-            <div className="mt-5 flex flex-col gap-3 border-t border-navy/10 pt-5">
-              <Link
-                href="/news"
-                className="inline-flex w-full items-center justify-center min-h-[3.5rem] rounded-[7px] border border-magenta text-magenta text-[16px] font-semibold transition-colors duration-150 hover:bg-magenta hover:text-white"
-                onClick={() => setMenuOpen(false)}
-              >
-                News
-              </Link>
+            <div className="mt-4 border-t border-navy/10 pt-4">
               <Link
                 href="/kontakt"
                 className="btn-primary w-full justify-center"

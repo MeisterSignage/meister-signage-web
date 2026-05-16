@@ -1,0 +1,90 @@
+import type { LandingPage } from "@/lib/lp-types";
+
+const page: LandingPage = {
+  slug: "unternehmen",
+  type: "branchen",
+  seoTitle: "Digital Signage für Unternehmen & Empfang Schweiz – Meister Signage",
+  seoDescription: "Digitale Displays für Empfangsbereiche, Meetingräume und Unternehmenskommunikation. Professionell, schlüsselfertig und persönlich betreut.",
+  eyebrow: "Branche · Unternehmen & Empfang",
+  h1: "Digital Signage für Unternehmen und Empfangsbereiche",
+  intro: "Ein professionell gestalteter Empfangsbereich hinterlässt Eindruck. Digitale Displays begrüssen Besucher, zeigen Wegweisung, kommunizieren interne Informationen und machen die Marke erlebbar – ohne Aufwand für das Team. Meister Signage plant und realisiert schlüsselfertige Lösungen für KMUs und grössere Unternehmen.",
+  benefits: [
+    {
+      title: "Professioneller erster Eindruck",
+      description: "Ein hochwertiges Empfangsdisplay signalisiert Kompetenz und Modernität – vom ersten Moment an.",
+    },
+    {
+      title: "Besucher automatisch informieren",
+      description: "Wegweisung, Gesprächspartner, Wartezeiten und Hinweise lassen sich auf Displays zeigen – ohne dass das Empfangspersonal eingreifen muss.",
+    },
+    {
+      title: "Interne Kommunikation auf Screens",
+      description: "Neuigkeiten, Ziele, Kennzahlen oder Ankündigungen lassen sich auf Displays im Aufenthaltsbereich oder in Meetingräumen zeigen.",
+    },
+    {
+      title: "Marke und Identität sichtbar machen",
+      description: "Displays zeigen Unternehmensvideos, Kampagnen oder Werte – und machen die Marke für Besucher und Mitarbeitende erlebbar.",
+    },
+    {
+      title: "Schlüsselfertig und wartungsarm",
+      description: "Wir planen, installieren und richten ein. Im laufenden Betrieb ist kein IT-Aufwand nötig – alles läuft stabil und unkompliziert.",
+    },
+    {
+      title: "Direkter Ansprechpartner",
+      description: "Kein Ticketsystem, keine anonyme Plattform. Bei Fragen oder Änderungen erreichbar Sie Chris Meister direkt.",
+    },
+  ],
+  faq: [
+    {
+      question: "Für welche Unternehmensgrösse eignet sich Digital Signage?",
+      answer: "Für alle. Vom Zweipersonen-Büro mit einem Empfangsdisplay bis zum KMU mit mehreren Standorten – die Lösung wird auf Ihre Situation abgestimmt.",
+    },
+    {
+      question: "Kann ich Inhalte selbst aktualisieren?",
+      answer: "Ja. Inhalte werden so vorbereitet, dass Ihr Team sie selbstständig anpassen kann. Auf Wunsch übernehmen wir auch die laufende Pflege.",
+    },
+    {
+      question: "Lässt sich Digital Signage mit bestehenden Systemen verbinden?",
+      answer: "In vielen Fällen ja – z.B. mit Kalender-Apps, internen Datenquellen oder Mediendateien. Wir klären das individuell mit Ihnen.",
+    },
+    {
+      question: "Wie lange dauert die Installation?",
+      answer: "Ein Einzeldisplay ist oft innerhalb eines halben Tages einsatzbereit. Grössere Projekte planen wir individuell.",
+    },
+    {
+      question: "Was kostet eine Lösung für den Empfangsbereich?",
+      answer: "Das hängt von Anzahl Displays, Inhalten und gewünschter Betreuung ab. Wir erstellen Ihnen eine kostenlose, unverbindliche Einschätzung.",
+    },
+  ],
+  internalLinks: [
+    { label: "Empfangsdisplays",            href: "/loesungen/empfangsdisplays" },
+    { label: "Indoor Signage",              href: "/loesungen/indoor-signage" },
+    { label: "Digital Signage Schweiz",     href: "/digital-signage-schweiz" },
+    { label: "Kosten & Preise",             href: "/was-kostet-digital-signage-schweiz" },
+  ],
+  cta: {
+    eyebrow: "Projekt besprechen",
+    title: "Ein Display, das Eindruck macht – schlüsselfertig.",
+    subtitle: "Beschreiben Sie kurz Ihren Empfangsbereich und Ihre Ziele. Wir melden uns innert 24h mit einer konkreten Einschätzung.",
+    primaryLabel: "Beratung anfragen",
+    primaryHref: "/kontakt",
+    secondaryLabel: "Kosten & Preise ansehen",
+    secondaryHref: "/was-kostet-digital-signage-schweiz",
+  },
+  related: {
+    loesungen: [
+      { label: "Empfangsdisplays",    href: "/loesungen/empfangsdisplays" },
+      { label: "Indoor Signage",      href: "/loesungen/indoor-signage" },
+    ],
+    branchen: [
+      { label: "Hotellerie",          href: "/branchen/hotellerie" },
+      { label: "Events & Messen",     href: "/branchen/events" },
+    ],
+    staedte: [
+      { label: "Digital Signage Zürich", href: "/staedte/zuerich" },
+      { label: "Digital Signage Luzern", href: "/staedte/luzern" },
+    ],
+  },
+};
+
+export default page;
