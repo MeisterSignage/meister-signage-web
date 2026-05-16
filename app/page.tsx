@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import HeroSection from "@/components/sections/HeroSection";
+import HomeHeroSection from "@/components/sections/HomeHeroSection";
 import ProblemSolutionSection from "@/components/sections/ProblemSolutionSection";
 import BenefitsSection from "@/components/sections/BenefitsSection";
 import ProcessSection from "@/components/sections/ProcessSection";
@@ -39,15 +39,10 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <HeroSection
+      <HomeHeroSection
         eyebrow="Digital Signage aus der Zentralschweiz"
-        title="Digitale Beschilderung, die im Alltag wirklich funktioniert."
+        title="Digitale Kommunikation, die nicht kompliziert wird."
         subtitle="Meister Signage plant und realisiert Digital-Signage-Lösungen für Gastronomie, Retail und Events – persönlich, verständlich und schlüsselfertig."
-        bullets={[
-          "Inhalte einfach und zentral aktualisieren",
-          "Weniger Druckaufwand und weniger manuelle Arbeit",
-          "Persönliche Betreuung statt anonymem Ticketsystem",
-        ]}
         primaryCta={{ label: "Beratung anfragen", href: "/kontakt" }}
         secondaryCta={{ label: "Lösungen entdecken", href: "/digital-signage-schweiz" }}
       />

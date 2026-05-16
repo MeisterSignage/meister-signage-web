@@ -103,6 +103,23 @@ a { color: inherit; text-decoration: none; }
   .legal-page h2 { font-size: 1.125rem; }
 }
 
+/* ─── Float animations ───────────────────────────────────────── */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-9px); }
+}
+@keyframes float-rev {
+  0%, 100% { transform: translateY(-4px); }
+  50%       { transform: translateY(5px); }
+}
+
+@layer utilities {
+  .animate-float        { animation: float 4.5s ease-in-out infinite; }
+  .animate-float-slow   { animation: float 6.5s ease-in-out infinite; }
+  .animate-float-delay  { animation: float 5.2s ease-in-out infinite 1.1s; }
+  .animate-float-rev    { animation: float-rev 5.8s ease-in-out infinite 0.7s; }
+}
+
 /* ─── Background Utilities ───────────────────────────────────── */
 @layer components {
   /* Subtle dot-grid for hero / CTA backgrounds */
