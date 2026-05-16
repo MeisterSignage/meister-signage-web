@@ -221,7 +221,15 @@ export default function DigitalSignageMietenContent() {
           aria-hidden="true"
           style={{
             background:
-              "radial-gradient(ellipse 60% 80% at 80% 40%, rgba(254,1,154,0.09) 0%, transparent 65%)",
+              "radial-gradient(ellipse 60% 80% at 80% 40%, rgba(254,1,154,0.10) 0%, transparent 65%)",
+          }}
+        />
+        {/* Ambient glow — bottom left */}
+        <div
+          className="pointer-events-none absolute -bottom-20 -left-20 h-[500px] w-[500px]"
+          aria-hidden="true"
+          style={{
+            background: "radial-gradient(circle, rgba(26,39,68,0.8) 0%, transparent 70%)",
           }}
         />
 
@@ -318,7 +326,7 @@ export default function DigitalSignageMietenContent() {
                   "radial-gradient(ellipse 70% 60% at 50% 50%, rgba(254,1,154,0.14) 0%, transparent 65%)",
               }}
             />
-            <div className="relative w-full max-w-[520px]">
+            <div className="relative w-full max-w-[560px]">
               <Image
                 src="/images/products/Spark5-Design.webp"
                 alt="Meister Signage Spark 5 — 50 Zoll Display mieten"

@@ -110,7 +110,7 @@ export default function LandingPageContent({
         className="relative w-full overflow-hidden"
         style={{
           background: "linear-gradient(160deg, #07101f 0%, #0d1628 50%, #111d38 100%)",
-          minHeight: hasImage ? "80vh" : "60vh",
+          minHeight: hasImage ? "86vh" : "66vh",
         }}
       >
         {/* Noise */}
@@ -119,20 +119,28 @@ export default function LandingPageContent({
           aria-hidden="true"
           style={{ backgroundImage: NOISE, backgroundSize: "160px 160px" }}
         />
-        {/* Ambient glow */}
+        {/* Ambient glow — right side */}
         <div
           className="pointer-events-none absolute -right-40 top-0 h-full w-[700px]"
           aria-hidden="true"
           style={{
-            background: "radial-gradient(ellipse 60% 80% at 80% 40%, rgba(254,1,154,0.09) 0%, transparent 65%)",
+            background: "radial-gradient(ellipse 60% 80% at 80% 40%, rgba(254,1,154,0.10) 0%, transparent 65%)",
+          }}
+        />
+        {/* Ambient glow — bottom left */}
+        <div
+          className="pointer-events-none absolute -bottom-20 -left-20 h-[500px] w-[500px]"
+          aria-hidden="true"
+          style={{
+            background: "radial-gradient(circle, rgba(26,39,68,0.8) 0%, transparent 70%)",
           }}
         />
 
         <div
           className={`relative mx-auto max-w-[1200px] px-6 md:px-10 ${
             hasImage
-              ? "grid min-h-[80vh] grid-cols-1 items-center gap-12 py-28 lg:grid-cols-2 lg:gap-0 lg:py-0"
-              : "flex min-h-[60vh] flex-col justify-center py-24"
+              ? "grid min-h-[86vh] grid-cols-1 items-center gap-12 py-28 lg:grid-cols-2 lg:gap-0 lg:py-0"
+              : "flex min-h-[66vh] flex-col justify-center py-24"
           }`}
         >
           {/* Text */}
@@ -143,17 +151,17 @@ export default function LandingPageContent({
             transition={{ duration: 0.7, ease: easeOut }}
           >
             <span
-              className="mb-5 inline-block text-[11px] font-bold uppercase tracking-[0.18em]"
+              className="mb-6 inline-block text-[11px] font-bold uppercase tracking-[0.18em]"
               style={{ color: "rgba(254,1,154,0.9)" }}
             >
               {page.eyebrow}
             </span>
 
             <h1
-              className="mb-6 font-light leading-[0.95] tracking-tight"
+              className="mb-7 font-light leading-[0.95] tracking-tight"
               style={{
-                fontSize: "clamp(2rem, 3.8vw, 3.4rem)",
-                letterSpacing: "-0.03em",
+                fontSize: "clamp(2.2rem, 3.8vw, 3.6rem)",
+                letterSpacing: "-0.035em",
                 color: "#f3f4f6",
               }}
             >
@@ -163,8 +171,8 @@ export default function LandingPageContent({
             <p
               className="mb-10 leading-relaxed"
               style={{
-                maxWidth: "42ch",
-                fontSize: "clamp(1rem, 1.5vw, 1.1rem)",
+                maxWidth: "440px",
+                fontSize: "clamp(1rem, 1.5vw, 1.15rem)",
                 color: "rgba(209,213,219,0.9)",
               }}
             >
@@ -227,7 +235,7 @@ export default function LandingPageContent({
             >
               {heroImg.product ? (
                 /* Product image — transparent bg, glow outline */
-                <div className="relative w-full max-w-[500px]">
+                <div className="relative w-full max-w-[560px]">
                   <div
                     className="pointer-events-none absolute inset-0"
                     aria-hidden="true"
