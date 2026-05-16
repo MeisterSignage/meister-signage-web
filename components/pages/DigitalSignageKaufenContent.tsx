@@ -369,7 +369,7 @@ export default function DigitalSignageKaufenContent() {
                 className="w-full"
                 priority
                 style={{
-                  filter: "drop-shadow(0 0 2px rgba(254,1,154,0.9)) drop-shadow(0 0 6px rgba(254,1,154,0.35)) drop-shadow(0 20px 48px rgba(7,16,31,0.45))",
+                  filter: "drop-shadow(0 0 2px rgba(254,1,154,0.9)) drop-shadow(0 0 6px rgba(254,1,154,0.35))",
                 }}
               />
             </div>
