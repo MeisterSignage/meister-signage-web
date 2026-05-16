@@ -57,13 +57,20 @@ export default function ContactSection({
         {/* Right — photo */}
         <div className="relative w-full shrink-0 overflow-hidden lg:w-[200px]">
           {imageSrc ? (
-            <Image
-              src={imageSrc}
-              alt={`${contactName} – ${role}`}
-              width={600}
-              height={720}
-              className="h-auto w-full object-cover object-top"
-            />
+            <>
+              <Image
+                src={imageSrc}
+                alt={`${contactName} – ${role}`}
+                width={600}
+                height={720}
+                className="h-auto w-full object-cover object-top"
+              />
+              <div
+                className="pointer-events-none absolute inset-x-0 bottom-0 h-2/5"
+                aria-hidden="true"
+                style={{ background: "linear-gradient(to top, #ffffff 0%, transparent 100%)" }}
+              />
+            </>
           ) : (
             <div className="flex min-h-[380px] items-center justify-center border border-navy/10 bg-offwhite">
               <div className="text-center">
