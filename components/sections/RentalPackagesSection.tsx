@@ -158,7 +158,7 @@ function PricingCard({
       </div>
 
       {/* ── 4. Product image — central visual element ── */}
-      <div className="relative w-full overflow-hidden bg-[#f3f4f6]" style={{ height: "260px" }}>
+      <div className="relative w-full overflow-hidden bg-[#f5f5f7]" style={{ height: "260px" }}>
         {pkg.image ? (
           <Image
             src={pkg.image}

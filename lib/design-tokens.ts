@@ -7,7 +7,7 @@ export const colors = {
   magenta:  "#fe019a",
   magentaHover: "#d60080",
   gold:     "#C9A84C",
-  offwhite: "#EDEAE4",
+  offwhite: "#f5f5f7",
   cgray:    "#6B7280",
   white:    "#ffffff",
 } as const;

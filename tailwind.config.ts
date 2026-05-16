@@ -12,7 +12,7 @@ const config: Config = {
         navy:    "#1a2744",
         magenta: "#fe019a",
         gold:    "#C9A84C",
-        offwhite:"#F9F8F6",
+        offwhite:"#f5f5f7",
         cgray:   "#6B7280",
       },
       fontFamily: {
