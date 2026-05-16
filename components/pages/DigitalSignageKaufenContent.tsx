@@ -368,7 +368,12 @@ export default function DigitalSignageKaufenContent() {
                 height={900}
                 className="w-full"
                 priority
-                style={{ objectFit: "contain" }}
+                style={{
+                  objectFit: "contain",
+                  filter: "drop-shadow(0 0 28px rgba(254,1,154,0.5)) drop-shadow(0 0 72px rgba(254,1,154,0.2))",
+                  maskImage: "linear-gradient(to bottom, black 40%, transparent 68%)",
+                  WebkitMaskImage: "linear-gradient(to bottom, black 40%, transparent 68%)",
+                }}
               />
             </div>
           </motion.div>
