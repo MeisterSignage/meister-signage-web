@@ -1,6 +1,15 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
+
+/* ── Color tokens ──────────────────────────────────────────── */
+// BG:        #111111
+// Heading:   #f3f4f6
+// Body:      #d1d5db
+// Secondary: #9ca3af
+// Borders:   rgba(255,255,255,0.08)
+// Magenta:   #fe019a
 
 /* ── Nav data ──────────────────────────────────────────────── */
 
@@ -59,7 +68,7 @@ const socials = [
   },
 ];
 
-/* ── Helpers ───────────────────────────────────────────────── */
+/* ── Nav column ────────────────────────────────────────────── */
 
 function NavColumn({
   heading,
@@ -70,7 +79,10 @@ function NavColumn({
 }) {
   return (
     <div className="flex flex-col gap-5">
-      <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-white/25">
+      <p
+        className="text-[10px] font-bold uppercase tracking-[0.18em]"
+        style={{ color: "#9ca3af" }}
+      >
         {heading}
       </p>
       <nav className="flex flex-col gap-3">
@@ -78,11 +90,16 @@ function NavColumn({
           <Link
             key={href}
             href={href}
-            className="group/link relative w-fit text-[14px] text-white/50 transition-colors duration-200 hover:text-white/90 visited:text-white/50"
+            className="group/link relative w-fit text-[14px] transition-colors duration-200"
+            style={{ color: "#d1d5db" }}
           >
-            {label}
+            <span className="transition-colors duration-200 group-hover/link:text-[#f3f4f6]">
+              {label}
+            </span>
+            {/* Magenta underline slide-in */}
             <span
-              className="absolute -bottom-px left-0 h-px w-0 bg-white/30 transition-all duration-300 group-hover/link:w-full"
+              className="absolute -bottom-px left-0 h-px w-0 transition-all duration-300 group-hover/link:w-full"
+              style={{ backgroundColor: "#fe019a" }}
               aria-hidden="true"
             />
           </Link>
@@ -100,9 +117,9 @@ export default function Footer() {
   return (
     <footer
       className="relative w-full overflow-hidden"
-      style={{ backgroundColor: "#141414" }}
+      style={{ backgroundColor: "#111111" }}
     >
-      {/* Noise texture overlay */}
+      {/* Noise texture */}
       <div
         className="pointer-events-none absolute inset-0 opacity-[0.025]"
         aria-hidden="true"
@@ -113,40 +130,40 @@ export default function Footer() {
         }}
       />
 
-      {/* Ambient magenta glow — top left */}
+      {/* Ambient magenta glow */}
       <div
         className="pointer-events-none absolute -left-32 -top-32 h-[400px] w-[400px]"
         aria-hidden="true"
         style={{
           background:
-            "radial-gradient(circle, rgba(254,1,154,0.07) 0%, transparent 65%)",
+            "radial-gradient(circle, rgba(254,1,154,0.06) 0%, transparent 65%)",
         }}
       />
 
-      {/* Main content */}
       <div className="relative mx-auto max-w-content px-6 pb-0 pt-20 md:px-10 lg:pt-24">
 
-        {/* Top grid: brand (left) + nav columns (right) */}
+        {/* Top grid */}
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-12 lg:gap-12">
 
           {/* Brand column */}
           <div className="flex flex-col gap-8 lg:col-span-4">
 
-            {/* Logo */}
             <Link href="/" className="inline-block w-fit">
               <Image
                 src="/logo.svg"
                 alt="Meister Signage"
                 width={1036}
                 height={708}
-                className="h-[46px] w-auto brightness-0 invert opacity-90"
+                className="h-[46px] w-auto brightness-0 invert"
+                style={{ opacity: 0.92 }}
               />
             </Link>
 
             {/* Tagline */}
             <p
-              className="font-light leading-[1.2] text-white/80"
+              className="font-light leading-[1.2]"
               style={{
+                color: "#f3f4f6",
                 fontSize: "clamp(1.3rem, 2vw, 1.7rem)",
                 letterSpacing: "-0.02em",
               }}
@@ -157,14 +174,29 @@ export default function Footer() {
             </p>
 
             {/* Short text */}
-            <p className="max-w-[280px] text-[13px] leading-relaxed text-white/35">
+            <p
+              className="max-w-[280px] text-[13px] leading-relaxed"
+              style={{ color: "#9ca3af" }}
+            >
               Modern digital signage solutions for hospitality, retail, corporate and event spaces.
             </p>
 
-            {/* CTA */}
+            {/* CTA button */}
             <Link
               href="/kontakt"
-              className="group/cta inline-flex w-fit items-center gap-2.5 rounded-[8px] border border-white/15 px-5 py-3 text-[13px] font-semibold text-white/75 transition-all duration-200 hover:border-white/35 hover:text-white"
+              className="group/cta inline-flex w-fit items-center gap-2.5 rounded-[8px] px-5 py-3 text-[13px] font-semibold transition-all duration-200"
+              style={{
+                border: "1px solid rgba(255,255,255,0.08)",
+                color: "#d1d5db",
+              }}
+              onMouseEnter={(e) => {
+                (e.currentTarget as HTMLElement).style.borderColor = "rgba(255,255,255,0.20)";
+                (e.currentTarget as HTMLElement).style.color = "#f3f4f6";
+              }}
+              onMouseLeave={(e) => {
+                (e.currentTarget as HTMLElement).style.borderColor = "rgba(255,255,255,0.08)";
+                (e.currentTarget as HTMLElement).style.color = "#d1d5db";
+              }}
             >
               Beratung anfragen
               <ArrowRight
@@ -182,7 +214,16 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={s.label}
-                  className="flex h-9 w-9 items-center justify-center rounded-lg text-white/35 transition-all duration-150 hover:bg-white/6 hover:text-white/75"
+                  className="flex h-9 w-9 items-center justify-center rounded-lg transition-all duration-150"
+                  style={{ color: "#9ca3af" }}
+                  onMouseEnter={(e) => {
+                    (e.currentTarget as HTMLElement).style.color = "#f3f4f6";
+                    (e.currentTarget as HTMLElement).style.backgroundColor = "rgba(255,255,255,0.06)";
+                  }}
+                  onMouseLeave={(e) => {
+                    (e.currentTarget as HTMLElement).style.color = "#9ca3af";
+                    (e.currentTarget as HTMLElement).style.backgroundColor = "transparent";
+                  }}
                 >
                   {s.icon}
                 </a>
@@ -190,7 +231,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Spacer on desktop */}
+          {/* Spacer */}
           <div className="hidden lg:col-span-1 lg:block" aria-hidden="true" />
 
           {/* Nav columns */}
@@ -207,30 +248,36 @@ export default function Footer() {
           className="mt-20 h-px w-full"
           style={{
             background:
-              "linear-gradient(to right, transparent, rgba(255,255,255,0.07) 20%, rgba(255,255,255,0.07) 80%, transparent)",
+              "linear-gradient(to right, transparent, rgba(255,255,255,0.08) 20%, rgba(255,255,255,0.08) 80%, transparent)",
           }}
         />
 
         {/* Bottom bar */}
         <div className="flex flex-col gap-4 py-7 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-6">
-            <span className="text-[12px] text-white/20">
+            <span className="text-[12px]" style={{ color: "#9ca3af" }}>
               © {year} Meister Signage
             </span>
             <Link
               href="/datenschutz"
-              className="text-[12px] text-white/28 transition-colors duration-150 hover:text-white/60"
+              className="text-[12px] transition-colors duration-150"
+              style={{ color: "#9ca3af" }}
+              onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.color = "#d1d5db"; }}
+              onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.color = "#9ca3af"; }}
             >
               Datenschutz
             </Link>
             <Link
               href="/impressum"
-              className="text-[12px] text-white/28 transition-colors duration-150 hover:text-white/60"
+              className="text-[12px] transition-colors duration-150"
+              style={{ color: "#9ca3af" }}
+              onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.color = "#d1d5db"; }}
+              onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.color = "#9ca3af"; }}
             >
               Impressum
             </Link>
           </div>
-          <span className="text-[11px] tracking-wide text-white/15">
+          <span className="text-[11px] tracking-wide" style={{ color: "#9ca3af", opacity: 0.5 }}>
             Made with care in Switzerland.
           </span>
         </div>
