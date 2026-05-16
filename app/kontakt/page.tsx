@@ -4,6 +4,9 @@ import ContactFormSection from "@/components/sections/ContactFormSection";
 import ContactSection from "@/components/sections/ContactSection";
 import FAQSection from "@/components/sections/FAQSection";
 import CTASection from "@/components/sections/CTASection";
+import JsonLd from "@/components/JsonLd";
+import { contactPageSchema } from "@/lib/schema/contactPage";
+import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
 
 const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/kontakt`;
@@ -31,6 +34,16 @@ export const metadata: Metadata = {
 export default function KontaktPage() {
   return (
     <>
+      <JsonLd schema={contactPageSchema as Record<string, unknown>} />
+      <JsonLd
+        schema={
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Kontakt", path: "/kontakt" },
+          ]) as Record<string, unknown>
+        }
+      />
+
       <HeroSection
         eyebrow="Kontakt"
         title="Lassen Sie uns gemeinsam die passende Lösung planen."

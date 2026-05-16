@@ -7,6 +7,9 @@ import ProcessSection from "@/components/sections/ProcessSection";
 import CTASection from "@/components/sections/CTASection";
 import ContactSection from "@/components/sections/ContactSection";
 import { MessageSquare, UserCheck, Lightbulb, MapPin, Shield, BadgeCheck } from "lucide-react";
+import JsonLd from "@/components/JsonLd";
+import { aboutPageSchema } from "@/lib/schema/aboutPage";
+import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
 
 const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/ueber-uns`;
@@ -34,6 +37,16 @@ export const metadata: Metadata = {
 export default function UeberUnsPage() {
   return (
     <>
+      <JsonLd schema={aboutPageSchema as Record<string, unknown>} />
+      <JsonLd
+        schema={
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Über uns", path: "/ueber-uns" },
+          ]) as Record<string, unknown>
+        }
+      />
+
       <HeroSection
         eyebrow="Über Meister Signage"
         title="Persönlich geplant. Sauber umgesetzt."

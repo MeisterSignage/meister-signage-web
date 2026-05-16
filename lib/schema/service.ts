@@ -23,12 +23,17 @@ export function serviceSchema({
     serviceType,
     provider: {
       "@type": "Organization",
+      "@id": `${BASE}/#organization`,
       name: "Meister Signage",
       url: BASE,
     },
-    areaServed: {
-      "@type": "Country",
-      name: "Schweiz",
+    areaServed: [
+      { "@type": "Country", name: "Schweiz" },
+      { "@type": "AdministrativeArea", name: "Zentralschweiz" },
+    ],
+    audience: {
+      "@type": "BusinessAudience",
+      audienceType: "KMU, Gastronomie, Retail, Hotellerie, Unternehmen",
     },
   };
 }
