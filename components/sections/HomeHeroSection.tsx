@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, ArrowUpRight } from "lucide-react";
+import { ArrowRight, ArrowUpRight, MapPin, Zap, Cloud, MessageCircle } from "lucide-react";
 
 type Cta = { label: string; href: string };
 
@@ -91,6 +91,21 @@ export default function HomeHeroSection({
                   <ArrowUpRight className="h-4 w-4 shrink-0 text-navy/50" strokeWidth={2} />
                 </Link>
               )}
+            </div>
+
+            {/* Trust signals */}
+            <div className="flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-navy/8 pt-5">
+              {[
+                { icon: MapPin,         label: "Schweizer Betreuung" },
+                { icon: Zap,            label: "Plug & Play" },
+                { icon: Cloud,          label: "Cloudbasiert" },
+                { icon: MessageCircle,  label: "Persönlicher Support" },
+              ].map(({ icon: Icon, label }) => (
+                <span key={label} className="flex items-center gap-1.5 text-[12px] font-medium text-navy/45">
+                  <Icon className="h-3.5 w-3.5 shrink-0" strokeWidth={1.75} />
+                  {label}
+                </span>
+              ))}
             </div>
 
           </div>
