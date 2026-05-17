@@ -12,42 +12,82 @@ type HomeHeroSectionProps = {
   secondaryCta?: Cta;
 };
 
+/** Path of the looping atmospheric hero video.
+ *  Lives next to the other images on the server. Replace if the file is
+ *  hosted elsewhere. The poster fallback uses an existing webp so the
+ *  hero looks correct even if the video is missing / mobile / reduced-motion. */
+const HERO_VIDEO_SRC = "/images/hero-bg.mp4";
+const HERO_VIDEO_POSTER = "/images/products/meister-signage-parallax-bg.png";
+
 export default function HomeHeroSection({
   eyebrow,
   primaryCta,
   secondaryCta,
 }: HomeHeroSectionProps) {
   return (
-    <section className="relative w-full bg-white">
+    <section
+      className="relative w-full overflow-hidden"
+      style={{ backgroundColor: "#07101f" }}
+    >
+      {/* Layer 1 — Background video (desktop) */}
+      <video
+        className="pointer-events-none absolute inset-0 hidden h-full w-full object-cover md:block motion-reduce:hidden"
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="metadata"
+        poster={HERO_VIDEO_POSTER}
+        aria-hidden="true"
+      >
+        <source src={HERO_VIDEO_SRC} type="video/mp4" />
+      </video>
 
-      {/* Ambient pink glow — bottom sweep */}
+      {/* Layer 1 fallback — poster image (mobile + reduced-motion + no-video) */}
+      <Image
+        src={HERO_VIDEO_POSTER}
+        alt=""
+        fill
+        priority
+        sizes="100vw"
+        className="pointer-events-none object-cover md:hidden motion-reduce:block"
+        aria-hidden="true"
+      />
+
+      {/* Layer 2 — Dark navy + magenta gradient overlay for legibility */}
       <div
-        className="pointer-events-none absolute bottom-0 left-0 right-0 h-[280px]"
+        className="pointer-events-none absolute inset-0"
         aria-hidden="true"
         style={{
           background:
-            "linear-gradient(to top, rgba(254,1,154,0.06) 0%, transparent 100%)",
+            "linear-gradient(135deg, rgba(7,16,31,0.92) 0%, rgba(13,22,40,0.82) 45%, rgba(17,29,56,0.72) 100%)",
         }}
       />
-      {/* Secondary glow right-bottom */}
       <div
-        className="pointer-events-none absolute -bottom-20 -right-20 h-[400px] w-[400px]"
+        className="pointer-events-none absolute inset-0"
         aria-hidden="true"
         style={{
           background:
-            "radial-gradient(circle, rgba(254,1,154,0.07) 0%, transparent 65%)",
+            "radial-gradient(ellipse 70% 80% at 90% 50%, rgba(254,1,154,0.10) 0%, transparent 60%)",
         }}
       />
 
-      <div className="section-inner relative">
+      <div className="section-inner relative z-10">
         <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-[1fr_1.35fr] lg:gap-6">
 
-          {/* ── Left: Text ── */}
+          {/* ── Layer 3: Hero Content ── */}
           <div className="flex flex-col gap-6 lg:max-w-[480px]">
 
             {/* Eyebrow pill */}
             {eyebrow && (
-              <span className="inline-flex w-fit items-center rounded-full bg-magenta/10 px-4 py-1.5 text-[11px] font-bold uppercase tracking-[0.12em] text-magenta">
+              <span
+                className="inline-flex w-fit items-center rounded-full px-4 py-1.5 text-[11px] font-bold uppercase tracking-[0.12em]"
+                style={{
+                  background: "rgba(254,1,154,0.16)",
+                  color: "rgba(254,1,154,0.95)",
+                  border: "1px solid rgba(254,1,154,0.20)",
+                }}
+              >
                 {eyebrow}
               </span>
             )}
@@ -59,8 +99,8 @@ export default function HomeHeroSection({
                 fontWeight: 900,
                 lineHeight: 1.04,
                 letterSpacing: "-0.03em",
+                color: "#f3f4f6",
               }}
-              className="text-navy"
             >
               Digital Signage
               <br />
@@ -69,13 +109,16 @@ export default function HomeHeroSection({
             </h1>
 
             {/* Subtitle */}
-            <p className="max-w-[420px] text-[16px] leading-relaxed text-cgray">
+            <p
+              className="max-w-[440px] text-[16px] leading-relaxed"
+              style={{ color: "rgba(209,213,219,0.92)" }}
+            >
               Meister Signage plant, installiert und betreut digitale Displays für
               Restaurants, Hotels, Shops und Unternehmen in der Zentralschweiz.
               Ohne IT-Aufwand, ohne Lernkurve.
             </p>
 
-            {/* CTAs */}
+            {/* Layer 4: CTAs */}
             <div className="flex flex-col gap-3 pt-1 sm:flex-row sm:flex-wrap sm:items-center">
               <Link href={primaryCta.href} className="btn-primary gap-2.5">
                 {primaryCta.label}
@@ -84,23 +127,30 @@ export default function HomeHeroSection({
               {secondaryCta && (
                 <Link
                   href={secondaryCta.href}
-                  className="inline-flex items-center gap-2 rounded-[7px] border border-navy/15 bg-white px-5 py-3.5 text-[16px] font-semibold text-navy transition-all duration-200 hover:border-navy/25 hover:bg-navy/[0.03]"
+                  className="inline-flex items-center gap-2 rounded-[7px] px-5 py-3.5 text-[16px] font-semibold transition-all duration-200 hover:border-white/30 hover:text-white"
+                  style={{
+                    border: "1px solid rgba(255,255,255,0.18)",
+                    color: "#e5e7eb",
+                  }}
                 >
                   {secondaryCta.label}
-                  <ArrowUpRight className="h-4 w-4 shrink-0 text-navy/50" strokeWidth={2} />
+                  <ArrowUpRight className="h-4 w-4 shrink-0" strokeWidth={2} />
                 </Link>
               )}
             </div>
 
             {/* Microcopy */}
-            <p className="text-[12px] font-medium text-navy/40">
+            <p
+              className="text-[12px] font-medium"
+              style={{ color: "rgba(156,163,175,0.7)" }}
+            >
               Unverbindlich · Antwort innert 24h · Persönliche Beratung
             </p>
 
 
           </div>
 
-          {/* ── Right: Visual ── */}
+          {/* ── Layer 4: Display Visual ── */}
           <HeroVisual />
 
         </div>
