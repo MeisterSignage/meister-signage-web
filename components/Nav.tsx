@@ -6,21 +6,37 @@ import { usePathname } from "next/navigation";
 import { ChevronDown, Menu, X } from "lucide-react";
 
 type DropdownItem = { label: string; href: string; desc?: string };
-type NavItem = { label: string; href: string; dropdown?: DropdownItem[] };
+type DropdownGroup = { heading: string; items: DropdownItem[] };
+type NavItem = {
+  label: string;
+  href: string;
+  dropdown?: DropdownItem[];
+  groups?: DropdownGroup[];
+};
 
 const navItems: NavItem[] = [
   {
     label: "Lösungen",
     href: "/loesungen",
-    dropdown: [
-      { label: "Displays kaufen",          href: "/digital-signage-kaufen",            desc: "Kauf & Komplettinstallation" },
-      { label: "Displays mieten",          href: "/digital-signage-mieten",            desc: "Flexibel für Events & Temporär" },
-      { label: "Mobile Displays",          href: "/loesungen/mobile-displays",         desc: "Kundenstopper & flexible Lösungen" },
-      { label: "Doppelseitige Displays",   href: "/loesungen/doppelseitige-displays",  desc: "Sichtbarkeit aus zwei Richtungen" },
-      { label: "Menüboards",               href: "/loesungen/digitale-menueboards",    desc: "Für Gastronomie & Retail" },
-      { label: "Digitaler Empfang",        href: "/loesungen/digitaler-empfang",       desc: "Empfangs- und Lobbydisplays" },
-      { label: "Digitale Leitsysteme",     href: "/loesungen/digitale-leitsysteme",    desc: "Besucherführung & Wegweisung" },
-      { label: "Software",                 href: "/loesungen/software",                desc: "Zentrale Inhaltssteuerung" },
+    groups: [
+      {
+        heading: "Displays & Hardware",
+        items: [
+          { label: "Displays kaufen",         href: "/digital-signage-kaufen",            desc: "Kauf & Komplettinstallation" },
+          { label: "Displays mieten",         href: "/digital-signage-mieten",            desc: "Flexibel für Events & Temporär" },
+          { label: "Mobile Displays",         href: "/loesungen/mobile-displays",         desc: "Kundenstopper & flexible Lösungen" },
+          { label: "Doppelseitige Displays",  href: "/loesungen/doppelseitige-displays",  desc: "Sichtbarkeit aus zwei Richtungen" },
+          { label: "Menüboards",              href: "/loesungen/digitale-menueboards",    desc: "Für Gastronomie & Retail" },
+        ],
+      },
+      {
+        heading: "Software & Anwendungen",
+        items: [
+          { label: "Software",                href: "/loesungen/software",                desc: "Zentrale Inhaltssteuerung" },
+          { label: "Digitaler Empfang",       href: "/loesungen/digitaler-empfang",       desc: "Empfangs- und Lobbydisplays" },
+          { label: "Digitale Leitsysteme",    href: "/loesungen/digitale-leitsysteme",    desc: "Besucherführung & Wegweisung" },
+        ],
+      },
     ],
   },
   {
@@ -65,8 +81,31 @@ export default function Nav() {
 
         {/* Desktop nav */}
         <nav className="hidden items-center gap-6 lg:flex">
-          {navItems.map((item) =>
-            item.dropdown ? (
+          {navItems.map((item) => {
+            const hasMenu = !!(item.dropdown || item.groups);
+            if (!hasMenu) {
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={`text-[15px] font-medium tracking-wide transition-colors duration-150 ${
+                    isActive(item.href) ? "text-magenta" : "text-navy/70 hover:text-navy"
+                  }`}
+                >
+                  {item.label}
+                </Link>
+              );
+            }
+
+            const isGrouped = !!item.groups;
+            const simpleList = item.dropdown ?? [];
+            const widthClass = isGrouped
+              ? "w-[620px]"
+              : simpleList.length > 5
+              ? "w-[560px]"
+              : "w-[260px]";
+
+            return (
               <div key={item.href} className="group relative">
                 <button
                   className={`flex items-center gap-1 text-[15px] font-medium tracking-wide transition-colors duration-150 ${
@@ -80,49 +119,67 @@ export default function Nav() {
                   />
                 </button>
 
-                {/* Dropdown — single column up to 5 items, 2-col mega-menu for 6+ */}
+                {/* Dropdown — grouped mega-menu, 2-col, or single column */}
                 <div
-                  className={`invisible absolute left-0 top-[calc(100%+8px)] z-20 opacity-0 transition-all duration-150 group-hover:visible group-hover:opacity-100 ${
-                    item.dropdown.length > 5 ? "w-[560px]" : "w-[260px]"
-                  }`}
+                  className={`invisible absolute left-0 top-[calc(100%+8px)] z-20 opacity-0 transition-all duration-150 group-hover:visible group-hover:opacity-100 ${widthClass}`}
                   style={{ filter: "drop-shadow(0 8px 32px rgba(26,39,68,0.13))" }}
                 >
-                  <div
-                    className={`overflow-hidden rounded-[14px] border border-navy/8 bg-white p-1.5 ${
-                      item.dropdown.length > 5 ? "grid grid-cols-2 gap-0" : ""
-                    }`}
-                  >
-                    {item.dropdown.map((d) => (
-                      <Link
-                        key={d.href}
-                        href={d.href}
-                        className="group/item flex flex-col rounded-[10px] px-4 py-3 transition-colors duration-100 hover:bg-offwhite"
+                  <div className="overflow-hidden rounded-[14px] border border-navy/8 bg-white p-3">
+                    {isGrouped ? (
+                      <div className="grid grid-cols-2 gap-4">
+                        {item.groups!.map((group) => (
+                          <div key={group.heading} className="flex flex-col">
+                            <p className="mb-1 px-3 pt-1 text-[10px] font-bold uppercase tracking-[0.16em] text-navy/45">
+                              {group.heading}
+                            </p>
+                            {group.items.map((d) => (
+                              <Link
+                                key={d.href}
+                                href={d.href}
+                                className="group/item flex flex-col rounded-[10px] px-3 py-2.5 transition-colors duration-100 hover:bg-offwhite"
+                              >
+                                <span className="text-[14px] font-semibold text-navy group-hover/item:text-magenta transition-colors duration-100">
+                                  {d.label}
+                                </span>
+                                {d.desc && (
+                                  <span className="mt-0.5 text-[12px] leading-snug text-navy/45">
+                                    {d.desc}
+                                  </span>
+                                )}
+                              </Link>
+                            ))}
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <div
+                        className={
+                          simpleList.length > 5 ? "grid grid-cols-2 gap-0" : ""
+                        }
                       >
-                        <span className="text-[14px] font-semibold text-navy group-hover/item:text-magenta transition-colors duration-100">
-                          {d.label}
-                        </span>
-                        {d.desc && (
-                          <span className="mt-0.5 text-[12px] leading-snug text-navy/45">
-                            {d.desc}
-                          </span>
-                        )}
-                      </Link>
-                    ))}
+                        {simpleList.map((d) => (
+                          <Link
+                            key={d.href}
+                            href={d.href}
+                            className="group/item flex flex-col rounded-[10px] px-4 py-3 transition-colors duration-100 hover:bg-offwhite"
+                          >
+                            <span className="text-[14px] font-semibold text-navy group-hover/item:text-magenta transition-colors duration-100">
+                              {d.label}
+                            </span>
+                            {d.desc && (
+                              <span className="mt-0.5 text-[12px] leading-snug text-navy/45">
+                                {d.desc}
+                              </span>
+                            )}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>
-            ) : (
-              <Link
-                key={item.href}
-                href={item.href}
-                className={`text-[15px] font-medium tracking-wide transition-colors duration-150 ${
-                  isActive(item.href) ? "text-magenta" : "text-navy/70 hover:text-navy"
-                }`}
-              >
-                {item.label}
-              </Link>
-            )
-          )}
+            );
+          })}
         </nav>
 
         {/* Desktop CTA */}
@@ -163,9 +220,37 @@ export default function Nav() {
             <nav className="flex flex-col divide-y divide-navy/8">
               {navItems.map((item) => {
                 const itemActive = isActive(item.href);
+                const hasMenu = !!(item.dropdown || item.groups);
+                const renderItem = (d: DropdownItem) => {
+                  const childActive = pathname === d.href;
+                  return (
+                    <Link
+                      key={d.href}
+                      href={d.href}
+                      className="flex flex-col py-3"
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      <span
+                        className={`text-[15px] font-medium transition-colors ${
+                          childActive
+                            ? "text-magenta"
+                            : "text-navy/80 active:text-magenta"
+                        }`}
+                      >
+                        {d.label}
+                      </span>
+                      {d.desc && (
+                        <span className="mt-0.5 text-[12px] leading-snug text-navy/45">
+                          {d.desc}
+                        </span>
+                      )}
+                    </Link>
+                  );
+                };
+
                 return (
                   <div key={item.href}>
-                    {item.dropdown ? (
+                    {hasMenu ? (
                       <>
                         <button
                           onClick={() =>
@@ -186,32 +271,16 @@ export default function Nav() {
                         </button>
                         {mobileOpen === item.href && (
                           <div className="mb-3 ml-1 flex flex-col gap-0.5 border-l-2 border-magenta/40 pl-4">
-                            {item.dropdown.map((d) => {
-                              const childActive = pathname === d.href;
-                              return (
-                                <Link
-                                  key={d.href}
-                                  href={d.href}
-                                  className="flex flex-col py-3"
-                                  onClick={() => setMenuOpen(false)}
-                                >
-                                  <span
-                                    className={`text-[15px] font-medium transition-colors ${
-                                      childActive
-                                        ? "text-magenta"
-                                        : "text-navy/80 active:text-magenta"
-                                    }`}
-                                  >
-                                    {d.label}
-                                  </span>
-                                  {d.desc && (
-                                    <span className="mt-0.5 text-[12px] leading-snug text-navy/45">
-                                      {d.desc}
-                                    </span>
-                                  )}
-                                </Link>
-                              );
-                            })}
+                            {item.groups
+                              ? item.groups.map((group) => (
+                                  <div key={group.heading} className="flex flex-col">
+                                    <p className="mt-2 mb-1 text-[10px] font-bold uppercase tracking-[0.16em] text-navy/45">
+                                      {group.heading}
+                                    </p>
+                                    {group.items.map(renderItem)}
+                                  </div>
+                                ))
+                              : item.dropdown!.map(renderItem)}
                           </div>
                         )}
                       </>
