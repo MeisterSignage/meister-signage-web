@@ -110,7 +110,6 @@ export default function LandingPageContent({
         className="relative w-full overflow-hidden"
         style={{
           background: "linear-gradient(160deg, #07101f 0%, #0d1628 50%, #111d38 100%)",
-          minHeight: hasImage ? "86vh" : "66vh",
         }}
       >
         {/* Noise */}
@@ -139,8 +138,8 @@ export default function LandingPageContent({
         <div
           className={`relative mx-auto max-w-[1200px] px-6 md:px-10 ${
             hasImage
-              ? "grid min-h-[86vh] grid-cols-1 items-center gap-12 py-28 lg:grid-cols-2 lg:gap-0 lg:py-0"
-              : "flex min-h-[66vh] flex-col justify-center py-24"
+              ? "grid grid-cols-1 items-center gap-12 py-24 md:min-h-[60vh] lg:grid-cols-2 lg:gap-0 lg:py-0 lg:min-h-[65vh]"
+              : "flex flex-col justify-center py-20 md:min-h-[55vh] lg:min-h-[60vh]"
           }`}
         >
           {/* Text */}

@@ -17,7 +17,6 @@ export default function NotFound() {
       className="relative w-full overflow-hidden"
       style={{
         background: "linear-gradient(160deg, #07101f 0%, #0d1628 50%, #111d38 100%)",
-        minHeight: "80vh",
       }}
     >
       <div
@@ -41,7 +40,7 @@ export default function NotFound() {
         }}
       />
 
-      <div className="relative mx-auto flex min-h-[80vh] max-w-[1200px] flex-col items-center justify-center px-6 py-24 text-center md:px-10">
+      <div className="relative mx-auto flex max-w-[1200px] flex-col items-center justify-center px-6 py-24 text-center md:min-h-[60vh] md:px-10 lg:min-h-[65vh]">
         <span
           className="mb-8 text-[11px] font-bold uppercase tracking-[0.18em]"
           style={{ color: "rgba(254,1,154,0.9)" }}

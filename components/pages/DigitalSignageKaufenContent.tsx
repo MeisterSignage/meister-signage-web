@@ -230,7 +230,6 @@ export default function DigitalSignageKaufenContent() {
         className="relative w-full overflow-hidden"
         style={{
           background: "linear-gradient(160deg, #07101f 0%, #0d1628 50%, #111d38 100%)",
-          minHeight: "86vh",
         }}
       >
         {/* Noise texture */}
@@ -261,7 +260,7 @@ export default function DigitalSignageKaufenContent() {
           }}
         />
 
-        <div className="relative mx-auto grid min-h-[86vh] max-w-[1200px] grid-cols-1 items-center gap-12 px-6 py-24 md:px-10 lg:grid-cols-2 lg:gap-0 lg:py-0">
+        <div className="relative mx-auto grid max-w-[1200px] grid-cols-1 items-center gap-12 px-6 py-20 md:min-h-[60vh] md:px-10 lg:grid-cols-2 lg:gap-0 lg:py-0 lg:min-h-[65vh]">
 
           {/* Text */}
           <motion.div

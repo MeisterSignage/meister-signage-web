@@ -38,7 +38,6 @@ export default function OverviewPage({
         className="relative w-full overflow-hidden"
         style={{
           background: "linear-gradient(160deg, #07101f 0%, #0d1628 50%, #111d38 100%)",
-          minHeight: "66vh",
         }}
       >
         <div
@@ -62,7 +61,7 @@ export default function OverviewPage({
           }}
         />
 
-        <div className="relative mx-auto flex min-h-[66vh] max-w-[1200px] flex-col justify-center px-6 py-24 md:px-10">
+        <div className="relative mx-auto flex max-w-[1200px] flex-col justify-center px-6 py-20 md:min-h-[55vh] md:px-10 lg:min-h-[60vh]">
           <div className="z-10 max-w-3xl">
             <span
               className="mb-6 inline-block text-[11px] font-bold uppercase tracking-[0.18em]"
