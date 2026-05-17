@@ -20,6 +20,11 @@ import empfangsdisplays    from "@/content/landingpages/loesungen/empfangsdispla
 import eventDisplays       from "@/content/landingpages/loesungen/event-displays";
 import ledWalls            from "@/content/landingpages/loesungen/led-walls";
 import indoorSignage       from "@/content/landingpages/loesungen/indoor-signage";
+import software            from "@/content/landingpages/loesungen/software";
+import mobileDisplays      from "@/content/landingpages/loesungen/mobile-displays";
+import doppelseitige       from "@/content/landingpages/loesungen/doppelseitige-displays";
+import digitalerEmpfang    from "@/content/landingpages/loesungen/digitaler-empfang";
+import digitaleLeitsysteme from "@/content/landingpages/loesungen/digitale-leitsysteme";
 
 import type { LandingPage } from "@/lib/lp-types";
 
@@ -40,11 +45,16 @@ export const staedtePages: Record<string, LandingPage> = {
 };
 
 export const loesungenPages: Record<string, LandingPage> = {
-  "digitale-menueboards": digitaleMenueboards,
-  "empfangsdisplays":     empfangsdisplays,
-  "event-displays":       eventDisplays,
-  "led-walls":            ledWalls,
-  "indoor-signage":       indoorSignage,
+  "software":                software,
+  "mobile-displays":         mobileDisplays,
+  "doppelseitige-displays":  doppelseitige,
+  "digitaler-empfang":       digitalerEmpfang,
+  "digitale-leitsysteme":    digitaleLeitsysteme,
+  "digitale-menueboards":    digitaleMenueboards,
+  "empfangsdisplays":        empfangsdisplays,
+  "event-displays":          eventDisplays,
+  "led-walls":               ledWalls,
+  "indoor-signage":          indoorSignage,
 };
 
 /* ── Getter ──────────────────────────────────────────────────── */

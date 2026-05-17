@@ -23,7 +23,7 @@ export async function generateMetadata({
   const url = `${SITE_URL}/loesungen/${slug}`;
 
   return {
-    title: page.seoTitle,
+    title: { absolute: page.seoTitle },
     description: page.seoDescription,
     alternates: { canonical: url },
     openGraph: {

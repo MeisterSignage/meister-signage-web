@@ -74,6 +74,41 @@ export default function LoesungenIndexPage() {
             imageSrc: "/images/products/Spark4-Design.webp",
             imageAlt: "Indoor Signage Lösungen",
           },
+          {
+            title: "Software",
+            desc: "Mit der Meister Signage Software Inhalte zentral verwalten und alle Displays steuern.",
+            href: "/loesungen/software",
+            imageSrc: "/images/products/meister-signage-parallax-bg.png",
+            imageAlt: "Meister Signage Software zur zentralen Inhaltssteuerung",
+          },
+          {
+            title: "Mobile Displays",
+            desc: "Mobile Digital-Signage-Displays und digitale Kundenstopper – flexibel platzierbar.",
+            href: "/loesungen/mobile-displays",
+            imageSrc: "/images/products/Spark3-Design.webp",
+            imageAlt: "Mobile Displays und digitale Kundenstopper",
+          },
+          {
+            title: "Doppelseitige Displays",
+            desc: "Sichtbarkeit aus zwei Richtungen – zwei Inhalte auf einem Display.",
+            href: "/loesungen/doppelseitige-displays",
+            imageSrc: "/images/products/Spark4-Design.webp",
+            imageAlt: "Doppelseitige Digital-Signage-Displays",
+          },
+          {
+            title: "Digitaler Empfang",
+            desc: "Besucher begrüssen, informieren und professionell führen – ab dem ersten Eindruck.",
+            href: "/loesungen/digitaler-empfang",
+            imageSrc: "/images/products/Hotelempfang-Meister-Signage.webp",
+            imageAlt: "Digitaler Empfang für Unternehmen und Hotels",
+          },
+          {
+            title: "Digitale Leitsysteme",
+            desc: "Besucherführung und Wegweisung – flexibel, immer aktuell, zentral gesteuert.",
+            href: "/loesungen/digitale-leitsysteme",
+            imageSrc: "/images/products/Unternehmen-Empfang.webp",
+            imageAlt: "Digitale Leitsysteme für Besucherführung",
+          },
         ]}
         contactTitle="Welche Lösung passt zu Ihnen?"
         contactSubtitle="Schreiben Sie kurz, was Sie vorhaben und wo die Displays zum Einsatz kommen. Wir empfehlen Ihnen das passende Setup – innert 24 Stunden."

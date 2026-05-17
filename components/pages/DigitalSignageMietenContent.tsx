@@ -113,6 +113,16 @@ const useCases = [
     href: "/branchen/retail",
     cta: "Retail entdecken",
   },
+  {
+    category: "Mobile Lösungen",
+    headline: "Aufmerksamkeit dort, wo Menschen vorbeigehen.",
+    body: "Mobile Displays, digitale Kundenstopper, doppelseitige Lösungen und temporäre Besucherführung — perfekt für wechselnde Standorte, Events und Promotions.",
+    bullets: ["Flexible Standorte", "Doppelseitige Sichtbarkeit möglich", "Temporäre Besucherführung"],
+    imageSrc: "/images/products/Unternehmen-Empfang.webp",
+    imageAlt: "Mobile Digital-Signage-Displays und Kundenstopper",
+    href: "/loesungen/mobile-displays",
+    cta: "Mobile Lösungen entdecken",
+  },
 ];
 
 const trustItems = [

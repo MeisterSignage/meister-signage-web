@@ -13,11 +13,14 @@ const navItems: NavItem[] = [
     label: "Lösungen",
     href: "/loesungen",
     dropdown: [
-      { label: "Displays kaufen",  href: "/digital-signage-kaufen",         desc: "Kauf & Komplettinstallation" },
-      { label: "Displays mieten",  href: "/digital-signage-mieten",         desc: "Flexibel für Events & Temporär" },
-      { label: "LED Walls",        href: "/loesungen/led-walls",            desc: "Grossfläche mit maximaler Wirkung" },
-      { label: "Menüboards",       href: "/loesungen/digitale-menueboards", desc: "Für Gastronomie & Retail" },
-      { label: "Indoor Signage",   href: "/loesungen/indoor-signage",       desc: "Displays für Innenräume" },
+      { label: "Displays kaufen",          href: "/digital-signage-kaufen",            desc: "Kauf & Komplettinstallation" },
+      { label: "Displays mieten",          href: "/digital-signage-mieten",            desc: "Flexibel für Events & Temporär" },
+      { label: "Mobile Displays",          href: "/loesungen/mobile-displays",         desc: "Kundenstopper & flexible Lösungen" },
+      { label: "Doppelseitige Displays",   href: "/loesungen/doppelseitige-displays",  desc: "Sichtbarkeit aus zwei Richtungen" },
+      { label: "Menüboards",               href: "/loesungen/digitale-menueboards",    desc: "Für Gastronomie & Retail" },
+      { label: "Digitaler Empfang",        href: "/loesungen/digitaler-empfang",       desc: "Empfangs- und Lobbydisplays" },
+      { label: "Digitale Leitsysteme",     href: "/loesungen/digitale-leitsysteme",    desc: "Besucherführung & Wegweisung" },
+      { label: "Software",                 href: "/loesungen/software",                desc: "Zentrale Inhaltssteuerung" },
     ],
   },
   {
@@ -77,11 +80,18 @@ export default function Nav() {
                   />
                 </button>
 
-                {/* Dropdown */}
-                <div className="invisible absolute left-0 top-[calc(100%+8px)] z-20 w-[260px] opacity-0 transition-all duration-150 group-hover:visible group-hover:opacity-100"
+                {/* Dropdown — single column up to 5 items, 2-col mega-menu for 6+ */}
+                <div
+                  className={`invisible absolute left-0 top-[calc(100%+8px)] z-20 opacity-0 transition-all duration-150 group-hover:visible group-hover:opacity-100 ${
+                    item.dropdown.length > 5 ? "w-[560px]" : "w-[260px]"
+                  }`}
                   style={{ filter: "drop-shadow(0 8px 32px rgba(26,39,68,0.13))" }}
                 >
-                  <div className="overflow-hidden rounded-[14px] border border-navy/8 bg-white p-1.5">
+                  <div
+                    className={`overflow-hidden rounded-[14px] border border-navy/8 bg-white p-1.5 ${
+                      item.dropdown.length > 5 ? "grid grid-cols-2 gap-0" : ""
+                    }`}
+                  >
                     {item.dropdown.map((d) => (
                       <Link
                         key={d.href}

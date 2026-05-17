@@ -12,6 +12,7 @@ import CTASection from "@/components/sections/CTASection";
 import ContactSection from "@/components/sections/ContactSection";
 import InternalLinksSection from "@/components/sections/InternalLinksSection";
 import ParallaxShowcaseSection from "@/components/sections/ParallaxShowcaseSection";
+import SoftwareTeaserSection from "@/components/sections/SoftwareTeaserSection";
 import AnimateIn from "@/components/ui/AnimateIn";
 
 const SITE_URL = "https://www.meister-signage.ch";
@@ -66,6 +67,9 @@ export default function Home() {
         ctaLabel="Lösungen ansehen"
         ctaHref="/loesungen"
       />
+
+      {/* 3.6 — Software teaser */}
+      <SoftwareTeaserSection />
 
       {/* 4 — Industries bento */}
       <IndustriesSection />

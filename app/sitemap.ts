@@ -23,12 +23,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "/branchen/events",      priority: 0.8, cf: "monthly" as const },
 
     /* Lösungen — overview + detail */
-    { url: "/loesungen",                       priority: 0.8, cf: "monthly" as const },
-    { url: "/loesungen/led-walls",             priority: 0.9, cf: "monthly" as const },
-    { url: "/loesungen/digitale-menueboards",  priority: 0.9, cf: "monthly" as const },
-    { url: "/loesungen/indoor-signage",        priority: 0.8, cf: "monthly" as const },
-    { url: "/loesungen/empfangsdisplays",      priority: 0.8, cf: "monthly" as const },
-    { url: "/loesungen/event-displays",        priority: 0.8, cf: "monthly" as const },
+    { url: "/loesungen",                          priority: 0.8, cf: "monthly" as const },
+    { url: "/loesungen/software",                 priority: 0.9, cf: "monthly" as const },
+    { url: "/loesungen/mobile-displays",          priority: 0.9, cf: "monthly" as const },
+    { url: "/loesungen/doppelseitige-displays",   priority: 0.9, cf: "monthly" as const },
+    { url: "/loesungen/digitaler-empfang",        priority: 0.9, cf: "monthly" as const },
+    { url: "/loesungen/digitale-leitsysteme",     priority: 0.9, cf: "monthly" as const },
+    { url: "/loesungen/led-walls",                priority: 0.9, cf: "monthly" as const },
+    { url: "/loesungen/digitale-menueboards",     priority: 0.9, cf: "monthly" as const },
+    { url: "/loesungen/indoor-signage",           priority: 0.8, cf: "monthly" as const },
+    { url: "/loesungen/empfangsdisplays",         priority: 0.8, cf: "monthly" as const },
+    { url: "/loesungen/event-displays",           priority: 0.8, cf: "monthly" as const },
 
     /* Legacy branchen short URLs (still indexed) */
     { url: "/gastronomie",         priority: 0.7, cf: "monthly" as const },
