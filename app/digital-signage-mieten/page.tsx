@@ -11,28 +11,53 @@ const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/digital-signage-mieten`;
 
 export const metadata: Metadata = {
-  title: "Digital Signage mieten Schweiz – flexibel ab CHF 129/Monat | Meister Signage",
+  title: "Digital Signage mieten Schweiz – Displays, Events & Pop-ups | Meister Signage",
   description:
-    "Digital-Signage-Screens flexibel mieten – inklusive Lizenz, Plug & Play und persönlicher Betreuung. Ideal für Events, Pop-ups und saisonale Einsätze.",
+    "Display mieten in der Schweiz: Digital-Signage-Screens, Eventdisplays, mobile Displays und Menüboards flexibel mieten – inkl. Lizenz, Vorbereitung und persönlicher Beratung.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "website",
     locale: "de_CH",
     url: PAGE_URL,
     siteName: "Meister Signage",
-    title: "Digital Signage mieten Schweiz – flexibel ab CHF 129/Monat | Meister Signage",
+    title: "Digital Signage mieten Schweiz – Displays, Events & Pop-ups | Meister Signage",
     description:
-      "Digital-Signage-Screens flexibel mieten – inklusive Lizenz, einfacher Handhabung und persönlicher Betreuung.",
+      "Display mieten Schweiz: Digital-Signage-Screens für Events, Messen, Gastronomie und Retail – inkl. Lizenz und persönlicher Betreuung.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Digital Signage mieten Schweiz – flexibel ab CHF 129/Monat | Meister Signage",
+    title: "Digital Signage mieten Schweiz – Displays, Events & Pop-ups | Meister Signage",
     description:
-      "Digital-Signage-Screens flexibel mieten – inklusive Lizenz und persönlicher Betreuung.",
+      "Display mieten Schweiz: Digital-Signage-Screens, Eventdisplays und mobile Displays flexibel mieten.",
   },
 };
 
 const PAGE_FAQS = [
+  {
+    question: "Welche Displays können gemietet werden?",
+    answer:
+      "Gemietet werden können mobile Displays, doppelseitige Displays, Eventdisplays, Menüboards, Empfangsdisplays und digitale Leitsysteme. Für jede Anwendung wählen wir gemeinsam das passende Format.",
+  },
+  {
+    question: "Eignen sich Mietdisplays für Events?",
+    answer:
+      "Ja. Mietdisplays sind besonders für Messen, Tagungen, Anlässe und Pop-ups gemacht. Wir bereiten Inhalte, Layout und Aufbau auf den Einsatz vor und nehmen das Equipment nach dem Event wieder zurück.",
+  },
+  {
+    question: "Können Inhalte vorbereitet werden?",
+    answer:
+      "Ja. Auf Wunsch übernehmen wir die Vorbereitung der Inhalte – Templates, Texte, Bilder und Zeitpläne sind bei Lieferung bereits eingerichtet. So ist das Display ab Tag 1 betriebsbereit.",
+  },
+  {
+    question: "Gibt es Unterstützung beim Aufbau?",
+    answer:
+      "Ja. Wir liefern vorkonfiguriert. Auf Wunsch unterstützen wir persönlich vor Ort beim Aufbau und der Inbetriebnahme – gerade bei Events und mehreren Displays bewährt sich das.",
+  },
+  {
+    question: "Wie kurzfristig sind Mietlösungen möglich?",
+    answer:
+      "Je nach Verfügbarkeit auch sehr kurzfristig. Für Events empfehlen wir, frühzeitig anzufragen, damit Inhalte, Layout und Lieferung in Ruhe vorbereitet werden können.",
+  },
   {
     question: "Was ist im monatlichen Preis enthalten?",
     answer:
@@ -44,19 +69,9 @@ const PAGE_FAQS = [
       "Je nach Anwendung kann eine einmalige Setup-Gebühr für Vorbereitung, Einrichtung und individuelle Konfiguration anfallen. Das wird im Angebot ausgewiesen.",
   },
   {
-    question: "Für welche Einsätze eignet sich die Miete?",
-    answer:
-      "Besonders bewährt hat sich die Miete für Events, Messen, Pop-ups, saisonale Aktionen und temporäre Informationsflächen — überall dort, wo Flexibilität wichtiger ist als Eigentum.",
-  },
-  {
     question: "Kann ich später kaufen statt mieten?",
     answer:
       "Das kann individuell besprochen werden. Die Miete eignet sich auch gut, um Digital Signage zuerst im Alltag zu testen, bevor eine langfristige Kaufentscheidung getroffen wird.",
-  },
-  {
-    question: "Unterstützt Meister Signage bei der Einrichtung?",
-    answer:
-      "Ja. Die Lösung wird so vorbereitet, dass sie verständlich eingesetzt werden kann. Auf Wunsch unterstützen wir persönlich vor Ort oder remote bei der Inbetriebnahme.",
   },
 ];
 
@@ -91,7 +106,10 @@ export default function DigitalSignageMietenPage() {
         links={[
           { label: "Digital Signage kaufen",    href: "/digital-signage-kaufen" },
           { label: "Kosten & Preise",           href: "/was-kostet-digital-signage-schweiz" },
-          { label: "Events",                    href: "/branchen/events" },
+          { label: "Mobile Displays",           href: "/loesungen/mobile-displays" },
+          { label: "Doppelseitige Displays",    href: "/loesungen/doppelseitige-displays" },
+          { label: "Digitale Leitsysteme",      href: "/loesungen/digitale-leitsysteme" },
+          { label: "Events & Messen",           href: "/branchen/events" },
           { label: "Gastronomie",               href: "/branchen/gastronomie" },
           { label: "Retail & Handel",           href: "/branchen/retail" },
         ]}

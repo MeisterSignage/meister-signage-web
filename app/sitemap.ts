@@ -48,6 +48,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "/staedte/luzern",   priority: 0.9, cf: "monthly" as const },
     { url: "/staedte/zug",      priority: 0.9, cf: "monthly" as const },
 
+    /* Wissen / Ratgeber */
+    { url: "/wissen",                                       priority: 0.7, cf: "monthly" as const },
+    { url: "/wissen/was-ist-digital-signage",               priority: 0.7, cf: "monthly" as const },
+    { url: "/wissen/digital-signage-mieten-oder-kaufen",    priority: 0.7, cf: "monthly" as const },
+    { url: "/wissen/digital-signage-software",              priority: 0.7, cf: "monthly" as const },
+    { url: "/wissen/outdoor-displays",                      priority: 0.7, cf: "monthly" as const },
+    { url: "/wissen/digitale-kundenstopper",                priority: 0.7, cf: "monthly" as const },
+    { url: "/wissen/digitale-menueboards",                  priority: 0.7, cf: "monthly" as const },
+    { url: "/wissen/digitale-leitsysteme",                  priority: 0.7, cf: "monthly" as const },
+
     /* Editorial / company */
     { url: "/news",       priority: 0.7, cf: "weekly" as const },
     { url: "/ueber-uns",  priority: 0.6, cf: "yearly" as const },

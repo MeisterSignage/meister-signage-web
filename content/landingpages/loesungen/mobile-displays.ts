@@ -3,83 +3,89 @@ import type { LandingPage } from "@/lib/lp-types";
 const page: LandingPage = {
   slug: "mobile-displays",
   type: "loesungen",
-  seoTitle: "Mobile Displays & digitale Kundenstopper | Meister Signage",
+  seoTitle: "Digitale Kundenstopper & mobile Displays Schweiz | Meister Signage",
   seoDescription:
-    "Mobile Digital-Signage-Displays für Retail, Gastronomie und Events. Flexibel platzieren, ohne feste Verkabelung.",
+    "Digitale Kundenstopper, mobile Werbedisplays und akkubetriebene Outdoor-Displays. Flexibel platzierbar – im Eingang, an Events, in Retail und Gastronomie.",
   eyebrow: "Lösung · Mobile Displays",
-  h1: "Digitale Aufmerksamkeit genau dort, wo Menschen vorbeigehen.",
+  h1: "Digitale Kundenstopper für flexible Aufmerksamkeit.",
   intro:
-    "Mobile Displays und digitale Kundenstopper bringen Inhalte überall hin, wo sie wirken sollen – vor den Eingang, in den Verkaufsraum, an den Messestand. Flexibel platziert, ohne feste Installation, in Sekunden umgestellt.",
+    "Mobile Displays bringen digitale Inhalte genau dorthin, wo Menschen vorbeigehen – im Eingangsbereich, vor dem Restaurant, an Events oder auf Verkaufsflächen. Flexibel platziert, ohne feste Installation, in Sekunden umgestellt.",
   benefits: [
     {
       title: "Flexibel platzierbar",
       description:
-        "Aufstellen, anstecken oder per Akku betreiben – Standort heute hier, morgen dort.",
+        "Aufstellen, anstecken oder per Akku betreiben – Standort heute hier, morgen dort. Keine feste Montage, keine bauliche Vorbereitung.",
     },
     {
-      title: "Kein fester Stromanschluss nötig",
+      title: "Inhalte zentral steuerbar",
       description:
-        "Akku-Lösungen erlauben Einsätze, wo keine Steckdose verfügbar ist – Aussenbereich, Pop-up, temporäre Promotion.",
+        "Mit der Meister Signage Software werden Inhalte auf mobilen Displays genauso verwaltet wie auf fix installierten Bildschirmen.",
     },
     {
-      title: "Hohe Sichtbarkeit",
+      title: "Ideal für temporäre Einsätze",
       description:
-        "Helle Displays mit blickfangstarker Bildwirkung – auch bei Tageslicht und in stark frequentierten Bereichen.",
+        "Pop-up, Promotion, Event oder Aktionswoche – mobile Displays passen sich Ihrem Einsatz an, nicht umgekehrt.",
     },
     {
       title: "Wetterfeste Lösungen möglich",
       description:
-        "Für den Aussenbereich gibt es robuste Geräte mit Schutzklasse – ideal für Eingänge, Promotionen und Events.",
+        "Für den Aussenbereich gibt es robuste Geräte mit Schutzklasse – ideal für Eingänge, Promotionen und Events draussen.",
     },
     {
-      title: "Schnell einsatzbereit",
+      title: "Keine feste Installation nötig",
       description:
-        "Aufgebaut, eingeschaltet, los. Inhalte vorab vorbereiten, Display vor Ort einfach in Betrieb nehmen.",
+        "Akku-Lösungen erlauben Einsätze, wo keine Steckdose verfügbar ist. Aufgebaut, eingeschaltet, los – ohne Elektriker.",
     },
     {
-      title: "Zentral gesteuert",
+      title: "Starker Blickfang im Eingang",
       description:
-        "Mit der Meister Signage Software können Inhalte auch auf mobilen Displays zentral verwaltet und aktualisiert werden.",
+        "Helle Displays mit blickfangstarker Bildwirkung – auch bei Tageslicht und in stark frequentierten Bereichen.",
     },
   ],
   faq: [
     {
-      question: "Können mobile Displays ohne festen Stromanschluss eingesetzt werden?",
+      question: "Was ist ein digitaler Kundenstopper?",
       answer:
-        "Ja. Es gibt Geräte mit integriertem Akku, die mehrere Stunden netzunabhängig laufen – ideal für Promotionen, Pop-ups und Aussenbereiche.",
+        "Ein digitaler Kundenstopper ist ein mobiles Display, das gedruckte Kundenstopper ersetzt. Inhalte können in Sekunden geändert werden – Tagesangebote, Aktionen oder Eventhinweise wirken digital deutlich hochwertiger und bleiben jederzeit aktuell.",
     },
     {
-      question: "Eignen sich mobile Displays für Events und Promotions?",
+      question: "Können mobile Displays draussen eingesetzt werden?",
       answer:
-        "Ja. Mobile Displays sind genau für solche Einsätze gemacht – schnell aufgestellt, flexibel umgestellt, klare Wirkung.",
+        "Ja. Für den Aussenbereich gibt es wetterfeste Modelle mit entsprechender Helligkeit und Schutzklasse. Wir empfehlen das passende Gerät je nach Standort, Lichtverhältnissen und Wetterlage.",
     },
     {
-      question: "Sind Outdoor-Lösungen möglich?",
+      question: "Brauchen mobile Displays einen festen Stromanschluss?",
       answer:
-        "Ja. Für den Aussenbereich gibt es wetterfeste Modelle mit entsprechender Helligkeit und Schutzklasse. Wir empfehlen das passende Gerät je nach Standort.",
+        "Nein. Es gibt Geräte mit integriertem Akku, die mehrere Stunden netzunabhängig laufen – ideal für Promotionen, Pop-ups, Messen und Aussenbereiche ohne Steckdose.",
     },
     {
-      question: "Wie werden Inhalte aktualisiert?",
+      question: "Für welche Branchen eignen sich mobile Displays?",
       answer:
-        "Über die Meister Signage Software – egal wo das Display steht. Vorgeplante Zeitpläne und kurzfristige Änderungen funktionieren gleich gut.",
+        "Besonders bewährt haben sie sich in Gastronomie, Retail, Events, Messen und im Pop-up-Bereich. Überall dort, wo Aufmerksamkeit flexibel platziert werden soll, sind sie eine starke Lösung.",
+    },
+    {
+      question: "Können Inhalte zentral aktualisiert werden?",
+      answer:
+        "Ja. Über die Meister Signage Software – egal wo das Display steht. Vorgeplante Zeitpläne und kurzfristige Änderungen funktionieren auf mobilen Displays gleich gut wie auf fix installierten.",
     },
     {
       question: "Kann ich mobile Displays auch mieten?",
       answer:
-        "Ja. Gerade für temporäre Einsätze, Events und Pop-up-Promotionen ist die Miete eine flexible Option.",
+        "Ja. Gerade für temporäre Einsätze, Events und Pop-up-Promotionen ist die Miete eine flexible Option – inklusive Vorbereitung der Inhalte und Unterstützung beim Einsatz.",
     },
   ],
   internalLinks: [
-    { label: "Displays mieten",     href: "/digital-signage-mieten" },
-    { label: "Events & Messen",     href: "/branchen/events" },
-    { label: "Gastronomie",         href: "/branchen/gastronomie" },
-    { label: "Retail & Handel",     href: "/branchen/retail" },
+    { label: "Retail & Handel",         href: "/branchen/retail" },
+    { label: "Gastronomie",             href: "/branchen/gastronomie" },
+    { label: "Events & Messen",         href: "/branchen/events" },
+    { label: "Displays mieten",         href: "/digital-signage-mieten" },
+    { label: "Software",                href: "/loesungen/software" },
   ],
   cta: {
     eyebrow: "Mobile Lösung anfragen",
     title: "Digitale Wirkung – genau dort, wo Sie sie brauchen.",
     subtitle:
-      "Schildern Sie kurz Ihren Einsatz – wir empfehlen die passende Lösung.",
+      "Schildern Sie kurz Ihren Einsatz – wir empfehlen die passende mobile Lösung, vom akkubetriebenen Kundenstopper bis zum wetterfesten Outdoor-Display.",
     primaryLabel: "Beratung anfragen",
     primaryHref: "/kontakt",
     secondaryLabel: "Displays mieten",
@@ -87,9 +93,9 @@ const page: LandingPage = {
   },
   related: {
     branchen: [
-      { label: "Events & Messen",  href: "/branchen/events" },
-      { label: "Gastronomie",      href: "/branchen/gastronomie" },
       { label: "Retail & Handel",  href: "/branchen/retail" },
+      { label: "Gastronomie",      href: "/branchen/gastronomie" },
+      { label: "Events & Messen",  href: "/branchen/events" },
     ],
     loesungen: [
       { label: "Software",                href: "/loesungen/software" },

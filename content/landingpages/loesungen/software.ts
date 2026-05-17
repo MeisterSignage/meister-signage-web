@@ -3,94 +3,111 @@ import type { LandingPage } from "@/lib/lp-types";
 const page: LandingPage = {
   slug: "software",
   type: "loesungen",
-  seoTitle: "Digital Signage Software | Meister Signage",
+  seoTitle: "Digital Signage Software Schweiz – Inhalte zentral steuern | Meister Signage",
   seoDescription:
-    "Mit der Meister Signage Software Inhalte zentral verwalten, Displays steuern und digitale Kommunikation einfach aktualisieren.",
+    "Mit der Meister Signage Software Inhalte zentral verwalten, Displays steuern, Kampagnen planen und mehrere Standorte einfach koordinieren – ohne IT-Kenntnisse.",
   eyebrow: "Lösung · Software",
   h1: "Inhalte zentral verwalten. Einfach und flexibel.",
   intro:
-    "Die Meister Signage Software bringt alle Displays an einen Ort. Inhalte zentral steuern, Zeitpläne hinterlegen und in Sekunden aktualisieren – ohne IT-Abteilung, ohne komplizierte Bedienung.",
+    "Die Meister Signage Software ist die zentrale Oberfläche zur Verwaltung Ihrer digitalen Inhalte. Sie steuern Displays, planen Inhalte, aktualisieren Kampagnen und behalten mehrere Standorte übersichtlich im Blick – ohne IT-Abteilung und ohne komplizierte Bedienung.",
   benefits: [
     {
       title: "Inhalte zentral verwalten",
       description:
-        "Alle Bildschirme an einem Ort steuern – egal ob ein Display am Empfang oder ein ganzes Filialnetz.",
+        "Alle Bildschirme an einem Ort steuern – egal ob ein Display am Empfang oder ein ganzes Filialnetz mit mehreren Standorten.",
     },
     {
-      title: "Zeitgesteuerte Inhalte",
+      title: "Zeitpläne erstellen",
       description:
-        "Tagesmenü, Aktion oder Eventhinweis genau dann ausspielen, wann es passt – automatisch und planbar.",
+        "Tagesmenü, Aktion oder Eventhinweis genau dann ausspielen, wann es passt – stunden-, tages- oder wochenbasiert geplant.",
     },
     {
-      title: "Einfache Bedienung",
+      title: "Mehrere Displays steuern",
       description:
-        "Klare Oberfläche, vordefinierte Templates und Drag-and-Drop. Keine IT-Kenntnisse nötig.",
+        "Ein Display oder hundert: alle werden zentral verwaltet, gleichzeitig aktualisiert oder einzeln bespielt.",
     },
     {
-      title: "Templates und Layouts",
+      title: "Templates nutzen",
       description:
-        "Auf Wunsch erhalten Sie fertige Layouts, die zu Ihrer Marke passen – inkl. Schriften, Farben und Tonalität.",
+        "Vordefinierte Layouts in Ihrer Markenwelt – Schriften, Farben und Tonalität bleiben konsistent, der Aufwand bleibt minimal.",
     },
     {
-      title: "Benutzer und Rechte",
+      title: "Benutzerrechte verwalten",
       description:
-        "Mehrere Personen können Inhalte verwalten – mit klaren Rollen, Rechten und Freigabewegen.",
+        "Mehrere Personen, klare Rollen: wer darf Inhalte erstellen, freigeben oder veröffentlichen – Sie entscheiden.",
     },
     {
-      title: "Sofort aktualisieren",
+      title: "Inhalte sofort aktualisieren",
       description:
         "Änderung gespeichert, Display zeigt sie an. Ohne Wartezeit, ohne Druckerei, ohne Aufwand.",
+    },
+    {
+      title: "Kampagnen planen",
+      description:
+        "Aktionen, Saisonthemen und wiederkehrende Inhalte im Voraus vorbereiten und automatisch ausspielen lassen.",
+    },
+    {
+      title: "Standorte gruppieren",
+      description:
+        "Filialen, Räume oder Regionen in Gruppen organisieren und gezielt mit passenden Inhalten versorgen.",
     },
   ],
   faq: [
     {
-      question: "Können mehrere Displays zentral gesteuert werden?",
+      question: "Was ist Digital-Signage-Software?",
       answer:
-        "Ja. Ob ein Display am Empfang oder mehrere Bildschirme an verschiedenen Standorten – alles wird in einer Oberfläche verwaltet.",
+        "Digital-Signage-Software ist die zentrale Oberfläche, mit der Inhalte auf einem oder mehreren Displays verwaltet, geplant und ausgespielt werden. Sie ersetzt manuelle USB-Sticks oder lokale Player und sorgt dafür, dass alle Bildschirme immer aktuell sind.",
     },
     {
-      question: "Können Inhalte zeitgesteuert veröffentlicht werden?",
+      question: "Können mehrere Displays zentral gesteuert werden?",
       answer:
-        "Ja. Inhalte können stunden-, tages- oder wochenbasiert geplant werden – Mittagsmenü von 11–14 Uhr, Aktion am Wochenende, Veranstaltungshinweis nur in einer Woche.",
+        "Ja. Ob ein Display am Empfang oder mehrere Bildschirme an verschiedenen Standorten – alles wird in einer Oberfläche verwaltet. Inhalte lassen sich pro Display, pro Gruppe oder für alle gleichzeitig festlegen.",
+    },
+    {
+      question: "Können Inhalte zeitgesteuert angezeigt werden?",
+      answer:
+        "Ja. Inhalte können stunden-, tages- oder wochenbasiert geplant werden – Mittagsmenü von 11–14 Uhr, Aktion am Wochenende, Veranstaltungshinweis nur in einer bestimmten Woche.",
     },
     {
       question: "Braucht es IT-Kenntnisse?",
       answer:
-        "Nein. Die Software ist so aufgebaut, dass jede Person im Betrieb damit umgehen kann. Bei der Einrichtung zeigen wir alles, was Sie wissen müssen.",
+        "Nein. Die Software ist so aufgebaut, dass jede Person im Betrieb damit umgehen kann. Klare Oberfläche, Drag-and-Drop und vorbereitete Templates – bei der Einrichtung zeigen wir alles, was Sie wissen müssen.",
     },
     {
-      question: "Funktioniert die Software auf bestehenden Bildschirmen?",
+      question: "Können verschiedene Standorte verwaltet werden?",
       answer:
-        "Die Meister Signage Software ist auf unsere Display-Lösungen abgestimmt. Im Beratungsgespräch klären wir, wie sich Ihre bestehende Hardware integrieren lässt.",
+        "Ja. Standorte lassen sich in Gruppen organisieren und gezielt bespielen. Filialen sehen passende lokale Inhalte, übergeordnete Kampagnen werden zentral ausgerollt.",
     },
     {
-      question: "Wie viele Personen können gleichzeitig arbeiten?",
+      question: "Kann Meister Signage bei der Einrichtung unterstützen?",
       answer:
-        "Mehrere Benutzerinnen und Benutzer können parallel Inhalte erstellen und freigeben – mit individuellen Rechten je nach Rolle.",
+        "Ja. Wir richten die Software ein, schulen Ihr Team und unterstützen beim ersten Content-Setup. Auf Wunsch übernehmen wir auch laufende Aktualisierungen.",
     },
   ],
   internalLinks: [
-    { label: "Displays kaufen",        href: "/digital-signage-kaufen" },
-    { label: "Displays mieten",        href: "/digital-signage-mieten" },
-    { label: "Digitale Menüboards",    href: "/loesungen/digitale-menueboards" },
-    { label: "Digitaler Empfang",      href: "/loesungen/digitaler-empfang" },
-    { label: "Digitale Leitsysteme",   href: "/loesungen/digitale-leitsysteme" },
+    { label: "Mobile Displays",         href: "/loesungen/mobile-displays" },
+    { label: "Digitale Menüboards",     href: "/loesungen/digitale-menueboards" },
+    { label: "Digitaler Empfang",       href: "/loesungen/digitaler-empfang" },
+    { label: "Digitale Leitsysteme",    href: "/loesungen/digitale-leitsysteme" },
+    { label: "Displays kaufen",         href: "/digital-signage-kaufen" },
+    { label: "Displays mieten",         href: "/digital-signage-mieten" },
   ],
   cta: {
-    eyebrow: "Software entdecken",
+    eyebrow: "Inhalte einfacher steuern?",
     title: "Alles zentral. Eine Plattform für alle Displays.",
     subtitle:
       "Schildern Sie kurz Ihren Einsatz – wir zeigen Ihnen, wie die Meister Signage Software in Ihrem Betrieb funktioniert.",
-    primaryLabel: "Beratung anfragen",
+    primaryLabel: "Software-Beratung anfragen",
     primaryHref: "/kontakt",
     secondaryLabel: "Lösungen ansehen",
     secondaryHref: "/loesungen",
   },
   related: {
     loesungen: [
-      { label: "Digitale Menüboards",  href: "/loesungen/digitale-menueboards" },
-      { label: "Digitaler Empfang",    href: "/loesungen/digitaler-empfang" },
-      { label: "Digitale Leitsysteme", href: "/loesungen/digitale-leitsysteme" },
+      { label: "Mobile Displays",         href: "/loesungen/mobile-displays" },
+      { label: "Digitale Menüboards",     href: "/loesungen/digitale-menueboards" },
+      { label: "Digitaler Empfang",       href: "/loesungen/digitaler-empfang" },
+      { label: "Digitale Leitsysteme",    href: "/loesungen/digitale-leitsysteme" },
     ],
   },
 };

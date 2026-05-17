@@ -133,7 +133,60 @@ const trustItems = [
   { icon: Zap,       label: "Kein IT-Aufwand",          desc: "Plug & Play — wir kümmern uns um die Technik" },
 ];
 
+const rentalCategories = [
+  {
+    title: "Mobile Displays",
+    desc: "Flexibel platzierbar, ideal für Eingänge, Promotionen und Events ohne feste Installation.",
+    href: "/loesungen/mobile-displays",
+  },
+  {
+    title: "Doppelseitige Displays",
+    desc: "Sichtbarkeit aus zwei Richtungen – Orientierung auf einer Seite, Branding auf der anderen.",
+    href: "/loesungen/doppelseitige-displays",
+  },
+  {
+    title: "Eventdisplays",
+    desc: "Für Messen, Tagungen und Anlässe – inkl. Aufbau, Inhaltsvorbereitung und Rückgabe.",
+    href: "/branchen/events",
+  },
+  {
+    title: "Menüboards",
+    desc: "Digitale Menüboards für Gastronomie und Retail – Tagesangebote in Sekunden aktualisiert.",
+    href: "/loesungen/digitale-menueboards",
+  },
+  {
+    title: "Empfangsdisplays",
+    desc: "Begrüssen, informieren, orientieren – auch temporär an Standorten ohne feste Installation.",
+    href: "/loesungen/digitaler-empfang",
+  },
+  {
+    title: "Leitsysteme",
+    desc: "Wegeleitung und Besucherführung für Events, Tagungen und temporäre Bereiche.",
+    href: "/loesungen/digitale-leitsysteme",
+  },
+];
+
 const faqs = [
+  {
+    question: "Welche Displays können gemietet werden?",
+    answer: "Gemietet werden können mobile Displays, doppelseitige Displays, Eventdisplays, Menüboards, Empfangsdisplays und digitale Leitsysteme. Für jede Anwendung wählen wir gemeinsam das passende Format.",
+  },
+  {
+    question: "Eignen sich Mietdisplays für Events?",
+    answer: "Ja. Mietdisplays sind besonders für Messen, Tagungen, Anlässe und Pop-ups gemacht. Wir bereiten Inhalte, Layout und Aufbau auf den Einsatz vor und nehmen das Equipment nach dem Event wieder zurück.",
+  },
+  {
+    question: "Können Inhalte vorbereitet werden?",
+    answer: "Ja. Auf Wunsch übernehmen wir die Vorbereitung der Inhalte – Templates, Texte, Bilder und Zeitpläne sind bei Lieferung bereits eingerichtet. So ist das Display ab Tag 1 betriebsbereit.",
+  },
+  {
+    question: "Gibt es Unterstützung beim Aufbau?",
+    answer: "Ja. Wir liefern vorkonfiguriert. Auf Wunsch unterstützen wir persönlich vor Ort beim Aufbau und der Inbetriebnahme – gerade bei Events und mehreren Displays bewährt sich das.",
+  },
+  {
+    question: "Wie kurzfristig sind Mietlösungen möglich?",
+    answer: "Je nach Verfügbarkeit auch sehr kurzfristig. Für Events empfehlen wir, frühzeitig anzufragen, damit Inhalte, Layout und Lieferung in Ruhe vorbereitet werden können.",
+  },
   {
     question: "Was ist im monatlichen Preis enthalten?",
     answer: "Die Pakete beinhalten den jeweiligen Display sowie die Lizenzgebühren für die Nutzung. Je nach Projekt können zusätzliche Setup-Leistungen anfallen — das klären wir transparent im Voraus.",
@@ -143,16 +196,8 @@ const faqs = [
     answer: "Je nach Anwendung kann eine einmalige Setup-Gebühr für Vorbereitung, Einrichtung und individuelle Konfiguration anfallen. Das wird im Angebot ausgewiesen.",
   },
   {
-    question: "Für welche Einsätze eignet sich die Miete?",
-    answer: "Besonders bewährt hat sich die Miete für Events, Messen, Pop-ups, saisonale Aktionen und temporäre Informationsflächen — überall dort, wo Flexibilität wichtiger ist als Eigentum.",
-  },
-  {
     question: "Kann ich später kaufen statt mieten?",
     answer: "Das kann individuell besprochen werden. Die Miete eignet sich auch gut, um Digital Signage zuerst im Alltag zu testen, bevor eine langfristige Kaufentscheidung getroffen wird.",
-  },
-  {
-    question: "Unterstützt Meister Signage bei der Einrichtung?",
-    answer: "Ja. Die Lösung wird so vorbereitet, dass sie verständlich eingesetzt werden kann. Auf Wunsch unterstützen wir persönlich vor Ort oder remote bei der Inbetriebnahme.",
   },
 ];
 
@@ -266,15 +311,15 @@ export default function DigitalSignageMietenContent() {
                 color: "#f3f4f6",
               }}
             >
-              Flexibel einsetzen.{" "}
-              <span style={{ color: "#ffffff" }}>Ohne Bindung.</span>
+              Mieten, wenn{" "}
+              <span style={{ color: "#ffffff" }}>Flexibilität zählt.</span>
             </h1>
 
             <p
               className="mb-10 max-w-[440px] leading-relaxed"
               style={{ fontSize: "clamp(1rem, 1.5vw, 1.15rem)", color: "rgba(209,213,219,0.9)" }}
             >
-              Gemietete Digital-Signage-Screens für Events, Messen, Gastronomie und Retail. Inkl. Lizenz — persönlich betreut, sofort einsatzbereit.
+              Mietlösungen eignen sich besonders für temporäre Einsätze, Events, Pop-ups, Promotions oder Unternehmen, die Digital Signage zuerst testen möchten. Persönlich betreut, sofort einsatzbereit.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -304,7 +349,7 @@ export default function DigitalSignageMietenContent() {
             </div>
 
             <div className="mt-10 flex flex-wrap items-center gap-x-7 gap-y-3">
-              {["Lizenz inklusive", "Schweizer Support", "Monatlich kündbar"].map((t) => (
+              {["vorkonfiguriert", "flexibel einsetzbar", "persönliche Beratung", "optional vor Ort"].map((t) => (
                 <span
                   key={t}
                   className="flex items-center gap-2 text-[12px] font-medium tracking-wide"
@@ -508,8 +553,73 @@ export default function DigitalSignageMietenContent() {
         </div>
       </section>
 
-      {/* ── 3. BENEFITS BENTO ────────────────────────────────────────────── */}
+      {/* ── 2.5 MIETKATEGORIEN ──────────────────────────────────────────── */}
       <section className="w-full bg-white">
+        <div className="section-inner">
+          <motion.div
+            className="mb-12"
+            initial={reduced ? false : { opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={viewport}
+            transition={{ duration: 0.55, ease: easeOut }}
+          >
+            <span className="eyebrow">Mietkategorien</span>
+            <h2
+              className="mt-2 font-light text-navy"
+              style={{
+                fontSize: "clamp(1.75rem, 2.8vw, 2.6rem)",
+                lineHeight: 1.1,
+                letterSpacing: "-0.025em",
+              }}
+            >
+              Welche Lösung möchten Sie mieten?
+            </h2>
+            <p className="mt-3 max-w-xl text-[16px] leading-relaxed text-cgray">
+              Vom mobilen Kundenstopper über doppelseitige Stelen bis zu Eventdisplays und digitalen Leitsystemen – jede Lösung lässt sich auch temporär einsetzen.
+            </p>
+          </motion.div>
+
+          <motion.div
+            className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3"
+            variants={staggerContainer}
+            initial={reduced ? false : "hidden"}
+            whileInView="visible"
+            viewport={viewport}
+          >
+            {rentalCategories.map((cat) => (
+              <motion.div key={cat.title} variants={staggerItem}>
+                <Link
+                  href={cat.href}
+                  className="group flex h-full flex-col rounded-[18px] bg-offwhite p-7 transition-all duration-200"
+                  style={{ border: "1px solid rgba(26,39,68,0.07)" }}
+                  onMouseEnter={(e) => {
+                    (e.currentTarget as HTMLElement).style.borderColor = "rgba(254,1,154,0.25)";
+                    (e.currentTarget as HTMLElement).style.background = "#ffffff";
+                    (e.currentTarget as HTMLElement).style.boxShadow = "0 8px 28px rgba(26,39,68,0.08)";
+                  }}
+                  onMouseLeave={(e) => {
+                    (e.currentTarget as HTMLElement).style.borderColor = "rgba(26,39,68,0.07)";
+                    (e.currentTarget as HTMLElement).style.background = "#f5f5f7";
+                    (e.currentTarget as HTMLElement).style.boxShadow = "none";
+                  }}
+                >
+                  <h3 className="mb-3 text-[18px] font-bold text-navy group-hover:text-magenta transition-colors duration-150">
+                    {cat.title}
+                  </h3>
+                  <p className="flex-1 text-[14px] leading-relaxed text-cgray">{cat.desc}</p>
+                  <span className="mt-5 inline-flex items-center gap-1.5 text-[12px] font-bold uppercase tracking-[0.1em] text-magenta">
+                    Mehr erfahren
+                    <ArrowRight className="h-3 w-3 transition-transform duration-200 group-hover:translate-x-1" strokeWidth={2.5} />
+                  </span>
+                </Link>
+              </motion.div>
+            ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* ── 3. BENEFITS BENTO ────────────────────────────────────────────── */}
+      <section className="w-full bg-offwhite" id="warum-mieten">
         <div className="section-inner">
 
           <motion.div
@@ -603,7 +713,7 @@ export default function DigitalSignageMietenContent() {
       </section>
 
       {/* ── 4. USE CASES ─────────────────────────────────────────────────── */}
-      <section className="w-full bg-offwhite">
+      <section className="w-full bg-white">
         <div className="section-inner">
 
           <motion.div

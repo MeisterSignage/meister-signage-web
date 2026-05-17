@@ -3,13 +3,13 @@ import type { LandingPage } from "@/lib/lp-types";
 const page: LandingPage = {
   slug: "doppelseitige-displays",
   type: "loesungen",
-  seoTitle: "Doppelseitige Displays | Meister Signage",
+  seoTitle: "Doppelseitige Displays & digitale Stelen Schweiz | Meister Signage",
   seoDescription:
-    "Doppelseitige Digital-Signage-Displays für Lobbys, Retail, Events und Besucherzonen. Sichtbarkeit aus zwei Richtungen.",
+    "Doppelseitige Digital-Signage-Displays und freistehende Stelen für Lobbys, Retail, Hotels und Events. Sichtbarkeit aus zwei Richtungen, zwei Inhalte – ein Standort.",
   eyebrow: "Lösung · Doppelseitige Displays",
-  h1: "Zwei Seiten. Zwei Botschaften. Mehr Wirkung im Raum.",
+  h1: "Sichtbarkeit aus zwei Richtungen.",
   intro:
-    "Doppelseitige Displays funktionieren überall, wo Menschen aus mehreren Richtungen kommen. Zeigen Sie auf einer Seite Orientierung und auf der anderen Aktionen, Branding oder Eventinformationen – elegant integriert, platzsparend und zentral gesteuert.",
+    "Doppelseitige Displays eignen sich für Räume, in denen Menschen aus verschiedenen Richtungen kommen – etwa Lobbys, Eingänge, Showrooms, Retail-Flächen oder Events. Auf einer Seite Orientierung, auf der anderen Seite Branding, Angebote oder Eventinformationen.",
   benefits: [
     {
       title: "Sichtbarkeit aus zwei Richtungen",
@@ -17,63 +17,65 @@ const page: LandingPage = {
         "Ein Display, zwei Blickwinkel. Besucher sehen die Inhalte – egal aus welcher Richtung sie kommen.",
     },
     {
-      title: "Zwei unterschiedliche Inhalte",
+      title: "Unterschiedliche Inhalte pro Seite",
       description:
-        "Vorder- und Rückseite können komplett unabhängig bespielt werden – Orientierung auf einer Seite, Promo auf der anderen.",
+        "Vorder- und Rückseite werden komplett unabhängig bespielt – Orientierung vorne, Promotion hinten. Oder umgekehrt.",
     },
     {
-      title: "Hochwertiger Auftritt",
+      title: "Hochwertige Raumwirkung",
       description:
         "Schlanke Bauweise und scharfe Bildqualität – ein Designobjekt, das den Raum aufwertet statt zu stören.",
     },
     {
-      title: "Platzsparend",
+      title: "Ideal für Laufwege",
       description:
-        "Ein Standort, doppelte Wirkung. Statt zwei Displays an unterschiedlichen Wänden reicht eine zentrale Position.",
+        "An Eingängen, in Korridoren und auf Verkaufsflächen – überall dort, wo Menschen aus mehreren Richtungen vorbeikommen.",
     },
     {
-      title: "Zentrale Steuerung",
+      title: "Zentrale Inhaltsverwaltung",
       description:
-        "Mit der Meister Signage Software werden beide Seiten gemeinsam oder separat gesteuert – flexibel und einfach.",
+        "Mit der Meister Signage Software werden beide Seiten gemeinsam oder separat gesteuert – flexibel und zentral aus einer Oberfläche.",
     },
     {
-      title: "Ideal für Lobby, Retail und Events",
+      title: "Elegante freistehende Lösung",
       description:
-        "Empfangsbereiche, Eingänge, Verkaufsflächen und Eventzonen profitieren besonders von der zweiseitigen Sichtbarkeit.",
+        "Als Stele oder Hängesystem integriert sich das Display unauffällig in den Raum, ohne Wand- oder Pfeilermontage.",
     },
   ],
   faq: [
     {
       question: "Können beide Seiten unterschiedliche Inhalte anzeigen?",
       answer:
-        "Ja. Vorder- und Rückseite werden separat bespielt – mit eigenen Zeitplänen, eigenen Inhalten und unterschiedlichen Zielgruppen pro Seite.",
+        "Ja. Vorder- und Rückseite werden separat bespielt – mit eigenen Zeitplänen, eigenen Inhalten und unterschiedlichen Zielgruppen pro Seite. Auf Wunsch lassen sich auch identische Inhalte synchron ausspielen.",
     },
     {
-      question: "Für welche Orte eignen sich doppelseitige Displays?",
+      question: "Wo eignen sich doppelseitige Displays?",
       answer:
-        "Überall dort, wo Menschen aus mehreren Richtungen vorbeikommen: Empfangsbereiche, Hotel-Lobbys, Einkaufszentren, Eventzonen, Showrooms und Besucherflächen.",
+        "Überall dort, wo Menschen aus mehreren Richtungen vorbeikommen: Empfangsbereiche, Hotel-Lobbys, Einkaufszentren, Eventzonen, Showrooms und Besucherflächen. Besonders stark wirken sie in offenen Räumen mit zwei oder mehr Zugängen.",
     },
     {
-      question: "Können Inhalte zentral aktualisiert werden?",
+      question: "Sind doppelseitige Displays freistehend?",
       answer:
-        "Ja. Über die Meister Signage Software werden beide Seiten an einem Ort verwaltet – egal ob Standort gleich oder mehrere doppelseitige Displays über verschiedene Räume verteilt.",
+        "Ja. Doppelseitige Displays sind klassischerweise als freistehende Stelen ausgeführt. Alternativ sind auch hängende oder eingelassene Varianten möglich – je nach Raumsituation.",
     },
     {
-      question: "Wie aufwändig ist die Installation?",
+      question: "Können Inhalte zentral gesteuert werden?",
       answer:
-        "Doppelseitige Displays werden als Stand- oder Hängelösung montiert. Wir übernehmen die Planung der Montage, der Stromzufuhr und der Inhaltsanbindung.",
+        "Ja. Über die Meister Signage Software werden beide Seiten an einem Ort verwaltet – egal ob ein einzelnes Display oder mehrere doppelseitige Stelen über verschiedene Räume und Standorte verteilt.",
     },
     {
-      question: "Sind doppelseitige Displays auch portabel verfügbar?",
+      question: "Eignen sich doppelseitige Displays für Events?",
       answer:
-        "Für temporäre Einsätze oder Events lassen sich auch mobile, doppelseitige Lösungen umsetzen – wir empfehlen das passende Gerät je nach Szenario.",
+        "Ja. Gerade an Events, Messen und Tagungen sind sie ein starkes Instrument – Programm auf einer Seite, Sponsoren auf der anderen. Für temporäre Einsätze bieten wir auch mobile, doppelseitige Lösungen zur Miete an.",
     },
   ],
   internalLinks: [
-    { label: "Digitaler Empfang",   href: "/loesungen/digitaler-empfang" },
-    { label: "Hotellerie",          href: "/branchen/hotellerie" },
-    { label: "Retail & Handel",     href: "/branchen/retail" },
-    { label: "Unternehmen",         href: "/branchen/unternehmen" },
+    { label: "Hotellerie",              href: "/branchen/hotellerie" },
+    { label: "Unternehmen",             href: "/branchen/unternehmen" },
+    { label: "Retail & Handel",         href: "/branchen/retail" },
+    { label: "Digitaler Empfang",       href: "/loesungen/digitaler-empfang" },
+    { label: "Digitale Leitsysteme",    href: "/loesungen/digitale-leitsysteme" },
+    { label: "Software",                href: "/loesungen/software" },
   ],
   cta: {
     eyebrow: "Doppelseitige Lösung anfragen",
@@ -88,12 +90,13 @@ const page: LandingPage = {
   related: {
     branchen: [
       { label: "Hotellerie",       href: "/branchen/hotellerie" },
-      { label: "Retail & Handel",  href: "/branchen/retail" },
       { label: "Unternehmen",      href: "/branchen/unternehmen" },
+      { label: "Retail & Handel",  href: "/branchen/retail" },
     ],
     loesungen: [
       { label: "Digitaler Empfang",     href: "/loesungen/digitaler-empfang" },
       { label: "Digitale Leitsysteme",  href: "/loesungen/digitale-leitsysteme" },
+      { label: "Software",              href: "/loesungen/software" },
     ],
   },
 };

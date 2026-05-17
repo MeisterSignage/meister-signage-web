@@ -3,13 +3,13 @@ import type { LandingPage } from "@/lib/lp-types";
 const page: LandingPage = {
   slug: "digitale-leitsysteme",
   type: "loesungen",
-  seoTitle: "Digitale Leitsysteme | Meister Signage",
+  seoTitle: "Digitale Leitsysteme & Besucherführung Schweiz | Meister Signage",
   seoDescription:
-    "Digitale Leitsysteme für Besucherführung, Events, Hotels und Unternehmen. Informationen flexibel anzeigen und Wege klar kommunizieren.",
+    "Digitale Leitsysteme und Wegeleitung für Hotels, Events, Firmengebäude und Bildungsinstitutionen. Räume, Programme und Wege flexibel anzeigen – immer aktuell.",
   eyebrow: "Lösung · Digitale Leitsysteme",
-  h1: "Menschen einfach und digital zum Ziel führen.",
+  h1: "Digitale Orientierung für Menschen in Bewegung.",
   intro:
-    "Digitale Leitsysteme ersetzen gedruckte Beschilderung durch flexible, immer aktuelle Informationen. Räume, Veranstaltungen und Wege werden klar kommuniziert – an einem Standort oder über mehrere Bereiche verteilt.",
+    "Digitale Leitsysteme zeigen Wege, Räume, Programme und Hinweise flexibel und aktuell an. Statt gedruckter Wegweiser, die bei jeder Änderung veralten, kommuniziert jedes Display tagesaktuell – an einem Standort oder über mehrere Bereiche verteilt.",
   benefits: [
     {
       title: "Besucherführung verbessern",
@@ -17,19 +17,19 @@ const page: LandingPage = {
         "Klare Hinweise direkt am richtigen Ort – Besucher orientieren sich schneller, ohne nachfragen zu müssen.",
     },
     {
-      title: "Raum- und Eventinformationen anzeigen",
-      description:
-        "Tagungen, Schulungen, Ausstellungen oder Termine werden tagesaktuell und automatisch auf den passenden Displays angezeigt.",
-    },
-    {
-      title: "Flexibel aktualisieren",
+      title: "Informationen flexibel aktualisieren",
       description:
         "Änderungen werden zentral eingepflegt und sofort auf allen verknüpften Displays sichtbar – ohne Aushänge zu ersetzen.",
     },
     {
-      title: "Mehrere Bereiche steuern",
+      title: "Eventprogramme anzeigen",
       description:
-        "Eingang, Etagen, Konferenzbereich – jedes Display zeigt genau das, was an seinem Standort relevant ist.",
+        "Tagungen, Schulungen, Ausstellungen oder Termine werden tagesaktuell und automatisch auf den passenden Displays angezeigt.",
+    },
+    {
+      title: "Räume und Wege erklären",
+      description:
+        "Eingang, Etagen, Konferenzbereich, Sanitäranlagen – jedes Display zeigt genau das, was an seinem Standort relevant ist.",
     },
     {
       title: "Weniger gedruckte Beschilderung",
@@ -37,36 +37,36 @@ const page: LandingPage = {
         "Schluss mit veralteten Schildern, ausgedruckten Etagenplänen und manueller Pflege. Digital ist immer aktuell.",
     },
     {
-      title: "Professionelle Orientierung",
+      title: "Zentrale Inhaltssteuerung",
       description:
-        "Klares Layout, lesbare Typografie und konsistentes Branding sorgen für eine durchdachte Besucherführung.",
+        "Mit der Meister Signage Software werden alle Leitsystem-Displays zentral verwaltet – einzeln, in Gruppen oder gemeinsam.",
     },
   ],
   faq: [
     {
-      question: "Kann ein Leitsystem mehrere Räume oder Etagen abdecken?",
+      question: "Was ist ein digitales Leitsystem?",
       answer:
-        "Ja. Jedes Display zeigt die für seinen Standort relevanten Informationen – Eingang, Etagenanzeige oder Raumbeschriftung – zentral aus einem System gesteuert.",
+        "Ein digitales Leitsystem nutzt Displays, um Besucher zu führen, Räume anzuzeigen und Programme zu kommunizieren. Es ersetzt gedruckte Wegweiser und passt sich tagesaktuell an Veränderungen an – ohne neue Schilder.",
     },
     {
-      question: "Können Eventinformationen automatisch angezeigt werden?",
+      question: "Wo können digitale Leitsysteme eingesetzt werden?",
       answer:
-        "Ja. Tagungs- und Veranstaltungsdaten lassen sich aus Ihrem Belegungsplan oder Kalender übernehmen und automatisch zur passenden Zeit darstellen.",
+        "In Hotels, an Events, in Firmengebäuden, an Messen, in Bildungsinstitutionen, im Gesundheitswesen und in öffentlichen Gebäuden. Überall dort, wo Menschen sich orientieren müssen und Informationen häufig wechseln.",
     },
     {
-      question: "Wie schnell sind Änderungen sichtbar?",
+      question: "Können Räume und Programme schnell geändert werden?",
       answer:
-        "Sofort. Inhalte werden zentral aktualisiert und in Sekunden auf allen verbundenen Displays angezeigt.",
+        "Ja. Inhalte werden zentral aktualisiert und in Sekunden auf allen verbundenen Displays angezeigt. Tagungs- und Veranstaltungsdaten lassen sich auch aus Belegungsplänen oder Kalendern übernehmen.",
     },
     {
-      question: "Eignen sich digitale Leitsysteme auch für temporäre Einsätze?",
+      question: "Eignen sich digitale Leitsysteme für Events?",
       answer:
-        "Ja. Für Messen, Tagungen und Events bieten wir flexible Mietlösungen an – inkl. Aufbau, Inhaltsvorbereitung und Abbau.",
+        "Ja. Gerade für Messen, Tagungen und Events sind sie ein starkes Instrument. Für temporäre Einsätze bieten wir flexible Mietlösungen an – inkl. Aufbau, Inhaltsvorbereitung und Abbau.",
     },
     {
-      question: "Wer pflegt die Inhalte?",
+      question: "Können mehrere Displays verbunden werden?",
       answer:
-        "Das definieren Sie. Pflege intern – wir schulen Ihr Team. Oder Pflege durch uns – wir übernehmen Aktualisierungen auf Wunsch.",
+        "Ja. Jedes Display zeigt die für seinen Standort relevanten Informationen – Eingang, Etagenanzeige, Raumbeschriftung oder Programmübersicht – zentral aus einem System gesteuert und synchronisiert.",
     },
   ],
   internalLinks: [
@@ -74,13 +74,14 @@ const page: LandingPage = {
     { label: "Hotellerie",              href: "/branchen/hotellerie" },
     { label: "Unternehmen",             href: "/branchen/unternehmen" },
     { label: "Digitaler Empfang",       href: "/loesungen/digitaler-empfang" },
+    { label: "Doppelseitige Displays",  href: "/loesungen/doppelseitige-displays" },
     { label: "Software",                href: "/loesungen/software" },
   ],
   cta: {
     eyebrow: "Leitsystem anfragen",
     title: "Klare Wege. Klare Informationen.",
     subtitle:
-      "Beschreiben Sie kurz Ihren Standort und Ihre Bereiche – wir empfehlen das passende Leitsystem.",
+      "Beschreiben Sie kurz Ihren Standort und Ihre Bereiche – wir empfehlen das passende Leitsystem für Eingang, Etagen und Räume.",
     primaryLabel: "Beratung anfragen",
     primaryHref: "/kontakt",
     secondaryLabel: "Lösungen ansehen",

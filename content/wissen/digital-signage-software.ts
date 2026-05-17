@@ -1,0 +1,81 @@
+import type { WissenPage } from "@/lib/wissen-types";
+
+const page: WissenPage = {
+  slug: "digital-signage-software",
+  category: "Software",
+  seoTitle: "Digital Signage Software einfach erklärt | Meister Signage",
+  seoDescription:
+    "Digital Signage Software: Was sie kann, wie sie funktioniert, welche Funktionen wichtig sind und worauf es bei der Auswahl ankommt.",
+  eyebrow: "Wissen · Software",
+  h1: "Digital Signage Software einfach erklärt.",
+  intro:
+    "Die Software ist das Herzstück jeder Digital-Signage-Lösung. Sie entscheidet darüber, wie einfach Inhalte aktualisiert, geplant und über mehrere Displays ausgespielt werden können.",
+  definition:
+    "Digital Signage Software ist die zentrale Oberfläche, über die Inhalte für ein oder mehrere Displays verwaltet, geplant und ausgespielt werden – ohne USB-Stick und ohne lokales Eingreifen am Bildschirm.",
+  explanation: [
+    "Ohne zentrale Software müssten Inhalte an jedem Bildschirm einzeln aktualisiert werden – per USB-Stick, vor Ort, manuell. Mit Software werden Inhalte einmal vorbereitet und automatisch an die gewünschten Displays ausgespielt.",
+    "Gute Digital Signage Software ist webbasiert, benötigt keine lokale Installation und lässt sich von jedem Gerät aus bedienen. Inhalte können stunden-, tages- oder wochenbasiert geplant werden.",
+    "Die Meister Signage Software ist auf den schweizerischen KMU-Alltag zugeschnitten: klare Oberfläche, vorbereitete Templates, mehrere Benutzer und Standorte – ohne IT-Aufwand.",
+  ],
+  examples: [
+    {
+      title: "Inhalte zentral verwalten",
+      description:
+        "Texte, Bilder, Videos und Layouts an einem Ort organisieren und gezielt auf die richtigen Displays ausspielen.",
+    },
+    {
+      title: "Zeitsteuerung",
+      description:
+        "Mittagsmenü 11–14 Uhr, Aktion am Wochenende, Eventhinweis nur in einer bestimmten Woche – automatisch.",
+    },
+    {
+      title: "Mehrere Standorte",
+      description:
+        "Filialen, Räume oder Regionen in Gruppen organisieren und gezielt mit passenden Inhalten versorgen.",
+    },
+    {
+      title: "Benutzer & Rechte",
+      description:
+        "Mehrere Personen mit klaren Rollen – wer darf erstellen, freigeben oder veröffentlichen.",
+    },
+  ],
+  benefits: [
+    "Zentrale Steuerung ohne USB-Stick",
+    "Zeitpläne und automatische Ausspielung",
+    "Mehrere Benutzer und Rollen",
+    "Templates für konsistentes Branding",
+    "Standorte gruppieren und gezielt bespielen",
+    "Sofortige Updates ohne Wartezeit",
+  ],
+  faq: [
+    {
+      question: "Was ist Digital Signage Software?",
+      answer:
+        "Die zentrale Oberfläche zur Verwaltung digitaler Inhalte auf einem oder mehreren Displays – ersetzt manuelle USB-Sticks und lokale Player.",
+    },
+    {
+      question: "Was kostet Digital Signage Software?",
+      answer:
+        "Im Mietmodell ist die Lizenz enthalten. Beim Kauf fallen Lizenzkosten ab CHF 180 pro Jahr oder ab CHF 15 pro Monat an.",
+    },
+    {
+      question: "Braucht es IT-Kenntnisse?",
+      answer:
+        "Nein. Die Meister Signage Software ist so aufgebaut, dass jede Person im Betrieb damit umgehen kann – klare Oberfläche und Drag-and-Drop.",
+    },
+    {
+      question: "Können mehrere Standorte zentral gesteuert werden?",
+      answer:
+        "Ja. Standorte lassen sich in Gruppen organisieren und gezielt mit passenden Inhalten versorgen – aus einer zentralen Oberfläche.",
+    },
+  ],
+  internalLinks: [
+    { label: "Software-Lösung im Detail",        href: "/loesungen/software" },
+    { label: "Was ist Digital Signage?",         href: "/wissen/was-ist-digital-signage" },
+    { label: "Mieten oder Kaufen?",              href: "/wissen/digital-signage-mieten-oder-kaufen" },
+    { label: "Digitale Menüboards",              href: "/wissen/digitale-menueboards" },
+  ],
+  datePublished: "2026-05-17",
+};
+
+export default page;

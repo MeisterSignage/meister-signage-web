@@ -51,6 +51,15 @@ const navItems: NavItem[] = [
     ],
   },
   { label: "Vermietung", href: "/digital-signage-mieten" },
+  {
+    label: "Wissen",
+    href: "/wissen",
+    dropdown: [
+      { label: "Ratgeber",         href: "/wissen",                              desc: "Grundlagen, Software, Anwendungen" },
+      { label: "Kosten",           href: "/was-kostet-digital-signage-schweiz",  desc: "Mieten, Kaufen, Kostenfaktoren" },
+      { label: "News & Blog",      href: "/news",                                desc: "Neuigkeiten & Hintergründe" },
+    ],
+  },
   { label: "Über uns",   href: "/ueber-uns" },
   { label: "Kontakt",    href: "/kontakt" },
 ];

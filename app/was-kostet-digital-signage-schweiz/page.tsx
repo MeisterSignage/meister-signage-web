@@ -18,14 +18,34 @@ import { serviceSchema } from "@/lib/schema/service";
 
 const PAGE_FAQS = [
   {
+    question: "Was kostet Digital Signage pro Monat?",
+    answer:
+      "Die Mietpreise starten bei CHF 129 pro Monat. Je nach Displaygrösse liegen die monatlichen Kosten zwischen CHF 129 und CHF 159 – inkl. Softwarelizenz und Support.",
+  },
+  {
+    question: "Welche Kosten kommen zur Hardware hinzu?",
+    answer:
+      "Beim Kauf kommen je nach Projekt einmalige Einrichtungskosten, Versand, Softwarelizenz, Content-Erstellung und gegebenenfalls Montage hinzu. Im Mietmodell sind Lizenz und Support meist enthalten.",
+  },
+  {
+    question: "Ist Mieten günstiger als Kaufen?",
+    answer:
+      "Für kurze oder flexible Einsätze ist Mieten meist sinnvoller. Bei langfristiger Nutzung über mehrere Jahre kann sich ein Kauf lohnen. Nach einer Mietphase können 30 % der bezahlten Mieten auf den Kaufpreis angerechnet werden.",
+  },
+  {
+    question: "Was kostet die Software?",
+    answer:
+      "Im Mietmodell ist die Softwarelizenz enthalten. Beim Kauf fallen ab CHF 180 pro Jahr oder ab CHF 15 pro Monat an – inkl. Cloud-Steuerung, Zeitplanung und mehreren Benutzern.",
+  },
+  {
+    question: "Gibt es Einrichtungskosten?",
+    answer:
+      "Ja. Eine einmalige Einrichtungsgebühr ab CHF 149 deckt Vorkonfiguration, Inbetriebnahme und das erste Content-Setup ab. Aufwendigere Projekte werden individuell ausgewiesen.",
+  },
+  {
     question: "Was kostet ein Digital-Signage-Display in der Schweiz?",
     answer:
       "Professionelle Displays beginnen je nach Modell bei rund CHF 1'299. Im Mietmodell ist der Einstieg ab CHF 129 pro Monat möglich.",
-  },
-  {
-    question: "Was kostet Digital Signage monatlich?",
-    answer:
-      "Die Mietpreise starten bei CHF 129 pro Monat. Je nach Displaygrösse liegen die monatlichen Kosten zwischen CHF 129 und CHF 159. Die Lizenz ist im Mietmodell enthalten.",
   },
   {
     question: "Gibt es versteckte Kosten?",
@@ -33,14 +53,40 @@ const PAGE_FAQS = [
       "Wichtig sind Einrichtung, Versand, Softwarelizenz beim Kauf, Content-Erstellung und je nach Einsatz eine mögliche Installation. Diese Punkte sollten im Angebot transparent ausgewiesen werden.",
   },
   {
-    question: "Ist Mieten oder Kaufen günstiger?",
-    answer:
-      "Für kurze oder flexible Einsätze ist Mieten meist sinnvoller. Bei langfristiger Nutzung über mehrere Jahre kann sich ein Kauf lohnen. Nach einer Mietphase können 30 % der bezahlten Mieten auf den Kaufpreis angerechnet werden.",
-  },
-  {
     question: "Lohnt sich Digital Signage für kleine Betriebe?",
     answer:
       "Ja, besonders wenn Inhalte regelmässig aktualisiert werden, Druckkosten reduziert werden sollen oder Angebote sichtbarer präsentiert werden sollen. Das Mietmodell macht den Einstieg auch für kleinere Budgets möglich.",
+  },
+];
+
+const EXAMPLE_CALCULATIONS = [
+  {
+    title: "Kleines Restaurant",
+    setup: "1 × Spark 4 (43\") als digitales Menüboard",
+    monthly: "ab CHF 139/Monat",
+    once: "+ CHF 149 Einrichtung",
+    note: "inkl. Lizenz, Cloud-Steuerung und Support – Tagesmenüs jederzeit aktualisieren.",
+  },
+  {
+    title: "Empfangsbereich",
+    setup: "1 × Spark 5 (50\") als digitales Empfangsdisplay",
+    monthly: "ab CHF 149/Monat",
+    once: "+ CHF 149 Einrichtung",
+    note: "Begrüssung, Termine und Branding zentral steuerbar.",
+  },
+  {
+    title: "Eventeinsatz",
+    setup: "2 × Spark 5 (50\") für Agenda und Wegleitung",
+    monthly: "ab CHF 298/Monat",
+    once: "individuelle Vorbereitung",
+    note: "kurzfristige Miete inkl. Inhaltsvorbereitung und Rückgabe nach Event.",
+  },
+  {
+    title: "Retailfläche",
+    setup: "1 × Spark Q (33\" quadr.) + 1 × Spark 4 (43\")",
+    monthly: "ab CHF 298/Monat",
+    once: "+ CHF 149 Einrichtung",
+    note: "Schaufenster und Verkaufsfläche bespielen – Kampagnen zentral gesteuert.",
   },
 ];
 
@@ -265,6 +311,41 @@ export default function WasKostetDigitalSignagePage() {
         ]}
       />
 
+      {/* 6.5 — Beispielrechnungen */}
+      <section className="w-full bg-white">
+        <div className="section-inner">
+          <div className="section-header">
+            <span className="eyebrow">Beispielrechnungen</span>
+            <h2 className="heading-max-2 mb-3 text-navy">So setzen sich typische Setups zusammen.</h2>
+            <p className="text-cgray">
+              Vier realistische Szenarien aus Praxis-Anfragen – als Orientierung für Ihr eigenes Projekt.
+            </p>
+          </div>
+
+          <div className="card-grid card-grid-2">
+            {EXAMPLE_CALCULATIONS.map((ex) => (
+              <div
+                key={ex.title}
+                className="flex flex-col gap-4 border border-navy/8 bg-offwhite p-6 transition-all duration-200 hover:border-navy/[0.14] hover:shadow-[0_4px_20px_rgba(26,39,68,0.06)]"
+              >
+                <div className="h-px w-8 bg-gold/50" />
+                <p className="card-title">{ex.title}</p>
+                <p className="text-[14px] leading-relaxed text-navy/75">{ex.setup}</p>
+                <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                  <span className="text-[20px] font-black tracking-tight text-navy">{ex.monthly}</span>
+                  <span className="text-[12px] text-cgray">{ex.once}</span>
+                </div>
+                <p className="card-body">{ex.note}</p>
+              </div>
+            ))}
+          </div>
+
+          <p className="mt-6 text-center text-[12px] text-cgray/60">
+            Alle Preise als Richtwerte exkl. MwSt. – individuelle Setups auf Anfrage.
+          </p>
+        </div>
+      </section>
+
       {/* 7 — Empfehlung */}
       <RecommendationSection
         title="Unsere Empfehlung für KMU"
@@ -285,6 +366,9 @@ export default function WasKostetDigitalSignagePage() {
         eyebrow="Weitere Seiten"
         links={[
           { label: "Digital Signage mieten",   href: "/digital-signage-mieten" },
+          { label: "Digital Signage kaufen",   href: "/digital-signage-kaufen" },
+          { label: "Software",                 href: "/loesungen/software" },
+          { label: "Mieten oder Kaufen?",      href: "/wissen/digital-signage-mieten-oder-kaufen" },
           { label: "Digital Signage Schweiz",  href: "/digital-signage-schweiz" },
           { label: "Beratung anfragen",        href: "/kontakt" },
         ]}

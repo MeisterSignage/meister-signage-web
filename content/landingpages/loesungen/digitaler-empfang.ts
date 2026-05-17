@@ -3,84 +3,89 @@ import type { LandingPage } from "@/lib/lp-types";
 const page: LandingPage = {
   slug: "digitaler-empfang",
   type: "loesungen",
-  seoTitle: "Digitaler Empfang | Meister Signage",
+  seoTitle: "Digitaler Empfang & Welcome Screen Schweiz | Meister Signage",
   seoDescription:
-    "Digitale Empfangslösungen für Unternehmen, Hotels und Lobbys. Besucher begrüssen, informieren und professionell führen.",
+    "Digitaler Empfang, Lobby- und Besucherdisplays für Unternehmen, Hotels und Showrooms. Besucher digital begrüssen, informieren und führen – ab dem ersten Eindruck.",
   eyebrow: "Lösung · Digitaler Empfang",
-  h1: "Der erste Eindruck beginnt am Empfang.",
+  h1: "Der erste Eindruck beginnt digital.",
   intro:
-    "Ein digitaler Empfang begrüsst Besucher, zeigt Termine an und stärkt den Markenauftritt – im Unternehmen, im Hotel oder im Showroom. Klar, modern, professionell – und zentral aktualisiert.",
+    "Ein digitaler Empfang informiert, begrüsst und orientiert Besucher direkt beim Betreten des Gebäudes. Inhalte können zentral angepasst und jederzeit aktualisiert werden – im Unternehmen, im Hotel oder im Showroom.",
   benefits: [
     {
-      title: "Besucher professionell begrüssen",
+      title: "Professioneller erster Eindruck",
       description:
-        "Persönliche Begrüssungstexte, Logos und Willkommensbotschaften sorgen für einen hochwertigen ersten Eindruck.",
+        "Persönliche Begrüssung, Logos und Markenwelt sorgen für einen hochwertigen Auftritt – noch bevor das erste Gespräch beginnt.",
     },
     {
-      title: "Termine und Räume anzeigen",
+      title: "Weniger manuelle Beschilderung",
       description:
-        "Aktuelle Meetings, Räume und Ansprechpersonen werden direkt im Empfangsbereich kommuniziert.",
+        "Aushänge, Notizen und gedruckte Hinweise verschwinden. Stattdessen klare, aktuelle Informationen auf einem Display.",
     },
     {
-      title: "Mitarbeitende entlasten",
+      title: "Aktuelle Informationen",
+      description:
+        "Termine, Räume, Ansprechpersonen oder Eventhinweise lassen sich täglich, stündlich oder in Echtzeit aktualisieren.",
+    },
+    {
+      title: "Einheitlicher Markenauftritt",
+      description:
+        "Schriften, Farben und Tonalität bleiben konsistent – jedes Empfangsdisplay ist Teil Ihres Markenauftritts.",
+    },
+    {
+      title: "Entlastung am Empfang",
       description:
         "Besucher orientieren sich selbst. Empfangspersonal wird entlastet und kann sich auf das Wesentliche konzentrieren.",
     },
     {
-      title: "Corporate Branding stärken",
+      title: "Flexible Inhalte",
       description:
-        "Schriften, Farben und Tonalität bleiben konsistent – jedes Display ist Teil Ihres Markenauftritts.",
-    },
-    {
-      title: "Zentral aktualisiert",
-      description:
-        "Inhalte zentral pflegen und sofort veröffentlichen – ohne Druckerei, ohne Wartezeit.",
-    },
-    {
-      title: "Moderne Wirkung",
-      description:
-        "Ein digitaler Empfang signalisiert Sorgfalt, Modernität und Kundenorientierung – noch bevor das erste Gespräch beginnt.",
+        "Begrüssungen, Termine, News oder Eventprogramme – Sie entscheiden, was wann wo angezeigt wird.",
     },
   ],
   faq: [
     {
-      question: "Können Termine und Räume automatisch angezeigt werden?",
+      question: "Was ist ein digitaler Empfang?",
       answer:
-        "Ja. Die Meister Signage Software kann Termininformationen aus Ihrem System übernehmen und auf dem Empfangsdisplay darstellen.",
+        "Ein digitaler Empfang ist ein Display im Eingangsbereich, das Besucher begrüsst, informiert und orientiert. Inhalte wie Termine, Räume, Ansprechpersonen oder Markenbotschaften werden zentral verwaltet und in Echtzeit angezeigt.",
     },
     {
-      question: "Lässt sich der digitale Empfang an unser Branding anpassen?",
+      question: "Welche Inhalte können angezeigt werden?",
       answer:
-        "Ja. Layouts, Farben, Schriften und Logos werden auf Ihren Markenauftritt abgestimmt – das Display wirkt wie ein natürlicher Teil Ihrer Marke.",
+        "Begrüssungen, Termine und Räume, Ansprechpersonen, Eventhinweise, Unternehmensnews, interne Kommunikation, Branding und Markenfilme. Alle Inhalte lassen sich zeitgesteuert oder dauerhaft einblenden.",
     },
     {
-      question: "Eignet sich das auch für kleine Empfangsbereiche?",
+      question: "Eignet sich ein digitales Empfangsdisplay für kleine Unternehmen?",
       answer:
-        "Ja. Auch kleinere Räume profitieren vom digitalen Empfang. Wir empfehlen das passende Display-Format je nach Platzangebot.",
+        "Ja. Auch kleinere Räume und Empfangsbereiche profitieren stark. Wir empfehlen das passende Display-Format je nach Platzangebot, Lichtverhältnissen und Einsatz.",
     },
     {
-      question: "Kann ein doppelseitiges Display verwendet werden?",
+      question: "Können Inhalte täglich angepasst werden?",
       answer:
-        "Ja. Gerade in offenen Lobbys oder Räumen mit zwei Eingängen sind doppelseitige Displays eine elegante Lösung.",
+        "Ja. Tägliche, stündliche oder ereignisbasierte Aktualisierungen sind über die Meister Signage Software in Sekunden möglich – ohne IT-Aufwand.",
     },
     {
-      question: "Wie aufwändig ist die Einrichtung?",
+      question: "Unterstützt Meister Signage bei der Einrichtung?",
       answer:
-        "Wir übernehmen Planung, Lieferung, Montage und Schulung. Sie erhalten eine schlüsselfertige Lösung – inkl. erstem Content-Setup.",
+        "Ja. Wir übernehmen Planung, Lieferung, Montage und Schulung. Sie erhalten eine schlüsselfertige Lösung – inkl. erstem Content-Setup und Einführung des Teams.",
+    },
+    {
+      question: "Kann ein doppelseitiges Display am Empfang eingesetzt werden?",
+      answer:
+        "Ja. Gerade in offenen Lobbys oder Räumen mit zwei Eingängen sind doppelseitige Displays eine elegante Lösung – Orientierung auf einer Seite, Branding auf der anderen.",
     },
   ],
   internalLinks: [
     { label: "Unternehmen",             href: "/branchen/unternehmen" },
     { label: "Hotellerie",              href: "/branchen/hotellerie" },
-    { label: "Doppelseitige Displays",  href: "/loesungen/doppelseitige-displays" },
     { label: "Digitale Leitsysteme",    href: "/loesungen/digitale-leitsysteme" },
+    { label: "Doppelseitige Displays",  href: "/loesungen/doppelseitige-displays" },
     { label: "Software",                href: "/loesungen/software" },
   ],
   cta: {
     eyebrow: "Empfangslösung anfragen",
     title: "Ein Empfang, der professionell kommuniziert.",
     subtitle:
-      "Beschreiben Sie kurz Ihren Empfangsbereich – wir empfehlen die passende Lösung.",
+      "Beschreiben Sie kurz Ihren Empfangsbereich – wir empfehlen die passende Lösung, vom Einzeldisplay bis zur doppelseitigen Stele.",
     primaryLabel: "Beratung anfragen",
     primaryHref: "/kontakt",
     secondaryLabel: "Lösungen ansehen",
@@ -92,8 +97,8 @@ const page: LandingPage = {
       { label: "Hotellerie",   href: "/branchen/hotellerie" },
     ],
     loesungen: [
-      { label: "Doppelseitige Displays",  href: "/loesungen/doppelseitige-displays" },
       { label: "Digitale Leitsysteme",    href: "/loesungen/digitale-leitsysteme" },
+      { label: "Doppelseitige Displays",  href: "/loesungen/doppelseitige-displays" },
       { label: "Software",                href: "/loesungen/software" },
     ],
   },
