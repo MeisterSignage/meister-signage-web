@@ -11,7 +11,7 @@ export default function MicroTrustSection() {
   return (
     <section className="w-full border-y border-navy/8 bg-offwhite">
       <div className="mx-auto max-w-content px-6">
-        <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4 py-7 md:justify-between">
+        <div className="grid grid-cols-2 items-center gap-x-6 gap-y-4 py-7 md:flex md:flex-wrap md:justify-between md:gap-x-10">
           {items.map(({ icon: Icon, label }) => (
             <div key={label} className="flex items-center gap-2.5">
               <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-navy/6">
