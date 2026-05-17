@@ -80,7 +80,7 @@ function NavColumn({
     <div className="flex flex-col gap-5">
       <p
         className="text-[10px] font-bold uppercase tracking-[0.18em]"
-        style={{ color: "#9ca3af" }}
+        style={{ color: "#d1d5db" }}
       >
         {heading}
       </p>
@@ -175,7 +175,7 @@ export default function Footer() {
             {/* Short text */}
             <p
               className="max-w-[280px] text-[13px] leading-relaxed"
-              style={{ color: "#9ca3af" }}
+              style={{ color: "#d1d5db" }}
             >
               Modern digital signage solutions for hospitality, retail, corporate and event spaces.
             </p>
@@ -183,7 +183,8 @@ export default function Footer() {
             {/* CTA button */}
             <Link
               href="/kontakt"
-              className="group/cta inline-flex w-fit items-center gap-2.5 rounded-[8px] border border-white/[0.08] px-5 py-3 text-[13px] font-semibold text-[#d1d5db] transition-all duration-200 hover:border-white/20 hover:text-[#f3f4f6]"
+              className="group/cta inline-flex w-fit items-center gap-2.5 rounded-[8px] border border-white/20 px-5 py-3 text-[13px] font-semibold transition-all duration-200 hover:border-white/35 hover:bg-white/[0.04]"
+              style={{ color: "#f3f4f6" }}
             >
               Beratung anfragen
               <ArrowRight
@@ -193,7 +194,7 @@ export default function Footer() {
             </Link>
 
             {/* Social icons */}
-            <div className="flex items-center gap-1">
+            <div className="flex items-center gap-2">
               {socials.map((s) => (
                 <a
                   key={s.label}
@@ -201,7 +202,8 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={s.label}
-                  className="flex h-10 w-10 items-center justify-center rounded-lg border border-white/[0.08] bg-white/[0.03] text-[#d1d5db] transition-all duration-150 hover:border-white/20 hover:bg-white/[0.08] hover:text-[#f3f4f6]"
+                  className="flex h-10 w-10 items-center justify-center rounded-lg border border-white/15 bg-white/[0.05] transition-all duration-150 hover:border-magenta/60 hover:bg-magenta/[0.10] hover:text-magenta"
+                  style={{ color: "#f3f4f6" }}
                 >
                   {s.icon}
                 </a>
@@ -233,23 +235,25 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="flex flex-col gap-4 py-7 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-6">
-            <span className="text-[12px]" style={{ color: "#9ca3af" }}>
+            <span className="text-[12px]" style={{ color: "#d1d5db" }}>
               © {year} Meister Signage
             </span>
             <Link
               href="/datenschutz"
-              className="text-[12px] text-[#9ca3af] transition-colors duration-150 hover:text-[#d1d5db]"
+              className="text-[12px] transition-colors duration-150 hover:!text-white"
+              style={{ color: "#d1d5db" }}
             >
               Datenschutz
             </Link>
             <Link
               href="/impressum"
-              className="text-[12px] text-[#9ca3af] transition-colors duration-150 hover:text-[#d1d5db]"
+              className="text-[12px] transition-colors duration-150 hover:!text-white"
+              style={{ color: "#d1d5db" }}
             >
               Impressum
             </Link>
           </div>
-          <span className="text-[11px] tracking-wide" style={{ color: "#9ca3af", opacity: 0.5 }}>
+          <span className="text-[11px] tracking-wide" style={{ color: "#9ca3af" }}>
             Made with care in Switzerland.
           </span>
         </div>
