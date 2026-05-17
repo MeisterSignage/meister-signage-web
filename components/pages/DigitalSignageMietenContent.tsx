@@ -42,7 +42,7 @@ const packages = [
   {
     model: "Spark Q+",
     size: '33"',
-    spec: "4K quadr.",
+    spec: "Full HD quadr.",
     price: 159,
     desc: "Das quadratische Format für kreative Konzepte und besondere Inszenierungen.",
     imageSrc: "/images/products/SparkQ-Design.webp",

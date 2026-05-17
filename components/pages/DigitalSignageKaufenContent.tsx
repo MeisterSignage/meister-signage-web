@@ -41,7 +41,7 @@ const products = [
   {
     model: "Spark Q+",
     size: '33"',
-    spec: "4K quadr.",
+    spec: "Full HD quadr.",
     tag: "Unique",
     desc: "Das quadratische Format für kreative Konzepte und besondere Räume.",
     imageSrc: "/images/products/SparkQ-Design.webp",

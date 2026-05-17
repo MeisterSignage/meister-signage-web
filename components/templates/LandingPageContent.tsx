@@ -257,12 +257,13 @@ export default function LandingPageContent({
                   />
                 </div>
               ) : (
-                /* Environment photo — rounded, shadow */
+                /* Environment photo — rounded, magenta-edge accent, soft glow */
                 <div
                   className="relative w-full max-w-[560px] overflow-hidden rounded-[24px]"
                   style={{
                     aspectRatio: "4/3",
-                    boxShadow: "0 24px 80px rgba(7,16,31,0.5), 0 4px 20px rgba(7,16,31,0.3)",
+                    boxShadow:
+                      "0 24px 80px rgba(7,16,31,0.5), 0 4px 20px rgba(7,16,31,0.3), 0 0 0 1px rgba(254,1,154,0.20), 0 0 50px rgba(254,1,154,0.10)",
                   }}
                 >
                   <Image

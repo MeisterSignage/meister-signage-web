@@ -116,11 +116,11 @@ export default function Nav() {
         </nav>
 
         {/* Desktop CTA */}
-        <div className="hidden items-center gap-3 lg:flex">
+        <div className="hidden items-center gap-2 lg:flex">
           <Link
             href="/news"
-            className={`text-[15px] font-medium tracking-wide transition-colors duration-150 ${
-              isActive("/news") ? "text-magenta" : "text-navy/70 hover:text-navy"
+            className={`inline-flex items-center rounded-[7px] border border-magenta/35 px-4 py-2 text-[14px] font-semibold tracking-wide transition-all duration-150 hover:border-magenta hover:bg-magenta/[0.06] ${
+              isActive("/news") ? "text-magenta" : "text-magenta/85 hover:text-magenta"
             }`}
           >
             Blog

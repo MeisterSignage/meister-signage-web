@@ -180,7 +180,7 @@ export default function WasKostetDigitalSignagePage() {
           },
           {
             model: "Spark Q+",
-            size: "33\" quadratisch 4K UHD",
+            size: "33\" quadratisch Full HD",
             price: "CHF 1'699",
             suitedFor: "Spezialinstallationen",
           },
