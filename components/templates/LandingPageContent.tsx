@@ -37,7 +37,7 @@ const BRANCHEN_PARALLAX: Record<string, { image: string; eyebrow: string; title:
   hotellerie: {
     image: "/images/products/Sektion-BG-parallax-Hotel.png",
     eyebrow: "Hotellerie",
-    title: "Willkommen, der erste Eindruck zählt.",
+    title: "Willkommen. Der erste Eindruck zählt.",
     text: "Digitale Displays verbinden Orientierung, Serviceinformationen und Atmosphäre zu einem stimmigen Gästeerlebnis.",
   },
   events: {

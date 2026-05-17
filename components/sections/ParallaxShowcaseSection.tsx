@@ -19,6 +19,9 @@ type Props = {
   /** Side the focal image lives on. Text takes the opposite side.
    *  Default: "right" — text on left third, image on right two-thirds. */
   imagePosition?: ImagePosition;
+  /** Slightly stronger overlay for image-heavy scenes (e.g. Retail) where
+   *  the photo dominates and the text needs more contrast. */
+  intensifyOverlay?: boolean;
 };
 
 export default function ParallaxShowcaseSection({
@@ -30,6 +33,7 @@ export default function ParallaxShowcaseSection({
   ctaLabel,
   ctaHref,
   imagePosition = "right",
+  intensifyOverlay = false,
 }: Props) {
   const sectionRef = useRef<HTMLDivElement>(null);
   const reduced = useReducedMotion();
@@ -39,34 +43,38 @@ export default function ParallaxShowcaseSection({
     offset: ["start end", "end start"],
   });
 
-  /* GPU-friendly Y-translate. Max 60px total travel (30 each direction).
-     Disabled when reduced-motion is on. */
-  const y = useTransform(
+  /* Visible cinematic parallax: background image translates ±70px (140px
+     total range) over the full scroll-through. Text stays static — only
+     the photo shifts, creating depth. Image container is 120% tall and
+     starts at top=-10%, so the 70px movement never exposes section edges. */
+  const imageY = useTransform(
     scrollYProgress,
     [0, 1],
-    reduced ? ["0px", "0px"] : ["30px", "-30px"],
+    reduced ? ["0px", "0px"] : ["70px", "-70px"],
   );
 
-  /* Overlay gradient direction depends on which side the text sits on.
-     Text needs the darker side. */
-  const overlay =
-    imagePosition === "right"
-      ? "linear-gradient(to right, rgba(7,16,31,0.92) 0%, rgba(7,16,31,0.78) 30%, rgba(7,16,31,0.30) 65%, rgba(7,16,31,0.10) 100%)"
-      : "linear-gradient(to left, rgba(7,16,31,0.92) 0%, rgba(7,16,31,0.78) 30%, rgba(7,16,31,0.30) 65%, rgba(7,16,31,0.10) 100%)";
+  /* Overlay direction follows the text side. Slightly heavier when
+     intensifyOverlay is on (image-dominant scenes). */
+  const left  = intensifyOverlay ? 0.95 : 0.92;
+  const mid1  = intensifyOverlay ? 0.85 : 0.78;
+  const mid2  = intensifyOverlay ? 0.40 : 0.30;
+  const right = intensifyOverlay ? 0.15 : 0.10;
+  const overlayDir = imagePosition === "right" ? "to right" : "to left";
+  const overlay = `linear-gradient(${overlayDir}, rgba(7,16,31,${left}) 0%, rgba(7,16,31,${mid1}) 32%, rgba(7,16,31,${mid2}) 68%, rgba(7,16,31,${right}) 100%)`;
 
   return (
     <section
       ref={sectionRef}
       className="relative w-full overflow-hidden"
-      style={{ backgroundColor: "#07101f", minHeight: "520px" }}
+      style={{ backgroundColor: "#07101f", minHeight: "560px" }}
       aria-label={title}
     >
-      {/* Parallax background — disabled on mobile via CSS (transform on
-          motion-div is a no-op for mobile because the wrapper class hides
-          the motion via media query) */}
+      {/* Parallax background image — oversized so the translate stays
+          within bounds. Mobile keeps it static (no will-change to avoid
+          GPU layers on phones). */}
       <motion.div
-        className="absolute inset-0 will-change-transform motion-safe:lg:[transform:translate3d(0,0,0)]"
-        style={{ y }}
+        className="absolute inset-x-0 top-[-10%] h-[120%] lg:will-change-transform"
+        style={reduced ? undefined : { y: imageY }}
         aria-hidden="true"
       >
         <Image
@@ -75,19 +83,20 @@ export default function ParallaxShowcaseSection({
           fill
           className="object-cover"
           sizes="100vw"
-          quality={75}
+          quality={78}
         />
       </motion.div>
 
-      {/* Dark gradient overlay for readability */}
+      {/* Dark side-gradient overlay for readability on desktop */}
       <div
-        className="pointer-events-none absolute inset-0"
+        className="pointer-events-none absolute inset-0 hidden lg:block"
         aria-hidden="true"
         style={{ background: overlay }}
       />
-      {/* Mobile: stronger blanket overlay so the small text column stays legible */}
+      {/* Mobile/tablet: blanket overlay so the small text column reads
+          cleanly without depending on the side-gradient direction */}
       <div
-        className="pointer-events-none absolute inset-0 bg-[rgba(7,16,31,0.55)] lg:hidden"
+        className="pointer-events-none absolute inset-0 bg-[rgba(7,16,31,0.65)] lg:hidden"
         aria-hidden="true"
       />
 
@@ -97,17 +106,18 @@ export default function ParallaxShowcaseSection({
         aria-hidden="true"
         style={{
           background:
-            "radial-gradient(ellipse 60% 80% at 80% 50%, rgba(254,1,154,0.08) 0%, transparent 65%)",
+            "radial-gradient(ellipse 60% 80% at 80% 50%, rgba(254,1,154,0.10) 0%, transparent 65%)",
         }}
       />
 
-      <div className="relative mx-auto grid max-w-[1200px] grid-cols-1 items-center gap-12 px-6 py-24 md:px-10 lg:grid-cols-3 lg:py-32">
-        {/* Text block — column 1 of 3 when image-right (default) */}
+      {/* 12-col grid lets us give the text room to breathe (5/12 ≈ 41%)
+          so big headlines stay at most 2 lines without feeling cramped. */}
+      <div className="relative mx-auto grid max-w-[1200px] grid-cols-1 items-center gap-12 px-6 py-24 md:px-10 lg:grid-cols-12 lg:py-32">
         <motion.div
-          className={`relative z-10 max-w-xl ${
-            imagePosition === "left" ? "lg:col-start-3" : "lg:col-span-1"
+          className={`relative z-10 max-w-2xl ${
+            imagePosition === "left" ? "lg:col-span-5 lg:col-start-8" : "lg:col-span-5"
           }`}
-          initial={reduced ? false : { opacity: 0, y: 24 }}
+          initial={reduced ? false : { opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.7, ease: [0, 0, 0.2, 1] }}
@@ -122,11 +132,12 @@ export default function ParallaxShowcaseSection({
           )}
 
           <h2
-            className="mb-5 font-light leading-[0.98] tracking-tight"
+            className="mb-5 font-light leading-[1.02] tracking-tight"
             style={{
               fontSize: "clamp(1.9rem, 3vw, 2.9rem)",
               letterSpacing: "-0.035em",
               color: "#f3f4f6",
+              textWrap: "balance",
             }}
           >
             {title}
@@ -135,7 +146,7 @@ export default function ParallaxShowcaseSection({
           <p
             className="mb-8 leading-relaxed"
             style={{
-              maxWidth: "440px",
+              maxWidth: "480px",
               fontSize: "clamp(0.95rem, 1.3vw, 1.05rem)",
               color: "rgba(209,213,219,0.92)",
             }}

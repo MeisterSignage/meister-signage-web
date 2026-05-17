@@ -82,6 +82,7 @@ export default function Home() {
         imageAlt="Digital Signage im Retail – Schaufenster mit Display"
         ctaLabel="Retail-Lösungen ansehen"
         ctaHref="/branchen/retail"
+        intensifyOverlay
       />
       <ParallaxShowcaseSection
         eyebrow="Gastronomie"
@@ -95,7 +96,7 @@ export default function Home() {
       />
       <ParallaxShowcaseSection
         eyebrow="Hotellerie"
-        title="Willkommen, der erste Eindruck zählt."
+        title="Willkommen. Der erste Eindruck zählt."
         text="Digitale Displays verbinden Orientierung, Serviceinformationen und Atmosphäre zu einem stimmigen Gästeerlebnis."
         image="/images/products/Sektion-BG-parallax-Hotel.png"
         imageAlt="Digital Signage in der Hotellerie – Lobby mit Display"
