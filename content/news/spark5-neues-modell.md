@@ -1,7 +1,7 @@
 ---
 title: "Spark 5: Unser neues 50-Zoll-Display ist jetzt verfügbar"
 description: "Das Spark 5 ist da – unser bisher grösstes und leistungsstärkstes Digital-Signage-Display. 50 Zoll 4K UHD, für Retail, Hotellerie und Empfangsbereiche konzipiert. Alle Details im Überblick."
-date: "2025-04-22"
+date: "2026-04-22"
 category: "Produkte"
 image: "/images/products/Spark5-Design.png"
 slug: "spark5-neues-modell"

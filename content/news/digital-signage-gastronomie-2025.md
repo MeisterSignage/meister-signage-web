@@ -1,7 +1,7 @@
 ---
-title: "Digital Signage in der Gastronomie: Warum Menüboards 2025 Standard werden"
+title: "Digital Signage in der Gastronomie: Warum Menüboards 2026 Standard werden"
 description: "Immer mehr Restaurants, Cafés und Bäckereien setzen auf digitale Menüboards. Wir erklären, warum die Umstellung auf Digital Signage gerade für Gastronomen so sinnvoll ist – und worauf es bei der Umsetzung ankommt."
-date: "2025-05-08"
+date: "2026-05-08"
 category: "Gastronomie"
 image: "/images/products/Spark3-Design.png"
 slug: "digital-signage-gastronomie-2025"
@@ -35,6 +35,6 @@ Mit einem schlüsselfertigen Setup wie bei Meister Signage ist das System nach w
 
 ## Fazit
 
-Wer in der Gastronomie auf digitale Menüboards setzt, spart langfristig Zeit und Druckkosten, verbessert den Auftritt und reagiert flexibler auf Veränderungen. 2025 ist das nicht mehr ein «Nice to have» – es wird zum Standard.
+Wer in der Gastronomie auf digitale Menüboards setzt, spart langfristig Zeit und Druckkosten, verbessert den Auftritt und reagiert flexibler auf Veränderungen. 2026 ist das nicht mehr ein «Nice to have» – es wird zum Standard.
 
 Interesse? [Jetzt Beratung anfragen](/kontakt) und unverbindlich besprechen, welche Lösung zu Ihrem Betrieb passt.

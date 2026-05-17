@@ -1,7 +1,7 @@
 ---
 title: "5 Tipps für den perfekten Digital-Signage-Einsatz an Events"
 description: "Messen, Konferenzen, Firmenfeiern – Digital Signage macht Events professioneller. Diese fünf Tipps helfen, das Beste aus dem Einsatz herauszuholen."
-date: "2025-06-01"
+date: "2026-06-01"
 category: "Events"
 image: "/images/products/Spark4-Design.png"
 slug: "digital-signage-events-tipps"
