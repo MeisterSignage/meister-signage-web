@@ -8,6 +8,7 @@ import { ArrowRight, Plus, Minus } from "lucide-react";
 import { viewport, easeOut, staggerContainer, staggerItem } from "@/lib/motion";
 import ContactSection from "@/components/sections/ContactSection";
 import InternalLinksSection from "@/components/sections/InternalLinksSection";
+import ParallaxShowcaseSection from "@/components/sections/ParallaxShowcaseSection";
 import type { LandingPage, LPLink } from "@/lib/lp-types";
 
 /* ─── Image mapping ──────────────────────────────────────────────────────── */
@@ -18,6 +19,33 @@ const BRANCHEN_IMAGES: Record<string, string> = {
   hotellerie:  "/images/products/Hotelempfang-Meister-Signage.webp",
   unternehmen: "/images/products/Unternehmen-Empfang.webp",
   events:      "/images/products/Events-Meister-Signage.webp",
+};
+
+const BRANCHEN_PARALLAX: Record<string, { image: string; eyebrow: string; title: string; text: string }> = {
+  gastronomie: {
+    image: "/images/products/Sektion-BG-parallax-Gastro.png",
+    eyebrow: "Gastronomie",
+    title: "Genuss perfekt in Szene gesetzt.",
+    text: "Digitale Menüboards und Displays präsentieren Angebote, Tagesmenüs und Aktionen flexibel und hochwertig.",
+  },
+  retail: {
+    image: "/images/products/Sektion-BG-parallax-Retail.png",
+    eyebrow: "Retail & Handel",
+    title: "Mehr Aufmerksamkeit. Mehr Wirkung.",
+    text: "Digitale Displays inszenieren Produkte, Kampagnen und Markenbotschaften direkt am Point of Sale.",
+  },
+  hotellerie: {
+    image: "/images/products/Sektion-BG-parallax-Hotel.png",
+    eyebrow: "Hotellerie",
+    title: "Willkommen, der erste Eindruck zählt.",
+    text: "Digitale Displays verbinden Orientierung, Serviceinformationen und Atmosphäre zu einem stimmigen Gästeerlebnis.",
+  },
+  events: {
+    image: "/images/products/Sektion-BG-parallax-Events.png",
+    eyebrow: "Events & Messen",
+    title: "Grosse Momente. Grosse Wirkung.",
+    text: "LED-Walls, Agenda-Displays und digitale Besucherführung machen Veranstaltungen sichtbar, flexibel und eindrucksvoll.",
+  },
 };
 
 const LOESUNGEN_IMAGES: Record<string, { src: string; product: boolean }> = {
@@ -389,6 +417,30 @@ export default function LandingPageContent({
 
         </div>
       </section>
+
+      {/* ── 2.5 Atmospheric parallax — branchen-specific or general loesungen ── */}
+      {page.type === "branchen" && BRANCHEN_PARALLAX[page.slug] && (
+        <ParallaxShowcaseSection
+          eyebrow={BRANCHEN_PARALLAX[page.slug].eyebrow}
+          title={BRANCHEN_PARALLAX[page.slug].title}
+          text={BRANCHEN_PARALLAX[page.slug].text}
+          image={BRANCHEN_PARALLAX[page.slug].image}
+          imageAlt={`Digital Signage — ${BRANCHEN_PARALLAX[page.slug].eyebrow}`}
+          ctaLabel="Beratung anfragen"
+          ctaHref="/kontakt"
+        />
+      )}
+      {page.type === "loesungen" && (
+        <ParallaxShowcaseSection
+          eyebrow="Premium Digital Signage"
+          title="Digitale Kommunikation mit Tiefenwirkung."
+          text="Subtile Bewegung, starke Bilder und klare Inhalte schaffen ein digitales Erlebnis, das Räume hochwertig ergänzt."
+          image="/images/products/meister-signage-parallax-bg.png"
+          imageAlt="Meister Signage — Premium Digital Signage Stimmungsbild"
+          ctaLabel="Beratung anfragen"
+          ctaHref="/kontakt"
+        />
+      )}
 
       {/* ── 3. FAQ ───────────────────────────────────────────────────────── */}
       {page.faq.length > 0 && (

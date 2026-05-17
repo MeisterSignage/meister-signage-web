@@ -11,6 +11,7 @@ import MicroTrustSection from "@/components/sections/MicroTrustSection";
 import CTASection from "@/components/sections/CTASection";
 import ContactSection from "@/components/sections/ContactSection";
 import InternalLinksSection from "@/components/sections/InternalLinksSection";
+import ParallaxShowcaseSection from "@/components/sections/ParallaxShowcaseSection";
 import AnimateIn from "@/components/ui/AnimateIn";
 
 const SITE_URL = "https://www.meister-signage.ch";
@@ -55,11 +56,52 @@ export default function Home() {
       {/* 3 — Premium benefit grid */}
       <PremiumBenefitGrid />
 
+      {/* 3.5 — Atmospheric brand parallax */}
+      <ParallaxShowcaseSection
+        eyebrow="Premium Digital Signage"
+        title="Digitale Kommunikation mit Tiefenwirkung."
+        text="Subtile Bewegung, starke Bilder und klare Inhalte schaffen ein digitales Erlebnis, das Räume hochwertig ergänzt."
+        image="/images/products/meister-signage-parallax-bg.png"
+        imageAlt="Meister Signage – Premium Digital Signage Stimmungsbild"
+        ctaLabel="Lösungen ansehen"
+        ctaHref="/loesungen"
+      />
+
       {/* 4 — Industries bento */}
       <IndustriesSection />
 
       {/* 5 — Use cases editorial */}
       <UseCasesSection />
+
+      {/* 5.5 — Branchen parallax stories */}
+      <ParallaxShowcaseSection
+        eyebrow="Retail & Handel"
+        title="Mehr Aufmerksamkeit. Mehr Wirkung."
+        text="Digitale Displays inszenieren Produkte, Kampagnen und Markenbotschaften direkt am Point of Sale."
+        image="/images/products/Sektion-BG-parallax-Retail.png"
+        imageAlt="Digital Signage im Retail – Schaufenster mit Display"
+        ctaLabel="Retail-Lösungen ansehen"
+        ctaHref="/branchen/retail"
+      />
+      <ParallaxShowcaseSection
+        eyebrow="Gastronomie"
+        title="Genuss perfekt in Szene gesetzt."
+        text="Digitale Menüboards und Displays präsentieren Angebote, Tagesmenüs und Aktionen flexibel und hochwertig."
+        image="/images/products/Sektion-BG-parallax-Gastro.png"
+        imageAlt="Digital Signage in der Gastronomie – Menüboard im Restaurant"
+        ctaLabel="Gastronomie-Lösungen ansehen"
+        ctaHref="/branchen/gastronomie"
+        imagePosition="left"
+      />
+      <ParallaxShowcaseSection
+        eyebrow="Hotellerie"
+        title="Willkommen, der erste Eindruck zählt."
+        text="Digitale Displays verbinden Orientierung, Serviceinformationen und Atmosphäre zu einem stimmigen Gästeerlebnis."
+        image="/images/products/Sektion-BG-parallax-Hotel.png"
+        imageAlt="Digital Signage in der Hotellerie – Lobby mit Display"
+        ctaLabel="Hotel-Lösungen ansehen"
+        ctaHref="/branchen/hotellerie"
+      />
 
       {/* 6 — Trust & process */}
       <TrustProcessSection />
