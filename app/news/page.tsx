@@ -99,7 +99,7 @@ export default function NewsPage() {
                           {post.category}
                         </span>
                       )}
-                      <span className="text-[11px] text-navy/35">
+                      <span className="text-[11px] text-navy/65">
                         {formatDateDE(post.date)}
                       </span>
                     </div>

@@ -85,7 +85,7 @@ function NewsCard({ post }: { post: NewsPost }) {
             </span>
           )}
           {post.date && (
-            <span className="text-[11px] text-navy/35">
+            <span className="text-[11px] text-navy/65">
               {formatDateDE(post.date)}
             </span>
           )}

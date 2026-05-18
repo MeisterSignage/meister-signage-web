@@ -84,7 +84,7 @@ function EditorialCard({
       <div className={`flex flex-1 flex-col ${featured ? "p-7" : "p-5"}`}>
         {/* Date */}
         {post.date && (
-          <p className="mb-3 text-[11px] font-medium tracking-wide text-navy/35">
+          <p className="mb-3 text-[11px] font-medium tracking-wide text-navy/65">
             {formatDateDE(post.date)}
           </p>
         )}

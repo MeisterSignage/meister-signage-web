@@ -165,7 +165,7 @@ export default function TrustProcessSection() {
             Beratung anfragen
             <ArrowRight className="h-4 w-4 shrink-0" strokeWidth={2} />
           </Link>
-          <p className="text-[12px] tracking-wide text-navy/35">
+          <p className="text-[12px] tracking-wide text-navy/65">
             Unverbindlich · Antwort innert 24h · Persönliche Beratung
           </p>
         </motion.div>

@@ -32,14 +32,15 @@ export default function HomeHeroSection({
       className="relative w-full overflow-hidden"
       style={{ backgroundColor: "#07101f" }}
     >
-      {/* Layer 1 — Background video (desktop) */}
+      {/* Layer 1 — Background video (desktop).
+           File is <600 KB (compressed 720p, 20s loop) — safe to preload. */}
       <video
         className="pointer-events-none absolute inset-0 hidden h-full w-full object-cover md:block motion-reduce:hidden"
         autoPlay
         muted
         loop
         playsInline
-        preload="metadata"
+        preload="auto"
         poster={HERO_VIDEO_POSTER}
         aria-hidden="true"
       >

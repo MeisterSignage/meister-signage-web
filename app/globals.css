@@ -6,7 +6,7 @@
   --color-magenta:  #fe019a;
   --color-gold:     #C9A84C;
   --color-offwhite: #f5f5f7;
-  --color-cgray:    #6B7280;
+  --color-cgray:    #636B78;
 
   --max-width-content: 1200px;
   --max-width-prose:   640px;
@@ -25,7 +25,8 @@
   --magenta:  #fe019a;
   --gold:     #C9A84C;
   --offwhite: #f5f5f7;
-  --cgray:    #6B7280;
+  --cgray:    #636B78;
+  --magenta-a11y: #db0085;  /* WCAG AA-safe variant (≥ 4.5 : 1 on white) */
 
   /* Borders */
   --border-subtle: rgba(26, 39, 68, 0.10);
@@ -172,7 +173,7 @@ h3 { font-size: clamp(1.1rem, 1.6vw, 1.4rem);  font-weight: 700; line-height: 1.
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: var(--gold);
+    color: var(--navy);
     margin-bottom: 0.5rem;
   }
 
@@ -219,8 +220,8 @@ h3 { font-size: clamp(1.1rem, 1.6vw, 1.4rem);  font-weight: 700; line-height: 1.
     min-height: 3.5rem;
     padding: 0 2rem;
     border-radius: 7px;
-    border: 1px solid var(--magenta);
-    background-color: var(--magenta);
+    border: 1px solid var(--magenta-a11y);
+    background-color: var(--magenta-a11y);
     color: #ffffff !important;
     font-size: 1rem;
     font-weight: 600;
@@ -237,8 +238,8 @@ h3 { font-size: clamp(1.1rem, 1.6vw, 1.4rem);  font-weight: 700; line-height: 1.
   }
 
   .btn-primary:hover {
-    background-color: #d9007c;
-    border-color: #d9007c;
+    background-color: #c10070;
+    border-color: #c10070;
     color: #ffffff !important;
     transform: translateY(-2px);
     box-shadow: 0 8px 24px rgba(254, 1, 154, 0.28);
@@ -257,9 +258,9 @@ h3 { font-size: clamp(1.1rem, 1.6vw, 1.4rem);  font-weight: 700; line-height: 1.
     min-height: 3.5rem;
     padding: 0 2rem;
     border-radius: 7px;
-    border: 1px solid var(--magenta);
+    border: 1px solid var(--magenta-a11y);
     background-color: #ffffff;
-    color: var(--magenta) !important;
+    color: var(--magenta-a11y) !important;
     font-size: 1rem;
     font-weight: 600;
     line-height: 1;
@@ -275,8 +276,8 @@ h3 { font-size: clamp(1.1rem, 1.6vw, 1.4rem);  font-weight: 700; line-height: 1.
   }
 
   .btn-secondary:hover {
-    background-color: var(--magenta);
-    border-color: var(--magenta);
+    background-color: var(--magenta-a11y);
+    border-color: var(--magenta-a11y);
     color: #ffffff !important;
     transform: translateY(-2px);
     box-shadow: 0 8px 24px rgba(254, 1, 154, 0.22);

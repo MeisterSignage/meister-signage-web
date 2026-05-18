@@ -13,7 +13,7 @@ const config: Config = {
         magenta: "#fe019a",
         gold:    "#C9A84C",
         offwhite:"#f5f5f7",
-        cgray:   "#6B7280",
+        cgray:   "#636B78",
       },
       fontFamily: {
         lato: ["Lato", "sans-serif"],

@@ -78,6 +78,11 @@ export default function ContactFormSection() {
     setErrors({});
     setState("submitting");
 
+    /* Enrich submission with Formspree control fields */
+    const senderName = (data.get("name") as string)?.trim() ?? "Kontaktformular";
+    data.set("_subject", `Neue Anfrage von ${senderName} — Meister Signage`);
+    data.set("_replyto", (data.get("email") as string)?.trim() ?? "");
+
     try {
       const res = await fetch(FORMSPREE_ENDPOINT, {
         method: "POST",
