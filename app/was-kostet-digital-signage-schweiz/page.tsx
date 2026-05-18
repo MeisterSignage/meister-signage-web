@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import HeroSection from "@/components/sections/HeroSection";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 import PricingQuickAnswerSection from "@/components/sections/PricingQuickAnswerSection";
-import PricingTableSection from "@/components/sections/PricingTableSection";
 import RentalPackagesSection from "@/components/sections/RentalPackagesSection";
 import BuyVsRentSection from "@/components/sections/BuyVsRentSection";
 import BenefitsSection from "@/components/sections/BenefitsSection";
@@ -15,6 +15,37 @@ import JsonLd from "@/components/JsonLd";
 import { faqSchema } from "@/lib/schema/faq";
 import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
 import { serviceSchema } from "@/lib/schema/service";
+
+const NOISE =
+  "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E\")";
+
+const BUY_PRICES = [
+  {
+    model: "Spark 3",
+    size: '32" Full HD',
+    price: "CHF 1'299",
+    suitedFor: "Menüboards und Empfang",
+  },
+  {
+    model: "Spark 4",
+    size: '43" 4K UHD',
+    price: "CHF 1'499",
+    suitedFor: "Gastronomie und Retail",
+  },
+  {
+    model: "Spark 5",
+    size: '50" 4K UHD',
+    price: "CHF 1'599",
+    badge: "Empfehlung",
+    suitedFor: "Schaufenster und grössere Flächen",
+  },
+  {
+    model: "Spark Q+",
+    size: '33" quadratisch Full HD',
+    price: "CHF 1'699",
+    suitedFor: "Spezialinstallationen",
+  },
+];
 
 const PAGE_FAQS = [
   {
@@ -94,7 +125,7 @@ const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/was-kostet-digital-signage-schweiz`;
 
 export const metadata: Metadata = {
-  title: "Was kostet Digital Signage in der Schweiz? | Meister Signage",
+  title: { absolute: "Was kostet Digital Signage in der Schweiz? | Meister Signage" },
   description:
     "Digital Signage Kosten in der Schweiz: Mietpreise, Kaufpreise, Lizenzkosten und Kostenfaktoren verständlich erklärt. Mit Preisübersicht für KMU.",
   alternates: { canonical: PAGE_URL },
@@ -164,18 +195,111 @@ export default function WasKostetDigitalSignagePage() {
         serviceType: "Digital Signage Beratung",
       }) as Record<string, unknown>} />
 
-      <HeroSection
-        eyebrow="Digital Signage Kosten Schweiz"
-        title="Was kostet Digital Signage in der Schweiz?"
-        subtitle="Eine klare Übersicht zu Mietpreisen, Kaufpreisen, Lizenzkosten und möglichen Zusatzkosten – damit Sie die passende Lösung für Ihren Betrieb fundiert planen können."
-        bullets={[
-          "Mietmodelle ab CHF 129 pro Monat",
-          "Kaufpreise ab CHF 1'299 pro Display",
-          "Lizenz-, Setup- und Betriebskosten transparent erklärt",
-        ]}
-        primaryCta={{ label: "Beratung anfragen", href: "/kontakt" }}
-        secondaryCta={{ label: "Mietpreise ansehen", href: "#pakete" }}
-      />
+      {/* 1 — Premium dark hero (matches /loesungen/* and /wissen/* treatment) */}
+      <section
+        className="relative w-full overflow-hidden"
+        style={{ background: "linear-gradient(160deg, #07101f 0%, #0d1628 50%, #111d38 100%)" }}
+      >
+        <div
+          className="pointer-events-none absolute inset-0 opacity-[0.025]"
+          aria-hidden="true"
+          style={{ backgroundImage: NOISE, backgroundSize: "160px 160px" }}
+        />
+        <div
+          className="pointer-events-none absolute -right-40 top-0 h-full w-[700px]"
+          aria-hidden="true"
+          style={{
+            background:
+              "radial-gradient(ellipse 60% 80% at 80% 40%, rgba(254,1,154,0.10) 0%, transparent 65%)",
+          }}
+        />
+        <div
+          className="pointer-events-none absolute -bottom-20 -left-20 h-[500px] w-[500px]"
+          aria-hidden="true"
+          style={{
+            background: "radial-gradient(circle, rgba(26,39,68,0.8) 0%, transparent 70%)",
+          }}
+        />
+
+        <div className="relative mx-auto flex max-w-[1200px] flex-col justify-center px-6 py-20 md:min-h-[60vh] md:px-10 lg:min-h-[62vh]">
+          <div className="z-10 max-w-3xl">
+            <span
+              className="mb-6 inline-block text-[11px] font-bold uppercase tracking-[0.18em]"
+              style={{ color: "rgba(254,1,154,0.9)" }}
+            >
+              Digital Signage Kosten Schweiz
+            </span>
+            <h1
+              className="mb-7 font-light leading-[0.95] tracking-tight"
+              style={{
+                fontSize: "clamp(2.2rem, 3.8vw, 3.6rem)",
+                letterSpacing: "-0.035em",
+                color: "#f3f4f6",
+              }}
+            >
+              Was kostet Digital Signage in der Schweiz?
+            </h1>
+            <p
+              className="mb-10 leading-relaxed"
+              style={{
+                maxWidth: "560px",
+                fontSize: "clamp(1rem, 1.5vw, 1.15rem)",
+                color: "rgba(209,213,219,0.9)",
+              }}
+            >
+              Eine klare Übersicht zu Mietpreisen, Kaufpreisen, Lizenzkosten und möglichen Zusatzkosten – damit Sie die passende Lösung für Ihren Betrieb fundiert planen können.
+            </p>
+
+            <div className="flex flex-wrap gap-4">
+              <Link href="/kontakt" className="btn-primary gap-2.5">
+                Beratung anfragen
+                <ArrowRight className="h-4 w-4 shrink-0" strokeWidth={2} />
+              </Link>
+              <Link
+                href="#pakete"
+                className="inline-flex items-center gap-2.5 rounded-[7px] px-6 py-3.5 text-[15px] font-semibold transition-all duration-200 hover:border-white/30 hover:text-white"
+                style={{
+                  border: "1px solid rgba(255,255,255,0.14)",
+                  color: "#e5e7eb",
+                  minHeight: "3.5rem",
+                }}
+              >
+                Mietpreise ansehen
+              </Link>
+            </div>
+
+            {/* Trust micro */}
+            <div className="mt-10 flex flex-wrap items-center gap-x-7 gap-y-3">
+              {[
+                "ab CHF 129/Mo. mieten",
+                "ab CHF 1'299 kaufen",
+                "transparent kalkuliert",
+              ].map((t) => (
+                <span
+                  key={t}
+                  className="flex items-center gap-2 text-[12px] font-medium tracking-wide"
+                  style={{ color: "rgba(156,163,175,0.9)" }}
+                >
+                  <span
+                    className="h-[5px] w-[5px] rounded-full"
+                    style={{ backgroundColor: "rgba(254,1,154,0.7)" }}
+                  />
+                  {t}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div
+          className="pointer-events-none absolute bottom-0 left-0 right-0 h-40"
+          aria-hidden="true"
+          style={{
+            background:
+              "linear-gradient(to bottom, transparent 0%, rgba(255,255,255,0.04) 60%, rgba(255,255,255,0.10) 100%)",
+          }}
+        />
+      </section>
 
       {/* 2 — Kurzantwort */}
       <PricingQuickAnswerSection
@@ -200,39 +324,65 @@ export default function WasKostetDigitalSignagePage() {
         ]}
       />
 
-      {/* 3 — Kaufpreise */}
-      <PricingTableSection
-        eyebrow="Kaufen"
-        title="Digital Signage kaufen – Preisübersicht"
-        subtitle="Beim Kauf gehört das Display Ihnen. Das lohnt sich vor allem bei langfristigem Einsatz, mehreren Standorten oder wenn Sie volle Eigentümerschaft bevorzugen."
-        rows={[
-          {
-            model: "Spark 3",
-            size: "32\" Full HD",
-            price: "CHF 1'299",
-            suitedFor: "Menüboards und Empfang",
-          },
-          {
-            model: "Spark 4",
-            size: "43\" 4K UHD",
-            price: "CHF 1'499",
-            suitedFor: "Gastronomie und Retail",
-          },
-          {
-            model: "Spark 5",
-            size: "50\" 4K UHD",
-            price: "CHF 1'599",
-            suitedFor: "Schaufenster und grössere Flächen",
-          },
-          {
-            model: "Spark Q+",
-            size: "33\" quadratisch Full HD",
-            price: "CHF 1'699",
-            suitedFor: "Spezialinstallationen",
-          },
-        ]}
-        note="Alle Preise verstehen sich als Richtwerte exkl. MwSt. Versandkosten von ca. CHF 60 pro Display können zusätzlich anfallen. Beim Kauf nach einer Mietphase können 30 % der bezahlten Monatsmieten exkl. Einrichtungsgebühr auf den Kaufpreis angerechnet werden."
-      />
+      {/* 3 — Kaufpreise (premium card grid statt klassischer Preistabelle) */}
+      <section className="w-full bg-offwhite">
+        <div className="section-inner">
+          <div className="mx-auto mb-12 max-w-2xl text-center">
+            <span className="eyebrow">Kaufen</span>
+            <h2 className="mb-4 mt-2 text-[clamp(2rem,3.2vw,2.8rem)] font-light leading-[1.06] tracking-tight text-navy">
+              Digital Signage kaufen – Preisübersicht
+            </h2>
+            <p className="mx-auto max-w-lg text-[16px] leading-relaxed text-cgray">
+              Beim Kauf gehört das Display Ihnen. Das lohnt sich vor allem bei langfristigem Einsatz, mehreren Standorten oder wenn Sie volle Eigentümerschaft bevorzugen.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {BUY_PRICES.map((p) => (
+              <div
+                key={p.model}
+                className="relative flex flex-col overflow-hidden rounded-[20px] bg-white p-7 transition-all duration-200"
+                style={{
+                  boxShadow: "0 2px 20px rgba(26,39,68,0.07), 0 0 0 1px rgba(26,39,68,0.055)",
+                }}
+              >
+                {p.badge && (
+                  <span
+                    className="absolute right-5 top-5 rounded-full px-3 py-1 text-[9px] font-black uppercase tracking-[0.14em] text-white"
+                    style={{ background: "rgba(254,1,154,0.85)" }}
+                  >
+                    {p.badge}
+                  </span>
+                )}
+
+                <div className="h-px w-8 bg-gold/60" />
+
+                <p className="mt-5 text-[22px] font-black tracking-tight text-navy">{p.model}</p>
+                <p className="mt-1 text-[13px] text-cgray">{p.size}</p>
+
+                <div className="mt-5">
+                  <span className="text-[26px] font-light tracking-tight text-navy">{p.price}</span>
+                  <span className="ml-2 text-[12px] text-cgray">einmalig</span>
+                </div>
+
+                <p className="mt-5 flex-1 text-[13px] leading-relaxed text-cgray">{p.suitedFor}</p>
+
+                <Link
+                  href="/kontakt"
+                  className="mt-6 inline-flex items-center gap-1.5 text-[12px] font-bold uppercase tracking-[0.1em] text-magenta hover:text-navy transition-colors duration-150"
+                >
+                  Anfragen
+                  <ArrowRight className="h-3 w-3" strokeWidth={2.5} />
+                </Link>
+              </div>
+            ))}
+          </div>
+
+          <p className="mt-6 text-center text-[12px] text-cgray/60">
+            Alle Preise als Richtwerte exkl. MwSt. · Versand ca. CHF 60 pro Display · 30 % der Monatsmieten exkl. Einrichtung können bei späterem Kauf angerechnet werden.
+          </p>
+        </div>
+      </section>
 
       {/* 4 — Mietpreise */}
       <RentalPackagesSection

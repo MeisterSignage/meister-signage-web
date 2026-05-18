@@ -7,6 +7,7 @@ import JsonLd from "@/components/JsonLd";
 import { organizationSchema } from "@/lib/schema/organization";
 import { localBusinessSchema } from "@/lib/schema/localBusiness";
 import { websiteSchema } from "@/lib/schema/website";
+import { SITE_INDEXABLE } from "@/lib/seo-config";
 
 const siteUrl = "https://www.meister-signage.ch";
 const ogImage = `${siteUrl}/og/meister-signage-og.png`;
@@ -27,17 +28,24 @@ export const metadata: Metadata = {
   ],
 
   // ── Favicons ────────────────────────────────────────────────────────────────
-  // Next.js App Router picks up app/favicon.ico and app/apple-icon.png
-  // automatically. We list them here for completeness and to add the PNG sizes.
+  // Next.js App Router picks up app/favicon.ico, app/icon.svg and app/apple-icon.png
+  // automatically. We list the additional PNG sizes here so Android Chrome
+  // (192/512) and the PWA manifest can pick them up cleanly.
   icons: {
     icon: [
       { url: "/favicon.ico",        sizes: "any" },
       { url: "/favicon-16x16.png",  type: "image/png", sizes: "16x16" },
       { url: "/favicon-32x32.png",  type: "image/png", sizes: "32x32" },
+      { url: "/icon.svg",           type: "image/svg+xml" },
+      { url: "/icon-192.png",       type: "image/png", sizes: "192x192" },
+      { url: "/icon-512.png",       type: "image/png", sizes: "512x512" },
     ],
     shortcut: "/favicon.ico",
-    apple:    [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
+    apple:    [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
   },
+  manifest: "/manifest.webmanifest",
 
   // ── Open Graph ──────────────────────────────────────────────────────────────
   openGraph: {
@@ -65,7 +73,14 @@ export const metadata: Metadata = {
     images:      [ogImage],
   },
 
-  robots: { index: true, follow: true },
+  robots: SITE_INDEXABLE
+    ? { index: true, follow: true }
+    : {
+        index: false,
+        follow: false,
+        nocache: true,
+        googleBot: { index: false, follow: false, noimageindex: true },
+      },
 };
 
 export const viewport = {

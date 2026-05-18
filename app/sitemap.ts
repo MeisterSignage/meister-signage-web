@@ -1,8 +1,11 @@
 import { MetadataRoute } from "next";
+import { SITE_INDEXABLE } from "@/lib/seo-config";
 
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  if (!SITE_INDEXABLE) return [];
+
   const base = "https://www.meister-signage.ch";
   const pages = [
     /* Core */
