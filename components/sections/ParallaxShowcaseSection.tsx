@@ -96,7 +96,7 @@ export default function ParallaxShowcaseSection({
       >
         <Image
           src={image}
-          alt=""
+          alt="Digital Signage Display in professionellem Einsatz"
           fill
           className="object-cover"
           sizes="100vw"
