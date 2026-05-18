@@ -168,11 +168,6 @@ export default function OverviewPage({
         eyebrow="Persönlicher Kontakt"
         title={contactTitle}
         subtitle={contactSubtitle}
-        contactName="Chris Meister"
-        role="Gründer, Meister Signage"
-        phone="+41 76 452 66 87"
-        email="info@meister-signage.ch"
-        whatsapp="https://wa.me/41764526687"
         imageSrc="/images/Chris-Meister.png"
       />
     </>

@@ -177,11 +177,7 @@ export default function KontaktPage() {
         eyebrow="Persönlicher Ansprechpartner"
         title="Sie sprechen direkt mit Chris Meister."
         subtitle="Kein Zwischenhändler, kein Ticketsystem. Als Gründer von Meister Signage ist Chris Ihr direkter Ansprechpartner – von der ersten Anfrage bis zur laufenden Betreuung."
-        contactName="Chris Meister"
-        role="Gründer, Meister Signage"
-        phone="+41 76 452 66 87"
         email="chris@meister-signage.ch"
-        whatsapp="https://wa.me/41764526687"
         imageSrc="/images/Chris-Meister.png"
       />
 

@@ -1,3 +1,5 @@
+import { CONTACT } from "@/lib/contact";
+
 type Social = {
   label: string;
   href: string;
@@ -47,7 +49,7 @@ const socials: Social[] = [
   },
   {
     label: "WhatsApp",
-    href: "https://wa.me/41764526687",
+    href: CONTACT.whatsapp,
     icon: (
       <svg
         viewBox="0 0 24 24"

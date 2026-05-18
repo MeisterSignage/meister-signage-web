@@ -184,11 +184,6 @@ export default function WissenIndexPage() {
         eyebrow="Persönlicher Kontakt"
         title="Sie haben eine konkrete Frage?"
         subtitle="Schildern Sie kurz Ihren Einsatz. Wir empfehlen die passende Lösung – innert 24 Stunden."
-        contactName="Chris Meister"
-        role="Gründer, Meister Signage"
-        phone="+41 76 452 66 87"
-        email="info@meister-signage.ch"
-        whatsapp="https://wa.me/41764526687"
         imageSrc="/images/Chris-Meister.png"
       />
     </>

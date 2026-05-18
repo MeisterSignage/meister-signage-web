@@ -1,22 +1,31 @@
 import Image from "next/image";
 import { Phone, Mail, MessageCircle } from "lucide-react";
 import SectionContainer from "@/components/ui/SectionContainer";
+import { CONTACT } from "@/lib/contact";
 
 type ContactSectionProps = {
   eyebrow?: string;
   title: string;
   subtitle?: string;
-  contactName: string;
-  role: string;
-  phone: string;
-  email: string;
-  whatsapp: string;
+  /** Optional overrides — default values come from content/site/contact.json
+   *  (editable via the CMS). Pass an override only if a specific section
+   *  intentionally wants different contact details. */
+  contactName?: string;
+  role?: string;
+  phone?: string;
+  email?: string;
+  whatsapp?: string;
   imageSrc?: string;
 };
 
 export default function ContactSection({
   eyebrow, title, subtitle,
-  contactName, role, phone, email, whatsapp, imageSrc,
+  contactName = CONTACT.name,
+  role        = CONTACT.role,
+  phone       = CONTACT.phoneDisplay,
+  email       = CONTACT.email,
+  whatsapp    = CONTACT.whatsapp,
+  imageSrc,
 }: ContactSectionProps) {
   const phoneHref    = `tel:${phone.replace(/\s/g, "")}`;
   const emailHref    = `mailto:${email}`;

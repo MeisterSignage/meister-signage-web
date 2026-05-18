@@ -176,11 +176,7 @@ export default function Home() {
         eyebrow="Persönlicher Kontakt"
         title="Lieber direkt? Kein Problem."
         subtitle="Rufen Sie an, schreiben Sie eine E-Mail oder nutzen Sie WhatsApp. Chris Meister antwortet persönlich – ohne Warteschleife."
-        contactName="Chris Meister"
         role="Meister Signage"
-        phone="+41 76 452 66 87"
-        email="info@meister-signage.ch"
-        whatsapp="https://wa.me/41764526687"
         imageSrc="/images/Chris-Meister.png"
       />
     </>

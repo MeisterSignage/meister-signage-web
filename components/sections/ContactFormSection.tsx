@@ -2,6 +2,7 @@
 
 import { useState, useId } from "react";
 import { Phone, Mail, MessageCircle, MapPin, Clock } from "lucide-react";
+import { CONTACT } from "@/lib/contact";
 
 type FormState = "idle" | "submitting" | "success" | "error";
 
@@ -115,16 +116,16 @@ export default function ContactFormSection() {
             </div>
 
             <div className="flex flex-col gap-3">
-              <a href="tel:+41764526687" className="btn-secondary gap-3">
+              <a href={`tel:${CONTACT.phone}`} className="btn-secondary gap-3">
                 <Phone className="h-4 w-4 shrink-0" strokeWidth={1.5} />
-                +41 76 452 66 87
+                {CONTACT.phoneDisplay}
               </a>
-              <a href="mailto:info@meister-signage.ch" className="btn-secondary gap-3">
+              <a href={`mailto:${CONTACT.email}`} className="btn-secondary gap-3">
                 <Mail className="h-4 w-4 shrink-0" strokeWidth={1.5} />
-                info@meister-signage.ch
+                {CONTACT.email}
               </a>
               <a
-                href="https://wa.me/41764526687"
+                href={CONTACT.whatsapp}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary gap-3"
@@ -312,7 +313,7 @@ export default function ContactFormSection() {
                     Die Nachricht konnte nicht gesendet werden. Bitte versuchen
                     Sie es erneut oder kontaktieren Sie mich direkt per{" "}
                     <a
-                      href="mailto:info@meister-signage.ch"
+                      href={`mailto:${CONTACT.email}`}
                       className="underline underline-offset-2"
                     >
                       E-Mail
@@ -331,7 +332,7 @@ export default function ContactFormSection() {
                     {state === "submitting" ? "Wird gesendet …" : "Nachricht senden"}
                   </button>
                   <a
-                    href="https://wa.me/41764526687"
+                    href={CONTACT.whatsapp}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-secondary gap-2"

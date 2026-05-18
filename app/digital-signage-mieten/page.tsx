@@ -119,11 +119,6 @@ export default function DigitalSignageMietenPage() {
         eyebrow="Persönlicher Kontakt"
         title="Sie möchten Digital Signage mieten?"
         subtitle="Schreiben Sie kurz, was Sie vorhaben und welchen Screen-Typ Sie im Einsatz sehen. Wir melden uns persönlich."
-        contactName="Chris Meister"
-        role="Gründer, Meister Signage"
-        phone="+41 76 452 66 87"
-        email="info@meister-signage.ch"
-        whatsapp="https://wa.me/41764526687"
         imageSrc="/images/Chris-Meister.png"
       />
     </>

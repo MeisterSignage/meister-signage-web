@@ -538,11 +538,6 @@ export default function WasKostetDigitalSignagePage() {
         eyebrow="Persönlicher Kontakt"
         title="Sie möchten die Kosten für Ihre konkrete Situation besprechen?"
         subtitle="Schreiben Sie kurz, was Sie vorhaben. Wir rechnen Ihnen transparent durch, was sinnvoll und was realistisch ist."
-        contactName="Chris Meister"
-        role="Gründer, Meister Signage"
-        phone="+41 76 452 66 87"
-        email="info@meister-signage.ch"
-        whatsapp="https://wa.me/41764526687"
         imageSrc="/images/Chris-Meister.png"
       />
     </>

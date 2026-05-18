@@ -1,0 +1,82 @@
+# Decap CMS configuration — Meister Signage
+#
+# - Backend: GitHub (auth via Cloudflare Worker OAuth proxy, see SETUP_CMS.md)
+# - The /admin/* path is additionally locked behind Cloudflare Access
+#   so only chris@nr9.ch with 2FA can even reach this UI.
+
+backend:
+  name: github
+  repo: MeisterSignage/meister-signage-web
+  branch: main
+  # OAuth proxy: a Cloudflare Worker handles the GitHub OAuth dance so the
+  # client secret never lives in the browser. See SETUP_CMS.md.
+  base_url: https://meister-signage-cms-auth.<your-cf-subdomain>.workers.dev
+  auth_endpoint: auth
+
+# Don't run the editor against the live site (its preview iframe is for
+# the admin only). The "publish" workflow goes via Git commits.
+publish_mode: simple
+
+# Where uploaded images land (e.g. inside Markdown news posts).
+media_folder: "public/images/news"
+public_folder: "/images/news"
+
+# UI niceties
+site_url: https://www.meister-signage.ch
+display_url: https://www.meister-signage.ch
+locale: "de"
+
+collections:
+  # ───────────────────────────────────────────────────────────────
+  # 1) NEWS — fully WYSIWYG Markdown editing for blog posts
+  # ───────────────────────────────────────────────────────────────
+  - name: "news"
+    label: "News & Blog"
+    label_singular: "Blogbeitrag"
+    folder: "content/news"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    summary: "{{date | date('YYYY-MM-DD')}} · {{title}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Titel",          name: "title",       widget: "string" }
+      - { label: "Kurzbeschreibung", name: "description", widget: "text", hint: "1–2 Sätze, für Listen und Suchmaschinen." }
+      - { label: "Datum",          name: "date",        widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, picker_utc: false }
+      - label: "Kategorie"
+        name: "category"
+        widget: "select"
+        options: ["Produkte", "Branchen", "Anleitungen", "Aktuelles", "Kunden", "Tipps"]
+      - { label: "Titelbild",      name: "image",       widget: "image", required: false, hint: "Querformat empfohlen. Bilder werden in /public/images/news abgelegt." }
+      - label: "Status"
+        name: "status"
+        widget: "select"
+        default: "draft"
+        options:
+          - { label: "Entwurf",      value: "draft" }
+          - { label: "Veröffentlicht", value: "published" }
+      - { label: "Slug",  name: "slug",   widget: "string", required: false, hint: "Optional. Leer lassen für automatisch aus dem Titel." }
+      - { label: "Text",  name: "body",   widget: "markdown" }
+
+  # ───────────────────────────────────────────────────────────────
+  # 2) GLOBALE DATEN — Kontaktdaten (Telefon, E-Mail, WhatsApp)
+  # ───────────────────────────────────────────────────────────────
+  # Diese Daten werden auf der ganzen Website ausgespielt (Footer,
+  # Kontaktblöcke, "Persönlicher Kontakt"-Sections, Landingpages).
+  # Pflege hier zentral, einmal speichern — überall aktualisiert.
+  - name: "site"
+    label: "Globale Daten"
+    files:
+      - file: "content/site/contact.json"
+        label: "Kontaktdaten"
+        name: "contact"
+        format: "json"
+        fields:
+          - { label: "Ansprechperson — Name", name: "name",   widget: "string" }
+          - { label: "Ansprechperson — Rolle", name: "role",  widget: "string" }
+          - { label: "Telefon (E.164)",     name: "phone",     widget: "string", hint: "Mit + und Landesvorwahl, z.B. +41764526687" }
+          - { label: "Telefon (Anzeige)",   name: "phoneDisplay", widget: "string", hint: "Wie auf der Website angezeigt, z.B. +41 76 452 66 87" }
+          - { label: "E-Mail",              name: "email",     widget: "string" }
+          - { label: "WhatsApp-URL",        name: "whatsapp",  widget: "string", hint: "z.B. https://wa.me/41764526687" }

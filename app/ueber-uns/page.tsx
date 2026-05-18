@@ -229,11 +229,6 @@ export default function UeberUnsPage() {
         eyebrow="Direkter Kontakt"
         title="Sie möchten mehr über Meister Signage erfahren?"
         subtitle="Schreiben Sie kurz, was Sie vorhaben – oder rufen Sie einfach an. Kein Formular, kein Umweg."
-        contactName="Chris Meister"
-        role="Gründer, Meister Signage"
-        phone="+41 76 452 66 87"
-        email="info@meister-signage.ch"
-        whatsapp="https://wa.me/41764526687"
         imageSrc="/images/Chris-Meister.png"
       />
     </>

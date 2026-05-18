@@ -114,11 +114,6 @@ export default function DigitalSignageKaufenPage() {
         eyebrow="Persönlicher Kontakt"
         title="Sie möchten ein Display kaufen?"
         subtitle="Schreiben Sie kurz, was Sie vorhaben und welche Grösse Sie im Kopf haben. Wir melden uns persönlich mit einer klaren Empfehlung."
-        contactName="Chris Meister"
-        role="Gründer, Meister Signage"
-        phone="+41 76 452 66 87"
-        email="info@meister-signage.ch"
-        whatsapp="https://wa.me/41764526687"
         imageSrc="/images/Chris-Meister.png"
       />
     </>

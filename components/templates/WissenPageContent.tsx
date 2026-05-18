@@ -383,11 +383,6 @@ export default function WissenPageContent({ page }: { page: WissenPage }) {
         eyebrow="Persönlicher Kontakt"
         title="Fragen zu diesem Thema?"
         subtitle="Schildern Sie kurz, was Sie vorhaben. Wir melden uns persönlich mit einer klaren Empfehlung – innert 24 Stunden."
-        contactName="Chris Meister"
-        role="Gründer, Meister Signage"
-        phone="+41 76 452 66 87"
-        email="info@meister-signage.ch"
-        whatsapp="https://wa.me/41764526687"
         imageSrc="/images/Chris-Meister.png"
       />
     </>
