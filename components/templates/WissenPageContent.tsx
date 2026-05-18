@@ -9,6 +9,15 @@ import ContactSection from "@/components/sections/ContactSection";
 import InternalLinksSection from "@/components/sections/InternalLinksSection";
 import type { WissenPage } from "@/lib/wissen-types";
 
+/** Format an ISO date as German month + year, e.g. "Mai 2026" */
+function formatMonthYearDE(iso: string): string {
+  if (!iso) return "";
+  return new Date(iso).toLocaleDateString("de-CH", {
+    month: "long",
+    year: "numeric",
+  });
+}
+
 const NOISE =
   "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E\")";
 
@@ -111,7 +120,7 @@ export default function WissenPageContent({ page }: { page: WissenPage }) {
               {page.h1}
             </h1>
             <p
-              className="mb-10 leading-relaxed"
+              className="mb-6 leading-relaxed"
               style={{
                 maxWidth: "560px",
                 fontSize: "clamp(1rem, 1.5vw, 1.15rem)",
@@ -120,6 +129,14 @@ export default function WissenPageContent({ page }: { page: WissenPage }) {
             >
               {page.intro}
             </p>
+            {(page.dateModified || page.datePublished) && (
+              <p
+                className="mb-10 text-sm"
+                style={{ color: "rgba(156,163,175,0.7)" }}
+              >
+                Zuletzt aktualisiert: {formatMonthYearDE(page.dateModified ?? page.datePublished)}
+              </p>
+            )}
             <div className="flex flex-wrap gap-4">
               <Link href="/kontakt" className="btn-primary gap-2.5">
                 Beratung anfragen

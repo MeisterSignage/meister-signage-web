@@ -17,11 +17,14 @@ Header set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment
 # XSS protection (legacy browsers)
 Header set X-XSS-Protection "1; mode=block"
 
-# HSTS — enforce HTTPS for 1 year (enable after go-live with SSL)
-# Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
 
 # Content Security Policy
 Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://identity.netlify.com https://unpkg.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://api.github.com https://*.workers.dev https://formspree.io; frame-src 'self' https://identity.netlify.com; base-uri 'self'; form-action 'self' https://formspree.io;"
+
+# ─── Test subdomain: prevent indexing ────────────────────────
+SetEnvIf Host "^test\." TEST_ENV
+Header set X-Robots-Tag "noindex, nofollow" env=TEST_ENV
 
 # ─── Caching ──────────────────────────────────────────────────
 

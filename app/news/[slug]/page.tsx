@@ -7,6 +7,7 @@ import {
   getPublishedSlugs,
   getPostBySlug,
   formatDateDE,
+  formatMonthYearDE,
 } from "@/lib/news";
 import JsonLd from "@/components/JsonLd";
 import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
@@ -132,6 +133,13 @@ export default async function NewsDetailPage({
           <p className="mt-4 max-w-2xl text-[17px] leading-relaxed text-cgray">
             {post.description}
           </p>
+
+          {/* Last updated (GEO signal) */}
+          {post.date && (
+            <p className="mt-3 text-sm text-cgray/60">
+              Zuletzt aktualisiert: {formatMonthYearDE(post.date)}
+            </p>
+          )}
         </div>
       </section>
 

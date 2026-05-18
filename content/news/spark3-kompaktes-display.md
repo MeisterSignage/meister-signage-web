@@ -1,6 +1,6 @@
 ---
 title: "Spark 3: Das kompakte 32-Zoll-Display für Theke, POS und Menüboard"
-description: "Der Spark 3 ist das Einstiegsmodell von Meister Signage: 32 Zoll Full HD, eingebauter Media Player, ideal für Menüboards, Thekenbereiche und kleine Verkaufsflächen."
+description: "Spark 3: kompaktes 32-Zoll-Display mit Full HD und Media Player – ideal für Menüboards, Theken und kleine Verkaufsflächen."
 date: "2026-03-18"
 category: "Produkte"
 image: "/images/products/Spark3-Design.webp"

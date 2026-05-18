@@ -132,8 +132,6 @@ export default function EditorialNewsSection({ posts }: Props) {
   const reduced = useReducedMotion();
   if (posts.length === 0) return null;
 
-  const [featured, ...rest] = posts;
-
   return (
     <section className="w-full bg-white">
       <div className="section-inner">
@@ -175,59 +173,20 @@ export default function EditorialNewsSection({ posts }: Props) {
           </Link>
         </motion.div>
 
-        {/* Cards — asymmetric editorial grid */}
-        {posts.length === 1 ? (
-          <motion.div
-            initial={reduced ? false : { opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={viewport}
-            transition={{ duration: 0.55, ease: easeOut }}
-            className="max-w-2xl"
-          >
-            <EditorialCard post={featured} featured />
-          </motion.div>
-        ) : posts.length === 2 ? (
-          <motion.div
-            className="grid grid-cols-1 gap-6 sm:grid-cols-2"
-            variants={staggerContainer}
-            initial={reduced ? false : "hidden"}
-            whileInView="visible"
-            viewport={viewport}
-          >
-            <motion.div variants={staggerItem}>
-              <EditorialCard post={posts[0]} featured />
+        {/* Cards — 4 equal columns */}
+        <motion.div
+          className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+          variants={staggerContainer}
+          initial={reduced ? false : "hidden"}
+          whileInView="visible"
+          viewport={viewport}
+        >
+          {posts.map((post) => (
+            <motion.div key={post.slug} variants={staggerItem}>
+              <EditorialCard post={post} />
             </motion.div>
-            <motion.div variants={staggerItem}>
-              <EditorialCard post={posts[1]} featured />
-            </motion.div>
-          </motion.div>
-        ) : (
-          /* 3 posts — asymmetric: featured left (7), two stacked right (5) */
-          <motion.div
-            className="grid grid-cols-1 gap-6 lg:grid-cols-12"
-            variants={staggerContainer}
-            initial={reduced ? false : "hidden"}
-            whileInView="visible"
-            viewport={viewport}
-          >
-            {/* Featured — left */}
-            <motion.div
-              variants={staggerItem}
-              className="lg:col-span-7"
-            >
-              <EditorialCard post={featured} featured />
-            </motion.div>
-
-            {/* Right column — 2 stacked */}
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-5 lg:grid-cols-1">
-              {rest.map((post) => (
-                <motion.div key={post.slug} variants={staggerItem}>
-                  <EditorialCard post={post} />
-                </motion.div>
-              ))}
-            </div>
-          </motion.div>
-        )}
+          ))}
+        </motion.div>
 
         {/* Bottom micro-CTA */}
         <motion.div

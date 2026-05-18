@@ -106,3 +106,12 @@ export function formatDateDE(iso: string): string {
     year:  "numeric",
   });
 }
+
+/** Month + year in German (e.g. "Mai 2026") — used for "Zuletzt aktualisiert" labels */
+export function formatMonthYearDE(iso: string): string {
+  if (!iso) return "";
+  return new Date(iso).toLocaleDateString("de-CH", {
+    month: "long",
+    year:  "numeric",
+  });
+}

@@ -1,6 +1,6 @@
 ---
 title: "Digital Signage in der Gastronomie: Warum Menüboards 2026 Standard werden"
-description: "Immer mehr Restaurants, Cafés und Bäckereien setzen auf digitale Menüboards. Wir erklären, warum die Umstellung auf Digital Signage gerade für Gastronomen so sinnvoll ist – und worauf es bei der Umsetzung ankommt."
+description: "Digitale Menüboards für Restaurants, Cafés und Bäckereien. Warum Digital Signage in der Gastronomie 2026 zum Standard wird – und worauf es ankommt."
 date: "2026-05-08"
 category: "Gastronomie"
 image: "/images/products/Spark3-Design.webp"

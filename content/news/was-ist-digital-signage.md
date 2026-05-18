@@ -1,6 +1,6 @@
 ---
 title: "Was ist Digital Signage? Einfach erklärt für Einsteiger"
-description: "Digital Signage verständlich erklärt: Was digitale Bildschirmlösungen sind, wo sie eingesetzt werden und warum immer mehr Schweizer Betriebe darauf setzen."
+description: "Digital Signage einfach erklärt: Was digitale Displays leisten, wo sie eingesetzt werden und warum Schweizer Betriebe darauf setzen."
 date: "2026-05-18"
 category: "Tipps"
 image: "/images/products/Spark3-Design.webp"
