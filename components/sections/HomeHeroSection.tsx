@@ -47,12 +47,14 @@ export default function HomeHeroSection({
         <source src={HERO_VIDEO_SRC} type="video/mp4" />
       </video>
 
-      {/* Layer 1 fallback — poster image (mobile + reduced-motion + no-video) */}
+      {/* Layer 1 fallback — poster image (mobile + reduced-motion + no-video).
+           Uses fetchPriority + loading="eager" (Next 16 replaces deprecated priority). */}
       <Image
         src={HERO_VIDEO_POSTER}
         alt="Meister Signage — Digital Signage Lösungen"
         fill
-        priority
+        fetchPriority="high"
+        loading="eager"
         sizes="100vw"
         className="pointer-events-none object-cover md:hidden motion-reduce:block"
         aria-hidden="true"
@@ -176,7 +178,8 @@ function HeroVisual() {
           height={600}
           className="h-auto w-full"
           style={{ filter: "drop-shadow(0 20px 48px rgba(26,39,68,0.16))" }}
-          priority
+          fetchPriority="high"
+          loading="eager"
         />
       </div>
 
@@ -201,7 +204,8 @@ function HeroVisual() {
             width={900}
             height={600}
             className="h-auto w-full"
-            priority
+            fetchPriority="high"
+            loading="eager"
           />
         </div>
 

@@ -277,7 +277,8 @@ export default function LandingPageContent({
                     width={1400}
                     height={900}
                     className="w-full"
-                    priority
+          fetchPriority="high"
+          loading="eager"
                     style={{
                       filter:
                         "drop-shadow(0 0 2px rgba(254,1,154,0.9)) drop-shadow(0 0 6px rgba(254,1,154,0.35))",
@@ -299,7 +300,8 @@ export default function LandingPageContent({
                     alt={page.h1}
                     fill
                     className="object-cover"
-                    priority
+          fetchPriority="high"
+          loading="eager"
                     sizes="(max-width: 1024px) 90vw, 50vw"
                   />
                   <div

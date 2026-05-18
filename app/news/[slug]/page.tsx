@@ -145,7 +145,8 @@ export default async function NewsDetailPage({
                 alt={post.title}
                 fill
                 className="object-contain p-6"
-                priority
+          fetchPriority="high"
+          loading="eager"
               />
             </div>
           </div>

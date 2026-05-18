@@ -84,7 +84,8 @@ export default function Nav() {
             width={1036}
             height={708}
             className="block h-[52px] w-auto"
-            priority
+          fetchPriority="high"
+          loading="eager"
           />
         </Link>
 

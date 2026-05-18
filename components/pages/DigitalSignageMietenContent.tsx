@@ -387,7 +387,8 @@ export default function DigitalSignageMietenContent() {
                 width={1400}
                 height={900}
                 className="w-full"
-                priority
+          fetchPriority="high"
+          loading="eager"
                 style={{
                   filter:
                     "drop-shadow(0 0 2px rgba(254,1,154,0.9)) drop-shadow(0 0 6px rgba(254,1,154,0.35))",
