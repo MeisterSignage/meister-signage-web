@@ -56,6 +56,7 @@ const LOESUNGEN_IMAGES: Record<string, { src: string; product: boolean }> = {
   "event-displays":          { src: "/images/products/Spark3-Design.webp",               product: true },
   "doppelseitige-displays":  { src: "/images/products/Doppelseitiges-Display-Retail.webp", product: false },
   "mobile-displays":         { src: "/images/products/Mobile-Display-Outdoor.webp",      product: false },
+  "digitaler-empfang":       { src: "/images/products/Hotelempfang-Meister-Signage.webp", product: false },
 };
 
 function resolveHeroImage(page: LandingPage): { src: string; product: boolean } | null {
