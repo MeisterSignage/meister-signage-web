@@ -43,11 +43,9 @@ export default function Home() {
   return (
     <>
       {/* 1 — Hero with trust bar */}
-      <HomeHeroSection
-        eyebrow="Digital Signage aus der Zentralschweiz"
-        primaryCta={{ label: "Beratung anfragen", href: "/kontakt" }}
-        secondaryCta={{ label: "Lösungen ansehen", href: "/digital-signage-schweiz" }}
-      />
+      {/* Inhalte gepflegt im CMS: Globale Daten → Homepage-Hero
+          (content/site/homepage.json). Hier keine Props mehr nötig. */}
+      <HomeHeroSection />
 
       {/* 2 — Micro trust strip */}
       <AnimateIn distance={10} delay={0.1}>

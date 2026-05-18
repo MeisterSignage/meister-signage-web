@@ -1,0 +1,128 @@
+{
+  "slug": "retail",
+  "type": "branchen",
+  "seoTitle": "Digital Signage Retail Schweiz – Meister Signage",
+  "seoDescription": "Digitale Displays für Retail und Handel in der Schweiz. Aktionen kommunizieren, Schaufenster bespielen, Sortiment präsentieren – flexibel und aktuell.",
+  "eyebrow": "Branche · Retail & Handel",
+  "h1": "Digital Signage für Retail und Handel",
+  "intro": "Retailbetriebe und Handelsgeschäfte in der Schweiz setzen digitale Bildschirme ein, um Aktionen sichtbar zu machen, Sortiment zu präsentieren und Kunden am Point of Sale gezielt anzusprechen. Meister Signage plant und realisiert Lösungen, die im Verkaufsalltag funktionieren.",
+  "benefits": [
+    {
+      "title": "Aktionen schnell kommunizieren",
+      "description": "Saisonale Angebote, Rabattaktionen oder neue Produkte lassen sich digital anzeigen und kurzfristig anpassen – ohne Neudruck."
+    },
+    {
+      "title": "Schaufenster gezielt bespielen",
+      "description": "Ein Display im Schaufenster zieht Aufmerksamkeit und informiert über aktuelle Angebote – auch ausserhalb der Öffnungszeiten."
+    },
+    {
+      "title": "Kaufimpulse am Point of Sale",
+      "description": "Ergänzende Produkte, Aktionen oder Hinweise direkt am Kassenbereich oder Regalrand anzeigen – dort, wo Kaufentscheidungen fallen."
+    },
+    {
+      "title": "Saisonaler Wechsel ohne Aufwand",
+      "description": "Inhalte für Weihnachten, Ostern oder saisonale Kampagnen lassen sich vorbereiten und zeitgesteuert schalten."
+    },
+    {
+      "title": "Mehrere Standorte zentral steuern",
+      "description": "Filialen können mit identischen oder standortspezifischen Inhalten bespielt werden – zentral verwaltet, lokal relevant."
+    },
+    {
+      "title": "Markenbild stärken",
+      "description": "Einheitliche digitale Kommunikation über alle Verkaufsflächen hinweg sorgt für einen professionellen, konsistenten Auftritt."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Welche Displaygrösse eignet sich für den Kassenbereich?",
+      "answer": "Das hängt von der verfügbaren Fläche und dem Abstand der Kunden ab. Im Kassenbereich sind kompakte Displays (32–43 Zoll) häufig sinnvoll. Wir beraten Sie vor Ort."
+    },
+    {
+      "question": "Können Inhalte automatisch wechseln?",
+      "answer": "Ja. Inhalte lassen sich zeitgesteuert schalten – zum Beispiel morgens andere Angebote als abends, oder werktags andere als am Wochenende."
+    },
+    {
+      "question": "Wie funktioniert das bei mehreren Filialen?",
+      "answer": "Alle Standorte lassen sich zentral verwalten. Inhalte können für alle Filialen identisch oder standortspezifisch eingespielt werden."
+    },
+    {
+      "question": "Was kostet der Einstieg?",
+      "answer": "Eine Einzellösung für einen Standort ist bereits ab einem überschaubaren Budget möglich. Für Mehrstandort-Lösungen erstellen wir gerne ein individuelles Angebot."
+    },
+    {
+      "question": "Brauche ich eine permanente Internetverbindung?",
+      "answer": "Für die Wiedergabe von vorgespielten Inhalten nicht zwingend. Für zentrale Fernverwaltung und Echtzeit-Updates ist eine stabile Verbindung empfohlen."
+    }
+  ],
+  "internalLinks": [
+    {
+      "label": "Digital Signage Schweiz",
+      "href": "/digital-signage-schweiz"
+    },
+    {
+      "label": "Digital Signage kaufen",
+      "href": "/digital-signage-kaufen"
+    },
+    {
+      "label": "Digital Signage mieten",
+      "href": "/digital-signage-mieten"
+    },
+    {
+      "label": "Kosten & Preise",
+      "href": "/was-kostet-digital-signage-schweiz"
+    },
+    {
+      "label": "Gastronomie",
+      "href": "/branchen/gastronomie"
+    },
+    {
+      "label": "Unternehmen",
+      "href": "/unternehmen"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/kontakt"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Projekt besprechen",
+    "title": "Digital Signage für Ihren Verkaufspunkt?",
+    "subtitle": "Wir zeigen Ihnen, wie Displays Ihren Verkaufsalltag unterstützen – von der Planung bis zur Inbetriebnahme.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Lösungen ansehen",
+    "secondaryHref": "/digital-signage-schweiz"
+  },
+  "related": {
+    "branchen": [
+      {
+        "label": "Gastronomie",
+        "href": "/branchen/gastronomie"
+      },
+      {
+        "label": "Unternehmen",
+        "href": "/unternehmen"
+      }
+    ],
+    "loesungen": [
+      {
+        "label": "Empfangsdisplays",
+        "href": "/loesungen/empfangsdisplays"
+      },
+      {
+        "label": "Event-Displays",
+        "href": "/loesungen/event-displays"
+      }
+    ],
+    "staedte": [
+      {
+        "label": "Digital Signage Zürich",
+        "href": "/staedte/zuerich"
+      },
+      {
+        "label": "Digital Signage Luzern",
+        "href": "/staedte/luzern"
+      }
+    ]
+  }
+}

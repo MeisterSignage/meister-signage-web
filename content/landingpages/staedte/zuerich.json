@@ -1,0 +1,132 @@
+{
+  "slug": "zuerich",
+  "type": "staedte",
+  "seoTitle": "Digital Signage Zürich – Meister Signage",
+  "seoDescription": "Digital-Signage-Lösungen für Betriebe in Zürich. Gastronomie, Retail, Hotels und Unternehmen – schlüsselfertig, persönlich betreut, lokal erreichbar.",
+  "eyebrow": "Standort · Zürich",
+  "h1": "Digital Signage Zürich",
+  "intro": "Betriebe in Zürich – vom Restaurant über den Retailshop bis zum Unternehmensempfang – setzen auf digitale Bildschirmlösungen, um Inhalte aktuell, professionell und sichtbar zu kommunizieren. Meister Signage plant und realisiert Digital-Signage-Projekte für Unternehmen in der Region Zürich.",
+  "benefits": [
+    {
+      "title": "Lokal erreichbar",
+      "description": "Als Anbieter aus der Zentralschweiz sind wir in der Region greifbar und bei Bedarf vor Ort – kein anonymer Online-Service."
+    },
+    {
+      "title": "Für Zürcher Betriebe passend",
+      "description": "Ob Innenstadt, Quartiergeschäft oder Gewerbegebiet – wir passen die Lösung an Ihren Standort, Ihre Zielgruppe und Ihre Kommunikationsziele an."
+    },
+    {
+      "title": "Schnelle Umsetzung",
+      "description": "Planung, Lieferung und Installation werden koordiniert. In vielen Fällen ist eine Lösung innerhalb weniger Wochen betriebsbereit."
+    },
+    {
+      "title": "Skalierbar für mehrere Standorte",
+      "description": "Unternehmen mit mehreren Filialen oder Büros in Zürich können zentral steuern und standortspezifisch kommunizieren."
+    },
+    {
+      "title": "Inhalte jederzeit aktuell",
+      "description": "Angebote, Öffnungszeiten, Veranstaltungshinweise oder interne Mitteilungen lassen sich kurzfristig und einfach anpassen."
+    },
+    {
+      "title": "Persönlicher Ansprechpartner",
+      "description": "Sie erhalten einen festen Kontakt – keine Hotline, kein Ticketsystem. Bei Fragen oder Anpassungen melden Sie sich direkt."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Liefert Meister Signage auch nach Zürich?",
+      "answer": "Ja. Wir realisieren Projekte in der gesamten Deutschschweiz, inklusive der Region Zürich. Beratung, Lieferung und Installation erfolgen koordiniert."
+    },
+    {
+      "question": "Welche Branchen in Zürich werden bedient?",
+      "answer": "Wir arbeiten mit Gastronomiebetrieben, Retailgeschäften, Hotels, Unternehmen und Eventveranstaltern in Zürich und der Region."
+    },
+    {
+      "question": "Wie schnell kann ein Projekt in Zürich umgesetzt werden?",
+      "answer": "Nach Abklärung der Anforderungen und Bestellung der Hardware sind viele Installationen innerhalb von zwei bis vier Wochen betriebsbereit."
+    },
+    {
+      "question": "Gibt es Vor-Ort-Beratung in Zürich?",
+      "answer": "Ja. Für grössere Projekte oder wenn eine Standortbegehung sinnvoll ist, kommen wir gerne nach Zürich. Für kleinere Anfragen genügt oft ein Videogespräch."
+    },
+    {
+      "question": "Wie läuft der Support für Zürcher Kunden?",
+      "answer": "Support erfolgt per Telefon und Remote-Zugriff. Bei Bedarf sind wir auch vor Ort – direkter Kontakt ist für uns selbstverständlich."
+    }
+  ],
+  "internalLinks": [
+    {
+      "label": "Digital Signage Schweiz",
+      "href": "/digital-signage-schweiz"
+    },
+    {
+      "label": "Digital Signage kaufen",
+      "href": "/digital-signage-kaufen"
+    },
+    {
+      "label": "Digital Signage mieten",
+      "href": "/digital-signage-mieten"
+    },
+    {
+      "label": "Kosten & Preise",
+      "href": "/was-kostet-digital-signage-schweiz"
+    },
+    {
+      "label": "Digital Signage Luzern",
+      "href": "/staedte/luzern"
+    },
+    {
+      "label": "Digital Signage Zug",
+      "href": "/staedte/zug"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/kontakt"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Projekt besprechen",
+    "title": "Digital-Signage-Lösung für Ihren Betrieb in Zürich?",
+    "subtitle": "Sagen Sie kurz, was Sie brauchen. Wir zeigen Ihnen, was sinnvoll ist – und wie der Start gelingt.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Über Meister Signage",
+    "secondaryHref": "/ueber-uns"
+  },
+  "related": {
+    "staedte": [
+      {
+        "label": "Digital Signage Luzern",
+        "href": "/staedte/luzern"
+      },
+      {
+        "label": "Digital Signage Zug",
+        "href": "/staedte/zug"
+      }
+    ],
+    "branchen": [
+      {
+        "label": "Gastronomie",
+        "href": "/branchen/gastronomie"
+      },
+      {
+        "label": "Retail & Handel",
+        "href": "/branchen/retail"
+      },
+      {
+        "label": "Hotellerie",
+        "href": "/branchen/hotellerie"
+      }
+    ],
+    "loesungen": [
+      {
+        "label": "Empfangsdisplays",
+        "href": "/loesungen/empfangsdisplays"
+      },
+      {
+        "label": "Digitale Menüboards",
+        "href": "/loesungen/digitale-menueboards"
+      }
+    ]
+  }
+}

@@ -1,14 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
+import homepage from "@/content/site/homepage.json";
 
 type Cta = { label: string; href: string };
 
 type HomeHeroSectionProps = {
+  /** Optional overrides — defaults come from content/site/homepage.json
+   *  and are editable via the CMS (Globale Daten → Homepage-Hero). */
   eyebrow?: string;
-  title?: string;
-  subtitle?: string;
-  primaryCta: Cta;
+  primaryCta?: Cta;
   secondaryCta?: Cta;
 };
 
@@ -20,9 +21,11 @@ const HERO_VIDEO_SRC = "/images/hero-bg.mp4";
 const HERO_VIDEO_POSTER = "/images/products/meister-signage-parallax-bg.png";
 
 export default function HomeHeroSection({
-  eyebrow,
-  primaryCta,
-  secondaryCta,
+  eyebrow = homepage.eyebrow,
+  primaryCta = { label: homepage.primaryLabel, href: homepage.primaryHref },
+  secondaryCta = homepage.secondaryLabel && homepage.secondaryHref
+    ? { label: homepage.secondaryLabel, href: homepage.secondaryHref }
+    : undefined,
 }: HomeHeroSectionProps) {
   return (
     <section
@@ -102,10 +105,9 @@ export default function HomeHeroSection({
                 color: "#f3f4f6",
               }}
             >
-              Digital Signage
+              {homepage.titleLine1}
               <br />
-              für Ihren Betrieb –{" "}
-              <span className="text-magenta">schlüsselfertig.</span>
+              <span className="text-magenta">{homepage.titleLine2}</span>
             </h1>
 
             {/* Subtitle */}
@@ -113,9 +115,7 @@ export default function HomeHeroSection({
               className="max-w-[440px] text-[16px] leading-relaxed"
               style={{ color: "rgba(209,213,219,0.92)" }}
             >
-              Meister Signage plant, installiert und betreut digitale Displays für
-              Restaurants, Hotels, Shops und Unternehmen in der Zentralschweiz.
-              Ohne IT-Aufwand, ohne Lernkurve.
+              {homepage.subtitle}
             </p>
 
             {/* Layer 4: CTAs */}

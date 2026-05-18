@@ -1,0 +1,78 @@
+{
+  "slug": "digitale-menueboards",
+  "category": "Branchen",
+  "seoTitle": "Digitale Menüboards für Gastronomie & Retail | Meister Signage",
+  "seoDescription": "Digitale Menüboards in der Schweiz: Tagesmenüs, Preise und Aktionen jederzeit aktualisieren. Vorteile, Anwendungen und Auswahlkriterien für Gastronomie und Retail.",
+  "eyebrow": "Wissen · Branchen",
+  "h1": "Digitale Menüboards in Gastronomie und Retail.",
+  "intro": "Digitale Menüboards ersetzen gedruckte Tafeln und statische Aushänge. Tagesmenü, Preise und Aktionen sind in Sekunden aktualisiert – professionell, aktuell und ohne Druckaufwand.",
+  "definition": "Ein digitales Menüboard ist ein Display, das Speisen, Getränke, Preise und Aktionen flexibel anzeigt. Inhalte werden zentral gesteuert und können tageszeitabhängig oder ereignisbasiert wechseln.",
+  "explanation": [
+    "Gedruckte Menüs sind statisch. Eine Preisänderung bedeutet Nachdrucken, eine Aktion bedeutet zusätzliche Aushänge. Digitale Menüboards lösen das: Inhalt einmal vorbereitet, in Sekunden aktualisiert.",
+    "Besonders wertvoll ist die Zeitsteuerung: Frühstück bis 10 Uhr, Mittagsmenü 11–14 Uhr, Drinks ab 17 Uhr – der Bildschirm wechselt automatisch und zeigt, was zur Tageszeit relevant ist.",
+    "Mehrere Standorte, Filialen oder Bereiche werden zentral aus der Meister Signage Software bespielt – einheitlich, markenkonform und aktuell."
+  ],
+  "examples": [
+    {
+      "title": "Restaurants & Cafés",
+      "description": "Tagesmenü, Wochenkarte und Drinks dynamisch anzeigen – professionell und immer aktuell."
+    },
+    {
+      "title": "Take-away & Fast Food",
+      "description": "Klare Preisstruktur, Kombi-Angebote und Aktionen – hochwertig und schnell erfassbar."
+    },
+    {
+      "title": "Bäckereien",
+      "description": "Sortiment, Tagesangebote und Saison-Spezialitäten flexibel präsentieren."
+    },
+    {
+      "title": "Retail-Filialen",
+      "description": "Aktionen, Kollektionen und Preisinformationen am POS und im Schaufenster anzeigen."
+    }
+  ],
+  "benefits": [
+    "Inhalte in Sekunden aktualisieren",
+    "Tageszeitabhängige Menüs automatisch wechseln",
+    "Keine Druckkosten mehr",
+    "Markenkonforme Templates",
+    "Mehrere Standorte zentral bespielen",
+    "Hochwertiger Auftritt am POS"
+  ],
+  "faq": [
+    {
+      "question": "Was ist ein digitales Menüboard?",
+      "answer": "Ein Display, das Speisen, Getränke und Preise flexibel anzeigt. Inhalte werden zentral verwaltet und können tageszeitabhängig wechseln."
+    },
+    {
+      "question": "Wie aktualisiere ich die Inhalte?",
+      "answer": "Über die Meister Signage Software. Änderungen sind in Sekunden auf dem Display sichtbar – ohne lokales Eingreifen."
+    },
+    {
+      "question": "Lohnt sich ein digitales Menüboard für kleine Betriebe?",
+      "answer": "Ja. Gerade für kleinere Restaurants und Cafés bringt der digitale Auftritt einen hochwertigen Eindruck und spart laufend Druckkosten."
+    },
+    {
+      "question": "Können mehrere Menüboards synchron gesteuert werden?",
+      "answer": "Ja. Mehrere Displays in einer Filiale oder über mehrere Standorte hinweg werden zentral synchron oder individuell bespielt."
+    }
+  ],
+  "internalLinks": [
+    {
+      "label": "Digitale Menüboards (Lösung)",
+      "href": "/loesungen/digitale-menueboards"
+    },
+    {
+      "label": "Gastronomie",
+      "href": "/branchen/gastronomie"
+    },
+    {
+      "label": "Retail & Handel",
+      "href": "/branchen/retail"
+    },
+    {
+      "label": "Software",
+      "href": "/wissen/digital-signage-software"
+    }
+  ],
+  "datePublished": "2026-05-17"
+}

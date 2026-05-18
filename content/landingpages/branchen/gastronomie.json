@@ -1,0 +1,132 @@
+{
+  "slug": "gastronomie",
+  "type": "branchen",
+  "seoTitle": "Digital Signage Gastronomie Schweiz – Meister Signage",
+  "seoDescription": "Digitale Menüboards und Bildschirmlösungen für Restaurants, Cafés und Bistros in der Schweiz. Schlüsselfertig, einfach bedienbar, persönlich betreut.",
+  "eyebrow": "Branche · Gastronomie",
+  "h1": "Digital Signage für die Gastronomie",
+  "intro": "Restaurants, Cafés und Bistros in der Schweiz setzen auf digitale Bildschirme, um Menüs, Tagesangebote und Hinweise schnell und professionell zu kommunizieren. Meister Signage plant und realisiert schlüsselfertige Lösungen – persönlich, verständlich und ohne IT-Aufwand.",
+  "benefits": [
+    {
+      "title": "Inhalte in Minuten aktualisieren",
+      "description": "Tagesmenü, Mittagstisch oder Preisänderungen lassen sich kurzfristig anpassen – ohne neue Drucksachen und ohne Designerkenntnisse."
+    },
+    {
+      "title": "Weniger Druck- und Laminieraufwand",
+      "description": "Gedruckte Menükarten und Tafeln sind veraltet, sobald sich etwas ändert. Ein digitales Menüboard bleibt immer aktuell."
+    },
+    {
+      "title": "Professioneller Auftritt",
+      "description": "Ein gepflegtes digitales Display wirkt wertig und aktuell – besonders im Eingangsbereich, an der Theke oder im Gastraum."
+    },
+    {
+      "title": "Aktionen zeitgesteuert anzeigen",
+      "description": "Tagesgerichte, Saisonangebote oder Events lassen sich geplant anzeigen – automatisch, ohne manuellen Eingriff."
+    },
+    {
+      "title": "Schlüsselfertig umgesetzt",
+      "description": "Von der Planung bis zur Inbetriebnahme kümmern wir uns um alles – Display, Player, Inhalte und Einweisung."
+    },
+    {
+      "title": "Persönlicher Ansprechpartner",
+      "description": "Kein Ticketsystem, keine anonyme Plattform. Bei Fragen oder Änderungen sind wir direkt erreichbar."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Was kostet ein digitales Menüboard?",
+      "answer": "Die Kosten hängen von Display-Grösse, Anzahl Standorte und gewünschter Betreuung ab. Eine Einzellösung ist bereits ab einem überschaubaren Budget möglich. Wir erstellen Ihnen gerne eine kostenlose Einschätzung."
+    },
+    {
+      "question": "Kann ich die Inhalte selbst aktualisieren?",
+      "answer": "Ja. Inhalte werden so vorbereitet, dass Sie Menüs, Preise oder Hinweise selbst anpassen können. Auf Wunsch übernehmen wir auch die laufende Inhaltspflege."
+    },
+    {
+      "question": "Brauche ich technisches Know-how?",
+      "answer": "Nein. Die Lösung wird so eingerichtet, dass Sie sie ohne IT-Kenntnisse bedienen können. Wir schulen Sie bei der Übergabe und bleiben danach erreichbar."
+    },
+    {
+      "question": "Wie lange dauert die Installation?",
+      "answer": "Eine Einzelinstallation ist in der Regel an einem halben bis ganzen Tag abgeschlossen. Grössere Projekte mit mehreren Standorten planen wir individuell."
+    },
+    {
+      "question": "Funktioniert das auch für kleine Restaurants?",
+      "answer": "Ja. Digital Signage ist nicht nur für Ketten geeignet. Viele Einzelbetriebe starten mit einem einzigen Display und erweitern bei Bedarf."
+    }
+  ],
+  "internalLinks": [
+    {
+      "label": "Digital Signage Schweiz",
+      "href": "/digital-signage-schweiz"
+    },
+    {
+      "label": "Digitales Menüeboard",
+      "href": "/digitales-menueboard"
+    },
+    {
+      "label": "Digital Signage kaufen",
+      "href": "/digital-signage-kaufen"
+    },
+    {
+      "label": "Digital Signage mieten",
+      "href": "/digital-signage-mieten"
+    },
+    {
+      "label": "Kosten & Preise",
+      "href": "/was-kostet-digital-signage-schweiz"
+    },
+    {
+      "label": "Hotellerie",
+      "href": "/branchen/hotellerie"
+    },
+    {
+      "label": "Retail & Handel",
+      "href": "/branchen/retail"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/kontakt"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Projekt besprechen",
+    "title": "Digitales Menüboard für Ihr Restaurant?",
+    "subtitle": "Sagen Sie kurz, was Sie vorhaben. Wir zeigen Ihnen, welche Lösung sinnvoll ist – ohne Verkaufsdruck.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Lösungen ansehen",
+    "secondaryHref": "/digital-signage-schweiz"
+  },
+  "related": {
+    "branchen": [
+      {
+        "label": "Hotellerie",
+        "href": "/branchen/hotellerie"
+      },
+      {
+        "label": "Retail & Handel",
+        "href": "/branchen/retail"
+      }
+    ],
+    "loesungen": [
+      {
+        "label": "Digitale Menüboards",
+        "href": "/loesungen/digitale-menueboards"
+      },
+      {
+        "label": "Event-Displays",
+        "href": "/loesungen/event-displays"
+      }
+    ],
+    "staedte": [
+      {
+        "label": "Digital Signage Luzern",
+        "href": "/staedte/luzern"
+      },
+      {
+        "label": "Digital Signage Zürich",
+        "href": "/staedte/zuerich"
+      }
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "empfangsdisplays",
+  "type": "loesungen",
+  "seoTitle": "Empfangsdisplays Schweiz – Meister Signage",
+  "seoDescription": "Digitale Empfangsdisplays für Unternehmen, Hotels und Institutionen in der Schweiz. Besucher informieren, ersten Eindruck stärken – schlüsselfertig realisiert.",
+  "eyebrow": "Lösung · Empfangsdisplays",
+  "h1": "Empfangsdisplays für Unternehmen und Hotels",
+  "intro": "Ein Empfangsdisplay ist der erste digitale Kontaktpunkt für Besucher und Gäste. Es informiert, orientiert und stärkt den Eindruck Ihres Unternehmens – bevor jemand am Empfang nachfragen muss. Meister Signage realisiert Empfangsdisplay-Lösungen für Unternehmen, Hotels und Institutionen in der Schweiz.",
+  "benefits": [
+    {
+      "title": "Besucher sofort informieren",
+      "description": "Wegweisung, Wartehinweise, Ansprechpersonen oder Sicherheitshinweise lassen sich klar und aktuell anzeigen."
+    },
+    {
+      "title": "Empfangspersonal entlasten",
+      "description": "Wiederkehrende Fragen werden durch das Display beantwortet – das Personal kann sich auf wichtigere Anliegen konzentrieren."
+    },
+    {
+      "title": "Markenauftritt stärken",
+      "description": "Ein professionell bespieltes Display im Eingang kommuniziert Qualität und Sorgfalt – der erste Eindruck sitzt."
+    },
+    {
+      "title": "Inhalte zentral verwalten",
+      "description": "Aktualisierungen – neue Ansprechpersonen, geänderte Öffnungszeiten, Events – lassen sich zentral einpflegen und sofort anzeigen."
+    },
+    {
+      "title": "Mehrere Displays synchron steuern",
+      "description": "Unternehmen mit mehreren Eingängen oder Standorten können alle Displays einheitlich oder standortspezifisch bespielen."
+    },
+    {
+      "title": "Einfache Bedienung im Alltag",
+      "description": "Die Lösung wird so eingerichtet, dass Mitarbeitende Inhalte selbst aktualisieren können – ohne IT-Abteilung."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Was zeigt ein Empfangsdisplay typischerweise?",
+      "answer": "Willkommensbotschaft, Wegweisung, Öffnungszeiten, Ansprechpersonen, aktuelle News oder Veranstaltungshinweise. Die Inhalte richten sich nach Ihrem Betrieb."
+    },
+    {
+      "question": "Welche Displaygrösse ist für den Empfang richtig?",
+      "answer": "Das hängt vom Raumgrösse und Abstand der Besucher ab. Häufig eingesetzt werden 43 bis 65 Zoll. Wir beraten Sie anhand Ihres Raumplans oder vor Ort."
+    },
+    {
+      "question": "Kann ich das Display hochkant betreiben?",
+      "answer": "Ja. Displays können sowohl im Quer- als auch im Hochformat betrieben werden – je nach Raumsituation und Inhaltsstrategie."
+    },
+    {
+      "question": "Wie werden Inhalte aktualisiert?",
+      "answer": "Über eine einfache Verwaltungsoberfläche, die wir bei der Übergabe erklären. Für laufende Pflege stehen wir als Dienstleister zur Verfügung."
+    },
+    {
+      "question": "Kann das Display mit dem Kalender oder einer Datenbank verbunden werden?",
+      "answer": "Integrationen sind möglich, aber nicht immer nötig. Einfache Lösungen ohne Anbindung funktionieren für viele Betriebe gut. Wir besprechen das individuell."
+    }
+  ],
+  "internalLinks": [
+    {
+      "label": "Unternehmen",
+      "href": "/branchen/unternehmen"
+    },
+    {
+      "label": "Hotellerie",
+      "href": "/branchen/hotellerie"
+    },
+    {
+      "label": "Digital Signage kaufen",
+      "href": "/digital-signage-kaufen"
+    },
+    {
+      "label": "Kosten & Preise",
+      "href": "/was-kostet-digital-signage-schweiz"
+    },
+    {
+      "label": "Digitaler Empfang",
+      "href": "/loesungen/digitaler-empfang"
+    },
+    {
+      "label": "Digital Signage Zug",
+      "href": "/staedte/zug"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/kontakt"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Projekt besprechen",
+    "title": "Empfangsdisplay für Ihr Unternehmen?",
+    "subtitle": "Sagen Sie kurz, was Sie sich vorstellen. Wir zeigen Ihnen, was möglich ist – und was sinnvoll ist.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Unternehmenslösungen",
+    "secondaryHref": "/branchen/unternehmen"
+  },
+  "related": {
+    "loesungen": [
+      {
+        "label": "Digitale Menüboards",
+        "href": "/loesungen/digitale-menueboards"
+      },
+      {
+        "label": "Event-Displays",
+        "href": "/loesungen/event-displays"
+      }
+    ],
+    "branchen": [
+      {
+        "label": "Hotellerie",
+        "href": "/branchen/hotellerie"
+      },
+      {
+        "label": "Retail",
+        "href": "/branchen/retail"
+      }
+    ],
+    "staedte": [
+      {
+        "label": "Digital Signage Zug",
+        "href": "/staedte/zug"
+      },
+      {
+        "label": "Digital Signage Zürich",
+        "href": "/staedte/zuerich"
+      }
+    ]
+  }
+}

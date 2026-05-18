@@ -1,0 +1,74 @@
+{
+  "slug": "digital-signage-mieten-oder-kaufen",
+  "category": "Kosten",
+  "seoTitle": "Digital Signage mieten oder kaufen? Entscheidungshilfe | Meister Signage",
+  "seoDescription": "Mieten oder Kaufen bei Digital Signage: Kostenvergleich, Vorteile, Nachteile und konkrete Empfehlungen für KMU, Events und temporäre Einsätze.",
+  "eyebrow": "Wissen · Kosten",
+  "h1": "Digital Signage mieten oder kaufen?",
+  "intro": "Beide Modelle haben ihre Berechtigung. Welche Variante sinnvoll ist, hängt von Nutzungsdauer, Flexibilität und Budget ab – nicht vom Bauchgefühl.",
+  "definition": "Mieten lohnt sich, wenn Einsätze temporär sind, Flexibilität wichtig ist oder Digital Signage zuerst getestet werden soll. Kaufen lohnt sich, wenn Displays langfristig genutzt werden, mehrere Standorte ausgestattet werden und volle Eigentümerschaft gewünscht ist.",
+  "explanation": [
+    "Beim Mieten zahlen Sie eine planbare monatliche Gebühr – inklusive Softwarelizenz und Support. Die Anfangsinvestition bleibt tief, die Laufzeit ist flexibel, und nach dem Einsatz wird das Equipment zurückgegeben.",
+    "Beim Kauf gehört das Display Ihnen. Über die Nutzungsdauer ist diese Variante in der Regel günstiger – die Anfangsinvestition ist allerdings höher und Sie tragen Lizenz, Wartung und allfällige Updates selbst.",
+    "Eine Zwischenlösung: Sie starten mit Miete und entscheiden sich später für den Kauf. 30 % der bezahlten Mieten können auf den Kaufpreis angerechnet werden – so wird der Übergang fliessend."
+  ],
+  "examples": [
+    {
+      "title": "Kaufen lohnt sich, wenn:",
+      "description": "Displays langfristig genutzt werden, mehrere Standorte ausgestattet werden und volle Eigentümerschaft gewünscht ist."
+    },
+    {
+      "title": "Mieten lohnt sich, wenn:",
+      "description": "Einsätze temporär sind, Flexibilität wichtig ist, Digital Signage zuerst getestet werden soll oder Events und Promotions geplant sind."
+    },
+    {
+      "title": "Mieten dann Kaufen",
+      "description": "Sie testen die Lösung im Mietmodell und steigen bei Bedarf in den Kauf um – 30 % der Mieten werden angerechnet."
+    }
+  ],
+  "benefits": [
+    "Mieten: keine Kapitalbindung, monatlich planbar",
+    "Mieten: Lizenz und Support inkludiert",
+    "Mieten: flexibel bei Events und Pop-ups",
+    "Kaufen: günstiger über mehrere Jahre",
+    "Kaufen: volle Eigentümerschaft",
+    "Kaufen: ideal bei mehreren Standorten"
+  ],
+  "faq": [
+    {
+      "question": "Ist Mieten oder Kaufen günstiger?",
+      "answer": "Für kurze oder flexible Einsätze ist Mieten günstiger. Bei langfristiger Nutzung über mehrere Jahre rechnet sich der Kauf in der Regel – auch weil keine laufende Mietgebühr mehr anfällt."
+    },
+    {
+      "question": "Kann ich von Miete auf Kauf wechseln?",
+      "answer": "Ja. Nach einer Mietphase können 30 % der bezahlten Monatsmieten exkl. Einrichtungsgebühr auf den Kaufpreis angerechnet werden."
+    },
+    {
+      "question": "Was ist im Mietmodell enthalten?",
+      "answer": "Display, Softwarelizenz, Cloud-Steuerung und Support. Je nach Projekt fällt eine einmalige Einrichtungsgebühr an, die im Angebot ausgewiesen wird."
+    },
+    {
+      "question": "Wann lohnt sich der Kauf?",
+      "answer": "Wenn Displays länger als drei Jahre eingesetzt werden, mehrere Standorte ausgestattet werden oder Eigentum aus betrieblichen Gründen bevorzugt wird."
+    }
+  ],
+  "internalLinks": [
+    {
+      "label": "Was kostet Digital Signage?",
+      "href": "/was-kostet-digital-signage-schweiz"
+    },
+    {
+      "label": "Digital Signage mieten",
+      "href": "/digital-signage-mieten"
+    },
+    {
+      "label": "Digital Signage kaufen",
+      "href": "/digital-signage-kaufen"
+    },
+    {
+      "label": "Software",
+      "href": "/wissen/digital-signage-software"
+    }
+  ],
+  "datePublished": "2026-05-17"
+}

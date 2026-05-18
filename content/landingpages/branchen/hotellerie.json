@@ -1,0 +1,128 @@
+{
+  "slug": "hotellerie",
+  "type": "branchen",
+  "seoTitle": "Digital Signage Hotellerie Schweiz – Meister Signage",
+  "seoDescription": "Digitale Displays für Hotels, Pensionen und Resorts in der Schweiz. Gäste informieren, Empfang entlasten, Lobby aufwerten – schlüsselfertig und persönlich betreut.",
+  "eyebrow": "Branche · Hotellerie",
+  "h1": "Digital Signage für Hotels und Hotellerie",
+  "intro": "Hotels in der Schweiz nutzen digitale Displays, um Gäste am Empfang, in der Lobby und im Restaurant gezielt zu informieren. Meister Signage plant und realisiert Bildschirmlösungen für Häuser jeder Grösse – von der Stadtpension bis zum Tagungshotel.",
+  "benefits": [
+    {
+      "title": "Gäste am richtigen Ort informieren",
+      "description": "Check-in-Zeiten, Frühstückszeiten, Veranstaltungen und Wegweisung lassen sich auf Displays im Eingangsbereich, der Lobby oder bei Aufzügen anzeigen."
+    },
+    {
+      "title": "Empfang gezielt entlasten",
+      "description": "Wiederkehrende Fragen – wo ist das Restaurant, wann ist Frühstück – werden durch gut platzierte Displays beantwortet, bevor Gäste fragen müssen."
+    },
+    {
+      "title": "Mehrsprachige Inhalte",
+      "description": "Gästeinformationen lassen sich in mehreren Sprachen vorbereiten und automatisch oder manuell wechseln – relevant für international aufgestellte Häuser."
+    },
+    {
+      "title": "Angebote gezielt hervorheben",
+      "description": "SPA, Restaurant, Ausflugstipps oder saisonale Pakete lassen sich auf Displays sichtbar machen – ohne gedruckte Prospekte."
+    },
+    {
+      "title": "Modernes Erscheinungsbild",
+      "description": "Ein gepflegtes digitales Display in der Lobby stärkt den ersten Eindruck und passt zur Qualitätskommunikation eines professionellen Hauses."
+    },
+    {
+      "title": "Einfach im Alltag",
+      "description": "Die Lösung wird so eingerichtet, dass das Hotelpersonal Inhalte selbst aktualisieren kann – ohne technische Vorkenntnisse."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Welche Displays eignen sich für die Hotellobby?",
+      "answer": "Das hängt von Raumgrösse, Lichtverhältnissen und Nutzungskonzept ab. Wir beraten Sie, welche Display-Grösse und -Art für Ihren Empfangsbereich sinnvoll ist."
+    },
+    {
+      "question": "Können wir Inhalte selbst aktualisieren?",
+      "answer": "Ja. Hotelmitarbeitende können Gästeinformationen, Öffnungszeiten oder Hinweise eigenständig anpassen. Auf Wunsch übernehmen wir die laufende Pflege."
+    },
+    {
+      "question": "Wie ist die Integration mit dem bestehenden Hotelsystem?",
+      "answer": "Für einfache Lösungen ist keine tiefe Integration nötig. Inhalte werden unabhängig verwaltet. Komplexere Anbindungen besprechen wir individuell."
+    },
+    {
+      "question": "Was kostet eine Lösung für ein kleines Hotel?",
+      "answer": "Bereits mit einem Display im Eingangsbereich lässt sich viel erreichen. Die Kosten hängen von Displayanzahl, Inhalt und Betreuungswunsch ab – wir bieten kostenlose Erstberatung."
+    },
+    {
+      "question": "Wie schnell kann die Installation erfolgen?",
+      "answer": "Ein Display ist in der Regel an einem Tag installiert und eingerichtet. Grössere Installationen mit mehreren Screens planen wir in Absprache mit Ihrem Betrieb."
+    }
+  ],
+  "internalLinks": [
+    {
+      "label": "Digital Signage Schweiz",
+      "href": "/digital-signage-schweiz"
+    },
+    {
+      "label": "Digital Signage kaufen",
+      "href": "/digital-signage-kaufen"
+    },
+    {
+      "label": "Empfangsdisplays",
+      "href": "/loesungen/empfangsdisplays"
+    },
+    {
+      "label": "Kosten & Preise",
+      "href": "/was-kostet-digital-signage-schweiz"
+    },
+    {
+      "label": "Gastronomie",
+      "href": "/branchen/gastronomie"
+    },
+    {
+      "label": "Unternehmen",
+      "href": "/unternehmen"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/kontakt"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Projekt besprechen",
+    "title": "Displays für Ihr Hotel planen?",
+    "subtitle": "Wir zeigen Ihnen, welche Lösung für Ihren Empfang, Ihre Lobby oder Ihr Restaurant sinnvoll ist.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Lösungen ansehen",
+    "secondaryHref": "/digital-signage-schweiz"
+  },
+  "related": {
+    "branchen": [
+      {
+        "label": "Gastronomie",
+        "href": "/branchen/gastronomie"
+      },
+      {
+        "label": "Retail & Handel",
+        "href": "/branchen/retail"
+      }
+    ],
+    "loesungen": [
+      {
+        "label": "Empfangsdisplays",
+        "href": "/loesungen/empfangsdisplays"
+      },
+      {
+        "label": "Digitale Menüboards",
+        "href": "/loesungen/digitale-menueboards"
+      }
+    ],
+    "staedte": [
+      {
+        "label": "Digital Signage Luzern",
+        "href": "/staedte/luzern"
+      },
+      {
+        "label": "Digital Signage Zug",
+        "href": "/staedte/zug"
+      }
+    ]
+  }
+}

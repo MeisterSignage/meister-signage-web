@@ -1,84 +1,71 @@
 /**
- * SEO Landingpage Registry
- * Importiert alle Content-Dateien und stellt typsichere Getter bereit.
- * Neue Seiten: Content-Datei erstellen + hier registrieren.
+ * SEO Landingpage Registry — JSON-backed.
+ *
+ * Content lives as one JSON file per page under content/landingpages/.
+ * Decap CMS edits these directly; build time imports them with type
+ * assertion so we keep static analysis on the entries.
  */
 export type { LandingPage, LPBenefit, LPFAQ, LPLink, LPCta } from "@/lib/lp-types";
 
-import gastronomie    from "@/content/landingpages/branchen/gastronomie";
-import hotellerie     from "@/content/landingpages/branchen/hotellerie";
-import retail         from "@/content/landingpages/branchen/retail";
-import events         from "@/content/landingpages/branchen/events";
-import unternehmen    from "@/content/landingpages/branchen/unternehmen";
-
-import zuerich        from "@/content/landingpages/staedte/zuerich";
-import luzern         from "@/content/landingpages/staedte/luzern";
-import zug            from "@/content/landingpages/staedte/zug";
-
-import digitaleMenueboards from "@/content/landingpages/loesungen/digitale-menueboards";
-import empfangsdisplays    from "@/content/landingpages/loesungen/empfangsdisplays";
-import eventDisplays       from "@/content/landingpages/loesungen/event-displays";
-import ledWalls            from "@/content/landingpages/loesungen/led-walls";
-import indoorSignage       from "@/content/landingpages/loesungen/indoor-signage";
-import software            from "@/content/landingpages/loesungen/software";
-import mobileDisplays      from "@/content/landingpages/loesungen/mobile-displays";
-import doppelseitige       from "@/content/landingpages/loesungen/doppelseitige-displays";
-import digitalerEmpfang    from "@/content/landingpages/loesungen/digitaler-empfang";
-import digitaleLeitsysteme from "@/content/landingpages/loesungen/digitale-leitsysteme";
-
 import type { LandingPage } from "@/lib/lp-types";
 
-/* ── Registries ──────────────────────────────────────────────── */
+import gastronomie    from "@/content/landingpages/branchen/gastronomie.json";
+import hotellerie     from "@/content/landingpages/branchen/hotellerie.json";
+import retail         from "@/content/landingpages/branchen/retail.json";
+import events         from "@/content/landingpages/branchen/events.json";
+import unternehmen    from "@/content/landingpages/branchen/unternehmen.json";
+
+import zuerich        from "@/content/landingpages/staedte/zuerich.json";
+import luzern         from "@/content/landingpages/staedte/luzern.json";
+import zug            from "@/content/landingpages/staedte/zug.json";
+
+import digitaleMenueboards from "@/content/landingpages/loesungen/digitale-menueboards.json";
+import empfangsdisplays    from "@/content/landingpages/loesungen/empfangsdisplays.json";
+import eventDisplays       from "@/content/landingpages/loesungen/event-displays.json";
+import ledWalls            from "@/content/landingpages/loesungen/led-walls.json";
+import indoorSignage       from "@/content/landingpages/loesungen/indoor-signage.json";
+import software            from "@/content/landingpages/loesungen/software.json";
+import mobileDisplays      from "@/content/landingpages/loesungen/mobile-displays.json";
+import doppelseitige       from "@/content/landingpages/loesungen/doppelseitige-displays.json";
+import digitalerEmpfang    from "@/content/landingpages/loesungen/digitaler-empfang.json";
+import digitaleLeitsysteme from "@/content/landingpages/loesungen/digitale-leitsysteme.json";
 
 export const branchenPages: Record<string, LandingPage> = {
-  gastronomie,
-  hotellerie,
-  retail,
-  events,
-  unternehmen,
+  gastronomie:  gastronomie  as LandingPage,
+  hotellerie:   hotellerie   as LandingPage,
+  retail:       retail       as LandingPage,
+  events:       events       as LandingPage,
+  unternehmen:  unternehmen  as LandingPage,
 };
 
 export const staedtePages: Record<string, LandingPage> = {
-  zuerich,
-  luzern,
-  zug,
+  zuerich: zuerich as LandingPage,
+  luzern:  luzern  as LandingPage,
+  zug:     zug     as LandingPage,
 };
 
 export const loesungenPages: Record<string, LandingPage> = {
-  "software":                software,
-  "mobile-displays":         mobileDisplays,
-  "doppelseitige-displays":  doppelseitige,
-  "digitaler-empfang":       digitalerEmpfang,
-  "digitale-leitsysteme":    digitaleLeitsysteme,
-  "digitale-menueboards":    digitaleMenueboards,
-  "empfangsdisplays":        empfangsdisplays,
-  "event-displays":          eventDisplays,
-  "led-walls":               ledWalls,
-  "indoor-signage":          indoorSignage,
+  "software":                software            as LandingPage,
+  "mobile-displays":         mobileDisplays      as LandingPage,
+  "doppelseitige-displays":  doppelseitige       as LandingPage,
+  "digitaler-empfang":       digitalerEmpfang    as LandingPage,
+  "digitale-leitsysteme":    digitaleLeitsysteme as LandingPage,
+  "digitale-menueboards":    digitaleMenueboards as LandingPage,
+  "empfangsdisplays":        empfangsdisplays    as LandingPage,
+  "event-displays":          eventDisplays       as LandingPage,
+  "led-walls":               ledWalls            as LandingPage,
+  "indoor-signage":          indoorSignage       as LandingPage,
 };
-
-/* ── Getter ──────────────────────────────────────────────────── */
 
 export function getBranchenPage(slug: string): LandingPage | null {
   return branchenPages[slug] ?? null;
 }
-
 export function getStaedtePage(slug: string): LandingPage | null {
   return staedtePages[slug] ?? null;
 }
-
 export function getLoesungenPage(slug: string): LandingPage | null {
   return loesungenPages[slug] ?? null;
 }
-
-export function getAllBranchenSlugs(): string[] {
-  return Object.keys(branchenPages);
-}
-
-export function getAllStaedteSlugs(): string[] {
-  return Object.keys(staedtePages);
-}
-
-export function getAllLoesungenSlugs(): string[] {
-  return Object.keys(loesungenPages);
-}
+export function getAllBranchenSlugs(): string[]  { return Object.keys(branchenPages);  }
+export function getAllStaedteSlugs(): string[]   { return Object.keys(staedtePages);   }
+export function getAllLoesungenSlugs(): string[] { return Object.keys(loesungenPages); }

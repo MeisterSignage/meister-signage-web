@@ -1,36 +1,142 @@
 # Decap CMS configuration — Meister Signage
 #
 # - Backend: GitHub (auth via Cloudflare Worker OAuth proxy, see SETUP_CMS.md)
-# - The /admin/* path is additionally locked behind Cloudflare Access
-#   so only chris@nr9.ch with 2FA can even reach this UI.
+# - The /admin/* path is additionally locked behind cPanel directory protection
+#   (Novatrend) so unauthenticated traffic hits a Basic-Auth prompt first.
 
 backend:
   name: github
   repo: MeisterSignage/meister-signage-web
   branch: main
-  # OAuth proxy: a Cloudflare Worker handles the GitHub OAuth dance so the
-  # client secret never lives in the browser. See SETUP_CMS.md.
   base_url: https://meister-signage-cms-auth.lingering-mountain-b769.workers.dev
   auth_endpoint: auth
 
-# Don't run the editor against the live site (its preview iframe is for
-# the admin only). The "publish" workflow goes via Git commits.
 publish_mode: simple
 
-# Where uploaded images land (e.g. inside Markdown news posts).
 media_folder: "public/images/news"
 public_folder: "/images/news"
 
-# UI niceties
 # Pre-Launch: zeigt auf die Staging-Domain. Beim Launch auf
 # https://www.meister-signage.ch wechseln.
 site_url: https://test.meister-signage.ch
 display_url: https://test.meister-signage.ch
 locale: "de"
 
+# ─── Wiederverwendbare Feld-Definitionen (YAML-Anker) ────────────
+# YAML-Anker reduzieren Wiederholung. Decap löst die *Verweise
+# beim Lesen vollständig auf — die Collection-Definitionen unten
+# verwenden sie via *anchor.
+
+# LandingPage (Lösungen / Branchen / Städte) — gleiches Schema.
+_lp_fields: &lp_fields
+  - { label: "SEO Titel",          name: "seoTitle",       widget: "string", hint: "Wird im Browser-Tab und als blauer Link in Google angezeigt. 50–60 Zeichen ideal." }
+  - { label: "SEO Beschreibung",   name: "seoDescription", widget: "text", hint: "Beschreibungstext für Google. 140–160 Zeichen." }
+  - { label: "Eyebrow",            name: "eyebrow",        widget: "string", hint: "Kleines Label über der Headline, z.B. 'Lösung · Software'." }
+  - { label: "Headline (H1)",      name: "h1",             widget: "string", hint: "Hauptüberschrift der Seite. Max. 2 Zeilen." }
+  - { label: "Intro-Text",         name: "intro",          widget: "text", hint: "Einleitungstext direkt unter der Headline." }
+  - { label: "Hero-Bild",          name: "heroImage",      widget: "image", required: false, hint: "Optional. Wenn leer wird das Standardbild der Seite verwendet." }
+  - label: "Vorteile / Benefits"
+    name: "benefits"
+    widget: "list"
+    hint: "6–8 Karten mit Vorteilen. Erste und letzte werden farblich hervorgehoben."
+    fields:
+      - { label: "Titel",       name: "title",       widget: "string" }
+      - { label: "Beschreibung", name: "description", widget: "text" }
+  - label: "FAQ — häufige Fragen"
+    name: "faq"
+    widget: "list"
+    hint: "5–8 Fragen mit Antworten. Werden als Akkordeon angezeigt."
+    fields:
+      - { label: "Frage",   name: "question", widget: "string" }
+      - { label: "Antwort", name: "answer",   widget: "text" }
+  - label: "Interne Links"
+    name: "internalLinks"
+    widget: "list"
+    hint: "Verwandte Seiten zum Weiterklicken. 4–6 Einträge."
+    fields:
+      - { label: "Label", name: "label", widget: "string" }
+      - { label: "URL",   name: "href",  widget: "string", hint: "Relative URL beginnend mit /, z.B. /branchen/gastronomie" }
+  - label: "Call-to-Action (am Seitenende)"
+    name: "cta"
+    widget: "object"
+    fields:
+      - { label: "Eyebrow",          name: "eyebrow",        widget: "string" }
+      - { label: "Titel",            name: "title",          widget: "string" }
+      - { label: "Untertitel",       name: "subtitle",       widget: "text" }
+      - { label: "Primärer Button — Text", name: "primaryLabel",   widget: "string" }
+      - { label: "Primärer Button — URL",  name: "primaryHref",    widget: "string" }
+      - { label: "Zweiter Button — Text",  name: "secondaryLabel", widget: "string", required: false }
+      - { label: "Zweiter Button — URL",   name: "secondaryHref",  widget: "string", required: false }
+  - label: "Verwandte Seiten (Footer-Bereich)"
+    name: "related"
+    widget: "object"
+    required: false
+    collapsed: true
+    fields:
+      - label: "Verwandte Branchen"
+        name: "branchen"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "URL",   name: "href",  widget: "string" }
+      - label: "Verwandte Lösungen"
+        name: "loesungen"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "URL",   name: "href",  widget: "string" }
+      - label: "Verwandte Städte"
+        name: "staedte"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "URL",   name: "href",  widget: "string" }
+
+# Wissen-Artikel — eigenes Schema (etwas anders strukturiert)
+_wissen_fields: &wissen_fields
+  - { label: "Kategorie", name: "category", widget: "select", options: ["Grundlagen", "Software", "Kosten", "Branchen", "Outdoor & Mobile", "Events"] }
+  - { label: "SEO Titel",          name: "seoTitle",       widget: "string" }
+  - { label: "SEO Beschreibung",   name: "seoDescription", widget: "text" }
+  - { label: "Eyebrow",            name: "eyebrow",        widget: "string" }
+  - { label: "Headline (H1)",      name: "h1",             widget: "string" }
+  - { label: "Intro",              name: "intro",          widget: "text" }
+  - { label: "In-Kürze / Definition", name: "definition", widget: "text", hint: "Kurze Zusammenfassung in 1–2 Sätzen — wird im farbigen Block oben angezeigt." }
+  - label: "Erklärungs-Absätze"
+    name: "explanation"
+    widget: "list"
+    hint: "2–4 Absätze, die das Thema im Alltag erklären."
+    field: { label: "Absatz", name: "text", widget: "text" }
+  - label: "Beispiele"
+    name: "examples"
+    widget: "list"
+    fields:
+      - { label: "Titel",       name: "title",       widget: "string" }
+      - { label: "Beschreibung", name: "description", widget: "text" }
+  - label: "Vorteile (Checkliste)"
+    name: "benefits"
+    widget: "list"
+    field: { label: "Vorteil", name: "text", widget: "string" }
+  - label: "FAQ"
+    name: "faq"
+    widget: "list"
+    fields:
+      - { label: "Frage",   name: "question", widget: "string" }
+      - { label: "Antwort", name: "answer",   widget: "text" }
+  - label: "Interne Links"
+    name: "internalLinks"
+    widget: "list"
+    fields:
+      - { label: "Label", name: "label", widget: "string" }
+      - { label: "URL",   name: "href",  widget: "string" }
+  - { label: "Veröffentlichungsdatum", name: "datePublished", widget: "date", date_format: "YYYY-MM-DD" }
+  - { label: "Letzte Änderung",        name: "dateModified",  widget: "date", date_format: "YYYY-MM-DD", required: false }
+
 collections:
   # ───────────────────────────────────────────────────────────────
-  # 1) NEWS — fully WYSIWYG Markdown editing for blog posts
+  # NEWS — Markdown-Blogbeiträge
   # ───────────────────────────────────────────────────────────────
   - name: "news"
     label: "News & Blog"
@@ -51,23 +157,95 @@ collections:
         name: "category"
         widget: "select"
         options: ["Produkte", "Branchen", "Anleitungen", "Aktuelles", "Kunden", "Tipps"]
-      - { label: "Titelbild",      name: "image",       widget: "image", required: false, hint: "Querformat empfohlen. Bilder werden in /public/images/news abgelegt." }
+      - { label: "Titelbild",      name: "image",       widget: "image", required: false }
       - label: "Status"
         name: "status"
         widget: "select"
         default: "draft"
         options:
-          - { label: "Entwurf",      value: "draft" }
+          - { label: "Entwurf",        value: "draft" }
           - { label: "Veröffentlicht", value: "published" }
-      - { label: "Slug",  name: "slug",   widget: "string", required: false, hint: "Optional. Leer lassen für automatisch aus dem Titel." }
-      - { label: "Text",  name: "body",   widget: "markdown" }
+      - { label: "Slug",  name: "slug", widget: "string", required: false }
+      - { label: "Text",  name: "body", widget: "markdown" }
 
   # ───────────────────────────────────────────────────────────────
-  # 2) GLOBALE DATEN — Kontaktdaten (Telefon, E-Mail, WhatsApp)
+  # LÖSUNGEN — z.B. Software, Mobile Displays, Empfang
   # ───────────────────────────────────────────────────────────────
-  # Diese Daten werden auf der ganzen Website ausgespielt (Footer,
-  # Kontaktblöcke, "Persönlicher Kontakt"-Sections, Landingpages).
-  # Pflege hier zentral, einmal speichern — überall aktualisiert.
+  - name: "loesungen"
+    label: "Lösungen"
+    label_singular: "Lösungsseite"
+    folder: "content/landingpages/loesungen"
+    create: true
+    delete: true
+    extension: "json"
+    format: "json"
+    slug: "{{slug}}"
+    summary: "{{h1}}"
+    sortable_fields: ["h1", "slug"]
+    fields:
+      - { label: "Slug (URL-Pfad)", name: "slug", widget: "string", hint: "Wird zur URL: /loesungen/<slug>. Nur Kleinbuchstaben, Bindestriche." }
+      - { label: "Typ", name: "type", widget: "hidden", default: "loesungen" }
+      - *lp_fields
+
+  # ───────────────────────────────────────────────────────────────
+  # BRANCHEN — Gastronomie, Retail, Hotellerie, Events, Unternehmen
+  # ───────────────────────────────────────────────────────────────
+  - name: "branchen"
+    label: "Branchen"
+    label_singular: "Branchenseite"
+    folder: "content/landingpages/branchen"
+    create: true
+    delete: true
+    extension: "json"
+    format: "json"
+    slug: "{{slug}}"
+    summary: "{{h1}}"
+    sortable_fields: ["h1", "slug"]
+    fields:
+      - { label: "Slug (URL-Pfad)", name: "slug", widget: "string", hint: "Wird zur URL: /branchen/<slug>." }
+      - { label: "Typ", name: "type", widget: "hidden", default: "branchen" }
+      - *lp_fields
+
+  # ───────────────────────────────────────────────────────────────
+  # STÄDTE — Zürich, Luzern, Zug
+  # ───────────────────────────────────────────────────────────────
+  - name: "staedte"
+    label: "Städte"
+    label_singular: "Städteseite"
+    folder: "content/landingpages/staedte"
+    create: true
+    delete: true
+    extension: "json"
+    format: "json"
+    slug: "{{slug}}"
+    summary: "{{h1}}"
+    sortable_fields: ["h1", "slug"]
+    fields:
+      - { label: "Slug (URL-Pfad)", name: "slug", widget: "string", hint: "Wird zur URL: /staedte/<slug>." }
+      - { label: "Typ", name: "type", widget: "hidden", default: "staedte" }
+      - *lp_fields
+
+  # ───────────────────────────────────────────────────────────────
+  # WISSEN — Ratgeber-Artikel mit definierter Struktur
+  # ───────────────────────────────────────────────────────────────
+  - name: "wissen"
+    label: "Wissen / Ratgeber"
+    label_singular: "Wissensartikel"
+    folder: "content/wissen"
+    create: true
+    delete: true
+    extension: "json"
+    format: "json"
+    slug: "{{slug}}"
+    summary: "{{h1}}"
+    sortable_fields: ["h1", "datePublished"]
+    fields:
+      - { label: "Slug (URL-Pfad)", name: "slug", widget: "string", hint: "Wird zur URL: /wissen/<slug>." }
+      - *wissen_fields
+
+  # ───────────────────────────────────────────────────────────────
+  # GLOBALE DATEN — Kontaktdaten + Homepage-Hero
+  # ───────────────────────────────────────────────────────────────
   - name: "site"
     label: "Globale Daten"
     files:
@@ -76,9 +254,22 @@ collections:
         name: "contact"
         format: "json"
         fields:
-          - { label: "Ansprechperson — Name", name: "name",   widget: "string" }
-          - { label: "Ansprechperson — Rolle", name: "role",  widget: "string" }
-          - { label: "Telefon (E.164)",     name: "phone",     widget: "string", hint: "Mit + und Landesvorwahl, z.B. +41764526687" }
-          - { label: "Telefon (Anzeige)",   name: "phoneDisplay", widget: "string", hint: "Wie auf der Website angezeigt, z.B. +41 76 452 66 87" }
-          - { label: "E-Mail",              name: "email",     widget: "string" }
-          - { label: "WhatsApp-URL",        name: "whatsapp",  widget: "string", hint: "z.B. https://wa.me/41764526687" }
+          - { label: "Ansprechperson — Name",  name: "name",         widget: "string" }
+          - { label: "Ansprechperson — Rolle", name: "role",         widget: "string" }
+          - { label: "Telefon (E.164)",        name: "phone",        widget: "string", hint: "Mit + und Landesvorwahl, z.B. +41764526687" }
+          - { label: "Telefon (Anzeige)",      name: "phoneDisplay", widget: "string", hint: "Wie auf der Website angezeigt, z.B. +41 76 452 66 87" }
+          - { label: "E-Mail",                 name: "email",        widget: "string" }
+          - { label: "WhatsApp-URL",           name: "whatsapp",     widget: "string" }
+      - file: "content/site/homepage.json"
+        label: "Homepage-Hero"
+        name: "homepage"
+        format: "json"
+        fields:
+          - { label: "Eyebrow (kleines Label)", name: "eyebrow",     widget: "string" }
+          - { label: "Headline Zeile 1",        name: "titleLine1",  widget: "string", hint: "Erste Zeile der Hero-Headline." }
+          - { label: "Headline Zeile 2",        name: "titleLine2",  widget: "string", hint: "Zweite Zeile (typografisch hervorgehoben)." }
+          - { label: "Sub-Text",                name: "subtitle",    widget: "text" }
+          - { label: "Primärer CTA — Text",     name: "primaryLabel", widget: "string" }
+          - { label: "Primärer CTA — URL",      name: "primaryHref",  widget: "string" }
+          - { label: "Zweiter CTA — Text",      name: "secondaryLabel", widget: "string", required: false }
+          - { label: "Zweiter CTA — URL",       name: "secondaryHref",  widget: "string", required: false }
