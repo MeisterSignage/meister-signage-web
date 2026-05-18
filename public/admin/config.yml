@@ -22,8 +22,10 @@ media_folder: "public/images/news"
 public_folder: "/images/news"
 
 # UI niceties
-site_url: https://www.meister-signage.ch
-display_url: https://www.meister-signage.ch
+# Pre-Launch: zeigt auf die Staging-Domain. Beim Launch auf
+# https://www.meister-signage.ch wechseln.
+site_url: https://test.meister-signage.ch
+display_url: https://test.meister-signage.ch
 locale: "de"
 
 collections:
