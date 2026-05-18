@@ -139,7 +139,31 @@ export default function DatenschutzPage() {
 
           {/* 7 */}
           <section className="py-7">
-            <h2 className="mb-3 text-navy">7. Google Search Console</h2>
+            <h2 className="mb-3 text-navy">7. Kontaktformular (Formspree)</h2>
+            <p className="card-body mb-3">
+              Das Kontaktformular auf dieser Website wird über den Dienst Formspree (Formspree Inc.,
+              USA) bereitgestellt. Bei Absenden des Formulars werden Ihre Angaben (Name, E-Mail-Adresse,
+              Nachricht) an Formspree übermittelt und per E-Mail an uns weitergeleitet.
+            </p>
+            <p className="card-body">
+              Formspree speichert die übermittelten Daten vorübergehend auf Servern in den USA.
+              Die Verarbeitung erfolgt auf Grundlage Ihrer Einwilligung (Absenden des Formulars) und
+              zur Bearbeitung Ihrer Anfrage. Weitere Informationen:{" "}
+              <a
+                href="https://formspree.io/legal/privacy-policy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-magenta hover:underline"
+              >
+                formspree.io/legal/privacy-policy
+              </a>
+              .
+            </p>
+          </section>
+
+          {/* 8 */}
+          <section className="py-7">
+            <h2 className="mb-3 text-navy">8. Google Search Console</h2>
             <p className="card-body">
               Wir nutzen die Google Search Console zur technischen Überwachung und Optimierung der
               Sichtbarkeit dieser Website in der Google-Suche. Dabei werden aggregierte Daten über
@@ -159,7 +183,7 @@ export default function DatenschutzPage() {
 
           {/* 8 */}
           <section className="py-7">
-            <h2 className="mb-3 text-navy">8. Social Media</h2>
+            <h2 className="mb-3 text-navy">9. Social Media</h2>
             <p className="card-body">
               Diese Website enthält Links zu LinkedIn, Instagram, WhatsApp und YouTube. Beim
               blossen Besuch dieser Website werden über diese einfachen Links grundsätzlich keine
@@ -170,7 +194,7 @@ export default function DatenschutzPage() {
 
           {/* 9 */}
           <section className="py-7">
-            <h2 className="mb-3 text-navy">9. Speicherung und Aufbewahrung</h2>
+            <h2 className="mb-3 text-navy">10. Speicherung und Aufbewahrung</h2>
             <p className="card-body">
               Personenbezogene Daten werden nur so lange gespeichert, wie dies für den jeweiligen
               Zweck erforderlich ist oder gesetzliche Aufbewahrungspflichten bestehen.
@@ -179,7 +203,7 @@ export default function DatenschutzPage() {
 
           {/* 10 */}
           <section className="py-7">
-            <h2 className="mb-3 text-navy">10. Datenübermittlung ins Ausland</h2>
+            <h2 className="mb-3 text-navy">11. Datenübermittlung ins Ausland</h2>
             <p className="card-body">
               Einzelne Dienste (z. B. Google Search Console, WhatsApp) können Daten ausserhalb der
               Schweiz bzw. der EU verarbeiten. Wir stellen sicher, dass dabei ein angemessenes
@@ -189,7 +213,7 @@ export default function DatenschutzPage() {
 
           {/* 11 */}
           <section className="py-7">
-            <h2 className="mb-4 text-navy">11. Rechte betroffener Personen</h2>
+            <h2 className="mb-4 text-navy">12. Rechte betroffener Personen</h2>
             <p className="card-body mb-4">
               Sie haben gegenüber uns folgende Rechte bezüglich Ihrer personenbezogenen Daten:
             </p>
@@ -227,7 +251,7 @@ export default function DatenschutzPage() {
 
           {/* 12 */}
           <section className="py-7">
-            <h2 className="mb-3 text-navy">12. Änderungen dieser Datenschutzerklärung</h2>
+            <h2 className="mb-3 text-navy">13. Änderungen dieser Datenschutzerklärung</h2>
             <p className="card-body">
               Wir behalten uns vor, diese Datenschutzerklärung jederzeit anzupassen, insbesondere
               wenn neue Dienste eingesetzt werden. Die jeweils aktuelle Version ist auf dieser Seite

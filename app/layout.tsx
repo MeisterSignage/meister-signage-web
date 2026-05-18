@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Lato } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
@@ -8,6 +9,13 @@ import { organizationSchema } from "@/lib/schema/organization";
 import { localBusinessSchema } from "@/lib/schema/localBusiness";
 import { websiteSchema } from "@/lib/schema/website";
 import { SITE_INDEXABLE } from "@/lib/seo-config";
+
+const lato = Lato({
+  subsets: ["latin"],
+  weight: ["300", "400", "700"],
+  display: "swap",
+  variable: "--font-lato",
+});
 
 const siteUrl = "https://www.meister-signage.ch";
 const ogImage = `${siteUrl}/og/meister-signage-og.png`;
@@ -93,11 +101,8 @@ export const viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="de-CH">
+    <html lang="de-CH" className={lato.variable}>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
         {/* Global structured data — Organization, LocalBusiness, WebSite */}
         <JsonLd schema={organizationSchema as Record<string, unknown>} />
         <JsonLd schema={localBusinessSchema as Record<string, unknown>} />

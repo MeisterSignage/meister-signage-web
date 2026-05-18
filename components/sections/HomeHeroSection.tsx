@@ -49,7 +49,7 @@ export default function HomeHeroSection({
       {/* Layer 1 fallback — poster image (mobile + reduced-motion + no-video) */}
       <Image
         src={HERO_VIDEO_POSTER}
-        alt=""
+        alt="Meister Signage — Digital Signage Lösungen"
         fill
         priority
         sizes="100vw"
