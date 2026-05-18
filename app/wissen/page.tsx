@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import ContactSection from "@/components/sections/ContactSection";
 import JsonLd from "@/components/JsonLd";
@@ -70,6 +71,15 @@ export default function WissenIndexPage() {
           className="pointer-events-none absolute inset-0 opacity-[0.025]"
           aria-hidden="true"
           style={{ backgroundImage: NOISE, backgroundSize: "160px 160px" }}
+        />
+        <Image
+          src="/images/products/meister-signage-parallax-bg.webp"
+          alt=""
+          fill
+          className="pointer-events-none object-cover object-center opacity-[0.07]"
+          aria-hidden="true"
+          sizes="100vw"
+          priority
         />
         <div
           className="pointer-events-none absolute -right-40 top-0 h-full w-[700px]"
