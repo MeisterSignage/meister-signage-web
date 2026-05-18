@@ -75,7 +75,14 @@ h3 { font-size: clamp(1.1rem, 1.6vw, 1.4rem);  font-weight: 700; line-height: 1.
   h3   { font-size: clamp(1.25rem, 1.6vw, 1.5rem); }
 }
 
-a { color: inherit; text-decoration: none; }
+/* Place the anchor baseline inside @layer base — Tailwind v4 puts its
+   utilities in @layer utilities, and *unlayered* rules win over all
+   layered ones. Without the layer wrapper, every Tailwind text-* class
+   on an <a> (text-white, text-magenta, …) loses to this baseline and
+   links inherit the body navy colour. */
+@layer base {
+  a { color: inherit; text-decoration: none; }
+}
 
 /* ─── Focus-visible — keyboard navigation ring ───────────────── */
 /* Visible only on keyboard nav, hidden for mouse — WCAG 2.4.7  */
