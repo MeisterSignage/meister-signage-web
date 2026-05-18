@@ -10,7 +10,7 @@ backend:
   branch: main
   # OAuth proxy: a Cloudflare Worker handles the GitHub OAuth dance so the
   # client secret never lives in the browser. See SETUP_CMS.md.
-  base_url: https://meister-signage-cms-auth.<your-cf-subdomain>.workers.dev
+  base_url: https://meister-signage-cms-auth.lingering-mountain-b769.workers.dev
   auth_endpoint: auth
 
 # Don't run the editor against the live site (its preview iframe is for
