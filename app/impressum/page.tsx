@@ -3,7 +3,7 @@ import Link from "next/link";
 import SectionContainer from "@/components/ui/SectionContainer";
 
 export const metadata: Metadata = {
-  title: "Impressum – Meister Signage",
+  title: { absolute: "Impressum – Meister Signage" },
   description: "Impressum und rechtliche Angaben von Meister Signage, Einzelunternehmen, Baar (Zug), Schweiz.",
   alternates: { canonical: "https://www.meister-signage.ch/impressum" },
   robots: { index: false, follow: false },

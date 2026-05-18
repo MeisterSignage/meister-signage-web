@@ -15,7 +15,7 @@ export function articleSchema({
   datePublished,
   dateModified,
   imageUrl,
-  authorName = "Meister Signage",
+  authorName = "Chris Meister",
 }: ArticleSchemaInput) {
   return {
     "@context": "https://schema.org",
@@ -29,9 +29,9 @@ export function articleSchema({
       ? { "@type": "ImageObject", url: imageUrl }
       : undefined,
     author: {
-      "@type": "Organization",
+      "@type": "Person",
+      "@id": "https://www.meister-signage.ch/#person-chris-meister",
       name: authorName,
-      url: "https://www.meister-signage.ch",
     },
     publisher: {
       "@type": "Organization",
@@ -41,6 +41,10 @@ export function articleSchema({
         "@type": "ImageObject",
         url: "https://www.meister-signage.ch/logo.svg",
       },
+    },
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", ".prose-article p:first-of-type"],
     },
   };
 }

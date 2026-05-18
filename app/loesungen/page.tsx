@@ -7,7 +7,7 @@ const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/loesungen`;
 
 export const metadata: Metadata = {
-  title: "Digital-Signage-Lösungen Schweiz – Kauf, Miete & LED Walls | Meister Signage",
+  title: { absolute: "Digital-Signage-Lösungen – Kauf, Miete & LED Walls | Meister Signage" },
   description:
     "Digital-Signage-Lösungen für Kauf und Miete: Displays, LED Walls, Menüboards und Indoor Signage. Schlüsselfertig geplant und persönlich betreut.",
   alternates: { canonical: PAGE_URL },

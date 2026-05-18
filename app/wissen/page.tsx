@@ -11,7 +11,7 @@ const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/wissen`;
 
 export const metadata: Metadata = {
-  title: "Digital Signage Wissen – Ratgeber & Grundlagen | Meister Signage",
+  title: { absolute: "Digital Signage Wissen – Ratgeber & Grundlagen | Meister Signage" },
   description:
     "Digital Signage Wissen: Antworten auf häufige Fragen rund um digitale Displays, Software, Kosten, Miete und Anwendungen – verständlich und praxisnah.",
   alternates: { canonical: PAGE_URL },

@@ -1,23 +1,33 @@
 # Meister Signage
 
-> Schlüsselfertige Digital-Signage-Lösungen für Gastronomie, Hotellerie, Retail und Events in der Zentralschweiz, Schweiz.
+> Schlüsselfertige Digital-Signage-Lösungen für Gastronomie, Hotellerie, Retail und
+> Unternehmen in der Zentralschweiz. Planung, Installation und Support aus einer Hand.
 
-Meister Signage ist ein lokaler Digital-Signage-Anbieter mit Sitz in der Zentralschweiz.
-Das Unternehmen bietet vollständig eingerichtete Lösungen für die Darstellung digitaler Inhalte auf Bildschirmen — ohne IT-Aufwand für den Kunden.
+## Grundlagen
 
-## Kernleistungen
+- [Was ist Digital Signage?](https://www.meister-signage.ch/wissen/was-ist-digital-signage): Definition, Funktionsweise und Einsatzgebiete von Digital Signage.
+- [Kosten Digital Signage Schweiz](https://www.meister-signage.ch/was-kostet-digital-signage-schweiz): Kaufpreise ab CHF 1'299, Mietpakete ab CHF 129/Monat.
 
-- Digitale Menüboards und Tagesangebote für Restaurants, Cafés und Hotels
-- Produktpräsentationen und Aktionsanzeigen für den Retail-Bereich
-- Wegeleitung und Informationsboards für Events und Veranstaltungen
-- Mietlösungen für temporäre Einsätze
-- Persönlicher Support und Einrichtung vor Ort
+## Lösungen
 
-## Zielgebiet
+- [Digital Signage kaufen](https://www.meister-signage.ch/digital-signage-kaufen): Spark-Sortiment (32"–50", Full HD und 4K UHD), Preise und schlüsselfertige Installation.
+- [Digital Signage mieten](https://www.meister-signage.ch/digital-signage-mieten): Mietpakete ab CHF 129/Monat für Events, Pop-ups und saisonale Einsätze.
 
-Luzern, Zug, Schwyz, Uri, Nidwalden, Obwalden — Zentralschweiz gesamt, mit nationaler Reichweite.
+## Branchen
 
-## Kontakt
+- [Gastronomie](https://www.meister-signage.ch/branchen/gastronomie): Digitale Menüboards für Restaurants, Cafés und Bäckereien.
+- [Retail & Handel](https://www.meister-signage.ch/branchen/retail): Point-of-Sale-Displays für Schaufenster und Verkaufsflächen.
+- [Events & Messen](https://www.meister-signage.ch/branchen/events): Wayfinding, Agenda-Displays und Sponsorenpräsentation.
+- [Hotellerie](https://www.meister-signage.ch/branchen/hotellerie): Lobby- und Empfangsdisplays für Gästeinformation.
 
-Website: https://www.meister-signage.ch
-LinkedIn: https://www.linkedin.com/company/105151407
+## Wissen
+
+- [Digitale Menüboards](https://www.meister-signage.ch/wissen/digitale-menuboards): Einsatz in der Gastronomie, Funktionen und Vorteile.
+- [Mieten vs. Kaufen](https://www.meister-signage.ch/wissen/digital-signage-mieten-oder-kaufen): Entscheidungshilfe für temporäre vs. dauerhafte Einsätze.
+- [Digital Signage Software](https://www.meister-signage.ch/wissen/digital-signage-software): Cloud-CMS, Zeitplanung, Fernzugriff.
+
+## Optional
+
+- [News & Insights](https://www.meister-signage.ch/news): Branchentrends, Produktneuheiten und Projektstories.
+- [Über uns](https://www.meister-signage.ch/ueber-uns): Unternehmen, Gründer Christopher Meister, Servicegebiet Zentralschweiz.
+- [Kontakt](https://www.meister-signage.ch/kontakt): +41 76 452 66 87, info@meister-signage.ch

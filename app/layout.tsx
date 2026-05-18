@@ -8,6 +8,7 @@ import JsonLd from "@/components/JsonLd";
 import { organizationSchema } from "@/lib/schema/organization";
 import { localBusinessSchema } from "@/lib/schema/localBusiness";
 import { websiteSchema } from "@/lib/schema/website";
+import { personSchema } from "@/lib/schema/person";
 import { SITE_INDEXABLE } from "@/lib/seo-config";
 
 const lato = Lato({
@@ -107,6 +108,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <JsonLd schema={organizationSchema as Record<string, unknown>} />
         <JsonLd schema={localBusinessSchema as Record<string, unknown>} />
         <JsonLd schema={websiteSchema as Record<string, unknown>} />
+        <JsonLd schema={personSchema as Record<string, unknown>} />
       </head>
       <body>
         <Nav />

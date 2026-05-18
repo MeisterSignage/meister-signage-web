@@ -14,12 +14,14 @@ import InternalLinksSection from "@/components/sections/InternalLinksSection";
 import ParallaxShowcaseSection from "@/components/sections/ParallaxShowcaseSection";
 import SoftwareTeaserSection from "@/components/sections/SoftwareTeaserSection";
 import AnimateIn from "@/components/ui/AnimateIn";
+import JsonLd from "@/components/JsonLd";
+import { faqSchema } from "@/lib/schema/faq";
 
 const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = SITE_URL;
 
 export const metadata: Metadata = {
-  title: "Meister Signage – Digital Signage Luzern & Zentralschweiz",
+  title: { absolute: "Meister Signage – Digital Signage Luzern & Zentralschweiz" },
   description: "Schlüsselfertige Digital-Signage-Lösungen für Gastronomie, Retail und Events. Persönlicher Service aus der Zentralschweiz. Kein IT-Aufwand.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
@@ -36,6 +38,33 @@ export const metadata: Metadata = {
     description: "Schlüsselfertige Digital-Signage-Lösungen für Gastronomie, Retail und Events. Persönlicher Service aus der Zentralschweiz.",
   },
 };
+
+const HOME_FAQS = [
+  {
+    question: "Was kostet eine Digital-Signage-Lösung?",
+    answer: "Das hängt von Anzahl Bildschirmen, Einsatzort, Inhaltspflege und gewünschter Betreuung ab. Für kleine Lösungen ist ein schlanker Einstieg mit einem Display möglich. Wir erstellen Ihnen eine kostenlose, unverbindliche Einschätzung.",
+  },
+  {
+    question: "Kann ich Inhalte selbst ändern?",
+    answer: "Ja. Inhalte können so vorbereitet werden, dass Sie Menüs, Preise, Angebote oder Hinweise selbst und einfach aktualisieren können. Auf Wunsch übernehmen wir auch die laufende Inhaltspflege.",
+  },
+  {
+    question: "Brauche ich dafür eine eigene IT-Abteilung?",
+    answer: "Nein. Die Lösung wird so geplant und eingerichtet, dass sie im Alltag verständlich funktioniert und keine unnötige technische Komplexität entsteht. Wir schulen bei der Übergabe und bleiben erreichbar.",
+  },
+  {
+    question: "Kann ich mit einem Bildschirm starten?",
+    answer: "Ja. Viele Projekte starten bewusst klein – ein Display, ein Standort – und werden später nach Bedarf erweitert. Der Einstieg ist so konzipiert, dass er wächst, wenn Sie bereit sind.",
+  },
+  {
+    question: "Für welche Branchen eignet sich Digital Signage?",
+    answer: "Besonders sinnvoll ist es für Gastronomie, Hotellerie, Retail, Events, Empfangsbereiche und überall dort, wo Informationen regelmässig sichtbar aktualisiert werden müssen.",
+  },
+  {
+    question: "Was passiert, wenn ein Display einen Fehler hat?",
+    answer: "Wir sind direkter Ansprechpartner. In vielen Fällen lässt sich ein Problem per Fernzugriff lösen. Bei Bedarf kommen wir auch vor Ort – als lokaler Anbieter aus der Zentralschweiz schnell erreichbar.",
+  },
+];
 
 export default function Home() {
   const latestPosts = getLatestPosts(3);
@@ -110,36 +139,12 @@ export default function Home() {
       <TrustProcessSection />
 
       {/* 7 — FAQ */}
+      <JsonLd schema={faqSchema(HOME_FAQS) as Record<string, unknown>} />
       <ModernFAQSection
         eyebrow="Häufige Fragen"
         title="Was Sie vor dem Start wissen sollten."
         subtitle="Die wichtigsten Antworten für Betriebe, die Digital Signage einfach und sinnvoll einsetzen möchten."
-        faqs={[
-          {
-            question: "Was kostet eine Digital-Signage-Lösung?",
-            answer: "Das hängt von Anzahl Bildschirmen, Einsatzort, Inhaltspflege und gewünschter Betreuung ab. Für kleine Lösungen ist ein schlanker Einstieg mit einem Display möglich. Wir erstellen Ihnen eine kostenlose, unverbindliche Einschätzung.",
-          },
-          {
-            question: "Kann ich Inhalte selbst ändern?",
-            answer: "Ja. Inhalte können so vorbereitet werden, dass Sie Menüs, Preise, Angebote oder Hinweise selbst und einfach aktualisieren können. Auf Wunsch übernehmen wir auch die laufende Inhaltspflege.",
-          },
-          {
-            question: "Brauche ich dafür eine eigene IT-Abteilung?",
-            answer: "Nein. Die Lösung wird so geplant und eingerichtet, dass sie im Alltag verständlich funktioniert und keine unnötige technische Komplexität entsteht. Wir schulen bei der Übergabe und bleiben erreichbar.",
-          },
-          {
-            question: "Kann ich mit einem Bildschirm starten?",
-            answer: "Ja. Viele Projekte starten bewusst klein – ein Display, ein Standort – und werden später nach Bedarf erweitert. Der Einstieg ist so konzipiert, dass er wächst, wenn Sie bereit sind.",
-          },
-          {
-            question: "Für welche Branchen eignet sich Digital Signage?",
-            answer: "Besonders sinnvoll ist es für Gastronomie, Hotellerie, Retail, Events, Empfangsbereiche und überall dort, wo Informationen regelmässig sichtbar aktualisiert werden müssen.",
-          },
-          {
-            question: "Was passiert, wenn ein Display einen Fehler hat?",
-            answer: "Wir sind direkter Ansprechpartner. In vielen Fällen lässt sich ein Problem per Fernzugriff lösen. Bei Bedarf kommen wir auch vor Ort – als lokaler Anbieter aus der Zentralschweiz schnell erreichbar.",
-          },
-        ]}
+        faqs={HOME_FAQS}
       />
 
       {/* 7 — Editorial news */}

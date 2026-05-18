@@ -13,7 +13,7 @@ const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/kontakt`;
 
 export const metadata: Metadata = {
-  title: "Kontakt – Digital Signage Beratung Schweiz | Meister Signage",
+  title: { absolute: "Kontakt – Digital Signage Beratung Schweiz | Meister Signage" },
   description:
     "Kontaktieren Sie Meister Signage für persönliche Beratung rund um Digital Signage, Displays und moderne Kommunikationslösungen.",
   alternates: { canonical: PAGE_URL },

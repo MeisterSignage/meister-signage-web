@@ -36,7 +36,7 @@ export async function generateMetadata({
     : `${SITE_URL}/og/meister-signage-og.png`;
 
   return {
-    title: `${post.title} | Meister Signage`,
+    title: { absolute: `${post.title} | Meister Signage` },
     description: post.description,
     alternates: { canonical: url },
     openGraph: {

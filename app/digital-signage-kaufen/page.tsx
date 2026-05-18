@@ -12,7 +12,7 @@ const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/digital-signage-kaufen`;
 
 export const metadata: Metadata = {
-  title: "Digital Signage kaufen Schweiz – Displays schlüsselfertig | Meister Signage",
+  title: { absolute: "Digital Signage kaufen Schweiz – schlüsselfertig | Meister Signage" },
   description:
     "Digital-Signage-Displays kaufen für Gastronomie, Retail, Hotellerie und Empfang. Schlüsselfertig geplant, vor Ort installiert und persönlich aus der Schweiz betreut.",
   alternates: { canonical: PAGE_URL },

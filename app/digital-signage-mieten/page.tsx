@@ -11,7 +11,7 @@ const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/digital-signage-mieten`;
 
 export const metadata: Metadata = {
-  title: "Digital Signage mieten Schweiz – Displays, Events & Pop-ups | Meister Signage",
+  title: { absolute: "Digital Signage mieten Schweiz – Displays & Events | Meister Signage" },
   description:
     "Display mieten in der Schweiz: Digital-Signage-Screens, Eventdisplays, mobile Displays und Menüboards flexibel mieten – inkl. Lizenz, Vorbereitung und persönlicher Beratung.",
   alternates: { canonical: PAGE_URL },
