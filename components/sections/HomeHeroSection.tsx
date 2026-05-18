@@ -45,7 +45,7 @@ export default function HomeHeroSection({
         poster={HERO_VIDEO_POSTER}
         aria-hidden="true"
       >
-        <source src={HERO_VIDEO_SRC} type="video/mp4" />
+        <source src={`${HERO_VIDEO_SRC}#t=10`} type="video/mp4" />
       </video>
 
       {/* Layer 1 fallback — poster image (mobile + reduced-motion + no-video).
