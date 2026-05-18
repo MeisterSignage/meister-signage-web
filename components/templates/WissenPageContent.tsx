@@ -383,7 +383,7 @@ export default function WissenPageContent({ page }: { page: WissenPage }) {
         eyebrow="Persönlicher Kontakt"
         title="Fragen zu diesem Thema?"
         subtitle="Schildern Sie kurz, was Sie vorhaben. Wir melden uns persönlich mit einer klaren Empfehlung – innert 24 Stunden."
-        imageSrc="/images/Chris-Meister.png"
+        imageSrc="/images/Chris-Meister.webp"
       />
     </>
   );

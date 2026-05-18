@@ -184,7 +184,7 @@ export default function WissenIndexPage() {
         eyebrow="Persönlicher Kontakt"
         title="Sie haben eine konkrete Frage?"
         subtitle="Schildern Sie kurz Ihren Einsatz. Wir empfehlen die passende Lösung – innert 24 Stunden."
-        imageSrc="/images/Chris-Meister.png"
+        imageSrc="/images/Chris-Meister.webp"
       />
     </>
   );

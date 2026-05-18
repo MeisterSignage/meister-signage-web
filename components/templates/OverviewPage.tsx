@@ -168,7 +168,7 @@ export default function OverviewPage({
         eyebrow="Persönlicher Kontakt"
         title={contactTitle}
         subtitle={contactSubtitle}
-        imageSrc="/images/Chris-Meister.png"
+        imageSrc="/images/Chris-Meister.webp"
       />
     </>
   );

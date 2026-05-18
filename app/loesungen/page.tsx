@@ -78,7 +78,7 @@ export default function LoesungenIndexPage() {
             title: "Software",
             desc: "Mit der Meister Signage Software Inhalte zentral verwalten und alle Displays steuern.",
             href: "/loesungen/software",
-            imageSrc: "/images/products/meister-signage-parallax-bg.png",
+            imageSrc: "/images/products/meister-signage-parallax-bg.webp",
             imageAlt: "Meister Signage Software zur zentralen Inhaltssteuerung",
           },
           {

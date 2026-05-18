@@ -3,7 +3,7 @@ title: "Was kostet Digital Signage in der Schweiz? Ehrliche Übersicht"
 description: "Transparente Kostenübersicht für Digital-Signage-Projekte in der Schweiz: Hardware, Software, Installation und laufende Kosten — ohne versteckte Posten."
 date: "2026-04-27"
 category: "Tipps"
-image: "/images/products/Spark4-Design.png"
+image: "/images/products/Spark4-Design.webp"
 slug: "digital-signage-kosten-schweiz"
 status: draft
 ---

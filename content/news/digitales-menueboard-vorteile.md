@@ -3,7 +3,7 @@ title: "Digitales Menüboard: 6 Vorteile für Restaurants, Cafés und Bäckereie
 description: "Warum ein digitales Menüboard die bessere Alternative zur gedruckten Speisekarte ist — und wie Gastronomen in der Schweiz davon profitieren."
 date: "2026-05-11"
 category: "Gastronomie"
-image: "/images/products/Restaurant-Meister-Signage.png"
+image: "/images/products/Restaurant-Meister-Signage.webp"
 slug: "digitales-menueboard-vorteile"
 status: draft
 ---

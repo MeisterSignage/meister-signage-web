@@ -3,7 +3,7 @@ title: "Spark-Sortiment im Vergleich: Welches Display passt zu Ihrem Betrieb?"
 description: "Spark 3, Spark 4, Spark 5 oder Spark Q+ — alle Meister-Signage-Displays im direkten Vergleich. Grössen, Preise, Einsatzempfehlungen."
 date: "2026-02-25"
 category: "Produkte"
-image: "/images/products/Spark5-Design.png"
+image: "/images/products/Spark5-Design.webp"
 slug: "spark-sortiment-vergleich"
 status: draft
 ---

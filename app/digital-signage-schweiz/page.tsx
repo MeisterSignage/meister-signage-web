@@ -417,7 +417,7 @@ export default function DigitalSignageSchweiPage() {
         eyebrow="Persönlicher Kontakt"
         title="Sie möchten Digital Signage in der Schweiz einsetzen?"
         subtitle="Schreiben Sie kurz, was Sie vorhaben. Wir melden uns persönlich und unkompliziert."
-        imageSrc="/images/Chris-Meister.png"
+        imageSrc="/images/Chris-Meister.webp"
       />
     </>
   );

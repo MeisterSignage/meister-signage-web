@@ -3,7 +3,7 @@ title: "Digital Signage für Hotels: Gästeinformation, Wegweisung und mehr"
 description: "Wie Hotels Digital Signage für Empfang, Lobby und Gästekommunikation einsetzen — praxisnah erklärt, von Boutique-Hotels bis Tagungshotels."
 date: "2026-04-15"
 category: "Hotellerie"
-image: "/images/products/Hotelempfang-Meister-Signage.png"
+image: "/images/products/Hotelempfang-Meister-Signage.webp"
 slug: "digital-signage-hotellerie"
 status: draft
 ---

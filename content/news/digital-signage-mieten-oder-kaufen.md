@@ -3,7 +3,7 @@ title: "Digital Signage mieten oder kaufen? Entscheidungshilfe für Schweizer Be
 description: "Wann lohnt sich der Kauf eines Digital-Signage-Displays, wann ist Mieten die bessere Wahl? Ein praxisnaher Vergleich mit klaren Kriterien."
 date: "2026-05-04"
 category: "Tipps"
-image: "/images/products/Spark5-Design.png"
+image: "/images/products/Spark5-Design.webp"
 slug: "digital-signage-mieten-oder-kaufen"
 status: draft
 ---

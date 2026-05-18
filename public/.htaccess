@@ -1,0 +1,51 @@
+# ─── Security Headers ──────────────────────────────────────────
+# Meister Signage — Novatrend / LiteSpeed
+# Deployed to public/ and copied to out/ during build.
+
+# Prevent clickjacking
+Header set X-Frame-Options "SAMEORIGIN"
+
+# Prevent MIME-type sniffing
+Header set X-Content-Type-Options "nosniff"
+
+# Referrer policy — send origin only to external sites
+Header set Referrer-Policy "strict-origin-when-cross-origin"
+
+# Permissions policy — disable unnecessary browser APIs
+Header set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"
+
+# XSS protection (legacy browsers)
+Header set X-XSS-Protection "1; mode=block"
+
+# HSTS — enforce HTTPS for 1 year (enable after go-live with SSL)
+# Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+
+# Content Security Policy
+Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://identity.netlify.com https://unpkg.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://api.github.com https://*.workers.dev https://formspree.io; frame-src 'self' https://identity.netlify.com; base-uri 'self'; form-action 'self' https://formspree.io;"
+
+# ─── Caching ──────────────────────────────────────────────────
+
+# Static assets — 1 year cache (hashed filenames)
+<FilesMatch "\.(js|css|woff2|woff|ttf|ico)$">
+  Header set Cache-Control "public, max-age=31536000, immutable"
+</FilesMatch>
+
+# Images — 30 days
+<FilesMatch "\.(png|jpg|jpeg|webp|avif|svg|gif)$">
+  Header set Cache-Control "public, max-age=2592000"
+</FilesMatch>
+
+# HTML — no cache (always fresh)
+<FilesMatch "\.(html)$">
+  Header set Cache-Control "public, max-age=0, must-revalidate"
+</FilesMatch>
+
+# ─── Compression ──────────────────────────────────────────────
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json image/svg+xml
+</IfModule>
+
+# ─── Error documents ─────────────────────────────────────────
+
+ErrorDocument 404 /404.html

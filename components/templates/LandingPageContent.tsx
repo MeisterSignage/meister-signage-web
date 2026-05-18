@@ -23,25 +23,25 @@ const BRANCHEN_IMAGES: Record<string, string> = {
 
 const BRANCHEN_PARALLAX: Record<string, { image: string; eyebrow: string; title: string; text: string }> = {
   gastronomie: {
-    image: "/images/products/Sektion-BG-parallax-Gastro.png",
+    image: "/images/products/Sektion-BG-parallax-Gastro.webp",
     eyebrow: "Gastronomie",
     title: "Genuss perfekt in Szene gesetzt.",
     text: "Digitale Menüboards und Displays präsentieren Angebote, Tagesmenüs und Aktionen flexibel und hochwertig.",
   },
   retail: {
-    image: "/images/products/Sektion-BG-parallax-Retail.png",
+    image: "/images/products/Sektion-BG-parallax-Retail.webp",
     eyebrow: "Retail & Handel",
     title: "Mehr Aufmerksamkeit. Mehr Wirkung.",
     text: "Digitale Displays inszenieren Produkte, Kampagnen und Markenbotschaften direkt am Point of Sale.",
   },
   hotellerie: {
-    image: "/images/products/Sektion-BG-parallax-Hotel.png",
+    image: "/images/products/Sektion-BG-parallax-Hotel.webp",
     eyebrow: "Hotellerie",
     title: "Willkommen. Der erste Eindruck zählt.",
     text: "Digitale Displays verbinden Orientierung, Serviceinformationen und Atmosphäre zu einem stimmigen Gästeerlebnis.",
   },
   events: {
-    image: "/images/products/Sektion-BG-parallax-Events.png",
+    image: "/images/products/Sektion-BG-parallax-Events.webp",
     eyebrow: "Events & Messen",
     title: "Grosse Momente. Grosse Wirkung.",
     text: "LED-Walls, Agenda-Displays und digitale Besucherführung machen Veranstaltungen sichtbar, flexibel und eindrucksvoll.",
@@ -435,7 +435,7 @@ export default function LandingPageContent({
           eyebrow="Premium Digital Signage"
           title="Digitale Kommunikation mit Tiefenwirkung."
           text="Subtile Bewegung, starke Bilder und klare Inhalte schaffen ein digitales Erlebnis, das Räume hochwertig ergänzt."
-          image="/images/products/meister-signage-parallax-bg.png"
+          image="/images/products/meister-signage-parallax-bg.webp"
           imageAlt="Meister Signage — Premium Digital Signage Stimmungsbild"
           ctaLabel="Beratung anfragen"
           ctaHref="/kontakt"
@@ -583,7 +583,7 @@ export default function LandingPageContent({
         eyebrow="Persönlicher Kontakt"
         title="Lassen Sie uns Ihr Projekt besprechen."
         subtitle="Schildern Sie kurz, was Sie vorhaben. Wir melden uns persönlich mit einer klaren Empfehlung – innert 24 Stunden."
-        imageSrc="/images/Chris-Meister.png"
+        imageSrc="/images/Chris-Meister.webp"
       />
 
     </>

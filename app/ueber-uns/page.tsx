@@ -72,7 +72,7 @@ export default function UeberUnsPage() {
         bullets={data.hero.bullets as [string, string, string]}
         primaryCta={data.hero.primaryCta}
         secondaryCta={data.hero.secondaryCta}
-        imageSrc="/images/Chris-Meister.png"
+        imageSrc="/images/Chris-Meister.webp"
         imageAlt="Christopher Meister – Gründer Meister Signage"
         imageCompact
       />
@@ -120,7 +120,7 @@ export default function UeberUnsPage() {
         eyebrow={data.kontakt.eyebrow}
         title={data.kontakt.title}
         subtitle={data.kontakt.subtitle}
-        imageSrc="/images/Chris-Meister.png"
+        imageSrc="/images/Chris-Meister.webp"
       />
     </>
   );

@@ -498,7 +498,7 @@ export default function WasKostetDigitalSignagePage() {
         eyebrow="Persönlicher Kontakt"
         title="Sie möchten die Kosten für Ihre konkrete Situation besprechen?"
         subtitle="Schreiben Sie kurz, was Sie vorhaben. Wir rechnen Ihnen transparent durch, was sinnvoll und was realistisch ist."
-        imageSrc="/images/Chris-Meister.png"
+        imageSrc="/images/Chris-Meister.webp"
       />
     </>
   );
