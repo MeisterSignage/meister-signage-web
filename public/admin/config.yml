@@ -12,7 +12,7 @@ backend:
   base_url: https://meister-signage-cms-auth.lingering-mountain-b769.workers.dev
   auth_endpoint: auth
 
-publish_mode: simple
+publish_mode: editorial_workflow
 
 media_folder: "public/images/news"
 public_folder: "/images/news"
