@@ -24,7 +24,7 @@ const cases: CaseStudy[] = [
     title: "Menüboard statt Kreidetafel",
     description: "Ein Restaurant wechselt das Tagesmenü täglich. Mit einem digitalen Menüboard ist die Änderung in zwei Minuten erledigt – ohne Ausdrucken, ohne Laminieren.",
     result: "Weniger Druckkosten. Mehr Flexibilität.",
-    href: "/gastronomie",
+    href: "/branchen/gastronomie",
     imageSrc: "/images/products/Restaurant-Meister-Signage.webp",
   },
   {
@@ -32,7 +32,7 @@ const cases: CaseStudy[] = [
     title: "Empfang ohne Papierchaos",
     description: "Ein Hotel informiert Gäste über Frühstückszeiten, Ausflugstipps und Events – auf einem Display in der Lobby. Das Empfangspersonal wird entlastet.",
     result: "Weniger Nachfragen. Besseres Gasterlebnis.",
-    href: "/hotellerie",
+    href: "/branchen/hotellerie",
     imageSrc: "/images/products/Hotelempfang-Meister-Signage.webp",
   },
   {
@@ -40,7 +40,7 @@ const cases: CaseStudy[] = [
     title: "Kampagnen, die verkaufen",
     description: "Ein Schuhgeschäft zeigt neue Kollektionen und Aktionen auf grossen Wanddisplays. Inhalte wechseln saisonal – ohne Druckkosten, ohne Agenturaufwand.",
     result: "Mehr Aufmerksamkeit. Mehr Umsatz.",
-    href: "/retail",
+    href: "/branchen/retail",
     imageSrc: "/images/products/Schuhladen-Meister-Signage.webp",
   },
   {
@@ -48,7 +48,7 @@ const cases: CaseStudy[] = [
     title: "Eventprogramm in Echtzeit",
     description: "Eine Tagung zeigt Zeitplan, Raumbelegung und Sponsoren auf Displays. Änderungen am Programm erscheinen sofort – kein Neudruck, keine Verwirrung.",
     result: "Reibungsloser Ablauf. Professionelles Bild.",
-    href: "/events",
+    href: "/branchen/events",
     imageSrc: "/images/products/Events-Meister-Signage.webp",
   },
 ];

@@ -1,14 +1,16 @@
-"use client";
+import type { Metadata } from "next";
+import LegacyRedirect from "@/components/LegacyRedirect";
 
-import { useEffect } from "react";
-import { useRouter } from "next/navigation";
+const SITE_URL = "https://www.meister-signage.ch";
+const TARGET = "/digital-signage-mieten";
 
-// Diese Seite wurde auf /digital-signage-mieten verschoben.
-// Client-seitiger Redirect für statischen Export (output: "export").
-export default function MietenRedirect() {
-  const router = useRouter();
-  useEffect(() => {
-    router.replace("/digital-signage-mieten");
-  }, [router]);
-  return null;
+export const metadata: Metadata = {
+  title: { absolute: "Digital Signage mieten – Meister Signage" },
+  description: "Diese Seite ist umgezogen auf /digital-signage-mieten.",
+  alternates: { canonical: `${SITE_URL}${TARGET}` },
+  robots: { index: false, follow: true },
+};
+
+export default function Page() {
+  return <LegacyRedirect target={TARGET} />;
 }

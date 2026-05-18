@@ -80,9 +80,9 @@ const page: LandingPage = {
       { label: "Digital Signage Zürich", href: "/staedte/zuerich" },
     ],
     branchen: [
-      { label: "Unternehmen",     href: "/unternehmen" },
+      { label: "Unternehmen",     href: "/branchen/unternehmen" },
       { label: "Gastronomie",     href: "/branchen/gastronomie" },
-      { label: "Events",          href: "/events" },
+      { label: "Events",          href: "/branchen/events" },
     ],
     loesungen: [
       { label: "Empfangsdisplays", href: "/loesungen/empfangsdisplays" },

@@ -57,12 +57,12 @@ const page: LandingPage = {
     },
   ],
   internalLinks: [
-    { label: "Gastronomie",              href: "/gastronomie" },
-    { label: "Digitales Menüeboard",      href: "/digitales-menueboard" },
+    { label: "Gastronomie",              href: "/branchen/gastronomie" },
+    { label: "Retail & Handel",          href: "/branchen/retail" },
     { label: "Digital Signage kaufen",   href: "/digital-signage-kaufen" },
     { label: "Digital Signage mieten",   href: "/digital-signage-mieten" },
     { label: "Kosten & Preise",          href: "/was-kostet-digital-signage-schweiz" },
-    { label: "Gastronomie-Branche",      href: "/branchen/gastronomie" },
+    { label: "Software",                 href: "/loesungen/software" },
     { label: "Kontakt",                  href: "/kontakt" },
   ],
   cta: {
@@ -72,7 +72,7 @@ const page: LandingPage = {
     primaryLabel: "Beratung anfragen",
     primaryHref: "/kontakt",
     secondaryLabel: "Gastronomie-Lösungen",
-    secondaryHref: "/gastronomie",
+    secondaryHref: "/branchen/gastronomie",
   },
   related: {
     loesungen: [

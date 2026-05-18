@@ -18,31 +18,31 @@ const industries: Industry[] = [
   {
     title: "Retail & Fashion",
     description: "Marken emotional inszenieren. Direkt am Point of Sale.",
-    href: "/retail",
+    href: "/branchen/retail",
     imageSrc: "/images/products/Schuhladen-Meister-Signage.webp",
   },
   {
     title: "Gastronomie",
     description: "Digitale Menüboards und Aktionen flexibel steuern.",
-    href: "/gastronomie",
+    href: "/branchen/gastronomie",
     imageSrc: "/images/products/Restaurant-Meister-Signage.webp",
   },
   {
     title: "Hotels & Empfang",
     description: "Information und Atmosphäre elegant kombinieren.",
-    href: "/hotellerie",
+    href: "/branchen/hotellerie",
     imageSrc: "/images/products/Hotelempfang-Meister-Signage.webp",
   },
   {
     title: "Unternehmen & Empfang",
     description: "Besucher informieren. Räume modernisieren.",
-    href: "/unternehmen",
+    href: "/branchen/unternehmen",
     imageSrc: "/images/products/Unternehmen-Empfang.webp",
   },
   {
     title: "Events & Messen",
     description: "Dynamische Inhalte für Events und Besucherführung.",
-    href: "/events",
+    href: "/branchen/events",
     imageSrc: "/images/products/Events-Meister-Signage.webp",
   },
 ];

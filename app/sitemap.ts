@@ -38,13 +38,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "/loesungen/empfangsdisplays",         priority: 0.8, cf: "monthly" as const },
     { url: "/loesungen/event-displays",           priority: 0.8, cf: "monthly" as const },
 
-    /* Legacy branchen short URLs (still indexed) */
-    { url: "/gastronomie",         priority: 0.7, cf: "monthly" as const },
-    { url: "/retail",              priority: 0.7, cf: "monthly" as const },
-    { url: "/hotellerie",          priority: 0.7, cf: "monthly" as const },
-    { url: "/unternehmen",         priority: 0.7, cf: "monthly" as const },
-    { url: "/events",              priority: 0.7, cf: "monthly" as const },
-    { url: "/digitales-menueboard", priority: 0.7, cf: "monthly" as const },
+    /* Legacy short URLs (/gastronomie, /retail, /hotellerie, /unternehmen,
+       /events, /digitales-menueboard, /mieten) wurden auf die /branchen/*
+       bzw. kanonischen Routen umgeleitet und sind hier bewusst nicht mehr
+       gelistet. Die Redirect-Seiten sind via metadata.robots auf
+       noindex,follow gesetzt. */
 
     /* Städte */
     { url: "/staedte/zuerich",  priority: 0.9, cf: "monthly" as const },

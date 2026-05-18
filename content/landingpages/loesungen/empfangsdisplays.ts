@@ -57,11 +57,11 @@ const page: LandingPage = {
     },
   ],
   internalLinks: [
-    { label: "Unternehmen",              href: "/unternehmen" },
-    { label: "Hotellerie",               href: "/hotellerie" },
+    { label: "Unternehmen",              href: "/branchen/unternehmen" },
+    { label: "Hotellerie",               href: "/branchen/hotellerie" },
     { label: "Digital Signage kaufen",   href: "/digital-signage-kaufen" },
     { label: "Kosten & Preise",          href: "/was-kostet-digital-signage-schweiz" },
-    { label: "Unternehmen-Branche",      href: "/branchen/retail" },
+    { label: "Digitaler Empfang",        href: "/loesungen/digitaler-empfang" },
     { label: "Digital Signage Zug",      href: "/staedte/zug" },
     { label: "Kontakt",                  href: "/kontakt" },
   ],
@@ -72,7 +72,7 @@ const page: LandingPage = {
     primaryLabel: "Beratung anfragen",
     primaryHref: "/kontakt",
     secondaryLabel: "Unternehmenslösungen",
-    secondaryHref: "/unternehmen",
+    secondaryHref: "/branchen/unternehmen",
   },
   related: {
     loesungen: [

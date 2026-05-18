@@ -149,35 +149,35 @@ export default function DigitalSignageSchweiPage() {
               title: "Gastronomie",
               description:
                 "Digitale Menüboards und Tagesangebote schnell aktualisieren — ohne neue Drucksachen.",
-              href: "/gastronomie",
+              href: "/branchen/gastronomie",
             },
             {
               icon: Hotel,
               title: "Hotellerie",
               description:
                 "Gäste informieren, Empfangsbereiche gestalten und Veranstaltungen digital kommunizieren.",
-              href: "/hotellerie",
+              href: "/branchen/hotellerie",
             },
             {
               icon: Store,
               title: "Retail",
               description:
                 "Aktionen, Preise und Markenbotschaften sichtbar und flexibel im Verkaufsraum platzieren.",
-              href: "/retail",
+              href: "/branchen/retail",
             },
             {
               icon: Building2,
               title: "Unternehmen",
               description:
                 "Interne Kommunikation, Empfang und KPI-Dashboards zentral steuern.",
-              href: "/unternehmen",
+              href: "/branchen/unternehmen",
             },
             {
               icon: CalendarRange,
               title: "Events",
               description:
                 "Zeitpläne, Wegweisung und Sponsoren professionell auf Bildschirmen präsentieren.",
-              href: "/events",
+              href: "/branchen/events",
             },
           ]}
         />
@@ -356,31 +356,31 @@ export default function DigitalSignageSchweiPage() {
             label: "Gastronomie",
             description:
               "Digital Signage für Restaurants, Cafés und Betriebe mit wechselnden Menüs.",
-            href: "/gastronomie",
+            href: "/branchen/gastronomie",
           },
           {
             label: "Hotellerie",
             description:
               "Gästekommunikation, Wegweisung und Event-Infos für Hotels.",
-            href: "/hotellerie",
+            href: "/branchen/hotellerie",
           },
           {
             label: "Retail",
             description:
               "Aktionen und Markenbotschaften sichtbar im Verkaufsraum platzieren.",
-            href: "/retail",
+            href: "/branchen/retail",
           },
           {
             label: "Unternehmen",
             description:
               "Interne Kommunikation, Empfang und Infoscreens für Betriebe.",
-            href: "/unternehmen",
+            href: "/branchen/unternehmen",
           },
           {
             label: "Events",
             description:
               "Zeitpläne, Wegweisung und Sponsoren an Veranstaltungen.",
-            href: "/events",
+            href: "/branchen/events",
           },
           {
             label: "Digital Signage mieten",

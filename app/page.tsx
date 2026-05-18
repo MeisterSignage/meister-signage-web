@@ -154,11 +154,11 @@ export default function Home() {
           { label: "Digital Signage Schweiz",  href: "/digital-signage-schweiz" },
           { label: "Kosten & Preise",          href: "/was-kostet-digital-signage-schweiz" },
           { label: "Digital Signage mieten",   href: "/digital-signage-mieten" },
-          { label: "Gastronomie",              href: "/gastronomie" },
-          { label: "Hotellerie",               href: "/hotellerie" },
-          { label: "Retail",                   href: "/retail" },
-          { label: "Unternehmen",              href: "/unternehmen" },
-          { label: "Events",                   href: "/events" },
+          { label: "Gastronomie",              href: "/branchen/gastronomie" },
+          { label: "Hotellerie",               href: "/branchen/hotellerie" },
+          { label: "Retail",                   href: "/branchen/retail" },
+          { label: "Unternehmen",              href: "/branchen/unternehmen" },
+          { label: "Events",                   href: "/branchen/events" },
         ]}
       />
 

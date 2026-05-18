@@ -57,7 +57,7 @@ const page: LandingPage = {
     },
   ],
   internalLinks: [
-    { label: "Events",                   href: "/events" },
+    { label: "Events",                   href: "/branchen/events" },
     { label: "Digital Signage mieten",   href: "/digital-signage-mieten" },
     { label: "Digital Signage kaufen",   href: "/digital-signage-kaufen" },
     { label: "Kosten & Preise",          href: "/was-kostet-digital-signage-schweiz" },
@@ -72,7 +72,7 @@ const page: LandingPage = {
     primaryLabel: "Anfrage stellen",
     primaryHref: "/kontakt",
     secondaryLabel: "Event-Lösungen ansehen",
-    secondaryHref: "/events",
+    secondaryHref: "/branchen/events",
   },
   related: {
     loesungen: [
