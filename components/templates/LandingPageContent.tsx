@@ -57,6 +57,7 @@ const LOESUNGEN_IMAGES: Record<string, { src: string; product: boolean }> = {
   "doppelseitige-displays":  { src: "/images/products/Doppelseitiges-Display-Retail.webp", product: false },
   "mobile-displays":         { src: "/images/products/Mobile-Display-Outdoor.webp",      product: false },
   "digitaler-empfang":       { src: "/images/products/Hotelempfang-Meister-Signage.webp", product: false },
+  "digitale-leitsysteme":    { src: "/images/products/Unternehmen-Empfang.webp",         product: false },
 };
 
 function resolveHeroImage(page: LandingPage): { src: string; product: boolean } | null {

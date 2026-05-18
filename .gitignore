@@ -10,6 +10,12 @@ out/
 *.pem
 *.bak
 tsconfig.tsbuildinfo
+GEO-AUDIT-REPORT.md
+lh-lcp/
+
+# original supplier images (webp conversions are tracked instead)
+public/images/products/HOAB - *.jpg
+public/images/products/LHDSWxxHD10 - *.jpg
 
 # debug
 npm-debug.log*
