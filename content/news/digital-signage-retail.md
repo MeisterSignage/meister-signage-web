@@ -5,7 +5,7 @@ date: "2026-04-08"
 category: "Retail"
 image: "/images/products/Schuhladen-Meister-Signage.png"
 slug: "digital-signage-retail"
-status: published
+status: draft
 ---
 
 Im stationären Handel zählt jeder Quadratmeter. Wer die Aufmerksamkeit seiner Kunden gewinnen will, braucht Kommunikation, die sich schnell anpassen lässt — genau das leistet Digital Signage.

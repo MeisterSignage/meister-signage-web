@@ -5,7 +5,7 @@ date: "2026-03-18"
 category: "Produkte"
 image: "/images/products/Spark3-Design.png"
 slug: "spark3-kompaktes-display"
-status: published
+status: draft
 ---
 
 Nicht jeder Einsatzort braucht einen grossen Bildschirm. Hinter der Theke, neben der Kasse oder im Eingangsbereich eines kleinen Ladens reichen 32 Zoll völlig aus — wenn die Qualität stimmt. Genau dafür gibt es den Spark 3.

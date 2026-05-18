@@ -5,7 +5,7 @@ date: "2026-05-04"
 category: "Tipps"
 image: "/images/products/Spark5-Design.png"
 slug: "digital-signage-mieten-oder-kaufen"
-status: published
+status: draft
 ---
 
 Kaufen oder mieten — diese Frage stellt sich bei Digital Signage früher oder später. Die Antwort hängt nicht vom Budget allein ab, sondern vor allem vom Einsatzzweck.

@@ -5,7 +5,7 @@ date: "2026-04-15"
 category: "Hotellerie"
 image: "/images/products/Hotelempfang-Meister-Signage.png"
 slug: "digital-signage-hotellerie"
-status: published
+status: draft
 ---
 
 Hotels leben von Erlebnissen. Vom ersten Eindruck in der Lobby bis zur Information über Frühstückszeiten — überall dort, wo Gäste sich orientieren oder informieren wollen, spielen digitale Displays ihre Stärken aus.

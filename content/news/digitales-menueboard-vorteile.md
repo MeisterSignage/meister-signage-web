@@ -5,7 +5,7 @@ date: "2026-05-11"
 category: "Gastronomie"
 image: "/images/products/Restaurant-Meister-Signage.png"
 slug: "digitales-menueboard-vorteile"
-status: published
+status: draft
 ---
 
 Gedruckte Speisekarten haben einen Nachteil: Sobald sich ein Preis oder ein Gericht ändert, beginnt der Aufwand von vorne. Digitale Menüboards lösen dieses Problem — und bringen weitere Vorteile mit.
