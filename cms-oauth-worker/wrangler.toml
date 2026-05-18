@@ -1,0 +1,11 @@
+name = "meister-signage-cms-auth"
+main = "worker.js"
+compatibility_date = "2025-05-01"
+
+# Secrets sind NICHT hier konfiguriert — sie werden via
+#   wrangler secret put GITHUB_CLIENT_ID
+#   wrangler secret put GITHUB_CLIENT_SECRET
+# verschlüsselt in Cloudflare gespeichert.
+
+[observability]
+enabled = true
