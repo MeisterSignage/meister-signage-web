@@ -5,7 +5,7 @@ date: "2026-05-18"
 category: "Tipps"
 image: "/images/products/Spark3-Design.png"
 slug: "was-ist-digital-signage"
-status: published
+status: draft
 ---
 
 Digital Signage begegnet uns täglich — an Bahnhöfen, in Restaurants, im Schaufenster beim Lieblingsladen. Doch was genau steckt dahinter? Und lohnt sich das auch für kleinere Betriebe?

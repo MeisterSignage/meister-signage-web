@@ -5,7 +5,7 @@ date: "2026-04-27"
 category: "Tipps"
 image: "/images/products/Spark4-Design.png"
 slug: "digital-signage-kosten-schweiz"
-status: published
+status: draft
 ---
 
 Die erste Frage bei jedem Digital-Signage-Projekt lautet: Was kostet das? Pauschal lässt sich das nicht beantworten — aber eine realistische Orientierung ist möglich.
