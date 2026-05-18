@@ -33,14 +33,15 @@ export default function HomeHeroSection({
       style={{ backgroundColor: "#07101f" }}
     >
       {/* Layer 1 — Background video (desktop).
-           File is <600 KB (compressed 720p, 20s loop) — safe to preload. */}
+           preload="metadata" so mobile doesn't download 566 KB for a
+           hidden element. autoplay triggers the full fetch on desktop. */}
       <video
         className="pointer-events-none absolute inset-0 hidden h-full w-full object-cover md:block motion-reduce:hidden"
         autoPlay
         muted
         loop
         playsInline
-        preload="auto"
+        preload="metadata"
         poster={HERO_VIDEO_POSTER}
         aria-hidden="true"
       >
@@ -48,13 +49,14 @@ export default function HomeHeroSection({
       </video>
 
       {/* Layer 1 fallback — poster image (mobile + reduced-motion + no-video).
-           Uses fetchPriority + loading="eager" (Next 16 replaces deprecated priority). */}
+           preload inserts a <link rel="preload"> + loading="eager".
+           The image is only 39 KB so preloading on all viewports is fine. */}
       <Image
         src={HERO_VIDEO_POSTER}
         alt="Meister Signage — Digital Signage Lösungen"
         fill
+        preload
         fetchPriority="high"
-        loading="eager"
         sizes="100vw"
         className="pointer-events-none object-cover md:hidden motion-reduce:block"
         aria-hidden="true"
@@ -179,7 +181,6 @@ function HeroVisual() {
           className="h-auto w-full"
           style={{ filter: "drop-shadow(0 20px 48px rgba(26,39,68,0.16))" }}
           fetchPriority="high"
-          loading="eager"
         />
       </div>
 
@@ -205,7 +206,6 @@ function HeroVisual() {
             height={600}
             className="h-auto w-full"
             fetchPriority="high"
-            loading="eager"
           />
         </div>
 

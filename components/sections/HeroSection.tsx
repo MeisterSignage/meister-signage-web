@@ -86,7 +86,6 @@ export default function HeroSection({
                   height={960}
                   className="h-auto w-full object-cover"
           fetchPriority="high"
-          loading="eager"
                 />
                 {imageCompact && (
                   <div
