@@ -49,11 +49,13 @@ const BRANCHEN_PARALLAX: Record<string, { image: string; eyebrow: string; title:
 };
 
 const LOESUNGEN_IMAGES: Record<string, { src: string; product: boolean }> = {
-  "led-walls":            { src: "/images/products/Spark5-Design.webp",  product: true },
-  "digitale-menueboards": { src: "/images/products/SparkQ-Design.webp",  product: true },
-  "indoor-signage":       { src: "/images/products/Spark4-Design.webp",  product: true },
-  "empfangsdisplays":     { src: "/images/products/Spark4-Design.webp",  product: true },
-  "event-displays":       { src: "/images/products/Spark3-Design.webp",  product: true },
+  "led-walls":               { src: "/images/products/Spark5-Design.webp",               product: true },
+  "digitale-menueboards":    { src: "/images/products/SparkQ-Design.webp",               product: true },
+  "indoor-signage":          { src: "/images/products/Spark4-Design.webp",               product: true },
+  "empfangsdisplays":        { src: "/images/products/Spark4-Design.webp",               product: true },
+  "event-displays":          { src: "/images/products/Spark3-Design.webp",               product: true },
+  "doppelseitige-displays":  { src: "/images/products/Doppelseitiges-Display-Retail.webp", product: false },
+  "mobile-displays":         { src: "/images/products/Mobile-Display-Outdoor.webp",      product: false },
 };
 
 function resolveHeroImage(page: LandingPage): { src: string; product: boolean } | null {
