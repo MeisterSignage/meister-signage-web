@@ -1,0 +1,25 @@
+{
+  "eyebrow": "Warum Meister Signage",
+  "title": "Schluss mit Ausdrucken, Laminieren und manuellem Aktualisieren.",
+  "subtitle": "Viele Betriebe verlieren täglich Zeit mit Papierkarten und veralteten Aushängen. Digital Signage löst das – und Meister Signage übernimmt alles, damit Sie nichts koordinieren müssen.",
+  "featured": {
+    "icon": "sliders",
+    "title": "Einfache Bedienung",
+    "description": "Inhalte aktualisieren, Angebote wechseln, Hinweise anpassen – alles über eine übersichtliche Oberfläche. Keine IT-Kenntnisse, keine Schulung, kein Aufwand.",
+    "linkLabel": "Mehr erfahren",
+    "linkHref": "/loesungen/software"
+  },
+  "cards": [
+    { "icon": "layout-grid", "title": "Inhalte zentral verwalten", "description": "Alle Bildschirme – ob ein Display oder mehrere Standorte – lassen sich von einer Stelle aus steuern." },
+    { "icon": "shield-off",  "title": "Keine IT-Kenntnisse nötig", "description": "Die Lösung funktioniert im Alltag ohne Technik-Know-how. Wir richten alles ein und übergeben schlüsselfertig." },
+    { "icon": "star",        "title": "Professioneller Auftritt", "description": "Gepflegte Bildschirme wirken aktuell und wertig – beim ersten Eindruck, der zählt." },
+    { "icon": "repeat-2",    "title": "Flexible Mietmodelle", "description": "Für Events und saisonale Einsätze: Displays mieten statt kaufen – ohne Lager, mit vollem Service." }
+  ],
+  "darkCta": {
+    "icon": "users",
+    "title": "Persönliche Unterstützung",
+    "description": "Sie haben einen festen Ansprechpartner, der Ihr Projekt kennt – kein Ticketsystem, keine anonyme Hotline. Direkt erreichbar, von der Planung bis zum laufenden Betrieb.",
+    "ctaLabel": "Beratung anfragen",
+    "ctaHref": "/kontakt"
+  }
+}

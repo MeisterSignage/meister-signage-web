@@ -15,6 +15,7 @@ import JsonLd from "@/components/JsonLd";
 import { faqSchema } from "@/lib/schema/faq";
 import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
 import { serviceSchema } from "@/lib/schema/service";
+import kostenFaq from "@/content/site/kosten-faq.json";
 
 const NOISE =
   "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E\")";
@@ -47,48 +48,7 @@ const BUY_PRICES = [
   },
 ];
 
-const PAGE_FAQS = [
-  {
-    question: "Was kostet Digital Signage pro Monat?",
-    answer:
-      "Die Mietpreise starten bei CHF 129 pro Monat. Je nach Displaygrösse liegen die monatlichen Kosten zwischen CHF 129 und CHF 159 – inkl. Softwarelizenz und Support.",
-  },
-  {
-    question: "Welche Kosten kommen zur Hardware hinzu?",
-    answer:
-      "Beim Kauf kommen je nach Projekt einmalige Einrichtungskosten, Versand, Softwarelizenz, Content-Erstellung und gegebenenfalls Montage hinzu. Im Mietmodell sind Lizenz und Support meist enthalten.",
-  },
-  {
-    question: "Ist Mieten günstiger als Kaufen?",
-    answer:
-      "Für kurze oder flexible Einsätze ist Mieten meist sinnvoller. Bei langfristiger Nutzung über mehrere Jahre kann sich ein Kauf lohnen. Nach einer Mietphase können 30 % der bezahlten Mieten auf den Kaufpreis angerechnet werden.",
-  },
-  {
-    question: "Was kostet die Software?",
-    answer:
-      "Im Mietmodell ist die Softwarelizenz enthalten. Beim Kauf fallen ab CHF 180 pro Jahr oder ab CHF 15 pro Monat an – inkl. Cloud-Steuerung, Zeitplanung und mehreren Benutzern.",
-  },
-  {
-    question: "Gibt es Einrichtungskosten?",
-    answer:
-      "Ja. Eine einmalige Einrichtungsgebühr ab CHF 149 deckt Vorkonfiguration, Inbetriebnahme und das erste Content-Setup ab. Aufwendigere Projekte werden individuell ausgewiesen.",
-  },
-  {
-    question: "Was kostet ein Digital-Signage-Display in der Schweiz?",
-    answer:
-      "Professionelle Displays beginnen je nach Modell bei rund CHF 1'299. Im Mietmodell ist der Einstieg ab CHF 129 pro Monat möglich.",
-  },
-  {
-    question: "Gibt es versteckte Kosten?",
-    answer:
-      "Wichtig sind Einrichtung, Versand, Softwarelizenz beim Kauf, Content-Erstellung und je nach Einsatz eine mögliche Installation. Diese Punkte sollten im Angebot transparent ausgewiesen werden.",
-  },
-  {
-    question: "Lohnt sich Digital Signage für kleine Betriebe?",
-    answer:
-      "Ja, besonders wenn Inhalte regelmässig aktualisiert werden, Druckkosten reduziert werden sollen oder Angebote sichtbarer präsentiert werden sollen. Das Mietmodell macht den Einstieg auch für kleinere Budgets möglich.",
-  },
-];
+const PAGE_FAQS = kostenFaq.items;
 
 const EXAMPLE_CALCULATIONS = [
   {

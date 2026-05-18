@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "number": "01",
+      "category": "Retail & Handel",
+      "headline": "Marken am Point of Sale inszenieren.",
+      "body": "Digitale Inhalte machen Kollektionen, Aktionen und Kampagnen sichtbar – direkt dort, wo Kaufentscheidungen entstehen.",
+      "bullets": ["Kampagnen zentral steuern", "Produkte emotional präsentieren", "Aufmerksamkeit im Verkaufsraum erhöhen"],
+      "cta": { "label": "Retail entdecken", "href": "/branchen/retail" },
+      "imageSrc": "/images/products/Schuhladen-Meister-Signage.webp",
+      "imageAlt": "Digital Signage Retail – Schuhgeschäft mit digitalen Displays"
+    },
+    {
+      "number": "02",
+      "category": "Gastronomie",
+      "headline": "Menüs und Angebote flexibel aktualisieren.",
+      "body": "Digitale Menüboards zeigen Tagesangebote, Preise und Aktionen klar, modern und jederzeit aktuell.",
+      "bullets": ["Tagesmenüs schnell ändern", "Aktionen sichtbar platzieren", "Weniger Aufwand mit gedruckten Tafeln"],
+      "cta": { "label": "Gastronomie entdecken", "href": "/branchen/gastronomie" },
+      "imageSrc": "/images/products/Restaurant-Meister-Signage.webp",
+      "imageAlt": "Digital Signage Gastronomie – Digitales Menüboard im Restaurant"
+    },
+    {
+      "number": "03",
+      "category": "Hotellerie",
+      "headline": "Gäste informieren, ohne Atmosphäre zu verlieren.",
+      "body": "Digitale Displays verbinden Orientierung, Serviceinformationen und Markenauftritt elegant im Raum.",
+      "bullets": ["Willkommen & Orientierung", "Events und Services anzeigen", "Hochwertiger erster Eindruck"],
+      "cta": { "label": "Hotellerie entdecken", "href": "/branchen/hotellerie" },
+      "imageSrc": "/images/products/Hotelempfang-Meister-Signage.webp",
+      "imageAlt": "Digital Signage Hotel – Empfangsdisplay in der Lobby"
+    },
+    {
+      "number": "04",
+      "category": "Unternehmen & Empfang",
+      "headline": "Ein Empfang, der professionell informiert.",
+      "body": "Begrüssung, interne Informationen, Termine und Besucherführung werden digital, klar und repräsentativ dargestellt.",
+      "bullets": ["Besucher willkommen heissen", "Termine und Informationen anzeigen", "Räume modern wirken lassen"],
+      "cta": { "label": "Unternehmen entdecken", "href": "/branchen/unternehmen" },
+      "imageSrc": "/images/products/Unternehmen-Empfang.webp",
+      "imageAlt": "Digital Signage Unternehmen – Empfangsdisplay im Büro"
+    },
+    {
+      "number": "05",
+      "category": "Events & Messen",
+      "headline": "Informationen dort zeigen, wo Menschen sie brauchen.",
+      "body": "Agenda, Raumhinweise, Sponsoren und Live-Informationen lassen sich flexibel ausspielen und laufend anpassen.",
+      "bullets": ["Agenda und Wegführung", "Sponsoren sichtbar machen", "Inhalte kurzfristig ändern"],
+      "cta": { "label": "Events entdecken", "href": "/branchen/events" },
+      "imageSrc": "/images/products/Events-Meister-Signage.webp",
+      "imageAlt": "Digital Signage Events – Displays für Messen und Tagungen"
+    }
+  ]
+}

@@ -381,3 +381,237 @@ collections:
           - { label: "Primärer CTA — URL",      name: "primaryHref",     widget: "string" }
           - { label: "Zweiter CTA — Text",      name: "secondaryLabel",  widget: "string", required: false }
           - { label: "Zweiter CTA — URL",       name: "secondaryHref",   widget: "string", required: false }
+
+      - file: "content/site/homepage-benefits.json"
+        label: "Homepage — Vorteile-Section"
+        name: "homepage_benefits"
+        format: "json"
+        fields:
+          - { label: "Eyebrow",   name: "eyebrow",  widget: "string" }
+          - { label: "Titel",     name: "title",    widget: "string" }
+          - { label: "Untertitel", name: "subtitle", widget: "text" }
+          - label: "Hervorgehobene Karte"
+            name: "featured"
+            widget: "object"
+            fields:
+              - { label: "Icon (Name)", name: "icon",        widget: "string", hint: "z.B. sliders, layout-grid, shield-off, star, repeat-2, users" }
+              - { label: "Titel",       name: "title",       widget: "string" }
+              - { label: "Beschreibung", name: "description", widget: "text" }
+              - { label: "Link-Text",   name: "linkLabel",   widget: "string", required: false }
+              - { label: "Link-URL",    name: "linkHref",    widget: "string", required: false }
+          - label: "Karten (4 Stück)"
+            name: "cards"
+            widget: "list"
+            fields:
+              - { label: "Icon (Name)",  name: "icon",        widget: "string" }
+              - { label: "Titel",        name: "title",       widget: "string" }
+              - { label: "Beschreibung", name: "description", widget: "text" }
+          - label: "Dunkle CTA-Karte"
+            name: "darkCta"
+            widget: "object"
+            fields:
+              - { label: "Icon (Name)",  name: "icon",        widget: "string" }
+              - { label: "Titel",        name: "title",       widget: "string" }
+              - { label: "Beschreibung", name: "description", widget: "text" }
+              - { label: "Button-Text",  name: "ctaLabel",    widget: "string" }
+              - { label: "Button-URL",   name: "ctaHref",     widget: "string" }
+
+      - file: "content/site/homepage-industries.json"
+        label: "Homepage — Branchen-Kacheln"
+        name: "homepage_industries"
+        format: "json"
+        fields:
+          - label: "Kacheln (5 Stück empfohlen)"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Titel",        name: "title",       widget: "string" }
+              - { label: "Beschreibung", name: "description", widget: "text" }
+              - { label: "URL",          name: "href",        widget: "string" }
+              - { label: "Bild",         name: "imageSrc",    widget: "image" }
+
+      - file: "content/site/homepage-usecases.json"
+        label: "Homepage — Use Cases (Editorial-Reihe)"
+        name: "homepage_usecases"
+        format: "json"
+        fields:
+          - label: "Use Cases"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Nummer (z.B. 01)",  name: "number",   widget: "string" }
+              - { label: "Kategorie",         name: "category", widget: "string" }
+              - { label: "Headline",          name: "headline", widget: "string" }
+              - { label: "Body",              name: "body",     widget: "text" }
+              - label: "Bullet-Liste"
+                name: "bullets"
+                widget: "list"
+                field: { label: "Bullet", name: "text", widget: "string" }
+              - label: "CTA"
+                name: "cta"
+                widget: "object"
+                fields:
+                  - { label: "Text", name: "label", widget: "string" }
+                  - { label: "URL",  name: "href",  widget: "string" }
+              - { label: "Bild",     name: "imageSrc", widget: "image" }
+              - { label: "Bild Alt-Text", name: "imageAlt", widget: "string" }
+
+      - file: "content/site/footer.json"
+        label: "Footer"
+        name: "footer"
+        format: "json"
+        fields:
+          - label: "Spalte Lösungen"
+            name: "loesungen"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "URL",   name: "href",  widget: "string" }
+          - label: "Spalte Branchen"
+            name: "branchen"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "URL",   name: "href",  widget: "string" }
+          - label: "Spalte Unternehmen"
+            name: "unternehmen"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "URL",   name: "href",  widget: "string" }
+          - label: "Social-Links"
+            name: "socials"
+            widget: "object"
+            fields:
+              - { label: "LinkedIn-URL",  name: "linkedin",  widget: "string" }
+              - { label: "Instagram-URL", name: "instagram", widget: "string" }
+
+      - file: "content/site/kosten-faq.json"
+        label: "Kostenseite — FAQ"
+        name: "kosten_faq"
+        format: "json"
+        fields:
+          - label: "Fragen"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Frage",   name: "question", widget: "string" }
+              - { label: "Antwort", name: "answer",   widget: "text" }
+
+      - file: "content/site/ueber-uns.json"
+        label: "Über uns — Komplettinhalt"
+        name: "ueber_uns"
+        format: "json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow",   name: "eyebrow",  widget: "string" }
+              - { label: "Titel",     name: "title",    widget: "string" }
+              - { label: "Untertitel", name: "subtitle", widget: "text" }
+              - label: "Bullets (3)"
+                name: "bullets"
+                widget: "list"
+                field: { label: "Bullet", name: "text", widget: "string" }
+              - label: "Primärer CTA"
+                name: "primaryCta"
+                widget: "object"
+                fields:
+                  - { label: "Text", name: "label", widget: "string" }
+                  - { label: "URL",  name: "href",  widget: "string" }
+              - label: "Zweiter CTA"
+                name: "secondaryCta"
+                widget: "object"
+                fields:
+                  - { label: "Text", name: "label", widget: "string" }
+                  - { label: "URL",  name: "href",  widget: "string" }
+          - label: "Story-Section"
+            name: "story"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow",    name: "eyebrow",   widget: "string" }
+              - { label: "Titel",      name: "title",     widget: "string" }
+              - { label: "Untertitel", name: "subtitle",  widget: "text" }
+              - label: "Proof-Punkte (4)"
+                name: "proofItems"
+                widget: "list"
+                fields:
+                  - { label: "Metric / Wort",   name: "metric",      widget: "string" }
+                  - { label: "Titel",           name: "title",       widget: "string" }
+                  - { label: "Beschreibung",    name: "description", widget: "text" }
+          - label: "Arbeitsweise (Problem/Lösung)"
+            name: "arbeitsweise"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow",          name: "eyebrow",         widget: "string" }
+              - { label: "Titel",            name: "title",           widget: "string" }
+              - { label: "Untertitel",       name: "subtitle",        widget: "text" }
+              - { label: "Label Probleme",   name: "problemsLabel",   widget: "string" }
+              - { label: "Label Lösungen",   name: "solutionsLabel",  widget: "string" }
+              - label: "Probleme"
+                name: "problems"
+                widget: "list"
+                fields:
+                  - { label: "Titel",        name: "title",       widget: "string" }
+                  - { label: "Beschreibung", name: "description", widget: "text" }
+              - label: "Lösungen"
+                name: "solutions"
+                widget: "list"
+                fields:
+                  - { label: "Titel",        name: "title",       widget: "string" }
+                  - { label: "Beschreibung", name: "description", widget: "text" }
+          - label: "Versprechen (6 Icons)"
+            name: "versprechen"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow",   name: "eyebrow",  widget: "string" }
+              - { label: "Titel",     name: "title",    widget: "string" }
+              - { label: "Untertitel", name: "subtitle", widget: "text" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Icon (Name)", name: "icon",        widget: "string", hint: "user-check, lightbulb, badge-check, map-pin, message-square, shield" }
+                  - { label: "Titel",       name: "title",       widget: "string" }
+                  - { label: "Beschreibung", name: "description", widget: "text" }
+          - label: "Prozess (4 Schritte)"
+            name: "prozess"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow",   name: "eyebrow",  widget: "string" }
+              - { label: "Titel",     name: "title",    widget: "string" }
+              - { label: "Untertitel", name: "subtitle", widget: "text" }
+              - label: "Schritte"
+                name: "steps"
+                widget: "list"
+                fields:
+                  - { label: "Nummer",        name: "number",      widget: "number", value_type: "int" }
+                  - { label: "Titel",         name: "title",       widget: "string" }
+                  - { label: "Beschreibung",  name: "description", widget: "text" }
+          - label: "Finaler CTA-Block"
+            name: "finalCta"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow",   name: "eyebrow",  widget: "string" }
+              - { label: "Titel",     name: "title",    widget: "string" }
+              - { label: "Untertitel", name: "subtitle", widget: "text" }
+              - label: "Primärer CTA"
+                name: "primaryCta"
+                widget: "object"
+                fields:
+                  - { label: "Text", name: "label", widget: "string" }
+                  - { label: "URL",  name: "href",  widget: "string" }
+              - label: "Zweiter CTA"
+                name: "secondaryCta"
+                widget: "object"
+                fields:
+                  - { label: "Text", name: "label", widget: "string" }
+                  - { label: "URL",  name: "href",  widget: "string" }
+          - label: "Kontakt-Block"
+            name: "kontakt"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow",   name: "eyebrow",  widget: "string" }
+              - { label: "Titel",     name: "title",    widget: "string" }
+              - { label: "Untertitel", name: "subtitle", widget: "text" }

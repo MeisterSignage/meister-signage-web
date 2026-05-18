@@ -1,0 +1,24 @@
+{
+  "loesungen": [
+    { "label": "Displays kaufen",   "href": "/digital-signage-kaufen" },
+    { "label": "Displays mieten",   "href": "/digital-signage-mieten" },
+    { "label": "LED Walls",         "href": "/loesungen/led-walls" },
+    { "label": "Menüboards",        "href": "/loesungen/digitale-menueboards" }
+  ],
+  "branchen": [
+    { "label": "Gastronomie",       "href": "/branchen/gastronomie" },
+    { "label": "Retail & Handel",   "href": "/branchen/retail" },
+    { "label": "Events",            "href": "/branchen/events" },
+    { "label": "Hotellerie",        "href": "/branchen/hotellerie" },
+    { "label": "Unternehmen",       "href": "/branchen/unternehmen" }
+  ],
+  "unternehmen": [
+    { "label": "Über uns",          "href": "/ueber-uns" },
+    { "label": "News",              "href": "/news" },
+    { "label": "Kontakt",           "href": "/kontakt" }
+  ],
+  "socials": {
+    "linkedin":  "https://www.linkedin.com/company/meister-signage/posts/?feedView=all&viewAsMember=true",
+    "instagram": "https://www.instagram.com/meistersignage/"
+  }
+}

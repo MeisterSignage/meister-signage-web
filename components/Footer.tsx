@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { CONTACT } from "@/lib/contact";
+import footer from "@/content/site/footer.json";
 
 /* ── Color tokens ──────────────────────────────────────────── */
 // BG:        #111111
@@ -13,31 +14,15 @@ import { CONTACT } from "@/lib/contact";
 
 /* ── Nav data ──────────────────────────────────────────────── */
 
-const colLoesungen = [
-  { label: "Displays kaufen", href: "/digital-signage-kaufen" },
-  { label: "Displays mieten", href: "/digital-signage-mieten" },
-  { label: "LED Walls",       href: "/loesungen/led-walls" },
-  { label: "Menüboards",      href: "/loesungen/digitale-menueboards" },
-];
-
-const colBranchen = [
-  { label: "Gastronomie",     href: "/branchen/gastronomie" },
-  { label: "Retail & Handel", href: "/branchen/retail" },
-  { label: "Events",          href: "/branchen/events" },
-  { label: "Hotellerie",      href: "/branchen/hotellerie" },
-  { label: "Unternehmen",     href: "/branchen/unternehmen" },
-];
-
-const colUnternehmen = [
-  { label: "Über uns", href: "/ueber-uns" },
-  { label: "News",     href: "/news" },
-  { label: "Kontakt",  href: "/kontakt" },
-];
+/* Footer-Spalten kommen aus content/site/footer.json — via CMS editierbar. */
+const colLoesungen   = footer.loesungen;
+const colBranchen    = footer.branchen;
+const colUnternehmen = footer.unternehmen;
 
 const socials = [
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/company/meister-signage/posts/?feedView=all&viewAsMember=true",
+    href: footer.socials.linkedin,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" className="h-[17px] w-[17px]" aria-hidden="true">
         <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
@@ -48,7 +33,7 @@ const socials = [
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/meistersignage/",
+    href: footer.socials.instagram,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" className="h-[17px] w-[17px]" aria-hidden="true">
         <rect x="2" y="2" width="20" height="20" rx="5" />

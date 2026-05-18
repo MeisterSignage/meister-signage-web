@@ -14,38 +14,9 @@ type Industry = {
   imageSrc?: string;
 };
 
-const industries: Industry[] = [
-  {
-    title: "Retail & Fashion",
-    description: "Marken emotional inszenieren. Direkt am Point of Sale.",
-    href: "/branchen/retail",
-    imageSrc: "/images/products/Schuhladen-Meister-Signage.webp",
-  },
-  {
-    title: "Gastronomie",
-    description: "Digitale Menüboards und Aktionen flexibel steuern.",
-    href: "/branchen/gastronomie",
-    imageSrc: "/images/products/Restaurant-Meister-Signage.webp",
-  },
-  {
-    title: "Hotels & Empfang",
-    description: "Information und Atmosphäre elegant kombinieren.",
-    href: "/branchen/hotellerie",
-    imageSrc: "/images/products/Hotelempfang-Meister-Signage.webp",
-  },
-  {
-    title: "Unternehmen & Empfang",
-    description: "Besucher informieren. Räume modernisieren.",
-    href: "/branchen/unternehmen",
-    imageSrc: "/images/products/Unternehmen-Empfang.webp",
-  },
-  {
-    title: "Events & Messen",
-    description: "Dynamische Inhalte für Events und Besucherführung.",
-    href: "/branchen/events",
-    imageSrc: "/images/products/Events-Meister-Signage.webp",
-  },
-];
+/* Branchen-Kacheln aus content/site/homepage-industries.json — via CMS editierbar. */
+import industriesData from "@/content/site/homepage-industries.json";
+const industries: Industry[] = industriesData.items;
 
 const INTERVAL_MS = 2200;
 
