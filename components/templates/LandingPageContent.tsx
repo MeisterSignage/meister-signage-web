@@ -58,6 +58,7 @@ const LOESUNGEN_IMAGES: Record<string, { src: string; product: boolean }> = {
   "mobile-displays":         { src: "/images/products/Mobile-Display-Outdoor.webp",      product: false },
   "digitaler-empfang":       { src: "/images/products/Hotelempfang-Meister-Signage.webp", product: false },
   "digitale-leitsysteme":    { src: "/images/products/Unternehmen-Empfang.webp",         product: false },
+  "software":                { src: "/images/products/Software-Meister-Signage.webp",   product: true },
 };
 
 function resolveHeroImage(page: LandingPage): { src: string; product: boolean } | null {
@@ -178,7 +179,8 @@ export default function LandingPageContent({
           <motion.div
             className={`z-10 ${hasImage ? "max-w-xl" : "max-w-3xl"}`}
             initial={reduced ? false : { opacity: 0, y: 28 }}
-            animate={{ opacity: 1, y: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
             transition={{ duration: 0.7, ease: easeOut }}
           >
             <span
@@ -258,12 +260,7 @@ export default function LandingPageContent({
 
           {/* Hero image */}
           {heroImg && (
-            <motion.div
-              className="relative flex items-center justify-center lg:justify-end"
-              initial={reduced ? false : { opacity: 0, scale: 0.97, x: 20 }}
-              animate={{ opacity: 1, scale: 1, x: 0 }}
-              transition={{ duration: 0.9, ease: easeOut, delay: 0.15 }}
-            >
+            <div className="relative flex items-center justify-center lg:justify-end">
               {heroImg.product ? (
                 /* Product image — transparent bg, glow outline */
                 <div className="relative w-full max-w-[560px]">
@@ -315,7 +312,7 @@ export default function LandingPageContent({
                   />
                 </div>
               )}
-            </motion.div>
+            </div>
           )}
         </div>
 
