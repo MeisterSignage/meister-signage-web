@@ -3,7 +3,7 @@ title: "Digital Signage im Retail: Schaufenster, POS und Aktionen wirkungsvoll b
 description: "Wie Retailer digitale Displays für Schaufenster, Kassenbereich und Aktionskommunikation einsetzen — praxisnah, ohne Druckkosten."
 date: "2026-04-08"
 category: "Retail"
-image: "/images/products/Schuhladen-Meister-Signage.png"
+image: "/images/products/Schuhladen-Meister-Signage.webp"
 slug: "digital-signage-retail"
 status: draft
 ---

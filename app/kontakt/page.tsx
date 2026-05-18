@@ -178,7 +178,7 @@ export default function KontaktPage() {
         title="Sie sprechen direkt mit Chris Meister."
         subtitle="Kein Zwischenhändler, kein Ticketsystem. Als Gründer von Meister Signage ist Chris Ihr direkter Ansprechpartner – von der ersten Anfrage bis zur laufenden Betreuung."
         email="chris@meister-signage.ch"
-        imageSrc="/images/Chris-Meister.png"
+        imageSrc="/images/Chris-Meister.webp"
       />
 
       <FAQSection

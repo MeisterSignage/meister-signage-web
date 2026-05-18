@@ -3,7 +3,7 @@ title: "Spark Q+: Das quadratische Display für kreative Installationen"
 description: "Der Spark Q+ bricht mit dem Standard: 33 Zoll im Quadratformat für kreative Raumkonzepte, besondere Inszenierungen und Installationen, die auffallen."
 date: "2026-03-04"
 category: "Produkte"
-image: "/images/products/SparkQ-Design.png"
+image: "/images/products/SparkQ-Design.webp"
 slug: "sparkq-quadratisches-display"
 status: draft
 ---

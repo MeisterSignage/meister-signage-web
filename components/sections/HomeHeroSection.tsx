@@ -18,7 +18,7 @@ type HomeHeroSectionProps = {
  *  hosted elsewhere. The poster fallback uses an existing webp so the
  *  hero looks correct even if the video is missing / mobile / reduced-motion. */
 const HERO_VIDEO_SRC = "/images/hero-bg.mp4";
-const HERO_VIDEO_POSTER = "/images/products/meister-signage-parallax-bg.png";
+const HERO_VIDEO_POSTER = "/images/products/meister-signage-parallax-bg.webp";
 
 export default function HomeHeroSection({
   eyebrow = homepage.eyebrow,

@@ -119,7 +119,7 @@ export default function DigitalSignageMietenPage() {
         eyebrow="Persönlicher Kontakt"
         title="Sie möchten Digital Signage mieten?"
         subtitle="Schreiben Sie kurz, was Sie vorhaben und welchen Screen-Typ Sie im Einsatz sehen. Wir melden uns persönlich."
-        imageSrc="/images/Chris-Meister.png"
+        imageSrc="/images/Chris-Meister.webp"
       />
     </>
   );

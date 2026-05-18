@@ -3,7 +3,7 @@ title: "Spark 4: Unser Bestseller — 43 Zoll 4K für Gastronomie, Retail und Ho
 description: "Der Spark 4 ist das meistverkaufte Display von Meister Signage: 43 Zoll, 4K UHD, vielseitig einsetzbar in Gastronomie, Retail und Hotellerie."
 date: "2026-03-11"
 category: "Produkte"
-image: "/images/products/Spark4-Design.png"
+image: "/images/products/Spark4-Design.webp"
 slug: "spark4-vielseitiger-bestseller"
 status: draft
 ---

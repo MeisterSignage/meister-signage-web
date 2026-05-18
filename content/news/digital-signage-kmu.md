@@ -3,7 +3,7 @@ title: "Digital Signage für KMU: Kleiner Einstieg, grosse Wirkung"
 description: "Digital Signage ist nicht nur etwas für Grossunternehmen. Wie KMU in der Schweiz mit einem einzigen Display starten können — schlank, praxistauglich und bezahlbar."
 date: "2026-04-01"
 category: "Tipps"
-image: "/images/products/Unternehmen-Empfang.png"
+image: "/images/products/Unternehmen-Empfang.webp"
 slug: "digital-signage-kmu"
 status: draft
 ---

@@ -114,7 +114,7 @@ export default function DigitalSignageKaufenPage() {
         eyebrow="Persönlicher Kontakt"
         title="Sie möchten ein Display kaufen?"
         subtitle="Schreiben Sie kurz, was Sie vorhaben und welche Grösse Sie im Kopf haben. Wir melden uns persönlich mit einer klaren Empfehlung."
-        imageSrc="/images/Chris-Meister.png"
+        imageSrc="/images/Chris-Meister.webp"
       />
     </>
   );
