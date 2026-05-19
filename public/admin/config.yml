@@ -368,6 +368,54 @@ collections:
           - { label: "Telefon (Anzeige)",      name: "phoneDisplay", widget: "string" }
           - { label: "E-Mail",                 name: "email",        widget: "string" }
           - { label: "WhatsApp-URL",           name: "whatsapp",     widget: "string" }
+      - file: "content/site/kontakt-page.json"
+        label: "Kontaktseite"
+        name: "kontakt_page"
+        format: "json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow",    name: "eyebrow",  widget: "string" }
+              - { label: "Titel",      name: "title",    widget: "string" }
+              - { label: "Untertitel", name: "subtitle", widget: "text" }
+              - label: "Vertrauens-Punkte"
+                name: "bullets"
+                widget: "list"
+                field: { label: "Punkt", name: "text", widget: "string" }
+          - label: "Kontakt-Section"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow",    name: "eyebrow",  widget: "string" }
+              - { label: "Titel",      name: "title",    widget: "string" }
+              - { label: "Untertitel", name: "subtitle", widget: "text" }
+          - label: "FAQ"
+            name: "faq"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow",    name: "eyebrow",  widget: "string" }
+              - { label: "Titel",      name: "title",    widget: "string" }
+              - { label: "Untertitel", name: "subtitle", widget: "text" }
+              - label: "Fragen"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Frage",   name: "question", widget: "string" }
+                  - { label: "Antwort", name: "answer",   widget: "text" }
+          - label: "CTA-Block"
+            name: "cta"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow",                name: "eyebrow",        widget: "string" }
+              - { label: "Titel",                  name: "title",          widget: "string" }
+              - { label: "Untertitel",             name: "subtitle",       widget: "text" }
+              - { label: "Primärer Button — Text", name: "primaryLabel",   widget: "string" }
+              - { label: "Primärer Button — URL",  name: "primaryHref",    widget: "string" }
+              - { label: "Zweiter Button — Text",  name: "secondaryLabel", widget: "string", required: false }
+              - { label: "Zweiter Button — URL",   name: "secondaryHref",  widget: "string", required: false }
+
       - file: "content/site/homepage.json"
         label: "Homepage-Hero"
         name: "homepage"

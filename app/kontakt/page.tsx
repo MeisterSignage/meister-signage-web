@@ -8,6 +8,7 @@ import CTASection from "@/components/sections/CTASection";
 import JsonLd from "@/components/JsonLd";
 import { contactPageSchema } from "@/lib/schema/contactPage";
 import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
+import data from "@/content/site/kontakt-page.json";
 
 const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/kontakt`;
@@ -34,12 +35,6 @@ export const metadata: Metadata = {
 
 const NOISE =
   "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E\")";
-
-const TRUST_BULLETS = [
-  "Direkter Kontakt zu Chris Meister",
-  "Antwort in der Regel innerhalb eines Werktages",
-  "Unverbindliche Erstberatung — ohne Verkaufsdruck",
-];
 
 export default function KontaktPage() {
   return (
@@ -88,7 +83,7 @@ export default function KontaktPage() {
               className="mb-6 inline-block text-[11px] font-bold uppercase tracking-[0.18em]"
               style={{ color: "rgba(254,1,154,0.9)" }}
             >
-              Kontakt
+              {data.hero.eyebrow}
             </span>
             <h1
               className="mb-7 font-light leading-[0.95] tracking-tight"
@@ -98,7 +93,7 @@ export default function KontaktPage() {
                 color: "#f3f4f6",
               }}
             >
-              Lassen Sie uns Ihr Projekt besprechen.
+              {data.hero.title}
             </h1>
             <p
               className="mb-8 max-w-[560px] leading-relaxed"
@@ -107,11 +102,11 @@ export default function KontaktPage() {
                 color: "rgba(209,213,219,0.9)",
               }}
             >
-              Kein Formular-Dschungel, kein Callcenter. Schreiben Sie kurz, was Sie vorhaben — wir melden uns persönlich und unkompliziert.
+              {data.hero.subtitle}
             </p>
 
             <ul className="mb-10 flex flex-col gap-2.5">
-              {TRUST_BULLETS.map((b) => (
+              {data.hero.bullets.map((b) => (
                 <li key={b} className="flex items-start gap-3">
                   <span
                     className="mt-[3px] h-[5px] w-[5px] shrink-0 rounded-full"
@@ -159,7 +154,6 @@ export default function KontaktPage() {
         />
       </section>
 
-      {/* Anchor for smooth scroll — kept; ContactFormSection pulls up like a card */}
       <div
         id="kontaktformular"
         className="relative w-full bg-white"
@@ -174,52 +168,26 @@ export default function KontaktPage() {
       </div>
 
       <ContactSection
-        eyebrow="Persönlicher Ansprechpartner"
-        title="Sie sprechen direkt mit Chris Meister."
-        subtitle="Kein Zwischenhändler, kein Ticketsystem. Als Gründer von Meister Signage ist Chris Ihr direkter Ansprechpartner – von der ersten Anfrage bis zur laufenden Betreuung."
+        eyebrow={data.contact.eyebrow}
+        title={data.contact.title}
+        subtitle={data.contact.subtitle}
         email="chris@meister-signage.ch"
         imageSrc="/images/Chris-Meister.webp"
       />
 
       <FAQSection
-        eyebrow="Häufige Fragen zum Kontakt"
-        title="Was Sie vor der Anfrage wissen sollten."
-        subtitle="Kurze Antworten auf die häufigsten Fragen rund um Beratung, Angebote und die Zusammenarbeit."
-        faqs={[
-          {
-            question: "Wie schnell erhalte ich eine Rückmeldung?",
-            answer:
-              "In der Regel melden wir uns innerhalb eines Werktages. Dringende Anfragen können Sie auch direkt per Telefon oder WhatsApp stellen.",
-          },
-          {
-            question: "Ist die Erstberatung kostenlos?",
-            answer:
-              "Ja. Das erste Gespräch ist unverbindlich und kostenlos. Wir klären gemeinsam, ob und wie Digital Signage für Ihren Betrieb sinnvoll ist – ohne Verkaufsdruck.",
-          },
-          {
-            question: "Kann ich auch direkt anrufen?",
-            answer:
-              "Ja, jederzeit. Unter +41 76 452 66 87 erreichen Sie Chris Meister direkt. Alternativ steht auch WhatsApp zur Verfügung.",
-          },
-          {
-            question: "Für welche Projekte können Sie eine Beratung anbieten?",
-            answer:
-              "Für alle Anwendungen rund um Digital Signage: Gastronomie, Retail, Events, Hotellerie, Unternehmen oder Bildschirmvermietung. Auch bei sehr frühen Projektideen lohnt sich ein kurzes Gespräch.",
-          },
-          {
-            question: "Was sollte ich für das erste Gespräch vorbereiten?",
-            answer:
-              "Nicht viel. Ein paar kurze Informationen zu Ihrem Betrieb, wo Displays eingesetzt werden sollen und was Sie kommunizieren möchten – das reicht für ein erstes sinnvolles Gespräch.",
-          },
-        ]}
+        eyebrow={data.faq.eyebrow}
+        title={data.faq.title}
+        subtitle={data.faq.subtitle}
+        faqs={data.faq.items}
       />
 
       <CTASection
-        eyebrow="Jetzt starten"
-        title="Bereit für Ihr Digital-Signage-Projekt?"
-        subtitle="Schreiben Sie uns oder rufen Sie direkt an. Gemeinsam finden wir die passende Lösung für Ihren Betrieb."
-        primaryCta={{ label: "Projekt besprechen", href: "#kontaktformular" }}
-        secondaryCta={{ label: "Mehr über Meister Signage", href: "/ueber-uns" }}
+        eyebrow={data.cta.eyebrow}
+        title={data.cta.title}
+        subtitle={data.cta.subtitle}
+        primaryCta={{ label: data.cta.primaryLabel, href: data.cta.primaryHref }}
+        secondaryCta={{ label: data.cta.secondaryLabel, href: data.cta.secondaryHref }}
       />
     </>
   );
