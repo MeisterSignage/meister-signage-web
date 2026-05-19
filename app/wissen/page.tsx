@@ -97,8 +97,8 @@ export default function WissenIndexPage() {
           }}
         />
 
-        <div className="relative mx-auto flex max-w-[1200px] flex-col justify-center px-6 py-20 md:min-h-[55vh] md:px-10 lg:min-h-[60vh]">
-          <div className="z-10 max-w-3xl">
+        <div className="relative mx-auto grid max-w-[1200px] grid-cols-1 items-center gap-12 px-6 py-24 md:min-h-[55vh] md:px-10 lg:grid-cols-2 lg:gap-0 lg:min-h-[60vh]">
+          <div className="z-10 max-w-xl">
             <span
               className="mb-6 inline-block text-[11px] font-bold uppercase tracking-[0.18em]"
               style={{ color: "rgba(254,1,154,0.9)" }}
@@ -118,13 +118,40 @@ export default function WissenIndexPage() {
             <p
               className="mb-10 leading-relaxed"
               style={{
-                maxWidth: "560px",
+                maxWidth: "440px",
                 fontSize: "clamp(1rem, 1.5vw, 1.15rem)",
                 color: "rgba(209,213,219,0.9)",
               }}
             >
               Antworten auf häufige Fragen rund um digitale Displays, Software, Kosten, Miete und Anwendungen – verständlich und praxisnah.
             </p>
+          </div>
+
+          <div className="relative flex items-center justify-center lg:justify-end">
+            <div
+              className="relative w-full max-w-[560px] overflow-hidden rounded-[24px]"
+              style={{
+                aspectRatio: "16/9",
+                boxShadow:
+                  "0 24px 80px rgba(7,16,31,0.5), 0 4px 20px rgba(7,16,31,0.3), 0 0 0 1px rgba(254,1,154,0.20), 0 0 50px rgba(254,1,154,0.10)",
+              }}
+            >
+              <Image
+                src="/images/products/Ratgeber-Wissen.webp"
+                alt="Digital Signage Display mit Informationen, Inhalten und Inspiration"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 90vw, 50vw"
+                priority
+              />
+              <div
+                className="absolute inset-0 rounded-[24px]"
+                style={{
+                  background:
+                    "linear-gradient(135deg, rgba(26,39,68,0.08) 0%, transparent 60%)",
+                }}
+              />
+            </div>
           </div>
         </div>
 

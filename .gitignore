@@ -17,6 +17,7 @@ lh-lcp/
 public/images/products/HOAB - *.jpg
 public/images/products/LHDSWxxHD10 - *.jpg
 public/images/products/Software*.png
+public/images/products/Ratgeber-Wissen.png
 
 # debug
 npm-debug.log*
