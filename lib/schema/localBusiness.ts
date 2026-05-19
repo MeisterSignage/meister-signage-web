@@ -55,6 +55,7 @@ export const localBusinessSchema = {
     availableLanguage: ["de", "en"],
   },
   sameAs: [
+    "https://www.google.com/search?kgmid=/g/11z2v5lqzr",
     "https://www.linkedin.com/company/meister-signage/",
     "https://www.instagram.com/meistersignage/",
   ],
