@@ -1,5 +1,9 @@
-import type { Metadata } from "next";
+"use client";
+
+import Image from "next/image";
 import Link from "next/link";
+import { useRef } from "react";
+import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
 import { ArrowRight, Phone } from "lucide-react";
 import ContactFormSection from "@/components/sections/ContactFormSection";
 import ContactSection from "@/components/sections/ContactSection";
@@ -10,33 +14,15 @@ import { contactPageSchema } from "@/lib/schema/contactPage";
 import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
 import data from "@/content/site/kontakt-page.json";
 
-const SITE_URL = "https://www.meister-signage.ch";
-const PAGE_URL = `${SITE_URL}/kontakt`;
-
-export const metadata: Metadata = {
-  title: { absolute: "Kontakt – Digital Signage Beratung Schweiz | Meister Signage" },
-  description:
-    "Kontaktieren Sie Meister Signage für persönliche Beratung rund um Digital Signage, Displays und moderne Kommunikationslösungen.",
-  alternates: { canonical: PAGE_URL },
-  openGraph: {
-    type: "website",
-    locale: "de_CH",
-    url: PAGE_URL,
-    siteName: "Meister Signage",
-    title: "Kontakt – Digital Signage Beratung Schweiz | Meister Signage",
-    description: "Persönliche Beratung rund um Digital Signage. Direkt mit Chris Meister sprechen – kein Ticketsystem, kein Callcenter.",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Kontakt – Digital Signage Beratung Schweiz | Meister Signage",
-    description: "Persönliche Beratung rund um Digital Signage. Direkt erreichbar – kein Ticketsystem.",
-  },
-};
-
-const NOISE =
-  "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E\")";
-
 export default function KontaktPage() {
+  const heroRef = useRef<HTMLElement>(null);
+  const reduced = useReducedMotion();
+  const { scrollYProgress } = useScroll({
+    target: heroRef,
+    offset: ["start start", "end start"],
+  });
+  const bgY = useTransform(scrollYProgress, [0, 1], ["0%", "18%"]);
+
   return (
     <>
       <JsonLd schema={contactPageSchema as Record<string, unknown>} />
@@ -49,36 +35,77 @@ export default function KontaktPage() {
         }
       />
 
-      {/* ── Premium dark hero ─────────────────────────────────────── */}
+      {/* ── Cinematic Hero ──────────────────────────────────────── */}
       <section
+        ref={heroRef}
         className="relative w-full overflow-hidden"
-        style={{
-          background: "linear-gradient(160deg, #07101f 0%, #0d1628 50%, #111d38 100%)",
-        }}
+        style={{ minHeight: "clamp(500px, 62vh, 720px)" }}
       >
+        {/* Background image with subtle parallax */}
+        <motion.div
+          className="absolute inset-0"
+          style={{ y: reduced ? 0 : bgY }}
+        >
+          <Image
+            src="/images/products/Hotelempfang-Meister-Signage.webp"
+            alt=""
+            fill
+            className="object-cover object-center"
+            sizes="100vw"
+            priority
+            aria-hidden="true"
+          />
+        </motion.div>
+
+        {/* Cinematic overlay — dark left fade for text readability */}
         <div
-          className="pointer-events-none absolute inset-0 opacity-[0.025]"
+          className="absolute inset-0"
           aria-hidden="true"
-          style={{ backgroundImage: NOISE, backgroundSize: "160px 160px" }}
+          style={{
+            background:
+              "linear-gradient(90deg, rgba(4,8,20,0.92) 0%, rgba(4,8,20,0.78) 45%, rgba(4,8,20,0.35) 100%)",
+          }}
         />
+
+        {/* Vignette */}
+        <div
+          className="absolute inset-0"
+          aria-hidden="true"
+          style={{
+            background:
+              "radial-gradient(ellipse 120% 100% at 50% 50%, transparent 50%, rgba(4,8,20,0.5) 100%)",
+          }}
+        />
+
+        {/* Magenta glow — right side accent */}
         <div
           className="pointer-events-none absolute -right-40 top-0 h-full w-[700px]"
           aria-hidden="true"
           style={{
             background:
-              "radial-gradient(ellipse 60% 80% at 80% 40%, rgba(254,1,154,0.10) 0%, transparent 65%)",
-          }}
-        />
-        <div
-          className="pointer-events-none absolute -bottom-20 -left-20 h-[500px] w-[500px]"
-          aria-hidden="true"
-          style={{
-            background: "radial-gradient(circle, rgba(26,39,68,0.8) 0%, transparent 70%)",
+              "radial-gradient(ellipse 60% 80% at 80% 40%, rgba(254,1,154,0.08) 0%, transparent 65%)",
           }}
         />
 
-        <div className="relative mx-auto flex max-w-[1200px] flex-col justify-center px-6 py-20 md:min-h-[55vh] md:px-10 lg:min-h-[60vh]">
-          <div className="z-10 max-w-2xl">
+        {/* Bottom fade to white card */}
+        <div
+          className="pointer-events-none absolute bottom-0 left-0 right-0 h-48"
+          aria-hidden="true"
+          style={{
+            background:
+              "linear-gradient(to bottom, transparent 0%, rgba(4,8,20,0.6) 60%, rgba(4,8,20,0.85) 100%)",
+          }}
+        />
+
+        {/* Content */}
+        <div className="relative mx-auto flex max-w-[1200px] flex-col justify-center px-6 py-24 md:px-10" style={{ minHeight: "clamp(500px, 62vh, 720px)" }}>
+          <motion.div
+            className="z-10 max-w-2xl"
+            initial={reduced ? false : { opacity: 0, y: 28 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
+          >
             <span
               className="mb-6 inline-block text-[11px] font-bold uppercase tracking-[0.18em]"
               style={{ color: "rgba(254,1,154,0.9)" }}
@@ -106,7 +133,7 @@ export default function KontaktPage() {
             </p>
 
             <ul className="mb-10 flex flex-col gap-2.5">
-              {data.hero.bullets.map((b) => (
+              {data.hero.bullets.map((b: string) => (
                 <li key={b} className="flex items-start gap-3">
                   <span
                     className="mt-[3px] h-[5px] w-[5px] shrink-0 rounded-full"
@@ -141,19 +168,11 @@ export default function KontaktPage() {
                 Direkt anrufen
               </Link>
             </div>
-          </div>
+          </motion.div>
         </div>
-
-        <div
-          className="pointer-events-none absolute bottom-0 left-0 right-0 h-40"
-          aria-hidden="true"
-          style={{
-            background:
-              "linear-gradient(to bottom, transparent 0%, rgba(255,255,255,0.04) 60%, rgba(255,255,255,0.10) 100%)",
-          }}
-        />
       </section>
 
+      {/* Form card — pulls up over hero */}
       <div
         id="kontaktformular"
         className="relative w-full bg-white"
