@@ -368,7 +368,7 @@ export default function WasKostetDigitalSignagePage() {
           </div>
 
           <p className="mt-6 text-center text-[12px] text-cgray/60">
-            Alle Preise als Richtwerte exkl. MwSt. · Versand ca. CHF 60 pro Display · 30 % der Monatsmieten exkl. Einrichtung können bei späterem Kauf angerechnet werden.
+            Alle Preise aufgrund der Unternehmensform ohne MWST. Versand- und Speditionskosten für Displays auf Anfrage. 30 % der Mietkosten können bei einem späteren Kauf angerechnet werden.
           </p>
         </div>
       </section>
@@ -381,7 +381,7 @@ export default function WasKostetDigitalSignagePage() {
         packages={RENTAL_PACKAGES}
         ctaLabel="Anfrage starten"
         ctaHref="/kontakt"
-        note="Alle Preise exkl. MwSt. · Einmalige Einrichtungsgebühr: CHF 149 für Vorkonfiguration und Inbetriebnahme."
+        note="Alle Preise aufgrund der Unternehmensform ohne MWST. Für Vorkonfiguration, Einrichtung und Inbetriebnahme fällt einmalig eine Setup-Gebühr von CHF 149 an. Bei einem späteren Kauf fallen keine Set-Up Gebühren mehr an."
       />
 
       {/* 5 — Kaufen oder Mieten */}
