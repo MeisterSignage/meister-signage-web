@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import PricingQuickAnswerSection from "@/components/sections/PricingQuickAnswerSection";
@@ -17,8 +18,6 @@ import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
 import { serviceSchema } from "@/lib/schema/service";
 import kostenFaq from "@/content/site/kosten-faq.json";
 
-const NOISE =
-  "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E\")";
 
 const BUY_PRICES = [
   {
@@ -155,33 +154,63 @@ export default function WasKostetDigitalSignagePage() {
         serviceType: "Digital Signage Beratung",
       }) as Record<string, unknown>} />
 
-      {/* 1 — Premium dark hero (matches /loesungen/* and /wissen/* treatment) */}
+      {/* 1 — Cinematic fullbleed hero */}
       <section
         className="relative w-full overflow-hidden"
-        style={{ background: "linear-gradient(160deg, #07101f 0%, #0d1628 50%, #111d38 100%)" }}
+        style={{ minHeight: "clamp(500px, 62vh, 720px)" }}
       >
-        <div
-          className="pointer-events-none absolute inset-0 opacity-[0.025]"
+        {/* Background image */}
+        <Image
+          src="/images/products/Was-kostet-Hero-meister-signage.webp"
+          alt=""
+          fill
+          className="object-cover object-center"
+          sizes="100vw"
+          priority
           aria-hidden="true"
-          style={{ backgroundImage: NOISE, backgroundSize: "160px 160px" }}
         />
+
+        {/* Cinematic overlay — dark left fade for text readability */}
+        <div
+          className="absolute inset-0"
+          aria-hidden="true"
+          style={{
+            background:
+              "linear-gradient(90deg, rgba(4,8,20,0.92) 0%, rgba(4,8,20,0.78) 45%, rgba(4,8,20,0.35) 100%)",
+          }}
+        />
+
+        {/* Vignette */}
+        <div
+          className="absolute inset-0"
+          aria-hidden="true"
+          style={{
+            background:
+              "radial-gradient(ellipse 120% 100% at 50% 50%, transparent 50%, rgba(4,8,20,0.5) 100%)",
+          }}
+        />
+
+        {/* Magenta glow — right side accent */}
         <div
           className="pointer-events-none absolute -right-40 top-0 h-full w-[700px]"
           aria-hidden="true"
           style={{
             background:
-              "radial-gradient(ellipse 60% 80% at 80% 40%, rgba(254,1,154,0.10) 0%, transparent 65%)",
-          }}
-        />
-        <div
-          className="pointer-events-none absolute -bottom-20 -left-20 h-[500px] w-[500px]"
-          aria-hidden="true"
-          style={{
-            background: "radial-gradient(circle, rgba(26,39,68,0.8) 0%, transparent 70%)",
+              "radial-gradient(ellipse 60% 80% at 80% 40%, rgba(254,1,154,0.08) 0%, transparent 65%)",
           }}
         />
 
-        <div className="relative mx-auto flex max-w-[1200px] flex-col justify-center px-6 py-20 md:min-h-[60vh] md:px-10 lg:min-h-[62vh]">
+        {/* Bottom fade */}
+        <div
+          className="pointer-events-none absolute bottom-0 left-0 right-0 h-48"
+          aria-hidden="true"
+          style={{
+            background:
+              "linear-gradient(to bottom, transparent 0%, rgba(4,8,20,0.6) 60%, rgba(4,8,20,0.85) 100%)",
+          }}
+        />
+
+        <div className="relative mx-auto flex max-w-[1200px] flex-col justify-center px-6 py-24 md:px-10" style={{ minHeight: "clamp(500px, 62vh, 720px)" }}>
           <div className="z-10 max-w-3xl">
             <span
               className="mb-6 inline-block text-[11px] font-bold uppercase tracking-[0.18em]"
