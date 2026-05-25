@@ -313,6 +313,50 @@ export default function WasKostetDigitalSignagePage() {
         ]}
       />
 
+      {/* 2b — Preisübersicht als semantische Tabelle (AI-parsebar) */}
+      <section className="w-full bg-white">
+        <div className="section-inner">
+          <div className="mx-auto mb-10 max-w-2xl text-center">
+            <span className="eyebrow">Preisübersicht</span>
+            <h2 className="mb-4 mt-2 text-[clamp(2rem,3.2vw,2.8rem)] font-light leading-[1.06] tracking-tight text-navy">
+              Alle Modelle und Preise auf einen Blick
+            </h2>
+          </div>
+          <div className="-mx-6 overflow-x-auto px-6 sm:mx-0 sm:px-0">
+            <table className="mx-auto w-full max-w-3xl border-collapse text-left text-[14px]">
+              <thead>
+                <tr className="border-b border-navy/10">
+                  <th className="py-3 pr-4 font-semibold text-navy">Modell</th>
+                  <th className="py-3 pr-4 font-semibold text-navy">Grösse</th>
+                  <th className="py-3 pr-4 font-semibold text-navy">Auflösung</th>
+                  <th className="py-3 pr-4 font-semibold text-navy">Kaufpreis</th>
+                  <th className="py-3 font-semibold text-navy">Miete/Mt.</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { model: "Spark 3", size: '32"', res: "Full HD", buy: "CHF 1'299", rent: "CHF 129" },
+                  { model: "Spark 4", size: '43"', res: "4K UHD", buy: "CHF 1'499", rent: "CHF 139" },
+                  { model: "Spark 5", size: '50"', res: "4K UHD", buy: "CHF 1'599", rent: "CHF 149" },
+                  { model: "Spark Q+", size: '33" quadr.', res: "Full HD", buy: "CHF 1'699", rent: "CHF 159" },
+                ].map((r) => (
+                  <tr key={r.model} className="border-b border-navy/5">
+                    <td className="py-3 pr-4 font-semibold text-navy">{r.model}</td>
+                    <td className="py-3 pr-4 text-cgray">{r.size}</td>
+                    <td className="py-3 pr-4 text-cgray">{r.res}</td>
+                    <td className="py-3 pr-4 font-bold text-navy">{r.buy}</td>
+                    <td className="py-3 font-bold text-navy">{r.rent}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="mt-4 text-center text-[12px] text-cgray/60">
+            Alle Preise aufgrund der Unternehmensform ohne MWST. Setup-Gebühr CHF 149 einmalig.
+          </p>
+        </div>
+      </section>
+
       {/* 3 — Kaufpreise (premium card grid statt klassischer Preistabelle) */}
       <section className="w-full bg-offwhite">
         <div className="section-inner">

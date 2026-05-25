@@ -6,6 +6,7 @@ type ArticleSchemaInput = {
   dateModified?: string;
   imageUrl?: string;
   authorName?: string;
+  category?: string;
 };
 
 export function articleSchema({
@@ -16,6 +17,7 @@ export function articleSchema({
   dateModified,
   imageUrl,
   authorName = "Chris Meister",
+  category,
 }: ArticleSchemaInput) {
   return {
     "@context": "https://schema.org",
@@ -23,6 +25,7 @@ export function articleSchema({
     headline: title,
     description,
     url,
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
     datePublished,
     dateModified: dateModified ?? datePublished,
     image: imageUrl
@@ -42,6 +45,10 @@ export function articleSchema({
         url: "https://www.meister-signage.ch/logo.svg",
       },
     },
+    articleSection: category || undefined,
+    keywords: category
+      ? `Digital Signage, ${category}, Schweiz`
+      : "Digital Signage, Schweiz",
     speakable: {
       "@type": "SpeakableSpecification",
       cssSelector: ["h1", ".prose-article p:first-of-type"],

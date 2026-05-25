@@ -37,7 +37,7 @@ export async function generateMetadata({
     : `${SITE_URL}/og/meister-signage-og.png`;
 
   return {
-    title: { absolute: `${post.title} | Meister Signage` },
+    title: { absolute: `${post.seoTitle ?? post.title} | Meister Signage` },
     description: post.description,
     alternates: { canonical: url },
     openGraph: {
@@ -94,6 +94,7 @@ export default async function NewsDetailPage({
             url: pageUrl,
             datePublished: post.dateISO,
             imageUrl: ogImage,
+            category: post.category,
           }) as Record<string, unknown>
         }
       />

@@ -8,6 +8,7 @@ const NEWS_DIR = path.join(process.cwd(), "content/news");
 export type NewsPost = {
   slug: string;
   title: string;
+  seoTitle?: string;
   description: string;
   date: string;
   category: string;
@@ -37,6 +38,7 @@ function readAllPosts(): NewsPost[] {
     return {
       slug,
       title:       (data.title       as string)  ?? "Kein Titel",
+      seoTitle:    (data.seoTitle    as string | undefined),
       description: (data.description as string)  ?? "",
       date:        (data.date        as string)  ?? "",
       category:    (data.category    as string)  ?? "",
@@ -83,6 +85,7 @@ export function getPostBySlug(slug: string): NewsPostWithContent | null {
       return {
         slug:        fileSlug,
         title:       (data.title       as string)  ?? "",
+        seoTitle:    (data.seoTitle    as string | undefined),
         description: (data.description as string)  ?? "",
         date:        (data.date        as string)  ?? "",
         category:    (data.category    as string)  ?? "",

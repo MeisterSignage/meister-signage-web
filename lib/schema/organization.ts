@@ -58,6 +58,7 @@ export const organizationSchema = {
     "Empfangsdisplays",
     "Event-Displays",
   ],
+  foundingDate: "2024",
   founder: {
     "@type": "Person",
     name: "Chris Meister",
