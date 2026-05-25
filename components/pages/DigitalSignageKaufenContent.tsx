@@ -544,8 +544,132 @@ export default function DigitalSignageKaufenContent() {
         </div>
       </section>
 
+      {/* ── 3b. COMPARISON TABLE ─────────────────────────────────────────── */}
+      <section className="w-full bg-white" id="vergleich">
+        <div className="section-inner">
+
+          <motion.div
+            className="mb-14"
+            initial={reduced ? false : { opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={viewport}
+            transition={{ duration: 0.55, ease: easeOut }}
+          >
+            <span className="eyebrow">Vergleich</span>
+            <h2
+              className="mt-2 font-light text-navy"
+              style={{ fontSize: "clamp(1.75rem, 2.8vw, 2.6rem)", lineHeight: 1.1, letterSpacing: "-0.025em" }}
+            >
+              Alle Modelle im Vergleich.
+            </h2>
+            <p className="mt-3 max-w-lg text-[16px] leading-relaxed text-cgray">
+              Finden Sie das passende Display für Ihren Einsatz — auf einen Blick.
+            </p>
+          </motion.div>
+
+          <motion.div
+            className="-mx-6 overflow-x-auto px-6 sm:mx-0 sm:px-0"
+            initial={reduced ? false : { opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={viewport}
+            transition={{ duration: 0.6, ease: easeOut }}
+          >
+            <table className="w-full min-w-[640px] border-collapse text-left">
+              <thead>
+                <tr>
+                  <th className="w-[160px] pb-6 pr-4 align-bottom text-[13px] font-semibold text-cgray" />
+                  {products.map((p) => (
+                    <th key={p.model} className="relative pb-6 text-center align-bottom">
+                      {p.tag === "Premium" && (
+                        <span
+                          className="absolute -top-1 left-1/2 -translate-x-1/2 rounded-full px-3 py-0.5 text-[9px] font-black uppercase tracking-[0.12em] text-white"
+                          style={{ background: "rgba(254,1,154,0.85)" }}
+                        >
+                          Empfehlung
+                        </span>
+                      )}
+                      <div className="mx-auto mb-3 h-20 w-20 sm:h-24 sm:w-24">
+                        <Image
+                          src={p.imageSrc}
+                          alt={p.model}
+                          width={200}
+                          height={200}
+                          className="h-full w-full object-contain"
+                        />
+                      </div>
+                      <span className="block text-[18px] font-black tracking-tight text-navy">{p.model}</span>
+                      <span className="block text-[12px] text-cgray">{p.size} · {p.spec}</span>
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { label: "Bildschirmgrösse", values: ['32"', '43"', '50"', '33"'] },
+                  { label: "Auflösung", values: ["Full HD", "4K UHD", "4K UHD", "Full HD"] },
+                  { label: "Format", values: ["16:9", "16:9", "16:9", "1:1 (quadratisch)"] },
+                  { label: "Ideal für", values: ["Menüboards, Empfang", "Gastronomie, Retail", "Schaufenster, grosse Flächen", "Spezialinstallationen"] },
+                  { label: "Kaufpreis", values: ["CHF 1'299", "CHF 1'499", "CHF 1'599", "CHF 1'699"], bold: true },
+                  { label: "Mietpreis", values: ["CHF 129/Mo.", "CHF 139/Mo.", "CHF 149/Mo.", "CHF 159/Mo."], bold: true },
+                  { label: "Cloud-Steuerung", values: ["check", "check", "check", "check"] },
+                  { label: "Persönlicher Support", values: ["check", "check", "check", "check"] },
+                  { label: "24V Energieeffizient", values: ["check", "check", "check", "check"] },
+                  { label: "Plug & Play", values: ["check", "check", "check", "check"] },
+                ].map((row, i) => (
+                  <tr
+                    key={row.label}
+                    className={i % 2 === 0 ? "bg-offwhite/60" : ""}
+                  >
+                    <td className="py-3.5 pl-4 pr-4 text-[13px] font-semibold text-navy/80">
+                      {row.label}
+                    </td>
+                    {row.values.map((val, j) => (
+                      <td
+                        key={j}
+                        className={`py-3.5 text-center text-[13px] ${
+                          row.bold ? "font-bold text-navy" : "text-cgray"
+                        } ${products[j]?.tag === "Premium" ? "bg-magenta/[0.03]" : ""}`}
+                      >
+                        {val === "check" ? (
+                          <span className="mx-auto flex h-5 w-5 items-center justify-center rounded-full bg-green-50">
+                            <Check className="h-3 w-3 text-green-600" strokeWidth={3} />
+                          </span>
+                        ) : (
+                          val
+                        )}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td className="pt-5" />
+                  {products.map((p) => (
+                    <td key={p.model} className="pt-5 text-center">
+                      <Link
+                        href="/kontakt"
+                        className="inline-flex items-center gap-1.5 text-[12px] font-bold uppercase tracking-[0.1em] text-magenta transition-colors duration-150 hover:text-navy"
+                      >
+                        Anfragen
+                        <ArrowRight className="h-3 w-3" strokeWidth={2.5} />
+                      </Link>
+                    </td>
+                  ))}
+                </tr>
+              </tfoot>
+            </table>
+          </motion.div>
+
+          <p className="mt-6 text-center text-[12px] text-cgray/60">
+            Alle Preise aufgrund der Unternehmensform ohne MWST. Einrichtung, Versand und Software separat ausgewiesen.
+          </p>
+
+        </div>
+      </section>
+
       {/* ── 4. BENEFITS BENTO ────────────────────────────────────────────── */}
-      <section className="w-full bg-white">
+      <section className="w-full bg-offwhite">
         <div className="section-inner">
 
           <motion.div
