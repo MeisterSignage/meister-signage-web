@@ -82,6 +82,10 @@
     {
       "label": "Kontakt",
       "href": "/kontakt"
+    },
+    {
+      "label": "Ratgeber: Digitale Menüboards",
+      "href": "/wissen/digitale-menueboards"
     }
   ],
   "cta": {

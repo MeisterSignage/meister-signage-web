@@ -4,7 +4,7 @@
   "seoTitle": "Digitale Leitsysteme & Besucherführung Schweiz | Meister Signage",
   "seoDescription": "Digitale Leitsysteme und Wegeleitung für Hotels, Events, Firmengebäude und Bildungsinstitutionen. Räume, Programme und Wege flexibel anzeigen – immer aktuell.",
   "eyebrow": "Lösung · Digitale Leitsysteme",
-  "h1": "Digitale Orientierung für Menschen in Bewegung.",
+  "h1": "Digitale Leitsysteme – Orientierung für Menschen in Bewegung.",
   "intro": "Digitale Leitsysteme zeigen Wege, Räume, Programme und Hinweise flexibel und aktuell an. Statt gedruckter Wegweiser, die bei jeder Änderung veralten, kommuniziert jedes Display tagesaktuell – an einem Standort oder über mehrere Bereiche verteilt.",
   "benefits": [
     {
@@ -78,6 +78,10 @@
     {
       "label": "Software",
       "href": "/loesungen/software"
+    },
+    {
+      "label": "Ratgeber: Digitale Leitsysteme",
+      "href": "/wissen/digitale-leitsysteme"
     }
   ],
   "cta": {

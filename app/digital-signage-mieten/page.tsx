@@ -6,6 +6,7 @@ import JsonLd from "@/components/JsonLd";
 import { faqSchema } from "@/lib/schema/faq";
 import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
 import { serviceSchema } from "@/lib/schema/service";
+import { rentalOfferSchema } from "@/lib/schema/product";
 
 const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/digital-signage-mieten`;
@@ -98,6 +99,16 @@ export default function DigitalSignageMietenPage() {
           }) as Record<string, unknown>
         }
       />
+      {rentalOfferSchema(
+        [
+          { name: "Meister Spark 3 Miete – 32\" Display", description: "32\" Full HD Display zur monatlichen Miete inkl. Lizenz.", monthlyPrice: 129 },
+          { name: "Meister Spark 4 Miete – 43\" Display", description: "43\" 4K UHD Display zur monatlichen Miete inkl. Lizenz.", monthlyPrice: 139 },
+          { name: "Meister Spark 5 Miete – 50\" Display", description: "50\" 4K UHD Display zur monatlichen Miete inkl. Lizenz.", monthlyPrice: 149 },
+        ],
+        PAGE_URL,
+      ).map((schema, i) => (
+        <JsonLd key={`rental-${i}`} schema={schema as Record<string, unknown>} />
+      ))}
 
       <DigitalSignageMietenContent />
 

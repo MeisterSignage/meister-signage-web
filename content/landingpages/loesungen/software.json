@@ -4,7 +4,7 @@
   "seoTitle": "Digital Signage Software Schweiz – Inhalte zentral steuern | Meister Signage",
   "seoDescription": "Mit der Meister Signage Software Inhalte zentral verwalten, Displays steuern, Kampagnen planen und mehrere Standorte einfach koordinieren – ohne IT-Kenntnisse.",
   "eyebrow": "Lösung · Software",
-  "h1": "Inhalte zentral verwalten. Einfach und flexibel.",
+  "h1": "Digital Signage Software – Inhalte zentral verwalten.",
   "intro": "Die Meister Signage Software ist die zentrale Oberfläche zur Verwaltung Ihrer digitalen Inhalte. Sie steuern Displays, planen Inhalte, aktualisieren Kampagnen und behalten mehrere Standorte übersichtlich im Blick – ohne IT-Abteilung und ohne komplizierte Bedienung.",
   "benefits": [
     {
@@ -90,6 +90,10 @@
     {
       "label": "Displays mieten",
       "href": "/digital-signage-mieten"
+    },
+    {
+      "label": "Ratgeber: Digital Signage Software",
+      "href": "/wissen/digital-signage-software"
     }
   ],
   "cta": {

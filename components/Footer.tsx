@@ -18,6 +18,7 @@ import footer from "@/content/site/footer.json";
 const colLoesungen   = footer.loesungen;
 const colBranchen    = footer.branchen;
 const colUnternehmen = footer.unternehmen;
+const colStandorte   = (footer as Record<string, unknown>).standorte as { label: string; href: string }[] | undefined;
 
 const socials = [
   {
@@ -201,10 +202,11 @@ export default function Footer() {
           <div className="hidden lg:col-span-1 lg:block" aria-hidden="true" />
 
           {/* Nav columns */}
-          <div className="grid grid-cols-2 gap-10 sm:grid-cols-3 lg:col-span-7 lg:gap-8">
+          <div className="grid grid-cols-2 gap-10 sm:grid-cols-4 lg:col-span-7 lg:gap-8">
             <NavColumn heading="Lösungen"    links={colLoesungen} />
             <NavColumn heading="Branchen"    links={colBranchen} />
             <NavColumn heading="Unternehmen" links={colUnternehmen} />
+            {colStandorte && <NavColumn heading="Standorte" links={colStandorte} />}
           </div>
 
         </div>

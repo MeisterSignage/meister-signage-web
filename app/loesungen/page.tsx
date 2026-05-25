@@ -38,6 +38,7 @@ export default function LoesungenIndexPage() {
         eyebrow="Lösungen"
         title="Die richtige Lösung für jeden Einsatz."
         intro="Von der schlüsselfertigen Display-Installation über flexible Mietlösungen bis hin zu grossflächigen LED Walls – Meister Signage bietet das passende Setup für jeden Anwendungsfall."
+        heroImage="/images/products/Loesungen-Meister-Signage.webp"
         items={[
           {
             title: "Displays kaufen",

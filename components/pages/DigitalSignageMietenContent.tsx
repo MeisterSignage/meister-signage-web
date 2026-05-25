@@ -547,7 +547,7 @@ export default function DigitalSignageMietenContent() {
             viewport={viewport}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            Preise exkl. MwSt. · Setup-Gebühr je nach Projekt separat ausgewiesen · Individuelle Angebote auf Anfrage
+            Alle Preise aufgrund der Unternehmensform ohne MWST. Einmalige Setup-Gebühr von CHF 149. Individuelle Angebote auf Anfrage.
           </motion.p>
 
         </div>
@@ -608,7 +608,7 @@ export default function DigitalSignageMietenContent() {
                   </h3>
                   <p className="flex-1 text-[14px] leading-relaxed text-cgray">{cat.desc}</p>
                   <span className="mt-5 inline-flex items-center gap-1.5 text-[12px] font-bold uppercase tracking-[0.1em] text-magenta">
-                    Mehr erfahren
+                    {cat.title} ansehen
                     <ArrowRight className="h-3 w-3 transition-transform duration-200 group-hover:translate-x-1" strokeWidth={2.5} />
                   </span>
                 </Link>

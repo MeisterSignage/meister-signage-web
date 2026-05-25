@@ -18,6 +18,8 @@ import unternehmen    from "@/content/landingpages/branchen/unternehmen.json";
 import zuerich        from "@/content/landingpages/staedte/zuerich.json";
 import luzern         from "@/content/landingpages/staedte/luzern.json";
 import zug            from "@/content/landingpages/staedte/zug.json";
+import bern           from "@/content/landingpages/staedte/bern.json";
+import basel          from "@/content/landingpages/staedte/basel.json";
 
 import digitaleMenueboards from "@/content/landingpages/loesungen/digitale-menueboards.json";
 import empfangsdisplays    from "@/content/landingpages/loesungen/empfangsdisplays.json";
@@ -42,6 +44,8 @@ export const staedtePages: Record<string, LandingPage> = {
   zuerich: zuerich as LandingPage,
   luzern:  luzern  as LandingPage,
   zug:     zug     as LandingPage,
+  bern:    bern    as LandingPage,
+  basel:   basel   as LandingPage,
 };
 
 export const loesungenPages: Record<string, LandingPage> = {

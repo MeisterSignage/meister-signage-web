@@ -538,7 +538,7 @@ export default function DigitalSignageKaufenContent() {
             viewport={viewport}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            Preise exkl. MwSt. · Einrichtung, Versand und Software separat ausgewiesen · Individuelle Angebote auf Anfrage
+            Alle Preise aufgrund der Unternehmensform ohne MWST. Einrichtung, Versand und Software separat ausgewiesen. Individuelle Angebote auf Anfrage.
           </motion.p>
 
         </div>

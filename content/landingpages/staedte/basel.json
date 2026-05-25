@@ -1,0 +1,136 @@
+{
+  "slug": "basel",
+  "type": "staedte",
+  "seoTitle": "Digital Signage Basel – Meister Signage",
+  "seoDescription": "Digital-Signage-Lösungen für Betriebe in Basel. Messe, Pharma, Kultur und Retail – persönlich geplant, schlüsselfertig umgesetzt, schweizweit betreut.",
+  "eyebrow": "Standort · Basel",
+  "h1": "Digital Signage Basel",
+  "intro": "Basel ist ein international vernetzter Wirtschaftsstandort mit starker Messe-, Pharma- und Kulturszene. Die grenznahe Lage und die hohe Dichte an Unternehmen und Institutionen machen die Stadt zu einem idealen Markt für digitale Kommunikationslösungen. Meister Signage hat seinen Sitz in Baar (Kanton Zug) und realisiert Digital-Signage-Projekte für Betriebe in Basel und der Nordwestschweiz – persönlich, professionell und praxisnah.",
+  "benefits": [
+    {
+      "title": "Messestadt mit internationaler Ausstrahlung",
+      "description": "Basel ist Heimat der Messe Basel und internationaler Fachmessen. Digitale Displays für Wegweisung, Besucherinformation und Eventkommunikation sind hier besonders gefragt."
+    },
+    {
+      "title": "Stark in Pharma und Life Sciences",
+      "description": "Die Basler Pharma- und Life-Sciences-Branche setzt auf moderne Unternehmenskommunikation. Digital Signage eignet sich für Empfangsbereiche, Meetingräume und interne Informationskanäle."
+    },
+    {
+      "title": "Kultur- und Tourismusstandort",
+      "description": "Mit über 40 Museen und einer lebendigen Kulturszene bietet Basel viele Einsatzbereiche – von digitaler Besucherinformation bis hin zu interaktiven Ausstellungsdisplays."
+    },
+    {
+      "title": "Grenznahe Lage, dreisprachig",
+      "description": "Basel liegt im Dreiländereck Schweiz–Deutschland–Frankreich. Mehrsprachige Inhalte auf Digital-Signage-Displays erreichen ein internationales Publikum effektiv."
+    },
+    {
+      "title": "Persönliche Betreuung",
+      "description": "Sie kennen Ihren Ansprechpartner persönlich – nicht erst nach drei Support-Tickets. Wir kommen für Beratung und Installation direkt nach Basel."
+    },
+    {
+      "title": "Schnelle Projektumsetzung",
+      "description": "Von der ersten Beratung bis zur laufenden Lösung vergehen in der Regel wenige Wochen. Wir planen effizient und setzen termingerecht um – auch in Basel."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Hat Meister Signage einen Standort in Basel?",
+      "answer": "Meister Signage hat seinen Sitz in Baar (Kanton Zug) und ist in der ganzen Schweiz tätig. Basel gehört zu unseren aktiven Märkten – Beratung und Installation erfolgen direkt vor Ort."
+    },
+    {
+      "question": "Welche Betriebe in Basel profitieren von Digital Signage?",
+      "answer": "Besonders Pharma- und Life-Sciences-Unternehmen, Messeveranstalter, Hotels, Museen, Retail-Geschäfte und Gastronomiebetriebe profitieren. Auch Kulturinstitutionen und Kongresszentren sind typische Anwender in Basel."
+    },
+    {
+      "question": "Kann ich eine Lösung erst testen?",
+      "answer": "Ja. Mietoption und Einstiegslösungen mit einem Display ermöglichen einen Einstieg ohne grosse Vorabinvestition. Wir beraten Sie, welcher Ansatz für Ihren Betrieb in Basel sinnvoll ist."
+    },
+    {
+      "question": "Wie lange dauert eine typische Installation in Basel?",
+      "answer": "Eine Einzelinstallation ist in der Regel an einem halben bis ganzen Tag abgeschlossen. Grössere Projekte planen wir in Absprache mit Ihrem Betrieb."
+    },
+    {
+      "question": "Gibt es laufende Betreuung nach der Installation?",
+      "answer": "Ja. Wir bleiben nach dem Start erreichbar – für Inhaltspflege, technischen Support oder Erweiterungen. Das vereinbaren wir vorab transparent."
+    }
+  ],
+  "internalLinks": [
+    {
+      "label": "Digital Signage Schweiz",
+      "href": "/digital-signage-schweiz"
+    },
+    {
+      "label": "Digital Signage kaufen",
+      "href": "/digital-signage-kaufen"
+    },
+    {
+      "label": "Digital Signage mieten",
+      "href": "/digital-signage-mieten"
+    },
+    {
+      "label": "Gastronomie",
+      "href": "/branchen/gastronomie"
+    },
+    {
+      "label": "Hotellerie",
+      "href": "/branchen/hotellerie"
+    },
+    {
+      "label": "Digital Signage Zürich",
+      "href": "/staedte/zuerich"
+    },
+    {
+      "label": "Digital Signage Bern",
+      "href": "/staedte/bern"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/kontakt"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Projekt besprechen",
+    "title": "Digital-Signage-Lösung für Ihren Betrieb in Basel?",
+    "subtitle": "Wir betreuen Kunden in der ganzen Schweiz – auch in der Nordwestschweiz. Sagen Sie kurz, was Sie vorhaben – wir melden uns persönlich.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Über Meister Signage",
+    "secondaryHref": "/ueber-uns"
+  },
+  "related": {
+    "staedte": [
+      {
+        "label": "Digital Signage Zürich",
+        "href": "/staedte/zuerich"
+      },
+      {
+        "label": "Digital Signage Bern",
+        "href": "/staedte/bern"
+      }
+    ],
+    "branchen": [
+      {
+        "label": "Gastronomie",
+        "href": "/branchen/gastronomie"
+      },
+      {
+        "label": "Hotellerie",
+        "href": "/branchen/hotellerie"
+      },
+      {
+        "label": "Retail",
+        "href": "/branchen/retail"
+      }
+    ],
+    "loesungen": [
+      {
+        "label": "Digitale Menüboards",
+        "href": "/loesungen/digitale-menueboards"
+      },
+      {
+        "label": "Empfangsdisplays",
+        "href": "/loesungen/empfangsdisplays"
+      }
+    ]
+  }
+}

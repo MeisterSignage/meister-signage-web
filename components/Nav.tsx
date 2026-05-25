@@ -116,7 +116,8 @@ export default function Nav() {
 
             return (
               <div key={item.href} className="group relative">
-                <button
+                <Link
+                  href={item.href}
                   className={`flex items-center gap-1 text-[15px] font-medium tracking-wide transition-colors duration-150 ${
                     isActive(item.href) ? "text-magenta" : "text-navy/70 hover:text-navy"
                   }`}
@@ -126,7 +127,7 @@ export default function Nav() {
                     className="h-3.5 w-3.5 transition-transform duration-200 group-hover:rotate-180 text-navy/40"
                     strokeWidth={2}
                   />
-                </button>
+                </Link>
 
                 {/* Dropdown — grouped mega-menu, 2-col, or single column */}
                 <div

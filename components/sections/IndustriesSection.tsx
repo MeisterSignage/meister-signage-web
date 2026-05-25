@@ -136,7 +136,7 @@ function IndustryCard({
             {/* Hover arrow */}
             <div className="mt-4 inline-flex items-center gap-1.5 opacity-0 transition-all duration-300 group-hover:opacity-100">
               <span className="text-[12px] font-semibold text-white/80">
-                Mehr erfahren
+                {title} entdecken
               </span>
               <ArrowUpRight
                 className="h-3.5 w-3.5 text-white/70 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"

@@ -59,7 +59,7 @@ export default function IndustrySection({ eyebrow, title, subtitle, industries }
                       <p className="card-body max-w-xl">{industry.description}</p>
                     </div>
                   </div>
-                  <ArrowChip />
+                  <ArrowChip label={`${industry.title} entdecken`} />
                 </div>
 
               ) : isFeatured ? (
@@ -72,7 +72,7 @@ export default function IndustrySection({ eyebrow, title, subtitle, industries }
                     </p>
                     <p className="card-body">{industry.description}</p>
                   </div>
-                  <ArrowChip />
+                  <ArrowChip label={`${industry.title} entdecken`} />
                 </div>
 
               ) : (
@@ -83,7 +83,7 @@ export default function IndustrySection({ eyebrow, title, subtitle, industries }
                     <p className="card-title">{industry.title}</p>
                     <p className="card-body">{industry.description}</p>
                   </div>
-                  <ArrowChip />
+                  <ArrowChip label={`${industry.title} entdecken`} />
                 </div>
               )}
             </SpotlightCard>
@@ -119,10 +119,10 @@ function IconBox({
   );
 }
 
-function ArrowChip() {
+function ArrowChip({ label = "Mehr erfahren" }: { label?: string }) {
   return (
     <div className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-navy/50 transition-colors duration-150 group-hover:text-magenta">
-      Mehr erfahren
+      {label}
       <ArrowRight className="h-3.5 w-3.5" strokeWidth={2} />
     </div>
   );

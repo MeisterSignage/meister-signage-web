@@ -1,0 +1,136 @@
+{
+  "slug": "bern",
+  "type": "staedte",
+  "seoTitle": "Digital Signage Bern – Meister Signage",
+  "seoDescription": "Digital-Signage-Lösungen für Betriebe in Bern. Verwaltung, Tourismus, Gastronomie und KMU – persönlich geplant, schlüsselfertig umgesetzt.",
+  "eyebrow": "Standort · Bern",
+  "h1": "Digital Signage Bern",
+  "intro": "Als Bundesstadt und bedeutender Verwaltungs- und Tourismusstandort bietet Bern ein vielseitiges Umfeld für digitale Kommunikationslösungen. Meister Signage hat seinen Sitz in Baar (Kanton Zug) und realisiert Digital-Signage-Projekte für Betriebe in Bern und der Region – persönlich, zuverlässig und praxisnah.",
+  "benefits": [
+    {
+      "title": "Bundesstadt mit hoher Frequenz",
+      "description": "Bern zieht als Bundesstadt täglich tausende Besucher, Pendler und Touristen an. Digitale Displays erreichen hier ein breites Publikum – in Empfangsbereichen, Geschäften und der Gastronomie."
+    },
+    {
+      "title": "Ideal für Verwaltung und öffentliche Einrichtungen",
+      "description": "Behörden, Bildungseinrichtungen und öffentliche Organisationen profitieren von digitaler Besucherinformation, Wegweisung und Raumbuchungsanzeigen."
+    },
+    {
+      "title": "Starke Tourismus- und Altstadtpräsenz",
+      "description": "Die Berner Altstadt gehört zum UNESCO-Welterbe. Hotels, Museen und Gastronomiebetriebe nutzen Digital Signage für mehrsprachige Gästeinformation und Menüboards."
+    },
+    {
+      "title": "Persönliche Betreuung",
+      "description": "Sie kennen Ihren Ansprechpartner persönlich – nicht erst nach drei Support-Tickets. Wir sind direkt erreichbar und kommen für Beratung und Installation nach Bern."
+    },
+    {
+      "title": "Passend für KMU",
+      "description": "Die Berner Wirtschaft ist geprägt von leistungsstarken KMU. Unsere Lösungen sind auf diese Betriebsgrösse ausgelegt – skalierbar, praxistauglich, ohne überdimensionierten Aufwand."
+    },
+    {
+      "title": "Schnelle Projektumsetzung",
+      "description": "Von der ersten Beratung bis zur laufenden Lösung vergehen in der Regel wenige Wochen. Wir planen effizient und setzen termingerecht um."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Hat Meister Signage einen Standort in Bern?",
+      "answer": "Meister Signage hat seinen Sitz in Baar (Kanton Zug) und ist in der ganzen Schweiz tätig. Bern gehört zu unseren aktiven Märkten – Beratung und Installation erfolgen direkt vor Ort."
+    },
+    {
+      "question": "Welche Betriebe in Bern profitieren von Digital Signage?",
+      "answer": "Besonders Verwaltungsstellen, Hotels, Restaurants, Museen, Retail-Geschäfte und Unternehmen mit Empfangsbereichen profitieren. Auch Bildungseinrichtungen und Kongressveranstalter sind typische Anwender in Bern."
+    },
+    {
+      "question": "Kann ich eine Lösung erst testen?",
+      "answer": "Ja. Mietoption und Einstiegslösungen mit einem Display ermöglichen einen Einstieg ohne grosse Vorabinvestition. Wir beraten Sie, welcher Ansatz für Ihren Betrieb in Bern sinnvoll ist."
+    },
+    {
+      "question": "Wie lange dauert eine typische Installation in Bern?",
+      "answer": "Eine Einzelinstallation ist in der Regel an einem halben bis ganzen Tag abgeschlossen. Grössere Projekte planen wir in Absprache mit Ihrem Betrieb."
+    },
+    {
+      "question": "Gibt es laufende Betreuung nach der Installation?",
+      "answer": "Ja. Wir bleiben nach dem Start erreichbar – für Inhaltspflege, technischen Support oder Erweiterungen. Das vereinbaren wir vorab transparent."
+    }
+  ],
+  "internalLinks": [
+    {
+      "label": "Digital Signage Schweiz",
+      "href": "/digital-signage-schweiz"
+    },
+    {
+      "label": "Digital Signage kaufen",
+      "href": "/digital-signage-kaufen"
+    },
+    {
+      "label": "Digital Signage mieten",
+      "href": "/digital-signage-mieten"
+    },
+    {
+      "label": "Gastronomie",
+      "href": "/branchen/gastronomie"
+    },
+    {
+      "label": "Hotellerie",
+      "href": "/branchen/hotellerie"
+    },
+    {
+      "label": "Digital Signage Zürich",
+      "href": "/staedte/zuerich"
+    },
+    {
+      "label": "Digital Signage Basel",
+      "href": "/staedte/basel"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/kontakt"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Projekt besprechen",
+    "title": "Digital-Signage-Lösung für Ihren Betrieb in Bern?",
+    "subtitle": "Wir betreuen Kunden in der ganzen Schweiz – auch in der Bundesstadt. Sagen Sie kurz, was Sie vorhaben – wir melden uns persönlich.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Über Meister Signage",
+    "secondaryHref": "/ueber-uns"
+  },
+  "related": {
+    "staedte": [
+      {
+        "label": "Digital Signage Zürich",
+        "href": "/staedte/zuerich"
+      },
+      {
+        "label": "Digital Signage Basel",
+        "href": "/staedte/basel"
+      }
+    ],
+    "branchen": [
+      {
+        "label": "Gastronomie",
+        "href": "/branchen/gastronomie"
+      },
+      {
+        "label": "Hotellerie",
+        "href": "/branchen/hotellerie"
+      },
+      {
+        "label": "Retail",
+        "href": "/branchen/retail"
+      }
+    ],
+    "loesungen": [
+      {
+        "label": "Digitale Menüboards",
+        "href": "/loesungen/digitale-menueboards"
+      },
+      {
+        "label": "Empfangsdisplays",
+        "href": "/loesungen/empfangsdisplays"
+      }
+    ]
+  }
+}

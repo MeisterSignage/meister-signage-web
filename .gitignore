@@ -19,6 +19,8 @@ public/images/products/LHDSWxxHD10 - *.jpg
 public/images/products/Software*.png
 public/images/products/Ratgeber-Wissen.png
 public/images/products/Was-kostet-Hero-meister-signage.png
+public/images/products/Hero-Startseite-Meister-Signage.png
+public/images/products/Loesungen-Meister-Signage.png
 
 # debug
 npm-debug.log*

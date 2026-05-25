@@ -7,13 +7,11 @@ import IndustriesSection from "@/components/sections/IndustriesSection";
 import UseCasesSection from "@/components/sections/UseCasesSection";
 import TrustProcessSection from "@/components/sections/TrustProcessSection";
 import ModernFAQSection from "@/components/sections/ModernFAQSection";
-import MicroTrustSection from "@/components/sections/MicroTrustSection";
 import CTASection from "@/components/sections/CTASection";
 import ContactSection from "@/components/sections/ContactSection";
 import InternalLinksSection from "@/components/sections/InternalLinksSection";
 import ParallaxShowcaseSection from "@/components/sections/ParallaxShowcaseSection";
 import SoftwareTeaserSection from "@/components/sections/SoftwareTeaserSection";
-import AnimateIn from "@/components/ui/AnimateIn";
 import JsonLd from "@/components/JsonLd";
 import { faqSchema } from "@/lib/schema/faq";
 
@@ -21,7 +19,7 @@ const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = SITE_URL;
 
 export const metadata: Metadata = {
-  title: { absolute: "Meister Signage – Digital Signage Luzern & Zentralschweiz" },
+  title: { absolute: "Meister Signage – Digital Signage Zentralschweiz" },
   description: "Schlüsselfertige Digital-Signage-Lösungen für Gastronomie, Retail und Events. Persönlicher Service aus der Zentralschweiz. Kein IT-Aufwand.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
@@ -76,10 +74,6 @@ export default function Home() {
           (content/site/homepage.json). Hier keine Props mehr nötig. */}
       <HomeHeroSection />
 
-      {/* 2 — Micro trust strip */}
-      <AnimateIn distance={10} delay={0.1}>
-        <MicroTrustSection />
-      </AnimateIn>
 
       {/* 3 — Premium benefit grid */}
       <PremiumBenefitGrid />
@@ -104,36 +98,6 @@ export default function Home() {
       {/* 5 — Use cases editorial */}
       <UseCasesSection />
 
-      {/* 5.5 — Branchen parallax stories */}
-      <ParallaxShowcaseSection
-        eyebrow="Retail & Handel"
-        title="Mehr Aufmerksamkeit. Mehr Wirkung."
-        text="Digitale Displays inszenieren Produkte, Kampagnen und Markenbotschaften direkt am Point of Sale."
-        image="/images/products/Sektion-BG-parallax-Retail.webp"
-        imageAlt="Digital Signage im Retail – Schaufenster mit Display"
-        ctaLabel="Retail-Lösungen ansehen"
-        ctaHref="/branchen/retail"
-        intensifyOverlay
-      />
-      <ParallaxShowcaseSection
-        eyebrow="Gastronomie"
-        title="Genuss perfekt in Szene gesetzt."
-        text="Digitale Menüboards und Displays präsentieren Angebote, Tagesmenüs und Aktionen flexibel und hochwertig."
-        image="/images/products/Sektion-BG-parallax-Gastro.webp"
-        imageAlt="Digital Signage in der Gastronomie – Menüboard im Restaurant"
-        ctaLabel="Gastronomie-Lösungen ansehen"
-        ctaHref="/branchen/gastronomie"
-        imagePosition="left"
-      />
-      <ParallaxShowcaseSection
-        eyebrow="Hotellerie"
-        title="Willkommen. Der erste Eindruck zählt."
-        text="Digitale Displays verbinden Orientierung, Serviceinformationen und Atmosphäre zu einem stimmigen Gästeerlebnis."
-        image="/images/products/Sektion-BG-parallax-Hotel.webp"
-        imageAlt="Digital Signage in der Hotellerie – Lobby mit Display"
-        ctaLabel="Hotel-Lösungen ansehen"
-        ctaHref="/branchen/hotellerie"
-      />
 
       {/* 6 — Trust & process */}
       <TrustProcessSection />
@@ -157,6 +121,7 @@ export default function Home() {
           { label: "Digital Signage Schweiz",  href: "/digital-signage-schweiz" },
           { label: "Kosten & Preise",          href: "/was-kostet-digital-signage-schweiz" },
           { label: "Digital Signage mieten",   href: "/digital-signage-mieten" },
+          { label: "Digital Signage kaufen",  href: "/digital-signage-kaufen" },
           { label: "Gastronomie",              href: "/branchen/gastronomie" },
           { label: "Hotellerie",               href: "/branchen/hotellerie" },
           { label: "Retail",                   href: "/branchen/retail" },

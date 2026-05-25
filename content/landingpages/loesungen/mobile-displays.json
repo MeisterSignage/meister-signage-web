@@ -4,7 +4,7 @@
   "seoTitle": "Digitale Kundenstopper & mobile Displays Schweiz | Meister Signage",
   "seoDescription": "Digitale Kundenstopper, mobile Werbedisplays und akkubetriebene Outdoor-Displays. Flexibel platzierbar – im Eingang, an Events, in Retail und Gastronomie.",
   "eyebrow": "Lösung · Mobile Displays",
-  "h1": "Digitale Kundenstopper für flexible Aufmerksamkeit.",
+  "h1": "Mobile Displays & Kundenstopper für flexible Aufmerksamkeit.",
   "intro": "Mobile Displays bringen digitale Inhalte genau dorthin, wo Menschen vorbeigehen – im Eingangsbereich, vor dem Restaurant, an Events oder auf Verkaufsflächen. Flexibel platziert, ohne feste Installation, in Sekunden umgestellt.",
   "benefits": [
     {
@@ -78,6 +78,10 @@
     {
       "label": "Software",
       "href": "/loesungen/software"
+    },
+    {
+      "label": "Ratgeber: Digitale Kundenstopper",
+      "href": "/wissen/digitale-kundenstopper"
     }
   ],
   "cta": {

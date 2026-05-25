@@ -86,7 +86,7 @@ const PAGE_URL = `${SITE_URL}/was-kostet-digital-signage-schweiz`;
 export const metadata: Metadata = {
   title: { absolute: "Was kostet Digital Signage in der Schweiz? | Meister Signage" },
   description:
-    "Digital Signage Kosten in der Schweiz: Mietpreise, Kaufpreise, Lizenzkosten und Kostenfaktoren verständlich erklärt. Mit Preisübersicht für KMU.",
+    "Digital Signage Kosten in der Schweiz ab CHF 129/Mt.: Mietpreise, Kaufpreise, Lizenzkosten und Kostenfaktoren verständlich erklärt. Preisübersicht für KMU.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "website",

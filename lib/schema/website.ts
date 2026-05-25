@@ -14,4 +14,12 @@ export const websiteSchema = {
     "@type": "Organization",
     "@id": `${BASE}/#organization`,
   },
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: `https://www.google.com/search?q=site:meister-signage.ch+{search_term_string}`,
+    },
+    "query-input": "required name=search_term_string",
+  },
 };

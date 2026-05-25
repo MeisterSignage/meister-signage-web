@@ -4,7 +4,7 @@
   "seoTitle": "Digitaler Empfang & Welcome Screen Schweiz | Meister Signage",
   "seoDescription": "Digitaler Empfang, Lobby- und Besucherdisplays für Unternehmen, Hotels und Showrooms. Besucher digital begrüssen, informieren und führen – ab dem ersten Eindruck.",
   "eyebrow": "Lösung · Digitaler Empfang",
-  "h1": "Der erste Eindruck beginnt digital.",
+  "h1": "Digitaler Empfang – der erste Eindruck beginnt digital.",
   "intro": "Ein digitaler Empfang informiert, begrüsst und orientiert Besucher direkt beim Betreten des Gebäudes. Inhalte können zentral angepasst und jederzeit aktualisiert werden – im Unternehmen, im Hotel oder im Showroom.",
   "benefits": [
     {
@@ -78,6 +78,10 @@
     {
       "label": "Software",
       "href": "/loesungen/software"
+    },
+    {
+      "label": "Ratgeber: Digitale Leitsysteme",
+      "href": "/wissen/digitale-leitsysteme"
     }
   ],
   "cta": {

@@ -18,6 +18,7 @@ type Props = {
   items: OverviewItem[];
   contactTitle: string;
   contactSubtitle: string;
+  heroImage?: string;
 };
 
 const NOISE =
@@ -30,36 +31,60 @@ export default function OverviewPage({
   items,
   contactTitle,
   contactSubtitle,
+  heroImage,
 }: Props) {
   return (
     <>
-      {/* ── Hero (text-only) ─────────────────────────────────────────────── */}
+      {/* ── Hero ──────────────────────────────────────────────────────────── */}
       <section
         className="relative w-full overflow-hidden"
-        style={{
-          background: "linear-gradient(160deg, #07101f 0%, #0d1628 50%, #111d38 100%)",
-        }}
+        style={{ backgroundColor: "#07101f" }}
       >
-        <div
-          className="pointer-events-none absolute inset-0 opacity-[0.025]"
-          aria-hidden="true"
-          style={{ backgroundImage: NOISE, backgroundSize: "160px 160px" }}
-        />
-        <div
-          className="pointer-events-none absolute -right-40 top-0 h-full w-[700px]"
-          aria-hidden="true"
-          style={{
-            background:
-              "radial-gradient(ellipse 60% 80% at 80% 40%, rgba(254,1,154,0.10) 0%, transparent 65%)",
-          }}
-        />
-        <div
-          className="pointer-events-none absolute -bottom-20 -left-20 h-[500px] w-[500px]"
-          aria-hidden="true"
-          style={{
-            background: "radial-gradient(circle, rgba(26,39,68,0.8) 0%, transparent 70%)",
-          }}
-        />
+        {heroImage ? (
+          <>
+            <Image
+              src={heroImage}
+              alt=""
+              width={1536}
+              height={1024}
+              className="pointer-events-none absolute left-1/2 top-1/2 h-auto max-h-full w-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+              fetchPriority="high"
+              aria-hidden="true"
+              style={{ mask: "radial-gradient(ellipse 85% 85% at 50% 50%, black 40%, transparent 100%)" }}
+            />
+            <div
+              className="pointer-events-none absolute inset-0"
+              aria-hidden="true"
+              style={{
+                background:
+                  "linear-gradient(135deg, rgba(7,16,31,0.55) 0%, rgba(13,22,40,0.35) 50%, rgba(7,16,31,0.45) 100%)",
+              }}
+            />
+          </>
+        ) : (
+          <>
+            <div
+              className="pointer-events-none absolute inset-0 opacity-[0.025]"
+              aria-hidden="true"
+              style={{ backgroundImage: NOISE, backgroundSize: "160px 160px" }}
+            />
+            <div
+              className="pointer-events-none absolute -right-40 top-0 h-full w-[700px]"
+              aria-hidden="true"
+              style={{
+                background:
+                  "radial-gradient(ellipse 60% 80% at 80% 40%, rgba(254,1,154,0.10) 0%, transparent 65%)",
+              }}
+            />
+            <div
+              className="pointer-events-none absolute -bottom-20 -left-20 h-[500px] w-[500px]"
+              aria-hidden="true"
+              style={{
+                background: "radial-gradient(circle, rgba(26,39,68,0.8) 0%, transparent 70%)",
+              }}
+            />
+          </>
+        )}
 
         <div className="relative mx-auto flex max-w-[1200px] flex-col justify-center px-6 py-20 md:min-h-[55vh] md:px-10 lg:min-h-[60vh]">
           <div className="z-10 max-w-3xl">
@@ -151,7 +176,7 @@ export default function OverviewPage({
                   </h2>
                   <p className="mb-5 text-[14px] leading-relaxed text-cgray">{item.desc}</p>
                   <span className="mt-auto inline-flex items-center gap-1.5 text-[12px] font-bold uppercase tracking-[0.1em] text-magenta">
-                    Mehr erfahren
+                    {item.title} entdecken
                     <ArrowRight
                       className="h-3 w-3 transition-transform duration-200 group-hover:translate-x-1"
                       strokeWidth={2.5}
