@@ -1,3 +1,11 @@
+# ─── HTTPS + www Redirect ─────────────────────────────────────
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^meister-signage\.ch$ [NC]
+RewriteRule ^ https://www.meister-signage.ch%{REQUEST_URI} [L,R=301]
+
 # ─── Security Headers ──────────────────────────────────────────
 # Meister Signage — Novatrend / LiteSpeed
 # Deployed to public/ and copied to out/ during build.
