@@ -19,7 +19,7 @@ const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = SITE_URL;
 
 export const metadata: Metadata = {
-  title: { absolute: "Meister Signage – Digital Signage Zentralschweiz" },
+  title: { absolute: "Meister Signage | Digitale Displays Zentralschweiz" },
   description: "Schlüsselfertige Digital-Signage-Lösungen für Gastronomie, Retail und Events. Persönlicher Service aus der Zentralschweiz. Kein IT-Aufwand.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
