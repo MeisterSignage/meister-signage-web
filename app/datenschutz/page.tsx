@@ -10,11 +10,7 @@ export const metadata: Metadata = {
 };
 
 // ─── Hinweise für zukünftige Dienste (noch nicht aktiv) ──────────
-// TODO: CookieYes-Abschnitt ergänzen, sobald CookieYes eingebunden ist
-// TODO: Google Analytics 4-Abschnitt ergänzen, sobald GA4 aktiv ist
-// TODO: Microsoft Clarity-Abschnitt ergänzen, sobald Clarity aktiv ist
 // TODO: YouTube-Abschnitt ergänzen, sobald Videos eingebettet werden
-// TODO: HubSpot-Abschnitt ergänzen, sobald HubSpot eingebunden ist
 // ─────────────────────────────────────────────────────────────────
 
 export default function DatenschutzPage() {
@@ -97,22 +93,95 @@ export default function DatenschutzPage() {
 
           {/* 5 */}
           <section className="py-7">
-            <h2 className="mb-3 text-navy">5. Cookies</h2>
+            <h2 className="mb-3 text-navy">5. Cookies und Einwilligung</h2>
             <p className="card-body mb-3">
               Diese Website verwendet technisch notwendige Cookies, die für den Betrieb der Website
               erforderlich sind. Diese Cookies speichern keine personenbezogenen Daten und können
               nicht deaktiviert werden.
             </p>
+            <p className="card-body mb-3">
+              Zusätzlich setzen wir Analyse-Cookies ein (Google Analytics 4 und Microsoft Clarity).
+              Diese werden erst nach Ihrer ausdrücklichen Einwilligung über den Cookie-Banner aktiviert.
+              Ihre Einwilligung können Sie jederzeit widerrufen, indem Sie die gespeicherten
+              Browserdaten löschen und die Website erneut aufrufen.
+            </p>
             <p className="card-body">
-              Analyse- oder Marketing-Cookies werden derzeit nicht eingesetzt. Sollten künftig
-              entsprechende Dienste aktiviert werden, erfolgt dies ausschliesslich nach Ihrer
-              ausdrücklichen Einwilligung über einen Cookie-Banner.
+              Wenn Sie im Cookie-Banner auf «Ablehnen» klicken, werden keine Analyse-Cookies gesetzt
+              und keine Daten an Google oder Microsoft übermittelt.
             </p>
           </section>
 
           {/* 6 */}
           <section className="py-7">
-            <h2 className="mb-3 text-navy">6. Kontaktaufnahme</h2>
+            <h2 className="mb-3 text-navy">6. Google Analytics 4</h2>
+            <p className="card-body mb-3">
+              Diese Website nutzt Google Analytics 4, einen Webanalysedienst der Google Ireland
+              Limited, Gordon House, Barrow Street, Dublin 4, Irland. Google Analytics verwendet
+              Cookies, die eine Analyse der Nutzung der Website ermöglichen. Die Mess-ID lautet
+              G-12LJVBM5KQ.
+            </p>
+            <p className="card-body mb-3">
+              Google Analytics wird ausschliesslich nach Ihrer Einwilligung über den Cookie-Banner
+              aktiviert. Die erhobenen Daten (z.&nbsp;B. aufgerufene Seiten, Verweildauer, Gerätetyp,
+              ungefährer Standort) werden an Google-Server übertragen und können in die USA
+              übermittelt werden.
+            </p>
+            <p className="card-body">
+              Die IP-Anonymisierung ist standardmässig aktiviert. Weitere Informationen:{" "}
+              <a
+                href="https://policies.google.com/privacy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-magenta hover:underline"
+              >
+                policies.google.com/privacy
+              </a>
+              . Sie können die Erfassung durch Google Analytics verhindern, indem Sie im Cookie-Banner
+              auf «Ablehnen» klicken oder das{" "}
+              <a
+                href="https://tools.google.com/dlpage/gaoptout"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-magenta hover:underline"
+              >
+                Browser-Add-on zur Deaktivierung
+              </a>{" "}
+              installieren.
+            </p>
+          </section>
+
+          {/* 7 */}
+          <section className="py-7">
+            <h2 className="mb-3 text-navy">7. Microsoft Clarity</h2>
+            <p className="card-body mb-3">
+              Diese Website nutzt Microsoft Clarity, einen Analysedienst der Microsoft Corporation,
+              One Microsoft Way, Redmond, WA 98052, USA. Clarity zeichnet anonymisierte
+              Nutzungsdaten auf, darunter Mausbewegungen, Klicks und Scrollverhalten (Heatmaps und
+              Session-Recordings).
+            </p>
+            <p className="card-body mb-3">
+              Microsoft Clarity wird ausschliesslich nach Ihrer Einwilligung über den Cookie-Banner
+              aktiviert. Die erhobenen Daten werden auf Servern von Microsoft verarbeitet und
+              können in die USA übermittelt werden.
+            </p>
+            <p className="card-body">
+              Weitere Informationen:{" "}
+              <a
+                href="https://privacy.microsoft.com/privacystatement"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-magenta hover:underline"
+              >
+                privacy.microsoft.com
+              </a>
+              . Sie können die Erfassung durch Clarity verhindern, indem Sie im Cookie-Banner
+              auf «Ablehnen» klicken.
+            </p>
+          </section>
+
+          {/* 8 */}
+          <section className="py-7">
+            <h2 className="mb-3 text-navy">8. Kontaktaufnahme</h2>
             <p className="card-body mb-3">
               Wenn Sie uns per E-Mail, Telefon oder Kontaktformular kontaktieren, werden die von
               Ihnen übermittelten Daten zur Bearbeitung Ihrer Anfrage gespeichert und verarbeitet.
@@ -139,7 +208,7 @@ export default function DatenschutzPage() {
 
           {/* 7 */}
           <section className="py-7">
-            <h2 className="mb-3 text-navy">7. Kontaktformular (Formspree)</h2>
+            <h2 className="mb-3 text-navy">9. Kontaktformular (Formspree)</h2>
             <p className="card-body mb-3">
               Das Kontaktformular auf dieser Website wird über den Dienst Formspree (Formspree Inc.,
               USA) bereitgestellt. Bei Absenden des Formulars werden Ihre Angaben (Name, E-Mail-Adresse,
@@ -163,7 +232,7 @@ export default function DatenschutzPage() {
 
           {/* 8 */}
           <section className="py-7">
-            <h2 className="mb-3 text-navy">8. Google Search Console</h2>
+            <h2 className="mb-3 text-navy">10. Google Search Console</h2>
             <p className="card-body">
               Wir nutzen die Google Search Console zur technischen Überwachung und Optimierung der
               Sichtbarkeit dieser Website in der Google-Suche. Dabei werden aggregierte Daten über
@@ -183,7 +252,7 @@ export default function DatenschutzPage() {
 
           {/* 8 */}
           <section className="py-7">
-            <h2 className="mb-3 text-navy">9. Social Media</h2>
+            <h2 className="mb-3 text-navy">11. Social Media</h2>
             <p className="card-body">
               Diese Website enthält Links zu LinkedIn, Instagram, WhatsApp und YouTube. Beim
               blossen Besuch dieser Website werden über diese einfachen Links grundsätzlich keine
@@ -194,7 +263,7 @@ export default function DatenschutzPage() {
 
           {/* 9 */}
           <section className="py-7">
-            <h2 className="mb-3 text-navy">10. Speicherung und Aufbewahrung</h2>
+            <h2 className="mb-3 text-navy">12. Speicherung und Aufbewahrung</h2>
             <p className="card-body">
               Personenbezogene Daten werden nur so lange gespeichert, wie dies für den jeweiligen
               Zweck erforderlich ist oder gesetzliche Aufbewahrungspflichten bestehen.
@@ -203,9 +272,10 @@ export default function DatenschutzPage() {
 
           {/* 10 */}
           <section className="py-7">
-            <h2 className="mb-3 text-navy">11. Datenübermittlung ins Ausland</h2>
+            <h2 className="mb-3 text-navy">13. Datenübermittlung ins Ausland</h2>
             <p className="card-body">
-              Einzelne Dienste (z. B. Google Search Console, WhatsApp) können Daten ausserhalb der
+              Einzelne Dienste (z.&nbsp;B. Google Analytics 4, Microsoft Clarity, Google Search Console,
+              Formspree, WhatsApp) können Daten ausserhalb der
               Schweiz bzw. der EU verarbeiten. Wir stellen sicher, dass dabei ein angemessenes
               Datenschutzniveau gewährleistet ist.
             </p>
@@ -213,7 +283,7 @@ export default function DatenschutzPage() {
 
           {/* 11 */}
           <section className="py-7">
-            <h2 className="mb-4 text-navy">12. Rechte betroffener Personen</h2>
+            <h2 className="mb-4 text-navy">14. Rechte betroffener Personen</h2>
             <p className="card-body mb-4">
               Sie haben gegenüber uns folgende Rechte bezüglich Ihrer personenbezogenen Daten:
             </p>
@@ -251,7 +321,7 @@ export default function DatenschutzPage() {
 
           {/* 12 */}
           <section className="py-7">
-            <h2 className="mb-3 text-navy">13. Änderungen dieser Datenschutzerklärung</h2>
+            <h2 className="mb-3 text-navy">15. Änderungen dieser Datenschutzerklärung</h2>
             <p className="card-body">
               Wir behalten uns vor, diese Datenschutzerklärung jederzeit anzupassen, insbesondere
               wenn neue Dienste eingesetzt werden. Die jeweils aktuelle Version ist auf dieser Seite
