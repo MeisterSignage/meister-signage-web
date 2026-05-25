@@ -18,6 +18,11 @@
   --font-lato: 'Lato', sans-serif;
 }
 
+/* ─── Prevent horizontal overflow on mobile ─────────────────── */
+html, body {
+  overflow-x: hidden;
+}
+
 /* ─── CSS Custom Properties ──────────────────────────────────── */
 :root {
   /* Colors */
