@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
+import ScrollToTop from "@/components/ScrollToTop";
 import Footer from "@/components/Footer";
 import FloatingSocials from "@/components/ui/FloatingSocials";
 import JsonLd from "@/components/JsonLd";
@@ -112,7 +113,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <Nav />
-        <main>{children}</main>
+        <ScrollToTop />
+        <main className="mt-[69px]">{children}</main>
         <Footer />
         <FloatingSocials />
       </body>

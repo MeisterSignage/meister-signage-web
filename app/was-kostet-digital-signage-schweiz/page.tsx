@@ -427,13 +427,13 @@ export default function WasKostetDigitalSignagePage() {
             icon: Truck,
             title: "Versand",
             description:
-              "Pro Display können Versandkosten von ca. CHF 60 entstehen, abhängig von Standort und Bestellgrösse.",
+              "Versand- und Speditionskosten richten sich nach Displaygrösse, Standort und Lieferumfang. Gerne erstellen wir Ihnen ein individuelles Angebot.",
           },
           {
             icon: Palette,
             title: "Content-Erstellung",
             description:
-              "Falls keine eigenen Vorlagen vorhanden sind, können Inhalte oder Designvorlagen erstellt werden.",
+              "Falls keine eigenen Vorlagen vorhanden sind, können Inhalte oder Designvorlagen erstellt werden. Fragen Sie nach unserem Designservice.",
           },
           {
             icon: MapPin,
@@ -443,9 +443,9 @@ export default function WasKostetDigitalSignagePage() {
           },
           {
             icon: Zap,
-            title: "Betriebskosten",
+            title: "Energieeffizient",
             description:
-              "Stromverbrauch und laufende Anpassungen sollten bei langfristiger Nutzung berücksichtigt werden.",
+              "Die Spark Displays arbeiten mit energieeffizienter 24-V-Technologie und sind für einen wirtschaftlichen Dauerbetrieb ausgelegt.",
           },
         ]}
       />
@@ -480,7 +480,7 @@ export default function WasKostetDigitalSignagePage() {
           </div>
 
           <p className="mt-6 text-center text-[12px] text-cgray/60">
-            Alle Preise als Richtwerte exkl. MwSt. – individuelle Setups auf Anfrage.
+            Alle Preise aufgrund der Unternehmensform ohne MWST. Individuelle Setups auf Anfrage.
           </p>
         </div>
       </section>

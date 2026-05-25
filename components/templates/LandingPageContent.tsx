@@ -171,7 +171,7 @@ export default function LandingPageContent({
         <div
           className={`relative mx-auto max-w-[1200px] px-6 md:px-10 ${
             hasImage
-              ? "grid grid-cols-1 items-center gap-12 py-24 md:min-h-[60vh] lg:grid-cols-2 lg:gap-0 lg:py-0 lg:min-h-[65vh]"
+              ? "grid grid-cols-1 items-center gap-12 py-24 md:min-h-[60vh] lg:grid-cols-2 lg:gap-0 lg:pt-10 lg:pb-6 lg:min-h-[65vh]"
               : "flex flex-col justify-center py-20 md:min-h-[55vh] lg:min-h-[60vh]"
           }`}
         >
