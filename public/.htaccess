@@ -28,7 +28,7 @@ Header set X-XSS-Protection "1; mode=block"
 Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
 
 # Content Security Policy
-Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://identity.netlify.com https://unpkg.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://api.github.com https://*.workers.dev https://formspree.io; frame-src 'self' https://identity.netlify.com; base-uri 'self'; form-action 'self' https://formspree.io;"
+Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://identity.netlify.com https://unpkg.com https://www.googletagmanager.com https://www.google-analytics.com https://www.clarity.ms; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://api.github.com https://*.workers.dev https://formspree.io https://www.google-analytics.com https://analytics.google.com https://*.clarity.ms; frame-src 'self' https://identity.netlify.com; base-uri 'self'; form-action 'self' https://formspree.io;"
 
 # ─── Test subdomain: prevent indexing ────────────────────────
 SetEnvIf Host "^test\." TEST_ENV

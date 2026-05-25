@@ -11,6 +11,7 @@ import { localBusinessSchema } from "@/lib/schema/localBusiness";
 import { websiteSchema } from "@/lib/schema/website";
 import { personSchema } from "@/lib/schema/person";
 import { SITE_INDEXABLE } from "@/lib/seo-config";
+import CookieConsent from "@/components/CookieConsent";
 
 const lato = Lato({
   subsets: ["latin"],
@@ -117,6 +118,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="mt-[69px]">{children}</main>
         <Footer />
         <FloatingSocials />
+        <CookieConsent />
       </body>
     </html>
   );
