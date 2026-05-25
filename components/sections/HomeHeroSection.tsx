@@ -38,7 +38,7 @@ export default function HomeHeroSection({
       {/* Background image — centered, not stretched */}
       <Image
         src={HERO_BG_IMAGE}
-        alt=""
+        alt="Digital Signage Display in einem modernen Geschäft"
         width={1536}
         height={1024}
         className="pointer-events-none absolute left-1/2 top-1/2 h-auto max-h-full w-auto max-w-full -translate-x-1/2 -translate-y-1/2"
@@ -153,7 +153,7 @@ function HeroVisual() {
     <div className="relative hidden w-full lg:block" style={{ minHeight: "420px" }}>
       <div className="animate-float absolute left-[5%] bottom-[38%] z-10">
         <div className={cardClass} style={cardShadow}>
-          <Image src="/images/icons/hero-rocket.webp" alt="" width={710} height={738} className="h-8 w-8 rounded-lg object-cover" />
+          <Image src="/images/icons/hero-rocket.webp" alt="Schnelle Einrichtung" width={710} height={738} className="h-8 w-8 rounded-lg object-cover" />
           <div>
             <p className="text-[11.5px] font-bold leading-none text-navy">Bereit in wenigen Minuten</p>
             <p className="mt-0.5 text-[9.5px] leading-snug text-navy/45">Keine komplizierte Einrichtung.</p>
@@ -162,7 +162,7 @@ function HeroVisual() {
       </div>
       <div className="animate-float-delay absolute right-[8%] bottom-[22%] z-10">
         <div className={cardClass} style={cardShadow}>
-          <Image src="/images/icons/hero-cloud.webp" alt="" width={710} height={738} className="h-8 w-8 rounded-lg object-cover" />
+          <Image src="/images/icons/hero-cloud.webp" alt="Cloud-Steuerung" width={710} height={738} className="h-8 w-8 rounded-lg object-cover" />
           <div>
             <p className="text-[11.5px] font-bold leading-none text-navy">Cloud-basiert</p>
             <p className="mt-0.5 text-[9.5px] leading-snug text-navy/45">Inhalte überall verwalten.</p>
@@ -171,7 +171,7 @@ function HeroVisual() {
       </div>
       <div className="animate-float-slow absolute left-[20%] bottom-[4%] z-10">
         <div className={cardClass} style={cardShadow}>
-          <Image src="/images/icons/hero-headset.webp" alt="" width={710} height={738} className="h-8 w-8 rounded-lg object-cover" />
+          <Image src="/images/icons/hero-headset.webp" alt="Persönlicher Support" width={710} height={738} className="h-8 w-8 rounded-lg object-cover" />
           <div>
             <p className="text-[11.5px] font-bold leading-none text-navy">Alles aus einer Hand</p>
             <p className="mt-0.5 text-[9.5px] leading-snug text-navy/45">Hardware, Software und Content.</p>
