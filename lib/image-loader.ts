@@ -16,12 +16,13 @@ type LoaderArgs = { src: string; width: number; quality?: number };
 const VARIANT_PATTERN = /\.(webp|jpg|jpeg|png)$/i;
 
 /**
- * Variants are generated for everything under /images/ that is .webp at build
- * time. We only rewrite URLs that pass this prefix check so unrelated assets
- * (favicons, OG images, SVG logos) keep their original src.
+ * Variants are generated only for hero/product images under /images/products/
+ * (sources are 1024–1600 px wide). Smaller assets like /images/icons/*.webp
+ * (96 px) or /images/Chris-Meister.webp don't need variants and would 404 if
+ * rewritten, so we leave their src untouched.
  */
 function isEligible(src: string): boolean {
-  return src.startsWith("/images/") && /\.webp$/i.test(src);
+  return src.startsWith("/images/products/") && /\.webp$/i.test(src);
 }
 
 function rewriteSuffix(src: string, suffix: string): string {
