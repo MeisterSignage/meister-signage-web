@@ -35,7 +35,7 @@ export default function HomeHeroSection({
       className="relative w-full overflow-hidden"
       style={{ backgroundColor: "#07101f" }}
     >
-      {/* Background image — centered, priority enables <link rel="preload"> for LCP */}
+      {/* Background image — centered, full height, fades out on left & right edges */}
       <Image
         src={HERO_BG_IMAGE}
         alt="Digital Signage Display in einem modernen Geschäft"
@@ -44,6 +44,12 @@ export default function HomeHeroSection({
         priority
         className="pointer-events-none absolute left-1/2 top-1/2 h-auto max-h-full w-auto max-w-full -translate-x-1/2 -translate-y-1/2"
         aria-hidden="true"
+        style={{
+          WebkitMaskImage:
+            "linear-gradient(90deg, transparent 0%, rgba(0,0,0,0.4) 10%, #000 22%, #000 78%, rgba(0,0,0,0.4) 90%, transparent 100%)",
+          maskImage:
+            "linear-gradient(90deg, transparent 0%, rgba(0,0,0,0.4) 10%, #000 22%, #000 78%, rgba(0,0,0,0.4) 90%, transparent 100%)",
+        }}
       />
 
 

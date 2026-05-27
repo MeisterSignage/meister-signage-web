@@ -72,25 +72,21 @@ export default function WissenIndexPage() {
           aria-hidden="true"
           style={{ backgroundImage: NOISE, backgroundSize: "160px 160px" }}
         />
-        {/* Full-bleed hero image — right-aligned so text on left stays readable */}
+        {/* Hero image — full height, centered, fades out on left & right edges */}
         <Image
           src="/images/products/Wissen-Meister-Signage.webp"
           alt="Digital Signage Wissen & Ratgeber von Meister Signage – Hintergrundwissen, Tipps und Vergleiche"
           fill
           priority
           sizes="100vw"
-          className="pointer-events-none absolute inset-0 object-cover"
-          style={{ objectPosition: "right center" }}
-          aria-hidden="true"
-        />
-        {/* Dark gradient overlay for headline contrast */}
-        <div
-          className="pointer-events-none absolute inset-0"
-          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 object-cover object-center"
           style={{
-            background:
-              "linear-gradient(90deg, rgba(7,16,31,0.95) 0%, rgba(7,16,31,0.85) 35%, rgba(7,16,31,0.55) 60%, rgba(7,16,31,0.35) 100%)",
+            WebkitMaskImage:
+              "linear-gradient(90deg, transparent 0%, rgba(0,0,0,0.4) 10%, #000 22%, #000 78%, rgba(0,0,0,0.4) 90%, transparent 100%)",
+            maskImage:
+              "linear-gradient(90deg, transparent 0%, rgba(0,0,0,0.4) 10%, #000 22%, #000 78%, rgba(0,0,0,0.4) 90%, transparent 100%)",
           }}
+          aria-hidden="true"
         />
 
         <div className="relative mx-auto flex max-w-[1200px] flex-col justify-center px-6 py-24 md:min-h-[55vh] md:px-10 lg:min-h-[60vh]">

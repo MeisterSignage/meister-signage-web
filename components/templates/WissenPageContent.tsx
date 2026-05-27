@@ -76,7 +76,7 @@ export default function WissenPageContent({ page }: { page: WissenPage }) {
         className="relative w-full overflow-hidden"
         style={{ background: "linear-gradient(160deg, #07101f 0%, #0d1628 50%, #111d38 100%)" }}
       >
-        {/* Background image — full bleed, right-aligned so text on left stays readable */}
+        {/* Hero image — full height, centered, fades out on left & right edges */}
         {page.heroImage && (
           <Image
             src={page.heroImage}
@@ -84,20 +84,14 @@ export default function WissenPageContent({ page }: { page: WissenPage }) {
             fill
             priority
             sizes="100vw"
-            className="pointer-events-none absolute inset-0 object-cover"
-            style={{ objectPosition: "right center" }}
-            aria-hidden="true"
-          />
-        )}
-        {/* Dark gradient overlay — strong on the left for headline contrast, soft on the right */}
-        {page.heroImage && (
-          <div
-            className="pointer-events-none absolute inset-0"
-            aria-hidden="true"
+            className="pointer-events-none absolute inset-0 object-cover object-center"
             style={{
-              background:
-                "linear-gradient(90deg, rgba(7,16,31,0.95) 0%, rgba(7,16,31,0.85) 35%, rgba(7,16,31,0.55) 60%, rgba(7,16,31,0.35) 100%)",
+              WebkitMaskImage:
+                "linear-gradient(90deg, transparent 0%, rgba(0,0,0,0.4) 10%, #000 22%, #000 78%, rgba(0,0,0,0.4) 90%, transparent 100%)",
+              maskImage:
+                "linear-gradient(90deg, transparent 0%, rgba(0,0,0,0.4) 10%, #000 22%, #000 78%, rgba(0,0,0,0.4) 90%, transparent 100%)",
             }}
+            aria-hidden="true"
           />
         )}
         <div
