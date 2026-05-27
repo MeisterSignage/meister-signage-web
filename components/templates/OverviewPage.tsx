@@ -11,11 +11,20 @@ export type OverviewItem = {
   imageAlt: string;
 };
 
+export type OverviewGroup = {
+  title: string;
+  description?: string;
+  items: OverviewItem[];
+};
+
 type Props = {
   eyebrow: string;
   title: string;
   intro: string;
-  items: OverviewItem[];
+  /** Flat list of items (used when no groups are provided). */
+  items?: OverviewItem[];
+  /** Grouped items rendered as separate sections. Takes precedence over items. */
+  groups?: OverviewGroup[];
   contactTitle: string;
   contactSubtitle: string;
   heroImage?: string;
@@ -24,11 +33,61 @@ type Props = {
 const NOISE =
   "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E\")";
 
+function ItemCard({ item }: { item: OverviewItem }) {
+  return (
+    <Link
+      key={item.href}
+      href={item.href}
+      className="group flex flex-col overflow-hidden rounded-[20px] bg-white transition-all duration-300"
+      style={{
+        boxShadow: "0 2px 20px rgba(26,39,68,0.07), 0 0 0 1px rgba(26,39,68,0.055)",
+      }}
+    >
+      <div
+        className="relative aspect-[4/3] overflow-hidden"
+        style={{
+          background:
+            "linear-gradient(145deg, #0d1628 0%, #1a2744 60%, #0a1020 100%)",
+        }}
+      >
+        <Image
+          src={item.imageSrc}
+          alt={item.imageAlt}
+          fill
+          className="object-cover transition-transform duration-500 ease-out will-change-transform group-hover:scale-[1.05]"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+        />
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(180deg, transparent 50%, rgba(7,16,31,0.4) 100%)",
+          }}
+        />
+      </div>
+      <div className="flex flex-1 flex-col p-6">
+        <h3 className="mb-3 text-[20px] font-bold tracking-tight text-navy transition-colors duration-150 group-hover:text-magenta">
+          {item.title}
+        </h3>
+        <p className="mb-5 text-[14px] leading-relaxed text-cgray">{item.desc}</p>
+        <span className="mt-auto inline-flex items-center gap-1.5 text-[12px] font-bold uppercase tracking-[0.1em] text-magenta">
+          {item.title} entdecken
+          <ArrowRight
+            className="h-3 w-3 transition-transform duration-200 group-hover:translate-x-1"
+            strokeWidth={2.5}
+          />
+        </span>
+      </div>
+    </Link>
+  );
+}
+
 export default function OverviewPage({
   eyebrow,
   title,
   intro,
   items,
+  groups,
   contactTitle,
   contactSubtitle,
   heroImage,
@@ -138,54 +197,35 @@ export default function OverviewPage({
         }}
       >
         <div className="section-inner">
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {items.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="group flex flex-col overflow-hidden rounded-[20px] bg-white transition-all duration-300"
-                style={{
-                  boxShadow: "0 2px 20px rgba(26,39,68,0.07), 0 0 0 1px rgba(26,39,68,0.055)",
-                }}
-              >
-                <div
-                  className="relative aspect-[4/3] overflow-hidden"
-                  style={{
-                    background:
-                      "linear-gradient(145deg, #0d1628 0%, #1a2744 60%, #0a1020 100%)",
-                  }}
-                >
-                  <Image
-                    src={item.imageSrc}
-                    alt={item.imageAlt}
-                    fill
-                    className="object-cover transition-transform duration-500 ease-out will-change-transform group-hover:scale-[1.05]"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  />
-                  <div
-                    className="absolute inset-0"
-                    style={{
-                      background:
-                        "linear-gradient(180deg, transparent 50%, rgba(7,16,31,0.4) 100%)",
-                    }}
-                  />
+          {groups && groups.length > 0 ? (
+            <div className="flex flex-col gap-16">
+              {groups.map((group) => (
+                <div key={group.title}>
+                  <div className="mb-7 border-b border-navy/8 pb-4">
+                    <h2 className="text-[24px] font-bold tracking-tight text-navy">
+                      {group.title}
+                    </h2>
+                    {group.description && (
+                      <p className="mt-2 max-w-2xl text-[14px] leading-relaxed text-cgray">
+                        {group.description}
+                      </p>
+                    )}
+                  </div>
+                  <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                    {group.items.map((item) => (
+                      <ItemCard key={item.href} item={item} />
+                    ))}
+                  </div>
                 </div>
-                <div className="flex flex-1 flex-col p-6">
-                  <h2 className="mb-3 text-[20px] font-bold tracking-tight text-navy transition-colors duration-150 group-hover:text-magenta">
-                    {item.title}
-                  </h2>
-                  <p className="mb-5 text-[14px] leading-relaxed text-cgray">{item.desc}</p>
-                  <span className="mt-auto inline-flex items-center gap-1.5 text-[12px] font-bold uppercase tracking-[0.1em] text-magenta">
-                    {item.title} entdecken
-                    <ArrowRight
-                      className="h-3 w-3 transition-transform duration-200 group-hover:translate-x-1"
-                      strokeWidth={2.5}
-                    />
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
+              ))}
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {(items ?? []).map((item) => (
+                <ItemCard key={item.href} item={item} />
+              ))}
+            </div>
+          )}
         </div>
       </section>
 

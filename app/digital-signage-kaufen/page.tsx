@@ -95,10 +95,10 @@ export default function DigitalSignageKaufenPage() {
       />
       {productSchema(
         [
-          { name: 'Meister Spark 3 – 32" Digital Signage Display', description: '32" Full HD Display für Menüboards und Empfang, schlüsselfertig installiert.', sku: "SPARK3", price: 1299 },
-          { name: 'Meister Spark 4 – 43" Digital Signage Display', description: '43" 4K UHD Display für Gastronomie und Retail, schlüsselfertig installiert.', sku: "SPARK4", price: 1499 },
-          { name: 'Meister Spark 5 – 50" Digital Signage Display', description: '50" 4K UHD Display für Schaufenster und grössere Flächen, schlüsselfertig installiert.', sku: "SPARK5", price: 1599 },
-          { name: 'Meister Spark Q+ – 33" quadratisches Display', description: '33" quadratisches Full HD Display für Spezialinstallationen.', sku: "SPARKQPLUS", price: 1699 },
+          { name: 'Meister Spark 3 – 32" Digital Signage Display', description: '32" Full HD Display für Menüboards und Empfang, schlüsselfertig installiert.',         sku: "SPARK3",     price: 1299, screenSize: "32 Zoll", resolution: "1920 × 1080 (Full HD)", powerTyp: "36 W", weightKg: 5.5 },
+          { name: 'Meister Spark 4 – 43" Digital Signage Display', description: '43" 4K UHD Display für Gastronomie und Retail, schlüsselfertig installiert.',          sku: "SPARK4",     price: 1499, screenSize: "43 Zoll", resolution: "3840 × 2160 (4K UHD)",  powerTyp: "63 W", weightKg: 9.5 },
+          { name: 'Meister Spark 5 – 50" Digital Signage Display', description: '50" 4K UHD Display für Schaufenster und grössere Flächen, schlüsselfertig installiert.', sku: "SPARK5",    price: 1599, screenSize: "50 Zoll", resolution: "3840 × 2160 (4K UHD)",  powerTyp: "81 W", weightKg: 13  },
+          { name: 'Meister Spark Q+ – 33" quadratisches Display',  description: '33" quadratisches Display für Spezialinstallationen.',                                  sku: "SPARKQPLUS", price: 1699, screenSize: "33 Zoll", resolution: "1920 × 1920 (quadratisch)", powerTyp: "53 W", weightKg: 7  },
         ],
         PAGE_URL,
       ).map((schema, i) => (
@@ -112,12 +112,13 @@ export default function DigitalSignageKaufenPage() {
       <InternalLinksSection
         eyebrow="Weitere Seiten"
         links={[
-          { label: "Digital Signage Schweiz",  href: "/digital-signage-schweiz" },
-          { label: "Digital Signage mieten",   href: "/digital-signage-mieten" },
-          { label: "Kosten & Preise",          href: "/was-kostet-digital-signage-schweiz" },
-          { label: "Gastronomie",              href: "/branchen/gastronomie" },
-          { label: "Retail & Handel",          href: "/branchen/retail" },
-          { label: "Hotellerie",               href: "/branchen/hotellerie" },
+          { label: "Digital Signage Schweiz",       href: "/digital-signage-schweiz" },
+          { label: "Digital Signage mieten",        href: "/digital-signage-mieten" },
+          { label: "Anbieter im Vergleich",         href: "/digital-signage-anbieter-vergleich" },
+          { label: "Kosten & Preise",               href: "/was-kostet-digital-signage-schweiz" },
+          { label: "Gastronomie",                   href: "/branchen/gastronomie" },
+          { label: "Retail & Handel",               href: "/branchen/retail" },
+          { label: "Hotellerie",                    href: "/branchen/hotellerie" },
         ]}
       />
 

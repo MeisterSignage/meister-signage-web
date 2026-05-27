@@ -5,6 +5,8 @@ export interface ServiceSchemaProps {
   description: string;
   url: string; // full URL of the page
   serviceType?: string;
+  /** Optional city to prepend to the default areaServed list (used for /staedte pages). */
+  areaServedCity?: string;
 }
 
 /** Generates a Service schema for a specific Digital Signage offering. */
@@ -13,7 +15,17 @@ export function serviceSchema({
   description,
   url,
   serviceType = "Digital Signage",
+  areaServedCity,
 }: ServiceSchemaProps) {
+  const areaServed: Record<string, string>[] = [];
+  if (areaServedCity) {
+    areaServed.push({ "@type": "City", name: areaServedCity });
+  }
+  areaServed.push(
+    { "@type": "Country", name: "Schweiz" },
+    { "@type": "AdministrativeArea", name: "Zentralschweiz" },
+  );
+
   return {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -27,10 +39,7 @@ export function serviceSchema({
       name: "Meister Signage",
       url: BASE,
     },
-    areaServed: [
-      { "@type": "Country", name: "Schweiz" },
-      { "@type": "AdministrativeArea", name: "Zentralschweiz" },
-    ],
+    areaServed,
     audience: {
       "@type": "BusinessAudience",
       audienceType: "KMU, Gastronomie, Retail, Hotellerie, Unternehmen",

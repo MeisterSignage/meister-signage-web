@@ -1,8 +1,8 @@
 {
   "slug": "basel",
   "type": "staedte",
-  "seoTitle": "Digital Signage Basel – Meister Signage",
-  "seoDescription": "Digital-Signage-Lösungen für Betriebe in Basel. Messe, Pharma, Kultur und Retail – persönlich geplant, schlüsselfertig umgesetzt, schweizweit betreut.",
+  "seoTitle": "Digital Signage Basel – mieten & kaufen | Meister Signage",
+  "seoDescription": "Digital Signage in Basel: Displays mieten ab CHF 129 oder kaufen ab CHF 1.299. Schlüsselfertig, persönlich betreut. Für Messe, Pharma, Kultur und Retail.",
   "eyebrow": "Standort · Basel",
   "h1": "Digital Signage Basel",
   "intro": "Basel ist ein international vernetzter Wirtschaftsstandort mit starker Messe-, Pharma- und Kulturszene. Die grenznahe Lage und die hohe Dichte an Unternehmen und Institutionen machen die Stadt zu einem idealen Markt für digitale Kommunikationslösungen. Meister Signage hat seinen Sitz in Baar (Kanton Zug) und realisiert Digital-Signage-Projekte für Betriebe in Basel und der Nordwestschweiz – persönlich, professionell und praxisnah.",
@@ -52,6 +52,14 @@
     {
       "question": "Gibt es laufende Betreuung nach der Installation?",
       "answer": "Ja. Wir bleiben nach dem Start erreichbar – für Inhaltspflege, technischen Support oder Erweiterungen. Das vereinbaren wir vorab transparent."
+    },
+    {
+      "question": "Soll ich ein Display in Basel mieten oder kaufen?",
+      "answer": "Mieten ab CHF 129 ist die richtige Wahl für Messen, Kongresse oder kurzfristige Einsätze – ohne Kapitalbindung und flexibel kündbar. Kaufen ab CHF 1.299 lohnt sich für den dauerhaften Einsatz im Empfangs-, Retail- oder Gastronomiebereich und ist langfristig günstiger. Beide Optionen begleiten wir auch in Basel persönlich."
+    },
+    {
+      "question": "Was kostet Digital Signage in Basel?",
+      "answer": "Ein einzelnes Display gibt es ab CHF 1.299 zum Kauf oder ab CHF 129 zur Miete inklusive Software-Lizenz. Installation, Inhaltspflege und individuelle Betreuung werden je nach Projekt transparent ausgewiesen. Für eine kostenlose Einschätzung Ihres Standorts in Basel genügt eine kurze Anfrage."
     }
   ],
   "internalLinks": [
@@ -60,11 +68,11 @@
       "href": "/digital-signage-schweiz"
     },
     {
-      "label": "Digital Signage kaufen",
+      "label": "Display in Basel kaufen",
       "href": "/digital-signage-kaufen"
     },
     {
-      "label": "Digital Signage mieten",
+      "label": "Display in Basel mieten",
       "href": "/digital-signage-mieten"
     },
     {

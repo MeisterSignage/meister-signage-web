@@ -40,8 +40,20 @@ export default function LandingPageTemplate({ page }: { page: LandingPage }) {
     return true;
   });
 
-  const emitService = page.type === "loesungen" || page.type === "branchen";
+  const STAEDTE_DISPLAY_NAMES: Record<string, string> = {
+    luzern:  "Luzern",
+    zuerich: "Zürich",
+    zug:     "Zug",
+    bern:    "Bern",
+    basel:   "Basel",
+  };
+
   const pageUrl = `${SITE_URL}/${page.type}/${page.slug}`;
+  const serviceType =
+    page.type === "loesungen" ? "Digital Signage"
+    : page.type === "branchen" ? "Digital Signage Lösung"
+    : "Digital Signage Standortbetreuung";
+  const areaServedCity = page.type === "staedte" ? STAEDTE_DISPLAY_NAMES[page.slug] : undefined;
 
   return (
     <>
@@ -49,19 +61,17 @@ export default function LandingPageTemplate({ page }: { page: LandingPage }) {
       {page.faq.length > 0 && (
         <JsonLd schema={faqSchema(page.faq) as Record<string, unknown>} />
       )}
-      {emitService && (
-        <JsonLd
-          schema={
-            serviceSchema({
-              name: page.h1,
-              description: page.intro,
-              url: pageUrl,
-              serviceType:
-                page.type === "loesungen" ? "Digital Signage" : "Digital Signage Lösung",
-            }) as Record<string, unknown>
-          }
-        />
-      )}
+      <JsonLd
+        schema={
+          serviceSchema({
+            name: page.h1,
+            description: page.intro,
+            url: pageUrl,
+            serviceType,
+            areaServedCity,
+          }) as Record<string, unknown>
+        }
+      />
       <LandingPageContent page={page} dedupedLinks={dedupedLinks} />
     </>
   );

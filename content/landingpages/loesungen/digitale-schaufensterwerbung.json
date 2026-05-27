@@ -1,0 +1,91 @@
+{
+  "slug": "digitale-schaufensterwerbung",
+  "type": "loesungen",
+  "seoTitle": "Digitale Schaufensterwerbung – Schaufensterdisplays | Meister Signage",
+  "seoDescription": "Digitale Schaufensterwerbung für Schweizer Retail: aufmerksamkeitsstarke Displays mit hoher Helligkeit, 24/7 Betrieb. Aktionen, Kampagnen und Produkte rund um die Uhr sichtbar.",
+  "eyebrow": "Lösung · Schaufensterwerbung",
+  "h1": "Digitale Schaufensterwerbung – sichtbar rund um die Uhr.",
+  "intro": "Ein digitales Schaufensterdisplay verwandelt das Schaufenster in eine bewegte Werbefläche – auch nach Ladenschluss. Kampagnen, Aktionen und Produkte sind 24/7 sichtbar und lassen sich tageszeitabhängig steuern. Mit 450 nits Helligkeit wirken sie auch bei Tageslicht klar und kontrastreich.",
+  "heroImage": "/images/products/Schuhladen-Meister-Signage.webp",
+  "benefits": [
+    {
+      "title": "Werbung auch nach Ladenschluss",
+      "description": "Während gedruckte Plakate im dunklen Schaufenster verschwinden, leuchtet das digitale Schaufensterdisplay weiter – auch abends, nachts und an Sonntagen, wenn Passanten besonders viel Zeit haben hinzuschauen."
+    },
+    {
+      "title": "Hohe Helligkeit für Tageslicht",
+      "description": "Mit 450 nits sind die Inhalte auch bei einfallendem Sonnenlicht gut lesbar. Für direkte Sonneneinstrahlung empfehlen wir spezielle High-Brightness-Modelle."
+    },
+    {
+      "title": "Aktionen sofort kommunizieren",
+      "description": "Neue Kollektion, Rabattaktion, Sale-Wochenende – über die Cloud-Steuerung in Minuten geändert. Kein Plakatdruck, keine Wartezeit, keine veralteten Angebote im Schaufenster."
+    },
+    {
+      "title": "Bewegtbild zieht Blicke an",
+      "description": "Studien zeigen: bewegte Inhalte werden bis zu 4-mal stärker wahrgenommen als statische Plakate. Im Schaufenster, wo Passanten in Sekunden vorbeigehen, ist das entscheidend."
+    },
+    {
+      "title": "Zeitgesteuerte Werbung",
+      "description": "Morgens Frühstücksaktion, mittags Lunch-Special, abends Bar-Promo, am Wochenende Markenkampagne – die richtige Botschaft zur richtigen Tageszeit, ohne manuellen Aufwand."
+    },
+    {
+      "title": "Schlüsselfertig installiert",
+      "description": "Display, Cloud-Software, Aufhängung oder Standfuss, Inbetriebnahme und Schulung – aus einer Hand und mit transparentem Festpreis statt Beratungsprojekt."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Eignet sich jedes Display für die Schaufensterwerbung?",
+      "answer": "Nein. Consumer-Fernseher oder einfache Office-Displays haben oft zu wenig Helligkeit und sind nicht für 24/7-Dauerbetrieb spezifiziert. Für Schaufenster braucht es professionelle Digital-Signage-Displays mit mindestens 450 nits und Dauerbetriebs-Zertifizierung."
+    },
+    {
+      "question": "Funktioniert das auch bei direktem Sonnenlicht?",
+      "answer": "Bei normalem Tageslicht ja. Bei direkter Sonneneinstrahlung über mehrere Stunden empfehlen wir High-Brightness-Modelle (700 bis 2500 nits) – diese sprechen wir individuell ab, je nach Ausrichtung und Schaufensterglas."
+    },
+    {
+      "question": "Wie wird das Display im Schaufenster montiert?",
+      "answer": "Je nach Situation hängend mit Deckenhalterung, frei stehend auf einem Standfuss oder fest verschraubt an der Schaufensterwand. Wir prüfen den Standort und empfehlen die passende Montage."
+    },
+    {
+      "question": "Kann das Display die ganze Nacht laufen?",
+      "answer": "Ja, alle unsere Spark-Displays sind für 24/7-Dauerbetrieb spezifiziert. Bei nur 0.8 W im Standby können Inhalte auch nachts unterbrochen werden – günstig und energieeffizient."
+    },
+    {
+      "question": "Wie sieht die Verkabelung im Schaufenster aus?",
+      "answer": "Datenverbindung läuft per WiFi – keine sichtbaren HDMI- oder Ethernet-Kabel. Strom kommt über ein externes Netzteil, das versteckt platziert werden kann. Zum Display führt nur eine dünne Niederspannungs-Leitung."
+    },
+    {
+      "question": "Was kostet digitale Schaufensterwerbung?",
+      "answer": "Ein 50-Zoll-Display mit hoher Helligkeit gibt es im Mietmodell ab CHF 149 oder beim Kauf ab CHF 1.599. Hinzu kommen Installation und einmalige Einrichtung – wird im Angebot transparent ausgewiesen."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Digitales Werbedisplay", "href": "/loesungen/digitales-werbedisplay" },
+    { "label": "Digitale Kundenstopper", "href": "/loesungen/digitale-kundenstopper" },
+    { "label": "LED Walls & Videowall", "href": "/loesungen/led-walls" },
+    { "label": "Doppelseitige Displays", "href": "/loesungen/doppelseitige-displays" },
+    { "label": "Retail & Handel", "href": "/branchen/retail" },
+    { "label": "Digital Signage kaufen", "href": "/digital-signage-kaufen" },
+    { "label": "Digital Signage mieten", "href": "/digital-signage-mieten" }
+  ],
+  "cta": {
+    "eyebrow": "Projekt besprechen",
+    "title": "Schaufensterwerbung digital – wie und in welcher Grösse?",
+    "subtitle": "Sagen Sie uns kurz Schaufenstermass, Ausrichtung und gewünschte Botschaft – wir empfehlen das passende Display und nennen Mietpreis oder Kaufpreis transparent.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Über Meister Signage",
+    "secondaryHref": "/ueber-uns"
+  },
+  "related": {
+    "loesungen": [
+      { "label": "Digitales Werbedisplay", "href": "/loesungen/digitales-werbedisplay" },
+      { "label": "Digitale Kundenstopper", "href": "/loesungen/digitale-kundenstopper" },
+      { "label": "LED Walls & Videowall", "href": "/loesungen/led-walls" }
+    ],
+    "branchen": [
+      { "label": "Retail & Handel", "href": "/branchen/retail" },
+      { "label": "Gastronomie", "href": "/branchen/gastronomie" }
+    ]
+  }
+}

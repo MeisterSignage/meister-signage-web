@@ -1,8 +1,8 @@
 {
   "slug": "luzern",
   "type": "staedte",
-  "seoTitle": "Digital Signage Luzern – Meister Signage",
-  "seoDescription": "Digital-Signage-Lösungen für Betriebe in Luzern. Restaurants, Hotels, Retail und Unternehmen – persönlich geplant, schlüsselfertig umgesetzt, lokal betreut.",
+  "seoTitle": "Digital Signage Luzern – mieten & kaufen | Meister Signage",
+  "seoDescription": "Digital Signage in Luzern: Displays mieten ab CHF 129 oder kaufen ab CHF 1.299. Schlüsselfertig, lokal betreut. Für Gastronomie, Retail, Hotellerie.",
   "eyebrow": "Standort · Luzern",
   "h1": "Digital Signage Luzern",
   "intro": "Luzern mit seiner starken Tourismus- und Gastronomieszene ist ein ideales Umfeld für digitale Kommunikationslösungen. Meister Signage hat seinen Sitz in der Zentralschweiz und realisiert Digital-Signage-Projekte für Betriebe in Luzern und der Region – nah, persönlich und praxisnah.",
@@ -52,6 +52,14 @@
     {
       "question": "Gibt es laufende Betreuung nach der Installation?",
       "answer": "Ja. Wir bleiben nach dem Start erreichbar – für Inhaltspflege, technischen Support oder Erweiterungen. Das vereinbaren wir vorab transparent."
+    },
+    {
+      "question": "Soll ich ein Display in Luzern mieten oder kaufen?",
+      "answer": "Mieten ab CHF 129 eignet sich für Events, Pop-ups oder wenn Sie Digital Signage zuerst im Alltag testen möchten – ohne Kapitalbindung. Kaufen ab CHF 1.299 lohnt sich, wenn Sie dauerhaft kommunizieren und langfristig die tiefsten Gesamtkosten möchten. Beide Wege bieten wir aus Luzern persönlich an."
+    },
+    {
+      "question": "Was kostet Digital Signage in Luzern?",
+      "answer": "Eine schlanke Lösung mit einem Display startet bei CHF 1.299 zum Kauf oder ab CHF 129 zur Miete – inklusive Software-Lizenz. Hinzu kommen je nach Projekt Installation, Inhaltspflege und Betreuung. Für eine kostenlose, unverbindliche Einschätzung speziell für Ihren Standort in Luzern melden Sie sich direkt."
     }
   ],
   "internalLinks": [
@@ -60,11 +68,11 @@
       "href": "/digital-signage-schweiz"
     },
     {
-      "label": "Digital Signage kaufen",
+      "label": "Display in Luzern kaufen",
       "href": "/digital-signage-kaufen"
     },
     {
-      "label": "Digital Signage mieten",
+      "label": "Display in Luzern mieten",
       "href": "/digital-signage-mieten"
     },
     {

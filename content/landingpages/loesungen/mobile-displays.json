@@ -1,122 +1,93 @@
 {
   "slug": "mobile-displays",
   "type": "loesungen",
-  "seoTitle": "Digitale Kundenstopper & Displays | Meister Signage",
-  "seoDescription": "Digitale Kundenstopper, mobile Werbedisplays und akkubetriebene Outdoor-Displays. Flexibel platzierbar – im Eingang, an Events, in Retail und Gastronomie.",
+  "seoTitle": "Mobile Displays Schweiz – transportabel & akkubetrieben | Meister Signage",
+  "seoDescription": "Mobile Digital-Signage-Displays für Roadshows, Messen und multi-standortige Einsätze. Transportabel, akkubetrieben, ohne feste Verkabelung. Schweizweit lieferbar.",
   "eyebrow": "Lösung · Mobile Displays",
-  "h1": "Mobile Displays & Kundenstopper für flexible Aufmerksamkeit.",
-  "intro": "Mobile Displays bringen digitale Inhalte genau dorthin, wo Menschen vorbeigehen – im Eingangsbereich, vor dem Restaurant, an Events oder auf Verkaufsflächen. Flexibel platziert, ohne feste Installation, in Sekunden umgestellt.",
+  "h1": "Mobile Displays – Aufmerksamkeit, die mit Ihnen reist.",
+  "intro": "Mobile Displays sind transportable digitale Bildschirme, die nicht für einen festen Standort gemacht sind, sondern mit dem Einsatz wandern. Heute Messe in Zürich, morgen Eröffnung in Luzern, übermorgen Kundentag in Bern – ohne erneuten Aufbau, ohne Steckdose vor Ort, ohne IT-Vorbereitung. Akkubetrieb auf Anfrage möglich.",
+  "heroImage": "/images/products/Mobile-Display-Outdoor.webp",
   "benefits": [
     {
-      "title": "Flexibel platzierbar",
-      "description": "Aufstellen, anstecken oder per Akku betreiben – Standort heute hier, morgen dort. Keine feste Montage, keine bauliche Vorbereitung."
+      "title": "Transportabel zwischen Standorten",
+      "description": "Aufladen, einpacken, am nächsten Ort ausladen, einschalten – das Display ist sofort wieder einsatzbereit. Ideal für Roadshows, Messereihen oder Filial-Touren."
     },
     {
-      "title": "Inhalte zentral steuerbar",
-      "description": "Mit der Meister Signage Software werden Inhalte auf mobilen Displays genauso verwaltet wie auf fix installierten Bildschirmen."
+      "title": "Akkubetrieb auf Anfrage",
+      "description": "Für Standorte ohne Stromanschluss bieten wir Modelle mit integriertem Akku – mehrere Stunden Laufzeit, dann wieder aufladen. Perfekt für Pop-ups, Open-Air-Events oder mobile Promotion."
     },
     {
-      "title": "Ideal für temporäre Einsätze",
-      "description": "Pop-up, Promotion, Event oder Aktionswoche – mobile Displays passen sich Ihrem Einsatz an, nicht umgekehrt."
+      "title": "Inhalte unterwegs aktualisieren",
+      "description": "Über die Cloud-Steuerung von jedem Standort aus. Bei mehreren Stopps in einer Tour können Inhalte standortspezifisch oder einheitlich ausgespielt werden."
     },
     {
-      "title": "Wetterfeste Lösungen möglich",
-      "description": "Für den Aussenbereich gibt es robuste Geräte mit Schutzklasse – ideal für Eingänge, Promotionen und Events draussen."
+      "title": "Mehrwert über die ganze Tour",
+      "description": "Wenn das gleiche Display an 5 Standorten im Einsatz ist, verteilen sich die Kosten – im Vergleich zu 5 fix installierten Displays oft deutlich günstiger."
     },
     {
-      "title": "Keine feste Installation nötig",
-      "description": "Akku-Lösungen erlauben Einsätze, wo keine Steckdose verfügbar ist. Aufgebaut, eingeschaltet, los – ohne Elektriker."
+      "title": "Robust für Transport",
+      "description": "Hochwertige Transport-Cases und stabile Standfüsse halten häufigen Auf- und Abbau aus. Wir empfehlen das passende Setup je nach Einsatzhäufigkeit."
     },
     {
-      "title": "Starker Blickfang im Eingang",
-      "description": "Helle Displays mit blickfangstarker Bildwirkung – auch bei Tageslicht und in stark frequentierten Bereichen."
+      "title": "Schnell einsatzbereit",
+      "description": "WiFi-Verbindung herstellen, Inhalte sind automatisch da. Keine Kabelverbindungen, keine USB-Sticks, keine IT-Vorbereitung am Standort."
     }
   ],
   "faq": [
     {
-      "question": "Was ist ein digitaler Kundenstopper?",
-      "answer": "Ein digitaler Kundenstopper ist ein mobiles Display, das gedruckte Kundenstopper ersetzt. Inhalte können in Sekunden geändert werden – Tagesangebote, Aktionen oder Eventhinweise wirken digital deutlich hochwertiger und bleiben jederzeit aktuell."
+      "question": "Worin unterscheidet sich ein Mobile Display von einem digitalen Kundenstopper?",
+      "answer": "Ein digitaler Kundenstopper ist für einen festen Standort gedacht (z.B. dauerhaft vor dem Restaurant oder im Schaufenster). Mobile Displays sind für den Transport zwischen mehreren Standorten konzipiert – Roadshow, Messe-Tour, Filialeinsätze. Wenn das Display nur an einem Ort steht, ist ein Kundenstopper meist die bessere Wahl."
     },
     {
-      "question": "Können mobile Displays draussen eingesetzt werden?",
-      "answer": "Ja. Für den Aussenbereich gibt es wetterfeste Modelle mit entsprechender Helligkeit und Schutzklasse. Wir empfehlen das passende Gerät je nach Standort, Lichtverhältnissen und Wetterlage."
+      "question": "Wie lange läuft das Display im Akkubetrieb?",
+      "answer": "Je nach Modell und Helligkeitseinstellung 4 bis 8 Stunden. Für längere Veranstaltungen empfehlen wir Wechselakkus oder eine kurze Aufladung in der Pause."
     },
     {
-      "question": "Brauchen mobile Displays einen festen Stromanschluss?",
-      "answer": "Nein. Es gibt Geräte mit integriertem Akku, die mehrere Stunden netzunabhängig laufen – ideal für Promotionen, Pop-ups, Messen und Aussenbereiche ohne Steckdose."
+      "question": "Kann ich das Display ohne IT-Kenntnisse aufbauen?",
+      "answer": "Ja. Aufstellen, einschalten, WiFi verbinden – fertig. Wir bereiten die Inhalte vor dem Versand vor, beim Empfang ist das Display sofort einsatzbereit."
     },
     {
-      "question": "Für welche Branchen eignen sich mobile Displays?",
-      "answer": "Besonders bewährt haben sie sich in Gastronomie, Retail, Events, Messen und im Pop-up-Bereich. Überall dort, wo Aufmerksamkeit flexibel platziert werden soll, sind sie eine starke Lösung."
+      "question": "Wie wird das Display transportiert?",
+      "answer": "In einem stabilen Transport-Case mit Polsterung. Für häufige Transporte empfehlen wir Premium-Cases mit Rollen. Beim Versand zwischen Standorten kümmern wir uns auf Wunsch um die Logistik."
     },
     {
-      "question": "Können Inhalte zentral aktualisiert werden?",
-      "answer": "Ja. Über die Meister Signage Software – egal wo das Display steht. Vorgeplante Zeitpläne und kurzfristige Änderungen funktionieren auf mobilen Displays gleich gut wie auf fix installierten."
+      "question": "Eignet sich das Display für den Aussenbereich?",
+      "answer": "Für geschützte Aussenbereiche (überdachte Eingänge, Markisen) ja. Für direkten Wettereinfluss empfehlen wir spezielle Outdoor-Modelle – die wir auf Anfrage individuell zusammenstellen."
     },
     {
-      "question": "Kann ich mobile Displays auch mieten?",
-      "answer": "Ja. Gerade für temporäre Einsätze, Events und Pop-up-Promotionen ist die Miete eine flexible Option – inklusive Vorbereitung der Inhalte und Unterstützung beim Einsatz."
+      "question": "Kann ich Mobile Displays auch nur mieten?",
+      "answer": "Gerade für temporäre Touren und einmalige Events ist Miete oft die bessere Lösung – mit Lieferung, Vorbereitung der Inhalte und Rückholung. Auch hier mit transparenten Preisen ab CHF 129."
     }
   ],
   "internalLinks": [
-    {
-      "label": "Retail & Handel",
-      "href": "/branchen/retail"
-    },
-    {
-      "label": "Gastronomie",
-      "href": "/branchen/gastronomie"
-    },
-    {
-      "label": "Events & Messen",
-      "href": "/branchen/events"
-    },
-    {
-      "label": "Displays mieten",
-      "href": "/digital-signage-mieten"
-    },
-    {
-      "label": "Software",
-      "href": "/loesungen/software"
-    },
-    {
-      "label": "Ratgeber: Digitale Kundenstopper",
-      "href": "/wissen/digitale-kundenstopper"
-    }
+    { "label": "Digitale Kundenstopper", "href": "/loesungen/digitale-kundenstopper" },
+    { "label": "Event-Displays", "href": "/loesungen/event-displays" },
+    { "label": "Doppelseitige Displays", "href": "/loesungen/doppelseitige-displays" },
+    { "label": "Events & Messen", "href": "/branchen/events" },
+    { "label": "Retail & Handel", "href": "/branchen/retail" },
+    { "label": "Gastronomie", "href": "/branchen/gastronomie" },
+    { "label": "Displays mieten", "href": "/digital-signage-mieten" },
+    { "label": "Software", "href": "/loesungen/software" }
   ],
   "cta": {
     "eyebrow": "Mobile Lösung anfragen",
-    "title": "Digitale Wirkung – genau dort, wo Sie sie brauchen.",
-    "subtitle": "Schildern Sie kurz Ihren Einsatz – wir empfehlen die passende mobile Lösung, vom akkubetriebenen Kundenstopper bis zum wetterfesten Outdoor-Display.",
+    "title": "Wo soll Ihr Display als nächstes auftauchen?",
+    "subtitle": "Schildern Sie kurz Ihre Tour oder Veranstaltungsreihe – wir empfehlen das passende mobile Setup, inklusive Akku-Variante falls nötig.",
     "primaryLabel": "Beratung anfragen",
     "primaryHref": "/kontakt",
     "secondaryLabel": "Displays mieten",
     "secondaryHref": "/digital-signage-mieten"
   },
   "related": {
-    "branchen": [
-      {
-        "label": "Retail & Handel",
-        "href": "/branchen/retail"
-      },
-      {
-        "label": "Gastronomie",
-        "href": "/branchen/gastronomie"
-      },
-      {
-        "label": "Events & Messen",
-        "href": "/branchen/events"
-      }
-    ],
     "loesungen": [
-      {
-        "label": "Software",
-        "href": "/loesungen/software"
-      },
-      {
-        "label": "Doppelseitige Displays",
-        "href": "/loesungen/doppelseitige-displays"
-      }
+      { "label": "Digitale Kundenstopper", "href": "/loesungen/digitale-kundenstopper" },
+      { "label": "Event-Displays", "href": "/loesungen/event-displays" },
+      { "label": "Doppelseitige Displays", "href": "/loesungen/doppelseitige-displays" }
+    ],
+    "branchen": [
+      { "label": "Events & Messen", "href": "/branchen/events" },
+      { "label": "Retail & Handel", "href": "/branchen/retail" },
+      { "label": "Gastronomie", "href": "/branchen/gastronomie" }
     ]
   }
 }

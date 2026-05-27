@@ -1,0 +1,93 @@
+{
+  "slug": "digitale-kundenstopper",
+  "type": "loesungen",
+  "seoTitle": "Digitale Kundenstopper – Indoor & Outdoor | Meister Signage",
+  "seoDescription": "Digitale Kundenstopper für Schweizer KMU: mobil aufstellbar, indoor oder outdoor-fähig. Aufmerksamkeit am Eingang, vor dem Laden oder am Eventstand. Ab CHF 129.",
+  "eyebrow": "Lösung · Kundenstopper",
+  "h1": "Digitale Kundenstopper – Indoor & Outdoor.",
+  "intro": "Ein digitaler Kundenstopper ist ein freistehender, beweglicher Bildschirm – aufgestellt vor dem Eingang, im Schaufenster oder am Eventstand. Inhalte lassen sich kurzfristig wechseln, ohne dass etwas gedruckt oder ausgetauscht werden muss. Für Innenräume genauso wie für den geschützten Aussenbereich.",
+  "heroImage": "/images/products/Mobile-Display-Outdoor.webp",
+  "benefits": [
+    {
+      "title": "Sofort aufgestellt – sofort sichtbar",
+      "description": "Aufstellen, einstecken, anzeigen. Kein Wandanker, keine Verkabelung an der Decke – ideal für Standortwechsel innert Tagen."
+    },
+    {
+      "title": "Indoor oder Outdoor-tauglich",
+      "description": "Wir wählen das passende Gehäuse: Innenraum-Kundenstopper für Empfang, Eingang oder Schaufenster – oder eine outdoor-fähige Variante für Strassencafés, Eingänge und überdachte Aussenbereiche."
+    },
+    {
+      "title": "Inhalte in Sekunden tauschen",
+      "description": "Tagesangebot, neuer Kurs, geänderte Öffnungszeiten – Inhalte werden zentral aktualisiert. Kein Plakatdruck, kein Plotterauftrag, keine Wartezeit."
+    },
+    {
+      "title": "Aufmerksamkeit am Point of Decision",
+      "description": "Bewegte digitale Inhalte vor dem Eingang oder im Sichtfeld erhöhen die Wahrnehmung deutlich gegenüber statischen Tafeln oder Plakaten."
+    },
+    {
+      "title": "Flexibel mieten oder kaufen",
+      "description": "Für Pop-ups oder Saisons mieten Sie tageweise – für den Dauereinsatz lohnt der Kauf. Beide Modelle aus einer Hand."
+    },
+    {
+      "title": "Wertige Erscheinung",
+      "description": "Schlanker Rahmen, hochauflösendes Display, professionelles Standfussdesign – passt zur Markenwirkung, die Sie nach aussen tragen wollen."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Was ist der Unterschied zwischen einem digitalen und einem klassischen Kundenstopper?",
+      "answer": "Ein klassischer Kundenstopper trägt eine bedruckte Tafel, die für jede Änderung neu gedruckt werden muss. Ein digitaler Kundenstopper zeigt einen Bildschirm – Inhalte lassen sich beliebig oft kurzfristig wechseln, mit Bewegtbild ergänzen und auf Tageszeit oder Wochentag automatisieren."
+    },
+    {
+      "question": "Kann ein digitaler Kundenstopper draussen eingesetzt werden?",
+      "answer": "Ja, für den geschützten Aussenbereich (z.B. überdachte Eingänge, Strassencafés mit Markise, Schaufenster mit Sonneneinstrahlung) bieten wir Outdoor-fähige Modelle mit höherer Helligkeit und entsprechendem Gehäuseschutz. Für ungeschützte Aussenflächen mit Regen und voller Sonne klären wir den Standort individuell ab."
+    },
+    {
+      "question": "Wie wird der digitale Kundenstopper mit Strom versorgt?",
+      "answer": "Standardmässig per Steckdose über ein externes Netzteil – nur eine dünne Niederspannungs-Leitung führt zum Display, keine 230 V-Steckdose direkt am Gerät nötig. Für Standorte ohne Stromanschluss bieten wir auf Anfrage Akkulösungen."
+    },
+    {
+      "question": "Wie aktualisiere ich die Inhalte?",
+      "answer": "Über die Cloud-Steuerung von jedem Browser aus. Sie ändern Texte, Bilder, Preise oder Videos und veröffentlichen sie auf einen Klick auf dem Kundenstopper. Auch zeitgesteuerte oder wiederkehrende Inhalte sind möglich."
+    },
+    {
+      "question": "Lohnt sich ein digitaler Kundenstopper für kleine Betriebe?",
+      "answer": "Ja, besonders bei wechselnden Angeboten (Gastronomie, Friseur, Apotheke, Boutique). Die Investition rechnet sich schnell, weil keine laufenden Druckkosten und keine Wartezeit beim Plakatwechsel mehr anfallen."
+    },
+    {
+      "question": "Kann ich erst mieten und später kaufen?",
+      "answer": "Ja. Eine Mietphase eignet sich, um den Einsatz im Alltag zu prüfen. Auf Wunsch wird ein Teil der bezahlten Miete später auf den Kaufpreis angerechnet – das besprechen wir individuell."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Mobile Displays", "href": "/loesungen/mobile-displays" },
+    { "label": "Doppelseitige Displays", "href": "/loesungen/doppelseitige-displays" },
+    { "label": "Digitale Schaufensterwerbung", "href": "/loesungen/digitale-schaufensterwerbung" },
+    { "label": "Digitales Werbedisplay", "href": "/loesungen/digitales-werbedisplay" },
+    { "label": "Digital Signage kaufen", "href": "/digital-signage-kaufen" },
+    { "label": "Digital Signage mieten", "href": "/digital-signage-mieten" },
+    { "label": "Kosten & Preise", "href": "/was-kostet-digital-signage-schweiz" },
+    { "label": "Retail & Handel", "href": "/branchen/retail" },
+    { "label": "Gastronomie", "href": "/branchen/gastronomie" }
+  ],
+  "cta": {
+    "eyebrow": "Projekt besprechen",
+    "title": "Welcher Kundenstopper passt zu Ihrem Standort?",
+    "subtitle": "Schildern Sie kurz Standort, Einsatzort (Indoor/Outdoor) und Inhalt – wir empfehlen das passende Modell und nennen Mietpreis oder Kaufpreis transparent.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Über Meister Signage",
+    "secondaryHref": "/ueber-uns"
+  },
+  "related": {
+    "loesungen": [
+      { "label": "Mobile Displays", "href": "/loesungen/mobile-displays" },
+      { "label": "Doppelseitige Displays", "href": "/loesungen/doppelseitige-displays" },
+      { "label": "Digitale Schaufensterwerbung", "href": "/loesungen/digitale-schaufensterwerbung" }
+    ],
+    "branchen": [
+      { "label": "Retail & Handel", "href": "/branchen/retail" },
+      { "label": "Gastronomie", "href": "/branchen/gastronomie" }
+    ]
+  }
+}

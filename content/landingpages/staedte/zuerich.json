@@ -1,8 +1,8 @@
 {
   "slug": "zuerich",
   "type": "staedte",
-  "seoTitle": "Digital Signage Zürich – Meister Signage",
-  "seoDescription": "Digital-Signage-Lösungen für Betriebe in Zürich. Gastronomie, Retail, Hotels und Unternehmen – schlüsselfertig, persönlich betreut, lokal erreichbar.",
+  "seoTitle": "Digital Signage Zürich – mieten & kaufen | Meister Signage",
+  "seoDescription": "Digital Signage in Zürich: Displays mieten ab CHF 129 oder kaufen ab CHF 1.299. Schlüsselfertig, persönlich betreut. Für Gastronomie, Retail, Hotellerie.",
   "eyebrow": "Standort · Zürich",
   "h1": "Digital Signage Zürich",
   "intro": "Betriebe in Zürich – vom Restaurant über den Retailshop bis zum Unternehmensempfang – setzen auf digitale Bildschirmlösungen, um Inhalte aktuell, professionell und sichtbar zu kommunizieren. Meister Signage plant und realisiert Digital-Signage-Projekte für Unternehmen in der Region Zürich.",
@@ -52,6 +52,14 @@
     {
       "question": "Wie läuft der Support für Zürcher Kunden?",
       "answer": "Support erfolgt per Telefon und Remote-Zugriff. Bei Bedarf sind wir auch vor Ort – direkter Kontakt ist für uns selbstverständlich."
+    },
+    {
+      "question": "Soll ich ein Display in Zürich mieten oder kaufen?",
+      "answer": "Mieten ab CHF 129 ist ideal für Events, Pop-up-Stores oder wenn Sie zunächst kein Kapital binden möchten – flexibel und ohne langfristige Verpflichtung. Kaufen ab CHF 1.299 lohnt sich für den dauerhaften Einsatz und ist über mehrere Jahre günstiger. Beide Optionen begleiten wir auch in Zürich persönlich."
+    },
+    {
+      "question": "Was kostet Digital Signage in Zürich?",
+      "answer": "Ein Einstieg mit einem Display beginnt bei CHF 1.299 zum Kauf oder ab CHF 129 zur Miete inklusive Lizenz. Installation, Inhaltspflege und individuelle Betreuung werden je nach Projekt transparent ausgewiesen. Für eine kostenlose Einschätzung Ihres Standorts in Zürich genügt eine kurze Anfrage."
     }
   ],
   "internalLinks": [
@@ -60,11 +68,11 @@
       "href": "/digital-signage-schweiz"
     },
     {
-      "label": "Digital Signage kaufen",
+      "label": "Display in Zürich kaufen",
       "href": "/digital-signage-kaufen"
     },
     {
-      "label": "Digital Signage mieten",
+      "label": "Display in Zürich mieten",
       "href": "/digital-signage-mieten"
     },
     {

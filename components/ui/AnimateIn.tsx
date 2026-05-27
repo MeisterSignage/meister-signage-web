@@ -14,7 +14,7 @@
  *   </AnimateIn>
  */
 
-import { motion, useReducedMotion } from "framer-motion";
+import { m as motion, useReducedMotion } from "framer-motion";
 import type { ReactNode } from "react";
 import { easeOut, viewport } from "@/lib/motion";
 

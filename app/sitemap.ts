@@ -24,6 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "/digital-signage-kaufen",             priority: 0.9, cf: "monthly", date: "2026-05-18" },
     { url: "/digital-signage-mieten",             priority: 0.9, cf: "monthly", date: "2026-05-18" },
     { url: "/was-kostet-digital-signage-schweiz", priority: 0.8, cf: "monthly", date: "2026-05-18" },
+    { url: "/digital-signage-anbieter-vergleich", priority: 0.8, cf: "monthly", date: "2026-05-27" },
 
     /* Overviews */
     { url: "/branchen",                           priority: 0.8, cf: "monthly", date: "2026-05-18" },
@@ -38,6 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     /* Legal */
     { url: "/datenschutz",                        priority: 0.3, cf: "yearly",  date: "2026-05-01" },
     { url: "/impressum",                          priority: 0.3, cf: "yearly",  date: "2026-05-01" },
+    { url: "/versand-und-rueckgabe",              priority: 0.4, cf: "yearly",  date: "2026-05-27" },
   ];
 
   /* Detail-Seiten dynamisch aus dem CMS-Inhalt — neue Einträge im JSON

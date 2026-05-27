@@ -1,8 +1,8 @@
 {
   "slug": "bern",
   "type": "staedte",
-  "seoTitle": "Digital Signage Bern – Meister Signage",
-  "seoDescription": "Digital-Signage-Lösungen für Betriebe in Bern. Verwaltung, Tourismus, Gastronomie und KMU – persönlich geplant, schlüsselfertig umgesetzt.",
+  "seoTitle": "Digital Signage Bern – mieten & kaufen | Meister Signage",
+  "seoDescription": "Digital Signage in Bern: Displays mieten ab CHF 129 oder kaufen ab CHF 1.299. Schlüsselfertig, persönlich betreut. Für Verwaltung, Tourismus, Gastronomie.",
   "eyebrow": "Standort · Bern",
   "h1": "Digital Signage Bern",
   "intro": "Als Bundesstadt und bedeutender Verwaltungs- und Tourismusstandort bietet Bern ein vielseitiges Umfeld für digitale Kommunikationslösungen. Meister Signage hat seinen Sitz in Baar (Kanton Zug) und realisiert Digital-Signage-Projekte für Betriebe in Bern und der Region – persönlich, zuverlässig und praxisnah.",
@@ -52,6 +52,14 @@
     {
       "question": "Gibt es laufende Betreuung nach der Installation?",
       "answer": "Ja. Wir bleiben nach dem Start erreichbar – für Inhaltspflege, technischen Support oder Erweiterungen. Das vereinbaren wir vorab transparent."
+    },
+    {
+      "question": "Soll ich ein Display in Bern mieten oder kaufen?",
+      "answer": "Mieten ab CHF 129 eignet sich für temporäre Einsätze wie Messen, Tagungen oder zum Testen ohne Kapitalbindung. Kaufen ab CHF 1.299 lohnt sich für den dauerhaften Einsatz und ist über die Jahre günstiger. Beide Wege betreuen wir auch in Bern persönlich vor Ort."
+    },
+    {
+      "question": "Was kostet Digital Signage in Bern?",
+      "answer": "Ein einzelnes Display gibt es ab CHF 1.299 zum Kauf oder ab CHF 129 zur Miete inklusive Software-Lizenz. Installation und laufende Betreuung werden je nach Projekt transparent ausgewiesen. Für eine kostenlose Einschätzung Ihres Standorts in Bern genügt eine kurze Anfrage."
     }
   ],
   "internalLinks": [
@@ -60,11 +68,11 @@
       "href": "/digital-signage-schweiz"
     },
     {
-      "label": "Digital Signage kaufen",
+      "label": "Display in Bern kaufen",
       "href": "/digital-signage-kaufen"
     },
     {
-      "label": "Digital Signage mieten",
+      "label": "Display in Bern mieten",
       "href": "/digital-signage-mieten"
     },
     {

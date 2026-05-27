@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { motion, useReducedMotion } from "framer-motion";
+import { m as motion, useReducedMotion } from "framer-motion";
 import { ArrowRight, Plus, Minus } from "lucide-react";
 import { viewport, easeOut, staggerContainer, staggerItem } from "@/lib/motion";
 import ContactSection from "@/components/sections/ContactSection";

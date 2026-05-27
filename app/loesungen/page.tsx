@@ -39,76 +39,153 @@ export default function LoesungenIndexPage() {
         title="Die richtige Lösung für jeden Einsatz."
         intro="Von der schlüsselfertigen Display-Installation über flexible Mietlösungen bis hin zu grossflächigen LED Walls – Meister Signage bietet das passende Setup für jeden Anwendungsfall."
         heroImage="/images/products/Loesungen-Meister-Signage.webp"
-        items={[
+        groups={[
           {
-            title: "Displays kaufen",
-            desc: "Schlüsselfertige Digital-Signage-Displays für Gastronomie, Retail, Hotellerie und Unternehmen.",
-            href: "/digital-signage-kaufen",
-            imageSrc: "/images/products/Spark5-Design.webp",
-            imageAlt: "Digital Signage Display kaufen",
+            title: "Werbung & Verkaufsförderung",
+            description:
+              "Aufmerksamkeit am Point of Sale, im Schaufenster oder am Eingang – wo Kaufentscheidungen entstehen.",
+            items: [
+              {
+                title: "Digitales Werbedisplay",
+                desc: "Werbebildschirme für Retail, POS und Markenkampagnen – am Point of Decision.",
+                href: "/loesungen/digitales-werbedisplay",
+                imageSrc: "/images/products/Schuhladen-Meister-Signage.webp",
+                imageAlt: "Digitales Werbedisplay im Retail-Einsatz",
+              },
+              {
+                title: "Digitale Schaufensterwerbung",
+                desc: "Aufmerksamkeit im Schaufenster – auch nach Ladenschluss. Hohe Helligkeit, 24/7 Betrieb.",
+                href: "/loesungen/digitale-schaufensterwerbung",
+                imageSrc: "/images/products/Schuhladen-Meister-Signage.webp",
+                imageAlt: "Digitale Schaufensterwerbung für Retail",
+              },
+              {
+                title: "Digitale Kundenstopper",
+                desc: "Freistehende Displays für Eingang, Schaufenster oder Eventstand – Indoor und Outdoor.",
+                href: "/loesungen/digitale-kundenstopper",
+                imageSrc: "/images/products/Mobile-Display-Outdoor.webp",
+                imageAlt: "Digitaler Kundenstopper Indoor und Outdoor",
+              },
+              {
+                title: "LED Walls & Videowall",
+                desc: "Grossflächige LED-Lösungen für Schaufenster, Bühnen und Empfangsbereiche – maximale Wirkung.",
+                href: "/loesungen/led-walls",
+                imageSrc: "/images/products/Spark5-Design.webp",
+                imageAlt: "LED Walls und Videowall für maximale Sichtbarkeit",
+              },
+              {
+                title: "Digitale Menüboards",
+                desc: "Digitale Menüboards für Gastronomie und Retail – Inhalte in Sekunden aktualisiert.",
+                href: "/loesungen/digitale-menueboards",
+                imageSrc: "/images/products/SparkQ-Design.webp",
+                imageAlt: "Digitales Menüboard für Gastronomie und Retail",
+              },
+            ],
           },
           {
-            title: "Displays mieten",
-            desc: "Flexible Mietlösungen für Events, Messen, Pop-ups und temporäre Einsätze – inkl. Lizenz.",
-            href: "/digital-signage-mieten",
-            imageSrc: "/images/products/Spark4-Design.webp",
-            imageAlt: "Digital Signage Display mieten",
+            title: "Empfang & Orientierung",
+            description:
+              "Information, Begrüssung und Wegfindung – für Besucher, Mitarbeitende und Gäste.",
+            items: [
+              {
+                title: "Digitaler Empfang",
+                desc: "Besucher begrüssen, informieren und professionell führen – ab dem ersten Eindruck.",
+                href: "/loesungen/digitaler-empfang",
+                imageSrc: "/images/products/Hotelempfang-Meister-Signage.webp",
+                imageAlt: "Digitaler Empfang für Unternehmen und Hotels",
+              },
+              {
+                title: "Empfangsdisplays",
+                desc: "Hochwertige Displays für Lobbies, Rezeptionen und Wartebereiche.",
+                href: "/loesungen/empfangsdisplays",
+                imageSrc: "/images/products/Unternehmen-Empfang.webp",
+                imageAlt: "Empfangsdisplays für Unternehmen und Hotels",
+              },
+              {
+                title: "Digitale Infostele",
+                desc: "Freistehende Infosäule für Empfang, Lobby und Wartebereich – Information auf Augenhöhe.",
+                href: "/loesungen/digitale-infostele",
+                imageSrc: "/images/products/Hotelempfang-Meister-Signage.webp",
+                imageAlt: "Digitale Infostele für Empfangsbereich",
+              },
+              {
+                title: "Digitale Leitsysteme",
+                desc: "Besucherführung und Wegweisung – flexibel, immer aktuell, zentral gesteuert.",
+                href: "/loesungen/digitale-leitsysteme",
+                imageSrc: "/images/products/Unternehmen-Empfang.webp",
+                imageAlt: "Digitale Leitsysteme für Besucherführung",
+              },
+              {
+                title: "Digitale Raumbeschilderung",
+                desc: "Belegung und Reservation von Meetingräumen direkt neben der Tür – immer aktuell.",
+                href: "/loesungen/digitale-raumbeschilderung",
+                imageSrc: "/images/products/SparkQ-Design.webp",
+                imageAlt: "Digitale Raumbeschilderung für Meetingräume",
+              },
+            ],
           },
           {
-            title: "LED Walls",
-            desc: "Grossflächige LED-Lösungen für Schaufenster, Bühnen und Empfangsbereiche – maximale Wirkung.",
-            href: "/loesungen/led-walls",
-            imageSrc: "/images/products/Spark5-Design.webp",
-            imageAlt: "LED Walls für maximale Sichtbarkeit",
+            title: "Spezialformate & Mobil",
+            description:
+              "Flexible, doppelseitige oder transportable Lösungen für besondere Einsätze.",
+            items: [
+              {
+                title: "Mobile Displays",
+                desc: "Transportable Displays für Roadshows, Messereihen und multi-standortige Einsätze.",
+                href: "/loesungen/mobile-displays",
+                imageSrc: "/images/products/Mobile-Display-Outdoor.webp",
+                imageAlt: "Mobiles transportables Digital-Signage-Display",
+              },
+              {
+                title: "Doppelseitige Displays",
+                desc: "Sichtbarkeit aus zwei Richtungen – zwei Inhalte auf einem Display.",
+                href: "/loesungen/doppelseitige-displays",
+                imageSrc: "/images/products/Doppelseitiges-Display-Retail.webp",
+                imageAlt: "Doppelseitige Digital-Signage-Displays im Retail-Einsatz",
+              },
+              {
+                title: "Event-Displays",
+                desc: "Mietdisplays für Messen, Tagungen und temporäre Veranstaltungen.",
+                href: "/loesungen/event-displays",
+                imageSrc: "/images/products/Spark3-Design.webp",
+                imageAlt: "Event-Displays für Messen und Tagungen",
+              },
+              {
+                title: "Indoor Signage",
+                desc: "Displays für Innenräume, Empfangsbereiche und Wartezonen – elegant und funktional.",
+                href: "/loesungen/indoor-signage",
+                imageSrc: "/images/products/Spark4-Design.webp",
+                imageAlt: "Indoor Signage Lösungen",
+              },
+            ],
           },
           {
-            title: "Menüboards",
-            desc: "Digitale Menüboards für Gastronomie und Retail – Inhalte in Sekunden aktualisiert.",
-            href: "/loesungen/digitale-menueboards",
-            imageSrc: "/images/products/SparkQ-Design.webp",
-            imageAlt: "Digitales Menüboard für Gastronomie und Retail",
-          },
-          {
-            title: "Indoor Signage",
-            desc: "Displays für Innenräume, Empfangsbereiche und Wartezonen – elegant und funktional.",
-            href: "/loesungen/indoor-signage",
-            imageSrc: "/images/products/Spark4-Design.webp",
-            imageAlt: "Indoor Signage Lösungen",
-          },
-          {
-            title: "Software",
-            desc: "Mit der Meister Signage Software Inhalte zentral verwalten und alle Displays steuern.",
-            href: "/loesungen/software",
-            imageSrc: "/images/products/meister-signage-parallax-bg.webp",
-            imageAlt: "Meister Signage Software zur zentralen Inhaltssteuerung",
-          },
-          {
-            title: "Mobile Displays",
-            desc: "Mobile Digital-Signage-Displays und digitale Kundenstopper – flexibel platzierbar.",
-            href: "/loesungen/mobile-displays",
-            imageSrc: "/images/products/Mobile-Display-Outdoor.webp",
-            imageAlt: "Mobiles Digital-Signage-Display im Outdoor-Einsatz",
-          },
-          {
-            title: "Doppelseitige Displays",
-            desc: "Sichtbarkeit aus zwei Richtungen – zwei Inhalte auf einem Display.",
-            href: "/loesungen/doppelseitige-displays",
-            imageSrc: "/images/products/Doppelseitiges-Display-Retail.webp",
-            imageAlt: "Doppelseitige Digital-Signage-Displays im Retail-Einsatz",
-          },
-          {
-            title: "Digitaler Empfang",
-            desc: "Besucher begrüssen, informieren und professionell führen – ab dem ersten Eindruck.",
-            href: "/loesungen/digitaler-empfang",
-            imageSrc: "/images/products/Hotelempfang-Meister-Signage.webp",
-            imageAlt: "Digitaler Empfang für Unternehmen und Hotels",
-          },
-          {
-            title: "Digitale Leitsysteme",
-            desc: "Besucherführung und Wegweisung – flexibel, immer aktuell, zentral gesteuert.",
-            href: "/loesungen/digitale-leitsysteme",
-            imageSrc: "/images/products/Unternehmen-Empfang.webp",
-            imageAlt: "Digitale Leitsysteme für Besucherführung",
+            title: "Plattform & Service",
+            description:
+              "Software, Kauf, Miete – die Grundlage für jede Digital-Signage-Lösung.",
+            items: [
+              {
+                title: "Displays kaufen",
+                desc: "Schlüsselfertige Digital-Signage-Displays für Gastronomie, Retail, Hotellerie und Unternehmen.",
+                href: "/digital-signage-kaufen",
+                imageSrc: "/images/products/Spark5-Design.webp",
+                imageAlt: "Digital Signage Display kaufen",
+              },
+              {
+                title: "Displays mieten",
+                desc: "Flexible Mietlösungen für Events, Messen, Pop-ups und temporäre Einsätze – inkl. Lizenz.",
+                href: "/digital-signage-mieten",
+                imageSrc: "/images/products/Spark4-Design.webp",
+                imageAlt: "Digital Signage Display mieten",
+              },
+              {
+                title: "Software",
+                desc: "Mit der Meister Signage Software Inhalte zentral verwalten und alle Displays steuern.",
+                href: "/loesungen/software",
+                imageSrc: "/images/products/meister-signage-parallax-bg.webp",
+                imageAlt: "Meister Signage Software zur zentralen Inhaltssteuerung",
+              },
+            ],
           },
         ]}
         contactTitle="Welche Lösung passt zu Ihnen?"

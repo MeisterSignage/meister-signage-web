@@ -60,7 +60,12 @@ const PAGE_FAQS = [
       "Je nach Verfügbarkeit auch sehr kurzfristig. Für Events empfehlen wir, frühzeitig anzufragen, damit Inhalte, Layout und Lieferung in Ruhe vorbereitet werden können.",
   },
   {
-    question: "Was ist im monatlichen Preis enthalten?",
+    question: "Wie lange muss ich mindestens mieten?",
+    answer:
+      "Die Mietdauer richtet sich nach Ihrem Bedarf – vom dreitägigen Event bis zum mehrjährigen Dauereinsatz. Wir kalkulieren transparent auf Basis der gewünschten Einsatzdauer. Häufige Konstellationen: Eventmiete (3–14 Tage), Pop-up/Saison (1–6 Monate), Dauer- oder Übergangsmiete (ab 1 Monat aufwärts).",
+  },
+  {
+    question: "Was ist im Mietpreis enthalten?",
     answer:
       "Die Pakete beinhalten den jeweiligen Display sowie die Lizenzgebühren für die Nutzung. Je nach Projekt können zusätzliche Setup-Leistungen anfallen — das klären wir transparent im Voraus.",
   },
@@ -101,9 +106,9 @@ export default function DigitalSignageMietenPage() {
       />
       {rentalOfferSchema(
         [
-          { name: "Meister Spark 3 Miete – 32\" Display", description: "32\" Full HD Display zur monatlichen Miete inkl. Lizenz.", monthlyPrice: 129 },
-          { name: "Meister Spark 4 Miete – 43\" Display", description: "43\" 4K UHD Display zur monatlichen Miete inkl. Lizenz.", monthlyPrice: 139 },
-          { name: "Meister Spark 5 Miete – 50\" Display", description: "50\" 4K UHD Display zur monatlichen Miete inkl. Lizenz.", monthlyPrice: 149 },
+          { name: "Meister Spark 3 Miete – 32\" Display", description: "32\" Full HD Display zur flexiblen Miete inkl. Lizenz.", monthlyPrice: 129, screenSize: "32 Zoll", resolution: "1920 × 1080 (Full HD)", powerTyp: "36 W", weightKg: 5.5 },
+          { name: "Meister Spark 4 Miete – 43\" Display", description: "43\" 4K UHD Display zur flexiblen Miete inkl. Lizenz.", monthlyPrice: 139, screenSize: "43 Zoll", resolution: "3840 × 2160 (4K UHD)",  powerTyp: "63 W", weightKg: 9.5 },
+          { name: "Meister Spark 5 Miete – 50\" Display", description: "50\" 4K UHD Display zur flexiblen Miete inkl. Lizenz.", monthlyPrice: 149, screenSize: "50 Zoll", resolution: "3840 × 2160 (4K UHD)",  powerTyp: "81 W", weightKg: 13  },
         ],
         PAGE_URL,
       ).map((schema, i) => (
@@ -116,6 +121,7 @@ export default function DigitalSignageMietenPage() {
         eyebrow="Weitere Seiten"
         links={[
           { label: "Digital Signage kaufen",    href: "/digital-signage-kaufen" },
+          { label: "Anbieter im Vergleich",     href: "/digital-signage-anbieter-vergleich" },
           { label: "Kosten & Preise",           href: "/was-kostet-digital-signage-schweiz" },
           { label: "Mobile Displays",           href: "/loesungen/mobile-displays" },
           { label: "Doppelseitige Displays",    href: "/loesungen/doppelseitige-displays" },

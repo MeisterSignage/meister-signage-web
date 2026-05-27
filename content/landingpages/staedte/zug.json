@@ -1,8 +1,8 @@
 {
   "slug": "zug",
   "type": "staedte",
-  "seoTitle": "Digital Signage Zug – Meister Signage",
-  "seoDescription": "Digital-Signage-Lösungen für Unternehmen und Betriebe in Zug. Empfangsdisplays, Menüboards und Event-Screens – persönlich geplant und schlüsselfertig umgesetzt.",
+  "seoTitle": "Digital Signage Zug – mieten & kaufen | Meister Signage",
+  "seoDescription": "Digital Signage in Zug: Displays mieten ab CHF 129 oder kaufen ab CHF 1.299. Direkt aus Baar – kurze Wege, persönliche Betreuung. Für Unternehmen & KMU.",
   "eyebrow": "Standort · Zug",
   "h1": "Digital Signage Zug",
   "intro": "Zug ist ein bedeutender Wirtschaftsstandort mit internationalen Unternehmen, lokalen KMU und einer aktiven Gastronomie- und Eventszene. Meister Signage hat seinen Sitz in Baar und realisiert Digital-Signage-Projekte direkt in der Region Zug – persönlich, praxistauglich und ohne unnötigen Aufwand.",
@@ -52,6 +52,14 @@
     {
       "question": "Was kostet eine Empfangsdisplay-Lösung?",
       "answer": "Die Kosten hängen von Display-Grösse, Inhalt und Betreuungswunsch ab. Wir erstellen gerne eine kostenlose, unverbindliche Einschätzung."
+    },
+    {
+      "question": "Soll ich ein Display in Zug mieten oder kaufen?",
+      "answer": "Mieten ab CHF 129 passt für Pop-up-Events, kurzfristige Empfangskommunikation oder einen Test ohne grosse Vorabinvestition. Kaufen ab CHF 1.299 lohnt sich für den dauerhaften Einsatz im Unternehmens-Empfang und ist langfristig günstiger. Da wir direkt in Baar sitzen, sind wir bei beiden Wegen rasch vor Ort."
+    },
+    {
+      "question": "Was kostet Digital Signage in Zug?",
+      "answer": "Ein einzelnes Display gibt es ab CHF 1.299 zum Kauf oder ab CHF 129 zur Miete inklusive Software-Lizenz. Installation und laufende Betreuung werden je nach Projekt offen ausgewiesen. Für eine kostenlose Einschätzung Ihres Standorts in Zug rufen Sie an oder schreiben kurz – wir kommen bei Bedarf direkt vorbei."
     }
   ],
   "internalLinks": [
@@ -64,8 +72,12 @@
       "href": "/loesungen/empfangsdisplays"
     },
     {
-      "label": "Digital Signage kaufen",
+      "label": "Display in Zug kaufen",
       "href": "/digital-signage-kaufen"
+    },
+    {
+      "label": "Display in Zug mieten",
+      "href": "/digital-signage-mieten"
     },
     {
       "label": "Kosten & Preise",

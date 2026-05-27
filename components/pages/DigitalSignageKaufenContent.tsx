@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { motion, useReducedMotion } from "framer-motion";
+import { m as motion, useReducedMotion } from "framer-motion";
 import {
   ArrowRight, Check, Plus, Minus,
   MapPin, User, Layers, RefreshCw, Zap,
@@ -606,14 +606,18 @@ export default function DigitalSignageKaufenContent() {
               <tbody>
                 {[
                   { label: "Bildschirmgrösse", values: ['32"', '43"', '50"', '33"'] },
-                  { label: "Auflösung", values: ["Full HD", "4K UHD", "4K UHD", "Full HD"] },
+                  { label: "Auflösung", values: ["Full HD", "4K UHD", "4K UHD", "1920×1920"] },
                   { label: "Format", values: ["16:9", "16:9", "16:9", "1:1 (quadratisch)"] },
+                  { label: "Bautiefe", values: ["15.5 mm", "15.5 mm", "15.5 mm", "15.5 mm"] },
+                  { label: "Helligkeit", values: ["450 nits", "450 nits", "450 nits", "450 nits"] },
+                  { label: "Stromverbrauch (typ.)", values: ["36 W", "63 W", "81 W", "53 W"] },
                   { label: "Ideal für", values: ["Menüboards, Empfang", "Gastronomie, Retail", "Schaufenster, grosse Flächen", "Spezialinstallationen"] },
                   { label: "Kaufpreis", values: ["CHF 1'299", "CHF 1'499", "CHF 1'599", "CHF 1'699"], bold: true },
-                  { label: "Mietpreis", values: ["CHF 129/Mo.", "CHF 139/Mo.", "CHF 149/Mo.", "CHF 159/Mo."], bold: true },
+                  { label: "Mietpreis", values: ["ab CHF 129", "ab CHF 139", "ab CHF 149", "ab CHF 159"], bold: true },
                   { label: "Cloud-Steuerung", values: ["check", "check", "check", "check"] },
                   { label: "Persönlicher Support", values: ["check", "check", "check", "check"] },
-                  { label: "24V Energieeffizient", values: ["check", "check", "check", "check"] },
+                  { label: "Niederspannung am Display", values: ["check", "check", "check", "check"] },
+                  { label: "Datenübertragung wireless (WiFi6)", values: ["check", "check", "check", "check"] },
                   { label: "Plug & Play", values: ["check", "check", "check", "check"] },
                 ].map((row, i) => (
                   <tr
@@ -664,6 +668,68 @@ export default function DigitalSignageKaufenContent() {
           <p className="mt-6 text-center text-[12px] text-cgray/60">
             Alle Preise aufgrund der Unternehmensform ohne MWST. Einrichtung, Versand und Software separat ausgewiesen.
           </p>
+
+        </div>
+      </section>
+
+      {/* ── 3c. HARDWARE-HIGHLIGHTS ──────────────────────────────────────── */}
+      <section className="w-full bg-white" id="hardware-highlights">
+        <div className="section-inner">
+
+          <motion.div
+            className="mb-12"
+            initial={reduced ? false : { opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={viewport}
+            transition={{ duration: 0.55, ease: easeOut }}
+          >
+            <span className="eyebrow">Hardware-Highlights</span>
+            <h2
+              className="mt-2 font-light text-navy"
+              style={{ fontSize: "clamp(1.75rem, 2.8vw, 2.6rem)", lineHeight: 1.1, letterSpacing: "-0.025em" }}
+            >
+              Wirkt wie ein Bild. Funktioniert wie ein Profi-Display.
+            </h2>
+            <p className="mt-3 max-w-xl text-[16px] leading-relaxed text-cgray">
+              Vier Eigenschaften machen den Unterschied zwischen einem Standard-Bildschirm und einem Display, das sich nahtlos in Ihren Raum einfügt – und dabei dauerhaft zuverlässig läuft.
+            </p>
+          </motion.div>
+
+          <motion.div
+            className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4"
+            variants={staggerContainer}
+            initial={reduced ? false : "hidden"}
+            whileInView="visible"
+            viewport={viewport}
+          >
+            {[
+              {
+                title: "Nur 15.5 mm Bautiefe",
+                body: "Flach an der Wand mit nur 13.5 mm Rahmen. Wirkt wie ein gerahmtes Bild – nicht wie ein Bildschirm. Branchen-Standard liegt bei 40–80 mm.",
+              },
+              {
+                title: "Datenübertragung 100 % wireless",
+                body: "Keine HDMI-, USB- oder Ethernet-Anschlüsse. Inhalte kommen über WiFi6 auf den integrierten Media Player. Weniger Komponenten, weniger Störquellen.",
+              },
+              {
+                title: "Niederspannung am Display",
+                body: "Externes Netzteil – nur eine dünne Stromleitung zum Display. Keine 230 V-Steckdose direkt am Display nötig. Vereinfacht Installationen, oft ohne Elektriker.",
+              },
+              {
+                title: "24/7 Dauerbetrieb",
+                body: "Spezifiziert für Dauereinsatz, 450 nits Helligkeit auch in hellen Räumen, nur 0.8 W im Standby. Für Gastronomie, Retail und Empfangsbereiche gebaut.",
+              },
+            ].map((item) => (
+              <motion.div
+                key={item.title}
+                variants={staggerItem}
+                className="rounded-[18px] border border-navy/8 bg-offwhite p-6"
+              >
+                <h3 className="mb-2 text-[16px] font-bold text-navy">{item.title}</h3>
+                <p className="text-[13px] leading-relaxed text-cgray">{item.body}</p>
+              </motion.div>
+            ))}
+          </motion.div>
 
         </div>
       </section>

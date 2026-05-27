@@ -53,14 +53,14 @@ const EXAMPLE_CALCULATIONS = [
   {
     title: "Kleines Restaurant",
     setup: "1 × Spark 4 (43\") als digitales Menüboard",
-    monthly: "ab CHF 139/Monat",
+    monthly: "ab CHF 139",
     once: "+ CHF 149 Einrichtung",
     note: "inkl. Lizenz, Cloud-Steuerung und Support – Tagesmenüs jederzeit aktualisieren.",
   },
   {
     title: "Empfangsbereich",
     setup: "1 × Spark 5 (50\") als digitales Empfangsdisplay",
-    monthly: "ab CHF 149/Monat",
+    monthly: "ab CHF 149",
     once: "+ CHF 149 Einrichtung",
     note: "Begrüssung, Termine und Branding zentral steuerbar.",
   },
@@ -86,7 +86,7 @@ const PAGE_URL = `${SITE_URL}/was-kostet-digital-signage-schweiz`;
 export const metadata: Metadata = {
   title: { absolute: "Was kostet Digital Signage in der Schweiz? | Meister Signage" },
   description:
-    "Digital Signage Kosten in der Schweiz ab CHF 129/Mt.: Mietpreise, Kaufpreise, Lizenzkosten und Kostenfaktoren verständlich erklärt. Preisübersicht für KMU.",
+    "Digital Signage Kosten in der Schweiz ab CHF 129: Mietpreise, Kaufpreise, Lizenzkosten und Kostenfaktoren verständlich erklärt. Preisübersicht für KMU.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "website",
@@ -260,7 +260,7 @@ export default function WasKostetDigitalSignagePage() {
             {/* Trust micro */}
             <div className="mt-10 flex flex-wrap items-center gap-x-7 gap-y-3">
               {[
-                "ab CHF 129/Mo. mieten",
+                "ab CHF 129 mieten",
                 "ab CHF 1'299 kaufen",
                 "transparent kalkuliert",
               ].map((t) => (
@@ -293,10 +293,10 @@ export default function WasKostetDigitalSignagePage() {
       {/* 2 — Kurzantwort */}
       <PricingQuickAnswerSection
         title="Digital Signage Kosten – die Kurzantwort"
-        text="Digital Signage kostet in der Schweiz je nach Modell ab CHF 129 pro Monat im Mietmodell oder ab CHF 1'299 beim Kauf eines professionellen Displays. Hinzu kommen je nach Modell Einrichtung, Versand, Softwarelizenz, Content-Erstellung oder Installation."
+        text="Digital Signage kostet in der Schweiz je nach Modell ab CHF 129 im Mietmodell oder ab CHF 1'299 beim Kauf eines professionellen Displays. Hinzu kommen je nach Modell Einrichtung, Versand, Softwarelizenz, Content-Erstellung oder Installation."
         facts={[
           {
-            metric: "ab CHF 129/Mo.",
+            metric: "ab CHF 129",
             label: "Miete",
             description: "inklusive Lizenz, Cloud-Steuerung und Support",
           },

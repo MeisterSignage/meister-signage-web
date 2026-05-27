@@ -7,7 +7,7 @@ import {
   BadgeCheck, Zap, Lightbulb, MessageSquare, UserCheck, MapPin, Shield,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
-import { motion, useReducedMotion } from "framer-motion";
+import { m as motion, useReducedMotion } from "framer-motion";
 import {
   staggerContainer,
   staggerItem,

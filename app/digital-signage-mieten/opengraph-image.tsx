@@ -10,6 +10,6 @@ export default async function Image() {
   return renderOgImage({
     eyebrow: "Displays mieten",
     title: "Flexibel einsetzen. Ohne Bindung.",
-    subtitle: "Digital-Signage-Screens ab CHF 129/Monat – inklusive Lizenz, persönlich aus der Schweiz betreut.",
+    subtitle: "Digital-Signage-Screens ab CHF 129 – inklusive Lizenz, persönlich aus der Schweiz betreut.",
   });
 }

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { ArrowRight, MapPin, User, Layers, RefreshCw, Zap } from "lucide-react";
-import { motion, useReducedMotion } from "framer-motion";
+import { m as motion, useReducedMotion } from "framer-motion";
 import { viewport, easeOut, staggerContainer, staggerItem } from "@/lib/motion";
 
 const steps = [

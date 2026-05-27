@@ -1,0 +1,94 @@
+{
+  "slug": "digitales-werbedisplay",
+  "type": "loesungen",
+  "seoTitle": "Digitales Werbedisplay – digitaler Werbebildschirm | Meister Signage",
+  "seoDescription": "Digitale Werbedisplays für Retail, Gastronomie und POS in der Schweiz: aufmerksamkeitsstarke Werbebildschirme, schlüsselfertig installiert. Ab CHF 129 zur Miete oder ab CHF 1.299 zum Kauf.",
+  "eyebrow": "Lösung · Werbedisplay",
+  "h1": "Digitale Werbedisplays – Aufmerksamkeit, wo sie wirkt.",
+  "intro": "Ein digitales Werbedisplay zeigt Kampagnen, Aktionen, Produkte oder Markenwerte direkt am Ort der Entscheidung. Anders als gedruckte Plakate lassen sich Inhalte täglich anpassen, mit Bewegtbild ergänzen und auf Zielgruppen oder Tageszeit ausrichten. Für Retail, Gastronomie, Pop-up-Stores und Empfangsbereiche.",
+  "heroImage": "/images/products/Schuhladen-Meister-Signage.webp",
+  "benefits": [
+    {
+      "title": "Aufmerksamkeit am Point of Sale",
+      "description": "Bewegte digitale Inhalte werden im Verkaufsraum oder Schaufenster bis zu 4-mal stärker wahrgenommen als statische Plakate – nachgewiesen in Studien der Display-Werbeforschung."
+    },
+    {
+      "title": "Inhalte ohne Druck und Wartezeit",
+      "description": "Neue Aktion am Morgen, sichtbar zur Mittagszeit. Keine Plakatproduktion, kein Plotterauftrag, kein Versand – das Werbedisplay wird über die Cloud aktualisiert."
+    },
+    {
+      "title": "Mehrere Inhalte im Wechsel",
+      "description": "Statt einer Botschaft auf einem Plakat zeigt das digitale Werbedisplay 5, 10 oder 20 Inhalte im Wechsel. Sie kommunizieren parallel über Kampagnen, Produkte und Aktionen."
+    },
+    {
+      "title": "Zeit- und tagesgesteuerte Werbung",
+      "description": "Morgens Frühstückskarte, mittags Lunch-Aktion, abends Bar-Promo. Inhalte spielen automatisch zur richtigen Zeit ohne manuelles Eingreifen."
+    },
+    {
+      "title": "Investition mit Lebensdauer",
+      "description": "Ein digitales Werbedisplay läuft viele Jahre und ersetzt die laufenden Druckkosten für Plakate und Aushänge. Die Investition rechnet sich oft innerhalb der ersten 12 bis 24 Monate."
+    },
+    {
+      "title": "Verschiedene Grössen, klare Preise",
+      "description": "Vom kompakten 32-Zoll-Display für die Theke bis zum 50-Zoll-Werbebildschirm fürs Schaufenster. Vier Standardmodelle mit transparenten Preisen – kein Beraterprojekt nötig."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Was ist der Unterschied zwischen einem digitalen Werbedisplay und einem normalen Fernseher?",
+      "answer": "Werbedisplays sind für den professionellen Dauerbetrieb (24/7) ausgelegt, haben höhere Helligkeit (450 nits statt 250), längere Lebensdauer und integrierte Mediaplayer – kein externer USB-Stick oder Computer nötig. Ein Consumer-Fernseher wäre nach wenigen Wochen Dauerbetrieb defekt."
+    },
+    {
+      "question": "Welche Inhalte zeige ich auf einem digitalen Werbedisplay?",
+      "answer": "Typischerweise: Produktbilder mit Preis, Aktionen und Sonderangebote, Markenkampagnen, kurze Videos, Tagesmenüs (Gastro), Öffnungszeiten oder Events. Inhalte können selbst erstellt oder von uns aufbereitet werden."
+    },
+    {
+      "question": "Wie gross muss ein digitales Werbedisplay sein?",
+      "answer": "Für Theken und kleinere Bereiche reicht 32 Zoll, für allgemeine Verkaufsflächen 43 Zoll, für Schaufenster oder grössere Räume 50 Zoll oder mehr. Wir empfehlen die Grösse basierend auf Betrachtungsabstand und Standort."
+    },
+    {
+      "question": "Was kostet ein digitales Werbedisplay?",
+      "answer": "Im Mietmodell ab CHF 129 inklusive Software-Lizenz und Support. Beim Kauf ab CHF 1.299. Hinzu kommen je nach Projekt Installation und einmalige Einrichtung – wird vorab transparent ausgewiesen."
+    },
+    {
+      "question": "Brauche ich IT-Kenntnisse für ein digitales Werbedisplay?",
+      "answer": "Nein. Inhalte werden über eine einfache Cloud-Oberfläche aktualisiert (Drag & Drop, Bilder hochladen, Texte ändern). Wir richten alles ein und schulen Sie kurz – ab dem ersten Tag bedienbar."
+    },
+    {
+      "question": "Kann ich mehrere Werbedisplays zentral steuern?",
+      "answer": "Ja. Auch mehrere Standorte oder ganze Filialnetze lassen sich über eine Oberfläche steuern. Inhalte können standortspezifisch oder einheitlich ausgespielt werden."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Indoor Signage", "href": "/loesungen/indoor-signage" },
+    { "label": "Digitale Menüboards", "href": "/loesungen/digitale-menueboards" },
+    { "label": "Digitale Kundenstopper", "href": "/loesungen/digitale-kundenstopper" },
+    { "label": "Digitale Schaufensterwerbung", "href": "/loesungen/digitale-schaufensterwerbung" },
+    { "label": "LED Walls & Videowall", "href": "/loesungen/led-walls" },
+    { "label": "Digital Signage kaufen", "href": "/digital-signage-kaufen" },
+    { "label": "Digital Signage mieten", "href": "/digital-signage-mieten" },
+    { "label": "Retail & Handel", "href": "/branchen/retail" },
+    { "label": "Gastronomie", "href": "/branchen/gastronomie" }
+  ],
+  "cta": {
+    "eyebrow": "Projekt besprechen",
+    "title": "Welches Werbedisplay passt zu Ihrem Standort?",
+    "subtitle": "Schildern Sie kurz Standort, Einsatzort und gewünschte Botschaft – wir empfehlen Grösse, Modell und nennen Mietpreis oder Kaufpreis transparent.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Über Meister Signage",
+    "secondaryHref": "/ueber-uns"
+  },
+  "related": {
+    "loesungen": [
+      { "label": "Indoor Signage", "href": "/loesungen/indoor-signage" },
+      { "label": "Digitale Menüboards", "href": "/loesungen/digitale-menueboards" },
+      { "label": "LED Walls & Videowall", "href": "/loesungen/led-walls" }
+    ],
+    "branchen": [
+      { "label": "Retail & Handel", "href": "/branchen/retail" },
+      { "label": "Gastronomie", "href": "/branchen/gastronomie" },
+      { "label": "Hotellerie", "href": "/branchen/hotellerie" }
+    ]
+  }
+}

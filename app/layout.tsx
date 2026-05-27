@@ -6,6 +6,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 import Footer from "@/components/Footer";
 import FloatingSocials from "@/components/ui/FloatingSocials";
 import JsonLd from "@/components/JsonLd";
+import MotionProvider from "@/components/MotionProvider";
 import { organizationSchema } from "@/lib/schema/organization";
 import { localBusinessSchema } from "@/lib/schema/localBusiness";
 import { websiteSchema } from "@/lib/schema/website";
@@ -113,12 +114,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <JsonLd schema={personSchema as Record<string, unknown>} />
       </head>
       <body>
-        <Nav />
-        <ScrollToTop />
-        <main className="mt-[69px]">{children}</main>
-        <Footer />
-        <FloatingSocials />
-        <CookieConsent />
+        <MotionProvider>
+          <Nav />
+          <ScrollToTop />
+          <main className="mt-[69px]">{children}</main>
+          <Footer />
+          <FloatingSocials />
+          <CookieConsent />
+        </MotionProvider>
       </body>
     </html>
   );

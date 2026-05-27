@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { motion, useReducedMotion } from "framer-motion";
+import { m as motion, useReducedMotion } from "framer-motion";
 import { staggerContainer, staggerItem, cardHover, viewport, easeOut } from "@/lib/motion";
 
 type CaseStudy = {

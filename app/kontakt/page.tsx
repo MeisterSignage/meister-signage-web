@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
-import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
+import { m as motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
 import { ArrowRight, Phone } from "lucide-react";
 import ContactFormSection from "@/components/sections/ContactFormSection";
 import ContactSection from "@/components/sections/ContactSection";

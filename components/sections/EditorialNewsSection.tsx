@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
-import { motion, useReducedMotion } from "framer-motion";
+import { m as motion, useReducedMotion } from "framer-motion";
 import { viewport, easeOut, staggerContainer, staggerItem } from "@/lib/motion";
 import type { NewsPost } from "@/lib/news";
 

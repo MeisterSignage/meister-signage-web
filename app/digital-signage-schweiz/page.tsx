@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
-import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
+import { m as motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import ParallaxShowcaseSection from "@/components/sections/ParallaxShowcaseSection";
 import ProblemSolutionSection from "@/components/sections/ProblemSolutionSection";
@@ -52,7 +52,7 @@ const PAGE_FAQS = [
   {
     question: "Können Displays gemietet werden?",
     answer:
-      "Ja. Meister Signage bietet flexible Mietpakete ab CHF 129 pro Monat — inklusive Lizenz, Cloud-Steuerung und Support. Ideal für Events oder als Einstieg.",
+      "Ja. Meister Signage bietet flexible Mietpakete ab CHF 129 — inklusive Lizenz, Cloud-Steuerung und Support. Ideal für Events oder als Einstieg.",
   },
   {
     question: "Unterstützt Meister Signage bei Installation und Betreuung?",

@@ -1,0 +1,90 @@
+{
+  "slug": "digitale-raumbeschilderung",
+  "type": "loesungen",
+  "seoTitle": "Digitale Raumbeschilderung – Meetingräume & Türschilder | Meister Signage",
+  "seoDescription": "Digitale Raumbeschilderung für Meetingräume, Büros, Hotels und Coworking-Flächen. Belegung, Reservation und Raumname auf einem kleinen Display direkt neben der Tür.",
+  "eyebrow": "Lösung · Raumbeschilderung",
+  "h1": "Digitale Raumbeschilderung – Klarheit an jeder Tür.",
+  "intro": "Digitale Raumbeschilderung zeigt direkt am Eingang eines Raums, wer ihn nutzt, wann er belegt ist und ob er noch frei ist. Statt gedruckter Türschilder oder leerer Whiteboards ein kleines, immer aktuelles Display. Für Meetingräume in Unternehmen, Hotelräume, Coworking-Flächen oder Klassenzimmer.",
+  "heroImage": "/images/products/SparkQ-Design.webp",
+  "benefits": [
+    {
+      "title": "Immer aktueller Belegungsstatus",
+      "description": "Das Display zeigt jederzeit, ob der Raum frei oder belegt ist – synchronisiert mit Ihrem Kalendersystem (z.B. Outlook, Google Calendar) oder via Cloud-Steuerung manuell aktualisiert."
+    },
+    {
+      "title": "Schnelle Orientierung für Besucher",
+      "description": "Mitarbeitende und Gäste sehen auf einen Blick, in welchem Raum welche Sitzung stattfindet – ohne durch die Etage zu wandern oder Türen aufzureissen."
+    },
+    {
+      "title": "Konsistente Darstellung an allen Räumen",
+      "description": "Statt unterschiedlicher Türschilder, Klebezetteln und Whiteboards ein einheitliches, professionelles Erscheinungsbild über die ganze Fläche."
+    },
+    {
+      "title": "Reservation direkt am Display",
+      "description": "Auf Touchdisplay-Varianten können Mitarbeitende den Raum spontan vor Ort buchen – ohne Laptop, ohne App. Praktisch für Spontan-Meetings."
+    },
+    {
+      "title": "Kompakte Bauform für jede Tür",
+      "description": "Standardmodelle in handlichen Grössen – ideal direkt neben der Türzarge montiert. Auch quadratische Formate für besondere Einbausituationen."
+    },
+    {
+      "title": "Wenig Stromverbrauch",
+      "description": "Kleine Bauform = kleiner Verbrauch. Auch bei Dauerbetrieb über mehrere Räume entstehen kaum nennenswerte Energiekosten."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Mit welchen Kalendersystemen ist die Raumbeschilderung kompatibel?",
+      "answer": "Synchronisation mit Microsoft 365/Outlook und Google Workspace ist möglich. Auf Anfrage prüfen wir auch Integrationen mit Ihrem konkreten System – meist über Standard-Kalender-Protokolle wie iCal/CalDAV."
+    },
+    {
+      "question": "Können Mitarbeitende den Raum direkt am Display buchen?",
+      "answer": "Mit der Touchdisplay-Variante ja. Spontane Buchung für die nächsten Minuten oder bis zur nächsten geplanten Sitzung – ohne Laptop oder Smartphone. Bei der Standard-Anzeigevariante wird nur der aktuelle Status angezeigt, ohne Bucheingriff."
+    },
+    {
+      "question": "Wie wird das Display montiert?",
+      "answer": "In der Regel direkt neben der Türzarge auf Augenhöhe – mit dezenter Wandmontage. Für Glaswände bieten wir Klemmlösungen ohne Bohren. Wir prüfen die Situation und empfehlen die passende Montage."
+    },
+    {
+      "question": "Was passiert bei einem Stromausfall?",
+      "answer": "Nach Wiederherstellung der Stromversorgung verbindet sich das Display automatisch wieder mit dem Netzwerk und zeigt den aktuellen Belegungsstatus. Kein manueller Eingriff nötig."
+    },
+    {
+      "question": "Wie viele Räume kann ich gleichzeitig ausstatten?",
+      "answer": "Beliebig viele – von einem einzelnen Meetingraum bis zu einer ganzen Etage oder mehreren Standorten. Alle Displays werden zentral über die Cloud-Oberfläche verwaltet."
+    },
+    {
+      "question": "Was kostet digitale Raumbeschilderung?",
+      "answer": "Im Mietmodell ab CHF 129 pro Display, beim Kauf ab CHF 1.299. Bei mehreren Räumen erstellen wir ein individuelles Angebot. Touchdisplay- und Kalendersystem-Integration werden separat ausgewiesen."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Digitaler Empfang", "href": "/loesungen/digitaler-empfang" },
+    { "label": "Empfangsdisplays", "href": "/loesungen/empfangsdisplays" },
+    { "label": "Digitale Infostele", "href": "/loesungen/digitale-infostele" },
+    { "label": "Digitale Leitsysteme", "href": "/loesungen/digitale-leitsysteme" },
+    { "label": "Unternehmen", "href": "/branchen/unternehmen" },
+    { "label": "Hotellerie", "href": "/branchen/hotellerie" }
+  ],
+  "cta": {
+    "eyebrow": "Projekt besprechen",
+    "title": "Wie viele Räume sollen ausgestattet werden?",
+    "subtitle": "Schildern Sie kurz Anzahl Räume, gewünschte Kalendersystem-Integration und ob eine Touch-Funktion gewünscht ist – wir empfehlen die passende Lösung.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Über Meister Signage",
+    "secondaryHref": "/ueber-uns"
+  },
+  "related": {
+    "loesungen": [
+      { "label": "Digitaler Empfang", "href": "/loesungen/digitaler-empfang" },
+      { "label": "Digitale Infostele", "href": "/loesungen/digitale-infostele" },
+      { "label": "Digitale Leitsysteme", "href": "/loesungen/digitale-leitsysteme" }
+    ],
+    "branchen": [
+      { "label": "Unternehmen", "href": "/branchen/unternehmen" },
+      { "label": "Hotellerie", "href": "/branchen/hotellerie" }
+    ]
+  }
+}

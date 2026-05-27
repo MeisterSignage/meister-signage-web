@@ -1,0 +1,90 @@
+{
+  "slug": "digitale-infostele",
+  "type": "loesungen",
+  "seoTitle": "Digitale Infostele – Infosäulen für Empfang & Wartebereich | Meister Signage",
+  "seoDescription": "Digitale Infostele für Hotels, Unternehmen, öffentliche Einrichtungen: Information, Orientierung und Begrüssung in einer freistehenden Säule. Schweizweit installiert.",
+  "eyebrow": "Lösung · Infostele",
+  "h1": "Digitale Infostele – Information frei im Raum.",
+  "intro": "Eine digitale Infostele ist eine freistehende, vertikale Säule mit Display – aufgestellt in Empfangsbereichen, Lobbies, Wartezonen, Museen oder öffentlichen Gebäuden. Sie informiert, orientiert und begrüsst – ohne Wandmontage und ohne fixe Verkabelung. Inhalte werden zentral gepflegt und automatisch aktualisiert.",
+  "heroImage": "/images/products/Hotelempfang-Meister-Signage.webp",
+  "benefits": [
+    {
+      "title": "Freistehend – flexibel positionierbar",
+      "description": "Die Infostele steht frei im Raum und braucht keine Wandhalterung. Standortwechsel sind ohne baulichen Eingriff möglich – ideal für Flächen, die sich ändern."
+    },
+    {
+      "title": "Information auf Augenhöhe",
+      "description": "Stehende, vertikale Bauform sorgt dafür, dass Inhalte für Besucher in natürlicher Lesehöhe sind – ohne sich bücken oder strecken zu müssen."
+    },
+    {
+      "title": "Vielseitig: Begrüssung, Orientierung, Werbung",
+      "description": "Eine Infostele kann gleichzeitig Begrüssungstexte, Veranstaltungshinweise, Wegweisung und Werbeinhalte ausspielen – im Wechsel oder kombiniert."
+    },
+    {
+      "title": "Zentral aktualisierbar",
+      "description": "Inhalte werden über die Cloud verwaltet – von einer Person oder einer ganzen Filialkette. Auch mehrere Infostelen an verschiedenen Standorten lassen sich einheitlich bespielen."
+    },
+    {
+      "title": "Touchscreen-Variante auf Anfrage",
+      "description": "Für interaktive Anwendungen (Self-Service, Raumbuchung, Wegfindung) bieten wir Touchdisplay-Modelle. Standard sind passive Anzeige-Infostelen."
+    },
+    {
+      "title": "Professionelle Erscheinung",
+      "description": "Schlankes Gehäuse, hochauflösendes Display, hochwertiges Standfussdesign – passt zur repräsentativen Wirkung in Empfangsbereichen, Showrooms und öffentlichen Gebäuden."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Was ist der Unterschied zwischen einer Infostele und einem normalen Display?",
+      "answer": "Eine Infostele ist freistehend und vertikal aufgebaut – kein Wandanker, keine Höhenmontage nötig. Sie eignet sich besonders für offene Räume und Empfangsbereiche, in denen ein Display an der Wand visuell nicht passt oder baulich nicht möglich ist."
+    },
+    {
+      "question": "Welche Inhalte zeige ich auf einer digitalen Infostele?",
+      "answer": "Typischerweise: Begrüssungstexte, Veranstaltungshinweise, Tagesprogramm, Raumübersicht und Wegweisung, Service-Informationen, Wartezeit-Anzeigen oder ergänzende Werbung. Inhalte können einzeln oder im Wechsel ausgespielt werden."
+    },
+    {
+      "question": "Brauche ich eine spezielle Stromversorgung?",
+      "answer": "Nein. Eine normale Steckdose in Reichweite genügt – das externe Netzteil führt eine dünne Niederspannungs-Leitung zum Display. Bei Standorten ohne Steckdose besprechen wir alternative Lösungen."
+    },
+    {
+      "question": "Kann die Infostele Touch-Funktion haben?",
+      "answer": "Ja, auf Anfrage. Für interaktive Anwendungen wie Self-Service, Raumbuchung oder Wegfindung bieten wir Touchscreen-Varianten. Standard ist die passive Anzeige-Infostele – meist die bessere Wahl, wenn Vandalismus oder Hygiene ein Thema sind."
+    },
+    {
+      "question": "Wie schwer ist eine Infostele und kann ich sie selbst verschieben?",
+      "answer": "Je nach Modell zwischen 15 und 25 kg, durch die schmale, vertikale Bauform aber gut handhabbar. Auf Wunsch mit Rollen am Standfuss für einfaches Verschieben innerhalb eines Raums."
+    },
+    {
+      "question": "Was kostet eine digitale Infostele?",
+      "answer": "Im Mietmodell ab CHF 149, beim Kauf ab CHF 1.599 für ein 50-Zoll-Modell auf Standfuss. Hinzu kommen je nach Projekt Aufbau und einmalige Einrichtung – wird im Angebot transparent ausgewiesen."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Digitaler Empfang", "href": "/loesungen/digitaler-empfang" },
+    { "label": "Empfangsdisplays", "href": "/loesungen/empfangsdisplays" },
+    { "label": "Digitale Leitsysteme", "href": "/loesungen/digitale-leitsysteme" },
+    { "label": "Digitale Raumbeschilderung", "href": "/loesungen/digitale-raumbeschilderung" },
+    { "label": "Hotellerie", "href": "/branchen/hotellerie" },
+    { "label": "Unternehmen", "href": "/branchen/unternehmen" }
+  ],
+  "cta": {
+    "eyebrow": "Projekt besprechen",
+    "title": "Welche Infostele passt zu Ihrem Empfang?",
+    "subtitle": "Schildern Sie kurz Einsatzort, Inhalt und ob eine Touch-Funktion gewünscht ist – wir empfehlen das passende Modell und nennen den Preis transparent.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Über Meister Signage",
+    "secondaryHref": "/ueber-uns"
+  },
+  "related": {
+    "loesungen": [
+      { "label": "Digitaler Empfang", "href": "/loesungen/digitaler-empfang" },
+      { "label": "Empfangsdisplays", "href": "/loesungen/empfangsdisplays" },
+      { "label": "Digitale Leitsysteme", "href": "/loesungen/digitale-leitsysteme" }
+    ],
+    "branchen": [
+      { "label": "Hotellerie", "href": "/branchen/hotellerie" },
+      { "label": "Unternehmen", "href": "/branchen/unternehmen" }
+    ]
+  }
+}

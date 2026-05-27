@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { motion, useReducedMotion } from "framer-motion";
+import { m as motion, useReducedMotion } from "framer-motion";
 import {
   ArrowRight, Plus, Minus, Check,
   MapPin, User, Layers, RefreshCw, Zap,
@@ -53,7 +53,7 @@ const benefits = [
   {
     icon: Banknote,
     title: "Keine Kapitalbindung",
-    desc: "Kein grosser Vorabkauf — Sie starten mit einem monatlichen Mietbetrag und bleiben finanziell flexibel.",
+    desc: "Kein grosser Vorabkauf — Sie starten mit einem flexiblen Mietbetrag und bleiben finanziell beweglich.",
   },
   {
     icon: CalendarRange,
@@ -129,7 +129,7 @@ const trustItems = [
   { icon: MapPin,    label: "Schweizer Betreuung",     desc: "Lokaler Ansprechpartner aus der Zentralschweiz" },
   { icon: User,      label: "Persönliche Einrichtung",  desc: "Einrichtung vor Ort oder remote — betriebsbereit ab Tag 1" },
   { icon: Layers,    label: "Alles inklusive",          desc: "Hardware, Lizenz und Support aus einer Hand" },
-  { icon: RefreshCw, label: "Flexible Laufzeit",        desc: "Keine langfristige Bindung — monatlich anpassbar" },
+  { icon: RefreshCw, label: "Flexible Laufzeit",        desc: "Keine langfristige Bindung — jederzeit anpassbar" },
   { icon: Zap,       label: "Kein IT-Aufwand",          desc: "Plug & Play — wir kümmern uns um die Technik" },
 ];
 
@@ -188,7 +188,11 @@ const faqs = [
     answer: "Je nach Verfügbarkeit auch sehr kurzfristig. Für Events empfehlen wir, frühzeitig anzufragen, damit Inhalte, Layout und Lieferung in Ruhe vorbereitet werden können.",
   },
   {
-    question: "Was ist im monatlichen Preis enthalten?",
+    question: "Wie lange muss ich mindestens mieten?",
+    answer: "Die Mietdauer richtet sich nach Ihrem Bedarf – vom dreitägigen Event bis zum mehrjährigen Dauereinsatz. Wir kalkulieren transparent auf Basis der gewünschten Einsatzdauer. Häufige Konstellationen: Eventmiete (3–14 Tage), Pop-up/Saison (1–6 Monate), Dauer- oder Übergangsmiete (ab 1 Monat aufwärts).",
+  },
+  {
+    question: "Was ist im Mietpreis enthalten?",
     answer: "Die Pakete beinhalten den jeweiligen Display sowie die Lizenzgebühren für die Nutzung. Je nach Projekt können zusätzliche Setup-Leistungen anfallen — das klären wir transparent im Voraus.",
   },
   {
@@ -510,10 +514,10 @@ export default function DigitalSignageMietenContent() {
                     </span>
                   </div>
                   <div className="mb-4">
+                    <span className="text-[13px] font-semibold text-cgray">ab </span>
                     <span className="text-[28px] font-black tracking-tight text-navy">
                       CHF {pkg.price}
                     </span>
-                    <span className="ml-1 text-[13px] text-cgray">/Monat</span>
                   </div>
                   <p className="mb-5 text-[13px] leading-relaxed text-cgray">{pkg.desc}</p>
                   <ul className="mb-5 space-y-2">
@@ -549,6 +553,171 @@ export default function DigitalSignageMietenContent() {
           >
             Alle Preise aufgrund der Unternehmensform ohne MWST. Einmalige Setup-Gebühr von CHF 149. Individuelle Angebote auf Anfrage.
           </motion.p>
+
+        </div>
+      </section>
+
+      {/* ── 2.2 HARDWARE-HIGHLIGHTS ────────────────────────────────────── */}
+      <section className="w-full bg-white" id="hardware-highlights">
+        <div className="section-inner">
+
+          <motion.div
+            className="mb-12"
+            initial={reduced ? false : { opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={viewport}
+            transition={{ duration: 0.55, ease: easeOut }}
+          >
+            <span className="eyebrow">Hardware-Highlights</span>
+            <h2
+              className="mt-2 font-light text-navy"
+              style={{ fontSize: "clamp(1.75rem, 2.8vw, 2.6rem)", lineHeight: 1.1, letterSpacing: "-0.025em" }}
+            >
+              Wirkt wie ein Bild. Funktioniert wie ein Profi-Display.
+            </h2>
+            <p className="mt-3 max-w-xl text-[16px] leading-relaxed text-cgray">
+              Auch zur Miete bekommen Sie die gleichen Spark-Displays wie beim Kauf. Vier Eigenschaften machen den Unterschied zwischen einem Standard-Bildschirm und einer Mietlösung, die sich nahtlos in Event, Pop-up oder Dauereinsatz einfügt.
+            </p>
+          </motion.div>
+
+          <motion.div
+            className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4"
+            variants={staggerContainer}
+            initial={reduced ? false : "hidden"}
+            whileInView="visible"
+            viewport={viewport}
+          >
+            {[
+              {
+                title: "Nur 15.5 mm Bautiefe",
+                body: "Flach an der Wand mit nur 13.5 mm Rahmen. Wirkt wie ein gerahmtes Bild – nicht wie ein Bildschirm. Branchen-Standard liegt bei 40–80 mm.",
+              },
+              {
+                title: "Datenübertragung 100 % wireless",
+                body: "Keine HDMI-, USB- oder Ethernet-Anschlüsse. Inhalte kommen über WiFi6 auf den integrierten Media Player. Weniger Komponenten, weniger Störquellen – besonders praktisch im Event-Aufbau.",
+              },
+              {
+                title: "Niederspannung am Display",
+                body: "Externes Netzteil – nur eine dünne Stromleitung zum Display. Keine 230 V-Steckdose direkt am Display nötig. Vereinfacht temporäre Installationen, oft ohne Elektriker.",
+              },
+              {
+                title: "24/7 Dauerbetrieb",
+                body: "Spezifiziert für Dauereinsatz, 450 nits Helligkeit auch in hellen Räumen, nur 0.8 W im Standby. Vom 3-Tage-Event bis zum mehrmonatigen Einsatz zuverlässig.",
+              },
+            ].map((item) => (
+              <motion.div
+                key={item.title}
+                variants={staggerItem}
+                className="rounded-[18px] border border-navy/8 bg-offwhite p-6"
+              >
+                <h3 className="mb-2 text-[16px] font-bold text-navy">{item.title}</h3>
+                <p className="text-[13px] leading-relaxed text-cgray">{item.body}</p>
+              </motion.div>
+            ))}
+          </motion.div>
+
+        </div>
+      </section>
+
+      {/* ── 2.4 MIETDAUER / EVENTMIETE ─────────────────────────────────── */}
+      <section className="w-full bg-offwhite" id="mietdauer">
+        <div className="section-inner">
+
+          <motion.div
+            className="mb-12"
+            initial={reduced ? false : { opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={viewport}
+            transition={{ duration: 0.55, ease: easeOut }}
+          >
+            <span className="eyebrow">Mietdauer & Eventmiete</span>
+            <h2
+              className="mt-2 font-light text-navy"
+              style={{ fontSize: "clamp(1.75rem, 2.8vw, 2.6rem)", lineHeight: 1.1, letterSpacing: "-0.025em" }}
+            >
+              Vom Eventtag bis zum Dauereinsatz – flexibel mietbar.
+            </h2>
+            <p className="mt-3 max-w-2xl text-[16px] leading-relaxed text-cgray">
+              Sie mieten so lange, wie Sie das Display brauchen. Ob für eine dreitägige Messe, eine
+              Pop-up-Saison oder einen mehrmonatigen Übergang – Lieferung, Aufbau und Rückholung
+              stimmen wir auf Ihren Zeitplan ab.
+            </p>
+          </motion.div>
+
+          <motion.div
+            className="grid grid-cols-1 gap-5 sm:grid-cols-3"
+            variants={staggerContainer}
+            initial={reduced ? false : "hidden"}
+            whileInView="visible"
+            viewport={viewport}
+          >
+            {[
+              {
+                eyebrow: "Kurzzeit",
+                title: "Event, Messe, Tagung",
+                duration: "wenige Tage bis 2 Wochen",
+                body: "Für einmalige Anlässe: Display, Inhalte und Aufbau passend zum Event vorbereitet. Lieferung und Abholung abgestimmt auf Veranstaltungsbeginn und -ende.",
+                useCases: "Messeauftritte · Konferenzen · Eröffnungen · Sponsorenanzeigen",
+              },
+              {
+                eyebrow: "Saisonal",
+                title: "Pop-up & Aktion",
+                duration: "1 bis 6 Monate",
+                body: "Für temporäre Stores, saisonale Promotionen oder Markt-Tests. Inhalte lassen sich laufend aktualisieren – kein Druck, keine Nachproduktion nötig.",
+                useCases: "Pop-up-Stores · Weihnachts­geschäft · Schaufenster-Kampagne · Sommer-Promo",
+              },
+              {
+                eyebrow: "Dauer­einsatz",
+                title: "Test- oder Übergangs­miete",
+                duration: "ab einem Monat aufwärts",
+                body: "Wenn Sie Digital Signage erst im Alltag prüfen wollen, bevor Sie kaufen – oder eine Übergangslösung benötigen. Späterer Wechsel auf Kauf jederzeit möglich.",
+                useCases: "Filialtest · Konzept­validierung · Übergang vor Umbau · Kauf-Vorlauf",
+              },
+            ].map((scen) => (
+              <motion.div
+                key={scen.title}
+                variants={staggerItem}
+                className="flex flex-col rounded-[18px] border border-navy/8 bg-white p-7"
+              >
+                <span
+                  className="mb-3 text-[11px] font-bold uppercase tracking-[0.15em]"
+                  style={{ color: "rgba(254,1,154,0.85)" }}
+                >
+                  {scen.eyebrow}
+                </span>
+                <h3 className="mb-2 text-[18px] font-bold text-navy">{scen.title}</h3>
+                <span className="mb-4 text-[13px] font-semibold text-cgray">
+                  Typische Mietdauer: {scen.duration}
+                </span>
+                <p className="mb-4 text-[14px] leading-relaxed text-cgray">{scen.body}</p>
+                <p className="mt-auto text-[12px] leading-relaxed text-cgray/80">{scen.useCases}</p>
+              </motion.div>
+            ))}
+          </motion.div>
+
+          <motion.div
+            className="mt-10 rounded-[14px] border border-magenta/15 bg-white p-6 sm:flex sm:items-center sm:justify-between sm:gap-6"
+            initial={reduced ? false : { opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={viewport}
+            transition={{ duration: 0.55, ease: easeOut, delay: 0.2 }}
+          >
+            <div>
+              <p className="text-[15px] font-semibold text-navy">
+                Preise ab CHF 129 – Mietdauer passend zu Ihrem Bedarf.
+              </p>
+              <p className="mt-1 text-[13px] leading-relaxed text-cgray">
+                Wir kalkulieren transparent auf Basis der gewünschten Einsatzdauer. Kurz anfragen, klar zurückbekommen.
+              </p>
+            </div>
+            <Link
+              href="/kontakt"
+              className="btn-primary mt-4 inline-flex shrink-0 items-center gap-2 sm:mt-0"
+            >
+              Mietanfrage senden
+              <ArrowRight className="h-4 w-4" strokeWidth={2} />
+            </Link>
+          </motion.div>
 
         </div>
       </section>
