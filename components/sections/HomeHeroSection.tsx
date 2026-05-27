@@ -32,7 +32,7 @@ export default function HomeHeroSection({
   return (
     <>
     <section
-      className="relative w-full overflow-hidden"
+      className="relative w-full overflow-hidden min-h-[60vh] lg:min-h-[65vh]"
       style={{ backgroundColor: "#07101f" }}
     >
       {/* Background image — centered, full section height, width = height × 1536/1024 (3:2) */}

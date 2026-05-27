@@ -64,7 +64,7 @@ export default function WissenIndexPage() {
 
       {/* ── HERO ─────────────────────────────────────────────────────────── */}
       <section
-        className="relative w-full overflow-hidden"
+        className="relative w-full overflow-hidden min-h-[60vh] lg:min-h-[65vh]"
         style={{ background: "#07101f" }}
       >
         <div
@@ -104,8 +104,8 @@ export default function WissenIndexPage() {
           }}
         />
 
-        <div className="relative mx-auto flex max-w-[1200px] flex-col justify-center px-6 py-24 md:min-h-[55vh] md:px-10 lg:min-h-[60vh]">
-          <div className="z-10 max-w-2xl">
+        <div className="relative z-10 mx-auto flex max-w-[1200px] flex-col justify-center px-6 py-20 md:px-10 md:py-24 min-h-[60vh] lg:min-h-[65vh]">
+          <div className="max-w-2xl">
             <span
               className="mb-6 inline-block text-[11px] font-bold uppercase tracking-[0.18em]"
               style={{ color: "rgba(254,1,154,0.9)" }}

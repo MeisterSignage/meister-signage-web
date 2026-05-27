@@ -73,7 +73,7 @@ export default function WissenPageContent({ page }: { page: WissenPage }) {
     <>
       {/* ── 1. HERO ───────────────────────────────────────────────────────── */}
       <section
-        className="relative w-full overflow-hidden"
+        className="relative w-full overflow-hidden min-h-[60vh] lg:min-h-[65vh]"
         style={{ background: "#07101f" }}
       >
         {/* Hero image — centered, full section height, width = height × 16/9 */}
@@ -135,9 +135,9 @@ export default function WissenPageContent({ page }: { page: WissenPage }) {
           }}
         />
 
-        <div className="relative mx-auto flex max-w-[1200px] flex-col justify-center px-6 py-20 md:min-h-[55vh] md:px-10 lg:min-h-[60vh]">
+        <div className="relative z-10 mx-auto flex max-w-[1200px] flex-col justify-center px-6 py-20 md:px-10 md:py-24 min-h-[60vh] lg:min-h-[65vh]">
           <motion.div
-            className="z-10 max-w-2xl"
+            className="max-w-2xl"
             initial={reduced ? false : { opacity: 0, y: 28 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: easeOut }}
