@@ -288,16 +288,28 @@ export default function AnbieterVergleichPage() {
         className="relative w-full overflow-hidden"
         style={{ background: "linear-gradient(160deg, #07101f 0%, #0d1628 50%, #111d38 100%)" }}
       >
+        {/* Full-bleed background image — right-aligned so text on left stays readable */}
+        <Image
+          src="/images/products/Anbietervergleich-Meister-Signage.webp"
+          alt="Digital Signage Anbieter Schweiz im Vergleich – Übersicht der wichtigsten Anbieter"
+          fill
+          priority
+          sizes="100vw"
+          className="pointer-events-none absolute inset-0 object-cover"
+          style={{ objectPosition: "right center" }}
+          aria-hidden="true"
+        />
+        {/* Dark gradient overlay for headline contrast */}
         <div
-          className="pointer-events-none absolute -right-40 top-0 h-full w-[700px]"
+          className="pointer-events-none absolute inset-0"
           aria-hidden="true"
           style={{
             background:
-              "radial-gradient(ellipse 60% 80% at 80% 40%, rgba(254,1,154,0.10) 0%, transparent 65%)",
+              "linear-gradient(90deg, rgba(7,16,31,0.95) 0%, rgba(7,16,31,0.85) 35%, rgba(7,16,31,0.55) 60%, rgba(7,16,31,0.35) 100%)",
           }}
         />
-        <div className="relative mx-auto grid max-w-[1200px] grid-cols-1 items-center gap-12 px-6 py-24 md:px-10 md:py-28 lg:grid-cols-2 lg:gap-0">
-          <div className="z-10 max-w-xl">
+        <div className="relative mx-auto max-w-[1200px] px-6 py-24 md:px-10 md:py-28">
+          <div className="z-10 max-w-2xl">
             <span
               className="mb-6 inline-block text-[11px] font-bold uppercase tracking-[0.18em]"
               style={{ color: "rgba(254,1,154,0.9)" }}
@@ -310,45 +322,18 @@ export default function AnbieterVergleichPage() {
             >
               Digital Signage Anbieter in der Schweiz im Vergleich.
             </h1>
-            <p className="mb-8 text-[16px] leading-relaxed text-white/75 md:text-[17px]">
+            <p className="mb-8 text-[16px] leading-relaxed text-white/85 md:text-[17px]">
               Sachlicher Überblick über die wichtigsten Schweizer Digital-Signage-Anbieter – mit
               Standort, Preismodell und Angebot. Nur öffentlich zugängliche Fakten, keine
               Wertungen.
             </p>
             <a
               href="#vergleich"
-              className="inline-flex items-center gap-2.5 rounded-[7px] bg-white/8 px-6 py-3.5 text-[15px] font-semibold text-white transition-colors hover:bg-white/15"
+              className="inline-flex items-center gap-2.5 rounded-[7px] bg-white/10 px-6 py-3.5 text-[15px] font-semibold text-white transition-colors hover:bg-white/20"
             >
               Direkt zur Vergleichstabelle
               <ArrowRight className="h-4 w-4" strokeWidth={2} />
             </a>
-          </div>
-
-          <div className="relative flex items-center justify-center lg:justify-end">
-            <div
-              className="relative w-full max-w-[560px] overflow-hidden rounded-[24px]"
-              style={{
-                aspectRatio: "16/9",
-                boxShadow:
-                  "0 24px 80px rgba(7,16,31,0.5), 0 4px 20px rgba(7,16,31,0.3), 0 0 0 1px rgba(254,1,154,0.20), 0 0 50px rgba(254,1,154,0.10)",
-              }}
-            >
-              <Image
-                src="/images/products/Anbietervergleich-Meister-Signage.webp"
-                alt="Digital Signage Anbieter Schweiz im Vergleich – Übersicht der wichtigsten Anbieter"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1024px) 90vw, 50vw"
-                priority
-              />
-              <div
-                className="absolute inset-0 rounded-[24px]"
-                style={{
-                  background:
-                    "linear-gradient(135deg, rgba(26,39,68,0.08) 0%, transparent 60%)",
-                }}
-              />
-            </div>
           </div>
         </div>
       </section>

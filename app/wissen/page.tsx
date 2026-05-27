@@ -72,33 +72,29 @@ export default function WissenIndexPage() {
           aria-hidden="true"
           style={{ backgroundImage: NOISE, backgroundSize: "160px 160px" }}
         />
+        {/* Full-bleed hero image — right-aligned so text on left stays readable */}
         <Image
-          src="/images/products/meister-signage-parallax-bg.webp"
-          alt=""
+          src="/images/products/Wissen-Meister-Signage.webp"
+          alt="Digital Signage Wissen & Ratgeber von Meister Signage – Hintergrundwissen, Tipps und Vergleiche"
           fill
-          className="pointer-events-none object-cover object-center opacity-[0.07]"
-          aria-hidden="true"
-          sizes="100vw"
           priority
+          sizes="100vw"
+          className="pointer-events-none absolute inset-0 object-cover"
+          style={{ objectPosition: "right center" }}
+          aria-hidden="true"
         />
+        {/* Dark gradient overlay for headline contrast */}
         <div
-          className="pointer-events-none absolute -right-40 top-0 h-full w-[700px]"
+          className="pointer-events-none absolute inset-0"
           aria-hidden="true"
           style={{
             background:
-              "radial-gradient(ellipse 60% 80% at 80% 40%, rgba(254,1,154,0.10) 0%, transparent 65%)",
-          }}
-        />
-        <div
-          className="pointer-events-none absolute -bottom-20 -left-20 h-[500px] w-[500px]"
-          aria-hidden="true"
-          style={{
-            background: "radial-gradient(circle, rgba(26,39,68,0.8) 0%, transparent 70%)",
+              "linear-gradient(90deg, rgba(7,16,31,0.95) 0%, rgba(7,16,31,0.85) 35%, rgba(7,16,31,0.55) 60%, rgba(7,16,31,0.35) 100%)",
           }}
         />
 
-        <div className="relative mx-auto grid max-w-[1200px] grid-cols-1 items-center gap-12 px-6 py-24 md:min-h-[55vh] md:px-10 lg:grid-cols-2 lg:gap-0 lg:min-h-[60vh]">
-          <div className="z-10 max-w-xl">
+        <div className="relative mx-auto flex max-w-[1200px] flex-col justify-center px-6 py-24 md:min-h-[55vh] md:px-10 lg:min-h-[60vh]">
+          <div className="z-10 max-w-2xl">
             <span
               className="mb-6 inline-block text-[11px] font-bold uppercase tracking-[0.18em]"
               style={{ color: "rgba(254,1,154,0.9)" }}
@@ -118,40 +114,13 @@ export default function WissenIndexPage() {
             <p
               className="mb-10 leading-relaxed"
               style={{
-                maxWidth: "440px",
+                maxWidth: "520px",
                 fontSize: "clamp(1rem, 1.5vw, 1.15rem)",
-                color: "rgba(209,213,219,0.9)",
+                color: "rgba(229,231,235,0.95)",
               }}
             >
               Antworten auf häufige Fragen rund um digitale Displays, Software, Kosten, Miete und Anwendungen – verständlich und praxisnah.
             </p>
-          </div>
-
-          <div className="relative flex items-center justify-center lg:justify-end">
-            <div
-              className="relative w-full max-w-[560px] overflow-hidden rounded-[24px]"
-              style={{
-                aspectRatio: "16/9",
-                boxShadow:
-                  "0 24px 80px rgba(7,16,31,0.5), 0 4px 20px rgba(7,16,31,0.3), 0 0 0 1px rgba(254,1,154,0.20), 0 0 50px rgba(254,1,154,0.10)",
-              }}
-            >
-              <Image
-                src="/images/products/Wissen-Meister-Signage.webp"
-                alt="Digital Signage Wissen & Ratgeber von Meister Signage – Hintergrundwissen, Tipps und Vergleiche"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1024px) 90vw, 50vw"
-                priority
-              />
-              <div
-                className="absolute inset-0 rounded-[24px]"
-                style={{
-                  background:
-                    "linear-gradient(135deg, rgba(26,39,68,0.08) 0%, transparent 60%)",
-                }}
-              />
-            </div>
           </div>
         </div>
 
