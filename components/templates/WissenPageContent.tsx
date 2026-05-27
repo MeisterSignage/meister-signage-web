@@ -76,20 +76,21 @@ export default function WissenPageContent({ page }: { page: WissenPage }) {
         className="relative w-full overflow-hidden"
         style={{ background: "linear-gradient(160deg, #07101f 0%, #0d1628 50%, #111d38 100%)" }}
       >
-        {/* Hero image — centered, full section height, natural width from
-            aspect ratio. Two gradient overlays fade only the image edges. */}
+        {/* Hero image — centered, full section height, width = height × 16/9.
+            Wrapper has fixed aspect-ratio so it sizes to image's natural area,
+            then Image with fill takes the wrapper bounds. Fades sit inside
+            the wrapper so they hit the actual image edges. */}
         {page.heroImage && (
           <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden">
-            <div className="relative h-full">
+            <div className="relative h-full" style={{ aspectRatio: "16 / 9" }}>
               <Image
                 src={page.heroImage}
                 alt={page.heroImageAlt ?? page.h1}
-                width={1600}
-                height={900}
+                fill
                 priority
-                className="h-full w-auto max-w-none"
+                sizes="(max-width: 768px) 100vw, 80vw"
+                className="object-cover"
               />
-              {/* Left edge fade on image */}
               <div
                 className="pointer-events-none absolute left-0 top-0 bottom-0 w-[28%]"
                 aria-hidden="true"
@@ -98,7 +99,6 @@ export default function WissenPageContent({ page }: { page: WissenPage }) {
                     "linear-gradient(to right, #07101f 0%, rgba(7,16,31,0.85) 35%, rgba(7,16,31,0) 100%)",
                 }}
               />
-              {/* Right edge fade on image */}
               <div
                 className="pointer-events-none absolute right-0 top-0 bottom-0 w-[28%]"
                 aria-hidden="true"

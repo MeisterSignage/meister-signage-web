@@ -72,17 +72,16 @@ export default function WissenIndexPage() {
           aria-hidden="true"
           style={{ backgroundImage: NOISE, backgroundSize: "160px 160px" }}
         />
-        {/* Hero image — centered, full section height, natural width from
-            aspect ratio. Two gradient overlays fade only the image edges. */}
+        {/* Hero image — centered, full section height, width = height × 16/9 */}
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden">
-          <div className="relative h-full">
+          <div className="relative h-full" style={{ aspectRatio: "16 / 9" }}>
             <Image
               src="/images/products/Wissen-Meister-Signage.webp"
               alt="Digital Signage Wissen & Ratgeber von Meister Signage – Hintergrundwissen, Tipps und Vergleiche"
-              width={1600}
-              height={900}
+              fill
               priority
-              className="h-full w-auto max-w-none"
+              sizes="(max-width: 768px) 100vw, 80vw"
+              className="object-cover"
             />
             <div
               className="pointer-events-none absolute left-0 top-0 bottom-0 w-[28%]"

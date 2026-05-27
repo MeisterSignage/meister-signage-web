@@ -35,17 +35,16 @@ export default function HomeHeroSection({
       className="relative w-full overflow-hidden"
       style={{ backgroundColor: "#07101f" }}
     >
-      {/* Background image — centered, full section height, natural width
-          from aspect ratio. Two gradient overlays fade only the image edges. */}
+      {/* Background image — centered, full section height, width = height × 1536/1024 (3:2) */}
       <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden">
-        <div className="relative h-full">
+        <div className="relative h-full" style={{ aspectRatio: "1536 / 1024" }}>
           <Image
             src={HERO_BG_IMAGE}
             alt="Digital Signage Display in einem modernen Geschäft"
-            width={1536}
-            height={1024}
+            fill
             priority
-            className="h-full w-auto max-w-none"
+            sizes="(max-width: 768px) 100vw, 80vw"
+            className="object-cover"
           />
           <div
             className="pointer-events-none absolute left-0 top-0 bottom-0 w-[28%]"
