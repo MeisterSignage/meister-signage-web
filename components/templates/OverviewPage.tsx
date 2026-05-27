@@ -107,6 +107,7 @@ export default function OverviewPage({
               width={1536}
               height={1024}
               className="pointer-events-none absolute left-1/2 top-1/2 h-auto max-h-full w-auto max-w-full -translate-x-1/2 -translate-y-1/2"
+              priority
               fetchPriority="high"
               aria-hidden="true"
               style={{ mask: "radial-gradient(ellipse 85% 85% at 50% 50%, black 40%, transparent 100%)" }}
