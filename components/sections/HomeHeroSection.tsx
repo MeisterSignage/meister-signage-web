@@ -46,24 +46,25 @@ export default function HomeHeroSection({
             sizes="(max-width: 768px) 100vw, 80vw"
             className="object-cover"
           />
-          <div
-            className="pointer-events-none absolute left-0 top-0 bottom-0 w-[28%]"
-            aria-hidden="true"
-            style={{
-              background:
-                "linear-gradient(to right, #07101f 0%, rgba(7,16,31,0.85) 35%, rgba(7,16,31,0) 100%)",
-            }}
-          />
-          <div
-            className="pointer-events-none absolute right-0 top-0 bottom-0 w-[28%]"
-            aria-hidden="true"
-            style={{
-              background:
-                "linear-gradient(to left, #07101f 0%, rgba(7,16,31,0.85) 35%, rgba(7,16,31,0) 100%)",
-            }}
-          />
         </div>
       </div>
+      {/* Edge fade overlays at SECTION level */}
+      <div
+        className="pointer-events-none absolute left-0 top-0 bottom-0 w-[40%] z-[2]"
+        aria-hidden="true"
+        style={{
+          background:
+            "linear-gradient(to right, #07101f 0%, #07101f 55%, rgba(7,16,31,0) 100%)",
+        }}
+      />
+      <div
+        className="pointer-events-none absolute right-0 top-0 bottom-0 w-[40%] z-[2]"
+        aria-hidden="true"
+        style={{
+          background:
+            "linear-gradient(to left, #07101f 0%, #07101f 55%, rgba(7,16,31,0) 100%)",
+        }}
+      />
 
 
       <div className="section-inner relative z-10">

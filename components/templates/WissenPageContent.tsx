@@ -74,12 +74,9 @@ export default function WissenPageContent({ page }: { page: WissenPage }) {
       {/* ── 1. HERO ───────────────────────────────────────────────────────── */}
       <section
         className="relative w-full overflow-hidden"
-        style={{ background: "linear-gradient(160deg, #07101f 0%, #0d1628 50%, #111d38 100%)" }}
+        style={{ background: "#07101f" }}
       >
-        {/* Hero image — centered, full section height, width = height × 16/9.
-            Wrapper has fixed aspect-ratio so it sizes to image's natural area,
-            then Image with fill takes the wrapper bounds. Fades sit inside
-            the wrapper so they hit the actual image edges. */}
+        {/* Hero image — centered, full section height, width = height × 16/9 */}
         {page.heroImage && (
           <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden">
             <div className="relative h-full" style={{ aspectRatio: "16 / 9" }}>
@@ -91,24 +88,31 @@ export default function WissenPageContent({ page }: { page: WissenPage }) {
                 sizes="(max-width: 768px) 100vw, 80vw"
                 className="object-cover"
               />
-              <div
-                className="pointer-events-none absolute left-0 top-0 bottom-0 w-[28%]"
-                aria-hidden="true"
-                style={{
-                  background:
-                    "linear-gradient(to right, #07101f 0%, rgba(7,16,31,0.85) 35%, rgba(7,16,31,0) 100%)",
-                }}
-              />
-              <div
-                className="pointer-events-none absolute right-0 top-0 bottom-0 w-[28%]"
-                aria-hidden="true"
-                style={{
-                  background:
-                    "linear-gradient(to left, #07101f 0%, rgba(7,16,31,0.85) 35%, rgba(7,16,31,0) 100%)",
-                }}
-              />
             </div>
           </div>
+        )}
+        {/* Edge fade overlays at SECTION level — solid #07101f covers image
+            edge completely, then fades to transparent toward center. Same color
+            as section bg → no visible color seam. */}
+        {page.heroImage && (
+          <>
+            <div
+              className="pointer-events-none absolute left-0 top-0 bottom-0 w-[40%] z-[2]"
+              aria-hidden="true"
+              style={{
+                background:
+                  "linear-gradient(to right, #07101f 0%, #07101f 55%, rgba(7,16,31,0) 100%)",
+              }}
+            />
+            <div
+              className="pointer-events-none absolute right-0 top-0 bottom-0 w-[40%] z-[2]"
+              aria-hidden="true"
+              style={{
+                background:
+                  "linear-gradient(to left, #07101f 0%, #07101f 55%, rgba(7,16,31,0) 100%)",
+              }}
+            />
+          </>
         )}
         <div
           className="pointer-events-none absolute inset-0 opacity-[0.025]"

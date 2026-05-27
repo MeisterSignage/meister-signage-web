@@ -286,7 +286,7 @@ export default function AnbieterVergleichPage() {
       {/* ── Hero ─────────────────────────────────────────────────────────── */}
       <section
         className="relative w-full overflow-hidden"
-        style={{ background: "linear-gradient(160deg, #07101f 0%, #0d1628 50%, #111d38 100%)" }}
+        style={{ background: "#07101f" }}
       >
         {/* Hero image — centered, full section height, width = height × 16/9 */}
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden">
@@ -299,24 +299,25 @@ export default function AnbieterVergleichPage() {
               sizes="(max-width: 768px) 100vw, 80vw"
               className="object-cover"
             />
-            <div
-              className="pointer-events-none absolute left-0 top-0 bottom-0 w-[28%]"
-              aria-hidden="true"
-              style={{
-                background:
-                  "linear-gradient(to right, #07101f 0%, rgba(7,16,31,0.85) 35%, rgba(7,16,31,0) 100%)",
-              }}
-            />
-            <div
-              className="pointer-events-none absolute right-0 top-0 bottom-0 w-[28%]"
-              aria-hidden="true"
-              style={{
-                background:
-                  "linear-gradient(to left, #07101f 0%, rgba(7,16,31,0.85) 35%, rgba(7,16,31,0) 100%)",
-              }}
-            />
           </div>
         </div>
+        {/* Edge fade overlays at SECTION level */}
+        <div
+          className="pointer-events-none absolute left-0 top-0 bottom-0 w-[40%] z-[2]"
+          aria-hidden="true"
+          style={{
+            background:
+              "linear-gradient(to right, #07101f 0%, #07101f 55%, rgba(7,16,31,0) 100%)",
+          }}
+        />
+        <div
+          className="pointer-events-none absolute right-0 top-0 bottom-0 w-[40%] z-[2]"
+          aria-hidden="true"
+          style={{
+            background:
+              "linear-gradient(to left, #07101f 0%, #07101f 55%, rgba(7,16,31,0) 100%)",
+          }}
+        />
         <div className="relative mx-auto max-w-[1200px] px-6 py-24 md:px-10 md:py-28">
           <div className="z-10 max-w-2xl">
             <span
