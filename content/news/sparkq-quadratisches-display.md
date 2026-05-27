@@ -1,11 +1,12 @@
 ---
-title: "Spark Q+: Das quadratische Display für kreative Installationen"
-description: "Der Spark Q+ bricht mit dem Standard: 33 Zoll im Quadratformat für kreative Raumkonzepte, besondere Inszenierungen und Installationen, die auffallen."
+title: "Spark Q+ – 33 Zoll quadratisch für kreative Installationen"
+seoTitle: "Spark Q+ – quadratisches 33-Zoll-Display"
+description: "Spark Q+: 33 Zoll im Quadratformat, 15.5 mm flach, WiFi6. Für Concept Stores, Design-Hotels, Agenturen und Multi-Display-Installationen. Ab CHF 1.699."
 date: "2026-03-04"
 category: "Produkte"
 image: "/images/products/SparkQ-Design.webp"
 slug: "sparkq-quadratisches-display"
-status: draft
+status: published
 ---
 
 Nicht jeder Inhalt passt in ein Querformat. Und nicht jeder Raum verlangt nach einem klassischen Bildschirm. Der Spark Q+ bietet etwas, das es im Digital-Signage-Markt selten gibt: ein quadratisches Display, das gestalterische Freiheiten eröffnet.
@@ -14,35 +15,42 @@ Nicht jeder Inhalt passt in ein Querformat. Und nicht jeder Raum verlangt nach e
 
 Rechteckige Displays sind Standard — genau deshalb fallen sie kaum noch auf. Ein quadratisches Format bricht mit der Erwartung und zieht den Blick auf sich. Es eignet sich besonders für:
 
-- **Kreative Retail-Konzepte** — Modeboutiquen, Concept Stores, Galerien
-- **Empfangsbereiche mit Designanspruch** — Architekturbüros, Agenturen, Design-Hotels
-- **Rasterinstallationen** — mehrere Spark Q+ in einer Grid-Anordnung ergeben eine eindrucksvolle Bildwand
-- **Spezielle Inhalte** — Social-Media-Feeds (Instagram-Format), Uhren, Logos, Kunstinstallationen
+- **Kreative Retail-Konzepte** — Mode­boutiquen, Concept Stores, Galerien
+- **Empfangs­bereiche mit Designan­spruch** — Architektur­büros, Agenturen, Design-Hotels
+- **Raster­installationen** — mehrere Spark Q+ in einer Grid-Anordnung ergeben eine eindrucks­volle Bildwand
+- **Spezielle Inhalte** — Social-Media-Feeds (Instagram-Format), Uhren, Logos, Kunst­installationen
+- **[Digitale Raumbeschilderung](/loesungen/digitale-raumbeschilderung)** in Meetingräumen oder Coworking-Flächen
 
 ## Technische Daten
 
-| Eigenschaft | Detail |
+| Eigenschaft | Spark Q+ |
 |---|---|
-| Bildschirmgrösse | 33 Zoll (84 cm Diagonale) |
+| Bildschirm­grösse | 33 Zoll (84 cm Diagonale) |
 | Format | 1:1 (Quadrat) |
-| Auflösung | Full HD (1920 × 1080 Pixel) |
-| Media Player | Eingebaut |
-| Konnektivität | WLAN und LAN |
-| Betriebsdauer | Für Dauerbetrieb ausgelegt |
+| Auflösung | 1920 × 1920 Pixel |
+| Helligkeit | 450 nits |
+| Bautiefe | 15.5 mm |
+| Rahmen (Bezel) | 13.5 mm |
+| Gewicht | 7 kg |
+| Stromverbrauch (typ.) | 53 W |
+| Standby | 0.8 W |
+| Konnektivität | WiFi6 + Bluetooth 5.2 (keine HDMI/USB/Ethernet nötig) |
+| Stromzuführung | Niederspannung über externes Netzteil |
+| Dauer­betrieb | 24/7 spezifiziert |
 
-## Einsatzbeispiele
+## Einsatz­beispiele
 
 ### Im Retail
 
-Ein Concept Store platziert drei Spark Q+ nebeneinander — jeder zeigt ein anderes Produkt aus der aktuellen Kollektion. Die quadratische Form passt perfekt zu Instagram-Inhalten und erzeugt ein modernes, kuratiertes Bild.
+Ein Concept Store platziert drei Spark Q+ nebeneinander — jeder zeigt ein anderes Produkt aus der aktuellen Kollektion. Die quadratische Form passt perfekt zu Instagram-Inhalten und erzeugt ein modernes, kuratiertes Bild. Ergänzt mit einem grösseren [Spark 5 als Schaufenster­display](/news/spark5-neues-modell) entsteht ein konsistentes visuelles Ensemble.
 
-### Im Empfangsbereich
+### Im Empfangs­bereich
 
-Ein Architekturbüro nutzt einen Spark Q+ als digitale Kunstinstallation im Eingangsbereich. Die Inhalte wechseln monatlich — mal ein aktuelles Projekt, mal ein animiertes Firmenmotiv. Besucher bleiben stehen und schauen hin.
+Ein Architektur­büro nutzt einen Spark Q+ als digitale Kunst­installation im Eingangs­bereich. Die Inhalte wechseln monatlich — mal ein aktuelles Projekt, mal ein animiertes Firmen­motiv. Besucher bleiben stehen und schauen hin.
 
-### Als Raumteiler oder Wandelement
+### Als Raumteiler oder Wand­element
 
-In Kombination mit einer Standsäule wird der Spark Q+ zum freistehenden Informationsobjekt. In Ausstellungen, Showrooms oder Lobbys eine elegante Alternative zur klassischen Wandmontage.
+In Kombination mit einer Stand­säule wird der Spark Q+ zum freistehenden Informations­objekt. In Ausstellungen, Showrooms oder Lobbys eine elegante Alternative zur klassischen Wand­montage. Siehe auch die Lösungs­seite [Digitale Infostele](/loesungen/digitale-infostele).
 
 ## Für wen der Spark Q+ passt
 
@@ -51,20 +59,26 @@ Der Spark Q+ ist kein Allrounder — er ist ein Spezialist. Er eignet sich für 
 - Wer sich bewusst vom Standard abheben will
 - Wer quadratische Inhalte zeigen möchte (Social Media, Kunst, Logos)
 - Wer mehrere Displays zu einem Gesamtbild kombinieren will
-- Wer einen Eyecatcher sucht, der Gesprächsstoff bietet
+- Wer einen Eyecatcher sucht, der Gesprächs­stoff bietet
 
-Für klassische Menüboards, Schaufenster oder Informationsdisplays sind die rechteckigen Modelle [Spark 3](/news/spark3-kompaktes-display), [Spark 4](/news/spark4-vielseitiger-bestseller) oder [Spark 5](/news/spark5-neues-modell) die bessere Wahl.
+Für klassische Menüboards, Schaufenster oder Informations­displays sind die rechteckigen Modelle [Spark 3](/news/spark3-kompaktes-display), [Spark 4](/news/spark4-vielseitiger-bestseller) oder [Spark 5](/news/spark5-neues-modell) die bessere Wahl. Hilfe bei der Auswahl: [Spark-Sortiment im Vergleich](/news/spark-sortiment-vergleich).
+
+## Wireless installiert in Minuten
+
+Wie alle Spark-Modelle ist der Spark Q+ vollständig kabellos – Daten kommen über WiFi6, Strom über ein externes Niederspannungs-Netzteil mit dünner Zuleitung zum Display. Das ermöglicht Installationen auch dort, wo keine 230-V-Steckdose direkt am Wandplatz vorhanden ist. Weitere Details im [Anbieter-Vergleich](/digital-signage-anbieter-vergleich).
 
 ## Preise
 
 | Modell | Kauf | Miete |
 |---|---|---|
-| Spark Q+ (33 Zoll, quadratisch) | ab CHF 1'699 | ab CHF 159/Monat |
+| Spark Q+ (33 Zoll, quadratisch) | ab CHF 1.699 | ab CHF 159 |
 
-Mietpreis inklusive Hardware, Software und Support. Einmalige Einrichtungspauschale: CHF 149.
+Mietpreis inklusive Hardware, Software und Support. Einmalige Einrichtungs­pauschale: CHF 149. Beim Kauf zusätzlich Software-Lizenz ab CHF 180/Jahr.
 
-## Nächster Schritt
+## Nächste Schritte
 
-Alle Modelle vergleichen: [Das komplette Spark-Sortiment](/news/spark-sortiment-vergleich)
-Kaufoptionen: [Digital Signage kaufen](/digital-signage-kaufen)
-Beratung: [Jetzt Kontakt aufnehmen](/kontakt)
+- Alle Modelle vergleichen: [Spark-Sortiment im Vergleich](/news/spark-sortiment-vergleich)
+- Kaufoptionen: [Digital Signage kaufen](/digital-signage-kaufen)
+- Mietoptionen: [Digital Signage mieten](/digital-signage-mieten)
+- Kosten transparent: [Was kostet Digital Signage?](/was-kostet-digital-signage-schweiz)
+- Beratung: [Jetzt Kontakt aufnehmen](/kontakt)

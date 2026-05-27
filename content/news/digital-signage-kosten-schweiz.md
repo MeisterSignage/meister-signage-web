@@ -1,88 +1,86 @@
 ---
-title: "Was kostet Digital Signage in der Schweiz? Ehrliche Übersicht"
-description: "Transparente Kostenübersicht für Digital-Signage-Projekte in der Schweiz: Hardware, Software, Installation und laufende Kosten — ohne versteckte Posten."
+title: "Versteckte Kosten bei Digital Signage – worauf achten"
+seoTitle: "Versteckte Kosten Digital Signage Schweiz"
+description: "5 Kostenpositionen, die viele Schweizer Digital-Signage-Anbieter nicht im Erstangebot ausweisen – und wie Sie diese erkennen, bevor Sie unterschreiben."
 date: "2026-04-27"
-category: "Tipps"
+category: "Praxis"
 image: "/images/products/Spark4-Design.webp"
 slug: "digital-signage-kosten-schweiz"
-status: draft
+status: published
 ---
 
-Die erste Frage bei jedem Digital-Signage-Projekt lautet: Was kostet das? Pauschal lässt sich das nicht beantworten — aber eine realistische Orientierung ist möglich.
+Eine Hardware ab CHF 999 klingt verlockend – bis die monatliche Lizenz, das Installations­paket und der Premium-Support dazu­kommen. Hier eine ehrliche Übersicht der **fünf Kostenpositionen, die in vielen Erstangeboten fehlen** – und wie Sie diese erkennen, bevor Sie unterschreiben.
 
-## Die vier Kostenblöcke
+> Eine vollständige Kostenübersicht für Schweizer Digital-Signage-Projekte gibt es auf der dedizierten Seite [Was kostet Digital Signage in der Schweiz?](/was-kostet-digital-signage-schweiz). Dieser Artikel fokussiert auf die versteckten Posten.
 
-Jede Digital-Signage-Lösung besteht aus denselben Grundbausteinen. Die Kosten variieren je nach Grösse, Anzahl Displays und gewünschtem Funktionsumfang.
+## 1. Lizenzgebühren beim Kauf
 
-### 1. Hardware (Display + Player)
+**Typisches Missverständnis:** "Hardware gekauft = fertig." 
 
-Das Display ist der sichtbare Teil der Lösung. Bei modernen Systemen ist der Media Player bereits eingebaut — ein separates Gerät entfällt.
+**Realität:** Bei den meisten Digital-Signage-Anbietern läuft die Inhalts­steuerung über eine Cloud-Software, die separat lizenziert werden muss. Übliche Lizenz­kosten: CHF 180–600 pro Jahr und Display. Bei 3 Displays sind das CHF 540–1.800 pro Jahr.
 
-| Modell | Grösse | Preisbereich |
-|---|---|---|
-| Einstiegsmodell (z.B. Spark 3) | 32 Zoll | ab CHF 999 |
-| Mittelklasse (z.B. Spark 4) | 43 Zoll | ab CHF 1'399 |
-| Premium (z.B. Spark 5) | 50 Zoll | ab CHF 1'599 |
+**Worauf achten:** Im Erstangebot explizit nach "monatlicher Lizenz" oder "Cloud-Gebühr" fragen. Bei uns: ab CHF 180/Jahr im Kauf, im Mietpreis ab CHF 129 inklusive.
 
-Diese Preise gelten für den Kauf. Im Mietmodell starten die Kosten ab CHF 99 pro Monat.
+## 2. Einrichtungs­pauschale ("Setup-Fee")
 
-### 2. Software / Lizenz
+**Typisches Missverständnis:** "Plug & Play – einfach einstecken."
 
-Die Software steuert, welche Inhalte wann auf welchem Display erscheinen. Bei Meister Signage ist die Softwarelizenz im Kaufpreis enthalten — keine separaten Lizenzgebühren.
+**Realität:** Der erste Inhalt­satz, die Cloud-Anmeldung, die Schulung und die Test­phase brauchen Zeit. Branchen­übliche Einrichtungs­pauschalen liegen bei CHF 200–800 pro Projekt – je nach Aufwand. Bei uns ist die Standard-Einrichtung CHF 149 pro Display.
 
-### 3. Installation
+**Worauf achten:** Ob "Setup", "Onboarding" oder "Schulung" im Erstangebot aufgeführt sind.
 
-Die meisten Kunden montieren das Display selbst — es wird wie ein Fernseher an der Wand befestigt. Wer eine professionelle Montage wünscht, kann diese beauftragen:
+## 3. Versand und Installation
 
-- **Einfache Wandmontage:** ab CHF 150
-- **Deckenmontage / Stele:** nach Aufwand
-- **Verkabelung / Netzwerk:** individuell
+**Typisches Missverständnis:** "Lieferkosten? Marginal."
 
-### 4. Laufende Kosten
+**Realität:** Ein 50-Zoll-Display ist sperrig (47×30×4 Zoll Verpackung, 17.5 kg). Schweizer Spedition: CHF 80–200. Wer eine Vor-Ort-Installation will (Wand­halterung, Stromzuleitung), zahlt typisch CHF 200–600 pro Display. Bei uns transparent ausgewiesen, oft persönlich begleitet aus der Zentralschweiz – die [Versand- und Rückgabeseite](/versand-und-rueckgabe) zeigt alle Konditionen.
 
-Im Betrieb fallen hauptsächlich Stromkosten an — bei einem 43-Zoll-Display im Dauerbetrieb etwa CHF 8–12 pro Monat. Die Inhaltspflege übernimmt der Betrieb selbst über die cloudbasierte Software.
+**Worauf achten:** Im Angebot explizit "Lieferung CH" und "Installation" als separate Posten verlangen.
 
-## Beispielrechnungen
+## 4. Inhalts-Erstellung und Content-Pflege
 
-### Einzelnes Display für ein Restaurant
+**Typisches Missverständnis:** "Inhalte mache ich selbst."
 
-| Position | Kosten |
+**Realität:** Die meisten KMU schätzen den Inhalts­aufwand massiv: Tages­menü mit Foto, saisonale Aktion mit Branding, mehrsprachige Versionen – das sind je nach Komplexität 30 Min bis 3 h pro Inhalt. Wer das auslagert, zahlt CHF 50–150 pro Inhalts­set.
+
+**Worauf achten:** Vor dem Kauf realistisch einschätzen, ob jemand im Betrieb die Inhalte tatsächlich macht – oder ob Content-Pflege dazugebucht werden muss.
+
+## 5. Rück­bau und Entsorgung
+
+**Typisches Missverständnis:** "Display hält ewig."
+
+**Realität:** Professionelle Digital-Signage-Displays halten 5–7 Jahre im 24/7-Betrieb. Danach: Demontage, Entsorgung der Elektronik (Schweizer SENS-Gebühr ca. CHF 30–50), Wand­reparatur falls fest verbaut. Bei einer Miete fallen diese Kosten nicht an – das Display wird zurück­genommen.
+
+**Worauf achten:** Bei langfristigem Kauf einkalkulieren. Bei Miete kein Thema.
+
+## So sieht ein ehrliches Erstangebot aus
+
+Ein faires Erstangebot enthält alle fünf Posten explizit – auch wenn manche bei null liegen. Beispiel für einen Spark-4-Kauf mit 1 Display:
+
+| Position | Betrag |
 |---|---|
-| Spark 3 (32 Zoll) | CHF 999 |
-| Wandhalterung | CHF 49 |
-| Einrichtung & Einweisung | inklusive |
-| **Gesamtkosten Einstieg** | **ab CHF 1'048** |
+| Hardware (Spark 4, 43" 4K) | CHF 1.499 |
+| Einrichtungs­pauschale | CHF 149 |
+| Versand CH | CHF 49 |
+| Software-Lizenz Jahr 1 | CHF 180 |
+| Content-Erstellung (optional) | nur auf Wunsch |
+| **Total Jahr 1** | **CHF 1.877** |
+| Jährlich ab Jahr 2 | CHF 180 |
 
-### Drei Displays für einen Retailer
+Im [Mietmodell ab CHF 139](/digital-signage-mieten) sind Lizenz, Versand und Einrichtung im Monatspreis – nur die optionale Content-Erstellung kommt extra.
 
-| Position | Kosten |
-|---|---|
-| 3× Spark 4 (43 Zoll) | CHF 4'197 |
-| Montage (3 Standorte) | ab CHF 450 |
-| Einrichtung & Einweisung | inklusive |
-| **Gesamtkosten** | **ab CHF 4'647** |
+## Wie Sie versteckte Kosten im Angebot erkennen
 
-### Mietmodell für ein Event
+**Drei Prüf­fragen, bevor Sie unterschreiben:**
 
-| Position | Kosten |
-|---|---|
-| 2× Spark 5 (50 Zoll), 1 Woche | ab CHF 398 |
-| Anlieferung & Abholung | nach Region |
-| Einrichtung | inklusive |
+1. **"Was kostet mich das in Summe nach 24 Monaten – inklusive Lizenz?"** – Wer ausweicht, hat versteckte Kosten.
+2. **"Welche Posten kommen nach dem Erstangebot dazu, wenn ich nur die Hardware kaufe?"** – Saubere Anbieter listen Lizenz, Update, Support transparent.
+3. **"Was passiert, wenn ich nach 2 Jahren wechseln will?"** – Wer mit Cloud-Lock-in arbeitet, macht den Wechsel teuer.
 
-## Was den Preis beeinflusst
+Wer Schweizer Anbieter direkt vergleichen will, findet die Übersicht auf [unserer Vergleichsseite](/digital-signage-anbieter-vergleich) – mit fünf Anbietern und elf Kriterien.
 
-Die Kosten hängen vor allem von diesen Faktoren ab:
+## Unsere Politik: vorab transparent
 
-- **Anzahl Displays** — mehr Geräte bedeuten Mengenrabatte
-- **Displaygrösse** — grössere Screens kosten mehr
-- **Montageaufwand** — Standardmontage vs. Sonderlösungen
-- **Zusatzleistungen** — Content-Erstellung, Design-Anpassungen
+Wir veröffentlichen alle Preise auf der Website – [Kauf](/digital-signage-kaufen), [Miete](/digital-signage-mieten) und [Kosten­übersicht](/was-kostet-digital-signage-schweiz). Kein versteckter Lock-in, keine Premium-Tier-Tricks. Falls Sie ein Angebot von einem anderen Anbieter haben und unsicher sind, ob alle Posten ausgewiesen sind – schicken Sie es uns, wir geben eine ehrliche Zweit­meinung.
 
-## Warum Pauschalpreise irreführend sind
-
-Anbieter, die einen festen Preis für «eine Digital-Signage-Lösung» nennen, lassen oft wichtige Positionen weg — oder rechnen versteckte Lizenzkosten dazu. Bei Meister Signage ist der Preis transparent: Hardware, Software und Einrichtung sind im Angebot aufgeführt.
-
-## Nächster Schritt
-
-Die detaillierte Kostenübersicht mit allen Modellen finden Sie auf unserer [Kostenseite](/was-kostet-digital-signage-schweiz). Für ein individuelles Angebot: [Beratung anfragen](/kontakt) — unverbindlich und innerhalb von 24 Stunden.
+[Beratung anfragen](/kontakt) – innert 24 h mit klarer Einschätzung.

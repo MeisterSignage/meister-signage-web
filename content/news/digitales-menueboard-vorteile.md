@@ -1,66 +1,82 @@
 ---
-title: "Digitales Menüboard: 6 Vorteile für Restaurants, Cafés und Bäckereien"
-description: "Warum ein digitales Menüboard die bessere Alternative zur gedruckten Speisekarte ist — und wie Gastronomen in der Schweiz davon profitieren."
+title: "Digitales Menüboard: 5 typische Fehler beim Setup"
+seoTitle: "Menüboard Setup: 5 Fehler vermeiden"
+description: "Diese fünf Fehler sehen wir bei Schweizer Gastro-Betrieben beim digitalen Menüboard immer wieder – und wie Sie sie von Anfang an vermeiden."
 date: "2026-05-11"
 category: "Gastronomie"
 image: "/images/products/Restaurant-Meister-Signage.webp"
 slug: "digitales-menueboard-vorteile"
-status: draft
+status: published
 ---
 
-Gedruckte Speisekarten haben einen Nachteil: Sobald sich ein Preis oder ein Gericht ändert, beginnt der Aufwand von vorne. Digitale Menüboards lösen dieses Problem — und bringen weitere Vorteile mit.
+Ein digitales Menüboard kann ein gedrucktes Pendant in jedem Punkt schlagen – wenn es richtig aufgesetzt wird. Wir sehen aber regelmässig die gleichen fünf Fehler in Schweizer Gastro-Betrieben, die später Mehraufwand bedeuten oder die Wirkung des Displays mindern. Hier konkret, was zu vermeiden ist und wie es richtig geht.
 
-## Was ist ein digitales Menüboard?
+> Eine grundsätzliche Übersicht zur Lösung gibt es unter [/loesungen/digitale-menueboards](/loesungen/digitale-menueboards). Dieser Artikel fokussiert auf die häufigsten Praxis-Stolpersteine beim Setup.
 
-Ein digitales Menüboard ist ein Bildschirm, der anstelle einer gedruckten Karte oder Kreidetafel das Speiseangebot anzeigt. Die Inhalte werden über eine Software gepflegt und können jederzeit aktualisiert werden — vom Computer, Tablet oder Smartphone.
+## Fehler 1: Display zu klein für den Betrachtungs­abstand
 
-Typische Einsatzorte: hinter der Theke, im Eingangsbereich, am Take-Away-Schalter oder im Schaufenster.
+Der häufigste Fehler. Ein 32-Zoll-Display hinter einer 5 m langen Theke wirkt verloren. Die Faust­regel: **Bildschirm-Diagonale ≈ Betrachtungs­abstand × 0.2**.
 
-## 6 Vorteile im Überblick
+| Theke / Lokal | Empfohlene Grösse |
+|---|---|
+| Kompakte Café-Theke (1.5–2 m Distanz) | 32 Zoll (Spark 3) |
+| Standard-Restaurant (3–4 m) | 43 Zoll (Spark 4) |
+| Schaufenster oder grosse Theke (5 m+) | 50 Zoll (Spark 5) |
 
-### 1. Sofortige Aktualisierung
+Eine ausführliche Anleitung zur Grössen­wahl mit weiteren Faktoren wie Helligkeit und Format: [Digital Signage Grösse wählen](/wissen/digital-signage-groesse-waehlen).
 
-Ein Gericht ist ausverkauft? Der Tagespreis ändert sich? Innerhalb von Sekunden ist die Anzeige aktuell. Kein Nachdruck, kein Überkleben, kein Ärger.
+## Fehler 2: Zu viele Inhalte auf einer Folie
 
-### 2. Keine Druckkosten mehr
+Ein digitales Menüboard ist kein Word-Dokument. Wer 25 Gerichte mit Preis und Beschreibung auf eine Folie quetscht, verliert Gäste – die Augen springen, nichts bleibt hängen. 
 
-Wer Speisekarten monatlich oder saisonal neu drucken lässt, kennt die Kosten. Bei einem digitalen Board entfallen diese komplett. Die Investition rechnet sich meist innerhalb weniger Monate.
+**Richtig:** Mehrere Folien im Wechsel. Pro Folie maximal 5–7 Items. Übergangs­zeiten 8–15 Sekunden. So bleibt jede Information lesbar, und der Wechsel selbst zieht den Blick an.
 
-### 3. Tagesmenü und Mittagstisch einfach einplanen
+## Fehler 3: Schrift zu klein gewählt
 
-Viele Restaurants bieten Mittags-, Tages- oder Wochenmenüs an. Mit einem digitalen Menüboard lässt sich festlegen, wann welches Angebot automatisch angezeigt wird — zum Beispiel das Mittagsmenü von 11:30 bis 14:00 Uhr.
+Auf dem Designer-Monitor sieht 24 pt gut aus. Auf dem Display aus 4 m Distanz nicht mehr. **Minimal­empfehlung für die Hauptaussage: 60 pt.** Für Preise und Beschreibung: 28–36 pt.
 
-### 4. Professioneller Auftritt
+Ein einfacher Test: das fertige Menüboard-Design auf dem Smartphone öffnen und aus 1 m Distanz anschauen. Wenn man die Preise erkennt, passt es auch auf dem 43-Zoll-Display aus 4 m.
 
-Ein gut gestaltetes Display wirkt moderner und hochwertiger als eine laminierte Karte. Die Darstellung kann genau auf das Branding des Betriebs abgestimmt werden — Farben, Schriften, Bilder, Logo.
+## Fehler 4: Keine Zeit­steuerung eingerichtet
 
-### 5. Mehr Aufmerksamkeit für Aktionen
+Wer das Menüboard manuell zwischen Frühstücks-, Lunch- und Abendkarte umstellt, verschenkt den grössten Vorteil der Lösung. Zeit­steuerung sollte beim Setup direkt eingerichtet werden:
 
-Digitale Inhalte ziehen den Blick stärker auf sich als statische Aushänge. Saisonale Angebote, neue Gerichte oder Happy-Hour-Aktionen lassen sich gezielt hervorheben.
+| Zeit­fenster | Inhalt |
+|---|---|
+| 06:00–10:30 | Frühstücks­karte |
+| 10:30–14:00 | Lunch- und Mittagsmenü |
+| 14:00–17:00 | Café- und Kuchen­karte |
+| 17:00–22:00 | Abendkarte und Bar |
+| 22:00–06:00 | Standby oder Late-Night-Snack |
 
-### 6. Fernzugriff — auch vom Smartphone
+Einmal eingerichtet, läuft das jeden Tag automatisch. Mehr zur Cloud-Steuerung: [Software-Lösungsseite](/loesungen/software).
 
-Änderungen müssen nicht vor Ort gemacht werden. Wer morgens das Tagesmenü von zu Hause aus einstellen will, kann das über die cloudbasierte Software tun.
+## Fehler 5: Falsche Helligkeit am Standort
 
-## Print vs. Digital — der Vergleich
+Ein Display mit 250 nits (Standard für Consumer-TVs) wirkt im hellen Café tagsüber ausgewaschen. Für die Gastro­nomie empfehlen wir **mindestens 450 nits** – das ist Standard bei der Spark-Reihe. Bei Schaufenster-Einsatz mit direktem Sonnen­licht reicht auch das nicht; dort braucht es High-Brightness-Modelle ab 700 nits, die wir auf Anfrage konfigurieren.
 
-| Kriterium | Gedruckte Karte | Digitales Menüboard |
-|---|---|---|
-| Änderung | Tage (Druck + Lieferung) | Sekunden |
-| Kosten pro Änderung | CHF 50–200+ | CHF 0 |
-| Tagesmenü | Aufsteller / Handschrift | Automatisch geplant |
-| Aktualität | Oft veraltet | Immer aktuell |
-| Wirkung | Gewohnt | Modern, aufmerksamkeitsstark |
+Wer Consumer-TVs als Menüboard nutzt, läuft zudem in das zweite Problem: keine 24/7-Spezifikation. Diese Geräte sterben bei 12-Stunden-Tagesbetrieb oft innerhalb des ersten Jahres. Eine ausführliche Pro/Contra-Analyse: [Digital Signage Vor- und Nachteile](/wissen/digital-signage-vorteile-nachteile).
 
-## Einstieg: kaufen oder mieten?
+## Bonus: Inhaltspflege nicht delegieren
 
-Beide Varianten sind möglich. Wer Digital Signage langfristig einsetzen will, fährt mit dem [Kauf](/digital-signage-kaufen) günstiger. Für saisonale Tests oder temporäre Standorte gibt es flexible [Mietmodelle](/digital-signage-mieten).
+Der häufigste Folge­fehler nach dem Setup: Die Verantwortung für Inhalts­updates ist nicht klar zugeteilt. Dann steht im Sommer noch die Winterkarte – das wirkt schlimmer als eine gedruckte veraltete Karte. 
 
-Eine Übersicht zu konkreten Preisen finden Sie auf unserer [Kostenseite](/was-kostet-digital-signage-schweiz).
+**Empfehlung:** Beim Onboarding eine Person als "Content-Owner" festlegen. 15 Minuten pro Woche für Updates einplanen. Bei Bedarf auch von uns betreuen lassen.
 
-## Fazit
+## So sieht ein sauberes Menüboard-Setup aus
 
-Ein digitales Menüboard spart Zeit, Druckkosten und Nerven — und verbessert gleichzeitig den Auftritt des Betriebs. Besonders für Restaurants, Cafés und Bäckereien mit wechselndem Angebot ist der Umstieg sinnvoll.
+Aus unseren Best-Practice-Projekten: 
 
-Mehr zur Branchenlösung: [Digital Signage in der Gastronomie](/branchen/gastronomie).
-Persönliche Beratung: [Jetzt Kontakt aufnehmen](/kontakt).
+1. Spark 4 (43") oder Spark 5 (50") im Hochformat hinter der Theke
+2. 4 Folien im Wechsel: Frühstück, Lunch, Café, Abend
+3. Zeit­steuerung von Anfang an aktiv
+4. Schrift­grössen getestet aus typischer Gäste-Distanz
+5. Wöchentliche Inhalts­pflege durch eine designierte Person
+
+## Nächste Schritte
+
+- **Branchen­fokus Gastronomie:** [/branchen/gastronomie](/branchen/gastronomie)
+- **Trend-Artikel zu Menüboards 2026:** [Digital Signage in der Gastronomie](/news/digital-signage-gastronomie-2025)
+- **Spark-Sortiment im Vergleich:** [Welches Modell für meine Theke?](/news/spark-sortiment-vergleich)
+- **Kostenübersicht:** [/was-kostet-digital-signage-schweiz](/was-kostet-digital-signage-schweiz)
+- **Direkte Beratung:** [Kontakt aufnehmen](/kontakt)
