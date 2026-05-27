@@ -34,11 +34,15 @@ export async function generateMetadata({
       siteName: "Meister Signage",
       title: page.seoTitle,
       description: page.seoDescription,
+      ...(page.heroImage
+        ? { images: [{ url: `${SITE_URL}${page.heroImage}`, width: 1600, height: 900, alt: page.heroImageAlt ?? page.h1 }] }
+        : {}),
     },
     twitter: {
       card: "summary_large_image",
       title: page.seoTitle,
       description: page.seoDescription,
+      ...(page.heroImage ? { images: [`${SITE_URL}${page.heroImage}`] } : {}),
     },
   };
 }
@@ -76,6 +80,7 @@ export default async function WissenDetailPage({
             url,
             datePublished: page.datePublished,
             dateModified: page.dateModified,
+            imageUrl: page.heroImage ? `${SITE_URL}${page.heroImage}` : undefined,
           }) as Record<string, unknown>
         }
       />

@@ -32,4 +32,8 @@ export type WissenPage = {
   /** ISO date for Article schema */
   datePublished: string;
   dateModified?: string;
+  /** Optional hero image (absolute path under /public, prefer .webp) */
+  heroImage?: string;
+  /** Optional alt text for hero image */
+  heroImageAlt?: string;
 };

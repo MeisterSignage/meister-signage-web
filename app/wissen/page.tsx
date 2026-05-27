@@ -137,8 +137,8 @@ export default function WissenIndexPage() {
               }}
             >
               <Image
-                src="/images/products/Ratgeber-Wissen.webp"
-                alt="Digital Signage Display mit Informationen, Inhalten und Inspiration"
+                src="/images/products/Wissen-Meister-Signage.webp"
+                alt="Digital Signage Wissen & Ratgeber von Meister Signage – Hintergrundwissen, Tipps und Vergleiche"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 90vw, 50vw"
