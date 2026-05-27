@@ -74,6 +74,13 @@ export default function LoesungenIndexPage() {
                 imageAlt: "LED Walls und Videowall für maximale Sichtbarkeit",
               },
               {
+                title: "High-Brightness-Display",
+                desc: "3'500 nits für Schaufenster mit direkter Sonneneinstrahlung. 43 bis 75 Zoll, mit automatischer Helligkeitsregelung.",
+                href: "/loesungen/high-brightness-display",
+                imageSrc: "/images/products/Schuhladen-Meister-Signage.webp",
+                imageAlt: "High-Brightness-Display für Schaufenster in der Sonne",
+              },
+              {
                 title: "Digitale Menüboards",
                 desc: "Digitale Menüboards für Gastronomie und Retail – Inhalte in Sekunden aktualisiert.",
                 href: "/loesungen/digitale-menueboards",

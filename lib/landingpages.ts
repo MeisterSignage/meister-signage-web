@@ -36,6 +36,7 @@ import digitalesWerbedisplay  from "@/content/landingpages/loesungen/digitales-w
 import digitaleSchaufenster   from "@/content/landingpages/loesungen/digitale-schaufensterwerbung.json";
 import digitaleInfostele      from "@/content/landingpages/loesungen/digitale-infostele.json";
 import digitaleRaumbeschilderung from "@/content/landingpages/loesungen/digitale-raumbeschilderung.json";
+import highBrightnessDisplay   from "@/content/landingpages/loesungen/high-brightness-display.json";
 
 export const branchenPages: Record<string, LandingPage> = {
   gastronomie:  gastronomie  as LandingPage,
@@ -69,6 +70,7 @@ export const loesungenPages: Record<string, LandingPage> = {
   "digitale-schaufensterwerbung":   digitaleSchaufenster         as LandingPage,
   "digitale-infostele":             digitaleInfostele            as LandingPage,
   "digitale-raumbeschilderung":     digitaleRaumbeschilderung    as LandingPage,
+  "high-brightness-display":        highBrightnessDisplay        as LandingPage,
 };
 
 export function getBranchenPage(slug: string): LandingPage | null {
