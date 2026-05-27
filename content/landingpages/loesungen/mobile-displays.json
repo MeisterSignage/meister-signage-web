@@ -31,6 +31,10 @@
     {
       "title": "Schnell einsatzbereit",
       "description": "WiFi-Verbindung herstellen, Inhalte sind automatisch da. Keine Kabelverbindungen, keine USB-Sticks, keine IT-Vorbereitung am Standort."
+    },
+    {
+      "title": "4G LTE-Variante auf Anfrage",
+      "description": "Für Standorte ohne WLAN – Pop-up im Aussenbereich, Event auf der grünen Wiese, mobiler Verkaufsstand – bieten wir Modelle mit integriertem 4G LTE-Modul. Inhalte werden über das Mobilfunknetz aktualisiert."
     }
   ],
   "faq": [
@@ -53,6 +57,10 @@
     {
       "question": "Eignet sich das Display für den Aussenbereich?",
       "answer": "Für geschützte Aussenbereiche (überdachte Eingänge, Markisen) ja. Für direkten Wettereinfluss empfehlen wir spezielle Outdoor-Modelle – die wir auf Anfrage individuell zusammenstellen."
+    },
+    {
+      "question": "Funktioniert das Display ohne WLAN am Standort?",
+      "answer": "Für Standorte ohne WLAN bieten wir auf Anfrage Modelle mit integriertem 4G LTE-Modul. Damit holt sich das Display Inhalte direkt über das Mobilfunknetz – ideal für Aussen-Events, Pop-ups in entlegenen Lagen oder mobile Verkaufsstände. Eine SIM-Karte mit Datenpaket wird mitgeliefert."
     },
     {
       "question": "Kann ich Mobile Displays auch nur mieten?",
