@@ -288,26 +288,34 @@ export default function AnbieterVergleichPage() {
         className="relative w-full overflow-hidden"
         style={{ background: "linear-gradient(160deg, #07101f 0%, #0d1628 50%, #111d38 100%)" }}
       >
-        {/* Hero image — full height, centered, fades out on left & right edges */}
+        {/* Hero image — full height, centered. Two gradient overlays fade
+            the image to the section background on left & right edges. */}
+        <Image
+          src="/images/products/Anbietervergleich-Meister-Signage.webp"
+          alt="Digital Signage Anbieter Schweiz im Vergleich – Übersicht der wichtigsten Anbieter"
+          fill
+          priority
+          sizes="100vw"
+          className="pointer-events-none absolute inset-0 object-cover object-center"
+        />
+        {/* Left fade — solid navy → transparent over leftmost 30% */}
         <div
-          className="pointer-events-none absolute inset-0"
+          className="pointer-events-none absolute left-0 top-0 bottom-0 w-[30%] z-[1]"
           aria-hidden="true"
           style={{
-            WebkitMaskImage:
-              "linear-gradient(90deg, transparent 0%, rgba(0,0,0,0.4) 10%, #000 22%, #000 78%, rgba(0,0,0,0.4) 90%, transparent 100%)",
-            maskImage:
-              "linear-gradient(90deg, transparent 0%, rgba(0,0,0,0.4) 10%, #000 22%, #000 78%, rgba(0,0,0,0.4) 90%, transparent 100%)",
+            background:
+              "linear-gradient(to right, #07101f 0%, rgba(7,16,31,0.85) 40%, rgba(7,16,31,0) 100%)",
           }}
-        >
-          <Image
-            src="/images/products/Anbietervergleich-Meister-Signage.webp"
-            alt="Digital Signage Anbieter Schweiz im Vergleich – Übersicht der wichtigsten Anbieter"
-            fill
-            priority
-            sizes="100vw"
-            className="object-cover object-center"
-          />
-        </div>
+        />
+        {/* Right fade — transparent → solid navy over rightmost 30% */}
+        <div
+          className="pointer-events-none absolute right-0 top-0 bottom-0 w-[30%] z-[1]"
+          aria-hidden="true"
+          style={{
+            background:
+              "linear-gradient(to left, #111d38 0%, rgba(17,29,56,0.85) 40%, rgba(17,29,56,0) 100%)",
+          }}
+        />
         <div className="relative mx-auto max-w-[1200px] px-6 py-24 md:px-10 md:py-28">
           <div className="z-10 max-w-2xl">
             <span
