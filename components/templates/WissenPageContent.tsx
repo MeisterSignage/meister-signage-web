@@ -76,37 +76,39 @@ export default function WissenPageContent({ page }: { page: WissenPage }) {
         className="relative w-full overflow-hidden"
         style={{ background: "linear-gradient(160deg, #07101f 0%, #0d1628 50%, #111d38 100%)" }}
       >
-        {/* Hero image — full height, centered. Two gradient overlays fade
-            the image to the section background on left & right edges. */}
+        {/* Hero image — centered, full section height, natural width from
+            aspect ratio. Two gradient overlays fade only the image edges. */}
         {page.heroImage && (
-          <>
-            <Image
-              src={page.heroImage}
-              alt={page.heroImageAlt ?? page.h1}
-              fill
-              priority
-              sizes="100vw"
-              className="pointer-events-none absolute inset-0 object-cover object-center"
-            />
-            {/* Left fade — solid navy → transparent over leftmost 30% */}
-            <div
-              className="pointer-events-none absolute left-0 top-0 bottom-0 w-[30%] z-[1]"
-              aria-hidden="true"
-              style={{
-                background:
-                  "linear-gradient(to right, #07101f 0%, rgba(7,16,31,0.85) 40%, rgba(7,16,31,0) 100%)",
-              }}
-            />
-            {/* Right fade — transparent → solid navy over rightmost 30% */}
-            <div
-              className="pointer-events-none absolute right-0 top-0 bottom-0 w-[30%] z-[1]"
-              aria-hidden="true"
-              style={{
-                background:
-                  "linear-gradient(to left, #111d38 0%, rgba(17,29,56,0.85) 40%, rgba(17,29,56,0) 100%)",
-              }}
-            />
-          </>
+          <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden">
+            <div className="relative h-full">
+              <Image
+                src={page.heroImage}
+                alt={page.heroImageAlt ?? page.h1}
+                width={1600}
+                height={900}
+                priority
+                className="h-full w-auto max-w-none"
+              />
+              {/* Left edge fade on image */}
+              <div
+                className="pointer-events-none absolute left-0 top-0 bottom-0 w-[28%]"
+                aria-hidden="true"
+                style={{
+                  background:
+                    "linear-gradient(to right, #07101f 0%, rgba(7,16,31,0.85) 35%, rgba(7,16,31,0) 100%)",
+                }}
+              />
+              {/* Right edge fade on image */}
+              <div
+                className="pointer-events-none absolute right-0 top-0 bottom-0 w-[28%]"
+                aria-hidden="true"
+                style={{
+                  background:
+                    "linear-gradient(to left, #07101f 0%, rgba(7,16,31,0.85) 35%, rgba(7,16,31,0) 100%)",
+                }}
+              />
+            </div>
+          </div>
         )}
         <div
           className="pointer-events-none absolute inset-0 opacity-[0.025]"

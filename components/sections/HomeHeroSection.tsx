@@ -35,35 +35,36 @@ export default function HomeHeroSection({
       className="relative w-full overflow-hidden"
       style={{ backgroundColor: "#07101f" }}
     >
-      {/* Background image — centered, full height. Two gradient overlays fade
-          the image to the section background on left & right edges. */}
-      <Image
-        src={HERO_BG_IMAGE}
-        alt="Digital Signage Display in einem modernen Geschäft"
-        width={1536}
-        height={1024}
-        priority
-        className="pointer-events-none absolute left-1/2 top-1/2 h-auto max-h-full w-auto max-w-full -translate-x-1/2 -translate-y-1/2"
-        aria-hidden="true"
-      />
-      {/* Left fade — solid navy → transparent over leftmost 30% */}
-      <div
-        className="pointer-events-none absolute left-0 top-0 bottom-0 w-[30%] z-[1]"
-        aria-hidden="true"
-        style={{
-          background:
-            "linear-gradient(to right, #07101f 0%, rgba(7,16,31,0.85) 40%, rgba(7,16,31,0) 100%)",
-        }}
-      />
-      {/* Right fade — transparent → solid navy over rightmost 30% */}
-      <div
-        className="pointer-events-none absolute right-0 top-0 bottom-0 w-[30%] z-[1]"
-        aria-hidden="true"
-        style={{
-          background:
-            "linear-gradient(to left, #07101f 0%, rgba(7,16,31,0.85) 40%, rgba(7,16,31,0) 100%)",
-        }}
-      />
+      {/* Background image — centered, full section height, natural width
+          from aspect ratio. Two gradient overlays fade only the image edges. */}
+      <div className="pointer-events-none absolute inset-0 flex items-center justify-center overflow-hidden">
+        <div className="relative h-full">
+          <Image
+            src={HERO_BG_IMAGE}
+            alt="Digital Signage Display in einem modernen Geschäft"
+            width={1536}
+            height={1024}
+            priority
+            className="h-full w-auto max-w-none"
+          />
+          <div
+            className="pointer-events-none absolute left-0 top-0 bottom-0 w-[28%]"
+            aria-hidden="true"
+            style={{
+              background:
+                "linear-gradient(to right, #07101f 0%, rgba(7,16,31,0.85) 35%, rgba(7,16,31,0) 100%)",
+            }}
+          />
+          <div
+            className="pointer-events-none absolute right-0 top-0 bottom-0 w-[28%]"
+            aria-hidden="true"
+            style={{
+              background:
+                "linear-gradient(to left, #07101f 0%, rgba(7,16,31,0.85) 35%, rgba(7,16,31,0) 100%)",
+            }}
+          />
+        </div>
+      </div>
 
 
       <div className="section-inner relative z-10">
