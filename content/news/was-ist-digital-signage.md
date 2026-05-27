@@ -6,7 +6,7 @@ date: "2026-06-30T06:00:00+02:00"
 category: "Trends"
 image: "/images/products/Spark3-Design.webp"
 slug: "was-ist-digital-signage"
-status: draft
+status: scheduled
 ---
 
 Digital Signage als Konzept ist nicht neu – aber 2026 verändert sich gerade Vieles, was vor wenigen Jahren noch Standard war. Hier fünf Trends, die in der Schweiz dieses Jahr sichtbar werden – mit konkreten Auswirkungen für KMU, die einsteigen oder erweitern.

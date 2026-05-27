@@ -6,7 +6,7 @@ date: "2026-08-11T06:00:00+02:00"
 category: "Tipps"
 image: "/images/products/Unternehmen-Empfang.webp"
 slug: "digital-signage-kmu"
-status: draft
+status: scheduled
 ---
 
 Viele kleine und mittlere Unternehmen gehen davon aus, dass Digital Signage nur für grosse Ketten oder Konzerne gedacht ist. Das stimmt nicht. Gerade für KMU bietet ein einzelnes Display bereits einen spürbaren Mehrwert — wenn es richtig eingesetzt wird.

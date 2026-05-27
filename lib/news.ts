@@ -13,7 +13,7 @@ export type NewsPost = {
   date: string;
   category: string;
   image?: string;
-  status: "published" | "draft";
+  status: "published" | "draft" | "scheduled";
   /** ISO date string, used for sorting */
   dateISO: string;
 };
@@ -43,7 +43,7 @@ function readAllPosts(): NewsPost[] {
       date:        (data.date        as string)  ?? "",
       category:    (data.category    as string)  ?? "",
       image:       (data.image       as string | undefined),
-      status:      (data.status      as "published" | "draft") ?? "draft",
+      status:      (data.status      as "published" | "draft" | "scheduled") ?? "draft",
       dateISO:     data.date ? new Date(data.date as string).toISOString() : "",
     };
   });

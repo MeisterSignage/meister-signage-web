@@ -6,7 +6,7 @@ date: "2026-08-04T06:00:00+02:00"
 category: "Produkte"
 image: "/images/products/SparkQ-Design.webp"
 slug: "sparkq-quadratisches-display"
-status: draft
+status: scheduled
 ---
 
 Nicht jeder Inhalt passt in ein Querformat. Und nicht jeder Raum verlangt nach einem klassischen Bildschirm. Der Spark Q+ bietet etwas, das es im Digital-Signage-Markt selten gibt: ein quadratisches Display, das gestalterische Freiheiten eröffnet.

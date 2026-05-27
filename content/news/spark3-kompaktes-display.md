@@ -6,7 +6,7 @@ date: "2026-07-28T06:00:00+02:00"
 category: "Produkte"
 image: "/images/products/Spark3-Design.webp"
 slug: "spark3-kompaktes-display"
-status: draft
+status: scheduled
 ---
 
 Nicht jeder Einsatzort braucht einen grossen Bildschirm. Hinter der Theke, neben der Kasse oder im Eingangs­bereich eines kleinen Ladens reichen 32 Zoll völlig aus — wenn die Qualität stimmt. Der Spark 3 ist unser Einstiegs­modell ab CHF 1.299 mit allen relevanten Profi-Features.

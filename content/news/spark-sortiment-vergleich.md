@@ -6,7 +6,7 @@ date: "2026-06-02T06:00:00+02:00"
 category: "Produkte"
 image: "/images/products/Spark5-Design.webp"
 slug: "spark-sortiment-vergleich"
-status: draft
+status: scheduled
 ---
 
 Vier Modelle, vier Stärken. Das Spark-Sortiment von Meister Signage deckt die häufigsten Einsatz­szenarien ab — vom kompakten Menüboard bis zur kreativen Spezial­installation. Hier der direkte Vergleich aller vier Modelle mit konkreten Spec-Daten und Einsatz­empfehlungen.
