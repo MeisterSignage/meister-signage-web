@@ -57,6 +57,7 @@ const navItems: NavItem[] = [
     dropdown: [
       { label: "Ratgeber",         href: "/wissen",                              desc: "Grundlagen, Software, Anwendungen" },
       { label: "Kosten",           href: "/was-kostet-digital-signage-schweiz",  desc: "Mieten, Kaufen, Kostenfaktoren" },
+      { label: "Anbieter-Vergleich", href: "/digital-signage-anbieter-vergleich", desc: "Schweizer Anbieter im sachlichen Vergleich" },
       { label: "News & Blog",      href: "/news",                                desc: "Neuigkeiten & Hintergründe" },
     ],
   },

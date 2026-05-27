@@ -16,11 +16,12 @@
     { "label": "Unternehmen",       "href": "/branchen/unternehmen" }
   ],
   "unternehmen": [
-    { "label": "Über uns",          "href": "/ueber-uns" },
-    { "label": "Wissen & Ratgeber", "href": "/wissen" },
-    { "label": "Kosten & Preise",   "href": "/was-kostet-digital-signage-schweiz" },
-    { "label": "News & Blog",       "href": "/news" },
-    { "label": "Kontakt",           "href": "/kontakt" }
+    { "label": "Über uns",            "href": "/ueber-uns" },
+    { "label": "Wissen & Ratgeber",   "href": "/wissen" },
+    { "label": "Kosten & Preise",     "href": "/was-kostet-digital-signage-schweiz" },
+    { "label": "Anbieter-Vergleich",  "href": "/digital-signage-anbieter-vergleich" },
+    { "label": "News & Blog",         "href": "/news" },
+    { "label": "Kontakt",             "href": "/kontakt" }
   ],
   "standorte": [
     { "label": "Luzern",            "href": "/staedte/luzern" },
