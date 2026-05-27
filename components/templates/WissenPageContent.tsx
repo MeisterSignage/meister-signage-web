@@ -76,23 +76,29 @@ export default function WissenPageContent({ page }: { page: WissenPage }) {
         className="relative w-full overflow-hidden"
         style={{ background: "linear-gradient(160deg, #07101f 0%, #0d1628 50%, #111d38 100%)" }}
       >
-        {/* Hero image — full height, centered, fades out on left & right edges */}
+        {/* Hero image — full height, centered, fades out on left & right edges.
+            Wrapper div carries the mask so it works regardless of how Next.js
+            Image handles the inline style. */}
         {page.heroImage && (
-          <Image
-            src={page.heroImage}
-            alt={page.heroImageAlt ?? page.h1}
-            fill
-            priority
-            sizes="100vw"
-            className="pointer-events-none absolute inset-0 object-cover object-center"
+          <div
+            className="pointer-events-none absolute inset-0"
+            aria-hidden="true"
             style={{
               WebkitMaskImage:
                 "linear-gradient(90deg, transparent 0%, rgba(0,0,0,0.4) 10%, #000 22%, #000 78%, rgba(0,0,0,0.4) 90%, transparent 100%)",
               maskImage:
                 "linear-gradient(90deg, transparent 0%, rgba(0,0,0,0.4) 10%, #000 22%, #000 78%, rgba(0,0,0,0.4) 90%, transparent 100%)",
             }}
-            aria-hidden="true"
-          />
+          >
+            <Image
+              src={page.heroImage}
+              alt={page.heroImageAlt ?? page.h1}
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover object-center"
+            />
+          </div>
         )}
         <div
           className="pointer-events-none absolute inset-0 opacity-[0.025]"

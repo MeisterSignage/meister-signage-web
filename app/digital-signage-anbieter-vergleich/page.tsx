@@ -289,21 +289,25 @@ export default function AnbieterVergleichPage() {
         style={{ background: "linear-gradient(160deg, #07101f 0%, #0d1628 50%, #111d38 100%)" }}
       >
         {/* Hero image — full height, centered, fades out on left & right edges */}
-        <Image
-          src="/images/products/Anbietervergleich-Meister-Signage.webp"
-          alt="Digital Signage Anbieter Schweiz im Vergleich – Übersicht der wichtigsten Anbieter"
-          fill
-          priority
-          sizes="100vw"
-          className="pointer-events-none absolute inset-0 object-cover object-center"
+        <div
+          className="pointer-events-none absolute inset-0"
+          aria-hidden="true"
           style={{
             WebkitMaskImage:
               "linear-gradient(90deg, transparent 0%, rgba(0,0,0,0.4) 10%, #000 22%, #000 78%, rgba(0,0,0,0.4) 90%, transparent 100%)",
             maskImage:
               "linear-gradient(90deg, transparent 0%, rgba(0,0,0,0.4) 10%, #000 22%, #000 78%, rgba(0,0,0,0.4) 90%, transparent 100%)",
           }}
-          aria-hidden="true"
-        />
+        >
+          <Image
+            src="/images/products/Anbietervergleich-Meister-Signage.webp"
+            alt="Digital Signage Anbieter Schweiz im Vergleich – Übersicht der wichtigsten Anbieter"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover object-center"
+          />
+        </div>
         <div className="relative mx-auto max-w-[1200px] px-6 py-24 md:px-10 md:py-28">
           <div className="z-10 max-w-2xl">
             <span
