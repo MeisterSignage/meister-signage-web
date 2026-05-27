@@ -2,7 +2,7 @@
 title: "Spark-Sortiment im Vergleich – welches Modell passt?"
 seoTitle: "Spark 3, 4, 5, Q+ im Vergleich"
 description: "Spark 3, Spark 4, Spark 5 oder Spark Q+: Alle vier Modelle direkt verglichen – Grössen, Auflösung, Bautiefe, Preise und konkrete Einsatz-Empfehlungen."
-date: "2026-02-25"
+date: "2026-06-02T06:00:00+02:00"
 category: "Produkte"
 image: "/images/products/Spark5-Design.webp"
 slug: "spark-sortiment-vergleich"

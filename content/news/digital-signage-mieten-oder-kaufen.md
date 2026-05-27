@@ -2,7 +2,7 @@
 title: "Mieten oder kaufen: 5 echte Praxisfälle aus Schweizer KMU"
 seoTitle: "Mieten oder Kaufen: 5 KMU-Praxisfälle"
 description: "Fünf konkrete Beispiele aus Schweizer Betrieben: Wann sich Kauf rechnet, wann Miete sinnvoller ist – mit echten Zahlen und Empfehlungs-Logik."
-date: "2026-05-04"
+date: "2026-06-23T06:00:00+02:00"
 category: "Praxis"
 image: "/images/products/Spark5-Design.webp"
 slug: "digital-signage-mieten-oder-kaufen"

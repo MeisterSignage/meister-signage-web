@@ -2,7 +2,7 @@
 title: "Spark 3 – das 32-Zoll-Einstiegs­display ab CHF 1.299"
 seoTitle: "Spark 3 – 32 Zoll Display ab CHF 1.299"
 description: "Spark 3: kompaktes 32-Zoll-Display mit Full HD, 15.5 mm Bautiefe und integriertem Media Player. Ideal für Theke, POS und Menüboard. Ab CHF 1.299."
-date: "2026-03-18"
+date: "2026-07-28T06:00:00+02:00"
 category: "Produkte"
 image: "/images/products/Spark3-Design.webp"
 slug: "spark3-kompaktes-display"

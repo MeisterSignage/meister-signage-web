@@ -2,7 +2,7 @@
 title: "Black Friday & Sale-Saison: Digital Signage planen"
 seoTitle: "Black Friday Sale digital planen | Retail"
 description: "Wie Schweizer Retailer Black Friday, Schlussverkauf und saisonale Aktionen mit Digital Signage planen – ohne Plakatdruck, mit zeitgesteuerten Inhalten."
-date: "2026-04-08"
+date: "2026-07-14T06:00:00+02:00"
 category: "Retail"
 image: "/images/products/Schuhladen-Meister-Signage.webp"
 slug: "digital-signage-retail"

@@ -2,7 +2,7 @@
 title: "Digital Signage für KMU: mit einem Display starten"
 seoTitle: "Digital Signage KMU Schweiz – kleiner Start"
 description: "Digital Signage für Schweizer KMU: Wie man mit einem einzelnen Display ab CHF 129 zur Miete oder CHF 1.299 zum Kauf einsteigt – schlank und praxistauglich."
-date: "2026-04-01"
+date: "2026-08-11T06:00:00+02:00"
 category: "Tipps"
 image: "/images/products/Unternehmen-Empfang.webp"
 slug: "digital-signage-kmu"

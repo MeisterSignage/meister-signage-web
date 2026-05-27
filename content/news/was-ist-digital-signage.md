@@ -2,7 +2,7 @@
 title: "Digital Signage 2026: 5 Trends in der Schweiz"
 seoTitle: "Digital Signage 2026: 5 Trends Schweiz"
 description: "Wie sich Digital Signage 2026 verändert: 5 Trends, die Schweizer Betriebe jetzt kennen sollten – von wireless Architektur bis flexibler Mietdauer."
-date: "2026-05-18"
+date: "2026-06-30T06:00:00+02:00"
 category: "Trends"
 image: "/images/products/Spark3-Design.webp"
 slug: "was-ist-digital-signage"

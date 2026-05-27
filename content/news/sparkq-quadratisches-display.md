@@ -2,7 +2,7 @@
 title: "Spark Q+ – 33 Zoll quadratisch für kreative Installationen"
 seoTitle: "Spark Q+ – quadratisches 33-Zoll-Display"
 description: "Spark Q+: 33 Zoll im Quadratformat, 15.5 mm flach, WiFi6. Für Concept Stores, Design-Hotels, Agenturen und Multi-Display-Installationen. Ab CHF 1.699."
-date: "2026-03-04"
+date: "2026-08-04T06:00:00+02:00"
 category: "Produkte"
 image: "/images/products/SparkQ-Design.webp"
 slug: "sparkq-quadratisches-display"

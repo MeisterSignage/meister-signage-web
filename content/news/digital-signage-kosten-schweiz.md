@@ -2,7 +2,7 @@
 title: "Versteckte Kosten bei Digital Signage – worauf achten"
 seoTitle: "Versteckte Kosten Digital Signage Schweiz"
 description: "5 Kostenpositionen, die viele Schweizer Digital-Signage-Anbieter nicht im Erstangebot ausweisen – und wie Sie diese erkennen, bevor Sie unterschreiben."
-date: "2026-04-27"
+date: "2026-06-16T06:00:00+02:00"
 category: "Praxis"
 image: "/images/products/Spark4-Design.webp"
 slug: "digital-signage-kosten-schweiz"

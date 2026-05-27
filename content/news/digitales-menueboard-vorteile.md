@@ -2,7 +2,7 @@
 title: "Digitales Menüboard: 5 typische Fehler beim Setup"
 seoTitle: "Menüboard Setup: 5 Fehler vermeiden"
 description: "Diese fünf Fehler sehen wir bei Schweizer Gastro-Betrieben beim digitalen Menüboard immer wieder – und wie Sie sie von Anfang an vermeiden."
-date: "2026-05-11"
+date: "2026-07-07T06:00:00+02:00"
 category: "Gastronomie"
 image: "/images/products/Restaurant-Meister-Signage.webp"
 slug: "digitales-menueboard-vorteile"

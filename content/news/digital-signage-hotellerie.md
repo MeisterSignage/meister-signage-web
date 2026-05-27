@@ -2,7 +2,7 @@
 title: "Boutique-Hotel-Empfang: Digital Signage für unter 5 Zimmer"
 seoTitle: "Digital Signage Boutique-Hotel: Klein starten"
 description: "Wie Schweizer Boutique-Hotels mit einem einzigen 43-Zoll-Display Check-in vereinfachen, mehrsprachig kommunizieren und die Atmosphäre stärken."
-date: "2026-04-15"
+date: "2026-07-21T06:00:00+02:00"
 category: "Hotellerie"
 image: "/images/products/Hotelempfang-Meister-Signage.webp"
 slug: "digital-signage-hotellerie"
