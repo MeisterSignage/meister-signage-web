@@ -6,7 +6,7 @@ date: "2026-04-27"
 category: "Praxis"
 image: "/images/products/Spark4-Design.webp"
 slug: "digital-signage-kosten-schweiz"
-status: published
+status: draft
 ---
 
 Eine Hardware ab CHF 999 klingt verlockend – bis die monatliche Lizenz, das Installations­paket und der Premium-Support dazu­kommen. Hier eine ehrliche Übersicht der **fünf Kostenpositionen, die in vielen Erstangeboten fehlen** – und wie Sie diese erkennen, bevor Sie unterschreiben.

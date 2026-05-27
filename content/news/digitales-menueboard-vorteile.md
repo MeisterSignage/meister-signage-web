@@ -6,7 +6,7 @@ date: "2026-05-11"
 category: "Gastronomie"
 image: "/images/products/Restaurant-Meister-Signage.webp"
 slug: "digitales-menueboard-vorteile"
-status: published
+status: draft
 ---
 
 Ein digitales Menüboard kann ein gedrucktes Pendant in jedem Punkt schlagen – wenn es richtig aufgesetzt wird. Wir sehen aber regelmässig die gleichen fünf Fehler in Schweizer Gastro-Betrieben, die später Mehraufwand bedeuten oder die Wirkung des Displays mindern. Hier konkret, was zu vermeiden ist und wie es richtig geht.

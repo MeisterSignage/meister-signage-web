@@ -6,7 +6,7 @@ date: "2026-04-08"
 category: "Retail"
 image: "/images/products/Schuhladen-Meister-Signage.webp"
 slug: "digital-signage-retail"
-status: published
+status: draft
 ---
 
 Im Schweizer Retail dreht sich das Marketingjahr um wenige grosse Sale-Momente: Frühlings­kollektion, Sommer­schluss­verkauf, Back-to-School, Black Friday, Vorweihnachts­geschäft, Januar-Sale. Wer diese Spitzen mit gedruckten Plakaten und Aufstellern bedient, verbringt 2026 viele Stunden mit Plakatdruck-Logistik. Digital Signage löst das – aber nur, wenn die Planung früh genug startet.

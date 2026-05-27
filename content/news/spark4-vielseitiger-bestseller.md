@@ -6,7 +6,7 @@ date: "2026-03-11"
 category: "Produkte"
 image: "/images/products/Spark4-Design.webp"
 slug: "spark4-vielseitiger-bestseller"
-status: published
+status: draft
 ---
 
 43 Zoll treffen einen Sweet Spot: gross genug, um aus der Distanz zu wirken, kompakt genug für die meisten Räume. Der Spark 4 ist deshalb unser meistverkauftes Modell — und das aus gutem Grund. Hier die kompletten Spec-Daten und die Einsatz­bereiche, für die wir ihn empfehlen.

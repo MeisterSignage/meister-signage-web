@@ -6,7 +6,7 @@ date: "2026-05-04"
 category: "Praxis"
 image: "/images/products/Spark5-Design.webp"
 slug: "digital-signage-mieten-oder-kaufen"
-status: published
+status: draft
 ---
 
 Die theoretische Antwort zu Mieten vs. Kaufen ist einfach: dauerhaft = Kauf, temporär = Miete. In der Praxis liegt der Teufel aber im Detail. Hier fünf reale Konstellationen aus Schweizer Betrieben – mit den konkreten Zahlen, die zur Entscheidung geführt haben.
