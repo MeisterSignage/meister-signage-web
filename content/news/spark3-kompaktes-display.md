@@ -35,7 +35,7 @@ Der Spark 3 ist das Einstiegs­modell im Meister-Signage-Sortiment. Kompakt, zuv
 | Stromverbrauch (typ.) | 36 W |
 | Standby | 0.8 W |
 | Konnektivität | WiFi6 + Bluetooth 5.2 (keine HDMI/USB/Ethernet nötig) |
-| Stromzuführung | Niederspannung über externes Netzteil |
+| Stromzuführung | 24 V DC über externes Netzteil (120 W) |
 | Dauer­betrieb | 24/7 spezifiziert |
 | Ausrichtung | Quer- und Hochformat |
 

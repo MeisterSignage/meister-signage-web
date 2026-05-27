@@ -42,7 +42,7 @@ const COMMON_PROPERTIES: { name: string; value: string }[] = [
   { name: "Standby-Verbrauch", value: "0.8 W" },
   { name: "Konnektivität", value: "WiFi6 + Bluetooth 5.2" },
   { name: "Datenkabel", value: "keine – vollständig wireless" },
-  { name: "Stromzuführung", value: "Niederspannung über externes Netzteil" },
+  { name: "Stromzuführung", value: "24 V DC über externes Netzteil (HOIOTO, 120 W, GS-zertifiziert)" },
   { name: "Dauerbetrieb", value: "24/7 spezifiziert" },
   { name: "Zertifizierung", value: "UL, CSA, CE" },
 ];

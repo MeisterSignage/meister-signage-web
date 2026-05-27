@@ -24,9 +24,9 @@ Die neueste Generation professioneller Digital-Signage-Displays hat keine HDMI-,
 
 Konkretes Beispiel: Die Spark-Reihe von Meister Signage ist komplett wireless aufgebaut – nur die Strom­leitung führt noch zum Display. Details dazu auf der Lösungs­seite [Digitales Werbedisplay](/loesungen/digitales-werbedisplay).
 
-## Trend 2: Niederspannungs-Stromversorgung
+## Trend 2: Niederspannungs-Stromversorgung (typisch 24 V DC)
 
-Klassische Displays brauchen eine 230-V-Steckdose direkt am Gerät. Neue Modelle arbeiten mit externem Netzteil und Nieder­spannungs-Zuleitung zum Display. Effekt: 
+Klassische Displays brauchen eine 230-V-Steckdose direkt am Gerät. Neue Modelle arbeiten mit externem Netzteil und 24-V-DC-Zuleitung zum Display. Effekt: 
 
 - Installation ohne Elektriker oft möglich
 - 230-V-Steckdose kann mehrere Meter vom Display entfernt sein

@@ -128,7 +128,7 @@ const ROWS: Row[] = [
   {
     criterion: "Stromzuführung am Display",
     cells: [
-      { type: "yes", note: "Niederspannung über externes Netzteil – keine 230 V-Dose am Display nötig" },
+      { type: "yes", note: "24 V DC über externes Netzteil (120 W, GS-zertifiziert) – keine 230 V-Dose am Display nötig" },
       { type: "info", text: "nicht öffentlich angegeben" },
       { type: "info", text: "nicht öffentlich angegeben" },
       { type: "info", text: "nicht öffentlich angegeben" },
@@ -492,8 +492,8 @@ export default function AnbieterVergleichPage() {
               body: "Keine HDMI-, USB- oder Ethernet-Anschlüsse am Display. Inhalte werden über WiFi6 und einen integrierten Media Player abgespielt – weniger sichtbare Technik, weniger Komponenten, weniger Störquellen.",
             },
             {
-              title: "Niederspannung am Display",
-              body: "Externes Netzteil wandelt den 230 V-Anschluss in Niederspannung um. Zum Display führt nur eine dünne Stromleitung – keine 230 V-Steckdose direkt am Display nötig. Vereinfacht Installationen in Schaufenstern, Empfangsbereichen und Sonderaufbauten, oft ohne Elektriker.",
+              title: "24 V DC am Display",
+              body: "Externes 120-W-Netzteil (HOIOTO, GS- und TÜV-zertifiziert, Effizienz-Klasse VI) wandelt 230 V auf 24 V DC. Zum Display führt nur eine dünne 24-V-Leitung – keine 230 V-Steckdose direkt am Display nötig. Vereinfacht Installationen in Schaufenstern, Empfangsbereichen und Sonderaufbauten, oft ohne Elektriker.",
             },
             {
               title: "Schlüsselfertig & transparent",

@@ -236,7 +236,7 @@ Was sich 2026 in der Digital-Signage-Branche grundsätzlich verändert hat:
 1. Displays sind vollständig kabellos geworden – kein HDMI, kein USB,
    kein Ethernet. Nur noch Strom geht zum Bildschirm.
 
-2. Stromzuführung läuft über externes Netzteil mit Niederspannung. Die
+2. Stromzuführung läuft über externes Netzteil mit 24 V DC. Die
   230-V-Steckdose kann mehrere Meter entfernt sein. Installation oft
    ohne Elektriker.
 

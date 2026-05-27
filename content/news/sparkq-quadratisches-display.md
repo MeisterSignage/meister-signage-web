@@ -35,7 +35,7 @@ Rechteckige Displays sind Standard — genau deshalb fallen sie kaum noch auf. E
 | Stromverbrauch (typ.) | 53 W |
 | Standby | 0.8 W |
 | Konnektivität | WiFi6 + Bluetooth 5.2 (keine HDMI/USB/Ethernet nötig) |
-| Stromzuführung | Niederspannung über externes Netzteil |
+| Stromzuführung | 24 V DC über externes Netzteil (120 W) |
 | Dauer­betrieb | 24/7 spezifiziert |
 
 ## Einsatz­beispiele
@@ -65,7 +65,7 @@ Für klassische Menüboards, Schaufenster oder Informations­displays sind die r
 
 ## Wireless installiert in Minuten
 
-Wie alle Spark-Modelle ist der Spark Q+ vollständig kabellos – Daten kommen über WiFi6, Strom über ein externes Niederspannungs-Netzteil mit dünner Zuleitung zum Display. Das ermöglicht Installationen auch dort, wo keine 230-V-Steckdose direkt am Wandplatz vorhanden ist. Weitere Details im [Anbieter-Vergleich](/digital-signage-anbieter-vergleich).
+Wie alle Spark-Modelle ist der Spark Q+ vollständig kabellos – Daten kommen über WiFi6, Strom über ein externes 120-W-Netzteil mit 24-V-DC-Zuleitung zum Display. Das ermöglicht Installationen auch dort, wo keine 230-V-Steckdose direkt am Wandplatz vorhanden ist. Weitere Details im [Anbieter-Vergleich](/digital-signage-anbieter-vergleich).
 
 ## Preise
 

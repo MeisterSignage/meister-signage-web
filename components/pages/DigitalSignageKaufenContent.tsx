@@ -616,7 +616,7 @@ export default function DigitalSignageKaufenContent() {
                   { label: "Mietpreis", values: ["ab CHF 129", "ab CHF 139", "ab CHF 149", "ab CHF 159"], bold: true },
                   { label: "Cloud-Steuerung", values: ["check", "check", "check", "check"] },
                   { label: "Persönlicher Support", values: ["check", "check", "check", "check"] },
-                  { label: "Niederspannung am Display", values: ["check", "check", "check", "check"] },
+                  { label: "24 V DC am Display", values: ["check", "check", "check", "check"] },
                   { label: "Datenübertragung wireless (WiFi6)", values: ["check", "check", "check", "check"] },
                   { label: "Plug & Play", values: ["check", "check", "check", "check"] },
                 ].map((row, i) => (
@@ -712,8 +712,8 @@ export default function DigitalSignageKaufenContent() {
                 body: "Keine HDMI-, USB- oder Ethernet-Anschlüsse. Inhalte kommen über WiFi6 auf den integrierten Media Player. Weniger Komponenten, weniger Störquellen.",
               },
               {
-                title: "Niederspannung am Display",
-                body: "Externes Netzteil – nur eine dünne Stromleitung zum Display. Keine 230 V-Steckdose direkt am Display nötig. Vereinfacht Installationen, oft ohne Elektriker.",
+                title: "24 V DC am Display",
+                body: "Externes 120-W-Netzteil mit 24 V DC – nur eine dünne 24-V-Leitung zum Display. Keine 230 V-Steckdose direkt am Display nötig. Vereinfacht Installationen, oft ohne Elektriker.",
               },
               {
                 title: "24/7 Dauerbetrieb",

@@ -31,7 +31,7 @@ Auf den ersten Blick sieht ein Consumer-TV ähnlich aus – aber drei Dinge sind
 | Gewicht | 13 kg |
 | Stromverbrauch | 81 W (typ.), 0.8 W Standby |
 | Konnektivität | WiFi6 + Bluetooth 5.2 (kein HDMI/USB/Ethernet nötig) |
-| Stromzuführung | Niederspannung über externes Netzteil |
+| Stromzuführung | 24 V DC über externes Netzteil (120 W) |
 | Dauerbetrieb | 24/7 spezifiziert |
 | Zertifizierung | UL, CSA, CE |
 
@@ -51,7 +51,7 @@ Bei Tagungen und Anlässen ersetzt das Spark 5 oft eine kleinere LED-Wand. Es is
 
 ## Installation: kabellos und ohne Elektriker
 
-Eine Besonderheit, die wir in der [Vergleichstabelle](/digital-signage-anbieter-vergleich) auch dokumentieren: Datenübertragung läuft 100 % wireless über WiFi6 – kein HDMI, kein USB, kein Ethernet am Display nötig. Strom­seitig wandelt ein externes Netzteil 230 V in Niederspannung um. Nur eine dünne Stromleitung führt zum Display. Das vereinfacht Installationen in Schaufenstern oder an Wänden ohne 230-V-Dose erheblich – häufig ohne Elektriker.
+Eine Besonderheit, die wir in der [Vergleichstabelle](/digital-signage-anbieter-vergleich) auch dokumentieren: Datenübertragung läuft 100 % wireless über WiFi6 – kein HDMI, kein USB, kein Ethernet am Display nötig. Strom­seitig wandelt ein externes 120-W-Netzteil (GS- und TÜV-zertifiziert) 230 V auf 24 V DC. Nur eine dünne 24-V-Leitung führt zum Display. Das vereinfacht Installationen in Schaufenstern oder an Wänden ohne 230-V-Dose erheblich – häufig ohne Elektriker.
 
 ## Welche Grösse für welchen Einsatz?
 

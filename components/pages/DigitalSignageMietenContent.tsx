@@ -597,8 +597,8 @@ export default function DigitalSignageMietenContent() {
                 body: "Keine HDMI-, USB- oder Ethernet-Anschlüsse. Inhalte kommen über WiFi6 auf den integrierten Media Player. Weniger Komponenten, weniger Störquellen – besonders praktisch im Event-Aufbau.",
               },
               {
-                title: "Niederspannung am Display",
-                body: "Externes Netzteil – nur eine dünne Stromleitung zum Display. Keine 230 V-Steckdose direkt am Display nötig. Vereinfacht temporäre Installationen, oft ohne Elektriker.",
+                title: "24 V DC am Display",
+                body: "Externes 120-W-Netzteil mit 24 V DC – nur eine dünne 24-V-Leitung zum Display. Keine 230 V-Steckdose direkt am Display nötig. Vereinfacht temporäre Installationen, oft ohne Elektriker.",
               },
               {
                 title: "24/7 Dauerbetrieb",
