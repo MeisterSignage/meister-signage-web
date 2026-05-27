@@ -15,6 +15,70 @@ Plan: jeden **Dienstag um 06:00** geht ein News-Artikel online (Status `draft` �
 
 ---
 
+## 🌱 Sonder-Post (sofort veröffentlichbar) — Sustainability
+
+### Artikel
+**Digital Signage & Nachhaltigkeit – was zählt wirklich**
+→ https://www.meister-signage.ch/wissen/digital-signage-nachhaltigkeit/
+
+### LinkedIn-Post
+
+```
+Nachhaltigkeit ist in unserer Branche oft Marketing-Buzz.
+
+Hier was bei uns konkret eingebaut ist — mit Zahlen, ohne Greenwashing:
+
+1. Verpackung 100 % Karton. Auch die Halterungen, die den Bildschirm
+   im Karton fixieren — kein Styropor, kein Schaumstoff, kein Plastik-
+   Polster. Komplett im Altpapier entsorgbar.
+
+2. Netzteil Effizienz-Klasse VI (höchste internationale Stufe).
+   0.8 W Standby — weniger als eine LED-Birne.
+
+3. 5–7 Jahre Lebensdauer. Consumer-TVs als Alternative sterben bei
+   12-Stunden-Dauerlast oft nach 1 Jahr. Längere Lebensdauer = weniger
+   Elektroschrott.
+
+4. Auto-Brightness-Sensor (bei High-Brightness-Modellen) reduziert
+   den Stromverbrauch im Tagesschnitt um 30–50 %.
+
+5. Schweizer Service. Vor-Ort-Installation und Wartung aus der
+   Zentralschweiz — keine Spedition quer durch Europa für jeden
+   Servicefall.
+
+Wo ich ehrlich bin: Wer ein Plakat einmal pro Jahr austauscht, fährt
+mit Print besser. Digital Signage lohnt sich ökologisch, wenn Inhalte
+häufig wechseln. Ab ca. 24 Inhaltswechseln pro Jahr ist Digital im
+Vorteil.
+
+Voller Artikel mit allen Zahlen, Recycling-Pfaden und Stromverbrauch
+pro Modell:
+https://www.meister-signage.ch/wissen/digital-signage-nachhaltigkeit
+
+#Nachhaltigkeit #DigitalSignage #Schweiz
+```
+
+### Bild-Idee
+Eine Karton-Verpackung mit Spark-Display, geöffnet, mit der Karton-
+Innenhalterung sichtbar (kein Styropor). Oder: Side-by-Side ein typisches
+Display-Paket mit Styropor (anonymisiert) vs. dein Karton-Paket.
+
+### DALL-E Prompt
+```
+A clean photograph showing an open cardboard box on a wooden workshop
+floor, containing a flat-screen digital display partially visible. The
+inner protective inserts are clearly made of molded cardboard (not
+styrofoam or foam). Soft natural daylight from above, minimalist
+unboxing aesthetic, premium sustainable packaging. Negative space in
+upper portion for text overlay. Photographic, magazine quality, 4K.
+```
+
+### Alternative: echtes Foto
+Beim nächsten Auspack-Termin selber ein Foto machen — wirkt authentischer
+als AI-Bild. Zeigt das echte Karton-Polster im Paket.
+
+---
+
 ## Woche 1 — Dienstag, 2. Juni 2026, 06:00
 
 ### Artikel

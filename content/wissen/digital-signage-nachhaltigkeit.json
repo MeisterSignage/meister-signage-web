@@ -1,0 +1,91 @@
+{
+  "slug": "digital-signage-nachhaltigkeit",
+  "category": "Grundlagen",
+  "seoTitle": "Digital Signage & Nachhaltigkeit – ehrliche Bilanz | Meister Signage",
+  "seoDescription": "Wie nachhaltig ist Digital Signage wirklich? Energieeffizienz, Lebensdauer, Verpackung, Recycling – mit konkreten Zahlen und ehrlichen Trade-offs für Schweizer KMU.",
+  "eyebrow": "Wissen · Nachhaltigkeit",
+  "h1": "Digital Signage & Nachhaltigkeit – was zählt wirklich.",
+  "intro": "Nachhaltigkeit ist in der Digital-Signage-Branche oft Marketing-Buzz. Hier eine ehrliche Bilanz mit konkreten Zahlen: Wo Digital Signage tatsächlich umweltfreundlicher ist als gedruckte Alternativen, wo nicht – und welche fünf Punkte bei Meister Signage konkret eingebaut sind.",
+  "definition": "Ein Display ist nicht automatisch nachhaltiger als ein Plakat. Entscheidend ist die Lebensdauer, der Stromverbrauch im Alltag, die Verpackung beim Versand und ob am Lebensende eine geordnete Entsorgung möglich ist. Bei häufigen Inhaltswechseln und Mehrfach-Funktion (Menüboard + Wegweisung + Werbung in einem Gerät) ist die Bilanz meist deutlich besser als bei gedrucktem Material.",
+  "explanation": [
+    "Die ökologische Bilanz eines Digital-Signage-Displays hängt von drei Faktoren ab: Wie viele Druckprodukte es ersetzt, wie lange es läuft, wie viel Strom es verbraucht. Bei einem Restaurant, das wöchentlich neue Menüs druckt, rechnet sich der Wechsel ökologisch nach 1–2 Jahren. Bei einem Standort, der nur einmal im Jahr ein Schild aktualisiert, dauert es deutlich länger.",
+    "Was kontrolliert werden kann, sind Hardware-Auswahl, Verpackungs-Materialien, Energieeffizienz und Recycling-Pfade. Diese Punkte sind bei der Spark-Reihe bewusst angegangen – die folgenden Abschnitte gehen die fünf wichtigsten konkret durch.",
+    "Wer nicht überzeugt ist: Wir empfehlen unsere Lösung nicht für Standorte, die ein Plakat einmal pro Saison wechseln. Da ist das gedruckte Plakat ehrlicher. Digital Signage lohnt sich ökologisch, wenn Inhalte häufig wechseln oder ein Display mehrere parallele Aushänge ersetzt."
+  ],
+  "examples": [
+    {
+      "title": "1. Lange Lebensdauer (5–7 Jahre statt 1)",
+      "description": "Profi-Displays der Spark-Reihe sind für 24/7-Dauerbetrieb spezifiziert und halten in der Praxis 5–7 Jahre. Consumer-TVs, die manchmal als 'Spar-Alternative' eingesetzt werden, sterben unter 12h-Dauerlast oft innerhalb von 12 Monaten. Längere Lebensdauer = weniger Elektroschrott."
+    },
+    {
+      "title": "2. Verpackung 100 % aus Karton",
+      "description": "Die Spark-Displays werden komplett in Karton verpackt geliefert – inklusive der Innenhalterungen, die das Display fixieren. Kein Styropor, kein Schaumstoff, kein Plastik-Polster. Die gesamte Verpackung ist im Standard-Altpapier-Recycling entsorgbar – das ist in der Branche nicht selbstverständlich."
+    },
+    {
+      "title": "3. Energieeffizienz-Klasse VI Netzteil",
+      "description": "Das externe Netzteil entspricht der höchsten internationalen Effizienz-Klasse VI (DOE Level VI / EU Tier 2). Standby-Verbrauch nur 0.8 W. Im Schnitt 50–60 % weniger Stromverbrauch als ein vergleichbares Consumer-TV-Setup mit externem Media-Player."
+    },
+    {
+      "title": "4. Automatische Helligkeits-Steuerung",
+      "description": "Die High-Brightness-Schaufenster-Variante regelt die Helligkeit automatisch nach Tageszeit. Tagsüber hell, nachts gedimmt. Spart 30–50 % Strom im Tagesschnitt gegenüber einem konstant maximal hellen Betrieb – ohne dass jemand manuell eingreifen muss."
+    },
+    {
+      "title": "5. Schweizer Service, kurze Wege",
+      "description": "Lieferung und Installation aus der Zentralschweiz. Keine Speditions-Reise quer durch Europa für jedes Servicefall. Kunden in Luzern, Zürich, Zug bekommen Vor-Ort-Service oft am Folgetag – statt Versand-Hin-und-Her."
+    },
+    {
+      "title": "6. Reduzierter Druckverbrauch",
+      "description": "Ein durchschnittliches Restaurant druckt 2–4× pro Monat neue Menü- oder Aktionskarten. Über 5 Jahre sind das 120–240 Druckaufträge – also rund 8–16 kg Papier plus Druckfarbe und Versand. Ein Display ersetzt diese kontinuierliche Druckkette."
+    }
+  ],
+  "benefits": [
+    "Verpackung 100 % Karton (kein Styropor)",
+    "Netzteil Effizienz-Klasse VI",
+    "0.8 W Standby-Verbrauch",
+    "5–7 Jahre Lebensdauer statt 1 Jahr Consumer-TV",
+    "Schweizer Service mit kurzen Lieferwegen",
+    "Reduktion gedruckter Plakate über Jahre",
+    "Auto-Helligkeits-Regelung spart 30–50 % Strom",
+    "24 V DC – energieeffizient gegenüber 230 V direkt"
+  ],
+  "faq": [
+    {
+      "question": "Ist ein digitales Display klimafreundlicher als gedruckte Plakate?",
+      "answer": "Es kommt darauf an. Wer Inhalte häufig wechselt (Restaurant mit Tagesmenüs, Retail mit Saison-Aktionen, Hotellerie mit Veranstaltungs-Updates), spart über 5–7 Jahre messbar Druckkosten, Papier, Druckfarbe, Versandwege. Wer ein Plakat einmal pro Jahr austauscht, kommt mit Print besser weg. Eine ehrliche Faustregel: ab ca. 24 Inhaltswechseln pro Jahr ist Digital ökologisch im Vorteil."
+    },
+    {
+      "question": "Wie viel Strom verbraucht ein Display tatsächlich?",
+      "answer": "Im Schnitt 36 W (Spark 3, 32 Zoll) bis 81 W (Spark 5, 50 Zoll) im aktiven Betrieb, 0.8 W im Standby. Bei 12 Stunden Betrieb täglich und CH-Strommix entspricht das pro Display ca. 220 g CO₂ pro Tag – vergleichbar mit einem Toaster, der eine Minute läuft. Bei der High-Brightness-Variante mit Auto-Brightness-Sensor reduziert sich der Tagesdurchschnitt nochmal um 30–50 %."
+    },
+    {
+      "question": "Was passiert mit dem Display am Ende der Lebensdauer?",
+      "answer": "Schweizer Elektronik-Recycling über SENS/SWICO ist kostenlos für den Endkunden. Beim Kauf ist die vorgezogene Recyclinggebühr bereits enthalten. Display lokal beim nächsten SENS-Sammelpunkt abgeben, dort werden 80–90 % der Materialien rückgewonnen (Metall, Glas, Kunststoff). Im Mietmodell nehmen wir das Display nach Vertragsende zurück und kümmern uns um die fachgerechte Entsorgung oder Aufarbeitung."
+    },
+    {
+      "question": "Was ist mit der Verpackung – Styropor oder Karton?",
+      "answer": "Die Spark-Displays kommen zu 100 % in Karton-Verpackung. Auch die Innenhalterungen, die das Display fixieren, sind aus geformtem Karton statt Styropor oder Schaumstoff. Die gesamte Verpackung ist im normalen Altpapier-Recycling entsorgbar. Das ist in der Branche nicht selbstverständlich – viele Konkurrenten verschicken Displays in EPS/Styropor-Polstern."
+    },
+    {
+      "question": "Wie effizient ist das Netzteil?",
+      "answer": "Das externe Netzteil entspricht der höchsten internationalen Effizienz-Klasse VI (DOE Level VI / EU Tier 2). Das bedeutet: weniger als 0.21 W Standby-Verlust im Netzteil selbst, über 87 % Wirkungsgrad bei voller Last. Im Standby zieht das gesamte System unter 0.8 W – weniger als eine LED-Birne. TÜV Rheinland GS-zertifiziert."
+    },
+    {
+      "question": "Werden die Geräte in der Schweiz hergestellt?",
+      "answer": "Die Hardware wird – wie bei nahezu allen Display-Anbietern weltweit – in Asien produziert. Was wir in der Schweiz machen: Beratung, Konfiguration, Software-Anbindung, Installation, Wartung und Support. Diese Servicekette läuft komplett aus der Zentralschweiz – mit kurzen Wegen zu Kunden in Luzern, Zürich, Zug, Bern, Basel und Umgebung."
+    },
+    {
+      "question": "Wie reduziere ich den Stromverbrauch im Alltag weiter?",
+      "answer": "Drei Hebel: (1) Zeitsteuerung nutzen – Display nur einschalten wenn Kunden da sind, etwa 7–21 Uhr statt 24/7. Spart 50 % Verbrauch. (2) Helligkeit auf das Notwendige reduzieren – meist reichen 70 % der Maximalwerte. (3) Bei der High-Brightness-Variante den Auto-Brightness-Sensor aktivieren. Wir helfen beim Optimieren der Stromverbrauchs-Einstellungen kostenlos."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Digital Signage Vor- und Nachteile",     "href": "/wissen/digital-signage-vorteile-nachteile" },
+    { "label": "Was ist Digital Signage?",                 "href": "/wissen/was-ist-digital-signage" },
+    { "label": "Digital Signage kaufen",                   "href": "/digital-signage-kaufen" },
+    { "label": "Digital Signage mieten",                   "href": "/digital-signage-mieten" },
+    { "label": "Anbieter im Vergleich",                    "href": "/digital-signage-anbieter-vergleich" },
+    { "label": "High-Brightness-Display",                  "href": "/loesungen/high-brightness-display" },
+    { "label": "Versand & Rückgabe",                       "href": "/versand-und-rueckgabe" }
+  ],
+  "datePublished": "2026-05-27"
+}
