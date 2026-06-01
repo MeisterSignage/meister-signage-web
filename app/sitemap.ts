@@ -78,10 +78,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  return [...fixed, ...dynamic].map((p) => ({
-    url: `${base}${p.url}`,
-    lastModified: new Date(p.date),
-    changeFrequency: p.cf,
-    priority: p.priority,
-  }));
+  return [...fixed, ...dynamic].map((p) => {
+    // Ensure trailing slash so URLs match Next.js trailingSlash:true output.
+    // Without this, Google requests /path, gets 301 → /path/ and may classify
+    // as "Page with redirect" instead of indexing the canonical URL.
+    const path = p.url === "/" ? "/" : p.url.endsWith("/") ? p.url : `${p.url}/`;
+    return {
+      url: `${base}${path}`,
+      lastModified: new Date(p.date),
+      changeFrequency: p.cf,
+      priority: p.priority,
+    };
+  });
 }
