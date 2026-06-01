@@ -137,12 +137,11 @@ export default function DigitalSignageSchweizPage() {
         >
           <Image
             src="/images/products/Ratgeber-Wissen.webp"
-            alt=""
+            alt="Digital Signage Schweiz – Beratung, Planung und Umsetzung von Meister Signage"
             fill
             className="object-cover object-center"
             sizes="100vw"
             priority
-            aria-hidden="true"
           />
         </motion.div>
 

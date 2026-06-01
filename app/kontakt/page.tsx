@@ -48,12 +48,11 @@ export default function KontaktPage() {
         >
           <Image
             src="/images/products/Hotelempfang-Meister-Signage.webp"
-            alt=""
+            alt="Digital Signage Beratung Schweiz – Kontakt zu Meister Signage in Baar"
             fill
             className="object-cover object-center"
             sizes="100vw"
             priority
-            aria-hidden="true"
           />
         </motion.div>
 

@@ -162,12 +162,11 @@ export default function WasKostetDigitalSignagePage() {
         {/* Background image */}
         <Image
           src="/images/products/Was-kostet-Hero-meister-signage.webp"
-          alt=""
+          alt="Digital Signage Kosten in der Schweiz – Übersicht und Beratung von Meister Signage"
           fill
           className="object-cover object-center"
           sizes="100vw"
           priority
-          aria-hidden="true"
         />
 
         {/* Cinematic overlay — dark left fade for text readability */}
