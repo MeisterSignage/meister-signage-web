@@ -107,23 +107,6 @@ export default function VersandUndRueckgabePage() {
             </p>
           </section>
 
-          {/* Service-Standorte */}
-          <section className="py-7">
-            <h2 className="mb-3 text-navy">Service-Standorte und Lieferregionen</h2>
-            <p className="card-body mb-3">
-              Meister Signage liefert und installiert schweizweit. Der Hauptsitz und das Lager
-              befinden sich in der Zentralschweiz (Baar / Luzern-Region), was kurze Wege zu Kunden
-              in Luzern, Zug, Zürich, Aargau und Bern ermöglicht. Bei Lieferungen in die Romandie,
-              ins Tessin oder in Randregionen entstehen je nach Volumen leichte Mehrkosten für
-              Spedition – diese werden vorab transparent ausgewiesen.
-            </p>
-            <p className="card-body">
-              Für Service-Einsätze und Display-Tausch unter Garantie übernehmen wir die
-              vollständige Abwicklung: Abholung beim Kunden, Tausch durch Ersatzgerät innert
-              48–72 Stunden, kein Versand-Hin-und-Her durch den Kunden.
-            </p>
-          </section>
-
           {/* Kontakt */}
           <section className="py-7">
             <h2 className="mb-3 text-navy">Fragen?</h2>
