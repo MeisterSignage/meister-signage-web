@@ -18,8 +18,10 @@ import sharp from "sharp";
 
 const ROOT = path.resolve(process.cwd(), "public", "images");
 const VARIANTS = [
-  { suffix: "-400w", width: 400, minSourceWidth: 1400 }, // hero-class only
-  { suffix: "-800w", width: 800, minSourceWidth: 900 },  // most images
+  // -400w must match loader logic: it's requested for any source > 500px wide.
+  // Otherwise small responsive sizes return 404 (caught by Seobility).
+  { suffix: "-400w", width: 400, minSourceWidth: 500 },
+  { suffix: "-800w", width: 800, minSourceWidth: 900 },
 ];
 
 /** Recursively walk a directory and yield .webp file paths. */
