@@ -1,7 +1,7 @@
 {
   "slug": "digital-signage-vorteile-nachteile",
   "category": "Grundlagen",
-  "seoTitle": "Digital Signage Vor- und Nachteile – ehrlicher Überblick | Meister Signage",
+  "seoTitle": "Digital Signage Vor- und Nachteile | Meister Signage",
   "seoDescription": "Was sind die echten Vorteile von Digital Signage? Wo gibt es Nachteile? Sachliche Übersicht für KMU – damit Sie eine fundierte Entscheidung treffen.",
   "eyebrow": "Wissen · Grundlagen",
   "h1": "Digital Signage Vor- und Nachteile – was Sie vor der Entscheidung wissen sollten.",
@@ -75,13 +75,34 @@
     }
   ],
   "internalLinks": [
-    { "label": "Was ist Digital Signage?",         "href": "/wissen/was-ist-digital-signage" },
-    { "label": "Digital Signage mieten oder kaufen?", "href": "/wissen/digital-signage-mieten-oder-kaufen" },
-    { "label": "Digital Signage Größe wählen",     "href": "/wissen/digital-signage-groesse-waehlen" },
-    { "label": "Was kostet Digital Signage?",      "href": "/was-kostet-digital-signage-schweiz" },
-    { "label": "Anbieter im Vergleich",            "href": "/digital-signage-anbieter-vergleich" },
-    { "label": "Digital Signage kaufen",           "href": "/digital-signage-kaufen" },
-    { "label": "Digital Signage mieten",           "href": "/digital-signage-mieten" }
+    {
+      "label": "Was ist Digital Signage?",
+      "href": "/wissen/was-ist-digital-signage"
+    },
+    {
+      "label": "Digital Signage mieten oder kaufen?",
+      "href": "/wissen/digital-signage-mieten-oder-kaufen"
+    },
+    {
+      "label": "Digital Signage Größe wählen",
+      "href": "/wissen/digital-signage-groesse-waehlen"
+    },
+    {
+      "label": "Was kostet Digital Signage?",
+      "href": "/was-kostet-digital-signage-schweiz"
+    },
+    {
+      "label": "Anbieter im Vergleich",
+      "href": "/digital-signage-anbieter-vergleich"
+    },
+    {
+      "label": "Digital Signage kaufen",
+      "href": "/digital-signage-kaufen"
+    },
+    {
+      "label": "Digital Signage mieten",
+      "href": "/digital-signage-mieten"
+    }
   ],
   "datePublished": "2026-05-27"
 }
