@@ -2,7 +2,7 @@
   "slug": "digitales-werbedisplay",
   "type": "loesungen",
   "seoTitle": "Digitales Werbedisplay – digitaler Werbebildschirm | Meister Signage",
-  "seoDescription": "Digitale Werbedisplays für Retail, Gastronomie und POS in der Schweiz: aufmerksamkeitsstarke Werbebildschirme, schlüsselfertig installiert. Ab CHF 129 zur Miete oder ab CHF 1.299 zum Kauf.",
+  "seoDescription": "Digitale Werbedisplays für Retail, Gastronomie & POS – ab CHF 129/Mt. oder ab CHF 1.299. Schlüsselfertig installiert vom Schweizer Anbieter.",
   "eyebrow": "Lösung · Werbedisplay",
   "h1": "Digitale Werbedisplays – Aufmerksamkeit, wo sie wirkt.",
   "intro": "Ein digitales Werbedisplay zeigt Kampagnen, Aktionen, Produkte oder Markenwerte direkt am Ort der Entscheidung. Anders als gedruckte Plakate lassen sich Inhalte täglich anpassen, mit Bewegtbild ergänzen und auf Zielgruppen oder Tageszeit ausrichten. Für Retail, Gastronomie, Pop-up-Stores und Empfangsbereiche.",
@@ -60,15 +60,42 @@
     }
   ],
   "internalLinks": [
-    { "label": "Indoor Signage", "href": "/loesungen/indoor-signage" },
-    { "label": "Digitale Menüboards", "href": "/loesungen/digitale-menueboards" },
-    { "label": "Digitale Kundenstopper", "href": "/loesungen/digitale-kundenstopper" },
-    { "label": "Digitale Schaufensterwerbung", "href": "/loesungen/digitale-schaufensterwerbung" },
-    { "label": "LED Walls & Videowall", "href": "/loesungen/led-walls" },
-    { "label": "Digital Signage kaufen", "href": "/digital-signage-kaufen" },
-    { "label": "Digital Signage mieten", "href": "/digital-signage-mieten" },
-    { "label": "Retail & Handel", "href": "/branchen/retail" },
-    { "label": "Gastronomie", "href": "/branchen/gastronomie" }
+    {
+      "label": "Indoor Signage",
+      "href": "/loesungen/indoor-signage"
+    },
+    {
+      "label": "Digitale Menüboards",
+      "href": "/loesungen/digitale-menueboards"
+    },
+    {
+      "label": "Digitale Kundenstopper",
+      "href": "/loesungen/digitale-kundenstopper"
+    },
+    {
+      "label": "Digitale Schaufensterwerbung",
+      "href": "/loesungen/digitale-schaufensterwerbung"
+    },
+    {
+      "label": "LED Walls & Videowall",
+      "href": "/loesungen/led-walls"
+    },
+    {
+      "label": "Digital Signage kaufen",
+      "href": "/digital-signage-kaufen"
+    },
+    {
+      "label": "Digital Signage mieten",
+      "href": "/digital-signage-mieten"
+    },
+    {
+      "label": "Retail & Handel",
+      "href": "/branchen/retail"
+    },
+    {
+      "label": "Gastronomie",
+      "href": "/branchen/gastronomie"
+    }
   ],
   "cta": {
     "eyebrow": "Projekt besprechen",
@@ -81,14 +108,32 @@
   },
   "related": {
     "loesungen": [
-      { "label": "Indoor Signage", "href": "/loesungen/indoor-signage" },
-      { "label": "Digitale Menüboards", "href": "/loesungen/digitale-menueboards" },
-      { "label": "LED Walls & Videowall", "href": "/loesungen/led-walls" }
+      {
+        "label": "Indoor Signage",
+        "href": "/loesungen/indoor-signage"
+      },
+      {
+        "label": "Digitale Menüboards",
+        "href": "/loesungen/digitale-menueboards"
+      },
+      {
+        "label": "LED Walls & Videowall",
+        "href": "/loesungen/led-walls"
+      }
     ],
     "branchen": [
-      { "label": "Retail & Handel", "href": "/branchen/retail" },
-      { "label": "Gastronomie", "href": "/branchen/gastronomie" },
-      { "label": "Hotellerie", "href": "/branchen/hotellerie" }
+      {
+        "label": "Retail & Handel",
+        "href": "/branchen/retail"
+      },
+      {
+        "label": "Gastronomie",
+        "href": "/branchen/gastronomie"
+      },
+      {
+        "label": "Hotellerie",
+        "href": "/branchen/hotellerie"
+      }
     ]
   }
 }

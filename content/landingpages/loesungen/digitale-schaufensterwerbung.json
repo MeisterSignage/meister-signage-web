@@ -2,7 +2,7 @@
   "slug": "digitale-schaufensterwerbung",
   "type": "loesungen",
   "seoTitle": "Digitale Schaufensterwerbung – Schaufensterdisplays | Meister Signage",
-  "seoDescription": "Digitale Schaufensterwerbung für Schweizer Retail: aufmerksamkeitsstarke Displays mit hoher Helligkeit, 24/7 Betrieb. Aktionen, Kampagnen und Produkte rund um die Uhr sichtbar.",
+  "seoDescription": "Digitale Schaufensterwerbung 24/7 sichtbar – auch nach Ladenschluss. Hohe Helligkeit, schlüsselfertig installiert ab Lager Luzern.",
   "eyebrow": "Lösung · Schaufensterwerbung",
   "h1": "Digitale Schaufensterwerbung – sichtbar rund um die Uhr.",
   "intro": "Ein digitales Schaufensterdisplay verwandelt das Schaufenster in eine bewegte Werbefläche – auch nach Ladenschluss. Kampagnen, Aktionen und Produkte sind 24/7 sichtbar und lassen sich tageszeitabhängig steuern. Mit 450 nits Helligkeit wirken sie auch bei Tageslicht klar und kontrastreich.",
@@ -60,13 +60,34 @@
     }
   ],
   "internalLinks": [
-    { "label": "Digitales Werbedisplay", "href": "/loesungen/digitales-werbedisplay" },
-    { "label": "Digitale Kundenstopper", "href": "/loesungen/digitale-kundenstopper" },
-    { "label": "LED Walls & Videowall", "href": "/loesungen/led-walls" },
-    { "label": "Doppelseitige Displays", "href": "/loesungen/doppelseitige-displays" },
-    { "label": "Retail & Handel", "href": "/branchen/retail" },
-    { "label": "Digital Signage kaufen", "href": "/digital-signage-kaufen" },
-    { "label": "Digital Signage mieten", "href": "/digital-signage-mieten" }
+    {
+      "label": "Digitales Werbedisplay",
+      "href": "/loesungen/digitales-werbedisplay"
+    },
+    {
+      "label": "Digitale Kundenstopper",
+      "href": "/loesungen/digitale-kundenstopper"
+    },
+    {
+      "label": "LED Walls & Videowall",
+      "href": "/loesungen/led-walls"
+    },
+    {
+      "label": "Doppelseitige Displays",
+      "href": "/loesungen/doppelseitige-displays"
+    },
+    {
+      "label": "Retail & Handel",
+      "href": "/branchen/retail"
+    },
+    {
+      "label": "Digital Signage kaufen",
+      "href": "/digital-signage-kaufen"
+    },
+    {
+      "label": "Digital Signage mieten",
+      "href": "/digital-signage-mieten"
+    }
   ],
   "cta": {
     "eyebrow": "Projekt besprechen",
@@ -79,13 +100,28 @@
   },
   "related": {
     "loesungen": [
-      { "label": "Digitales Werbedisplay", "href": "/loesungen/digitales-werbedisplay" },
-      { "label": "Digitale Kundenstopper", "href": "/loesungen/digitale-kundenstopper" },
-      { "label": "LED Walls & Videowall", "href": "/loesungen/led-walls" }
+      {
+        "label": "Digitales Werbedisplay",
+        "href": "/loesungen/digitales-werbedisplay"
+      },
+      {
+        "label": "Digitale Kundenstopper",
+        "href": "/loesungen/digitale-kundenstopper"
+      },
+      {
+        "label": "LED Walls & Videowall",
+        "href": "/loesungen/led-walls"
+      }
     ],
     "branchen": [
-      { "label": "Retail & Handel", "href": "/branchen/retail" },
-      { "label": "Gastronomie", "href": "/branchen/gastronomie" }
+      {
+        "label": "Retail & Handel",
+        "href": "/branchen/retail"
+      },
+      {
+        "label": "Gastronomie",
+        "href": "/branchen/gastronomie"
+      }
     ]
   }
 }

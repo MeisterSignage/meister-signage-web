@@ -2,7 +2,7 @@
   "slug": "digital-signage-nachhaltigkeit",
   "category": "Grundlagen",
   "seoTitle": "Digital Signage & Nachhaltigkeit – ehrliche Bilanz | Meister Signage",
-  "seoDescription": "Wie nachhaltig ist Digital Signage wirklich? Energieeffizienz, Lebensdauer, Verpackung, Recycling – mit konkreten Zahlen und ehrlichen Trade-offs für Schweizer KMU.",
+  "seoDescription": "Wie nachhaltig ist Digital Signage wirklich? Energie, Lebensdauer, Recycling – konkrete Zahlen und ehrliche Trade-offs für Schweizer KMU.",
   "eyebrow": "Wissen · Nachhaltigkeit",
   "h1": "Digital Signage & Nachhaltigkeit – was zählt wirklich.",
   "intro": "Nachhaltigkeit ist in der Digital-Signage-Branche oft Marketing-Buzz. Hier eine ehrliche Bilanz mit konkreten Zahlen: Wo Digital Signage tatsächlich umweltfreundlicher ist als gedruckte Alternativen, wo nicht – und welche neun Punkte bei Meister Signage konkret eingebaut sind.",
@@ -98,13 +98,34 @@
     }
   ],
   "internalLinks": [
-    { "label": "Digital Signage Vor- und Nachteile",     "href": "/wissen/digital-signage-vorteile-nachteile" },
-    { "label": "Was ist Digital Signage?",                 "href": "/wissen/was-ist-digital-signage" },
-    { "label": "Digital Signage kaufen",                   "href": "/digital-signage-kaufen" },
-    { "label": "Digital Signage mieten",                   "href": "/digital-signage-mieten" },
-    { "label": "Anbieter im Vergleich",                    "href": "/digital-signage-anbieter-vergleich" },
-    { "label": "High-Brightness-Display",                  "href": "/loesungen/high-brightness-display" },
-    { "label": "Versand & Rückgabe",                       "href": "/versand-und-rueckgabe" }
+    {
+      "label": "Digital Signage Vor- und Nachteile",
+      "href": "/wissen/digital-signage-vorteile-nachteile"
+    },
+    {
+      "label": "Was ist Digital Signage?",
+      "href": "/wissen/was-ist-digital-signage"
+    },
+    {
+      "label": "Digital Signage kaufen",
+      "href": "/digital-signage-kaufen"
+    },
+    {
+      "label": "Digital Signage mieten",
+      "href": "/digital-signage-mieten"
+    },
+    {
+      "label": "Anbieter im Vergleich",
+      "href": "/digital-signage-anbieter-vergleich"
+    },
+    {
+      "label": "High-Brightness-Display",
+      "href": "/loesungen/high-brightness-display"
+    },
+    {
+      "label": "Versand & Rückgabe",
+      "href": "/versand-und-rueckgabe"
+    }
   ],
   "datePublished": "2026-05-27",
   "heroImage": "/images/products/Sustainibility-Meister-Signage.webp",

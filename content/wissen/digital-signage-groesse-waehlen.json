@@ -2,7 +2,7 @@
   "slug": "digital-signage-groesse-waehlen",
   "category": "Auswahl",
   "seoTitle": "Digital Signage Größe wählen: 32, 43 oder 50 Zoll? | Meister Signage",
-  "seoDescription": "Welche Displaygröße passt zu Ihrem Einsatzort? Konkrete Empfehlungen für 32, 43, 50 Zoll und quadratische Formate – mit Betrachtungsabstand-Faustregel.",
+  "seoDescription": "Welches Display-Format passt zu welchem Einsatz? Praxis-Tipps zur Auswahl von 32 bis 75 Zoll – mit konkreten Beispielen aus Schweizer KMU.",
   "eyebrow": "Wissen · Auswahl",
   "h1": "Digital Signage Größe wählen – welcher Bildschirm passt zu Ihrem Einsatzort?",
   "intro": "Die richtige Displaygröße entscheidet darüber, ob Inhalte wahrgenommen werden oder nicht. Zu klein und niemand sieht es, zu groß und es wirkt überdimensioniert. Diese Faustregeln helfen bei der Auswahl.",
@@ -61,12 +61,30 @@
     }
   ],
   "internalLinks": [
-    { "label": "Digital Signage kaufen",        "href": "/digital-signage-kaufen" },
-    { "label": "Digital Signage mieten",        "href": "/digital-signage-mieten" },
-    { "label": "Anbieter im Vergleich",         "href": "/digital-signage-anbieter-vergleich" },
-    { "label": "Was kostet Digital Signage?",   "href": "/was-kostet-digital-signage-schweiz" },
-    { "label": "Digitale Schaufensterwerbung",  "href": "/loesungen/digitale-schaufensterwerbung" },
-    { "label": "Digitale Menüboards",           "href": "/loesungen/digitale-menueboards" }
+    {
+      "label": "Digital Signage kaufen",
+      "href": "/digital-signage-kaufen"
+    },
+    {
+      "label": "Digital Signage mieten",
+      "href": "/digital-signage-mieten"
+    },
+    {
+      "label": "Anbieter im Vergleich",
+      "href": "/digital-signage-anbieter-vergleich"
+    },
+    {
+      "label": "Was kostet Digital Signage?",
+      "href": "/was-kostet-digital-signage-schweiz"
+    },
+    {
+      "label": "Digitale Schaufensterwerbung",
+      "href": "/loesungen/digitale-schaufensterwerbung"
+    },
+    {
+      "label": "Digitale Menüboards",
+      "href": "/loesungen/digitale-menueboards"
+    }
   ],
   "datePublished": "2026-05-27"
 }

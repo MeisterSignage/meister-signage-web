@@ -1,7 +1,7 @@
 ---
 title: "Spark 4 – der 43-Zoll-Bestseller mit 4K"
 seoTitle: "Spark 4 – 43 Zoll 4K Bestseller"
-description: "Spark 4: 43 Zoll, 4K UHD, 15.5 mm flach, 24/7-Dauerbetrieb. Das meistverkaufte Modell von Meister Signage – für Gastronomie, Retail und Hotellerie. Ab CHF 1.499."
+description: "Spark 4 – 43 Zoll 4K-Display, 15.5 mm flach, 24/7-Dauerbetrieb. Vielseitig für Schaufenster, Empfang und Menüboards. Aus der Schweiz."
 date: "2026-06-09T06:00:00+02:00"
 category: "Produkte"
 image: "/images/products/Spark4-Design.webp"

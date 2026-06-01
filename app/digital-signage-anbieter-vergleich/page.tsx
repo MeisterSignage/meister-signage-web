@@ -17,7 +17,7 @@ const COMPARISON_DATE = "Mai 2026";
 export const metadata: Metadata = {
   title: { absolute: "Digital Signage Anbieter Schweiz im Vergleich | Meister Signage" },
   description:
-    "Digital-Signage-Anbieter in der Schweiz im sachlichen Vergleich: Meister Signage, Screencom, e-display, Kilchenmann, Inputech. Preise, Modell, Sitz – Stand Mai 2026.",
+    "Digital-Signage-Anbieter Schweiz im Vergleich: Meister Signage, Screencom, e-display, Kilchenmann, Inputech. Preise, Modell, Sitz – Stand Mai 2026.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "website",

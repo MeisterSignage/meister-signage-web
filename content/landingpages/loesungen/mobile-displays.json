@@ -2,7 +2,7 @@
   "slug": "mobile-displays",
   "type": "loesungen",
   "seoTitle": "Mobile Displays Schweiz – transportabel & akkubetrieben | Meister Signage",
-  "seoDescription": "Mobile Digital-Signage-Displays für Roadshows, Messen und multi-standortige Einsätze. Transportabel, akkubetrieben, ohne feste Verkabelung. Schweizweit lieferbar.",
+  "seoDescription": "Mobile Digital-Signage-Displays für Roadshows & Messen – transportabel, akkubetrieben, kabellos. Mietbar oder kaufbar, schweizweit lieferbar.",
   "eyebrow": "Lösung · Mobile Displays",
   "h1": "Mobile Displays – Aufmerksamkeit, die mit Ihnen reist.",
   "intro": "Mobile Displays sind transportable digitale Bildschirme, die nicht für einen festen Standort gemacht sind, sondern mit dem Einsatz wandern. Heute Messe in Zürich, morgen Eröffnung in Luzern, übermorgen Kundentag in Bern – ohne erneuten Aufbau, ohne Steckdose vor Ort, ohne IT-Vorbereitung. Akkubetrieb auf Anfrage möglich.",
@@ -68,14 +68,38 @@
     }
   ],
   "internalLinks": [
-    { "label": "Digitale Kundenstopper", "href": "/loesungen/digitale-kundenstopper" },
-    { "label": "Event-Displays", "href": "/loesungen/event-displays" },
-    { "label": "Doppelseitige Displays", "href": "/loesungen/doppelseitige-displays" },
-    { "label": "Events & Messen", "href": "/branchen/events" },
-    { "label": "Retail & Handel", "href": "/branchen/retail" },
-    { "label": "Gastronomie", "href": "/branchen/gastronomie" },
-    { "label": "Displays mieten", "href": "/digital-signage-mieten" },
-    { "label": "Software", "href": "/loesungen/software" }
+    {
+      "label": "Digitale Kundenstopper",
+      "href": "/loesungen/digitale-kundenstopper"
+    },
+    {
+      "label": "Event-Displays",
+      "href": "/loesungen/event-displays"
+    },
+    {
+      "label": "Doppelseitige Displays",
+      "href": "/loesungen/doppelseitige-displays"
+    },
+    {
+      "label": "Events & Messen",
+      "href": "/branchen/events"
+    },
+    {
+      "label": "Retail & Handel",
+      "href": "/branchen/retail"
+    },
+    {
+      "label": "Gastronomie",
+      "href": "/branchen/gastronomie"
+    },
+    {
+      "label": "Displays mieten",
+      "href": "/digital-signage-mieten"
+    },
+    {
+      "label": "Software",
+      "href": "/loesungen/software"
+    }
   ],
   "cta": {
     "eyebrow": "Mobile Lösung anfragen",
@@ -88,14 +112,32 @@
   },
   "related": {
     "loesungen": [
-      { "label": "Digitale Kundenstopper", "href": "/loesungen/digitale-kundenstopper" },
-      { "label": "Event-Displays", "href": "/loesungen/event-displays" },
-      { "label": "Doppelseitige Displays", "href": "/loesungen/doppelseitige-displays" }
+      {
+        "label": "Digitale Kundenstopper",
+        "href": "/loesungen/digitale-kundenstopper"
+      },
+      {
+        "label": "Event-Displays",
+        "href": "/loesungen/event-displays"
+      },
+      {
+        "label": "Doppelseitige Displays",
+        "href": "/loesungen/doppelseitige-displays"
+      }
     ],
     "branchen": [
-      { "label": "Events & Messen", "href": "/branchen/events" },
-      { "label": "Retail & Handel", "href": "/branchen/retail" },
-      { "label": "Gastronomie", "href": "/branchen/gastronomie" }
+      {
+        "label": "Events & Messen",
+        "href": "/branchen/events"
+      },
+      {
+        "label": "Retail & Handel",
+        "href": "/branchen/retail"
+      },
+      {
+        "label": "Gastronomie",
+        "href": "/branchen/gastronomie"
+      }
     ]
   }
 }

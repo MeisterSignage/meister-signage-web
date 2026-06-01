@@ -2,7 +2,7 @@
   "slug": "high-brightness-display",
   "type": "loesungen",
   "seoTitle": "High-Brightness-Display – 3'500 nits für Sonnenlicht | Meister Signage",
-  "seoDescription": "Schaufenster-Displays mit 3'500 nits für direkte Sonneneinstrahlung. 43–75 Zoll, automatische Helligkeitsregelung, 24/7-Dauerbetrieb. Schweizweite Installation.",
+  "seoDescription": "High-Brightness-Displays 3500 cd/m² für Schaufenster mit Sonneneinstrahlung. 43–75 Zoll, Auto-Helligkeit. Schlüsselfertig aus der Schweiz.",
   "eyebrow": "Lösung · High-Brightness-Display",
   "h1": "High-Brightness-Displays – 3'500 nits für direkte Sonne.",
   "intro": "Wo Standard-Displays (typisch 450 nits) im Schaufenster oder bei direktem Sonnenlicht ausgewaschen wirken, bringen High-Brightness-Displays mit 3'500 cd/m² gestochen scharfe Inhalte – auch um die Mittagszeit, auch hinter Schaufensterglas. Verfügbar in 43, 49, 55, 65 und 75 Zoll für Retail, Hotellerie und repräsentative Empfangsbereiche.",
@@ -64,14 +64,38 @@
     }
   ],
   "internalLinks": [
-    { "label": "Digitale Schaufensterwerbung", "href": "/loesungen/digitale-schaufensterwerbung" },
-    { "label": "Digitales Werbedisplay",      "href": "/loesungen/digitales-werbedisplay" },
-    { "label": "Digitale Kundenstopper",       "href": "/loesungen/digitale-kundenstopper" },
-    { "label": "LED Walls & Videowall",        "href": "/loesungen/led-walls" },
-    { "label": "Digital Signage kaufen",       "href": "/digital-signage-kaufen" },
-    { "label": "Digital Signage mieten",       "href": "/digital-signage-mieten" },
-    { "label": "Anbieter im Vergleich",        "href": "/digital-signage-anbieter-vergleich" },
-    { "label": "Retail & Handel",              "href": "/branchen/retail" }
+    {
+      "label": "Digitale Schaufensterwerbung",
+      "href": "/loesungen/digitale-schaufensterwerbung"
+    },
+    {
+      "label": "Digitales Werbedisplay",
+      "href": "/loesungen/digitales-werbedisplay"
+    },
+    {
+      "label": "Digitale Kundenstopper",
+      "href": "/loesungen/digitale-kundenstopper"
+    },
+    {
+      "label": "LED Walls & Videowall",
+      "href": "/loesungen/led-walls"
+    },
+    {
+      "label": "Digital Signage kaufen",
+      "href": "/digital-signage-kaufen"
+    },
+    {
+      "label": "Digital Signage mieten",
+      "href": "/digital-signage-mieten"
+    },
+    {
+      "label": "Anbieter im Vergleich",
+      "href": "/digital-signage-anbieter-vergleich"
+    },
+    {
+      "label": "Retail & Handel",
+      "href": "/branchen/retail"
+    }
   ],
   "cta": {
     "eyebrow": "Projekt besprechen",
@@ -84,13 +108,28 @@
   },
   "related": {
     "loesungen": [
-      { "label": "Digitale Schaufensterwerbung", "href": "/loesungen/digitale-schaufensterwerbung" },
-      { "label": "Digitales Werbedisplay",       "href": "/loesungen/digitales-werbedisplay" },
-      { "label": "LED Walls & Videowall",        "href": "/loesungen/led-walls" }
+      {
+        "label": "Digitale Schaufensterwerbung",
+        "href": "/loesungen/digitale-schaufensterwerbung"
+      },
+      {
+        "label": "Digitales Werbedisplay",
+        "href": "/loesungen/digitales-werbedisplay"
+      },
+      {
+        "label": "LED Walls & Videowall",
+        "href": "/loesungen/led-walls"
+      }
     ],
     "branchen": [
-      { "label": "Retail & Handel", "href": "/branchen/retail" },
-      { "label": "Gastronomie",     "href": "/branchen/gastronomie" }
+      {
+        "label": "Retail & Handel",
+        "href": "/branchen/retail"
+      },
+      {
+        "label": "Gastronomie",
+        "href": "/branchen/gastronomie"
+      }
     ]
   }
 }

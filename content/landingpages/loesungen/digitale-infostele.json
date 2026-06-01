@@ -2,7 +2,7 @@
   "slug": "digitale-infostele",
   "type": "loesungen",
   "seoTitle": "Digitale Infostele – Infosäulen für Empfang & Wartebereich | Meister Signage",
-  "seoDescription": "Digitale Infostele für Hotels, Unternehmen, öffentliche Einrichtungen: Information, Orientierung und Begrüssung in einer freistehenden Säule. Schweizweit installiert.",
+  "seoDescription": "Digitale Infostele für Lobby, Empfang & Wartebereich: freistehende Säule mit Wegweisung, News oder Werbung. Schlüsselfertig, Schweizer Service.",
   "eyebrow": "Lösung · Infostele",
   "h1": "Digitale Infostele – Information frei im Raum.",
   "intro": "Eine digitale Infostele ist eine freistehende, vertikale Säule mit Display – aufgestellt in Empfangsbereichen, Lobbies, Wartezonen, Museen oder öffentlichen Gebäuden. Sie informiert, orientiert und begrüsst – ohne Wandmontage und ohne fixe Verkabelung. Inhalte werden zentral gepflegt und automatisch aktualisiert.",
@@ -60,12 +60,30 @@
     }
   ],
   "internalLinks": [
-    { "label": "Digitaler Empfang", "href": "/loesungen/digitaler-empfang" },
-    { "label": "Empfangsdisplays", "href": "/loesungen/empfangsdisplays" },
-    { "label": "Digitale Leitsysteme", "href": "/loesungen/digitale-leitsysteme" },
-    { "label": "Digitale Raumbeschilderung", "href": "/loesungen/digitale-raumbeschilderung" },
-    { "label": "Hotellerie", "href": "/branchen/hotellerie" },
-    { "label": "Unternehmen", "href": "/branchen/unternehmen" }
+    {
+      "label": "Digitaler Empfang",
+      "href": "/loesungen/digitaler-empfang"
+    },
+    {
+      "label": "Empfangsdisplays",
+      "href": "/loesungen/empfangsdisplays"
+    },
+    {
+      "label": "Digitale Leitsysteme",
+      "href": "/loesungen/digitale-leitsysteme"
+    },
+    {
+      "label": "Digitale Raumbeschilderung",
+      "href": "/loesungen/digitale-raumbeschilderung"
+    },
+    {
+      "label": "Hotellerie",
+      "href": "/branchen/hotellerie"
+    },
+    {
+      "label": "Unternehmen",
+      "href": "/branchen/unternehmen"
+    }
   ],
   "cta": {
     "eyebrow": "Projekt besprechen",
@@ -78,13 +96,28 @@
   },
   "related": {
     "loesungen": [
-      { "label": "Digitaler Empfang", "href": "/loesungen/digitaler-empfang" },
-      { "label": "Empfangsdisplays", "href": "/loesungen/empfangsdisplays" },
-      { "label": "Digitale Leitsysteme", "href": "/loesungen/digitale-leitsysteme" }
+      {
+        "label": "Digitaler Empfang",
+        "href": "/loesungen/digitaler-empfang"
+      },
+      {
+        "label": "Empfangsdisplays",
+        "href": "/loesungen/empfangsdisplays"
+      },
+      {
+        "label": "Digitale Leitsysteme",
+        "href": "/loesungen/digitale-leitsysteme"
+      }
     ],
     "branchen": [
-      { "label": "Hotellerie", "href": "/branchen/hotellerie" },
-      { "label": "Unternehmen", "href": "/branchen/unternehmen" }
+      {
+        "label": "Hotellerie",
+        "href": "/branchen/hotellerie"
+      },
+      {
+        "label": "Unternehmen",
+        "href": "/branchen/unternehmen"
+      }
     ]
   }
 }

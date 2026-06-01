@@ -2,7 +2,7 @@
   "slug": "digitale-kundenstopper",
   "type": "loesungen",
   "seoTitle": "Digitaler Kundenstopper – Outdoor mit Akku | Meister Signage",
-  "seoDescription": "Digitaler Kundenstopper für Indoor und Outdoor: 43 Zoll, 1500 nits, IP65 wasserdicht, Akku mit 27 h Laufzeit. Für Eingang, Schaufenster, Eventstand. Aus der Schweiz.",
+  "seoDescription": "Digitaler Kundenstopper 43\" – Indoor & Outdoor, IP65, 27h Akku, kabellos. Für Eingang, Schaufenster, Eventstand. Aus der Schweiz, ab Lager Luzern.",
   "eyebrow": "Lösung · Kundenstopper",
   "h1": "Digitaler Kundenstopper – Indoor, Outdoor, mit Akku.",
   "intro": "Ein digitaler Kundenstopper ist ein freistehender, beweglicher 43-Zoll-Bildschirm, der gedruckte A-Tafeln ersetzt. Inhalte wechseln in Sekunden, ohne Druck. Dank IP65-Schutz und 1500 nits Helligkeit auch im direkten Sonnenlicht und bei Regen einsatzfähig. Mit integriertem Akku (27 h Laufzeit) sogar an Standorten ganz ohne Steckdose.",
@@ -68,15 +68,42 @@
     }
   ],
   "internalLinks": [
-    { "label": "Mobile Displays", "href": "/loesungen/mobile-displays" },
-    { "label": "Doppelseitige Displays", "href": "/loesungen/doppelseitige-displays" },
-    { "label": "Digitale Schaufensterwerbung", "href": "/loesungen/digitale-schaufensterwerbung" },
-    { "label": "Digitales Werbedisplay", "href": "/loesungen/digitales-werbedisplay" },
-    { "label": "Digital Signage kaufen", "href": "/digital-signage-kaufen" },
-    { "label": "Digital Signage mieten", "href": "/digital-signage-mieten" },
-    { "label": "Kosten & Preise", "href": "/was-kostet-digital-signage-schweiz" },
-    { "label": "Retail & Handel", "href": "/branchen/retail" },
-    { "label": "Gastronomie", "href": "/branchen/gastronomie" }
+    {
+      "label": "Mobile Displays",
+      "href": "/loesungen/mobile-displays"
+    },
+    {
+      "label": "Doppelseitige Displays",
+      "href": "/loesungen/doppelseitige-displays"
+    },
+    {
+      "label": "Digitale Schaufensterwerbung",
+      "href": "/loesungen/digitale-schaufensterwerbung"
+    },
+    {
+      "label": "Digitales Werbedisplay",
+      "href": "/loesungen/digitales-werbedisplay"
+    },
+    {
+      "label": "Digital Signage kaufen",
+      "href": "/digital-signage-kaufen"
+    },
+    {
+      "label": "Digital Signage mieten",
+      "href": "/digital-signage-mieten"
+    },
+    {
+      "label": "Kosten & Preise",
+      "href": "/was-kostet-digital-signage-schweiz"
+    },
+    {
+      "label": "Retail & Handel",
+      "href": "/branchen/retail"
+    },
+    {
+      "label": "Gastronomie",
+      "href": "/branchen/gastronomie"
+    }
   ],
   "cta": {
     "eyebrow": "Projekt besprechen",
@@ -89,13 +116,28 @@
   },
   "related": {
     "loesungen": [
-      { "label": "Mobile Displays", "href": "/loesungen/mobile-displays" },
-      { "label": "Doppelseitige Displays", "href": "/loesungen/doppelseitige-displays" },
-      { "label": "Digitale Schaufensterwerbung", "href": "/loesungen/digitale-schaufensterwerbung" }
+      {
+        "label": "Mobile Displays",
+        "href": "/loesungen/mobile-displays"
+      },
+      {
+        "label": "Doppelseitige Displays",
+        "href": "/loesungen/doppelseitige-displays"
+      },
+      {
+        "label": "Digitale Schaufensterwerbung",
+        "href": "/loesungen/digitale-schaufensterwerbung"
+      }
     ],
     "branchen": [
-      { "label": "Retail & Handel", "href": "/branchen/retail" },
-      { "label": "Gastronomie", "href": "/branchen/gastronomie" }
+      {
+        "label": "Retail & Handel",
+        "href": "/branchen/retail"
+      },
+      {
+        "label": "Gastronomie",
+        "href": "/branchen/gastronomie"
+      }
     ]
   }
 }

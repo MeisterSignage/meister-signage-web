@@ -1,7 +1,7 @@
 ---
 title: "Spark 5: Das 50-Zoll-Display für Schaufenster und Empfangshallen"
 seoTitle: "Spark 5 – 50 Zoll 4K-Display | Meister Signage"
-description: "Spark 5: 50 Zoll, 4K UHD, nur 15.5 mm Bautiefe, 24/7-Dauerbetrieb. Das grösste Display der Meister-Signage-Reihe – für Schaufenster, Lobby und grosse Räume."
+description: "Spark 5 – 50 Zoll 4K-Display, 15.5 mm Bautiefe, 24/7-Dauerbetrieb. Grösstes Display der Meister-Signage-Reihe für Schaufenster und Lobby."
 date: "2026-04-22"
 category: "Produkte"
 image: "/images/products/Spark5-Design.webp"

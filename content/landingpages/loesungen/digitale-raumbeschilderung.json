@@ -2,7 +2,7 @@
   "slug": "digitale-raumbeschilderung",
   "type": "loesungen",
   "seoTitle": "Digitale Raumbeschilderung – Meetingräume & Türschilder | Meister Signage",
-  "seoDescription": "Digitale Raumbeschilderung für Meetingräume, Büros, Hotels und Coworking-Flächen. Belegung, Reservation und Raumname auf einem kleinen Display direkt neben der Tür.",
+  "seoDescription": "Digitale Raumbeschilderung für Meetingräume & Büros: Belegung neben der Tür, zentral steuerbar, immer aktuell. Schlüsselfertig aus der Schweiz.",
   "eyebrow": "Lösung · Raumbeschilderung",
   "h1": "Digitale Raumbeschilderung – Klarheit an jeder Tür.",
   "intro": "Digitale Raumbeschilderung zeigt direkt am Eingang eines Raums, wer ihn nutzt, wann er belegt ist und ob er noch frei ist. Statt gedruckter Türschilder oder leerer Whiteboards ein kleines, immer aktuelles Display. Für Meetingräume in Unternehmen, Hotelräume, Coworking-Flächen oder Klassenzimmer.",
@@ -60,12 +60,30 @@
     }
   ],
   "internalLinks": [
-    { "label": "Digitaler Empfang", "href": "/loesungen/digitaler-empfang" },
-    { "label": "Empfangsdisplays", "href": "/loesungen/empfangsdisplays" },
-    { "label": "Digitale Infostele", "href": "/loesungen/digitale-infostele" },
-    { "label": "Digitale Leitsysteme", "href": "/loesungen/digitale-leitsysteme" },
-    { "label": "Unternehmen", "href": "/branchen/unternehmen" },
-    { "label": "Hotellerie", "href": "/branchen/hotellerie" }
+    {
+      "label": "Digitaler Empfang",
+      "href": "/loesungen/digitaler-empfang"
+    },
+    {
+      "label": "Empfangsdisplays",
+      "href": "/loesungen/empfangsdisplays"
+    },
+    {
+      "label": "Digitale Infostele",
+      "href": "/loesungen/digitale-infostele"
+    },
+    {
+      "label": "Digitale Leitsysteme",
+      "href": "/loesungen/digitale-leitsysteme"
+    },
+    {
+      "label": "Unternehmen",
+      "href": "/branchen/unternehmen"
+    },
+    {
+      "label": "Hotellerie",
+      "href": "/branchen/hotellerie"
+    }
   ],
   "cta": {
     "eyebrow": "Projekt besprechen",
@@ -78,13 +96,28 @@
   },
   "related": {
     "loesungen": [
-      { "label": "Digitaler Empfang", "href": "/loesungen/digitaler-empfang" },
-      { "label": "Digitale Infostele", "href": "/loesungen/digitale-infostele" },
-      { "label": "Digitale Leitsysteme", "href": "/loesungen/digitale-leitsysteme" }
+      {
+        "label": "Digitaler Empfang",
+        "href": "/loesungen/digitaler-empfang"
+      },
+      {
+        "label": "Digitale Infostele",
+        "href": "/loesungen/digitale-infostele"
+      },
+      {
+        "label": "Digitale Leitsysteme",
+        "href": "/loesungen/digitale-leitsysteme"
+      }
     ],
     "branchen": [
-      { "label": "Unternehmen", "href": "/branchen/unternehmen" },
-      { "label": "Hotellerie", "href": "/branchen/hotellerie" }
+      {
+        "label": "Unternehmen",
+        "href": "/branchen/unternehmen"
+      },
+      {
+        "label": "Hotellerie",
+        "href": "/branchen/hotellerie"
+      }
     ]
   }
 }
