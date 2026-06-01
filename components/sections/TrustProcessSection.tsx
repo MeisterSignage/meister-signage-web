@@ -161,7 +161,7 @@ export default function TrustProcessSection() {
           >
             Bereit für moderne digitale Kommunikation?
           </p>
-          <Link href="/kontakt" className="btn-primary gap-2.5">
+          <Link href="/kontakt/" className="btn-primary gap-2.5">
             Beratung anfragen
             <ArrowRight className="h-4 w-4 shrink-0" strokeWidth={2} />
           </Link>

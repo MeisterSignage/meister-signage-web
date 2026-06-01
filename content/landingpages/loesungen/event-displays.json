@@ -57,31 +57,31 @@
   "internalLinks": [
     {
       "label": "Events",
-      "href": "/branchen/events"
+      "href": "/branchen/events/"
     },
     {
       "label": "Digital Signage mieten",
-      "href": "/digital-signage-mieten"
+      "href": "/digital-signage-mieten/"
     },
     {
       "label": "Digital Signage kaufen",
-      "href": "/digital-signage-kaufen"
+      "href": "/digital-signage-kaufen/"
     },
     {
       "label": "Kosten & Preise",
-      "href": "/was-kostet-digital-signage-schweiz"
+      "href": "/was-kostet-digital-signage-schweiz/"
     },
     {
       "label": "Gastronomie",
-      "href": "/branchen/gastronomie"
+      "href": "/branchen/gastronomie/"
     },
     {
       "label": "Digital Signage Zürich",
-      "href": "/staedte/zuerich"
+      "href": "/staedte/zuerich/"
     },
     {
       "label": "Kontakt",
-      "href": "/kontakt"
+      "href": "/kontakt/"
     }
   ],
   "cta": {
@@ -97,31 +97,31 @@
     "loesungen": [
       {
         "label": "Digitale Menüboards",
-        "href": "/loesungen/digitale-menueboards"
+        "href": "/loesungen/digitale-menueboards/"
       },
       {
         "label": "Empfangsdisplays",
-        "href": "/loesungen/empfangsdisplays"
+        "href": "/loesungen/empfangsdisplays/"
       }
     ],
     "branchen": [
       {
         "label": "Gastronomie",
-        "href": "/branchen/gastronomie"
+        "href": "/branchen/gastronomie/"
       },
       {
         "label": "Hotellerie",
-        "href": "/branchen/hotellerie"
+        "href": "/branchen/hotellerie/"
       }
     ],
     "staedte": [
       {
         "label": "Digital Signage Zürich",
-        "href": "/staedte/zuerich"
+        "href": "/staedte/zuerich/"
       },
       {
         "label": "Digital Signage Luzern",
-        "href": "/staedte/luzern"
+        "href": "/staedte/luzern/"
       }
     ]
   }

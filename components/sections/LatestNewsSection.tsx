@@ -33,7 +33,7 @@ export default function LatestNewsSection({
             <p className="mt-2 max-w-md text-[15px] text-cgray">{subtitle}</p>
           </div>
           <Link
-            href="/news"
+            href="/news/"
             className="inline-flex shrink-0 items-center gap-1.5 text-[14px] font-semibold text-magenta transition-colors hover:text-magenta/70"
           >
             Alle Beiträge
@@ -55,7 +55,7 @@ export default function LatestNewsSection({
 function NewsCard({ post }: { post: NewsPost }) {
   return (
     <Link
-      href={`/news/${post.slug}`}
+      href={`/news/${post.slug}/`}
       className="group flex flex-col overflow-hidden rounded-2xl border border-navy/8 bg-white transition-all duration-200 hover:-translate-y-0.5 hover:border-navy/16 hover:shadow-[0_8px_32px_rgba(26,39,68,0.08)]"
     >
       {/* Image */}

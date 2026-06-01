@@ -57,31 +57,31 @@
   "internalLinks": [
     {
       "label": "Events & Messen",
-      "href": "/branchen/events"
+      "href": "/branchen/events/"
     },
     {
       "label": "Hotellerie",
-      "href": "/branchen/hotellerie"
+      "href": "/branchen/hotellerie/"
     },
     {
       "label": "Unternehmen",
-      "href": "/branchen/unternehmen"
+      "href": "/branchen/unternehmen/"
     },
     {
       "label": "Digitaler Empfang",
-      "href": "/loesungen/digitaler-empfang"
+      "href": "/loesungen/digitaler-empfang/"
     },
     {
       "label": "Doppelseitige Displays",
-      "href": "/loesungen/doppelseitige-displays"
+      "href": "/loesungen/doppelseitige-displays/"
     },
     {
       "label": "Software",
-      "href": "/loesungen/software"
+      "href": "/loesungen/software/"
     },
     {
       "label": "Ratgeber: Digitale Leitsysteme",
-      "href": "/wissen/digitale-leitsysteme"
+      "href": "/wissen/digitale-leitsysteme/"
     }
   ],
   "cta": {
@@ -97,29 +97,29 @@
     "branchen": [
       {
         "label": "Events & Messen",
-        "href": "/branchen/events"
+        "href": "/branchen/events/"
       },
       {
         "label": "Hotellerie",
-        "href": "/branchen/hotellerie"
+        "href": "/branchen/hotellerie/"
       },
       {
         "label": "Unternehmen",
-        "href": "/branchen/unternehmen"
+        "href": "/branchen/unternehmen/"
       }
     ],
     "loesungen": [
       {
         "label": "Digitaler Empfang",
-        "href": "/loesungen/digitaler-empfang"
+        "href": "/loesungen/digitaler-empfang/"
       },
       {
         "label": "Doppelseitige Displays",
-        "href": "/loesungen/doppelseitige-displays"
+        "href": "/loesungen/doppelseitige-displays/"
       },
       {
         "label": "Software",
-        "href": "/loesungen/software"
+        "href": "/loesungen/software/"
       }
     ]
   }

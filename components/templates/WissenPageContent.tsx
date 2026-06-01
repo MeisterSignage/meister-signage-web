@@ -177,12 +177,12 @@ export default function WissenPageContent({ page }: { page: WissenPage }) {
               </p>
             )}
             <div className="flex flex-wrap gap-4">
-              <Link href="/kontakt" className="btn-primary gap-2.5">
+              <Link href="/kontakt/" className="btn-primary gap-2.5">
                 Beratung anfragen
                 <ArrowRight className="h-4 w-4 shrink-0" strokeWidth={2} />
               </Link>
               <Link
-                href="/wissen"
+                href="/wissen/"
                 className="inline-flex items-center gap-2.5 rounded-[7px] px-6 py-3.5 text-[15px] font-semibold transition-all duration-200"
                 style={{
                   border: "1px solid rgba(255,255,255,0.14)",
@@ -400,12 +400,12 @@ export default function WissenPageContent({ page }: { page: WissenPage }) {
               Schildern Sie kurz Ihren Einsatz – wir empfehlen die passende Lösung und beantworten alle offenen Fragen.
             </p>
             <div className="mt-2 flex flex-wrap justify-center gap-4">
-              <Link href="/kontakt" className="btn-primary gap-2.5">
+              <Link href="/kontakt/" className="btn-primary gap-2.5">
                 Beratung anfragen
                 <ArrowRight className="h-4 w-4 shrink-0" strokeWidth={2} />
               </Link>
               <Link
-                href="/wissen"
+                href="/wissen/"
                 className="inline-flex items-center gap-2 rounded-[7px] px-6 text-[15px] font-semibold transition-all duration-200"
                 style={{
                   border: "1px solid rgba(255,255,255,0.14)",

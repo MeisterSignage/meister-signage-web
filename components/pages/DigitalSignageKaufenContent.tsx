@@ -297,7 +297,7 @@ export default function DigitalSignageKaufenContent() {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <Link href="/kontakt" className="btn-primary gap-2.5">
+              <Link href="/kontakt/" className="btn-primary gap-2.5">
                 Beratung anfragen
                 <ArrowRight className="h-4 w-4 shrink-0" strokeWidth={2} />
               </Link>
@@ -519,7 +519,7 @@ export default function DigitalSignageKaufenContent() {
                   </div>
                   <p className="mb-5 text-[13px] leading-relaxed text-cgray">{product.desc}</p>
                   <Link
-                    href="/kontakt"
+                    href="/kontakt/"
                     className="mt-auto inline-flex items-center gap-1.5 text-[12px] font-bold uppercase tracking-[0.1em] text-magenta transition-colors duration-150 hover:text-navy"
                   >
                     Anfragen
@@ -652,7 +652,7 @@ export default function DigitalSignageKaufenContent() {
                   {products.map((p) => (
                     <td key={p.model} className="pt-5 text-center">
                       <Link
-                        href="/kontakt"
+                        href="/kontakt/"
                         className="inline-flex items-center gap-1.5 text-[12px] font-bold uppercase tracking-[0.1em] text-magenta transition-colors duration-150 hover:text-navy"
                       >
                         Anfragen
@@ -1150,12 +1150,12 @@ export default function DigitalSignageKaufenContent() {
               Schildern Sie kurz Ihren Einsatz. Wir zeigen Ihnen, welches Modell passt und was die Lösung insgesamt kostet — persönlich, innert 24h.
             </p>
             <div className="mt-2 flex flex-wrap justify-center gap-4">
-              <Link href="/kontakt" className="btn-primary gap-2.5">
+              <Link href="/kontakt/" className="btn-primary gap-2.5">
                 Beratung anfragen
                 <ArrowRight className="h-4 w-4 shrink-0" strokeWidth={2} />
               </Link>
               <Link
-                href="/was-kostet-digital-signage-schweiz"
+                href="/was-kostet-digital-signage-schweiz/"
                 className="inline-flex items-center gap-2 rounded-[7px] px-6 text-[15px] font-semibold transition-all duration-200"
                 style={{
                   border: "1px solid rgba(255,255,255,0.14)",

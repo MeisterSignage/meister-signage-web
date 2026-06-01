@@ -57,19 +57,19 @@
   "internalLinks": [
     {
       "label": "Displays kaufen",
-      "href": "/digital-signage-kaufen"
+      "href": "/digital-signage-kaufen/"
     },
     {
       "label": "Displays mieten",
-      "href": "/digital-signage-mieten"
+      "href": "/digital-signage-mieten/"
     },
     {
       "label": "Indoor Signage",
-      "href": "/loesungen/indoor-signage"
+      "href": "/loesungen/indoor-signage/"
     },
     {
       "label": "Digital Signage Schweiz",
-      "href": "/digital-signage-schweiz"
+      "href": "/digital-signage-schweiz/"
     }
   ],
   "cta": {
@@ -85,31 +85,31 @@
     "loesungen": [
       {
         "label": "Indoor Signage",
-        "href": "/loesungen/indoor-signage"
+        "href": "/loesungen/indoor-signage/"
       },
       {
         "label": "Digitale Menüboards",
-        "href": "/loesungen/digitale-menueboards"
+        "href": "/loesungen/digitale-menueboards/"
       }
     ],
     "branchen": [
       {
         "label": "Retail & Handel",
-        "href": "/branchen/retail"
+        "href": "/branchen/retail/"
       },
       {
         "label": "Events & Messen",
-        "href": "/branchen/events"
+        "href": "/branchen/events/"
       }
     ],
     "staedte": [
       {
         "label": "Digital Signage Zürich",
-        "href": "/staedte/zuerich"
+        "href": "/staedte/zuerich/"
       },
       {
         "label": "Digital Signage Luzern",
-        "href": "/staedte/luzern"
+        "href": "/staedte/luzern/"
       }
     ]
   }

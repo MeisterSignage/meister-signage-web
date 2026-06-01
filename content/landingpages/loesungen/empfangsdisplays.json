@@ -57,31 +57,31 @@
   "internalLinks": [
     {
       "label": "Unternehmen",
-      "href": "/branchen/unternehmen"
+      "href": "/branchen/unternehmen/"
     },
     {
       "label": "Hotellerie",
-      "href": "/branchen/hotellerie"
+      "href": "/branchen/hotellerie/"
     },
     {
       "label": "Digital Signage kaufen",
-      "href": "/digital-signage-kaufen"
+      "href": "/digital-signage-kaufen/"
     },
     {
       "label": "Kosten & Preise",
-      "href": "/was-kostet-digital-signage-schweiz"
+      "href": "/was-kostet-digital-signage-schweiz/"
     },
     {
       "label": "Digitaler Empfang",
-      "href": "/loesungen/digitaler-empfang"
+      "href": "/loesungen/digitaler-empfang/"
     },
     {
       "label": "Digital Signage Zug",
-      "href": "/staedte/zug"
+      "href": "/staedte/zug/"
     },
     {
       "label": "Kontakt",
-      "href": "/kontakt"
+      "href": "/kontakt/"
     }
   ],
   "cta": {
@@ -97,31 +97,31 @@
     "loesungen": [
       {
         "label": "Digitale Menüboards",
-        "href": "/loesungen/digitale-menueboards"
+        "href": "/loesungen/digitale-menueboards/"
       },
       {
         "label": "Event-Displays",
-        "href": "/loesungen/event-displays"
+        "href": "/loesungen/event-displays/"
       }
     ],
     "branchen": [
       {
         "label": "Hotellerie",
-        "href": "/branchen/hotellerie"
+        "href": "/branchen/hotellerie/"
       },
       {
         "label": "Retail",
-        "href": "/branchen/retail"
+        "href": "/branchen/retail/"
       }
     ],
     "staedte": [
       {
         "label": "Digital Signage Zug",
-        "href": "/staedte/zug"
+        "href": "/staedte/zug/"
       },
       {
         "label": "Digital Signage Zürich",
-        "href": "/staedte/zuerich"
+        "href": "/staedte/zuerich/"
       }
     ]
   }

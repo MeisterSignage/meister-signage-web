@@ -57,27 +57,27 @@
   "internalLinks": [
     {
       "label": "Hotellerie",
-      "href": "/branchen/hotellerie"
+      "href": "/branchen/hotellerie/"
     },
     {
       "label": "Unternehmen",
-      "href": "/branchen/unternehmen"
+      "href": "/branchen/unternehmen/"
     },
     {
       "label": "Retail & Handel",
-      "href": "/branchen/retail"
+      "href": "/branchen/retail/"
     },
     {
       "label": "Digitaler Empfang",
-      "href": "/loesungen/digitaler-empfang"
+      "href": "/loesungen/digitaler-empfang/"
     },
     {
       "label": "Digitale Leitsysteme",
-      "href": "/loesungen/digitale-leitsysteme"
+      "href": "/loesungen/digitale-leitsysteme/"
     },
     {
       "label": "Software",
-      "href": "/loesungen/software"
+      "href": "/loesungen/software/"
     }
   ],
   "cta": {
@@ -93,29 +93,29 @@
     "branchen": [
       {
         "label": "Hotellerie",
-        "href": "/branchen/hotellerie"
+        "href": "/branchen/hotellerie/"
       },
       {
         "label": "Unternehmen",
-        "href": "/branchen/unternehmen"
+        "href": "/branchen/unternehmen/"
       },
       {
         "label": "Retail & Handel",
-        "href": "/branchen/retail"
+        "href": "/branchen/retail/"
       }
     ],
     "loesungen": [
       {
         "label": "Digitaler Empfang",
-        "href": "/loesungen/digitaler-empfang"
+        "href": "/loesungen/digitaler-empfang/"
       },
       {
         "label": "Digitale Leitsysteme",
-        "href": "/loesungen/digitale-leitsysteme"
+        "href": "/loesungen/digitale-leitsysteme/"
       },
       {
         "label": "Software",
-        "href": "/loesungen/software"
+        "href": "/loesungen/software/"
       }
     ]
   }

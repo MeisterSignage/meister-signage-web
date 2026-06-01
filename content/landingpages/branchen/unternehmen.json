@@ -57,27 +57,27 @@
   "internalLinks": [
     {
       "label": "Empfangsdisplays",
-      "href": "/loesungen/empfangsdisplays"
+      "href": "/loesungen/empfangsdisplays/"
     },
     {
       "label": "Indoor Signage",
-      "href": "/loesungen/indoor-signage"
+      "href": "/loesungen/indoor-signage/"
     },
     {
       "label": "Digital Signage Schweiz",
-      "href": "/digital-signage-schweiz"
+      "href": "/digital-signage-schweiz/"
     },
     {
       "label": "Kosten & Preise",
-      "href": "/was-kostet-digital-signage-schweiz"
+      "href": "/was-kostet-digital-signage-schweiz/"
     },
     {
       "label": "Ratgeber: Digitale Leitsysteme",
-      "href": "/wissen/digitale-leitsysteme"
+      "href": "/wissen/digitale-leitsysteme/"
     },
     {
       "label": "Ratgeber: Digital Signage Software",
-      "href": "/wissen/digital-signage-software"
+      "href": "/wissen/digital-signage-software/"
     }
   ],
   "cta": {
@@ -93,31 +93,31 @@
     "loesungen": [
       {
         "label": "Empfangsdisplays",
-        "href": "/loesungen/empfangsdisplays"
+        "href": "/loesungen/empfangsdisplays/"
       },
       {
         "label": "Indoor Signage",
-        "href": "/loesungen/indoor-signage"
+        "href": "/loesungen/indoor-signage/"
       }
     ],
     "branchen": [
       {
         "label": "Hotellerie",
-        "href": "/branchen/hotellerie"
+        "href": "/branchen/hotellerie/"
       },
       {
         "label": "Events & Messen",
-        "href": "/branchen/events"
+        "href": "/branchen/events/"
       }
     ],
     "staedte": [
       {
         "label": "Digital Signage Zürich",
-        "href": "/staedte/zuerich"
+        "href": "/staedte/zuerich/"
       },
       {
         "label": "Digital Signage Luzern",
-        "href": "/staedte/luzern"
+        "href": "/staedte/luzern/"
       }
     ]
   }

@@ -327,7 +327,7 @@ export default function DigitalSignageMietenContent() {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <Link href="/kontakt" className="btn-primary gap-2.5" id="pakete">
+              <Link href="/kontakt/" className="btn-primary gap-2.5" id="pakete">
                 Beratung anfragen
                 <ArrowRight className="h-4 w-4 shrink-0" strokeWidth={2} />
               </Link>
@@ -533,7 +533,7 @@ export default function DigitalSignageMietenContent() {
                     )}
                   </ul>
                   <Link
-                    href="/kontakt"
+                    href="/kontakt/"
                     className="mt-auto inline-flex items-center gap-1.5 text-[12px] font-bold uppercase tracking-[0.1em] text-magenta transition-colors duration-150 hover:text-navy"
                   >
                     Anfragen
@@ -711,7 +711,7 @@ export default function DigitalSignageMietenContent() {
               </p>
             </div>
             <Link
-              href="/kontakt"
+              href="/kontakt/"
               className="btn-primary mt-4 inline-flex shrink-0 items-center gap-2 sm:mt-0"
             >
               Mietanfrage senden
@@ -1212,12 +1212,12 @@ export default function DigitalSignageMietenContent() {
               Schildern Sie kurz Ihren Einsatz. Wir zeigen Ihnen das passende Paket und was es kostet — persönlich, innert 24h.
             </p>
             <div className="mt-2 flex flex-wrap justify-center gap-4">
-              <Link href="/kontakt" className="btn-primary gap-2.5">
+              <Link href="/kontakt/" className="btn-primary gap-2.5">
                 Beratung anfragen
                 <ArrowRight className="h-4 w-4 shrink-0" strokeWidth={2} />
               </Link>
               <Link
-                href="/digital-signage-kaufen"
+                href="/digital-signage-kaufen/"
                 className="inline-flex items-center gap-2 rounded-[7px] px-6 text-[15px] font-semibold transition-all duration-200"
                 style={{
                   border: "1px solid rgba(255,255,255,0.14)",

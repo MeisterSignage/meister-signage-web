@@ -57,35 +57,35 @@
   "internalLinks": [
     {
       "label": "Gastronomie",
-      "href": "/branchen/gastronomie"
+      "href": "/branchen/gastronomie/"
     },
     {
       "label": "Retail & Handel",
-      "href": "/branchen/retail"
+      "href": "/branchen/retail/"
     },
     {
       "label": "Digital Signage kaufen",
-      "href": "/digital-signage-kaufen"
+      "href": "/digital-signage-kaufen/"
     },
     {
       "label": "Digital Signage mieten",
-      "href": "/digital-signage-mieten"
+      "href": "/digital-signage-mieten/"
     },
     {
       "label": "Kosten & Preise",
-      "href": "/was-kostet-digital-signage-schweiz"
+      "href": "/was-kostet-digital-signage-schweiz/"
     },
     {
       "label": "Software",
-      "href": "/loesungen/software"
+      "href": "/loesungen/software/"
     },
     {
       "label": "Kontakt",
-      "href": "/kontakt"
+      "href": "/kontakt/"
     },
     {
       "label": "Ratgeber: Digitale Menüboards",
-      "href": "/wissen/digitale-menueboards"
+      "href": "/wissen/digitale-menueboards/"
     }
   ],
   "cta": {
@@ -101,31 +101,31 @@
     "loesungen": [
       {
         "label": "Empfangsdisplays",
-        "href": "/loesungen/empfangsdisplays"
+        "href": "/loesungen/empfangsdisplays/"
       },
       {
         "label": "Event-Displays",
-        "href": "/loesungen/event-displays"
+        "href": "/loesungen/event-displays/"
       }
     ],
     "branchen": [
       {
         "label": "Gastronomie",
-        "href": "/branchen/gastronomie"
+        "href": "/branchen/gastronomie/"
       },
       {
         "label": "Hotellerie",
-        "href": "/branchen/hotellerie"
+        "href": "/branchen/hotellerie/"
       }
     ],
     "staedte": [
       {
         "label": "Digital Signage Luzern",
-        "href": "/staedte/luzern"
+        "href": "/staedte/luzern/"
       },
       {
         "label": "Digital Signage Zürich",
-        "href": "/staedte/zuerich"
+        "href": "/staedte/zuerich/"
       }
     ]
   }

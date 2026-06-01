@@ -62,39 +62,39 @@
   "internalLinks": [
     {
       "label": "Indoor Signage",
-      "href": "/loesungen/indoor-signage"
+      "href": "/loesungen/indoor-signage/"
     },
     {
       "label": "Digitale Menüboards",
-      "href": "/loesungen/digitale-menueboards"
+      "href": "/loesungen/digitale-menueboards/"
     },
     {
       "label": "Digitale Kundenstopper",
-      "href": "/loesungen/digitale-kundenstopper"
+      "href": "/loesungen/digitale-kundenstopper/"
     },
     {
       "label": "Digitale Schaufensterwerbung",
-      "href": "/loesungen/digitale-schaufensterwerbung"
+      "href": "/loesungen/digitale-schaufensterwerbung/"
     },
     {
       "label": "LED Walls & Videowall",
-      "href": "/loesungen/led-walls"
+      "href": "/loesungen/led-walls/"
     },
     {
       "label": "Digital Signage kaufen",
-      "href": "/digital-signage-kaufen"
+      "href": "/digital-signage-kaufen/"
     },
     {
       "label": "Digital Signage mieten",
-      "href": "/digital-signage-mieten"
+      "href": "/digital-signage-mieten/"
     },
     {
       "label": "Retail & Handel",
-      "href": "/branchen/retail"
+      "href": "/branchen/retail/"
     },
     {
       "label": "Gastronomie",
-      "href": "/branchen/gastronomie"
+      "href": "/branchen/gastronomie/"
     }
   ],
   "cta": {
@@ -110,29 +110,29 @@
     "loesungen": [
       {
         "label": "Indoor Signage",
-        "href": "/loesungen/indoor-signage"
+        "href": "/loesungen/indoor-signage/"
       },
       {
         "label": "Digitale Menüboards",
-        "href": "/loesungen/digitale-menueboards"
+        "href": "/loesungen/digitale-menueboards/"
       },
       {
         "label": "LED Walls & Videowall",
-        "href": "/loesungen/led-walls"
+        "href": "/loesungen/led-walls/"
       }
     ],
     "branchen": [
       {
         "label": "Retail & Handel",
-        "href": "/branchen/retail"
+        "href": "/branchen/retail/"
       },
       {
         "label": "Gastronomie",
-        "href": "/branchen/gastronomie"
+        "href": "/branchen/gastronomie/"
       },
       {
         "label": "Hotellerie",
-        "href": "/branchen/hotellerie"
+        "href": "/branchen/hotellerie/"
       }
     ]
   }

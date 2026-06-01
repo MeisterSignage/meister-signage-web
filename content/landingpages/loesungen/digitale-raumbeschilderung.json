@@ -62,27 +62,27 @@
   "internalLinks": [
     {
       "label": "Digitaler Empfang",
-      "href": "/loesungen/digitaler-empfang"
+      "href": "/loesungen/digitaler-empfang/"
     },
     {
       "label": "Empfangsdisplays",
-      "href": "/loesungen/empfangsdisplays"
+      "href": "/loesungen/empfangsdisplays/"
     },
     {
       "label": "Digitale Infostele",
-      "href": "/loesungen/digitale-infostele"
+      "href": "/loesungen/digitale-infostele/"
     },
     {
       "label": "Digitale Leitsysteme",
-      "href": "/loesungen/digitale-leitsysteme"
+      "href": "/loesungen/digitale-leitsysteme/"
     },
     {
       "label": "Unternehmen",
-      "href": "/branchen/unternehmen"
+      "href": "/branchen/unternehmen/"
     },
     {
       "label": "Hotellerie",
-      "href": "/branchen/hotellerie"
+      "href": "/branchen/hotellerie/"
     }
   ],
   "cta": {
@@ -98,25 +98,25 @@
     "loesungen": [
       {
         "label": "Digitaler Empfang",
-        "href": "/loesungen/digitaler-empfang"
+        "href": "/loesungen/digitaler-empfang/"
       },
       {
         "label": "Digitale Infostele",
-        "href": "/loesungen/digitale-infostele"
+        "href": "/loesungen/digitale-infostele/"
       },
       {
         "label": "Digitale Leitsysteme",
-        "href": "/loesungen/digitale-leitsysteme"
+        "href": "/loesungen/digitale-leitsysteme/"
       }
     ],
     "branchen": [
       {
         "label": "Unternehmen",
-        "href": "/branchen/unternehmen"
+        "href": "/branchen/unternehmen/"
       },
       {
         "label": "Hotellerie",
-        "href": "/branchen/hotellerie"
+        "href": "/branchen/hotellerie/"
       }
     ]
   }

@@ -1,37 +1,106 @@
 {
   "loesungen": [
-    { "label": "Alle Lösungen",     "href": "/loesungen" },
-    { "label": "Displays kaufen",   "href": "/digital-signage-kaufen" },
-    { "label": "Displays mieten",   "href": "/digital-signage-mieten" },
-    { "label": "LED Walls",         "href": "/loesungen/led-walls" },
-    { "label": "Menüboards",        "href": "/loesungen/digitale-menueboards" },
-    { "label": "Software",          "href": "/loesungen/software" }
+    {
+      "label": "Alle Lösungen",
+      "href": "/loesungen/"
+    },
+    {
+      "label": "Displays kaufen",
+      "href": "/digital-signage-kaufen/"
+    },
+    {
+      "label": "Displays mieten",
+      "href": "/digital-signage-mieten/"
+    },
+    {
+      "label": "LED Walls",
+      "href": "/loesungen/led-walls/"
+    },
+    {
+      "label": "Menüboards",
+      "href": "/loesungen/digitale-menueboards/"
+    },
+    {
+      "label": "Software",
+      "href": "/loesungen/software/"
+    }
   ],
   "branchen": [
-    { "label": "Alle Branchen",     "href": "/branchen" },
-    { "label": "Gastronomie",       "href": "/branchen/gastronomie" },
-    { "label": "Retail & Handel",   "href": "/branchen/retail" },
-    { "label": "Events",            "href": "/branchen/events" },
-    { "label": "Hotellerie",        "href": "/branchen/hotellerie" },
-    { "label": "Unternehmen",       "href": "/branchen/unternehmen" }
+    {
+      "label": "Alle Branchen",
+      "href": "/branchen/"
+    },
+    {
+      "label": "Gastronomie",
+      "href": "/branchen/gastronomie/"
+    },
+    {
+      "label": "Retail & Handel",
+      "href": "/branchen/retail/"
+    },
+    {
+      "label": "Events",
+      "href": "/branchen/events/"
+    },
+    {
+      "label": "Hotellerie",
+      "href": "/branchen/hotellerie/"
+    },
+    {
+      "label": "Unternehmen",
+      "href": "/branchen/unternehmen/"
+    }
   ],
   "unternehmen": [
-    { "label": "Über uns",            "href": "/ueber-uns" },
-    { "label": "Wissen & Ratgeber",   "href": "/wissen" },
-    { "label": "Kosten & Preise",     "href": "/was-kostet-digital-signage-schweiz" },
-    { "label": "Anbieter-Vergleich",  "href": "/digital-signage-anbieter-vergleich" },
-    { "label": "News & Blog",         "href": "/news" },
-    { "label": "Kontakt",             "href": "/kontakt" }
+    {
+      "label": "Über uns",
+      "href": "/ueber-uns/"
+    },
+    {
+      "label": "Wissen & Ratgeber",
+      "href": "/wissen/"
+    },
+    {
+      "label": "Kosten & Preise",
+      "href": "/was-kostet-digital-signage-schweiz/"
+    },
+    {
+      "label": "Anbieter-Vergleich",
+      "href": "/digital-signage-anbieter-vergleich/"
+    },
+    {
+      "label": "News & Blog",
+      "href": "/news/"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/kontakt/"
+    }
   ],
   "standorte": [
-    { "label": "Luzern",            "href": "/staedte/luzern" },
-    { "label": "Zürich",            "href": "/staedte/zuerich" },
-    { "label": "Zug",               "href": "/staedte/zug" },
-    { "label": "Bern",              "href": "/staedte/bern" },
-    { "label": "Basel",             "href": "/staedte/basel" }
+    {
+      "label": "Luzern",
+      "href": "/staedte/luzern/"
+    },
+    {
+      "label": "Zürich",
+      "href": "/staedte/zuerich/"
+    },
+    {
+      "label": "Zug",
+      "href": "/staedte/zug/"
+    },
+    {
+      "label": "Bern",
+      "href": "/staedte/bern/"
+    },
+    {
+      "label": "Basel",
+      "href": "/staedte/basel/"
+    }
   ],
   "socials": {
-    "linkedin":  "https://www.linkedin.com/company/meister-signage/posts/?feedView=all&viewAsMember=true",
+    "linkedin": "https://www.linkedin.com/company/meister-signage/posts/?feedView=all&viewAsMember=true",
     "instagram": "https://www.instagram.com/meistersignage/"
   }
 }

@@ -65,35 +65,35 @@
   "internalLinks": [
     {
       "label": "Digital Signage Schweiz",
-      "href": "/digital-signage-schweiz"
+      "href": "/digital-signage-schweiz/"
     },
     {
       "label": "Empfangsdisplays",
-      "href": "/loesungen/empfangsdisplays"
+      "href": "/loesungen/empfangsdisplays/"
     },
     {
       "label": "Display in Zug kaufen",
-      "href": "/digital-signage-kaufen"
+      "href": "/digital-signage-kaufen/"
     },
     {
       "label": "Display in Zug mieten",
-      "href": "/digital-signage-mieten"
+      "href": "/digital-signage-mieten/"
     },
     {
       "label": "Kosten & Preise",
-      "href": "/was-kostet-digital-signage-schweiz"
+      "href": "/was-kostet-digital-signage-schweiz/"
     },
     {
       "label": "Digital Signage Luzern",
-      "href": "/staedte/luzern"
+      "href": "/staedte/luzern/"
     },
     {
       "label": "Digital Signage Zürich",
-      "href": "/staedte/zuerich"
+      "href": "/staedte/zuerich/"
     },
     {
       "label": "Kontakt",
-      "href": "/kontakt"
+      "href": "/kontakt/"
     }
   ],
   "cta": {
@@ -109,35 +109,35 @@
     "staedte": [
       {
         "label": "Digital Signage Luzern",
-        "href": "/staedte/luzern"
+        "href": "/staedte/luzern/"
       },
       {
         "label": "Digital Signage Zürich",
-        "href": "/staedte/zuerich"
+        "href": "/staedte/zuerich/"
       }
     ],
     "branchen": [
       {
         "label": "Unternehmen",
-        "href": "/branchen/unternehmen"
+        "href": "/branchen/unternehmen/"
       },
       {
         "label": "Gastronomie",
-        "href": "/branchen/gastronomie"
+        "href": "/branchen/gastronomie/"
       },
       {
         "label": "Events",
-        "href": "/branchen/events"
+        "href": "/branchen/events/"
       }
     ],
     "loesungen": [
       {
         "label": "Empfangsdisplays",
-        "href": "/loesungen/empfangsdisplays"
+        "href": "/loesungen/empfangsdisplays/"
       },
       {
         "label": "Event-Displays",
-        "href": "/loesungen/event-displays"
+        "href": "/loesungen/event-displays/"
       }
     ]
   }

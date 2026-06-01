@@ -25,7 +25,7 @@ export default function DatenschutzPage() {
           <p className="text-sm text-cgray">Stand: Mai 2026</p>
           <p className="mt-4 text-sm text-cgray">
             Weitere rechtliche Informationen finden Sie im{" "}
-            <Link href="/impressum" className="text-magenta underline underline-offset-2">
+            <Link href="/impressum/" className="text-magenta underline underline-offset-2">
               Impressum
             </Link>
             .
@@ -335,7 +335,7 @@ export default function DatenschutzPage() {
         <div className="mt-8 border-t border-navy/10 pt-6">
           <p className="text-sm text-cgray">
             Weitere rechtliche Informationen:{" "}
-            <Link href="/impressum" className="text-magenta hover:underline">
+            <Link href="/impressum/" className="text-magenta hover:underline">
               Impressum
             </Link>
           </p>

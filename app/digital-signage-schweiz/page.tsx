@@ -241,12 +241,12 @@ export default function DigitalSignageSchweizPage() {
             </ul>
 
             <div className="flex flex-wrap gap-4">
-              <Link href="/kontakt" className="btn-primary gap-2.5">
+              <Link href="/kontakt/" className="btn-primary gap-2.5">
                 Beratung anfragen
                 <ArrowRight className="h-4 w-4 shrink-0" strokeWidth={2} />
               </Link>
               <Link
-                href="/loesungen"
+                href="/loesungen/"
                 className="inline-flex items-center gap-2.5 rounded-[7px] px-6 py-3.5 text-[15px] font-semibold transition-all duration-200 hover:border-white/30 hover:text-white"
                 style={{
                   border: "1px solid rgba(255,255,255,0.14)",

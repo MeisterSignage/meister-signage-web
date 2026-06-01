@@ -563,12 +563,12 @@ export default function AnbieterVergleichPage() {
         </div>
 
         <div className="mt-10 flex flex-wrap gap-4">
-          <Link href="/digital-signage-kaufen" className="btn-primary gap-2.5">
+          <Link href="/digital-signage-kaufen/" className="btn-primary gap-2.5">
             Displays kaufen ansehen
             <ArrowRight className="h-4 w-4" strokeWidth={2} />
           </Link>
           <Link
-            href="/digital-signage-mieten"
+            href="/digital-signage-mieten/"
             className="inline-flex items-center gap-2.5 rounded-[7px] border border-navy/15 px-6 py-3.5 text-[15px] font-semibold text-navy hover:border-navy/30"
           >
             Mietangebot ansehen

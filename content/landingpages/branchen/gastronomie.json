@@ -57,39 +57,39 @@
   "internalLinks": [
     {
       "label": "Digital Signage Schweiz",
-      "href": "/digital-signage-schweiz"
+      "href": "/digital-signage-schweiz/"
     },
     {
       "label": "Digitales Menüeboard",
-      "href": "/digitales-menueboard"
+      "href": "/digitales-menueboard/"
     },
     {
       "label": "Digital Signage kaufen",
-      "href": "/digital-signage-kaufen"
+      "href": "/digital-signage-kaufen/"
     },
     {
       "label": "Digital Signage mieten",
-      "href": "/digital-signage-mieten"
+      "href": "/digital-signage-mieten/"
     },
     {
       "label": "Kosten & Preise",
-      "href": "/was-kostet-digital-signage-schweiz"
+      "href": "/was-kostet-digital-signage-schweiz/"
     },
     {
       "label": "Hotellerie",
-      "href": "/branchen/hotellerie"
+      "href": "/branchen/hotellerie/"
     },
     {
       "label": "Retail & Handel",
-      "href": "/branchen/retail"
+      "href": "/branchen/retail/"
     },
     {
       "label": "Kontakt",
-      "href": "/kontakt"
+      "href": "/kontakt/"
     },
     {
       "label": "Ratgeber: Digitale Menüboards",
-      "href": "/wissen/digitale-menueboards"
+      "href": "/wissen/digitale-menueboards/"
     }
   ],
   "cta": {
@@ -105,31 +105,31 @@
     "branchen": [
       {
         "label": "Hotellerie",
-        "href": "/branchen/hotellerie"
+        "href": "/branchen/hotellerie/"
       },
       {
         "label": "Retail & Handel",
-        "href": "/branchen/retail"
+        "href": "/branchen/retail/"
       }
     ],
     "loesungen": [
       {
         "label": "Digitale Menüboards",
-        "href": "/loesungen/digitale-menueboards"
+        "href": "/loesungen/digitale-menueboards/"
       },
       {
         "label": "Event-Displays",
-        "href": "/loesungen/event-displays"
+        "href": "/loesungen/event-displays/"
       }
     ],
     "staedte": [
       {
         "label": "Digital Signage Luzern",
-        "href": "/staedte/luzern"
+        "href": "/staedte/luzern/"
       },
       {
         "label": "Digital Signage Zürich",
-        "href": "/staedte/zuerich"
+        "href": "/staedte/zuerich/"
       }
     ]
   }

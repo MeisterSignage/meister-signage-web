@@ -57,19 +57,19 @@
   "internalLinks": [
     {
       "label": "Displays kaufen",
-      "href": "/digital-signage-kaufen"
+      "href": "/digital-signage-kaufen/"
     },
     {
       "label": "Digitale Menüboards",
-      "href": "/loesungen/digitale-menueboards"
+      "href": "/loesungen/digitale-menueboards/"
     },
     {
       "label": "Empfangsdisplays",
-      "href": "/loesungen/empfangsdisplays"
+      "href": "/loesungen/empfangsdisplays/"
     },
     {
       "label": "Digital Signage Schweiz",
-      "href": "/digital-signage-schweiz"
+      "href": "/digital-signage-schweiz/"
     }
   ],
   "cta": {
@@ -85,39 +85,39 @@
     "loesungen": [
       {
         "label": "LED Walls",
-        "href": "/loesungen/led-walls"
+        "href": "/loesungen/led-walls/"
       },
       {
         "label": "Digitale Menüboards",
-        "href": "/loesungen/digitale-menueboards"
+        "href": "/loesungen/digitale-menueboards/"
       },
       {
         "label": "Empfangsdisplays",
-        "href": "/loesungen/empfangsdisplays"
+        "href": "/loesungen/empfangsdisplays/"
       }
     ],
     "branchen": [
       {
         "label": "Gastronomie",
-        "href": "/branchen/gastronomie"
+        "href": "/branchen/gastronomie/"
       },
       {
         "label": "Unternehmen",
-        "href": "/branchen/unternehmen"
+        "href": "/branchen/unternehmen/"
       },
       {
         "label": "Retail & Handel",
-        "href": "/branchen/retail"
+        "href": "/branchen/retail/"
       }
     ],
     "staedte": [
       {
         "label": "Digital Signage Zürich",
-        "href": "/staedte/zuerich"
+        "href": "/staedte/zuerich/"
       },
       {
         "label": "Digital Signage Luzern",
-        "href": "/staedte/luzern"
+        "href": "/staedte/luzern/"
       }
     ]
   }

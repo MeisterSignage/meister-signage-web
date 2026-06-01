@@ -59,7 +59,7 @@ export default function SoftwareTeaserSection() {
 
         <div className="mt-12 flex justify-center">
           <Link
-            href="/loesungen/software"
+            href="/loesungen/software/"
             className="inline-flex items-center gap-2 rounded-[7px] border border-navy/15 bg-white px-6 py-3 text-[14px] font-semibold text-navy transition-all duration-150 hover:border-magenta/40 hover:text-magenta"
           >
             Software entdecken

@@ -62,31 +62,31 @@
   "internalLinks": [
     {
       "label": "Digitales Werbedisplay",
-      "href": "/loesungen/digitales-werbedisplay"
+      "href": "/loesungen/digitales-werbedisplay/"
     },
     {
       "label": "Digitale Kundenstopper",
-      "href": "/loesungen/digitale-kundenstopper"
+      "href": "/loesungen/digitale-kundenstopper/"
     },
     {
       "label": "LED Walls & Videowall",
-      "href": "/loesungen/led-walls"
+      "href": "/loesungen/led-walls/"
     },
     {
       "label": "Doppelseitige Displays",
-      "href": "/loesungen/doppelseitige-displays"
+      "href": "/loesungen/doppelseitige-displays/"
     },
     {
       "label": "Retail & Handel",
-      "href": "/branchen/retail"
+      "href": "/branchen/retail/"
     },
     {
       "label": "Digital Signage kaufen",
-      "href": "/digital-signage-kaufen"
+      "href": "/digital-signage-kaufen/"
     },
     {
       "label": "Digital Signage mieten",
-      "href": "/digital-signage-mieten"
+      "href": "/digital-signage-mieten/"
     }
   ],
   "cta": {
@@ -102,25 +102,25 @@
     "loesungen": [
       {
         "label": "Digitales Werbedisplay",
-        "href": "/loesungen/digitales-werbedisplay"
+        "href": "/loesungen/digitales-werbedisplay/"
       },
       {
         "label": "Digitale Kundenstopper",
-        "href": "/loesungen/digitale-kundenstopper"
+        "href": "/loesungen/digitale-kundenstopper/"
       },
       {
         "label": "LED Walls & Videowall",
-        "href": "/loesungen/led-walls"
+        "href": "/loesungen/led-walls/"
       }
     ],
     "branchen": [
       {
         "label": "Retail & Handel",
-        "href": "/branchen/retail"
+        "href": "/branchen/retail/"
       },
       {
         "label": "Gastronomie",
-        "href": "/branchen/gastronomie"
+        "href": "/branchen/gastronomie/"
       }
     ]
   }

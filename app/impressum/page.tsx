@@ -21,7 +21,7 @@ export default function ImpressumPage() {
           <p className="text-sm text-cgray">Stand: Mai 2026</p>
           <p className="mt-4 text-sm text-cgray">
             Informationen zur Datenverarbeitung finden Sie in der{" "}
-            <Link href="/datenschutz" className="text-magenta underline underline-offset-2">
+            <Link href="/datenschutz/" className="text-magenta underline underline-offset-2">
               Datenschutzerklärung
             </Link>
             .
@@ -124,7 +124,7 @@ export default function ImpressumPage() {
         <div className="mt-8 border-t border-navy/10 pt-6">
           <p className="text-sm text-cgray">
             Weitere rechtliche Informationen:{" "}
-            <Link href="/datenschutz" className="text-magenta hover:underline">
+            <Link href="/datenschutz/" className="text-magenta hover:underline">
               Datenschutzerklärung
             </Link>
           </p>

@@ -66,35 +66,35 @@
   "internalLinks": [
     {
       "label": "Digitale Schaufensterwerbung",
-      "href": "/loesungen/digitale-schaufensterwerbung"
+      "href": "/loesungen/digitale-schaufensterwerbung/"
     },
     {
       "label": "Digitales Werbedisplay",
-      "href": "/loesungen/digitales-werbedisplay"
+      "href": "/loesungen/digitales-werbedisplay/"
     },
     {
       "label": "Digitale Kundenstopper",
-      "href": "/loesungen/digitale-kundenstopper"
+      "href": "/loesungen/digitale-kundenstopper/"
     },
     {
       "label": "LED Walls & Videowall",
-      "href": "/loesungen/led-walls"
+      "href": "/loesungen/led-walls/"
     },
     {
       "label": "Digital Signage kaufen",
-      "href": "/digital-signage-kaufen"
+      "href": "/digital-signage-kaufen/"
     },
     {
       "label": "Digital Signage mieten",
-      "href": "/digital-signage-mieten"
+      "href": "/digital-signage-mieten/"
     },
     {
       "label": "Anbieter im Vergleich",
-      "href": "/digital-signage-anbieter-vergleich"
+      "href": "/digital-signage-anbieter-vergleich/"
     },
     {
       "label": "Retail & Handel",
-      "href": "/branchen/retail"
+      "href": "/branchen/retail/"
     }
   ],
   "cta": {
@@ -110,25 +110,25 @@
     "loesungen": [
       {
         "label": "Digitale Schaufensterwerbung",
-        "href": "/loesungen/digitale-schaufensterwerbung"
+        "href": "/loesungen/digitale-schaufensterwerbung/"
       },
       {
         "label": "Digitales Werbedisplay",
-        "href": "/loesungen/digitales-werbedisplay"
+        "href": "/loesungen/digitales-werbedisplay/"
       },
       {
         "label": "LED Walls & Videowall",
-        "href": "/loesungen/led-walls"
+        "href": "/loesungen/led-walls/"
       }
     ],
     "branchen": [
       {
         "label": "Retail & Handel",
-        "href": "/branchen/retail"
+        "href": "/branchen/retail/"
       },
       {
         "label": "Gastronomie",
-        "href": "/branchen/gastronomie"
+        "href": "/branchen/gastronomie/"
       }
     ]
   }

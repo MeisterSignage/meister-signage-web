@@ -155,7 +155,7 @@ export default function MiniCaseStudies() {
             Welche Lösung passt zu Ihrem Betrieb? Wir beraten Sie kostenlos.
           </p>
           <Link
-            href="/kontakt"
+            href="/kontakt/"
             className="inline-flex shrink-0 items-center gap-2 rounded-[7px] bg-navy px-5 py-3 text-[14px] font-semibold text-white transition-all duration-200 hover:bg-navy/85 hover:-translate-y-px"
           >
             Unverbindlich anfragen

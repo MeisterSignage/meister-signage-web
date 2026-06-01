@@ -70,39 +70,39 @@
   "internalLinks": [
     {
       "label": "Mobile Displays",
-      "href": "/loesungen/mobile-displays"
+      "href": "/loesungen/mobile-displays/"
     },
     {
       "label": "Doppelseitige Displays",
-      "href": "/loesungen/doppelseitige-displays"
+      "href": "/loesungen/doppelseitige-displays/"
     },
     {
       "label": "Digitale Schaufensterwerbung",
-      "href": "/loesungen/digitale-schaufensterwerbung"
+      "href": "/loesungen/digitale-schaufensterwerbung/"
     },
     {
       "label": "Digitales Werbedisplay",
-      "href": "/loesungen/digitales-werbedisplay"
+      "href": "/loesungen/digitales-werbedisplay/"
     },
     {
       "label": "Digital Signage kaufen",
-      "href": "/digital-signage-kaufen"
+      "href": "/digital-signage-kaufen/"
     },
     {
       "label": "Digital Signage mieten",
-      "href": "/digital-signage-mieten"
+      "href": "/digital-signage-mieten/"
     },
     {
       "label": "Kosten & Preise",
-      "href": "/was-kostet-digital-signage-schweiz"
+      "href": "/was-kostet-digital-signage-schweiz/"
     },
     {
       "label": "Retail & Handel",
-      "href": "/branchen/retail"
+      "href": "/branchen/retail/"
     },
     {
       "label": "Gastronomie",
-      "href": "/branchen/gastronomie"
+      "href": "/branchen/gastronomie/"
     }
   ],
   "cta": {
@@ -118,25 +118,25 @@
     "loesungen": [
       {
         "label": "Mobile Displays",
-        "href": "/loesungen/mobile-displays"
+        "href": "/loesungen/mobile-displays/"
       },
       {
         "label": "Doppelseitige Displays",
-        "href": "/loesungen/doppelseitige-displays"
+        "href": "/loesungen/doppelseitige-displays/"
       },
       {
         "label": "Digitale Schaufensterwerbung",
-        "href": "/loesungen/digitale-schaufensterwerbung"
+        "href": "/loesungen/digitale-schaufensterwerbung/"
       }
     ],
     "branchen": [
       {
         "label": "Retail & Handel",
-        "href": "/branchen/retail"
+        "href": "/branchen/retail/"
       },
       {
         "label": "Gastronomie",
-        "href": "/branchen/gastronomie"
+        "href": "/branchen/gastronomie/"
       }
     ]
   }

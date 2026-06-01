@@ -57,35 +57,35 @@
   "internalLinks": [
     {
       "label": "Digital Signage Schweiz",
-      "href": "/digital-signage-schweiz"
+      "href": "/digital-signage-schweiz/"
     },
     {
       "label": "Digital Signage kaufen",
-      "href": "/digital-signage-kaufen"
+      "href": "/digital-signage-kaufen/"
     },
     {
       "label": "Digital Signage mieten",
-      "href": "/digital-signage-mieten"
+      "href": "/digital-signage-mieten/"
     },
     {
       "label": "Kosten & Preise",
-      "href": "/was-kostet-digital-signage-schweiz"
+      "href": "/was-kostet-digital-signage-schweiz/"
     },
     {
       "label": "Gastronomie",
-      "href": "/branchen/gastronomie"
+      "href": "/branchen/gastronomie/"
     },
     {
       "label": "Unternehmen",
-      "href": "/unternehmen"
+      "href": "/unternehmen/"
     },
     {
       "label": "Kontakt",
-      "href": "/kontakt"
+      "href": "/kontakt/"
     },
     {
       "label": "Ratgeber: Digitale Kundenstopper",
-      "href": "/wissen/digitale-kundenstopper"
+      "href": "/wissen/digitale-kundenstopper/"
     }
   ],
   "cta": {
@@ -101,31 +101,31 @@
     "branchen": [
       {
         "label": "Gastronomie",
-        "href": "/branchen/gastronomie"
+        "href": "/branchen/gastronomie/"
       },
       {
         "label": "Unternehmen",
-        "href": "/unternehmen"
+        "href": "/unternehmen/"
       }
     ],
     "loesungen": [
       {
         "label": "Empfangsdisplays",
-        "href": "/loesungen/empfangsdisplays"
+        "href": "/loesungen/empfangsdisplays/"
       },
       {
         "label": "Event-Displays",
-        "href": "/loesungen/event-displays"
+        "href": "/loesungen/event-displays/"
       }
     ],
     "staedte": [
       {
         "label": "Digital Signage Zürich",
-        "href": "/staedte/zuerich"
+        "href": "/staedte/zuerich/"
       },
       {
         "label": "Digital Signage Luzern",
-        "href": "/staedte/luzern"
+        "href": "/staedte/luzern/"
       }
     ]
   }

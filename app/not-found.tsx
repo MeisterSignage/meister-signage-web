@@ -88,7 +88,7 @@ export default function NotFound() {
             Zur Startseite
           </Link>
           <Link
-            href="/kontakt"
+            href="/kontakt/"
             className="inline-flex items-center gap-2.5 rounded-[7px] px-6 py-3.5 text-[15px] font-semibold transition-all duration-200"
             style={{
               border: "1px solid rgba(255,255,255,0.14)",

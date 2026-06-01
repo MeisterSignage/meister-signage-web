@@ -25,7 +25,7 @@ function EditorialCard({
 }) {
   return (
     <Link
-      href={`/news/${post.slug}`}
+      href={`/news/${post.slug}/`}
       className="group flex flex-col overflow-hidden rounded-[22px] bg-white"
       style={{
         boxShadow:
@@ -162,7 +162,7 @@ export default function EditorialNewsSection({ posts }: Props) {
           </div>
 
           <Link
-            href="/news"
+            href="/news/"
             className="group/link inline-flex shrink-0 items-center gap-2 text-[14px] font-semibold text-navy transition-colors duration-150 hover:text-magenta"
           >
             Alle Beiträge ansehen
@@ -200,7 +200,7 @@ export default function EditorialNewsSection({ posts }: Props) {
             Mehr über moderne Digital-Signage-Lösungen erfahren?
           </p>
           <Link
-            href="/news"
+            href="/news/"
             className="inline-flex items-center gap-2 rounded-[8px] border border-navy/15 bg-offwhite px-5 py-3 text-[14px] font-semibold text-navy transition-all duration-200 hover:border-magenta/40 hover:bg-magenta/[0.04] hover:text-magenta"
           >
             Insights ansehen

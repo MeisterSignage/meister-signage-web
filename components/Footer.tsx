@@ -169,7 +169,7 @@ export default function Footer() {
 
             {/* CTA button */}
             <Link
-              href="/kontakt"
+              href="/kontakt/"
               className="group/cta inline-flex w-fit items-center gap-2.5 rounded-[8px] border border-white/20 px-5 py-3 text-[13px] font-semibold transition-all duration-200 hover:border-white/35 hover:bg-white/[0.04]"
               style={{ color: "#f3f4f6" }}
             >
@@ -227,21 +227,21 @@ export default function Footer() {
               © {year} Meister Signage
             </span>
             <Link
-              href="/datenschutz"
+              href="/datenschutz/"
               className="text-[12px] transition-colors duration-150 hover:!text-white"
               style={{ color: "#d1d5db" }}
             >
               Datenschutz
             </Link>
             <Link
-              href="/impressum"
+              href="/impressum/"
               className="text-[12px] transition-colors duration-150 hover:!text-white"
               style={{ color: "#d1d5db" }}
             >
               Impressum
             </Link>
             <Link
-              href="/versand-und-rueckgabe"
+              href="/versand-und-rueckgabe/"
               className="text-[12px] transition-colors duration-150 hover:!text-white"
               style={{ color: "#d1d5db" }}
             >

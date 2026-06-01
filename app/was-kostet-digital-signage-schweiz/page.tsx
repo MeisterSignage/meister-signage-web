@@ -240,7 +240,7 @@ export default function WasKostetDigitalSignagePage() {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <Link href="/kontakt" className="btn-primary gap-2.5">
+              <Link href="/kontakt/" className="btn-primary gap-2.5">
                 Beratung anfragen
                 <ArrowRight className="h-4 w-4 shrink-0" strokeWidth={2} />
               </Link>
@@ -401,7 +401,7 @@ export default function WasKostetDigitalSignagePage() {
                 <p className="mt-5 flex-1 text-[13px] leading-relaxed text-cgray">{p.suitedFor}</p>
 
                 <Link
-                  href="/kontakt"
+                  href="/kontakt/"
                   className="mt-6 inline-flex items-center gap-1.5 text-[12px] font-bold uppercase tracking-[0.1em] text-magenta hover:text-navy transition-colors duration-150"
                 >
                   Anfragen

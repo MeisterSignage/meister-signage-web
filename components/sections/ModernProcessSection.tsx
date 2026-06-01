@@ -156,7 +156,7 @@ export default function ModernProcessSection() {
           viewport={viewport}
           transition={{ duration: 0.45, ease: easeOut, delay: 0.2 }}
         >
-          <Link href="/kontakt" className="btn-primary gap-2.5">
+          <Link href="/kontakt/" className="btn-primary gap-2.5">
             Jetzt Beratung anfragen
             <ArrowRight className="h-4 w-4 shrink-0" strokeWidth={2.5} />
           </Link>

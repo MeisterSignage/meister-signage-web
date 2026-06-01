@@ -197,7 +197,7 @@ export default function Nav() {
         {/* Desktop CTA */}
         <div className="hidden items-center gap-2 lg:flex">
           <Link
-            href="/news"
+            href="/news/"
             className={`inline-flex items-center rounded-[7px] border border-magenta/35 px-4 py-2 text-[14px] font-semibold tracking-wide transition-all duration-150 hover:border-magenta hover:bg-magenta/[0.06] ${
               isActive("/news") ? "text-magenta" : "text-magenta/85 hover:text-magenta"
             }`}
@@ -205,7 +205,7 @@ export default function Nav() {
             Blog
           </Link>
           <Link
-            href="/kontakt"
+            href="/kontakt/"
             className="inline-flex items-center rounded-[7px] border border-magenta bg-magenta px-4 py-2 text-[14px] font-semibold tracking-wide text-white shadow-[0_4px_14px_rgba(254,1,154,0.25)] transition-all duration-150 hover:border-[#d9007c] hover:bg-[#d9007c] hover:shadow-[0_6px_18px_rgba(254,1,154,0.35)]"
           >
             Beratung anfragen
@@ -313,7 +313,7 @@ export default function Nav() {
 
               {/* Blog — mobile only (sits in desktop CTA area on lg) */}
               <Link
-                href="/news"
+                href="/news/"
                 className={`block py-4 text-[16px] font-medium transition-colors ${
                   isActive("/news") ? "text-magenta" : "text-navy/80 active:text-navy"
                 }`}
@@ -325,7 +325,7 @@ export default function Nav() {
 
             <div className="mt-5 border-t border-navy/10 pt-5">
               <Link
-                href="/kontakt"
+                href="/kontakt/"
                 className="btn-primary w-full justify-center"
                 onClick={() => setMenuOpen(false)}
               >

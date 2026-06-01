@@ -104,7 +104,7 @@ export default async function NewsDetailPage({
         <div className="section-inner">
           {/* Back link */}
           <Link
-            href="/news"
+            href="/news/"
             className="mb-8 inline-flex items-center gap-1.5 text-[13px] font-semibold text-navy/50 transition-colors hover:text-magenta"
           >
             <ArrowLeft className="h-3.5 w-3.5" strokeWidth={2.5} />

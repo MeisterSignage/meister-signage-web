@@ -61,27 +61,27 @@
   "internalLinks": [
     {
       "label": "Unternehmen",
-      "href": "/branchen/unternehmen"
+      "href": "/branchen/unternehmen/"
     },
     {
       "label": "Hotellerie",
-      "href": "/branchen/hotellerie"
+      "href": "/branchen/hotellerie/"
     },
     {
       "label": "Digitale Leitsysteme",
-      "href": "/loesungen/digitale-leitsysteme"
+      "href": "/loesungen/digitale-leitsysteme/"
     },
     {
       "label": "Doppelseitige Displays",
-      "href": "/loesungen/doppelseitige-displays"
+      "href": "/loesungen/doppelseitige-displays/"
     },
     {
       "label": "Software",
-      "href": "/loesungen/software"
+      "href": "/loesungen/software/"
     },
     {
       "label": "Ratgeber: Digitale Leitsysteme",
-      "href": "/wissen/digitale-leitsysteme"
+      "href": "/wissen/digitale-leitsysteme/"
     }
   ],
   "cta": {
@@ -97,25 +97,25 @@
     "branchen": [
       {
         "label": "Unternehmen",
-        "href": "/branchen/unternehmen"
+        "href": "/branchen/unternehmen/"
       },
       {
         "label": "Hotellerie",
-        "href": "/branchen/hotellerie"
+        "href": "/branchen/hotellerie/"
       }
     ],
     "loesungen": [
       {
         "label": "Digitale Leitsysteme",
-        "href": "/loesungen/digitale-leitsysteme"
+        "href": "/loesungen/digitale-leitsysteme/"
       },
       {
         "label": "Doppelseitige Displays",
-        "href": "/loesungen/doppelseitige-displays"
+        "href": "/loesungen/doppelseitige-displays/"
       },
       {
         "label": "Software",
-        "href": "/loesungen/software"
+        "href": "/loesungen/software/"
       }
     ]
   }

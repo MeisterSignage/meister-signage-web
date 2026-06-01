@@ -181,7 +181,7 @@ export default function UseCasesSection() {
           <p className="text-[18px] font-light text-navy/60">
             Welche Lösung passt zu Ihrem Betrieb?
           </p>
-          <Link href="/kontakt" className="btn-primary gap-2">
+          <Link href="/kontakt/" className="btn-primary gap-2">
             Beratung anfragen
             <ArrowRight className="h-4 w-4" strokeWidth={2} />
           </Link>

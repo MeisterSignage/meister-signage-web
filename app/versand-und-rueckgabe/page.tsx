@@ -81,11 +81,11 @@ export default function VersandUndRueckgabePage() {
               Rückgaben oder Umtausch sind nur nach vorheriger schriftlicher Vereinbarung
               möglich. Falls Sie unsicher sind, ob ein Modell zu Ihrem Einsatzzweck passt,
               empfehlen wir vor dem Kauf eine{" "}
-              <Link href="/digital-signage-mieten" className="text-magenta underline underline-offset-2">
+              <Link href="/digital-signage-mieten/" className="text-magenta underline underline-offset-2">
                 Mietlösung
               </Link>{" "}
               zum Testen oder eine kostenlose{" "}
-              <Link href="/kontakt" className="text-magenta underline underline-offset-2">
+              <Link href="/kontakt/" className="text-magenta underline underline-offset-2">
                 Beratung
               </Link>
               .
@@ -129,11 +129,11 @@ export default function VersandUndRueckgabePage() {
         <div className="mt-8 border-t border-navy/10 pt-6">
           <p className="text-sm text-cgray">
             Weitere rechtliche Informationen:{" "}
-            <Link href="/impressum" className="text-magenta hover:underline">
+            <Link href="/impressum/" className="text-magenta hover:underline">
               Impressum
             </Link>{" "}
             ·{" "}
-            <Link href="/datenschutz" className="text-magenta hover:underline">
+            <Link href="/datenschutz/" className="text-magenta hover:underline">
               Datenschutzerklärung
             </Link>
           </p>

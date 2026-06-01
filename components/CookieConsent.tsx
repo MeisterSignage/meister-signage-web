@@ -69,7 +69,7 @@ export default function CookieConsent() {
           >
             <p className="text-[14px] leading-relaxed text-navy/70">
               Wir verwenden Cookies für Analyse und Nutzererfahrung.{" "}
-              <a href="/datenschutz" className="underline hover:text-navy">
+              <a href="/datenschutz/" className="underline hover:text-navy">
                 Datenschutz
               </a>
             </p>

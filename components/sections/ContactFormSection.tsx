@@ -293,7 +293,7 @@ export default function ContactFormSection() {
                     <span className="text-sm text-cgray leading-snug">
                       Ich habe die{" "}
                       <a
-                        href="/datenschutz"
+                        href="/datenschutz/"
                         target="_blank"
                         rel="noopener"
                         className="underline underline-offset-2 text-navy hover:text-magenta transition-colors duration-150"

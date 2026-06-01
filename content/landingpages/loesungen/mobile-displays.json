@@ -70,35 +70,35 @@
   "internalLinks": [
     {
       "label": "Digitale Kundenstopper",
-      "href": "/loesungen/digitale-kundenstopper"
+      "href": "/loesungen/digitale-kundenstopper/"
     },
     {
       "label": "Event-Displays",
-      "href": "/loesungen/event-displays"
+      "href": "/loesungen/event-displays/"
     },
     {
       "label": "Doppelseitige Displays",
-      "href": "/loesungen/doppelseitige-displays"
+      "href": "/loesungen/doppelseitige-displays/"
     },
     {
       "label": "Events & Messen",
-      "href": "/branchen/events"
+      "href": "/branchen/events/"
     },
     {
       "label": "Retail & Handel",
-      "href": "/branchen/retail"
+      "href": "/branchen/retail/"
     },
     {
       "label": "Gastronomie",
-      "href": "/branchen/gastronomie"
+      "href": "/branchen/gastronomie/"
     },
     {
       "label": "Displays mieten",
-      "href": "/digital-signage-mieten"
+      "href": "/digital-signage-mieten/"
     },
     {
       "label": "Software",
-      "href": "/loesungen/software"
+      "href": "/loesungen/software/"
     }
   ],
   "cta": {
@@ -114,29 +114,29 @@
     "loesungen": [
       {
         "label": "Digitale Kundenstopper",
-        "href": "/loesungen/digitale-kundenstopper"
+        "href": "/loesungen/digitale-kundenstopper/"
       },
       {
         "label": "Event-Displays",
-        "href": "/loesungen/event-displays"
+        "href": "/loesungen/event-displays/"
       },
       {
         "label": "Doppelseitige Displays",
-        "href": "/loesungen/doppelseitige-displays"
+        "href": "/loesungen/doppelseitige-displays/"
       }
     ],
     "branchen": [
       {
         "label": "Events & Messen",
-        "href": "/branchen/events"
+        "href": "/branchen/events/"
       },
       {
         "label": "Retail & Handel",
-        "href": "/branchen/retail"
+        "href": "/branchen/retail/"
       },
       {
         "label": "Gastronomie",
-        "href": "/branchen/gastronomie"
+        "href": "/branchen/gastronomie/"
       }
     ]
   }
