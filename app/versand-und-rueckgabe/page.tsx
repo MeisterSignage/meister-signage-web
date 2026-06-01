@@ -107,6 +107,43 @@ export default function VersandUndRueckgabePage() {
             </p>
           </section>
 
+          {/* Verpackung & Recycling */}
+          <section className="py-7">
+            <h2 className="mb-3 text-navy">Verpackung & Recycling</h2>
+            <p className="card-body mb-3">
+              Die Spark-Displays werden in einer Verpackung aus 100 % Karton ausgeliefert –
+              inklusive der Innenhalterungen, die das Display während des Transports fixieren.
+              Auf Styropor, Schaumstoff oder Plastik-Polster wird verzichtet. Die gesamte
+              Verpackung kann im normalen Altpapier-Recycling entsorgt werden.
+            </p>
+            <p className="card-body">
+              In der Schweiz ist beim Kauf eines elektronischen Geräts die vorgezogene
+              Recyclinggebühr (vRG) bereits im Preis enthalten. Am Ende der Lebensdauer kann
+              das Display kostenlos bei einer SENS- oder SWICO-Sammelstelle abgegeben werden.
+              Mehr Hintergründe zu Energieeffizienz, Lebensdauer und Recycling-Pfaden im{" "}
+              <Link href="/wissen/digital-signage-nachhaltigkeit/" className="text-magenta underline underline-offset-2">
+                Wissens-Artikel zu Nachhaltigkeit
+              </Link>
+              .
+            </p>
+          </section>
+
+          {/* Lieferumfang & Inbetriebnahme */}
+          <section className="py-7">
+            <h2 className="mb-3 text-navy">Lieferumfang & Inbetriebnahme</h2>
+            <p className="card-body mb-3">
+              Standardmässig im Lieferumfang enthalten sind das Display selbst, das externe
+              Netzteil sowie die Anleitung. Optionales Zubehör (Wandhalterung, Bodenständer,
+              Verkabelungs-Sets) wird je nach Angebot separat ausgewiesen und beigelegt.
+            </p>
+            <p className="card-body">
+              Für die Inbetriebnahme benötigt das Display eine 230 V Steckdose im Umkreis von
+              ca. 1.5 Metern (Standard-Netzkabel) sowie – je nach Einsatz – einen WLAN-Empfang
+              oder einen LAN-Anschluss. Bei begleiteten Projekten übernehmen wir die
+              Erstkonfiguration und richten die Inhaltsverwaltung gemeinsam mit Ihnen ein.
+            </p>
+          </section>
+
           {/* Kontakt */}
           <section className="py-7">
             <h2 className="mb-3 text-navy">Fragen?</h2>
