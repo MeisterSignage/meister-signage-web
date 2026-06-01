@@ -37,7 +37,7 @@ export default function BranchenIndexPage() {
       <OverviewPage
         eyebrow="Branchen"
         title="Digital Signage für jede Branche."
-        intro="Ob Gastronomie, Retail, Hotellerie, Unternehmen oder Events – Meister Signage plant und realisiert Digital-Signage-Lösungen, die zu Ihrem Alltag, Ihrer Marke und Ihrer Branche passen."
+        intro="Ob Gastronomie, Retail, Hotellerie, Unternehmen oder Events – Meister Signage plant und realisiert Digital-Signage-Lösungen, die zu Ihrem Alltag, Ihrer Marke und Ihrer Branche passen. Jede Branche hat andere Anforderungen: in der Gastro zählen Schnelligkeit bei Menüänderungen und Tagesangeboten, im Retail Schaufenster-Helligkeit und POS-Aufmerksamkeit, in Hotels und Unternehmen die Besucher-Orientierung. Wir kennen die typischen Setups, die Anschaffungs- und Mietpreisstrukturen für KMU, und welche Display-Grössen, Halterungen und Software-Funktionen sich in der Praxis bewähren. Persönliche Beratung statt Standard-Lösung – ab der ersten Skizze bis zur funktionierenden Installation."
         items={[
           {
             title: "Gastronomie",

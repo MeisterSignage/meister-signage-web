@@ -10,7 +10,8 @@
   "explanation": [
     "Normale Innenraum-Displays sind für direkten Sonnenlicht-Einsatz nicht geeignet. Sie wirken zu dunkel, das Bild wird unleserlich, und ohne Schutz gegen Feuchtigkeit halten sie draussen nicht lange.",
     "Outdoor-Displays bieten deutlich höhere Helligkeit (Nits), wetterfeste Gehäuse mit entsprechender Schutzklasse und sind oft mit Kühlung oder Heizung ausgestattet, um konstant betrieben zu werden.",
-    "Typische Einsätze sind Schaufenster, Eingangsbereiche, Aussenfassaden, Events, Promotionen und mobile Lösungen wie digitale Kundenstopper."
+    "Typische Einsätze sind Schaufenster, Eingangsbereiche, Aussenfassaden, Events, Promotionen und mobile Lösungen wie digitale Kundenstopper.",
+    "Für die Schweiz wichtig: Temperaturbereich von -20°C bis +50°C abdeckend, IP-Schutzart mindestens IP55 bei Schutz-Gehäuse, Schutzglas gegen Vandalismus an öffentlich zugänglichen Standorten. Die Helligkeit muss tagsüber 2500 cd/m² oder mehr betragen – mit Auto-Brightness-Sensor zum nächtlichen Dimmen, sonst stört das Display Anwohner und erzeugt unnötigen Stromverbrauch."
   ],
   "examples": [
     {

@@ -2,7 +2,7 @@
   "hero": {
     "eyebrow": "Kontakt",
     "title": "Lassen Sie uns Ihr Projekt besprechen.",
-    "subtitle": "Kein Formular-Dschungel, kein Callcenter. Schreiben Sie kurz, was Sie vorhaben — wir melden uns persönlich und unkompliziert.",
+    "subtitle": "Kein Formular-Dschungel, kein Callcenter. Schreiben Sie kurz, was Sie vorhaben — wir melden uns persönlich und unkompliziert. Ob Schaufenster, Restaurant, Hotel-Lobby oder Empfangsbereich: wir nehmen uns Zeit, hören zu und schlagen erst dann eine Lösung vor, wenn klar ist, was wirklich passt. Beratung gibt es vorab unverbindlich und kostenlos – per Telefon, WhatsApp oder klassisch per E-Mail.",
     "bullets": [
       "Direkter Kontakt zu Chris Meister",
       "Antwort in der Regel innerhalb eines Werktages",
@@ -38,6 +38,14 @@
       {
         "question": "Was sollte ich für das erste Gespräch vorbereiten?",
         "answer": "Nicht viel. Ein paar kurze Informationen zu Ihrem Betrieb, wo Displays eingesetzt werden sollen und was Sie kommunizieren möchten – das reicht für ein erstes sinnvolles Gespräch."
+      },
+      {
+        "question": "Aus welchen Regionen sind Ihre Kunden?",
+        "answer": "Der Schwerpunkt liegt in der Zentralschweiz – Luzern, Zug, Aargau und Umgebung. Wir liefern und installieren aber schweizweit: Zürich, Bern, Basel und das gesamte Mittelland sind regelmässige Einsatzgebiete. Auch in der Romandie und im Tessin haben wir Kunden – mit kurzen Wegen und persönlicher Vor-Ort-Beratung."
+      },
+      {
+        "question": "Wie läuft eine typische Erstanfrage ab?",
+        "answer": "Sie schreiben uns kurz, was Sie planen (Standort, Ziel, ungefähre Anzahl Bildschirme). Wir antworten innert 24 Stunden mit ersten Fragen, einer groben Einschätzung und einem Termin-Vorschlag für ein 15–30-minütiges Gespräch. Auf Wunsch direkt vor Ort, sonst per Telefon oder Video-Call."
       }
     ]
   },

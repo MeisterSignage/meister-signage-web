@@ -51,9 +51,20 @@ export default function NewsPage() {
           <h1 className="hero-title mt-2 max-w-2xl text-navy">
             News & Insights
           </h1>
-          <p className="mt-4 max-w-xl text-[17px] leading-relaxed text-cgray">
+          <p className="mt-4 max-w-2xl text-[17px] leading-relaxed text-cgray">
             Tipps, Neuigkeiten und Hintergründe rund um Digital Signage –
-            für Gastronomie, Retail, Events und Unternehmen.
+            für Gastronomie, Retail, Hotellerie, Unternehmen und Events. Hier teilen wir
+            Praxiserfahrungen aus unseren Schweizer Kundenprojekten, neue Hardware-Tests,
+            Software-Updates und Trends, die sich tatsächlich im Alltag bewähren.
+          </p>
+          <p className="mt-4 max-w-2xl text-[16px] leading-relaxed text-cgray/90">
+            Jeden Dienstag um 06:00 Uhr erscheint ein neuer Beitrag, automatisch publiziert
+            über unsere Content-Pipeline. Die Schwerpunkte: Branchenleitfäden (Gastronomie,
+            Retail, Hotellerie), Hardware-Vorstellungen aus der Spark-Reihe, Kosten- und
+            Mietmodell-Vergleiche, sowie technische Hintergründe zu Stromverbrauch, 4G-LTE-Anbindung,
+            Outdoor-Tauglichkeit und Software-Bedienung. Wir vermeiden Marketing-Floskeln und
+            schreiben so, wie wir auch mit Kunden am Telefon sprechen würden – konkret,
+            ehrlich, mit Zahlen statt Versprechen.
           </p>
         </div>
       </section>
