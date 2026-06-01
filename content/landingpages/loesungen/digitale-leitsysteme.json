@@ -5,7 +5,7 @@
   "seoDescription": "Digitale Leitsysteme für Hotels, Events & Unternehmen – Besucher führen, Wege ausschildern, zentral steuern. Schlüsselfertig aus der Schweiz.",
   "eyebrow": "Lösung · Digitale Leitsysteme",
   "h1": "Digitale Leitsysteme – Orientierung für Menschen in Bewegung.",
-  "intro": "Digitale Leitsysteme zeigen Wege, Räume, Programme und Hinweise flexibel und aktuell an. Statt gedruckter Wegweiser, die bei jeder Änderung veralten, kommuniziert jedes Display tagesaktuell – an einem Standort oder über mehrere Bereiche verteilt.",
+  "intro": "Digitale Leitsysteme geben Orientierung – Menschen in Bewegung finden ihren Weg schneller, ohne zu fragen. Digitale Leitsysteme zeigen Wege, Räume, Programme und Hinweise flexibel und aktuell an. Statt gedruckter Wegweiser, die bei jeder Änderung veralten, kommuniziert jedes Display tagesaktuell – an einem Standort oder über mehrere Bereiche verteilt.",
   "benefits": [
     {
       "title": "Besucherführung verbessern",
@@ -82,6 +82,14 @@
     {
       "label": "Ratgeber: Digitale Leitsysteme",
       "href": "/wissen/digitale-leitsysteme/"
+    },
+    {
+      "label": "Digitale Raumbeschilderung",
+      "href": "/loesungen/digitale-raumbeschilderung/"
+    },
+    {
+      "label": "Digital Signage & Nachhaltigkeit",
+      "href": "/wissen/digital-signage-nachhaltigkeit/"
     }
   ],
   "cta": {

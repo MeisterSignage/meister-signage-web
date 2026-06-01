@@ -5,7 +5,7 @@
   "seoDescription": "Digital Signage einfach erklärt: Was es ist, wie es funktioniert, welche Einsatzgebiete typisch sind und wann es sich für Unternehmen lohnt.",
   "eyebrow": "Wissen · Grundlagen",
   "h1": "Was ist Digital Signage?",
-  "intro": "Digital Signage bezeichnet digitale Bildschirmlösungen, mit denen Inhalte zentral verwaltet und automatisch ausgespielt werden – im Eingang, am Verkaufspunkt, am Empfang oder am Event.",
+  "intro": "Definition und Praxis-Übersicht zu Digital Signage – worum es geht und wofür es eingesetzt wird. Digital Signage bezeichnet digitale Bildschirmlösungen, mit denen Inhalte zentral verwaltet und automatisch ausgespielt werden – im Eingang, am Verkaufspunkt, am Empfang oder am Event.",
   "definition": "Digital Signage ist die digitale Variante klassischer Beschilderung. Statt gedruckter Plakate, Aushänge oder Menükarten zeigen Bildschirme Inhalte, die zentral gesteuert, geplant und in Sekunden aktualisiert werden.",
   "explanation": [
     "Im Kern besteht Digital Signage aus drei Bausteinen: einem Display, einer zentralen Software und den Inhalten. Das Display zeigt – die Software steuert, plant und aktualisiert – die Inhalte transportieren die Botschaft.",
@@ -71,6 +71,18 @@
     {
       "label": "Lösungen ansehen",
       "href": "/loesungen/"
+    },
+    {
+      "label": "Digital Signage Vor- und Nachteile",
+      "href": "/wissen/digital-signage-vorteile-nachteile/"
+    },
+    {
+      "label": "Digital Signage & Nachhaltigkeit",
+      "href": "/wissen/digital-signage-nachhaltigkeit/"
+    },
+    {
+      "label": "Display-Größe wählen",
+      "href": "/wissen/digital-signage-groesse-waehlen/"
     }
   ],
   "datePublished": "2026-05-17"

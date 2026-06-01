@@ -5,7 +5,7 @@
   "seoDescription": "Digital Signage Software: Was sie kann, wie sie funktioniert, welche Funktionen wichtig sind und worauf es bei der Auswahl ankommt.",
   "eyebrow": "Wissen · Software",
   "h1": "Digital Signage Software einfach erklärt.",
-  "intro": "Die Software ist das Herzstück jeder Digital-Signage-Lösung. Sie entscheidet darüber, wie einfach Inhalte aktualisiert, geplant und über mehrere Displays ausgespielt werden können.",
+  "intro": "Digital-Signage-Software einfach erklärt: was sie tut, wie sie funktioniert, worauf es ankommt. Die Software ist das Herzstück jeder Digital-Signage-Lösung. Sie entscheidet darüber, wie einfach Inhalte aktualisiert, geplant und über mehrere Displays ausgespielt werden können.",
   "definition": "Digital Signage Software ist die zentrale Oberfläche, über die Inhalte für ein oder mehrere Displays verwaltet, geplant und ausgespielt werden – ohne USB-Stick und ohne lokales Eingreifen am Bildschirm.",
   "explanation": [
     "Ohne zentrale Software müssten Inhalte an jedem Bildschirm einzeln aktualisiert werden – per USB-Stick, vor Ort, manuell. Mit Software werden Inhalte einmal vorbereitet und automatisch an die gewünschten Displays ausgespielt.",
@@ -72,6 +72,14 @@
     {
       "label": "Digitale Menüboards",
       "href": "/wissen/digitale-menueboards/"
+    },
+    {
+      "label": "Digital Signage & Nachhaltigkeit",
+      "href": "/wissen/digital-signage-nachhaltigkeit/"
+    },
+    {
+      "label": "Anbieter im Vergleich",
+      "href": "/digital-signage-anbieter-vergleich/"
     }
   ],
   "datePublished": "2026-05-17"

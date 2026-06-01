@@ -5,7 +5,7 @@
   "seoDescription": "Digitale Infostele für Lobby, Empfang & Wartebereich: freistehende Säule mit Wegweisung, News oder Werbung. Schlüsselfertig, Schweizer Service.",
   "eyebrow": "Lösung · Infostele",
   "h1": "Digitale Infostele – Information frei im Raum.",
-  "intro": "Eine digitale Infostele ist eine freistehende, vertikale Säule mit Display – aufgestellt in Empfangsbereichen, Lobbies, Wartezonen, Museen oder öffentlichen Gebäuden. Sie informiert, orientiert und begrüsst – ohne Wandmontage und ohne fixe Verkabelung. Inhalte werden zentral gepflegt und automatisch aktualisiert.",
+  "intro": "Eine digitale Infostele eignet sich für Lobby, Wartebereich und Empfang – freistehend mit allen relevanten Informationen. Eine digitale Infostele ist eine freistehende, vertikale Säule mit Display – aufgestellt in Empfangsbereichen, Lobbies, Wartezonen, Museen oder öffentlichen Gebäuden. Sie informiert, orientiert und begrüsst – ohne Wandmontage und ohne fixe Verkabelung. Inhalte werden zentral gepflegt und automatisch aktualisiert.",
   "heroImage": "/images/products/Hotelempfang-Meister-Signage.webp",
   "benefits": [
     {
@@ -83,6 +83,10 @@
     {
       "label": "Unternehmen",
       "href": "/branchen/unternehmen/"
+    },
+    {
+      "label": "Digital Signage & Nachhaltigkeit",
+      "href": "/wissen/digital-signage-nachhaltigkeit/"
     }
   ],
   "cta": {

@@ -82,6 +82,14 @@
     {
       "label": "Kontakt",
       "href": "/kontakt/"
+    },
+    {
+      "label": "Digitale Raumbeschilderung",
+      "href": "/loesungen/digitale-raumbeschilderung/"
+    },
+    {
+      "label": "Digital Signage & Nachhaltigkeit",
+      "href": "/wissen/digital-signage-nachhaltigkeit/"
     }
   ],
   "cta": {

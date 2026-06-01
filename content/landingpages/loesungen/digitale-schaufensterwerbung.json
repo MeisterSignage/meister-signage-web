@@ -5,7 +5,7 @@
   "seoDescription": "Digitale Schaufensterwerbung 24/7 sichtbar – auch nach Ladenschluss. Hohe Helligkeit, schlüsselfertig installiert ab Lager Luzern.",
   "eyebrow": "Lösung · Schaufensterwerbung",
   "h1": "Digitale Schaufensterwerbung – sichtbar rund um die Uhr.",
-  "intro": "Ein digitales Schaufensterdisplay verwandelt das Schaufenster in eine bewegte Werbefläche – auch nach Ladenschluss. Kampagnen, Aktionen und Produkte sind 24/7 sichtbar und lassen sich tageszeitabhängig steuern. Mit 450 nits Helligkeit wirken sie auch bei Tageslicht klar und kontrastreich.",
+  "intro": "Digitale Schaufensterwerbung macht Ihre Aktionen rund um die Uhr sichtbar – auch nachts und am Wochenende. Ein digitales Schaufensterdisplay verwandelt das Schaufenster in eine bewegte Werbefläche – auch nach Ladenschluss. Kampagnen, Aktionen und Produkte sind 24/7 sichtbar und lassen sich tageszeitabhängig steuern. Mit 450 nits Helligkeit wirken sie auch bei Tageslicht klar und kontrastreich.",
   "heroImage": "/images/products/Schuhladen-Meister-Signage.webp",
   "benefits": [
     {
@@ -87,6 +87,14 @@
     {
       "label": "Digital Signage mieten",
       "href": "/digital-signage-mieten/"
+    },
+    {
+      "label": "High-Brightness-Display",
+      "href": "/loesungen/high-brightness-display/"
+    },
+    {
+      "label": "Digital Signage & Nachhaltigkeit",
+      "href": "/wissen/digital-signage-nachhaltigkeit/"
     }
   ],
   "cta": {

@@ -94,6 +94,14 @@
     {
       "label": "Kontakt",
       "href": "/kontakt/"
+    },
+    {
+      "label": "Digital Signage & Nachhaltigkeit",
+      "href": "/wissen/digital-signage-nachhaltigkeit/"
+    },
+    {
+      "label": "Anbieter im Vergleich",
+      "href": "/digital-signage-anbieter-vergleich/"
     }
   ],
   "cta": {

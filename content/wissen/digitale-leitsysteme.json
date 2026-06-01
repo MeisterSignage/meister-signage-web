@@ -5,7 +5,7 @@
   "seoDescription": "Digitale Leitsysteme erklärt: Wegweisung, Beschilderung, Touchscreens. Funktionsweise, Vorteile und Anwendungen für Hotels und Unternehmen.",
   "eyebrow": "Wissen · Events & Orientierung",
   "h1": "Was sind digitale Leitsysteme? Anwendung und Vorteile.",
-  "intro": "Gedruckte Wegweiser sind unflexibel und bei Änderungen schnell veraltet. Digitale Leitsysteme zeigen Wege, Räume, Programme und Hinweise flexibel und aktuell an.",
+  "intro": "Digitale Leitsysteme finden Anwendung in Hotels, Spitälern und Bürogebäuden – ihre Vorteile erklärt. Gedruckte Wegweiser sind unflexibel und bei Änderungen schnell veraltet. Digitale Leitsysteme zeigen Wege, Räume, Programme und Hinweise flexibel und aktuell an.",
   "definition": "Ein digitales Leitsystem nutzt Displays, um Besucher zu führen, Räume anzuzeigen und Programme zu kommunizieren. Es ersetzt klassische Beschilderung und passt sich tagesaktuell an Veränderungen an.",
   "explanation": [
     "An Eingängen, in Korridoren, vor Konferenzräumen oder in Messehallen müssen Menschen sich orientieren. Klassische Wegweiser brauchen Druck, Montage und manuelle Pflege – ein digitales Leitsystem macht das überflüssig.",
@@ -72,6 +72,14 @@
     {
       "label": "Hotellerie",
       "href": "/branchen/hotellerie/"
+    },
+    {
+      "label": "Digital Signage & Nachhaltigkeit",
+      "href": "/wissen/digital-signage-nachhaltigkeit/"
+    },
+    {
+      "label": "Digitale Raumbeschilderung",
+      "href": "/loesungen/digitale-raumbeschilderung/"
     }
   ],
   "datePublished": "2026-05-17"

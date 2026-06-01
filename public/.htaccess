@@ -6,6 +6,17 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTP_HOST} ^meister-signage\.ch$ [NC]
 RewriteRule ^ https://www.meister-signage.ch%{REQUEST_URI} [L,R=301]
 
+# ─── Legacy URL Redirects (301) ───────────────────────────────
+# Alte URLs aus der WordPress-Zeit → neue strukturierte URLs.
+# Schlank über Apache/LiteSpeed statt thin-content Page-Stubs.
+RedirectMatch 301 ^/mieten/?$                  /digital-signage-mieten/
+RedirectMatch 301 ^/hotellerie/?$              /branchen/hotellerie/
+RedirectMatch 301 ^/gastronomie/?$             /branchen/gastronomie/
+RedirectMatch 301 ^/retail/?$                  /branchen/retail/
+RedirectMatch 301 ^/unternehmen/?$             /branchen/unternehmen/
+RedirectMatch 301 ^/events/?$                  /branchen/events/
+RedirectMatch 301 ^/digitales-menueboard/?$    /loesungen/digitale-menueboards/
+
 # ─── Security Headers ──────────────────────────────────────────
 # Meister Signage — Novatrend / LiteSpeed
 # Deployed to public/ and copied to out/ during build.

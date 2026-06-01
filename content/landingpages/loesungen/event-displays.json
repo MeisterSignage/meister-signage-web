@@ -5,7 +5,7 @@
   "seoDescription": "Displays für Events, Messen und Veranstaltungen in der Schweiz mieten. Zeitpläne, Wegweisung, Sponsoren – professionell und flexibel eingesetzt.",
   "eyebrow": "Lösung · Event-Displays",
   "h1": "Displays für Events und Veranstaltungen",
-  "intro": "Für Events, Messen, Tagungen und temporäre Anlässe bieten digitale Displays eine professionelle und flexible Lösung. Zeitpläne, Wegweisung, Sponsorenlogos und Live-Informationen lassen sich auf Bildschirmen anzeigen – ohne gedruckte Schilder und ohne Druckkosten bei Änderungen.",
+  "intro": "Displays für Events und Veranstaltungen – mietbar, mobil und in Minuten einsatzbereit. Für Events, Messen, Tagungen und temporäre Anlässe bieten digitale Displays eine professionelle und flexible Lösung. Zeitpläne, Wegweisung, Sponsorenlogos und Live-Informationen lassen sich auf Bildschirmen anzeigen – ohne gedruckte Schilder und ohne Druckkosten bei Änderungen.",
   "benefits": [
     {
       "title": "Zeitpläne und Programme live anzeigen",
@@ -82,6 +82,14 @@
     {
       "label": "Kontakt",
       "href": "/kontakt/"
+    },
+    {
+      "label": "High-Brightness-Display",
+      "href": "/loesungen/high-brightness-display/"
+    },
+    {
+      "label": "Digital Signage & Nachhaltigkeit",
+      "href": "/wissen/digital-signage-nachhaltigkeit/"
     }
   ],
   "cta": {

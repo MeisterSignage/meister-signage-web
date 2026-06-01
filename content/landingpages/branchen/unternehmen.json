@@ -5,7 +5,7 @@
   "seoDescription": "Digitale Displays für Empfangsbereiche, Meetingräume und Unternehmenskommunikation. Professionell, schlüsselfertig und persönlich betreut.",
   "eyebrow": "Branche · Unternehmen & Empfang",
   "h1": "Digital Signage für Unternehmen und Empfangsbereiche",
-  "intro": "Ein professionell gestalteter Empfangsbereich hinterlässt Eindruck. Digitale Displays begrüssen Besucher, zeigen Wegweisung, kommunizieren interne Informationen und machen die Marke erlebbar – ohne Aufwand für das Team. Meister Signage plant und realisiert schlüsselfertige Lösungen für KMUs und grössere Unternehmen.",
+  "intro": "Digital Signage für Unternehmen und Empfangsbereiche – Besucher informieren, Mitarbeitende erreichen, Lobby aufwerten. Ein professionell gestalteter Empfangsbereich hinterlässt Eindruck. Digitale Displays begrüssen Besucher, zeigen Wegweisung, kommunizieren interne Informationen und machen die Marke erlebbar – ohne Aufwand für das Team. Meister Signage plant und realisiert schlüsselfertige Lösungen für KMUs und grössere Unternehmen.",
   "benefits": [
     {
       "title": "Professioneller erster Eindruck",
@@ -78,6 +78,14 @@
     {
       "label": "Ratgeber: Digital Signage Software",
       "href": "/wissen/digital-signage-software/"
+    },
+    {
+      "label": "Digitale Raumbeschilderung",
+      "href": "/loesungen/digitale-raumbeschilderung/"
+    },
+    {
+      "label": "Digital Signage & Nachhaltigkeit",
+      "href": "/wissen/digital-signage-nachhaltigkeit/"
     }
   ],
   "cta": {

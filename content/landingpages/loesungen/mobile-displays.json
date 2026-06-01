@@ -5,7 +5,7 @@
   "seoDescription": "Mobile Digital-Signage-Displays für Roadshows & Messen – transportabel, akkubetrieben, kabellos. Mietbar oder kaufbar, schweizweit lieferbar.",
   "eyebrow": "Lösung · Mobile Displays",
   "h1": "Mobile Displays – Aufmerksamkeit, die mit Ihnen reist.",
-  "intro": "Mobile Displays sind transportable digitale Bildschirme, die nicht für einen festen Standort gemacht sind, sondern mit dem Einsatz wandern. Heute Messe in Zürich, morgen Eröffnung in Luzern, übermorgen Kundentag in Bern – ohne erneuten Aufbau, ohne Steckdose vor Ort, ohne IT-Vorbereitung. Akkubetrieb auf Anfrage möglich.",
+  "intro": "Mobile Digital-Signage-Displays reisen mit Ihnen und sorgen für Aufmerksamkeit am Eventstand, auf der Messe oder am Pop-up – akkubetrieben und in Minuten einsatzbereit. Mobile Displays sind transportable digitale Bildschirme, die nicht für einen festen Standort gemacht sind, sondern mit dem Einsatz wandern. Heute Messe in Zürich, morgen Eröffnung in Luzern, übermorgen Kundentag in Bern – ohne erneuten Aufbau, ohne Steckdose vor Ort, ohne IT-Vorbereitung. Akkubetrieb auf Anfrage möglich.",
   "heroImage": "/images/products/Mobile-Display-Outdoor.webp",
   "benefits": [
     {
@@ -99,6 +99,14 @@
     {
       "label": "Software",
       "href": "/loesungen/software/"
+    },
+    {
+      "label": "Outdoor Displays",
+      "href": "/wissen/outdoor-displays/"
+    },
+    {
+      "label": "Digital Signage & Nachhaltigkeit",
+      "href": "/wissen/digital-signage-nachhaltigkeit/"
     }
   ],
   "cta": {

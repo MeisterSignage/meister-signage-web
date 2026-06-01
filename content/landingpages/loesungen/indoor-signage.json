@@ -5,7 +5,7 @@
   "seoDescription": "Indoor Digital Signage für Empfang, Wartebereich, Verkaufsraum und Meetingzone. Schlüsselfertig geplant und installiert in der Schweiz.",
   "eyebrow": "Lösung · Indoor Signage",
   "h1": "Indoor Signage – Digitale Displays für Innenräume",
-  "intro": "Indoor Signage umfasst alle digitalen Displays, die im Innern von Gebäuden eingesetzt werden – von der Empfangstafel über das Menüboard bis zum Wegweiser in grossen Gebäuden. Meister Signage plant massgeschneiderte Indoor-Lösungen für Gastronomie, Retail, Hotellerie und Unternehmen in der Schweiz.",
+  "intro": "Indoor Signage besteht aus digitalen Displays für Innenräume – Lobby, Ladenfläche, Empfang oder Wartebereich. Indoor Signage umfasst alle digitalen Displays, die im Innern von Gebäuden eingesetzt werden – von der Empfangstafel über das Menüboard bis zum Wegweiser in grossen Gebäuden. Meister Signage plant massgeschneiderte Indoor-Lösungen für Gastronomie, Retail, Hotellerie und Unternehmen in der Schweiz.",
   "benefits": [
     {
       "title": "Für jeden Innenraum die passende Lösung",
@@ -70,6 +70,14 @@
     {
       "label": "Digital Signage Schweiz",
       "href": "/digital-signage-schweiz/"
+    },
+    {
+      "label": "Digitale Raumbeschilderung",
+      "href": "/loesungen/digitale-raumbeschilderung/"
+    },
+    {
+      "label": "Digital Signage & Nachhaltigkeit",
+      "href": "/wissen/digital-signage-nachhaltigkeit/"
     }
   ],
   "cta": {

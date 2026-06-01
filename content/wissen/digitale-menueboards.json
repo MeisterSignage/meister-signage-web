@@ -5,7 +5,7 @@
   "seoDescription": "Digitale Menüboards Schweiz: Tagesmenüs & Aktionen jederzeit aktualisieren. Vorteile, Anwendungen und Auswahlkriterien für Gastro & Retail.",
   "eyebrow": "Wissen · Branchen",
   "h1": "Was sind digitale Menüboards? Vorteile, Einsatz und Auswahl.",
-  "intro": "Digitale Menüboards ersetzen gedruckte Tafeln und statische Aushänge. Tagesmenü, Preise und Aktionen sind in Sekunden aktualisiert – professionell, aktuell und ohne Druckaufwand.",
+  "intro": "Digitale Menüboards bieten klare Vorteile, einfachen Einsatz und gezielte Auswahl-Möglichkeiten – ein Ratgeber für Gastronomie und Retail. Digitale Menüboards ersetzen gedruckte Tafeln und statische Aushänge. Tagesmenü, Preise und Aktionen sind in Sekunden aktualisiert – professionell, aktuell und ohne Druckaufwand.",
   "definition": "Ein digitales Menüboard ist ein Display, das Speisen, Getränke, Preise und Aktionen flexibel anzeigt. Inhalte werden zentral gesteuert und können tageszeitabhängig oder ereignisbasiert wechseln.",
   "explanation": [
     "Gedruckte Menüs sind statisch. Eine Preisänderung bedeutet Nachdrucken, eine Aktion bedeutet zusätzliche Aushänge. Digitale Menüboards lösen das: Inhalt einmal vorbereitet, in Sekunden aktualisiert.",
@@ -72,6 +72,14 @@
     {
       "label": "Software",
       "href": "/wissen/digital-signage-software/"
+    },
+    {
+      "label": "Digital Signage & Nachhaltigkeit",
+      "href": "/wissen/digital-signage-nachhaltigkeit/"
+    },
+    {
+      "label": "High-Brightness-Display",
+      "href": "/loesungen/high-brightness-display/"
     }
   ],
   "datePublished": "2026-05-17"

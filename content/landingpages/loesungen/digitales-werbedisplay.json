@@ -5,7 +5,7 @@
   "seoDescription": "Digitale Werbedisplays für Retail, Gastronomie & POS – ab CHF 129/Mt. oder ab CHF 1.299. Schlüsselfertig installiert vom Schweizer Anbieter.",
   "eyebrow": "Lösung · Werbedisplay",
   "h1": "Digitale Werbedisplays – Aufmerksamkeit, wo sie wirkt.",
-  "intro": "Ein digitales Werbedisplay zeigt Kampagnen, Aktionen, Produkte oder Markenwerte direkt am Ort der Entscheidung. Anders als gedruckte Plakate lassen sich Inhalte täglich anpassen, mit Bewegtbild ergänzen und auf Zielgruppen oder Tageszeit ausrichten. Für Retail, Gastronomie, Pop-up-Stores und Empfangsbereiche.",
+  "intro": "Ein digitales Werbedisplay wirkt direkt am Point of Sale und lenkt Aufmerksamkeit auf das, was zählt: Angebote, Marken, Aktionen. Ein digitales Werbedisplay zeigt Kampagnen, Aktionen, Produkte oder Markenwerte direkt am Ort der Entscheidung. Anders als gedruckte Plakate lassen sich Inhalte täglich anpassen, mit Bewegtbild ergänzen und auf Zielgruppen oder Tageszeit ausrichten. Für Retail, Gastronomie, Pop-up-Stores und Empfangsbereiche.",
   "heroImage": "/images/products/Schuhladen-Meister-Signage.webp",
   "benefits": [
     {
@@ -95,6 +95,18 @@
     {
       "label": "Gastronomie",
       "href": "/branchen/gastronomie/"
+    },
+    {
+      "label": "High-Brightness-Display",
+      "href": "/loesungen/high-brightness-display/"
+    },
+    {
+      "label": "Digital Signage & Nachhaltigkeit",
+      "href": "/wissen/digital-signage-nachhaltigkeit/"
+    },
+    {
+      "label": "Anbieter im Vergleich",
+      "href": "/digital-signage-anbieter-vergleich/"
     }
   ],
   "cta": {
