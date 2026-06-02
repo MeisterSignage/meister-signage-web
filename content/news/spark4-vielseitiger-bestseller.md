@@ -2,11 +2,11 @@
 title: "Spark 4 – der 43-Zoll-Bestseller mit 4K"
 seoTitle: "Spark 4 – 43 Zoll 4K Bestseller"
 description: "Spark 4 – 43 Zoll 4K-Display, 15.5 mm flach, 24/7-Dauerbetrieb. Vielseitig für Schaufenster, Empfang und Menüboards. Aus der Schweiz."
-date: "2026-06-02T06:00:00+02:00"
+date: "2026-06-09T06:00:00+02:00"
 category: "Produkte"
 image: "/images/products/Spark4-Design.webp"
 slug: "spark4-vielseitiger-bestseller"
-status: published
+status: scheduled
 ---
 
 43 Zoll treffen einen Sweet Spot: gross genug, um aus der Distanz zu wirken, kompakt genug für die meisten Räume. Der Spark 4 ist deshalb unser meistverkauftes Modell — und das aus gutem Grund. Hier die kompletten Spec-Daten und die Einsatz­bereiche, für die wir ihn empfehlen.
@@ -68,7 +68,7 @@ Der Spark 4 passt, wenn:
 - Das Display in einem mittel­grossen Raum steht (Restaurant, Laden, Büro)
 - Ein gutes Preis-Leistungs-Verhältnis wichtig ist
 
-Für kompaktere Einsätze empfehlen wir den [Spark 3](/news/spark3-kompaktes-display) (32 Zoll). Für maximale Wirkung in grossen Räumen den [Spark 5](/news/spark5-neues-modell) (50 Zoll). Hilfe bei der Grössen­wahl: [Ratgeber Grösse wählen](/wissen/digital-signage-groesse-waehlen).
+Für kompaktere Einsätze empfehlen wir den [Spark 3](/digital-signage-kaufen) (32 Zoll). Für maximale Wirkung in grossen Räumen den [Spark 5](/news/spark5-neues-modell) (50 Zoll). Hilfe bei der Grössen­wahl: [Ratgeber Grösse wählen](/wissen/digital-signage-groesse-waehlen).
 
 ## Preise
 

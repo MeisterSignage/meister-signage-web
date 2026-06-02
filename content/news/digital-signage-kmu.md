@@ -31,7 +31,7 @@ Inhalte werden über ein Web-Interface gepflegt — ähnlich einfach wie das Ers
 
 ### Handwerksbetrieb
 
-Ein Display im Eingangsbereich zeigt aktuelle Projekte, Referenzen und Kontaktdaten. Kunden und Lieferanten sehen sofort, mit wem sie es zu tun haben. Empfohlen: [Spark 3 (32")](/news/spark3-kompaktes-display).
+Ein Display im Eingangsbereich zeigt aktuelle Projekte, Referenzen und Kontaktdaten. Kunden und Lieferanten sehen sofort, mit wem sie es zu tun haben. Empfohlen: [Spark 3 (32")](/digital-signage-kaufen).
 
 ### Arztpraxis oder Physiotherapie
 
@@ -39,7 +39,7 @@ Im Wartebereich informiert ein Screen über Leistungen, Öffnungszeiten und Gesu
 
 ### Bäckerei oder Café
 
-Ein [digitales Menüboard](/loesungen/digitale-menueboards) hinter der Theke zeigt das Tagesangebot, Preise und Aktionen. Änderungen sind in Sekunden gemacht — kein Neudruck, keine Kreidetafel. Empfohlen: [Spark 4 (43")](/news/spark4-vielseitiger-bestseller).
+Ein [digitales Menüboard](/loesungen/digitale-menueboards) hinter der Theke zeigt das Tagesangebot, Preise und Aktionen. Änderungen sind in Sekunden gemacht — kein Neudruck, keine Kreidetafel. Empfohlen: [Spark 4 (43")](/digital-signage-kaufen).
 
 ### Coworking Space oder Bürogemeinschaft
 

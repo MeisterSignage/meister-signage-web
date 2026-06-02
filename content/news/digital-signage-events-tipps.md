@@ -74,7 +74,7 @@ Für einmalige oder seltene Anlässe lohnt sich die Miete. Die Displays werden g
 
 Welches Modell für welchen Eventtyp?
 
-- **Kongress / Tagung:** [Spark 4 (43")](/news/spark4-vielseitiger-bestseller) für Wegweisung und Raumbeschilderung
+- **Kongress / Tagung:** [Spark 4 (43")](/digital-signage-kaufen) für Wegweisung und Raumbeschilderung
 - **Messe-Stand:** [Spark 5 (50")](/news/spark5-neues-modell) als Bühnenrückwand oder Hingucker
 - **Pop-up / Outdoor-Event:** [Mobile Displays](/loesungen/mobile-displays) mit Akku-Variante
 - **Eingangs­bereich:** [Digitale Kundenstopper](/loesungen/digitale-kundenstopper) – aufstellbar, ohne Wandmontage

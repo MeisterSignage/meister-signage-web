@@ -67,7 +67,7 @@ Im Boutique-Hotel-Empfang sind drei technische Anforderungen wichtig, die nicht 
 
 ## Welche Spark-Grösse passt
 
-Für die meisten Boutique-Hotels reicht der [Spark 4 mit 43 Zoll](/news/spark4-vielseitiger-bestseller) im Hochformat. Für besonders kleine Empfänge bietet sich der [Spark 3 (32 Zoll)](/news/spark3-kompaktes-display) an. Wer einen besonders gestalterischen Auftritt sucht (Design-Hotel, Concept-Hotel), kann den [Spark Q+ im Quadrat­format](/news/sparkq-quadratisches-display) prüfen.
+Für die meisten Boutique-Hotels reicht der [Spark 4 mit 43 Zoll](/digital-signage-kaufen) im Hochformat. Für besonders kleine Empfänge bietet sich der [Spark 3 (32 Zoll)](/digital-signage-kaufen) an. Wer einen besonders gestalterischen Auftritt sucht (Design-Hotel, Concept-Hotel), kann den [Spark Q+ im Quadrat­format](/digital-signage-kaufen) prüfen.
 
 ## Welche Software-Plattform sich bewährt
 

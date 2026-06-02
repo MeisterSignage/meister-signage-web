@@ -37,9 +37,9 @@ Nicht jeder Bildschirm eignet sich als Menüboard im Dauer­einsatz. Diese fünf
 
 Aus über hundert betreuten Gastro-Projekten kristallisieren sich klare Empfehlungen:
 
-**Bäckereien & kleine Cafés:** [Spark 3 mit 32 Zoll](/news/spark3-kompaktes-display) hinter der Theke oder als Hochformat-Auf­steller neben der Kasse. Reicht für Tages­angebote und Preise auf 1.5–2.5 m Distanz.
+**Bäckereien & kleine Cafés:** [Spark 3 mit 32 Zoll](/digital-signage-kaufen) hinter der Theke oder als Hochformat-Auf­steller neben der Kasse. Reicht für Tages­angebote und Preise auf 1.5–2.5 m Distanz.
 
-**Restaurants mit Lunch-Geschäft:** [Spark 4 mit 43 Zoll und 4K](/news/spark4-vielseitiger-bestseller) – der Bestseller. Gross genug, um aus dem ganzen Lokal lesbar zu sein, kompakt genug für die meisten Wände.
+**Restaurants mit Lunch-Geschäft:** [Spark 4 mit 43 Zoll und 4K](/digital-signage-kaufen) – der Bestseller. Gross genug, um aus dem ganzen Lokal lesbar zu sein, kompakt genug für die meisten Wände.
 
 **Take-Away und Schaufenster:** [Spark 5 mit 50 Zoll](/news/spark5-neues-modell) – auch von der Strasse sichtbar, mit 450 nits Helligkeit auch bei Tageslicht.
 

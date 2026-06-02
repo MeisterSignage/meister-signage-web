@@ -40,7 +40,7 @@ Ideal für Einsatzorte mit wenig Platz oder kurzer Betrachtungs­distanz. Typisc
 
 **Empfohlen wenn:** Betrachtungs­abstand 1.5–2.5 m, Platz begrenzt, Full HD ausreichend.
 
-→ [Spark 3: Das kompakte 32-Zoll-Display](/news/spark3-kompaktes-display)
+→ [Spark 3: Das kompakte 32-Zoll-Display](/digital-signage-kaufen)
 
 ### Spark 4 — Der Bestseller
 
@@ -48,7 +48,7 @@ Das meistgewählte Modell. Gross genug für mittlere Räume, kompakt genug für 
 
 **Empfohlen wenn:** Betrachtungs­abstand 2–4 m, vielseitiger Einsatz in Gastronomie, Retail oder Empfangs­bereichen.
 
-→ [Spark 4: Unser Bestseller für 43-Zoll-Einsätze](/news/spark4-vielseitiger-bestseller)
+→ [Spark 4: Unser Bestseller für 43-Zoll-Einsätze](/digital-signage-kaufen)
 
 ### Spark 5 — Der Grosse
 
@@ -64,7 +64,7 @@ Das einzige quadratische Display im Sortiment. Für Betriebe, die sich bewusst v
 
 **Empfohlen wenn:** Design und Inszenierung eine zentrale Rolle spielen, [digitale Raumbeschilderung](/loesungen/digitale-raumbeschilderung) oder Spezial­einbauten.
 
-→ [Spark Q+: Das quadratische Display](/news/sparkq-quadratisches-display)
+→ [Spark Q+: Das quadratische Display](/digital-signage-kaufen)
 
 ## Entscheidungs­hilfe: 4 Fragen
 

@@ -57,7 +57,7 @@ Eine Besonderheit, die wir in der [Vergleichstabelle](/digital-signage-anbieter-
 
 50 Zoll sind nicht für jeden Standort die richtige Wahl. Eine kompakte Theke oder ein kleines Empfangs­büro wirkt mit dem Spark 5 schnell überdimensioniert. Eine Faustregel: **Diagonale ≈ Betrachtungs­abstand × 0.2**. Bei 5 m Abstand passt 50 Zoll, bei 2 m wäre 32 Zoll (Spark 3) besser. Eine detaillierte Anleitung findet sich im Ratgeber [Digital Signage Grösse wählen](/wissen/digital-signage-groesse-waehlen).
 
-Für die anderen Einsatz­bereiche stehen die kompakteren Modelle bereit: Der [Spark 3](/news/spark3-kompaktes-display) für Theke und POS, der [Spark 4](/news/spark4-vielseitiger-bestseller) als Bestseller für mittlere Räume.
+Für die anderen Einsatz­bereiche stehen die kompakteren Modelle bereit: Der [Spark 3](/digital-signage-kaufen) für Theke und POS, der [Spark 4](/digital-signage-kaufen) als Bestseller für mittlere Räume.
 
 ## Preise
 

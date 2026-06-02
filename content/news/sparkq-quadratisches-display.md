@@ -2,11 +2,11 @@
 title: "Spark Q+ – 33 Zoll quadratisch für kreative Installationen"
 seoTitle: "Spark Q+ – quadratisches 33-Zoll-Display"
 description: "Spark Q+: 33 Zoll im Quadratformat, 15.5 mm flach, WiFi6. Für Concept Stores, Design-Hotels, Agenturen und Multi-Display-Installationen. Ab CHF 1.699."
-date: "2026-06-02T06:00:00+02:00"
+date: "2026-08-04T06:00:00+02:00"
 category: "Produkte"
 image: "/images/products/SparkQ-Design.webp"
 slug: "sparkq-quadratisches-display"
-status: published
+status: scheduled
 ---
 
 Nicht jeder Inhalt passt in ein Querformat. Und nicht jeder Raum verlangt nach einem klassischen Bildschirm. Der Spark Q+ bietet etwas, das es im Digital-Signage-Markt selten gibt: ein quadratisches Display, das gestalterische Freiheiten eröffnet.
@@ -61,7 +61,7 @@ Der Spark Q+ ist kein Allrounder — er ist ein Spezialist. Er eignet sich für 
 - Wer mehrere Displays zu einem Gesamtbild kombinieren will
 - Wer einen Eyecatcher sucht, der Gesprächs­stoff bietet
 
-Für klassische Menüboards, Schaufenster oder Informations­displays sind die rechteckigen Modelle [Spark 3](/news/spark3-kompaktes-display), [Spark 4](/news/spark4-vielseitiger-bestseller) oder [Spark 5](/news/spark5-neues-modell) die bessere Wahl. Hilfe bei der Auswahl: [Spark-Sortiment im Vergleich](/news/spark-sortiment-vergleich).
+Für klassische Menüboards, Schaufenster oder Informations­displays sind die rechteckigen Modelle [Spark 3](/digital-signage-kaufen), [Spark 4](/digital-signage-kaufen) oder [Spark 5](/news/spark5-neues-modell) die bessere Wahl. Hilfe bei der Auswahl: [Spark-Sortiment im Vergleich](/news/spark-sortiment-vergleich).
 
 ## Wireless installiert in Minuten
 

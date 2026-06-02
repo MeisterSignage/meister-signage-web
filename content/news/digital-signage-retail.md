@@ -85,9 +85,9 @@ Wer 3, 5 oder 20 Filialen betreibt, gewinnt zusätzliche Vorteile durch zentrale
 Aus unseren Retail-Projekten:
 
 - **Schaufenster:** [Spark 5 (50")](/news/spark5-neues-modell) für maximale Sichtbarkeit
-- **Eingangs­bereich:** [Spark 4 (43")](/news/spark4-vielseitiger-bestseller) als Bestseller
-- **Theke/Kassen­bereich:** [Spark 3 (32")](/news/spark3-kompaktes-display) für Treue­programm und Cross-Sell
-- **Concept-Store/Design:** [Spark Q+ (33" quadratisch)](/news/sparkq-quadratisches-display) als Eyecatcher
+- **Eingangs­bereich:** [Spark 4 (43")](/digital-signage-kaufen) als Bestseller
+- **Theke/Kassen­bereich:** [Spark 3 (32")](/digital-signage-kaufen) für Treue­programm und Cross-Sell
+- **Concept-Store/Design:** [Spark Q+ (33" quadratisch)](/digital-signage-kaufen) als Eyecatcher
 
 ## Nächste Schritte
 
