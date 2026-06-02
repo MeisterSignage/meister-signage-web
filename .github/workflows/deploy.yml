@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+  # Allow other workflows (e.g. Publish Scheduled News) to trigger a deploy
+  # via the API. workflow_dispatch is the documented exception that CAN be
+  # triggered using the default GITHUB_TOKEN.
+  workflow_dispatch:
 
 jobs:
   deploy:

@@ -1,14 +1,17 @@
 name: Publish Scheduled News
 
-# Runs every Tuesday at 04:00 UTC = 06:00 CEST (Apr–Oct) / 05:00 CET (Nov–Mar).
-# For year-round 06:00 local time, GitHub-Cron is UTC-only; small DST drift accepted.
+# Runs every Tuesday at ~04:07 UTC = 06:07 CEST (Apr–Oct) / 05:07 CET (Nov–Mar).
+# Minute is offset from :00 on purpose: GitHub's scheduled runs at the top of
+# the hour are the most heavily congested and are frequently delayed or dropped.
+# GitHub-Cron is UTC-only; small DST drift accepted.
 on:
   schedule:
-    - cron: "0 4 * * 2"
+    - cron: "7 4 * * 2"
   workflow_dispatch:  # allow manual run via GitHub UI ("Run workflow")
 
 permissions:
   contents: write  # so the job can push back the commit
+  actions: write   # so the job can dispatch the Deploy workflow
 
 jobs:
   publish:
@@ -46,4 +49,9 @@ jobs:
           git commit -m "[scheduled-publish] News: due posts auto-published"
           git push origin main
 
-          echo "Pushed scheduled news to main. The deploy workflow will pick it up."
+          # A push made with the default GITHUB_TOKEN does NOT trigger other
+          # workflows (GitHub's anti-recursion rule), so deploy.yml's `on: push`
+          # would never fire here. Dispatch it explicitly instead — workflow_dispatch
+          # is allowed with GITHUB_TOKEN and only runs when we actually published.
+          gh workflow run deploy.yml --ref main
+          echo "Pushed scheduled news to main and dispatched the Deploy workflow."
