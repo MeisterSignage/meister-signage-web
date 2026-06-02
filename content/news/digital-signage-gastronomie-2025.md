@@ -53,7 +53,7 @@ Eine ausführliche Aufschlüsselung – inklusive Druckkosten­ersparnis und typ
 
 ## Mieten oder Kaufen?
 
-Für Restaurants mit festem Standort empfehlen wir meist den Kauf, da sich die Investition über 2–3 Jahre amortisiert. Für saisonale Aussen­standorte oder Pop-up-Konzepte ist die Miete flexibler. Detaillierter Vergleich der beiden Modelle: [Mieten oder Kaufen – 5 Praxisfälle](/news/digital-signage-mieten-oder-kaufen).
+Für Restaurants mit festem Standort empfehlen wir meist den Kauf, da sich die Investition über 2–3 Jahre amortisiert. Für saisonale Aussen­standorte oder Pop-up-Konzepte ist die Miete flexibler. Mehr dazu: [Digital Signage mieten](/digital-signage-mieten) oder [kaufen](/digital-signage-kaufen).
 
 ## Nächste Schritte
 

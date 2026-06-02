@@ -2,11 +2,11 @@
 title: "Spark 4 – der 43-Zoll-Bestseller mit 4K"
 seoTitle: "Spark 4 – 43 Zoll 4K Bestseller"
 description: "Spark 4 – 43 Zoll 4K-Display, 15.5 mm flach, 24/7-Dauerbetrieb. Vielseitig für Schaufenster, Empfang und Menüboards. Aus der Schweiz."
-date: "2026-06-09T06:00:00+02:00"
+date: "2026-06-02T06:00:00+02:00"
 category: "Produkte"
 image: "/images/products/Spark4-Design.webp"
 slug: "spark4-vielseitiger-bestseller"
-status: scheduled
+status: published
 ---
 
 43 Zoll treffen einen Sweet Spot: gross genug, um aus der Distanz zu wirken, kompakt genug für die meisten Räume. Der Spark 4 ist deshalb unser meistverkauftes Modell — und das aus gutem Grund. Hier die kompletten Spec-Daten und die Einsatz­bereiche, für die wir ihn empfehlen.
@@ -21,7 +21,7 @@ Die meisten Betriebe suchen ein Display, das in Standard­situationen überzeugt
 
 **Retail:** Im Schaufenster oder am Eingang. Die 4K-Auflösung sorgt dafür, dass auch detail­reiche Produktbilder und Kampagnen gestochen scharf dargestellt werden – siehe auch [Digitale Schaufensterwerbung](/loesungen/digitale-schaufensterwerbung).
 
-**Hotellerie:** Im Empfangs­bereich oder vor Tagungs­räumen. Informationen wie Check-in-Zeiten, Veranstaltungen und Wegweisung sind sofort sichtbar. Mehr dazu im Artikel [Boutique-Hotel-Empfang](/news/digital-signage-hotellerie).
+**Hotellerie:** Im Empfangs­bereich oder vor Tagungs­räumen. Informationen wie Check-in-Zeiten, Veranstaltungen und Wegweisung sind sofort sichtbar. Mehr dazu: [Digital Signage für die Hotellerie](/branchen/hotellerie).
 
 **Unternehmen:** Im Eingangs­bereich, in Pausen­räumen oder an zentralen Durch­gängen. Interne News, Kennzahlen und Willkommens­botschaften erreichen alle Mitarbeitenden.
 

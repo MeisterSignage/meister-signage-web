@@ -86,7 +86,7 @@ Alle Spark-Displays werden über dieselbe cloud­basierte Plattform verwaltet. W
 
 ## Kaufen oder mieten?
 
-Alle Modelle sind als Kauf und im Mietmodell verfügbar. Die Miete enthält Software und Support — ideal für den Einstieg oder temporäre Einsätze. Konkrete Praxis­fälle zur Entscheidung: [Mieten oder kaufen: 5 KMU-Fälle](/news/digital-signage-mieten-oder-kaufen).
+Alle Modelle sind als Kauf und im Mietmodell verfügbar. Die Miete enthält Software und Support — ideal für den Einstieg oder temporäre Einsätze. Mehr dazu: [Digital Signage mieten](/digital-signage-mieten) oder [kaufen](/digital-signage-kaufen).
 
 ## Nächste Schritte
 
