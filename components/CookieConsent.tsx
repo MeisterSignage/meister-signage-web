@@ -76,13 +76,13 @@ export default function CookieConsent() {
             <div className="flex shrink-0 gap-3">
               <button
                 onClick={decline}
-                className="rounded-lg border border-navy/15 px-4 py-2 text-[13px] font-semibold text-navy/60 transition-colors hover:border-navy/30 hover:text-navy"
+                className="rounded-lg border border-navy/15 px-4 py-2 text-[13px] font-semibold text-navy/80 transition-colors hover:border-navy/30 hover:text-navy"
               >
                 Ablehnen
               </button>
               <button
                 onClick={accept}
-                className="rounded-lg bg-magenta px-4 py-2 text-[13px] font-semibold text-white transition-colors hover:bg-[#d9007c]"
+                className="rounded-lg bg-[#db0085] px-4 py-2 text-[13px] font-semibold text-white transition-colors hover:bg-[#b80070]"
               >
                 Akzeptieren
               </button>

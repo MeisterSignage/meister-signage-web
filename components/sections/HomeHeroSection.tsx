@@ -42,7 +42,8 @@ export default function HomeHeroSection({
             src={HERO_BG_IMAGE}
             alt="Digital Signage Display in einem modernen Geschäft"
             fill
-            priority
+            preload
+            fetchPriority="high"
             sizes="(max-width: 768px) 100vw, 80vw"
             className="object-cover"
           />
