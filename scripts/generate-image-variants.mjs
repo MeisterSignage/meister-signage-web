@@ -21,7 +21,17 @@ const VARIANTS = [
   // -400w must match loader logic: it's requested for any source > 500px wide.
   // Otherwise small responsive sizes return 404 (caught by Seobility).
   { suffix: "-400w", width: 400, minSourceWidth: 500 },
-  { suffix: "-800w", width: 800, minSourceWidth: 900 },
+  // minSourceWidth is low (not 900) so even ~800px sources that happen to be
+  // rendered with `fill` (and therefore get an 800w srcset entry) have a real
+  // -800w file. withoutEnlargement keeps the file at native size; this avoids
+  // pre-existing 404s on e.g. Doppelseitiges-Display-Retail / Mobile-Display-Outdoor.
+  { suffix: "-800w", width: 800, minSourceWidth: 500 },
+  // -1080w fills the gap between 800w and the original so desktop viewports
+  // (~1047px display) stop pulling the full-res image. minSourceWidth is low so
+  // EVERY eligible image gets the file (withoutEnlargement keeps small sources
+  // at native size) — the loader may rewrite any width <= 1200 to -1080w, so the
+  // file must always exist to avoid 404s.
+  { suffix: "-1080w", width: 1080, minSourceWidth: 500 },
 ];
 
 /** Recursively walk a directory and yield .webp file paths. */

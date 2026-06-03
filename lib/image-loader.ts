@@ -4,9 +4,13 @@
  * Maps requested widths to pre-generated responsive variants under
  * public/images/. Variants are produced by scripts/generate-image-variants.mjs.
  *
- * - width <= 500 and the -400w variant exists → use -400w.webp
- * - width <= 900 and the -800w variant exists → use -800w.webp
+ * - width <= 500  and the -400w  variant exists → use -400w.webp
+ * - width <= 900  and the -800w  variant exists → use -800w.webp
+ * - width <= 1200 and the -1080w variant exists → use -1080w.webp
  * - otherwise → use the original
+ *
+ * The variant script generates every suffix for ALL eligible images
+ * (withoutEnlargement), so any width the loader maps to is guaranteed to exist.
  *
  * For non-/images/ paths (e.g. /logo.svg), the original src is always returned.
  */
@@ -34,5 +38,6 @@ export default function imageLoader({ src, width }: LoaderArgs): string {
 
   if (width <= 500) return rewriteSuffix(src, "-400w");
   if (width <= 900) return rewriteSuffix(src, "-800w");
+  if (width <= 1200) return rewriteSuffix(src, "-1080w");
   return src;
 }
