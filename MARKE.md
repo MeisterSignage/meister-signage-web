@@ -99,7 +99,7 @@ Wie wir sprechen – schriftlich, mündlich, online und vor Ort.
 
 ### 5.3 Sprachregeln
 
-- **Schweizer Schreibweise** durchgängig: `ss` statt `ß`, `Strasse` statt `Straße`.
+- **Schweizer Schreibweise** durchgängig: `ss` statt `ss`, `Strasse` statt `Strasse`.
 - **"Sie"-Form** in jeder Kundenkommunikation. Persönlich, aber respektvoll.
 - **Aktive Sätze, kurze Sätze.** Lieber zwei klare Sätze als ein verschachtelter Bandwurmsatz.
 - **Konkret statt abstrakt.** "Tagesmenü in Sekunden aktualisiert" schlägt "umfassende Inhaltsverwaltung".

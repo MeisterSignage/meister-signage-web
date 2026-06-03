@@ -367,7 +367,7 @@ Texte immer:
 - Sachlich und konkret
 - Lösungsorientiert, nicht marketinglastig
 - Keine Buzzwords, keine Übertreibungen
-- Schweizer Rechtschreibung (kein «ß», «ss» stattdessen)
+- Schweizer Rechtschreibung (kein «ss», «ss» stattdessen)
 - Du-Anrede nur wenn explizit gewünscht, sonst Sie-Form
 
 ## 38. Komponenten-Dokumentation

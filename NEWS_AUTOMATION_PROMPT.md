@@ -27,7 +27,7 @@ WICHTIGE REGELN — diese gelten absolut und ohne Ausnahme:
 3. Keine ungeprüften Statistiken oder Zahlen ohne klare Quellenangabe
 4. Keine konkreten Preisangaben
 5. Keine Versprechen oder Garantien
-6. Schweizer Rechtschreibung: kein «ß», stattdessen «ss» (Strasse, Grösse)
+6. Schweizer Rechtschreibung: kein «ss», stattdessen «ss» (Strasse, Grösse)
 7. Sie-Form (nicht Du)
 8. Sachlich, lösungsorientiert, keine Übertreibungen
 9. Kein Clickbait

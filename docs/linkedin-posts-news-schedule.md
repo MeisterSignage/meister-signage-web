@@ -112,7 +112,7 @@ https://www.meister-signage.ch/news/spark-sortiment-vergleich
 ### Bild-Idee
 Ein Vergleichs-Foto: alle 4 Spark-Modelle nebeneinander auf einem aufgeräumten
 Holztisch oder einer hellen Wand, leicht von schräg oben, mit grossem
-Negativraum darüber für späteres Text-Overlay. Maßstabs-Hinweis durch
+Negativraum darüber für späteres Text-Overlay. Massstabs-Hinweis durch
 Alltagsgegenstand (z.B. ein Buch neben dem Spark 3).
 
 ### DALL-E / Midjourney Prompt
