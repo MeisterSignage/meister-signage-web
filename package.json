@@ -15,7 +15,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "prebuild": "node scripts/generate-image-variants.mjs"
+    "prebuild": "node scripts/generate-image-variants.mjs && node scripts/generate-social-images.mjs"
   },
   "dependencies": {
     "framer-motion": "^12.38.0",

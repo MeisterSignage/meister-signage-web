@@ -8,6 +8,11 @@ on:
   # via the API. workflow_dispatch is the documented exception that CAN be
   # triggered using the default GITHUB_TOKEN.
   workflow_dispatch:
+    inputs:
+      publish_slugs:
+        description: "Comma-separated news slugs just published — shared to LinkedIn/Instagram after deploy."
+        required: false
+        default: ""
 
 jobs:
   deploy:
@@ -37,3 +42,13 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./out/
           server-dir: ${{ secrets.FTP_PATH }}
+
+      # Only fires when dispatched with publish_slugs (i.e. from the Tuesday
+      # auto-publish). Runs AFTER FTP so the post page and its /social/<slug>.jpg
+      # are live when LinkedIn and Instagram fetch them.
+      - name: Share new posts to LinkedIn + Instagram
+        if: ${{ github.event.inputs.publish_slugs != '' }}
+        env:
+          MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
+          PUBLISH_SLUGS: ${{ github.event.inputs.publish_slugs }}
+        run: node scripts/notify-social.mjs

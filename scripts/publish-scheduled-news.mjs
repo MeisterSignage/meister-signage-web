@@ -24,6 +24,7 @@ async function main() {
   const files = (await readdir(NEWS_DIR)).filter((f) => f.endsWith(".md"));
 
   let flipped = 0;
+  const published = [];
   for (const file of files) {
     const full = path.join(NEWS_DIR, file);
     const raw = await readFile(full, "utf8");
@@ -52,11 +53,24 @@ async function main() {
     if (updated !== raw) {
       await writeFile(full, updated, "utf8");
       flipped++;
+      const slugMatch = frontmatter.match(/^slug:\s*"?([^"\n]+?)"?\s*$/m);
+      const slug = (slugMatch ? slugMatch[1] : file.replace(/\.md$/, "")).trim();
+      published.push(slug);
       console.log(`[publish] ${file} (scheduled date ${dateRaw})`);
     }
   }
 
   console.log(`\nDone. ${flipped} post(s) flipped from scheduled → published.`);
+
+  // Expose the published slugs to the GitHub Actions workflow so the deploy job
+  // can notify the Make webhook (→ LinkedIn / Instagram) for exactly these posts.
+  if (process.env.GITHUB_OUTPUT) {
+    const { appendFileSync } = await import("node:fs");
+    appendFileSync(
+      process.env.GITHUB_OUTPUT,
+      `published_slugs=${published.join(",")}\n`
+    );
+  }
 }
 
 main().catch((err) => {

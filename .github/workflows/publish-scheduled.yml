@@ -31,6 +31,7 @@ jobs:
           node-version: 20
 
       - name: Flip scheduled → published for due posts
+        id: publish
         run: node scripts/publish-scheduled-news.mjs
 
       - name: Commit and push if anything changed
@@ -53,5 +54,7 @@ jobs:
           # workflows (GitHub's anti-recursion rule), so deploy.yml's `on: push`
           # would never fire here. Dispatch it explicitly instead — workflow_dispatch
           # is allowed with GITHUB_TOKEN and only runs when we actually published.
-          gh workflow run deploy.yml --ref main
+          # Pass the just-published slugs so deploy.yml can notify the Make webhook
+          # (→ LinkedIn / Instagram) AFTER the site is live.
+          gh workflow run deploy.yml --ref main -f publish_slugs="${{ steps.publish.outputs.published_slugs }}"
           echo "Pushed scheduled news to main and dispatched the Deploy workflow."

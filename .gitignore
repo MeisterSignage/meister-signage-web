@@ -5,6 +5,9 @@ node_modules/
 .next/
 out/
 
+# generated social-share JPEGs (rebuilt every build by prebuild)
+public/social/
+
 # misc
 .DS_Store
 *.pem
