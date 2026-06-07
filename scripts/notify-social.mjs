@@ -25,6 +25,75 @@ const SLUGS = (process.env.PUBLISH_SLUGS || "")
   .map((s) => s.trim())
   .filter(Boolean);
 
+/** Strip inline markdown (links, bold, italics, code) down to plain text. */
+function stripInline(s) {
+  return s
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, "")     // images
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")   // links → label
+    .replace(/\*\*(.+?)\*\*/g, "$1")
+    .replace(/\*(.+?)\*/g, "$1")
+    .replace(/__(.+?)__/g, "$1")
+    .replace(/_(.+?)_/g, "$1")
+    .replace(/`(.+?)`/g, "$1")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+/** First real prose paragraph of the article body (skips headings/tables/lists). */
+function firstParagraph(body) {
+  for (const block of body.split(/\n\s*\n/)) {
+    const t = block.trim();
+    if (!t) continue;
+    if (/^(#|>|\||!\[)/.test(t)) continue;             // heading / quote / table / image
+    if (/^([-*+]\s|\d+\.\s)/.test(t)) continue;         // list
+    return stripInline(t);
+  }
+  return "";
+}
+
+/** Punchy bold lead-ins from the first list/section — great as caption bullets. */
+function keyPoints(body, max = 3) {
+  const pts = [];
+  for (const line of body.split(/\n/)) {
+    const m =
+      line.match(/^\s*\d+\.\s*\*\*(.+?)\*\*/) ||   // "1. **Label.** …"
+      line.match(/^\s*\*\*\d+\.\s*(.+?)\*\*/) ||   // "**1. Label.**"
+      line.match(/^\s*[-*+]\s*\*\*(.+?)\*\*/);     // "- **Label** …"
+    if (!m) continue;
+    const label = stripInline(m[1]).replace(/[.:–—-]+\s*$/, "").trim();
+    // Keep bullets punchy: skip long, quoted or question-style labels.
+    if (!label || label.length > 60 || label.includes("?") || /["“”]/.test(label)) continue;
+    if (!pts.includes(label)) pts.push(label);
+    if (pts.length >= max) break;
+  }
+  return pts;
+}
+
+const CATEGORY_TAGS = {
+  Gastronomie: ["#Gastronomie", "#Menüboard"],
+  Retail: ["#Retail", "#PointOfSale"],
+  Hotellerie: ["#Hotellerie", "#Hotel"],
+  Events: ["#Events", "#Messe"],
+  Unternehmen: ["#Unternehmen"],
+  Produkte: ["#Display"],
+  Hardware: ["#Display"],
+  Trends: ["#Trends"],
+};
+
+function hashtags(category) {
+  return [...new Set(["#DigitalSignage", "#Schweiz", ...(CATEGORY_TAGS[category] || []), "#DigitaleBeschilderung"])]
+    .slice(0, 6)
+    .join(" ");
+}
+
+/** Build a rich, engaging caption from the article itself (not just the meta description). */
+function buildCaption({ title, description, category, body, url }) {
+  const lede = firstParagraph(body) || description;
+  const pts = keyPoints(body);
+  const bullets = pts.length ? "\n\n" + pts.map((p) => `• ${p}`).join("\n") : "";
+  return `${title}\n\n${lede}${bullets}\n\n👉 Ganzer Beitrag: ${url}\n\n${hashtags(category)}`;
+}
+
 async function resolvePost(slug) {
   // Fast path: filename matches the slug.
   const direct = path.join(NEWS_DIR, `${slug}.md`);
@@ -55,16 +124,21 @@ async function main() {
       console.warn(`[skip] no post found for slug "${slug}"`);
       continue;
     }
-    const { data } = matter(await readFile(file, "utf8"));
+    const { data, content } = matter(await readFile(file, "utf8"));
     const realSlug = (data.slug && String(data.slug)) || path.basename(file, ".md");
     const url = `${SITE}/news/${realSlug}/`;
     const image = `${SITE}/social/${realSlug}.jpg`;
     const title = (data.title && String(data.title)) || "";
     const description = (data.description && String(data.description)) || "";
     const category = (data.category && String(data.category)) || "";
-    const caption = `${title}\n\n${description}\n\nZum Beitrag: ${url}\n\n#DigitalSignage #Schweiz #DigitaleBeschilderung`;
+    const caption = buildCaption({ title, description, category, body: content, url });
 
     const payload = { title, url, description, image, category, caption };
+
+    if (process.env.DRY_RUN) {
+      console.log(`\n──────── ${realSlug} ────────\nimage: ${image}\n\n${caption}\n`);
+      continue;
+    }
 
     try {
       const res = await fetch(WEBHOOK, {
