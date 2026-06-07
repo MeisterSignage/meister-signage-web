@@ -83,17 +83,18 @@ Pipeline: `Dienstag-Publish → Deploy → Make-Webhook → LinkedIn (Link-Post)
 |---|---|---|---|
 | **IG-Bild** | 1080 × 1080 (1:1) JPEG | 1080 × 1350 (4:5) ist optimal | **optional**: auf 4:5 umstellen (Achtung: Landscape-Quellbilder werden stärker beschnitten) |
 | **LinkedIn-Bild** | Link-Post → `og:image` der Seite | 1200 × 627 og:image | **prüfen**: og:image der News-Seiten = 1200 × ~630 ✓ |
-| **Hashtags** | bis zu 6, in der Caption | 3–5 | **klein**: auf 5 begrenzen |
+| **Hashtags** | max. 5, in der Caption | 3–5 | ✓ umgesetzt |
 | **Caption-Hook** | Titel als erste Zeile | Hook in erster Zeile ✓ | ok |
-| **Caption-Text** | Titel + Einstiegsabsatz + 3 Bullets + CTA | gut für IG; LinkedIn dürfte länger sein | optional länger (mehr Artikel-Text) |
+| **Caption-Text** | IG kompakt (Einstieg + 3 Bullets); LinkedIn länger (2–3 Absätze + bis 4 Bullets) | IG kurz, LinkedIn ~1'300+ | ✓ getrennte Captions |
 | **IG-Link** | URL als Klartext in Caption | „Link in Bio" üblich | optional: Hinweis „Link in Bio" ergänzen |
 | **LinkedIn-Link** | im Post-Text (klickbare Vorschau) | Reach-Penalty, aber gut für Traffic | bewusst so gelassen (Traffic-Ziel) |
 
 ### Offene Optimierungs-Ideen (nicht zwingend)
 1. **IG-Bild auf 4:5 (1080 × 1350)** für mehr Feed-Fläche — nur sinnvoll, wenn die Quellbilder den Beschnitt vertragen.
-2. **Hashtags auf max. 5** begrenzen.
-3. **Längere LinkedIn-Captions** (Richtung 1'300+ Zeichen) für mehr Reach — z. B. zweiter Absatz aus dem Artikel.
-4. **Carousels** als Format mit dem höchsten Engagement im Hinterkopf behalten (manuell, nicht automatisierbar über diese Pipeline).
+2. **„Link in Bio"-Hinweis** in der IG-Caption (IG-Links sind nicht klickbar).
+3. **Carousels** als Format mit dem höchsten Engagement im Hinterkopf behalten (manuell, nicht automatisierbar über diese Pipeline).
+
+_Umgesetzt: Hashtags auf max. 5, getrennte (längere) LinkedIn-Caption._
 
 ---
 

@@ -81,17 +81,47 @@ const CATEGORY_TAGS = {
 };
 
 function hashtags(category) {
+  // Best practice 2026: 3–5 relevant hashtags (IG + LinkedIn).
   return [...new Set(["#DigitalSignage", "#Schweiz", ...(CATEGORY_TAGS[category] || []), "#DigitaleBeschilderung"])]
-    .slice(0, 6)
+    .slice(0, 5)
     .join(" ");
 }
 
-/** Build a rich, engaging caption from the article itself (not just the meta description). */
+/** First N real prose paragraphs of the body (skips headings/tables/lists/images). */
+function proseParagraphs(body, max) {
+  const out = [];
+  for (const block of body.split(/\n\s*\n/)) {
+    const t = block.trim();
+    if (!t) continue;
+    if (/^(#|>|\||!\[)/.test(t)) continue;
+    if (/^([-*+]\s|\d+\.\s)/.test(t)) continue;
+    out.push(stripInline(t));
+    if (out.length >= max) break;
+  }
+  return out;
+}
+
+/**
+ * Instagram caption: compact (front-loaded hook), per IG best practice.
+ * Title + lede + up to 3 punchy bullets + CTA + hashtags.
+ */
 function buildCaption({ title, description, category, body, url }) {
   const lede = firstParagraph(body) || description;
-  const pts = keyPoints(body);
+  const pts = keyPoints(body, 3);
   const bullets = pts.length ? "\n\n" + pts.map((p) => `• ${p}`).join("\n") : "";
   return `${title}\n\n${lede}${bullets}\n\n👉 Ganzer Beitrag: ${url}\n\n${hashtags(category)}`;
+}
+
+/**
+ * LinkedIn caption: longer (best-practice sweet spot ~1'300–1'900 chars).
+ * Title + first 2–3 prose paragraphs + up to 4 bullets + CTA + hashtags.
+ */
+function buildLinkedInCaption({ title, description, category, body, url }) {
+  const paras = proseParagraphs(body, 3);
+  const intro = paras.length ? paras.join("\n\n") : description;
+  const pts = keyPoints(body, 4);
+  const bullets = pts.length ? "\n\n" + pts.map((p) => `• ${p}`).join("\n") : "";
+  return `${title}\n\n${intro}${bullets}\n\n👉 Ganzer Beitrag: ${url}\n\n${hashtags(category)}`;
 }
 
 async function resolvePost(slug) {
@@ -132,11 +162,15 @@ async function main() {
     const description = (data.description && String(data.description)) || "";
     const category = (data.category && String(data.category)) || "";
     const caption = buildCaption({ title, description, category, body: content, url });
+    const caption_linkedin = buildLinkedInCaption({ title, description, category, body: content, url });
 
-    const payload = { title, url, description, image, category, caption };
+    const payload = { title, url, description, image, category, caption, caption_linkedin };
 
     if (process.env.DRY_RUN) {
-      console.log(`\n──────── ${realSlug} ────────\nimage: ${image}\n\n${caption}\n`);
+      console.log(`\n════════ ${realSlug} ════════`);
+      console.log(`image: ${image}`);
+      console.log(`\n──── INSTAGRAM (${caption.length} Zeichen) ────\n${caption}`);
+      console.log(`\n──── LINKEDIN (${caption_linkedin.length} Zeichen) ────\n${caption_linkedin}\n`);
       continue;
     }
 
