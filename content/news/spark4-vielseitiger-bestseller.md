@@ -17,11 +17,11 @@ Die meisten Betriebe suchen ein Display, das in Standard­situationen überzeugt
 
 ### Typische Einsatzorte
 
-**Gastronomie:** Als [Menüboard](/loesungen/digitale-menueboards) hinter der Theke oder an der Wand. 43 Zoll reichen aus, damit Gäste das Angebot aus 3–5 Metern Entfernung lesen können.
+**Gastronomie:** Als [Menüboard](/loesungen/digitale-menueboards/) hinter der Theke oder an der Wand. 43 Zoll reichen aus, damit Gäste das Angebot aus 3–5 Metern Entfernung lesen können.
 
-**Retail:** Im Schaufenster oder am Eingang. Die 4K-Auflösung sorgt dafür, dass auch detail­reiche Produktbilder und Kampagnen gestochen scharf dargestellt werden – siehe auch [Digitale Schaufensterwerbung](/loesungen/digitale-schaufensterwerbung).
+**Retail:** Im Schaufenster oder am Eingang. Die 4K-Auflösung sorgt dafür, dass auch detail­reiche Produktbilder und Kampagnen gestochen scharf dargestellt werden – siehe auch [Digitale Schaufensterwerbung](/loesungen/digitale-schaufensterwerbung/).
 
-**Hotellerie:** Im Empfangs­bereich oder vor Tagungs­räumen. Informationen wie Check-in-Zeiten, Veranstaltungen und Wegweisung sind sofort sichtbar. Mehr dazu: [Digital Signage für die Hotellerie](/branchen/hotellerie).
+**Hotellerie:** Im Empfangs­bereich oder vor Tagungs­räumen. Informationen wie Check-in-Zeiten, Veranstaltungen und Wegweisung sind sofort sichtbar. Mehr dazu: [Digital Signage für die Hotellerie](/branchen/hotellerie/).
 
 **Unternehmen:** Im Eingangs­bereich, in Pausen­räumen oder an zentralen Durch­gängen. Interne News, Kennzahlen und Willkommens­botschaften erreichen alle Mitarbeitenden.
 
@@ -48,11 +48,11 @@ Der Sprung von Full HD auf 4K ist bei 43 Zoll deutlich sichtbar. Texte sind sch�
 
 ## Vollständig kabellos – auch die Daten
 
-Anders als bei klassischen Digital-Signage-Setups gibt es am Spark 4 keine HDMI-, USB- oder Ethernet-Ports. Inhalte kommen über WiFi6 auf den integrierten Media Player. Das bedeutet: keine sichtbaren Datenkabel, kein externer Mini-PC, keine USB-Sticks. Bei der Installation reduziert das den Aufwand erheblich – Details auf der [Vergleichs­seite](/digital-signage-anbieter-vergleich).
+Anders als bei klassischen Digital-Signage-Setups gibt es am Spark 4 keine HDMI-, USB- oder Ethernet-Ports. Inhalte kommen über WiFi6 auf den integrierten Media Player. Das bedeutet: keine sichtbaren Datenkabel, kein externer Mini-PC, keine USB-Sticks. Bei der Installation reduziert das den Aufwand erheblich – Details auf der [Vergleichs­seite](/digital-signage-anbieter-vergleich/).
 
 ## Vielseitig dank Cloud-Software
 
-Der Spark 4 wird mit der gleichen [Software-Plattform](/loesungen/software) betrieben wie alle Spark-Modelle:
+Der Spark 4 wird mit der gleichen [Software-Plattform](/loesungen/software/) betrieben wie alle Spark-Modelle:
 
 - **Inhalte von überall pflegen** — Browser-basiert, kein App-Download nötig
 - **Zeit­steuerung** — Inhalte automatisch nach Tageszeit wechseln
@@ -68,7 +68,7 @@ Der Spark 4 passt, wenn:
 - Das Display in einem mittel­grossen Raum steht (Restaurant, Laden, Büro)
 - Ein gutes Preis-Leistungs-Verhältnis wichtig ist
 
-Für kompaktere Einsätze empfehlen wir den [Spark 3](/digital-signage-kaufen) (32 Zoll). Für maximale Wirkung in grossen Räumen den [Spark 5](/news/spark5-neues-modell) (50 Zoll). Hilfe bei der Grössen­wahl: [Ratgeber Grösse wählen](/wissen/digital-signage-groesse-waehlen).
+Für kompaktere Einsätze empfehlen wir den [Spark 3](/digital-signage-kaufen/) (32 Zoll). Für maximale Wirkung in grossen Räumen den [Spark 5](/news/spark5-neues-modell/) (50 Zoll). Hilfe bei der Grössen­wahl: [Ratgeber Grösse wählen](/wissen/digital-signage-groesse-waehlen/).
 
 ## Preise
 
@@ -80,8 +80,8 @@ Mietpreis inklusive Hardware, Software und Support. Einmalige Einrichtungs­paus
 
 ## Nächste Schritte
 
-- Alle Modelle vergleichen: [Das komplette Spark-Sortiment](/news/spark-sortiment-vergleich)
-- Kaufoptionen: [Digital Signage kaufen](/digital-signage-kaufen)
-- Mietoptionen: [Digital Signage mieten](/digital-signage-mieten)
-- Anbieter im Vergleich: [Anbieter-Vergleichs­seite](/digital-signage-anbieter-vergleich)
-- Beratung: [Jetzt Kontakt aufnehmen](/kontakt)
+- Alle Modelle vergleichen: [Das komplette Spark-Sortiment](/news/spark-sortiment-vergleich/)
+- Kaufoptionen: [Digital Signage kaufen](/digital-signage-kaufen/)
+- Mietoptionen: [Digital Signage mieten](/digital-signage-mieten/)
+- Anbieter im Vergleich: [Anbieter-Vergleichs­seite](/digital-signage-anbieter-vergleich/)
+- Beratung: [Jetzt Kontakt aufnehmen](/kontakt/)

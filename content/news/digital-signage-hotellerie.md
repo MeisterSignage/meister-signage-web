@@ -11,7 +11,7 @@ status: scheduled
 
 Für 4- und 5-Sterne-Tagungs­hotels ist Digital Signage längst Standard – mit zehn oder mehr Bildschirmen über das Haus verteilt. Spannend wird es aber 2026 bei den kleinen Boutique-Hotels in der Schweiz: Hier ersetzt ein einziges Display oft mehrere Aushänge, Tafeln und ausgedruckte Frühstücks­karten. Dieser Artikel zeigt drei konkrete Einsatz­fälle und die typischen Investitions­zahlen.
 
-> Wer einen breiteren Überblick zum Einsatz in der Hotellerie sucht, findet die Branchen­seite unter [/branchen/hotellerie](/branchen/hotellerie). Dieser Artikel fokussiert konkret auf den Empfangs­bereich kleinerer Häuser.
+> Wer einen breiteren Überblick zum Einsatz in der Hotellerie sucht, findet die Branchen­seite unter [/branchen/hotellerie](/branchen/hotellerie/). Dieser Artikel fokussiert konkret auf den Empfangs­bereich kleinerer Häuser.
 
 ## Drei Anwendungs­fälle für Boutique-Hotels
 
@@ -54,28 +54,28 @@ Eine realistische Kalkulation für ein Hotel mit einem Display im Empfangs­bere
 | **Jahr 1 total** | **CHF 1.828** | **ab CHF 1.668** |
 | **Jahr 2+ jährlich** | **CHF 180** | **ab CHF 1.668** |
 
-Für dauerhaften Einsatz ist Kauf nach 2 Jahren günstiger. Ein Vergleich mit anderen Konstellationen findet sich in [Mieten oder Kaufen: 5 KMU-Fälle](/news/digital-signage-mieten-oder-kaufen).
+Für dauerhaften Einsatz ist Kauf nach 2 Jahren günstiger. Ein Vergleich mit anderen Konstellationen findet sich in [Mieten oder Kaufen: 5 KMU-Fälle](/news/digital-signage-mieten-oder-kaufen/).
 
 ## Was die Hardware konkret können sollte
 
 Im Boutique-Hotel-Empfang sind drei technische Anforderungen wichtig, die nicht alle Displays erfüllen:
 
 - **Hochformat-fähig:** Empfangs­bereiche sind oft schmaler als breiter
-- **Flach (≤ 20 mm):** Wirkt wie ein gerahmtes Bild, nicht wie ein Bildschirm. Die Spark-Reihe baut nur 15.5 mm tief, mehr Details auf der [Vergleichs­seite](/digital-signage-anbieter-vergleich)
+- **Flach (≤ 20 mm):** Wirkt wie ein gerahmtes Bild, nicht wie ein Bildschirm. Die Spark-Reihe baut nur 15.5 mm tief, mehr Details auf der [Vergleichs­seite](/digital-signage-anbieter-vergleich/)
 - **Vollständig kabellos:** Keine sichtbaren HDMI- oder Ethernet-Kabel an der Rezeption
 - **Mehrsprachen-fähig in der Software:** automatische Rotation, nicht nur manueller Wechsel
 
 ## Welche Spark-Grösse passt
 
-Für die meisten Boutique-Hotels reicht der [Spark 4 mit 43 Zoll](/digital-signage-kaufen) im Hochformat. Für besonders kleine Empfänge bietet sich der [Spark 3 (32 Zoll)](/digital-signage-kaufen) an. Wer einen besonders gestalterischen Auftritt sucht (Design-Hotel, Concept-Hotel), kann den [Spark Q+ im Quadrat­format](/digital-signage-kaufen) prüfen.
+Für die meisten Boutique-Hotels reicht der [Spark 4 mit 43 Zoll](/digital-signage-kaufen/) im Hochformat. Für besonders kleine Empfänge bietet sich der [Spark 3 (32 Zoll)](/digital-signage-kaufen/) an. Wer einen besonders gestalterischen Auftritt sucht (Design-Hotel, Concept-Hotel), kann den [Spark Q+ im Quadrat­format](/digital-signage-kaufen/) prüfen.
 
 ## Welche Software-Plattform sich bewährt
 
-Wichtig ist nicht Funktionsfülle, sondern **Bedienbarkeit ohne IT-Personal**. Die Inhalts­pflege muss von der Empfangs­dame oder dem Wirt selbst möglich sein – ohne Schulung über mehrere Stunden. Wir setzen auf eine Cloud-Plattform mit Drag-and-Drop-Bedienung. Mehr dazu auf der [Software-Lösungs­seite](/loesungen/software).
+Wichtig ist nicht Funktionsfülle, sondern **Bedienbarkeit ohne IT-Personal**. Die Inhalts­pflege muss von der Empfangs­dame oder dem Wirt selbst möglich sein – ohne Schulung über mehrere Stunden. Wir setzen auf eine Cloud-Plattform mit Drag-and-Drop-Bedienung. Mehr dazu auf der [Software-Lösungs­seite](/loesungen/software/).
 
 ## Nächste Schritte für Boutique-Hotels
 
-- **Branchen­seite mit weiteren Einsatz­bereichen:** [Hotellerie](/branchen/hotellerie)
-- **Empfangs-Spezial­lösung:** [Empfangsdisplays](/loesungen/empfangsdisplays)
-- **Stadtspezifische Beratung:** wir betreuen Hotels in [Luzern](/staedte/luzern), [Zürich](/staedte/zuerich), [Bern](/staedte/bern) und [Zug](/staedte/zug)
-- **Direkte Anfrage:** [Kontakt aufnehmen](/kontakt)
+- **Branchen­seite mit weiteren Einsatz­bereichen:** [Hotellerie](/branchen/hotellerie/)
+- **Empfangs-Spezial­lösung:** [Empfangsdisplays](/loesungen/empfangsdisplays/)
+- **Stadtspezifische Beratung:** wir betreuen Hotels in [Luzern](/staedte/luzern/), [Zürich](/staedte/zuerich/), [Bern](/staedte/bern/) und [Zug](/staedte/zug/)
+- **Direkte Anfrage:** [Kontakt aufnehmen](/kontakt/)

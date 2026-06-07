@@ -59,7 +59,7 @@ Nicht jeder Betrieb braucht dauerhaft aufgestellte Displays. Temporäre Einsätz
 
 Mietmodelle erlauben es, Digital Signage ohne grosse Investition auszuprobieren oder gezielt für einen begrenzten Zeitraum einzusetzen. Das senkt die Einstiegshürde und gibt Betrieben mehr Flexibilität.
 
-Mehr dazu: [Digital Signage mieten](/digital-signage-mieten)
+Mehr dazu: [Digital Signage mieten](/digital-signage-mieten/)
 
 ---
 
@@ -74,7 +74,7 @@ Eine gute Digital-Signage-Lösung:
 
 Wenn Sie wissen möchten, welche Lösung zu Ihrem Betrieb passt, sprechen Sie uns an. Wir zeigen Ihnen konkret, was sinnvoll ist – ohne Verkaufsdruck.
 
-[Beratung anfragen](/kontakt)
+[Beratung anfragen](/kontakt/)
 
 ---
 

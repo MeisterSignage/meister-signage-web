@@ -1,6 +1,6 @@
 ---
 title: "Digitale Menüboards in der Gastronomie: Trend 2026"
-seoTitle: "Digitale Menüboards 2026: Gastronomie-Trend"
+seoTitle: "Digitale Menüboards 2026: Gastro-Trend"
 description: "Digitale Menüboards 2026 in Schweizer Restaurants, Cafés und Bäckereien: Warum sie zum Standard werden, was sie kosten und welche Modelle sich bewähren."
 date: "2026-05-08"
 category: "Gastronomie"
@@ -37,29 +37,29 @@ Nicht jeder Bildschirm eignet sich als Menüboard im Dauer­einsatz. Diese fünf
 
 Aus über hundert betreuten Gastro-Projekten kristallisieren sich klare Empfehlungen:
 
-**Bäckereien & kleine Cafés:** [Spark 3 mit 32 Zoll](/digital-signage-kaufen) hinter der Theke oder als Hochformat-Auf­steller neben der Kasse. Reicht für Tages­angebote und Preise auf 1.5–2.5 m Distanz.
+**Bäckereien & kleine Cafés:** [Spark 3 mit 32 Zoll](/digital-signage-kaufen/) hinter der Theke oder als Hochformat-Auf­steller neben der Kasse. Reicht für Tages­angebote und Preise auf 1.5–2.5 m Distanz.
 
-**Restaurants mit Lunch-Geschäft:** [Spark 4 mit 43 Zoll und 4K](/digital-signage-kaufen) – der Bestseller. Gross genug, um aus dem ganzen Lokal lesbar zu sein, kompakt genug für die meisten Wände.
+**Restaurants mit Lunch-Geschäft:** [Spark 4 mit 43 Zoll und 4K](/digital-signage-kaufen/) – der Bestseller. Gross genug, um aus dem ganzen Lokal lesbar zu sein, kompakt genug für die meisten Wände.
 
-**Take-Away und Schaufenster:** [Spark 5 mit 50 Zoll](/news/spark5-neues-modell) – auch von der Strasse sichtbar, mit 450 nits Helligkeit auch bei Tageslicht.
+**Take-Away und Schaufenster:** [Spark 5 mit 50 Zoll](/news/spark5-neues-modell/) – auch von der Strasse sichtbar, mit 450 nits Helligkeit auch bei Tageslicht.
 
-Eine ausführliche Anleitung zur Grössen­wahl haben wir im Ratgeber [Digital Signage Grösse wählen](/wissen/digital-signage-groesse-waehlen) zusammengestellt.
+Eine ausführliche Anleitung zur Grössen­wahl haben wir im Ratgeber [Digital Signage Grösse wählen](/wissen/digital-signage-groesse-waehlen/) zusammengestellt.
 
 ## Was kostet ein digitales Menüboard wirklich?
 
 Die ehrliche Antwort: Beim Kauf zwischen CHF 1.299 (32 Zoll) und CHF 1.599 (50 Zoll), plus einmalig CHF 149 Einrichtung. Bei monatlicher Miete startet es bei CHF 129 inklusive Software-Lizenz. Die Lizenz beim Kauf liegt bei CHF 180 pro Jahr (gegen CHF 0 bei Miete).
 
-Eine ausführliche Aufschlüsselung – inklusive Druckkosten­ersparnis und typischer Amortisations­dauer – findet sich auf der [Kosten­seite Digital Signage Schweiz](/was-kostet-digital-signage-schweiz).
+Eine ausführliche Aufschlüsselung – inklusive Druckkosten­ersparnis und typischer Amortisations­dauer – findet sich auf der [Kosten­seite Digital Signage Schweiz](/was-kostet-digital-signage-schweiz/).
 
 ## Mieten oder Kaufen?
 
-Für Restaurants mit festem Standort empfehlen wir meist den Kauf, da sich die Investition über 2–3 Jahre amortisiert. Für saisonale Aussen­standorte oder Pop-up-Konzepte ist die Miete flexibler. Mehr dazu: [Digital Signage mieten](/digital-signage-mieten) oder [kaufen](/digital-signage-kaufen).
+Für Restaurants mit festem Standort empfehlen wir meist den Kauf, da sich die Investition über 2–3 Jahre amortisiert. Für saisonale Aussen­standorte oder Pop-up-Konzepte ist die Miete flexibler. Mehr dazu: [Digital Signage mieten](/digital-signage-mieten/) oder [kaufen](/digital-signage-kaufen/).
 
 ## Nächste Schritte
 
 Wer wissen will, was eine Lösung für den eigenen Betrieb kostet, schickt am besten kurz drei Infos: **Lokal­grösse, Anzahl Bildschirme, Einsatz­ort** (Theke / Schaufenster / Lobby). Wir antworten persönlich innert 24 h mit einer transparenten Einschätzung.
 
-- Branchen­seite mit Anwendungs­beispielen: [Digital Signage in der Gastronomie](/branchen/gastronomie)
-- Spezial­lösung für Menüboards: [Digitale Menüboards](/loesungen/digitale-menueboards)
-- Vergleich mit Schweizer Mitbewerbern: [Anbieter im Vergleich](/digital-signage-anbieter-vergleich)
-- Direkter Kontakt: [Beratung anfragen](/kontakt)
+- Branchen­seite mit Anwendungs­beispielen: [Digital Signage in der Gastronomie](/branchen/gastronomie/)
+- Spezial­lösung für Menüboards: [Digitale Menüboards](/loesungen/digitale-menueboards/)
+- Vergleich mit Schweizer Mitbewerbern: [Anbieter im Vergleich](/digital-signage-anbieter-vergleich/)
+- Direkter Kontakt: [Beratung anfragen](/kontakt/)

@@ -40,7 +40,7 @@ Ideal für Einsatzorte mit wenig Platz oder kurzer Betrachtungs­distanz. Typisc
 
 **Empfohlen wenn:** Betrachtungs­abstand 1.5–2.5 m, Platz begrenzt, Full HD ausreichend.
 
-→ [Spark 3: Das kompakte 32-Zoll-Display](/digital-signage-kaufen)
+→ [Spark 3 kaufen](/digital-signage-kaufen/)
 
 ### Spark 4 — Der Bestseller
 
@@ -48,50 +48,50 @@ Das meistgewählte Modell. Gross genug für mittlere Räume, kompakt genug für 
 
 **Empfohlen wenn:** Betrachtungs­abstand 2–4 m, vielseitiger Einsatz in Gastronomie, Retail oder Empfangs­bereichen.
 
-→ [Spark 4: Unser Bestseller für 43-Zoll-Einsätze](/digital-signage-kaufen)
+→ [Spark 4 kaufen](/digital-signage-kaufen/)
 
 ### Spark 5 — Der Grosse
 
 Maximale Präsenz. 50 Zoll in 4K dominieren Schaufenster, grosse Restaurant­flächen und repräsentative Empfangs­bereiche. Unser Flaggschiff für Einsätze, bei denen Wirkung entscheidet.
 
-**Empfohlen wenn:** Betrachtungs­abstand 4–6 m, grossflächige Wirkung gewünscht, [Schaufenster](/loesungen/digitale-schaufensterwerbung) oder Lobby-Einsatz.
+**Empfohlen wenn:** Betrachtungs­abstand 4–6 m, grossflächige Wirkung gewünscht, [Schaufenster](/loesungen/digitale-schaufensterwerbung/) oder Lobby-Einsatz.
 
-→ [Spark 5: Das 50-Zoll-Display für Schaufenster](/news/spark5-neues-modell)
+→ [Spark 5 im Detail](/news/spark5-neues-modell/)
 
 ### Spark Q+ — Der Kreative
 
 Das einzige quadratische Display im Sortiment. Für Betriebe, die sich bewusst vom Standard abheben — Concept Stores, Agenturen, Design-Hotels. Besonders wirkungsvoll in Multidisplay-Installationen.
 
-**Empfohlen wenn:** Design und Inszenierung eine zentrale Rolle spielen, [digitale Raumbeschilderung](/loesungen/digitale-raumbeschilderung) oder Spezial­einbauten.
+**Empfohlen wenn:** Design und Inszenierung eine zentrale Rolle spielen, [digitale Raumbeschilderung](/loesungen/digitale-raumbeschilderung/) oder Spezial­einbauten.
 
-→ [Spark Q+: Das quadratische Display](/digital-signage-kaufen)
+→ [Spark Q+ kaufen](/digital-signage-kaufen/)
 
 ## Entscheidungs­hilfe: 4 Fragen
 
 1. **Wie gross ist der Raum?** Kleine Räume → Spark 3. Mittlere → Spark 4. Grosse → Spark 5.
-2. **Wie weit stehen die Betrachter entfernt?** Unter 2 Meter → 32 Zoll reicht. 3–6 Meter → 43 oder 50 Zoll. Mehr dazu im Ratgeber [Digital Signage Grösse wählen](/wissen/digital-signage-groesse-waehlen).
+2. **Wie weit stehen die Betrachter entfernt?** Unter 2 Meter → 32 Zoll reicht. 3–6 Meter → 43 oder 50 Zoll. Mehr dazu im Ratgeber [Digital Signage Grösse wählen](/wissen/digital-signage-groesse-waehlen/).
 3. **Brauche ich 4K?** Für detail­reiche Bilder und feine Texte ja → Spark 4 oder 5. Für einfache Menüboards reicht Full HD → Spark 3.
 4. **Soll es auffallen oder sich einfügen?** Einfügen → 16:9-Modelle. Auffallen → Spark Q+.
 
 ## Was alle vier Modelle gemeinsam haben
 
-- **15.5 mm Bautiefe** – wirkt wie ein gerahmtes Bild, nicht wie ein Bildschirm (Branchen-Standard 40–80 mm). Detail-Vergleich auf der [Anbieter-Vergleichs­seite](/digital-signage-anbieter-vergleich)
+- **15.5 mm Bautiefe** – wirkt wie ein gerahmtes Bild, nicht wie ein Bildschirm (Branchen-Standard 40–80 mm). Detail-Vergleich auf der [Anbieter-Vergleichs­seite](/digital-signage-anbieter-vergleich/)
 - **Daten­übertragung 100 % wireless** – kein HDMI, kein USB, kein Ethernet am Display
 - **Nieder­spannung am Display** – keine 230-V-Steckdose direkt am Gerät nötig, Installation oft ohne Elektriker
 - **24/7-Dauer­betrieb spezifiziert** – auch im durchgehenden Schaufenster-Einsatz zuverlässig
 
 ## Gemeinsame Basis: Eine Software für alle
 
-Alle Spark-Displays werden über dieselbe cloud­basierte Plattform verwaltet. Wer mit einem Spark 3 startet und später einen Spark 5 hinzufügt, steuert beide über ein Interface. Das vereinfacht die Verwaltung, besonders bei mehreren Standorten. Mehr zur Plattform: [Software-Lösung](/loesungen/software).
+Alle Spark-Displays werden über dieselbe cloud­basierte Plattform verwaltet. Wer mit einem Spark 3 startet und später einen Spark 5 hinzufügt, steuert beide über ein Interface. Das vereinfacht die Verwaltung, besonders bei mehreren Standorten. Mehr zur Plattform: [Software-Lösung](/loesungen/software/).
 
 ## Kaufen oder mieten?
 
-Alle Modelle sind als Kauf und im Mietmodell verfügbar. Die Miete enthält Software und Support — ideal für den Einstieg oder temporäre Einsätze. Mehr dazu: [Digital Signage mieten](/digital-signage-mieten) oder [kaufen](/digital-signage-kaufen).
+Alle Modelle sind als Kauf und im Mietmodell verfügbar. Die Miete enthält Software und Support — ideal für den Einstieg oder temporäre Einsätze. Mehr dazu: [Digital Signage mieten](/digital-signage-mieten/) oder [kaufen](/digital-signage-kaufen/).
 
 ## Nächste Schritte
 
-- Alle Preise zum Kauf: [Digital Signage kaufen](/digital-signage-kaufen)
-- Mietangebote: [Digital Signage mieten](/digital-signage-mieten)
-- Kosten transparent: [Was kostet Digital Signage?](/was-kostet-digital-signage-schweiz)
-- Anbieter im Vergleich: [Anbieter-Vergleichs­seite](/digital-signage-anbieter-vergleich)
-- Persönliche Beratung: [Kontakt aufnehmen](/kontakt)
+- Alle Preise zum Kauf: [Digital Signage kaufen](/digital-signage-kaufen/)
+- Mietangebote: [Digital Signage mieten](/digital-signage-mieten/)
+- Kosten transparent: [Was kostet Digital Signage?](/was-kostet-digital-signage-schweiz/)
+- Anbieter im Vergleich: [Anbieter-Vergleichs­seite](/digital-signage-anbieter-vergleich/)
+- Persönliche Beratung: [Kontakt aufnehmen](/kontakt/)

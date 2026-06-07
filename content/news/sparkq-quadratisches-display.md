@@ -19,7 +19,7 @@ Rechteckige Displays sind Standard — genau deshalb fallen sie kaum noch auf. E
 - **Empfangs­bereiche mit Designan­spruch** — Architektur­büros, Agenturen, Design-Hotels
 - **Raster­installationen** — mehrere Spark Q+ in einer Grid-Anordnung ergeben eine eindrucks­volle Bildwand
 - **Spezielle Inhalte** — Social-Media-Feeds (Instagram-Format), Uhren, Logos, Kunst­installationen
-- **[Digitale Raumbeschilderung](/loesungen/digitale-raumbeschilderung)** in Meetingräumen oder Coworking-Flächen
+- **[Digitale Raumbeschilderung](/loesungen/digitale-raumbeschilderung/)** in Meetingräumen oder Coworking-Flächen
 
 ## Technische Daten
 
@@ -42,7 +42,7 @@ Rechteckige Displays sind Standard — genau deshalb fallen sie kaum noch auf. E
 
 ### Im Retail
 
-Ein Concept Store platziert drei Spark Q+ nebeneinander — jeder zeigt ein anderes Produkt aus der aktuellen Kollektion. Die quadratische Form passt perfekt zu Instagram-Inhalten und erzeugt ein modernes, kuratiertes Bild. Ergänzt mit einem grösseren [Spark 5 als Schaufenster­display](/news/spark5-neues-modell) entsteht ein konsistentes visuelles Ensemble.
+Ein Concept Store platziert drei Spark Q+ nebeneinander — jeder zeigt ein anderes Produkt aus der aktuellen Kollektion. Die quadratische Form passt perfekt zu Instagram-Inhalten und erzeugt ein modernes, kuratiertes Bild. Ergänzt mit einem grösseren [Spark 5 als Schaufenster­display](/news/spark5-neues-modell/) entsteht ein konsistentes visuelles Ensemble.
 
 ### Im Empfangs­bereich
 
@@ -50,7 +50,7 @@ Ein Architektur­büro nutzt einen Spark Q+ als digitale Kunst­installation im 
 
 ### Als Raumteiler oder Wand­element
 
-In Kombination mit einer Stand­säule wird der Spark Q+ zum freistehenden Informations­objekt. In Ausstellungen, Showrooms oder Lobbys eine elegante Alternative zur klassischen Wand­montage. Siehe auch die Lösungs­seite [Digitale Infostele](/loesungen/digitale-infostele).
+In Kombination mit einer Stand­säule wird der Spark Q+ zum freistehenden Informations­objekt. In Ausstellungen, Showrooms oder Lobbys eine elegante Alternative zur klassischen Wand­montage. Siehe auch die Lösungs­seite [Digitale Infostele](/loesungen/digitale-infostele/).
 
 ## Für wen der Spark Q+ passt
 
@@ -61,11 +61,11 @@ Der Spark Q+ ist kein Allrounder — er ist ein Spezialist. Er eignet sich für 
 - Wer mehrere Displays zu einem Gesamtbild kombinieren will
 - Wer einen Eyecatcher sucht, der Gesprächs­stoff bietet
 
-Für klassische Menüboards, Schaufenster oder Informations­displays sind die rechteckigen Modelle [Spark 3](/digital-signage-kaufen), [Spark 4](/digital-signage-kaufen) oder [Spark 5](/news/spark5-neues-modell) die bessere Wahl. Hilfe bei der Auswahl: [Spark-Sortiment im Vergleich](/news/spark-sortiment-vergleich).
+Für klassische Menüboards, Schaufenster oder Informations­displays sind die rechteckigen Modelle [Spark 3](/digital-signage-kaufen/), [Spark 4](/digital-signage-kaufen/) oder [Spark 5](/news/spark5-neues-modell/) die bessere Wahl. Hilfe bei der Auswahl: [Spark-Sortiment im Vergleich](/news/spark-sortiment-vergleich/).
 
 ## Wireless installiert in Minuten
 
-Wie alle Spark-Modelle ist der Spark Q+ vollständig kabellos – Daten kommen über WiFi6, Strom über ein externes 120-W-Netzteil mit 24-V-DC-Zuleitung zum Display. Das ermöglicht Installationen auch dort, wo keine 230-V-Steckdose direkt am Wandplatz vorhanden ist. Weitere Details im [Anbieter-Vergleich](/digital-signage-anbieter-vergleich).
+Wie alle Spark-Modelle ist der Spark Q+ vollständig kabellos – Daten kommen über WiFi6, Strom über ein externes 120-W-Netzteil mit 24-V-DC-Zuleitung zum Display. Das ermöglicht Installationen auch dort, wo keine 230-V-Steckdose direkt am Wandplatz vorhanden ist. Weitere Details im [Anbieter-Vergleich](/digital-signage-anbieter-vergleich/).
 
 ## Preise
 
@@ -77,8 +77,8 @@ Mietpreis inklusive Hardware, Software und Support. Einmalige Einrichtungs­paus
 
 ## Nächste Schritte
 
-- Alle Modelle vergleichen: [Spark-Sortiment im Vergleich](/news/spark-sortiment-vergleich)
-- Kaufoptionen: [Digital Signage kaufen](/digital-signage-kaufen)
-- Mietoptionen: [Digital Signage mieten](/digital-signage-mieten)
-- Kosten transparent: [Was kostet Digital Signage?](/was-kostet-digital-signage-schweiz)
-- Beratung: [Jetzt Kontakt aufnehmen](/kontakt)
+- Alle Modelle vergleichen: [Spark-Sortiment im Vergleich](/news/spark-sortiment-vergleich/)
+- Kaufoptionen: [Digital Signage kaufen](/digital-signage-kaufen/)
+- Mietoptionen: [Digital Signage mieten](/digital-signage-mieten/)
+- Kosten transparent: [Was kostet Digital Signage?](/was-kostet-digital-signage-schweiz/)
+- Beratung: [Jetzt Kontakt aufnehmen](/kontakt/)

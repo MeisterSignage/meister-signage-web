@@ -11,7 +11,7 @@ status: scheduled
 
 Ein digitales Menüboard kann ein gedrucktes Pendant in jedem Punkt schlagen – wenn es richtig aufgesetzt wird. Wir sehen aber regelmässig die gleichen fünf Fehler in Schweizer Gastro-Betrieben, die später Mehraufwand bedeuten oder die Wirkung des Displays mindern. Hier konkret, was zu vermeiden ist und wie es richtig geht.
 
-> Eine grundsätzliche Übersicht zur Lösung gibt es unter [/loesungen/digitale-menueboards](/loesungen/digitale-menueboards). Dieser Artikel fokussiert auf die häufigsten Praxis-Stolpersteine beim Setup.
+> Eine grundsätzliche Übersicht zur Lösung gibt es unter [/loesungen/digitale-menueboards](/loesungen/digitale-menueboards/). Dieser Artikel fokussiert auf die häufigsten Praxis-Stolpersteine beim Setup.
 
 ## Fehler 1: Display zu klein für den Betrachtungs­abstand
 
@@ -23,7 +23,7 @@ Der häufigste Fehler. Ein 32-Zoll-Display hinter einer 5 m langen Theke wirkt v
 | Standard-Restaurant (3–4 m) | 43 Zoll (Spark 4) |
 | Schaufenster oder grosse Theke (5 m+) | 50 Zoll (Spark 5) |
 
-Eine ausführliche Anleitung zur Grössen­wahl mit weiteren Faktoren wie Helligkeit und Format: [Digital Signage Grösse wählen](/wissen/digital-signage-groesse-waehlen).
+Eine ausführliche Anleitung zur Grössen­wahl mit weiteren Faktoren wie Helligkeit und Format: [Digital Signage Grösse wählen](/wissen/digital-signage-groesse-waehlen/).
 
 ## Fehler 2: Zu viele Inhalte auf einer Folie
 
@@ -49,13 +49,13 @@ Wer das Menüboard manuell zwischen Frühstücks-, Lunch- und Abendkarte umstell
 | 17:00–22:00 | Abendkarte und Bar |
 | 22:00–06:00 | Standby oder Late-Night-Snack |
 
-Einmal eingerichtet, läuft das jeden Tag automatisch. Mehr zur Cloud-Steuerung: [Software-Lösungsseite](/loesungen/software).
+Einmal eingerichtet, läuft das jeden Tag automatisch. Mehr zur Cloud-Steuerung: [Software-Lösungsseite](/loesungen/software/).
 
 ## Fehler 5: Falsche Helligkeit am Standort
 
 Ein Display mit 250 nits (Standard für Consumer-TVs) wirkt im hellen Café tagsüber ausgewaschen. Für die Gastro­nomie empfehlen wir **mindestens 450 nits** – das ist Standard bei der Spark-Reihe. Bei Schaufenster-Einsatz mit direktem Sonnen­licht reicht auch das nicht; dort braucht es High-Brightness-Modelle ab 700 nits, die wir auf Anfrage konfigurieren.
 
-Wer Consumer-TVs als Menüboard nutzt, läuft zudem in das zweite Problem: keine 24/7-Spezifikation. Diese Geräte sterben bei 12-Stunden-Tagesbetrieb oft innerhalb des ersten Jahres. Eine ausführliche Pro/Contra-Analyse: [Digital Signage Vor- und Nachteile](/wissen/digital-signage-vorteile-nachteile).
+Wer Consumer-TVs als Menüboard nutzt, läuft zudem in das zweite Problem: keine 24/7-Spezifikation. Diese Geräte sterben bei 12-Stunden-Tagesbetrieb oft innerhalb des ersten Jahres. Eine ausführliche Pro/Contra-Analyse: [Digital Signage Vor- und Nachteile](/wissen/digital-signage-vorteile-nachteile/).
 
 ## Bonus: Inhaltspflege nicht delegieren
 
@@ -75,8 +75,8 @@ Aus unseren Best-Practice-Projekten:
 
 ## Nächste Schritte
 
-- **Branchen­fokus Gastronomie:** [/branchen/gastronomie](/branchen/gastronomie)
-- **Trend-Artikel zu Menüboards 2026:** [Digital Signage in der Gastronomie](/news/digital-signage-gastronomie-2025)
-- **Spark-Sortiment im Vergleich:** [Welches Modell für meine Theke?](/news/spark-sortiment-vergleich)
-- **Kostenübersicht:** [/was-kostet-digital-signage-schweiz](/was-kostet-digital-signage-schweiz)
-- **Direkte Beratung:** [Kontakt aufnehmen](/kontakt)
+- **Branchen­fokus Gastronomie:** [/branchen/gastronomie](/branchen/gastronomie/)
+- **Trend-Artikel zu Menüboards 2026:** [Digital Signage in der Gastronomie](/news/digital-signage-gastronomie-2025/)
+- **Spark-Sortiment im Vergleich:** [Welches Modell für meine Theke?](/news/spark-sortiment-vergleich/)
+- **Kostenübersicht:** [/was-kostet-digital-signage-schweiz](/was-kostet-digital-signage-schweiz/)
+- **Direkte Beratung:** [Kontakt aufnehmen](/kontakt/)

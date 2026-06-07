@@ -11,7 +11,7 @@ status: scheduled
 
 Im Schweizer Retail dreht sich das Marketingjahr um wenige grosse Sale-Momente: Frühlings­kollektion, Sommer­schluss­verkauf, Back-to-School, Black Friday, Vorweihnachts­geschäft, Januar-Sale. Wer diese Spitzen mit gedruckten Plakaten und Aufstellern bedient, verbringt 2026 viele Stunden mit Plakatdruck-Logistik. Digital Signage löst das – aber nur, wenn die Planung früh genug startet.
 
-> Eine allgemeine Übersicht zum Retail-Einsatz findet sich auf der Branchen­seite [/branchen/retail](/branchen/retail). Dieser Artikel zeigt konkret, wie man Sale-Saisons digital plant.
+> Eine allgemeine Übersicht zum Retail-Einsatz findet sich auf der Branchen­seite [/branchen/retail](/branchen/retail/). Dieser Artikel zeigt konkret, wie man Sale-Saisons digital plant.
 
 ## Der typische Sale-Plan ohne Digital Signage
 
@@ -53,7 +53,7 @@ Bei sechs Saison­wechseln pro Jahr:
 | Personal­zeit (à CHF 60/h) | CHF 1.800–3.000 | CHF 300 (Inhalte erstellen) |
 | Total pro Jahr | **CHF 3.300–5.500** | **CHF 300** |
 
-Bei einer einmaligen Display-Investition von CHF 1.499 (Spark 4) plus CHF 180/Jahr Lizenz ist der Break-Even nach 4–6 Monaten. Mehr zu Kosten auf der [Kosten­seite](/was-kostet-digital-signage-schweiz).
+Bei einer einmaligen Display-Investition von CHF 1.499 (Spark 4) plus CHF 180/Jahr Lizenz ist der Break-Even nach 4–6 Monaten. Mehr zu Kosten auf der [Kosten­seite](/was-kostet-digital-signage-schweiz/).
 
 ## Zeit­steuerung: das eigentliche Highlight
 
@@ -67,30 +67,30 @@ Das geht mit Plakaten schlicht nicht – ausser man stellt jemanden ein, der jed
 
 ## Welche Hardware für Schaufenster
 
-Für Schaufenster­einsatz im Retail haben wir eine eigene Lösungs­seite: [Digitale Schaufensterwerbung](/loesungen/digitale-schaufensterwerbung). Die wichtigsten Eigenschaften:
+Für Schaufenster­einsatz im Retail haben wir eine eigene Lösungs­seite: [Digitale Schaufensterwerbung](/loesungen/digitale-schaufensterwerbung/). Die wichtigsten Eigenschaften:
 
 - **Mindestens 450 nits Helligkeit** – sonst wirkt das Display tagsüber ausgewaschen
 - **24/7-Dauer­betrieb spezifiziert** – damit es auch nach Laden­schluss läuft
 - **Mindestens 43 Zoll** – damit Passanten es aus 4–5 m Distanz wahrnehmen
 - **Bautiefe ≤ 20 mm** – damit es im Schaufenster nicht klobig wirkt
 
-Die Spark-Reihe erfüllt alle vier Punkte – mit nur 15.5 mm Tiefe. Detaillierter Vergleich auf der [Anbieter-Vergleichsseite](/digital-signage-anbieter-vergleich).
+Die Spark-Reihe erfüllt alle vier Punkte – mit nur 15.5 mm Tiefe. Detaillierter Vergleich auf der [Anbieter-Vergleichsseite](/digital-signage-anbieter-vergleich/).
 
 ## Was bei mehreren Filialen anders ist
 
-Wer 3, 5 oder 20 Filialen betreibt, gewinnt zusätzliche Vorteile durch zentrale Steuerung. Eine Kampagne wird einmal erstellt, auf alle Filialen verteilt – mit optional lokalen Anpassungen (z.B. Adress­zeile mit lokaler Filial-Telefon­nummer). Über die Software-Plattform: [/loesungen/software](/loesungen/software).
+Wer 3, 5 oder 20 Filialen betreibt, gewinnt zusätzliche Vorteile durch zentrale Steuerung. Eine Kampagne wird einmal erstellt, auf alle Filialen verteilt – mit optional lokalen Anpassungen (z.B. Adress­zeile mit lokaler Filial-Telefon­nummer). Über die Software-Plattform: [/loesungen/software](/loesungen/software/).
 
 ## Welche Spark-Modelle im Retail-Einsatz
 
 Aus unseren Retail-Projekten:
 
-- **Schaufenster:** [Spark 5 (50")](/news/spark5-neues-modell) für maximale Sichtbarkeit
-- **Eingangs­bereich:** [Spark 4 (43")](/digital-signage-kaufen) als Bestseller
-- **Theke/Kassen­bereich:** [Spark 3 (32")](/digital-signage-kaufen) für Treue­programm und Cross-Sell
-- **Concept-Store/Design:** [Spark Q+ (33" quadratisch)](/digital-signage-kaufen) als Eyecatcher
+- **Schaufenster:** [Spark 5 (50")](/news/spark5-neues-modell/) für maximale Sichtbarkeit
+- **Eingangs­bereich:** [Spark 4 (43")](/digital-signage-kaufen/) als Bestseller
+- **Theke/Kassen­bereich:** [Spark 3 (32")](/digital-signage-kaufen/) für Treue­programm und Cross-Sell
+- **Concept-Store/Design:** [Spark Q+ (33" quadratisch)](/digital-signage-kaufen/) als Eyecatcher
 
 ## Nächste Schritte
 
 - **Jahresplan fürs Display erstellen** – wir helfen beim ersten Mal
-- **Schaufenster­modell wählen** – Beratung zur Helligkeit am Standort: [Kontakt](/kontakt)
-- **Lösungs­übersicht für Retail:** [Branche Retail](/branchen/retail) und [Digitales Werbedisplay](/loesungen/digitales-werbedisplay)
+- **Schaufenster­modell wählen** – Beratung zur Helligkeit am Standort: [Kontakt](/kontakt/)
+- **Lösungs­übersicht für Retail:** [Branche Retail](/branchen/retail/) und [Digitales Werbedisplay](/loesungen/digitales-werbedisplay/)

@@ -39,7 +39,7 @@ Auf den ersten Blick sieht ein Consumer-TV ähnlich aus – aber drei Dinge sind
 
 ### Schaufenster im Retail
 
-Mit 4K-Auflösung und 450 nits bleibt das Spark 5 auch bei direkter Schaufenster­beleuchtung scharf. Ideal für saisonale Kampagnen, Neuheiten und Verkaufs­aktionen – die rund um die Uhr laufen, auch nach Laden­schluss. Wer mehr zu dieser Anwendung wissen möchte, findet eine fokussierte Lösungsseite zu [digitaler Schaufensterwerbung](/loesungen/digitale-schaufensterwerbung).
+Mit 4K-Auflösung und 450 nits bleibt das Spark 5 auch bei direkter Schaufenster­beleuchtung scharf. Ideal für saisonale Kampagnen, Neuheiten und Verkaufs­aktionen – die rund um die Uhr laufen, auch nach Laden­schluss. Wer mehr zu dieser Anwendung wissen möchte, findet eine fokussierte Lösungsseite zu [digitaler Schaufensterwerbung](/loesungen/digitale-schaufensterwerbung/).
 
 ### Empfangshalle in Hotels und Unternehmen
 
@@ -47,17 +47,17 @@ Im Empfangs­bereich grosser Hotels oder Firmen­gebäude wirken kleinere Displa
 
 ### Bühnenrückwand bei Events
 
-Bei Tagungen und Anlässen ersetzt das Spark 5 oft eine kleinere LED-Wand. Es ist leichter zu transportieren, schneller aufgestellt und benötigt keinen externen Media Player. Für Events ist auch die [Mietvariante](/digital-signage-mieten) attraktiv – flexibel, mit Auf- und Abbau-Service.
+Bei Tagungen und Anlässen ersetzt das Spark 5 oft eine kleinere LED-Wand. Es ist leichter zu transportieren, schneller aufgestellt und benötigt keinen externen Media Player. Für Events ist auch die [Mietvariante](/digital-signage-mieten/) attraktiv – flexibel, mit Auf- und Abbau-Service.
 
 ## Installation: kabellos und ohne Elektriker
 
-Eine Besonderheit, die wir in der [Vergleichstabelle](/digital-signage-anbieter-vergleich) auch dokumentieren: Datenübertragung läuft 100 % wireless über WiFi6 – kein HDMI, kein USB, kein Ethernet am Display nötig. Strom­seitig wandelt ein externes 120-W-Netzteil (GS- und TÜV-zertifiziert) 230 V auf 24 V DC. Nur eine dünne 24-V-Leitung führt zum Display. Das vereinfacht Installationen in Schaufenstern oder an Wänden ohne 230-V-Dose erheblich – häufig ohne Elektriker.
+Eine Besonderheit, die wir in der [Vergleichstabelle](/digital-signage-anbieter-vergleich/) auch dokumentieren: Datenübertragung läuft 100 % wireless über WiFi6 – kein HDMI, kein USB, kein Ethernet am Display nötig. Strom­seitig wandelt ein externes 120-W-Netzteil (GS- und TÜV-zertifiziert) 230 V auf 24 V DC. Nur eine dünne 24-V-Leitung führt zum Display. Das vereinfacht Installationen in Schaufenstern oder an Wänden ohne 230-V-Dose erheblich – häufig ohne Elektriker.
 
 ## Welche Grösse für welchen Einsatz?
 
-50 Zoll sind nicht für jeden Standort die richtige Wahl. Eine kompakte Theke oder ein kleines Empfangs­büro wirkt mit dem Spark 5 schnell überdimensioniert. Eine Faustregel: **Diagonale ≈ Betrachtungs­abstand × 0.2**. Bei 5 m Abstand passt 50 Zoll, bei 2 m wäre 32 Zoll (Spark 3) besser. Eine detaillierte Anleitung findet sich im Ratgeber [Digital Signage Grösse wählen](/wissen/digital-signage-groesse-waehlen).
+50 Zoll sind nicht für jeden Standort die richtige Wahl. Eine kompakte Theke oder ein kleines Empfangs­büro wirkt mit dem Spark 5 schnell überdimensioniert. Eine Faustregel: **Diagonale ≈ Betrachtungs­abstand × 0.2**. Bei 5 m Abstand passt 50 Zoll, bei 2 m wäre 32 Zoll (Spark 3) besser. Eine detaillierte Anleitung findet sich im Ratgeber [Digital Signage Grösse wählen](/wissen/digital-signage-groesse-waehlen/).
 
-Für die anderen Einsatz­bereiche stehen die kompakteren Modelle bereit: Der [Spark 3](/digital-signage-kaufen) für Theke und POS, der [Spark 4](/digital-signage-kaufen) als Bestseller für mittlere Räume.
+Für die anderen Einsatz­bereiche stehen die kompakteren Modelle bereit: Der [Spark 3](/digital-signage-kaufen/) für Theke und POS, der [Spark 4](/digital-signage-kaufen/) als Bestseller für mittlere Räume.
 
 ## Preise
 
@@ -69,7 +69,7 @@ Im Mietpreis sind Software-Lizenz, Cloud-Steuerung und Support enthalten. Mietda
 
 ## Nächste Schritte
 
-- Alle vier Modelle direkt verglichen: [Spark-Sortiment im Vergleich](/news/spark-sortiment-vergleich)
-- Hardware-Details und Preistabelle: [Digital Signage kaufen](/digital-signage-kaufen)
-- Mietvariante für Events oder Pop-ups: [Digital Signage mieten](/digital-signage-mieten)
-- Persönliche Beratung: [Kontakt aufnehmen](/kontakt)
+- Alle vier Modelle direkt verglichen: [Spark-Sortiment im Vergleich](/news/spark-sortiment-vergleich/)
+- Hardware-Details und Preistabelle: [Digital Signage kaufen](/digital-signage-kaufen/)
+- Mietvariante für Events oder Pop-ups: [Digital Signage mieten](/digital-signage-mieten/)
+- Persönliche Beratung: [Kontakt aufnehmen](/kontakt/)

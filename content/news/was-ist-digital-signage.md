@@ -11,7 +11,7 @@ status: scheduled
 
 Digital Signage als Konzept ist nicht neu – aber 2026 verändert sich gerade Vieles, was vor wenigen Jahren noch Standard war. Hier fünf Trends, die in der Schweiz dieses Jahr sichtbar werden – mit konkreten Auswirkungen für KMU, die einsteigen oder erweitern.
 
-> Wenn Sie zuerst die Basics zu Digital Signage suchen, empfehlen wir den Einsteiger-Ratgeber [Was ist Digital Signage?](/wissen/was-ist-digital-signage) im Wissens-Hub. Dieser Artikel fokussiert auf das, was sich 2026 verändert.
+> Wenn Sie zuerst die Basics zu Digital Signage suchen, empfehlen wir den Einsteiger-Ratgeber [Was ist Digital Signage?](/wissen/was-ist-digital-signage/) im Wissens-Hub. Dieser Artikel fokussiert auf das, was sich 2026 verändert.
 
 ## Trend 1: Vollständig kabellose Architektur
 
@@ -22,7 +22,7 @@ Die neueste Generation professioneller Digital-Signage-Displays hat keine HDMI-,
 - Installations­zeit halbiert sich
 - Weniger Komponenten = weniger Stör­quellen
 
-Konkretes Beispiel: Die Spark-Reihe von Meister Signage ist komplett wireless aufgebaut – nur die Strom­leitung führt noch zum Display. Details dazu auf der Lösungs­seite [Digitales Werbedisplay](/loesungen/digitales-werbedisplay).
+Konkretes Beispiel: Die Spark-Reihe von Meister Signage ist komplett wireless aufgebaut – nur die Strom­leitung führt noch zum Display. Details dazu auf der Lösungs­seite [Digitales Werbedisplay](/loesungen/digitales-werbedisplay/).
 
 ## Trend 2: Niederspannungs-Stromversorgung (typisch 24 V DC)
 
@@ -45,19 +45,19 @@ Klassische Mietverträge in der Digital-Signage-Branche waren oft monatlich. Inz
 | Pop-up-Stores, saisonale Aktionen | 1–6 Monate |
 | Test- oder Übergangs­miete vor Kauf | ab 1 Monat |
 
-Im Detail: [Digital Signage mieten](/digital-signage-mieten). Praxisbeispiele im Artikel [Mieten oder Kaufen: 5 KMU-Fälle](/news/digital-signage-mieten-oder-kaufen).
+Im Detail: [Digital Signage mieten](/digital-signage-mieten/). Praxisbeispiele im Artikel [Mieten oder Kaufen: 5 KMU-Fälle](/news/digital-signage-mieten-oder-kaufen/).
 
 ## Trend 4: 24/7-Standard statt Consumer-TV-Hack
 
 Vor wenigen Jahren haben kleinere Betriebe oft Consumer-TVs als improvisiertes Digital-Signage genutzt. Das funktioniert kurzfristig, aber bei 12-Stunden-Tagesbetrieb sterben Consumer-Geräte oft innerhalb eines Jahres. 2026 wird die Lücke zwischen Consumer-TV (CHF 400) und Profi-Display (ab CHF 1.299) immer wirtschaftlicher zu schliessen – weil die Profi-Geräte günstiger werden und mehrere Jahre halten.
 
-Eine ausführliche Pro/Contra-Liste zur Entscheidung Consumer-TV vs. Profi-Display findet sich im Ratgeber [Vor- und Nachteile von Digital Signage](/wissen/digital-signage-vorteile-nachteile).
+Eine ausführliche Pro/Contra-Liste zur Entscheidung Consumer-TV vs. Profi-Display findet sich im Ratgeber [Vor- und Nachteile von Digital Signage](/wissen/digital-signage-vorteile-nachteile/).
 
 ## Trend 5: Transparente Preise statt Beratungs­modell
 
 Lange war es Branchen­standard, Digital-Signage-Lösungen ausschliesslich projekt­basiert anzubieten – sprich: "Kontaktieren Sie uns für ein individuelles Angebot". Das ist für komplexe Multi-Standort-Projekte sinnvoll, für KMU aber abschreckend.
 
-2026 zeigt sich, dass Standard-KMU-Lösungen mit Festpreisen massiv schneller verkauft werden. Wir veröffentlichen alle Preise transparent: ab CHF 129 zur Miete oder ab CHF 1.299 zum Kauf, plus klar ausgewiesene Lizenz- und Einrichtungs­kosten. Der direkte Vergleich mit anderen Schweizer Anbietern: [Anbieter-Vergleich](/digital-signage-anbieter-vergleich).
+2026 zeigt sich, dass Standard-KMU-Lösungen mit Festpreisen massiv schneller verkauft werden. Wir veröffentlichen alle Preise transparent: ab CHF 129 zur Miete oder ab CHF 1.299 zum Kauf, plus klar ausgewiesene Lizenz- und Einrichtungs­kosten. Der direkte Vergleich mit anderen Schweizer Anbietern: [Anbieter-Vergleich](/digital-signage-anbieter-vergleich/).
 
 ## Was diese 5 Trends für Schweizer KMU bedeuten
 
@@ -71,8 +71,8 @@ Lange war es Branchen­standard, Digital-Signage-Lösungen ausschliesslich proje
 
 Drei realistische Schritte:
 
-1. **Use-Case klären** – wo soll das Display stehen, was soll es zeigen? Übersicht: [/loesungen](/loesungen)
-2. **Modell wählen** – Grösse und Format passend zum Standort. Ratgeber: [Grösse wählen](/wissen/digital-signage-groesse-waehlen)
-3. **Kosten einschätzen** – transparente Preise auf [/was-kostet-digital-signage-schweiz](/was-kostet-digital-signage-schweiz)
+1. **Use-Case klären** – wo soll das Display stehen, was soll es zeigen? Übersicht: [/loesungen](/loesungen/)
+2. **Modell wählen** – Grösse und Format passend zum Standort. Ratgeber: [Grösse wählen](/wissen/digital-signage-groesse-waehlen/)
+3. **Kosten einschätzen** – transparente Preise auf [/was-kostet-digital-signage-schweiz](/was-kostet-digital-signage-schweiz/)
 
-Bei Fragen reicht eine kurze [Anfrage](/kontakt) – wir melden uns persönlich innert 24 h.
+Bei Fragen reicht eine kurze [Anfrage](/kontakt/) – wir melden uns persönlich innert 24 h.

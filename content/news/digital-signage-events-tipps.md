@@ -20,7 +20,7 @@ Digital Signage am Event braucht Vorlaufzeit. Nicht wegen der Technik — die is
 - Wegweisung und Raumbeschilderung vorbereiten
 - Testlauf vor Ort durchführen
 
-**Faustregel:** Mindestens zwei Wochen Vorlauf einplanen, ideal sind drei bis vier. Bei Mietdisplays auch die Liefer- und Aufbau­logistik abstimmen – wir koordinieren das gerne im Rahmen unserer [Mietangebote](/digital-signage-mieten).
+**Faustregel:** Mindestens zwei Wochen Vorlauf einplanen, ideal sind drei bis vier. Bei Mietdisplays auch die Liefer- und Aufbau­logistik abstimmen – wir koordinieren das gerne im Rahmen unserer [Mietangebote](/digital-signage-mieten/).
 
 ## Tipp 2: Inhalte auf den Kontext abstimmen
 
@@ -44,7 +44,7 @@ An Events herrscht oft Bewegung und Distanz. Texte müssen gross genug sein, um 
 - **Weniger Text:** Jede Folie sollte in 5 Sekunden erfassbar sein
 - **Klare Hierarchie:** Hauptaussage oben, Details darunter
 
-Detaillierte Anleitung zur Display-Grösse abhängig vom Betrachtungs­abstand: [Digital Signage Grösse wählen](/wissen/digital-signage-groesse-waehlen).
+Detaillierte Anleitung zur Display-Grösse abhängig vom Betrachtungs­abstand: [Digital Signage Grösse wählen](/wissen/digital-signage-groesse-waehlen/).
 
 ## Tipp 4: Zeitsteuerung nutzen
 
@@ -55,13 +55,13 @@ Die meisten Events folgen einem Zeitplan. Nutzen Sie die Zeitsteuerung der Softw
 - Nachmittags: Nachmittagsprogramm und Abendveranstaltung
 - Nach Eventende: Danke-Screen mit Feedback-Link
 
-So müssen Inhalte nicht manuell gewechselt werden — das spart Stress am Eventtag. Mehr zur Cloud-Steuerung: [Software-Lösung](/loesungen/software).
+So müssen Inhalte nicht manuell gewechselt werden — das spart Stress am Eventtag. Mehr zur Cloud-Steuerung: [Software-Lösung](/loesungen/software/).
 
 ## Tipp 5: Technik vorher testen
 
 Klingt selbstverständlich, wird aber oft vergessen: Vor dem Event sollte ein Testlauf stattfinden. Dabei wird geprüft:
 
-- Ist die WLAN-Verbindung stabil? (Bei mobilem Standort: [4G LTE-Variante](/loesungen/mobile-displays) prüfen)
+- Ist die WLAN-Verbindung stabil? (Bei mobilem Standort: [4G LTE-Variante](/loesungen/mobile-displays/) prüfen)
 - Stimmen die Displayeinstellungen (Helligkeit, Ausrichtung)?
 - Laufen alle geplanten Inhalte korrekt durch?
 - Sind Kabel sauber verlegt und gesichert?
@@ -74,14 +74,14 @@ Für einmalige oder seltene Anlässe lohnt sich die Miete. Die Displays werden g
 
 Welches Modell für welchen Eventtyp?
 
-- **Kongress / Tagung:** [Spark 4 (43")](/digital-signage-kaufen) für Wegweisung und Raumbeschilderung
-- **Messe-Stand:** [Spark 5 (50")](/news/spark5-neues-modell) als Bühnenrückwand oder Hingucker
-- **Pop-up / Outdoor-Event:** [Mobile Displays](/loesungen/mobile-displays) mit Akku-Variante
-- **Eingangs­bereich:** [Digitale Kundenstopper](/loesungen/digitale-kundenstopper) – aufstellbar, ohne Wandmontage
+- **Kongress / Tagung:** [Spark 4 (43")](/digital-signage-kaufen/) für Wegweisung und Raumbeschilderung
+- **Messe-Stand:** [Spark 5 (50")](/news/spark5-neues-modell/) als Bühnenrückwand oder Hingucker
+- **Pop-up / Outdoor-Event:** [Mobile Displays](/loesungen/mobile-displays/) mit Akku-Variante
+- **Eingangs­bereich:** [Digitale Kundenstopper](/loesungen/digitale-kundenstopper/) – aufstellbar, ohne Wandmontage
 
 ## Nächste Schritte
 
-- **Branchen­seite mit weiteren Event-Anwendungen:** [/branchen/events](/branchen/events)
-- **Spezial­lösung:** [Event-Displays](/loesungen/event-displays)
-- **Anbieter direkt vergleichen:** [Anbieter-Vergleich](/digital-signage-anbieter-vergleich)
-- **Direkte Beratung für Ihr Event:** [Kontakt aufnehmen](/kontakt)
+- **Branchen­seite mit weiteren Event-Anwendungen:** [/branchen/events](/branchen/events/)
+- **Spezial­lösung:** [Event-Displays](/loesungen/event-displays/)
+- **Anbieter direkt vergleichen:** [Anbieter-Vergleich](/digital-signage-anbieter-vergleich/)
+- **Direkte Beratung für Ihr Event:** [Kontakt aufnehmen](/kontakt/)

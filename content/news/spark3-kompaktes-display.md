@@ -43,7 +43,7 @@ Der Spark 3 ist das Einstiegs­modell im Meister-Signage-Sortiment. Kompakt, zuv
 
 Der Spark 3 wird schlüssel­fertig geliefert. Auspacken, anschliessen, mit dem WLAN verbinden — die Inhalte erscheinen automatisch. Die gesamte Einrichtung dauert weniger als 30 Minuten.
 
-Inhalte werden über die [cloud­basierte Software](/loesungen/software) von Meister Signage verwaltet. Änderungen lassen sich von jedem Gerät mit Internetzugang vornehmen — auch vom Smartphone.
+Inhalte werden über die [cloud­basierte Software](/loesungen/software/) von Meister Signage verwaltet. Änderungen lassen sich von jedem Gerät mit Internetzugang vornehmen — auch vom Smartphone.
 
 ## Kompakt heisst nicht eingeschränkt
 
@@ -58,7 +58,7 @@ Wer heute mit einem Spark 3 startet und später einen Spark 4 oder Spark 5 hinzu
 
 ## Wie schmal 15.5 mm wirklich sind
 
-Branchen-Standard bei professionellen Digital-Signage-Displays liegt bei 40–80 mm Bautiefe. Der Spark 3 mit 15.5 mm fällt durch das Raster nach unten – wirkt damit eher wie ein gerahmtes Bild an der Wand als wie ein technisches Gerät. Detail-Vergleich mit anderen Schweizer Anbietern: [Anbieter im Vergleich](/digital-signage-anbieter-vergleich).
+Branchen-Standard bei professionellen Digital-Signage-Displays liegt bei 40–80 mm Bautiefe. Der Spark 3 mit 15.5 mm fällt durch das Raster nach unten – wirkt damit eher wie ein gerahmtes Bild an der Wand als wie ein technisches Gerät. Detail-Vergleich mit anderen Schweizer Anbietern: [Anbieter im Vergleich](/digital-signage-anbieter-vergleich/).
 
 ## Preise
 
@@ -66,7 +66,7 @@ Branchen-Standard bei professionellen Digital-Signage-Displays liegt bei 40–80
 |---|---|---|
 | Spark 3 (32 Zoll, Full HD) | ab CHF 1.299 | ab CHF 129 |
 
-Im Mietpreis enthalten: Hardware, Software-Lizenz und technischer Support. Einmalige Einrichtungs­pauschale: CHF 149. Beim Kauf separate Lizenz ab CHF 180/Jahr – vollständige Aufschlüsselung: [Was kostet Digital Signage?](/was-kostet-digital-signage-schweiz).
+Im Mietpreis enthalten: Hardware, Software-Lizenz und technischer Support. Einmalige Einrichtungs­pauschale: CHF 149. Beim Kauf separate Lizenz ab CHF 180/Jahr – vollständige Aufschlüsselung: [Was kostet Digital Signage?](/was-kostet-digital-signage-schweiz/).
 
 ## Wann der Spark 3 die richtige Wahl ist
 
@@ -75,12 +75,12 @@ Im Mietpreis enthalten: Hardware, Software-Lizenz und technischer Support. Einma
 - Das Budget soll überschaubar bleiben
 - Full HD reicht für die geplanten Inhalte aus
 
-Für grössere Flächen oder 4K-Anforderungen empfehlen wir den [Spark 4](/digital-signage-kaufen) (43 Zoll) oder den [Spark 5](/news/spark5-neues-modell) (50 Zoll). Detaillierte Anleitung zur Grössen­wahl: [Digital Signage Grösse wählen](/wissen/digital-signage-groesse-waehlen).
+Für grössere Flächen oder 4K-Anforderungen empfehlen wir den [Spark 4](/digital-signage-kaufen/) (43 Zoll) oder den [Spark 5](/news/spark5-neues-modell/) (50 Zoll). Detaillierte Anleitung zur Grössen­wahl: [Digital Signage Grösse wählen](/wissen/digital-signage-groesse-waehlen/).
 
 ## Nächste Schritte
 
-- Alle Modelle im Vergleich: [Das komplette Spark-Sortiment](/news/spark-sortiment-vergleich)
-- Kosten im Detail: [Was kostet Digital Signage?](/was-kostet-digital-signage-schweiz)
-- Mietoption: [Digital Signage mieten](/digital-signage-mieten)
-- Kaufoption: [Digital Signage kaufen](/digital-signage-kaufen)
-- Beratung: [Jetzt Kontakt aufnehmen](/kontakt)
+- Alle Modelle im Vergleich: [Das komplette Spark-Sortiment](/news/spark-sortiment-vergleich/)
+- Kosten im Detail: [Was kostet Digital Signage?](/was-kostet-digital-signage-schweiz/)
+- Mietoption: [Digital Signage mieten](/digital-signage-mieten/)
+- Kaufoption: [Digital Signage kaufen](/digital-signage-kaufen/)
+- Beratung: [Jetzt Kontakt aufnehmen](/kontakt/)

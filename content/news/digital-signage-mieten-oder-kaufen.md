@@ -11,7 +11,7 @@ status: scheduled
 
 Die theoretische Antwort zu Mieten vs. Kaufen ist einfach: dauerhaft = Kauf, temporär = Miete. In der Praxis liegt der Teufel aber im Detail. Hier fünf reale Konstellationen aus Schweizer Betrieben – mit den konkreten Zahlen, die zur Entscheidung geführt haben.
 
-> Wer den allgemeinen Vergleich der beiden Modelle sucht, findet ihn im Ratgeber [Digital Signage mieten oder kaufen](/wissen/digital-signage-mieten-oder-kaufen) im Wissens-Hub. Dieser Artikel zeigt die fünf häufigsten Praxis-Konstellationen, die wir aus Beratungs­gesprächen kennen.
+> Wer den allgemeinen Vergleich der beiden Modelle sucht, findet ihn im Ratgeber [Digital Signage mieten oder kaufen](/wissen/digital-signage-mieten-oder-kaufen/) im Wissens-Hub. Dieser Artikel zeigt die fünf häufigsten Praxis-Konstellationen, die wir aus Beratungs­gesprächen kennen.
 
 ## Fall 1: Quartier­bäckerei mit Lunch-Geschäft
 
@@ -31,7 +31,7 @@ Die theoretische Antwort zu Mieten vs. Kaufen ist einfach: dauerhaft = Kauf, tem
 
 **Entscheidung:** Miete für 3 Monate à CHF 149 = CHF 447 plus einmalige Einrichtung CHF 149. Kauf­preis CHF 1.599 hätte sich erst nach >10 Monaten gerechnet. Plus: nach dem Pop-up will der Brand kein Display in seinem Berliner Headquarter lagern.
 
-**Empfehlung:** Lösungs­seite [Digitale Schaufensterwerbung](/loesungen/digitale-schaufensterwerbung) für ähnliche Konstellationen.
+**Empfehlung:** Lösungs­seite [Digitale Schaufensterwerbung](/loesungen/digitale-schaufensterwerbung/) für ähnliche Konstellationen.
 
 ## Fall 3: Restaurant testet Digital Signage skeptisch
 
@@ -41,7 +41,7 @@ Die theoretische Antwort zu Mieten vs. Kaufen ist einfach: dauerhaft = Kauf, tem
 
 **Entscheidung:** 6 Monate Miete à CHF 139 = CHF 834. Nach positiver Erfahrung Wechsel zum Kauf – wir rechnen einen Teil der bezahlten Mieten auf den Kaufpreis an (individuell ausgehandelt). 
 
-**Lehre:** Mieten als "risiko­freier Einstieg" funktioniert besonders, wenn Skepsis im Spiel ist. Siehe auch unsere [Mietkategorien­seite](/digital-signage-mieten) für die Standard­modelle.
+**Lehre:** Mieten als "risiko­freier Einstieg" funktioniert besonders, wenn Skepsis im Spiel ist. Siehe auch unsere [Mietkategorien­seite](/digital-signage-mieten/) für die Standard­modelle.
 
 ## Fall 4: Architektur­büro mit Empfangs­display
 
@@ -83,7 +83,7 @@ Egal ob Kauf oder Miete, bei Meister Signage gleich:
 
 ## Nächste Schritte
 
-- Konkrete Modell-Preise: [Digital Signage kaufen](/digital-signage-kaufen) oder [mieten](/digital-signage-mieten)
-- Allgemeiner Ratgeber zu Mieten/Kaufen: [/wissen/digital-signage-mieten-oder-kaufen](/wissen/digital-signage-mieten-oder-kaufen)
-- Alle Anbieter im Vergleich: [Anbieter-Vergleich](/digital-signage-anbieter-vergleich)
-- Individuelle Einschätzung für Ihren Fall: [Beratung anfragen](/kontakt)
+- Konkrete Modell-Preise: [Digital Signage kaufen](/digital-signage-kaufen/) oder [mieten](/digital-signage-mieten/)
+- Allgemeiner Ratgeber zu Mieten/Kaufen: [/wissen/digital-signage-mieten-oder-kaufen](/wissen/digital-signage-mieten-oder-kaufen/)
+- Alle Anbieter im Vergleich: [Anbieter-Vergleich](/digital-signage-anbieter-vergleich/)
+- Individuelle Einschätzung für Ihren Fall: [Beratung anfragen](/kontakt/)

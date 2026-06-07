@@ -11,7 +11,7 @@ status: scheduled
 
 Eine Hardware ab CHF 999 klingt verlockend – bis die monatliche Lizenz, das Installations­paket und der Premium-Support dazu­kommen. Hier eine ehrliche Übersicht der **fünf Kostenpositionen, die in vielen Erstangeboten fehlen** – und wie Sie diese erkennen, bevor Sie unterschreiben.
 
-> Eine vollständige Kostenübersicht für Schweizer Digital-Signage-Projekte gibt es auf der dedizierten Seite [Was kostet Digital Signage in der Schweiz?](/was-kostet-digital-signage-schweiz). Dieser Artikel fokussiert auf die versteckten Posten.
+> Eine vollständige Kostenübersicht für Schweizer Digital-Signage-Projekte gibt es auf der dedizierten Seite [Was kostet Digital Signage in der Schweiz?](/was-kostet-digital-signage-schweiz/). Dieser Artikel fokussiert auf die versteckten Posten.
 
 ## 1. Lizenzgebühren beim Kauf
 
@@ -33,7 +33,7 @@ Eine Hardware ab CHF 999 klingt verlockend – bis die monatliche Lizenz, das In
 
 **Typisches Missverständnis:** "Lieferkosten? Marginal."
 
-**Realität:** Ein 50-Zoll-Display ist sperrig (47×30×4 Zoll Verpackung, 17.5 kg). Schweizer Spedition: CHF 80–200. Wer eine Vor-Ort-Installation will (Wand­halterung, Stromzuleitung), zahlt typisch CHF 200–600 pro Display. Bei uns transparent ausgewiesen, oft persönlich begleitet aus der Zentralschweiz – die [Versand- und Rückgabeseite](/versand-und-rueckgabe) zeigt alle Konditionen.
+**Realität:** Ein 50-Zoll-Display ist sperrig (47×30×4 Zoll Verpackung, 17.5 kg). Schweizer Spedition: CHF 80–200. Wer eine Vor-Ort-Installation will (Wand­halterung, Stromzuleitung), zahlt typisch CHF 200–600 pro Display. Bei uns transparent ausgewiesen, oft persönlich begleitet aus der Zentralschweiz – die [Versand- und Rückgabeseite](/versand-und-rueckgabe/) zeigt alle Konditionen.
 
 **Worauf achten:** Im Angebot explizit "Lieferung CH" und "Installation" als separate Posten verlangen.
 
@@ -67,7 +67,7 @@ Ein faires Erstangebot enthält alle fünf Posten explizit – auch wenn manche 
 | **Total Jahr 1** | **CHF 1.877** |
 | Jährlich ab Jahr 2 | CHF 180 |
 
-Im [Mietmodell ab CHF 139](/digital-signage-mieten) sind Lizenz, Versand und Einrichtung im Monatspreis – nur die optionale Content-Erstellung kommt extra.
+Im [Mietmodell ab CHF 139](/digital-signage-mieten/) sind Lizenz, Versand und Einrichtung im Monatspreis – nur die optionale Content-Erstellung kommt extra.
 
 ## Wie Sie versteckte Kosten im Angebot erkennen
 
@@ -77,10 +77,10 @@ Im [Mietmodell ab CHF 139](/digital-signage-mieten) sind Lizenz, Versand und Ein
 2. **"Welche Posten kommen nach dem Erstangebot dazu, wenn ich nur die Hardware kaufe?"** – Saubere Anbieter listen Lizenz, Update, Support transparent.
 3. **"Was passiert, wenn ich nach 2 Jahren wechseln will?"** – Wer mit Cloud-Lock-in arbeitet, macht den Wechsel teuer.
 
-Wer Schweizer Anbieter direkt vergleichen will, findet die Übersicht auf [unserer Vergleichsseite](/digital-signage-anbieter-vergleich) – mit fünf Anbietern und elf Kriterien.
+Wer Schweizer Anbieter direkt vergleichen will, findet die Übersicht auf [unserer Vergleichsseite](/digital-signage-anbieter-vergleich/) – mit fünf Anbietern und elf Kriterien.
 
 ## Unsere Politik: vorab transparent
 
-Wir veröffentlichen alle Preise auf der Website – [Kauf](/digital-signage-kaufen), [Miete](/digital-signage-mieten) und [Kosten­übersicht](/was-kostet-digital-signage-schweiz). Kein versteckter Lock-in, keine Premium-Tier-Tricks. Falls Sie ein Angebot von einem anderen Anbieter haben und unsicher sind, ob alle Posten ausgewiesen sind – schicken Sie es uns, wir geben eine ehrliche Zweit­meinung.
+Wir veröffentlichen alle Preise auf der Website – [Kauf](/digital-signage-kaufen/), [Miete](/digital-signage-mieten/) und [Kosten­übersicht](/was-kostet-digital-signage-schweiz/). Kein versteckter Lock-in, keine Premium-Tier-Tricks. Falls Sie ein Angebot von einem anderen Anbieter haben und unsicher sind, ob alle Posten ausgewiesen sind – schicken Sie es uns, wir geben eine ehrliche Zweit­meinung.
 
-[Beratung anfragen](/kontakt) – innert 24 h mit klarer Einschätzung.
+[Beratung anfragen](/kontakt/) – innert 24 h mit klarer Einschätzung.
