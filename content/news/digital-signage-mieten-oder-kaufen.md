@@ -7,6 +7,16 @@ category: "Praxis"
 image: "/images/products/Spark5-Design.webp"
 slug: "digital-signage-mieten-oder-kaufen"
 status: scheduled
+carousel:
+  hook: "Digital Signage mieten oder kaufen?"
+  hookSub: "Die falsche Wahl kostet schnell mehrere hundert Franken im Jahr."
+  solution: "Die richtige Entscheidung hängt von Ihrem Einsatz ab – wir helfen."
+  solutionSub: "Dauerhaft spricht für Kauf, temporär für Miete. Der Teufel liegt im Detail."
+  benefits:
+    - "Kauf: günstiger auf Dauer"
+    - "Miete: flexibel, planbar, inkl. Service"
+    - "Beratung anhand echter KMU-Fälle"
+  cta: "Mieten oder kaufen – was passt?"
 ---
 
 Die theoretische Antwort zu Mieten vs. Kaufen ist einfach: dauerhaft = Kauf, temporär = Miete. In der Praxis liegt der Teufel aber im Detail. Hier fünf reale Konstellationen aus Schweizer Betrieben – mit den konkreten Zahlen, die zur Entscheidung geführt haben.

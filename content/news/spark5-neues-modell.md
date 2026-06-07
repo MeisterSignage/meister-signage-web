@@ -7,6 +7,16 @@ category: "Produkte"
 image: "/images/products/Spark5-Design.webp"
 slug: "spark5-neues-modell"
 status: published
+carousel:
+  hook: "Soll Ihr Schaufenster auch aus Distanz wirken?"
+  hookSub: "Kleine Displays gehen in grossen Flächen schnell unter."
+  solution: "Spark 5: 50 Zoll in 4K für Schaufenster & Empfangshallen."
+  solutionSub: "Maximale Präsenz, wo Wirkung über Distanz entscheidet."
+  benefits:
+    - "50 Zoll 4K – dominiert Schaufenster & Lobby"
+    - "24/7-Dauerbetrieb, auch im Dauereinsatz"
+    - "15.5 mm flach – wirkt wie ein gerahmtes Bild"
+  cta: "Grossflächig auffallen mit Spark 5?"
 ---
 
 Das Spark 5 ist das grösste Modell in unserem Standard-Sortiment – ausgelegt für Einsätze, bei denen Wirkung über Distanz entscheidet. Schaufenster, Hotellobby, Konferenz­halle, Empfangs­bereich. Hier sind die technischen Details und die typischen Anwendungs­fälle, für die wir es empfehlen.

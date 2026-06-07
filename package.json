@@ -34,8 +34,10 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
+    "pdf-lib": "^1.17.1",
+    "sharp": "^0.34.0",
     "tailwindcss": "^4",
-    "typescript": "^5",
-    "sharp": "^0.34.0"
+    "tsx": "^4.22.4",
+    "typescript": "^5"
   }
 }

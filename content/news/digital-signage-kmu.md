@@ -7,6 +7,16 @@ category: "Tipps"
 image: "/images/products/Unternehmen-Empfang.webp"
 slug: "digital-signage-kmu"
 status: scheduled
+carousel:
+  hook: "Denken Sie, Digital Signage lohnt sich nur für grosse Ketten?"
+  hookSub: "Zu teuer, zu kompliziert, zu viel Aufwand – die häufigsten Irrtümer."
+  solution: "Ein einziges Display bringt schon spürbaren Mehrwert."
+  solutionSub: "Richtig eingesetzt rechnet es sich auch für kleine Betriebe."
+  benefits:
+    - "Einstieg ab einem Bildschirm"
+    - "Kein IT-Team nötig – Cloud-gesteuert"
+    - "Kauf oder Miete – planbar fürs Budget"
+  cta: "Mit einem Display starten?"
 ---
 
 Viele kleine und mittlere Unternehmen gehen davon aus, dass Digital Signage nur für grosse Ketten oder Konzerne gedacht ist. Das stimmt nicht. Gerade für KMU bietet ein einzelnes Display bereits einen spürbaren Mehrwert — wenn es richtig eingesetzt wird.

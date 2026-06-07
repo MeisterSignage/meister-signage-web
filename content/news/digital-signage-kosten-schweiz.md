@@ -7,6 +7,16 @@ category: "Praxis"
 image: "/images/products/Spark4-Design.webp"
 slug: "digital-signage-kosten-schweiz"
 status: scheduled
+carousel:
+  hook: "Hardware ab CHF 999 – und dann?"
+  hookSub: "Lizenz, Installation, Support: Posten, die in vielen Erstangeboten fehlen."
+  solution: "Transparente Gesamtkosten – ohne böse Überraschungen."
+  solutionSub: "Wir zeigen, was wirklich auf Sie zukommt, bevor Sie unterschreiben."
+  benefits:
+    - "Alle Kostenpositionen offen auf dem Tisch"
+    - "Kauf oder Miete – klar kalkuliert"
+    - "Keine versteckten Lizenz- oder Supportgebühren"
+  cta: "Ehrliche Kostenübersicht?"
 ---
 
 Eine Hardware ab CHF 999 klingt verlockend – bis die monatliche Lizenz, das Installations­paket und der Premium-Support dazu­kommen. Hier eine ehrliche Übersicht der **fünf Kostenpositionen, die in vielen Erstangeboten fehlen** – und wie Sie diese erkennen, bevor Sie unterschreiben.

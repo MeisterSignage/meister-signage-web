@@ -7,6 +7,16 @@ category: "Produkte"
 image: "/images/products/Spark4-Design.webp"
 slug: "spark4-vielseitiger-bestseller"
 status: scheduled
+carousel:
+  hook: "Zu klein wirkt verloren, zu gross sprengt den Raum?"
+  hookSub: "Bei der Display-Grösse entscheidet der Sweet Spot."
+  solution: "Spark 4: 43 Zoll in 4K – unser meistverkauftes Modell."
+  solutionSub: "Gross genug für Wirkung, kompakt genug für die meisten Räume."
+  benefits:
+    - "4K – scharf auch aus der Nähe"
+    - "Vielseitig für Gastro, Retail & Empfang"
+    - "Inhalte von überall zentral steuern"
+  cta: "Mit dem Bestseller starten?"
 ---
 
 43 Zoll treffen einen Sweet Spot: gross genug, um aus der Distanz zu wirken, kompakt genug für die meisten Räume. Der Spark 4 ist deshalb unser meistverkauftes Modell — und das aus gutem Grund. Hier die kompletten Spec-Daten und die Einsatz­bereiche, für die wir ihn empfehlen.

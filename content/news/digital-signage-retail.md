@@ -7,6 +7,16 @@ category: "Retail"
 image: "/images/products/Schuhladen-Meister-Signage.webp"
 slug: "digital-signage-retail"
 status: scheduled
+carousel:
+  hook: "Verbringen Sie die Sale-Saison wieder mit Plakatdruck?"
+  hookSub: "Frühling, SSV, Black Friday, Weihnachten – jede Aktion neu drucken und aufhängen."
+  solution: "Das ganze Marketingjahr einmal planen – Displays übernehmen den Rest."
+  solutionSub: "Inhalte hochladen, Zeitfenster setzen, fertig."
+  benefits:
+    - "Keine Plakatdruck-Logistik mehr"
+    - "Aktionen pünktlich, automatisch ausgespielt"
+    - "Mehr Aufmerksamkeit am Point of Sale"
+  cta: "Sale-Saison digital planen?"
 ---
 
 Im Schweizer Retail dreht sich das Marketingjahr um wenige grosse Sale-Momente: Frühlings­kollektion, Sommer­schluss­verkauf, Back-to-School, Black Friday, Vorweihnachts­geschäft, Januar-Sale. Wer diese Spitzen mit gedruckten Plakaten und Aufstellern bedient, verbringt 2026 viele Stunden mit Plakatdruck-Logistik. Digital Signage löst das – aber nur, wenn die Planung früh genug startet.

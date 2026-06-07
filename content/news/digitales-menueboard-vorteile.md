@@ -7,6 +7,16 @@ category: "Gastronomie"
 image: "/images/products/Restaurant-Meister-Signage.webp"
 slug: "digitales-menueboard-vorteile"
 status: scheduled
+carousel:
+  hook: "Digitales Menüboard – und trotzdem keine Wirkung?"
+  hookSub: "Fünf typische Setup-Fehler kosten Lesbarkeit und Aufmerksamkeit."
+  solution: "Richtig aufgesetzt schlägt ein Menüboard jede gedruckte Karte."
+  solutionSub: "Grösse, Kontrast, Schrift – wir machen es von Anfang an richtig."
+  benefits:
+    - "Lesbar aus der richtigen Distanz"
+    - "Klare Hierarchie statt Textwüste"
+    - "Tagesaktuell in Sekunden"
+  cta: "Menüboard richtig aufsetzen?"
 ---
 
 Ein digitales Menüboard kann ein gedrucktes Pendant in jedem Punkt schlagen – wenn es richtig aufgesetzt wird. Wir sehen aber regelmässig die gleichen fünf Fehler in Schweizer Gastro-Betrieben, die später Mehraufwand bedeuten oder die Wirkung des Displays mindern. Hier konkret, was zu vermeiden ist und wie es richtig geht.

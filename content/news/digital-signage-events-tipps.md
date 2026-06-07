@@ -7,6 +7,16 @@ category: "Events"
 image: "/images/products/Events-Meister-Signage.webp"
 slug: "digital-signage-events-tipps"
 status: published
+carousel:
+  hook: "Ihr Messestand geht in der Halle unter?"
+  hookSub: "Gedruckte Banner wirken statisch – und sind nach dem Event Abfall."
+  solution: "Digitale Displays, die Aufmerksamkeit ziehen – und wiederverwendbar sind."
+  solutionSub: "Agenda, Wegführung, Sponsoren – kurzfristig anpassbar, am Event und danach."
+  benefits:
+    - "Mehr Blickfang als jedes Plakat"
+    - "Inhalte in Sekunden ändern – auch vor Ort"
+    - "Mieten statt kaufen für einmalige Anlässe"
+  cta: "Displays für Ihr nächstes Event?"
 ---
 
 Ob Firmenevent, Messe oder Konferenz — digitale Displays setzen Inhalte professionell in Szene und sorgen für Orientierung. Damit der Einsatz reibungslos klappt, sollten fünf Dinge beachtet werden. Wer für einmalige Anlässe nicht in Hardware investieren will, findet im Mietmodell flexible Lösungen.

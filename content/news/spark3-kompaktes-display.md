@@ -7,6 +7,16 @@ category: "Produkte"
 image: "/images/products/Spark3-Design.webp"
 slug: "spark3-kompaktes-display"
 status: scheduled
+carousel:
+  hook: "Grosser Bildschirm für eine kleine Theke?"
+  hookSub: "Oft Overkill – 32 Zoll reichen, wenn die Qualität stimmt."
+  solution: "Spark 3: das 32-Zoll-Profi-Display ab CHF 1.299."
+  solutionSub: "Hinter der Theke, neben der Kasse, im Eingang – kompakt und stark."
+  benefits:
+    - "Profi-Features im Einstiegsmodell"
+    - "24/7-Dauerbetrieb spezifiziert"
+    - "Cloud-gesteuert, kein externer Player"
+  cta: "Kompakt einsteigen mit Spark 3?"
 ---
 
 Nicht jeder Einsatzort braucht einen grossen Bildschirm. Hinter der Theke, neben der Kasse oder im Eingangs­bereich eines kleinen Ladens reichen 32 Zoll völlig aus — wenn die Qualität stimmt. Der Spark 3 ist unser Einstiegs­modell ab CHF 1.299 mit allen relevanten Profi-Features.

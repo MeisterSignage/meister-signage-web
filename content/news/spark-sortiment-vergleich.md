@@ -7,6 +7,16 @@ category: "Produkte"
 image: "/images/products/Spark5-Design.webp"
 slug: "spark-sortiment-vergleich"
 status: published
+carousel:
+  hook: "Welches Display passt zu Ihrem Betrieb?"
+  hookSub: "32, 43, 50 Zoll oder quadratisch – die Wahl entscheidet über die Wirkung."
+  solution: "Vier Spark-Modelle für die häufigsten Einsätze – klar verglichen."
+  solutionSub: "Vom kompakten Menüboard bis zur Spezialinstallation."
+  benefits:
+    - "Spark 3: kompakt für Theke & POS"
+    - "Spark 4: 4K-Bestseller für mittlere Räume"
+    - "Spark 5: 50 Zoll für Schaufenster & Lobby"
+  cta: "Das passende Modell finden?"
 ---
 
 Vier Modelle, vier Stärken. Das Spark-Sortiment von Meister Signage deckt die häufigsten Einsatz­szenarien ab — vom kompakten Menüboard bis zur kreativen Spezial­installation. Hier der direkte Vergleich aller vier Modelle mit konkreten Spec-Daten und Einsatz­empfehlungen.

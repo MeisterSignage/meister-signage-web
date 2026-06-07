@@ -7,6 +7,16 @@ category: "Produkte"
 image: "/images/products/SparkQ-Design.webp"
 slug: "sparkq-quadratisches-display"
 status: scheduled
+carousel:
+  hook: "Standard-Bildschirm im Querformat – schon wieder?"
+  hookSub: "Nicht jeder Inhalt und nicht jeder Raum passt ins 16:9-Raster."
+  solution: "Spark Q+: 33 Zoll quadratisch für kreative Installationen."
+  solutionSub: "Gestalterische Freiheit, die im Markt selten ist."
+  benefits:
+    - "Quadratisches Format als Hingucker"
+    - "Ideal für Concept Stores & Design-Empfänge"
+    - "Wirkungsvoll in Raster-Installationen"
+  cta: "Kreativ auffallen mit Spark Q+?"
 ---
 
 Nicht jeder Inhalt passt in ein Querformat. Und nicht jeder Raum verlangt nach einem klassischen Bildschirm. Der Spark Q+ bietet etwas, das es im Digital-Signage-Markt selten gibt: ein quadratisches Display, das gestalterische Freiheiten eröffnet.

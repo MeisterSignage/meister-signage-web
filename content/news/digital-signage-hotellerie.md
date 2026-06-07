@@ -7,6 +7,16 @@ category: "Hotellerie"
 image: "/images/products/Hotelempfang-Meister-Signage.webp"
 slug: "digital-signage-hotellerie"
 status: scheduled
+carousel:
+  hook: "Empfang voller Aushänge und ausgedruckter Frühstückskarten?"
+  hookSub: "Im kleinen Hotel wirkt das schnell unaufgeräumt – und kostet täglich Zeit."
+  solution: "Ein Display ersetzt Tafeln, Aushänge und Papierkarten."
+  solutionSub: "Begrüssung, Wegweisung, Tagesinfos – elegant an einem Ort."
+  benefits:
+    - "Schon ab einem Display sinnvoll"
+    - "Gäste-Orientierung ohne Papierchaos"
+    - "Fügt sich ins Interieur statt aufzudrängen"
+  cta: "Empfangsdisplay fürs Hotel?"
 ---
 
 Für 4- und 5-Sterne-Tagungs­hotels ist Digital Signage längst Standard – mit zehn oder mehr Bildschirmen über das Haus verteilt. Spannend wird es aber 2026 bei den kleinen Boutique-Hotels in der Schweiz: Hier ersetzt ein einziges Display oft mehrere Aushänge, Tafeln und ausgedruckte Frühstücks­karten. Dieser Artikel zeigt drei konkrete Einsatz­fälle und die typischen Investitions­zahlen.

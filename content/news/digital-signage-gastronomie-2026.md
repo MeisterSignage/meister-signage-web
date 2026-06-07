@@ -7,6 +7,16 @@ category: "Gastronomie"
 image: "/images/products/Spark3-Design.webp"
 slug: "digital-signage-gastronomie-2026"
 status: published
+carousel:
+  hook: "Drucken Sie Ihre Speisekarte noch jede Woche neu?"
+  hookSub: "Jede Änderung kostet Zeit, Druck – und wirkt schnell veraltet."
+  solution: "Digitale Menüboards: einmal einrichten, in Sekunden ändern."
+  solutionSub: "Tagesmenü, Preise, Aktionen – sofort aktuell, ohne Drucker."
+  benefits:
+    - "Keine Druckkosten mehr – Änderungen in Sekunden"
+    - "Tagesmenüs und Aktionen immer aktuell"
+    - "Mehr Blickfang am Eingang und im Schaufenster"
+  cta: "Menüboard für Ihr Lokal?"
 ---
 
 Vor fünf Jahren war ein digitales Menüboard in einem Schweizer Restaurant eine Ausnahme. 2026 ist es in vielen Lokalen Standard – und der Trend beschleunigt sich. Hier ein Blick darauf, was sich verändert hat, woran man eine gute Lösung erkennt und welche Modelle sich für welchen Betriebs­typ bewährt haben.

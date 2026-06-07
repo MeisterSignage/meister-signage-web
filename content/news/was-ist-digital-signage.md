@@ -7,6 +7,16 @@ category: "Trends"
 image: "/images/products/Spark3-Design.webp"
 slug: "was-ist-digital-signage"
 status: scheduled
+carousel:
+  hook: "Digital Signage – 2026 nicht mehr, was es mal war?"
+  hookSub: "Einstieg, Installation und Risiko haben sich grundlegend verändert."
+  solution: "Fünf Trends, die den Einstieg für KMU einfacher machen."
+  solutionSub: "Günstiger, einfacher und risikoärmer als noch vor wenigen Jahren."
+  benefits:
+    - "Einstieg ist deutlich günstiger"
+    - "Installation ohne grossen Aufwand"
+    - "Risiko niedrig dank Miete & Service"
+  cta: "2026 einsteigen?"
 ---
 
 Digital Signage als Konzept ist nicht neu – aber 2026 verändert sich gerade Vieles, was vor wenigen Jahren noch Standard war. Hier fünf Trends, die in der Schweiz dieses Jahr sichtbar werden – mit konkreten Auswirkungen für KMU, die einsteigen oder erweitern.
