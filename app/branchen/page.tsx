@@ -81,6 +81,17 @@ export default function BranchenIndexPage() {
         ]}
         contactTitle="Welche Branche, welches Setup?"
         contactSubtitle="Schreiben Sie kurz, in welcher Branche Sie tätig sind und was Sie kommunizieren möchten. Wir melden uns mit einer klaren Empfehlung – innert 24 Stunden."
+        outro={{
+          heading: "Branchenwissen, das in die Planung einfliesst",
+          paragraphs: [
+            "In der Gastronomie zählt Tempo: Tagesmenüs, Aktionen und Preise ändern sich täglich, oft mehrmals. Wir richten Menüboards so ein, dass Personal Inhalte in Sekunden anpasst – ohne Drucken, ohne Agentur, ohne IT.",
+            "Im Retail entscheidet Aufmerksamkeit. Schaufenster-Displays müssen gegen Tageslicht bestehen, Inhalte am Point of Sale Kampagnen und Aktionen sichtbar machen. Helligkeit, Platzierung und Wechselrhythmus stimmen wir auf Ihre Fläche ab.",
+            "In der Hotellerie geht es um Orientierung, ohne die Atmosphäre zu stören: Wegweisung, Veranstaltungsanzeigen und Empfangs-Displays, die sich ins Interieur einfügen statt aufzudrängen.",
+            "Für Unternehmen verbinden wir Empfang, interne Kommunikation und Besucherführung – repräsentativ nach aussen, klar nach innen. Bei Events und Messen zählt Flexibilität: Agenda, Wegführung und Sponsoren-Inhalte lassen sich kurzfristig und vor Ort anpassen.",
+            "Über alle Branchen hinweg gilt: persönliche Beratung statt Standard-Paket, transparente Kauf- und Mietpreise für KMU, und Hardware, die im 24/7-Dauerbetrieb zuverlässig läuft. Von der ersten Skizze bis zur fertigen Installation begleiten wir Sie aus einer Hand.",
+            "Der Ablauf ist immer derselbe: Wir klären Ziel, Standort und Budget, empfehlen passende Display-Grössen und Halterungen, übernehmen Lieferung und Montage in der ganzen Schweiz und richten die Cloud-Software ein. Auch nach der Installation bleiben wir Ansprechpartner – für Inhalts-Updates, die Erweiterung um weitere Standorte oder Fragen im laufenden Betrieb. So entsteht aus einer ersten Idee eine Lösung, die im Alltag jeder Branche zuverlässig funktioniert.",
+          ],
+        }}
       />
     </>
   );

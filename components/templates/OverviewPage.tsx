@@ -28,6 +28,8 @@ type Props = {
   contactTitle: string;
   contactSubtitle: string;
   heroImage?: string;
+  /** Optional rich-text section rendered below the cards, above the contact CTA. */
+  outro?: { heading: string; paragraphs: string[] };
 };
 
 const NOISE =
@@ -91,6 +93,7 @@ export default function OverviewPage({
   contactTitle,
   contactSubtitle,
   heroImage,
+  outro,
 }: Props) {
   return (
     <>
@@ -230,6 +233,24 @@ export default function OverviewPage({
             </div>
           )}
         </div>
+
+        {outro && (
+          <div className="section-inner pt-4">
+            <div className="border-t border-navy/8 pt-12">
+              <h2 className="text-[24px] font-bold tracking-tight text-navy">
+                {outro.heading}
+              </h2>
+              {outro.paragraphs.map((para, i) => (
+                <p
+                  key={i}
+                  className="mt-4 max-w-3xl text-[16px] leading-relaxed text-cgray"
+                >
+                  {para}
+                </p>
+              ))}
+            </div>
+          </div>
+        )}
       </section>
 
       <ContactSection
