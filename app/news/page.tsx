@@ -49,7 +49,7 @@ export default function NewsPage() {
         <div className="section-inner">
           <span className="eyebrow">Blog & News</span>
           <h1 className="hero-title mt-2 max-w-2xl text-navy">
-            News & Insights
+            Digital Signage News & Insights
           </h1>
           <p className="mt-4 max-w-2xl text-[17px] leading-relaxed text-cgray">
             Tipps, Neuigkeiten und Hintergründe rund um Digital Signage –

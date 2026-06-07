@@ -20,7 +20,7 @@ export type OverviewGroup = {
 type Props = {
   eyebrow: string;
   title: string;
-  intro: string;
+  intro: string | string[];
   /** Flat list of items (used when no groups are provided). */
   items?: OverviewItem[];
   /** Grouped items rendered as separate sections. Takes precedence over items. */
@@ -163,16 +163,19 @@ export default function OverviewPage({
             >
               {title}
             </h1>
-            <p
-              className="mb-10 leading-relaxed"
-              style={{
-                maxWidth: "560px",
-                fontSize: "clamp(1rem, 1.5vw, 1.15rem)",
-                color: "rgba(209,213,219,0.9)",
-              }}
-            >
-              {intro}
-            </p>
+            {(Array.isArray(intro) ? intro : [intro]).map((para, i) => (
+              <p
+                key={i}
+                className="mb-4 leading-relaxed last:mb-10"
+                style={{
+                  maxWidth: "560px",
+                  fontSize: "clamp(1rem, 1.5vw, 1.15rem)",
+                  color: "rgba(209,213,219,0.9)",
+                }}
+              >
+                {para}
+              </p>
+            ))}
           </div>
         </div>
 

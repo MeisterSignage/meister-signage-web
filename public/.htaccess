@@ -17,6 +17,7 @@ RedirectMatch 301 ^/unternehmen/?$             /branchen/unternehmen/
 RedirectMatch 301 ^/events/?$                  /branchen/events/
 RedirectMatch 301 ^/digitales-menueboard/?$    /loesungen/digitale-menueboards/
 RedirectMatch 301 ^/digital-signage-hotel-empfang/?$ /branchen/hotellerie/
+RedirectMatch 301 ^/news/digital-signage-gastronomie-2025/?$ /news/digital-signage-gastronomie-2026/
 
 # ─── Security Headers ──────────────────────────────────────────
 # Meister Signage — Novatrend / LiteSpeed
