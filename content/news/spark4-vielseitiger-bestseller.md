@@ -6,7 +6,7 @@ date: "2026-06-09T06:00:00+02:00"
 category: "Produkte"
 image: "/images/products/Spark4-Design.webp"
 slug: "spark4-vielseitiger-bestseller"
-status: scheduled
+status: published
 carousel:
   hook: "Zu klein wirkt verloren, zu gross sprengt den Raum?"
   hookSub: "Bei der Display-Grösse entscheidet der Sweet Spot."
