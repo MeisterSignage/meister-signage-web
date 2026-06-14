@@ -31,21 +31,27 @@ export default function PageLinksSection({
 
       <div className="card-grid card-grid-3">
         {links.map((link) => (
-          <Link
+          <article
             key={link.href}
-            href={link.href}
             className="card card-hover group relative flex h-full flex-col justify-between overflow-hidden"
           >
             <div className="absolute inset-y-0 left-0 w-[3px] bg-magenta" />
             <div>
-              <p className="card-title">{link.label}</p>
+              <p className="card-title">
+                <Link
+                  href={link.href}
+                  className="after:absolute after:inset-0 after:z-10"
+                >
+                  {link.label}
+                </Link>
+              </p>
               <p className="card-body">{link.description}</p>
             </div>
             <div className="mt-5 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide text-navy/60 transition-colors duration-150 group-hover:text-magenta">
               Mehr erfahren
               <ArrowRight className="h-3.5 w-3.5" strokeWidth={2} />
             </div>
-          </Link>
+          </article>
         ))}
       </div>
     </SectionContainer>

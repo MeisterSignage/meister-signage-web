@@ -38,6 +38,12 @@ Header set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment
 # XSS protection (legacy browsers)
 Header set X-XSS-Protection "1; mode=block"
 
+# ─── Charset im HTTP-Header (UTF-8) ───────────────────────────
+# Ergänzt "; charset=utf-8" am Content-Type für Text-Antworten
+# (behebt Seobility-Warnung "Es fehlen Zeichensatzangaben im HTTP Header").
+AddDefaultCharset utf-8
+AddCharset utf-8 .html .css .js .xml .svg .json .txt
+
 Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
 
 # Content Security Policy

@@ -293,7 +293,7 @@ export default function DigitalSignageKaufenContent() {
               className="mb-10 max-w-[440px] leading-relaxed"
               style={{ fontSize: "clamp(1rem, 1.5vw, 1.15rem)", color: "rgba(209,213,219,0.9)" }}
             >
-              Schlüsselfertige Digital-Signage-Displays für Gastronomie, Retail, Hotellerie und Unternehmen. Persönlich geplant, eingerichtet und betreut.
+              Schlüsselfertige Digital-Signage-Displays für Gastronomie, Retail, Hotellerie und Unternehmen. Persönlich geplant, eingerichtet und betreut – damit Sie einmal investieren und dauerhaft kommunizieren.
             </p>
 
             <div className="flex flex-wrap gap-4">

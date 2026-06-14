@@ -19,7 +19,7 @@ carousel:
   cta: "Mit dem Bestseller starten?"
 ---
 
-43 Zoll treffen einen Sweet Spot: gross genug, um aus der Distanz zu wirken, kompakt genug für die meisten Räume. Der Spark 4 ist deshalb unser meistverkauftes Modell — und das aus gutem Grund. Hier die kompletten Spec-Daten und die Einsatz­bereiche, für die wir ihn empfehlen.
+43 Zoll treffen einen Sweet Spot: gross genug, um aus der Distanz zu wirken, kompakt genug für die meisten Räume. Der Spark 4 ist deshalb unser meistverkaufter 43-Zoll-Bestseller — und das aus gutem Grund. Hier die kompletten Spec-Daten und die Einsatz­bereiche, für die wir ihn empfehlen.
 
 ## Warum der Spark 4 so beliebt ist
 

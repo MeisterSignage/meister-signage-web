@@ -19,7 +19,7 @@ carousel:
   cta: "Grossflächig auffallen mit Spark 5?"
 ---
 
-Das Spark 5 ist das grösste Modell in unserem Standard-Sortiment – ausgelegt für Einsätze, bei denen Wirkung über Distanz entscheidet. Schaufenster, Hotellobby, Konferenz­halle, Empfangs­bereich. Hier sind die technischen Details und die typischen Anwendungs­fälle, für die wir es empfehlen.
+Das 50-Zoll-Display Spark 5 ist das grösste Modell in unserem Standard-Sortiment – ausgelegt für Einsätze, bei denen Wirkung über Distanz entscheidet, von Schaufenstern bis zu Empfangshallen. Schaufenster, Hotellobby, Konferenz­halle, Empfangs­bereich. Hier sind die technischen Details und die typischen Anwendungs­fälle, für die wir es empfehlen.
 
 ## Was das Spark 5 von Consumer-TVs unterscheidet
 

@@ -52,7 +52,7 @@ export default function NewsPage() {
             Digital Signage News & Insights
           </h1>
           <p className="mt-4 max-w-2xl text-[17px] leading-relaxed text-cgray">
-            Tipps, Neuigkeiten und Hintergründe rund um Digital Signage –
+            Tipps, Neuigkeiten, Hintergründe und Insights rund um Digital Signage –
             für Gastronomie, Retail, Hotellerie, Unternehmen und Events. Hier teilen wir
             Praxiserfahrungen aus unseren Schweizer Kundenprojekten, neue Hardware-Tests,
             Software-Updates und Trends, die sich tatsächlich im Alltag bewähren.

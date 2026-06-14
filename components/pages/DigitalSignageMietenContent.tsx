@@ -323,7 +323,7 @@ export default function DigitalSignageMietenContent() {
               className="mb-10 max-w-[440px] leading-relaxed"
               style={{ fontSize: "clamp(1rem, 1.5vw, 1.15rem)", color: "rgba(209,213,219,0.9)" }}
             >
-              Mietlösungen eignen sich besonders für temporäre Einsätze, Events, Pop-ups, Promotions oder Unternehmen, die Digital Signage zuerst testen möchten. Persönlich betreut, sofort einsatzbereit.
+              Mietlösungen eignen sich überall dort, wo Flexibilität zählt: temporäre Einsätze, Events, Pop-ups, Promotions oder Unternehmen, die Digital Signage zuerst testen möchten. Persönlich betreut, sofort einsatzbereit.
             </p>
 
             <div className="flex flex-wrap gap-4">

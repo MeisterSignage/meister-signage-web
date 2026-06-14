@@ -37,10 +37,8 @@ const NOISE =
 
 function ItemCard({ item }: { item: OverviewItem }) {
   return (
-    <Link
-      key={item.href}
-      href={item.href}
-      className="group flex flex-col overflow-hidden rounded-[20px] bg-white transition-all duration-300"
+    <article
+      className="group relative flex flex-col overflow-hidden rounded-[20px] bg-white transition-all duration-300"
       style={{
         boxShadow: "0 2px 20px rgba(26,39,68,0.07), 0 0 0 1px rgba(26,39,68,0.055)",
       }}
@@ -69,7 +67,12 @@ function ItemCard({ item }: { item: OverviewItem }) {
       </div>
       <div className="flex flex-1 flex-col p-6">
         <h3 className="mb-3 text-[20px] font-bold tracking-tight text-navy transition-colors duration-150 group-hover:text-magenta">
-          {item.title}
+          <Link
+            href={item.href}
+            className="after:absolute after:inset-0 after:z-10"
+          >
+            {item.title}
+          </Link>
         </h3>
         <p className="mb-5 text-[14px] leading-relaxed text-cgray">{item.desc}</p>
         <span className="mt-auto inline-flex items-center gap-1.5 text-[12px] font-bold uppercase tracking-[0.1em] text-magenta">
@@ -80,7 +83,7 @@ function ItemCard({ item }: { item: OverviewItem }) {
           />
         </span>
       </div>
-    </Link>
+    </article>
   );
 }
 
