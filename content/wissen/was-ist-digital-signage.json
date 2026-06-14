@@ -1,16 +1,20 @@
 {
   "slug": "was-ist-digital-signage",
   "category": "Grundlagen",
-  "seoTitle": "Was ist Digital Signage? Definition | Meister Signage",
-  "seoDescription": "Digital Signage einfach erklärt: Was es ist, wie es funktioniert, welche Einsatzgebiete typisch sind und wann es sich für Unternehmen lohnt.",
+  "seoTitle": "Was ist Digital Signage? Definition, Funktion & Kosten | Meister Signage",
+  "seoDescription": "Digital Signage einfach erklärt: Definition, Funktionsweise (Display, Player, Software), Hardware, Kosten in CHF, kaufen oder mieten – und wann es sich für Schweizer Unternehmen lohnt.",
   "eyebrow": "Wissen · Grundlagen",
   "h1": "Was ist Digital Signage?",
-  "intro": "Definition und Praxis-Übersicht zu Digital Signage – worum es geht und wofür es eingesetzt wird. Digital Signage bezeichnet digitale Bildschirmlösungen, mit denen Inhalte zentral verwaltet und automatisch ausgespielt werden – im Eingang, am Verkaufspunkt, am Empfang oder am Event.",
-  "definition": "Digital Signage ist die digitale Variante klassischer Beschilderung. Statt gedruckter Plakate, Aushänge oder Menükarten zeigen Bildschirme Inhalte, die zentral gesteuert, geplant und in Sekunden aktualisiert werden.",
+  "intro": "Definition und Praxis-Übersicht zu Digital Signage – worum es geht, wie es funktioniert, was es kostet und wofür es eingesetzt wird. Digital Signage bezeichnet vernetzte Bildschirmlösungen, mit denen Inhalte zentral verwaltet und automatisch ausgespielt werden – im Eingang, am Verkaufspunkt, am Empfang oder am Event.",
+  "definition": "Digital Signage ist die digitale Variante klassischer Beschilderung. Statt gedruckter Plakate, Aushänge oder Menükarten zeigen vernetzte Bildschirme Inhalte, die zentral gesteuert, geplant und in Sekunden aktualisiert werden.",
   "explanation": [
-    "Im Kern besteht Digital Signage aus drei Bausteinen: einem Display, einer zentralen Software und den Inhalten. Das Display zeigt – die Software steuert, plant und aktualisiert – die Inhalte transportieren die Botschaft.",
-    "Statt jede Tafel manuell zu wechseln, werden Inhalte einmal vorbereitet und automatisch zum passenden Zeitpunkt ausgespielt. Mittagsmenü von 11–14 Uhr, Aktion am Wochenende, Eventhinweis nur in einer bestimmten Woche.",
-    "Digital Signage funktioniert für ein einzelnes Display am Empfang genauso wie für mehrere Standorte mit Dutzenden Bildschirmen – immer aus einer zentralen Oberfläche."
+    "Im Kern besteht ein Digital-Signage-System aus vier Bausteinen: dem Display, einem Mediaplayer, der Software (CMS) und den Inhalten. Das Display zeigt, der Player spielt ab, die Software steuert und plant, die Inhalte transportieren die Botschaft. Bei modernen Displays ist der Player bereits integriert (System-on-Chip) – ein separater Mini-PC ist dann nicht nötig.",
+    "Statt jede Tafel manuell zu wechseln, werden Inhalte einmal vorbereitet und automatisch zum passenden Zeitpunkt ausgespielt: Mittagsmenü von 11–14 Uhr, Aktion am Wochenende, Eventhinweis nur in einer bestimmten Woche. Ein einzelnes Display am Empfang wird genauso verwaltet wie Dutzende Bildschirme über mehrere Standorte – immer aus einer zentralen Oberfläche.",
+    "Als Hardware kommen meist hochwertige LCD-Displays für den 24/7-Dauerbetrieb zum Einsatz – im Innenbereich typischerweise 32 bis 55 Zoll in 4K. Für besondere Einsätze gibt es Sonderformate: ultrabreite Stretched Bars für Regalkanten, transparente Displays für Vitrinen, doppelseitige Stelen, besonders helle Schaufenster-Displays sowie grossflächige LED Walls.",
+    "Die Software (das CMS) ist das Herzstück. Sie läuft im Browser ohne lokalen PC und erlaubt Inhalte per Drag-and-Drop, Zeitpläne, fertige Vorlagen, Apps wie Wetter, News oder Social-Media-Wände sowie die Fernsteuerung mehrerer Bildschirme und Standorte. Inhalte werden lokal zwischengespeichert und laufen auch bei einem Internetausfall weiter.",
+    "Was kostet Digital Signage in der Schweiz? Schlüsselfertige Display-Lösungen beginnen im Kauf bei rund CHF 1'300–1'600 pro Bildschirm, in der Miete ab rund CHF 129 pro Monat inklusive Software. Dazu kommen Einrichtung und – beim Kauf – eine Software-Lizenz. Der genaue Preis hängt von Grösse, Stückzahl und Montage ab.",
+    "Kaufen oder mieten? Kaufen lohnt sich für den dauerhaften Einsatz, Mieten für Events, Pop-ups oder zum Testen – bei der Miete sind Hardware, Software und Support meist inbegriffen. Beides ist möglich; wir empfehlen je nach Vorhaben das passende Modell.",
+    "Als Schweizer Anbieter übernehmen wir Beratung, Installation und 24/7-Service vor Ort. Die Bearbeitung von Personendaten erfolgt im Einklang mit dem Schweizer Datenschutzgesetz (revDSG) – auf Wunsch betreiben wir die Lösung datenschutzfreundlich, und Inhalte laufen auch lokal auf dem Display."
   ],
   "examples": [
     {
@@ -18,12 +22,20 @@
       "description": "Digitale Menüboards zeigen Tagesmenüs, Preise und Aktionen – jederzeit aktuell, ohne Druck."
     },
     {
-      "title": "Retail & Handel",
+      "title": "Retail & Einzelhandel",
       "description": "Schaufenster, POS und Verkaufsflächen werden mit Kampagnen, Produkten und Markenwelten bespielt."
     },
     {
       "title": "Empfang & Lobby",
       "description": "Besucher werden begrüsst, Termine angezeigt, Räume kommuniziert – professionell und automatisiert."
+    },
+    {
+      "title": "Hotellerie",
+      "description": "Lobby-Displays, Wegweisung und Veranstaltungshinweise verbinden Orientierung und Atmosphäre zu einem stimmigen Gästeerlebnis."
+    },
+    {
+      "title": "Gesundheit & Praxis",
+      "description": "Im Wartezimmer informieren Displays über Leistungen, Wartezeiten und Gesundheitsthemen – seriös und beruhigend."
     },
     {
       "title": "Events & Messen",
@@ -35,27 +47,49 @@
     "Druck- und Materialkosten reduzieren",
     "Hochwertiger, moderner Markenauftritt",
     "Flexible Zeitsteuerung und Kampagnenplanung",
-    "Skalierbar von einem Display bis zu mehreren Standorten"
+    "Skalierbar von einem Display bis zu mehreren Standorten",
+    "Auch ohne laufendes Software-Abo möglich",
+    "Schweizer Service, Installation und 24/7-Support"
   ],
   "faq": [
     {
       "question": "Was ist Digital Signage einfach erklärt?",
-      "answer": "Digital Signage ist die digitale Variante klassischer Beschilderung: Bildschirme zeigen Inhalte, die zentral verwaltet, geplant und automatisch ausgespielt werden."
+      "answer": "Digital Signage ist die digitale Variante klassischer Beschilderung: vernetzte Bildschirme zeigen Inhalte, die zentral verwaltet, geplant und automatisch ausgespielt werden – statt gedruckter Plakate oder Menükarten."
     },
     {
-      "question": "Wo wird Digital Signage eingesetzt?",
-      "answer": "Typische Einsatzgebiete sind Gastronomie, Retail, Hotellerie, Empfangsbereiche, Bildungsinstitutionen, Gesundheitswesen sowie Events und Messen."
+      "question": "Was kostet Digital Signage in der Schweiz?",
+      "answer": "Schlüsselfertige Lösungen beginnen im Kauf bei rund CHF 1'300–1'600 pro Display, in der Miete ab rund CHF 129 pro Monat inklusive Software. Dazu kommen Einrichtung und beim Kauf eine Lizenz. Der genaue Preis hängt von Grösse, Stückzahl und Montage ab."
     },
     {
-      "question": "Was braucht es für Digital Signage?",
-      "answer": "Ein Display, eine zentrale Software und Inhalte. Die Hardware und Software stimmen wir auf den Einsatz ab – Sie liefern die Inhalte oder wir bereiten sie für Sie vor."
+      "question": "Welche Hardware brauche ich für Digital Signage?",
+      "answer": "Ein Display, einen Mediaplayer (oft bereits im Display integriert), eine Software und Inhalte. Im Innenbereich sind 32–55 Zoll in 4K üblich; für Sonderfälle gibt es Stretched-, transparente, doppelseitige oder besonders helle Displays."
     },
     {
-      "question": "Lohnt sich Digital Signage für kleine Unternehmen?",
-      "answer": "Ja. Gerade kleinere Betriebe profitieren stark – Inhalte bleiben jederzeit aktuell, Druckkosten entfallen und der Auftritt wirkt deutlich hochwertiger."
+      "question": "Braucht Digital Signage zwingend ein Software-Abo?",
+      "answer": "Nein. Es gibt Modelle mit und ohne laufendes Abo. Im Mietmodell ist die Software inklusive; beim Kauf ist eine Lizenz möglich, aber kein zwingendes monatliches Abo."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Digital Signage kaufen und mieten?",
+      "answer": "Kaufen lohnt sich für den dauerhaften Einsatz, Mieten für Events, Pop-ups oder zum Testen. Bei der Miete sind Hardware, Software und Support meist inbegriffen."
+    },
+    {
+      "question": "Wie viele Bildschirme kann ich zentral verwalten?",
+      "answer": "Von einem einzelnen Display bis zu Dutzenden über mehrere Standorte – alle werden in einer Oberfläche verwaltet, in Gruppen organisiert und gemeinsam oder einzeln bespielt."
+    },
+    {
+      "question": "Ist Digital Signage datenschutzkonform (Hosting in der Schweiz)?",
+      "answer": "Ja. Die Bearbeitung von Personendaten erfolgt im Einklang mit dem Schweizer Datenschutzgesetz (revDSG). Auf Wunsch betreiben wir die Lösung datenschutzfreundlich; Inhalte laufen zudem lokal auf dem Display weiter."
+    },
+    {
+      "question": "Wie hoch ist der Stromverbrauch eines Digital-Signage-Displays?",
+      "answer": "Moderne Displays sind sparsam: ein 43-Zoll-Display verbraucht im Betrieb typischerweise rund 60–90 Watt, im Standby unter 1 Watt. Mehr dazu auf unserer Seite zu Digital Signage und Nachhaltigkeit."
     }
   ],
   "internalLinks": [
+    {
+      "label": "Alle Displays im Überblick",
+      "href": "/loesungen/displays/"
+    },
     {
       "label": "Digital Signage Software",
       "href": "/wissen/digital-signage-software/"
@@ -85,5 +119,6 @@
       "href": "/wissen/digital-signage-groesse-waehlen/"
     }
   ],
-  "datePublished": "2026-05-17"
+  "datePublished": "2026-05-17",
+  "dateModified": "2026-06-14"
 }
