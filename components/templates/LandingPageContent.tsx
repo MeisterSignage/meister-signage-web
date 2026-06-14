@@ -19,6 +19,7 @@ const BRANCHEN_IMAGES: Record<string, string> = {
   hotellerie:  "/images/products/Hotelempfang-Meister-Signage.webp",
   unternehmen: "/images/products/Unternehmen-Empfang.webp",
   events:      "/images/products/Events-Meister-Signage.webp",
+  gesundheit:  "/images/products/Gesundheit-Praxis-Meister-Signage.webp",
 };
 
 const BRANCHEN_PARALLAX: Record<string, { image: string; eyebrow: string; title: string; text: string }> = {

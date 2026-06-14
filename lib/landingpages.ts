@@ -14,6 +14,7 @@ import hotellerie     from "@/content/landingpages/branchen/hotellerie.json";
 import retail         from "@/content/landingpages/branchen/retail.json";
 import events         from "@/content/landingpages/branchen/events.json";
 import unternehmen    from "@/content/landingpages/branchen/unternehmen.json";
+import gesundheit     from "@/content/landingpages/branchen/gesundheit.json";
 
 import zuerich        from "@/content/landingpages/staedte/zuerich.json";
 import luzern         from "@/content/landingpages/staedte/luzern.json";
@@ -46,6 +47,7 @@ export const branchenPages: Record<string, LandingPage> = {
   retail:       retail       as LandingPage,
   events:       events       as LandingPage,
   unternehmen:  unternehmen  as LandingPage,
+  gesundheit:   gesundheit   as LandingPage,
 };
 
 export const staedtePages: Record<string, LandingPage> = {

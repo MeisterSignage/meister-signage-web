@@ -1,0 +1,90 @@
+{
+  "slug": "gesundheit",
+  "type": "branchen",
+  "seoTitle": "Digital Signage für Praxis & Gesundheit Schweiz | Meister Signage",
+  "seoDescription": "Digital Signage für Arztpraxen, Kliniken, Apotheken und Wartezimmer in der Schweiz: Leistungen zeigen, Wartezeit überbrücken, am Empfang orientieren. Schlüsselfertig, datenschutzfreundlich.",
+  "eyebrow": "Branche · Gesundheit & Praxis",
+  "h1": "Digital Signage für Praxen, Kliniken und Apotheken",
+  "intro": "Arztpraxen, Kliniken, Apotheken und Therapiezentren in der Schweiz setzen Displays ein, um Patientinnen und Patienten zu informieren, die Wartezeit angenehmer zu machen und am Empfang Orientierung zu geben. Meister Signage plant und realisiert ruhige, seriöse Lösungen, die ins Gesundheitsumfeld passen – diskret und datenschutzfreundlich.",
+  "benefits": [
+    {
+      "title": "Wartezeit angenehmer machen",
+      "description": "Im Wartezimmer überbrücken Displays die Wartezeit mit Gesundheitsthemen, Praxisinfos und ruhigen Inhalten – das senkt die gefühlte Wartezeit spürbar."
+    },
+    {
+      "title": "Leistungen & Angebote zeigen",
+      "description": "Behandlungen, Selbstzahler-Leistungen, Impf- und Vorsorgeaktionen oder Apotheken-Angebote sichtbar machen – informativ statt aufdringlich."
+    },
+    {
+      "title": "Empfang & Orientierung",
+      "description": "Begrüssung, Sprechzimmer-Wegweisung und aktuelle Hinweise wie Öffnungszeiten oder Ferienvertretung direkt am Empfang."
+    },
+    {
+      "title": "In Sekunden aktuell",
+      "description": "Ferien, Vertretung oder neue Hinweise sofort einspielen – ohne Aushang zu drucken oder Zettel zu wechseln."
+    },
+    {
+      "title": "Seriös & beruhigend",
+      "description": "Hochwertige, ruhige Darstellung passend zum Gesundheitsumfeld – kein Werbe-Lärm, sondern Vertrauen."
+    },
+    {
+      "title": "Diskret & datenschutzfreundlich",
+      "description": "Die Displays zeigen allgemeine Inhalte und verarbeiten keine Patientendaten. Der Betrieb erfolgt im Einklang mit dem Schweizer Datenschutzgesetz (revDSG)."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Wofür eignet sich Digital Signage in einer Praxis?",
+      "answer": "Vor allem fürs Wartezimmer (Information und Unterhaltung), für den Empfang (Begrüssung, Wegweisung, Öffnungszeiten) und um Leistungen oder Aktionen seriös sichtbar zu machen."
+    },
+    {
+      "question": "Was zeigt man auf einem Wartezimmer-Display?",
+      "answer": "Praxisinfos und Öffnungszeiten, Gesundheits- und Vorsorgethemen, angebotene Behandlungen, Hinweise zu Ferien oder Vertretung sowie ruhige Bilder oder Nachrichten – im Wechsel und jederzeit aktuell."
+    },
+    {
+      "question": "Ist Digital Signage im Gesundheitsbereich datenschutzkonform?",
+      "answer": "Ja. Die Displays zeigen allgemeine Inhalte und verarbeiten keine Patientendaten. Die Lösung lässt sich im Einklang mit dem Schweizer Datenschutzgesetz (revDSG) betreiben; Inhalte laufen auch lokal auf dem Display."
+    },
+    {
+      "question": "Eignet es sich auch für Apotheken und Zahnarztpraxen?",
+      "answer": "Ja. In Apotheken zeigen Displays Aktionen, Gesundheitstipps und Wartenummern, in Zahnarzt- und Therapiepraxen Behandlungen, Vorher-Nachher-Beispiele und beruhigende Inhalte im Wartebereich."
+    },
+    {
+      "question": "Wie aktualisiere ich Inhalte bei Ferien oder Vertretung?",
+      "answer": "Zentral über die Meister Signage Software: Sie ändern den Hinweis einmal im Browser, das Display zeigt ihn sofort – kein Drucken, kein Aushangwechsel."
+    },
+    {
+      "question": "Wie aufwendig ist die Installation in einer Praxis?",
+      "answer": "Gering. Wir planen, liefern und montieren schlüsselfertig, richten die Inhalte ein und führen Ihr Team kurz in die Bedienung ein – mit Schweizer Service und Support."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Digitaler Empfang", "href": "/loesungen/digitaler-empfang/" },
+    { "label": "Digitale Infostele", "href": "/loesungen/digitale-infostele/" },
+    { "label": "Empfangsdisplays", "href": "/loesungen/empfangsdisplays/" },
+    { "label": "Displays kaufen", "href": "/digital-signage-kaufen/" },
+    { "label": "Software", "href": "/loesungen/software/" },
+    { "label": "Was ist Digital Signage?", "href": "/wissen/was-ist-digital-signage/" }
+  ],
+  "cta": {
+    "eyebrow": "Praxis-Lösung anfragen",
+    "title": "Welches Display passt in Ihre Praxis?",
+    "subtitle": "Schildern Sie kurz Einsatzort (Wartezimmer, Empfang, Apotheke) und gewünschte Inhalte – wir empfehlen die passende, ruhige Lösung und nennen den Preis transparent.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Alle Displays ansehen",
+    "secondaryHref": "/loesungen/displays"
+  },
+  "related": {
+    "branchen": [
+      { "label": "Hotellerie", "href": "/branchen/hotellerie/" },
+      { "label": "Unternehmen", "href": "/branchen/unternehmen/" },
+      { "label": "Retail & Handel", "href": "/branchen/retail/" }
+    ],
+    "loesungen": [
+      { "label": "Digitaler Empfang", "href": "/loesungen/digitaler-empfang/" },
+      { "label": "Digitale Infostele", "href": "/loesungen/digitale-infostele/" },
+      { "label": "Empfangsdisplays", "href": "/loesungen/empfangsdisplays/" }
+    ]
+  }
+}

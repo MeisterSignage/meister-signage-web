@@ -51,6 +51,7 @@ const navItems: NavItem[] = [
       { label: "Events & Messen", href: "/branchen/events",       desc: "Tagungen, Messen, Anlässe" },
       { label: "Hotellerie",      href: "/branchen/hotellerie",   desc: "Hotels, Empfang, Lobby" },
       { label: "Unternehmen",     href: "/branchen/unternehmen",  desc: "KMU, Empfang, Kommunikation" },
+      { label: "Gesundheit & Praxis", href: "/branchen/gesundheit", desc: "Praxen, Kliniken, Apotheken" },
     ],
   },
   { label: "Vermietung", href: "/digital-signage-mieten" },
