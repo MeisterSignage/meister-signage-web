@@ -24,8 +24,8 @@
       "description": "Das physische Produkt in der Vitrine und die digitale Information liegen im selben Blickfeld – perfekt für Schmuck, Uhren und Markenexponate."
     },
     {
-      "title": "Kauf oder Miete",
-      "description": "Dauerhafte Inszenierung im Geschäft oder ein Wow-Auftritt für Messe und Event – als Kauf oder zur Miete."
+      "title": "Schlüsselfertig zum Kauf",
+      "description": "Wir beraten zur passenden Lösung, liefern und montieren – für eine dauerhafte Inszenierung in Geschäft, Showroom oder Empfang."
     },
     {
       "title": "Schweizer Beratung & Service",
@@ -54,13 +54,12 @@
       "answer": "Ja, besonders gut. Das echte Produkt bleibt sichtbar, während Sie Preise, Details oder Markenanimationen direkt darüber einblenden – ein starkes Mittel für Luxus- und Premium-Retail."
     },
     {
-      "question": "Kann ich ein transparentes Display für eine Messe mieten?",
-      "answer": "Ja. Für Messen, Events und Pop-ups bieten wir transparente Displays zur Miete an – inklusive Aufbau, Software und Support."
+      "question": "Übernehmen Sie Beratung, Lieferung und Montage?",
+      "answer": "Ja. Wir beraten zu Grösse und Transparenzgrad, liefern und montieren das Display in der Schweiz schlüsselfertig und führen Sie in die Software ein."
     }
   ],
   "internalLinks": [
     { "label": "Digital Signage kaufen", "href": "/digital-signage-kaufen/" },
-    { "label": "Digital Signage mieten", "href": "/digital-signage-mieten/" },
     { "label": "Digitale Schaufensterwerbung", "href": "/loesungen/digitale-schaufensterwerbung/" },
     { "label": "Retail & Handel", "href": "/branchen/retail/" },
     { "label": "Events & Messen", "href": "/branchen/events/" },

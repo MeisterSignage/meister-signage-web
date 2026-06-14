@@ -20,8 +20,8 @@
       "description": "Mit der Meister Signage Software bespielen Sie ein einzelnes Display oder viele Regalkanten gleichzeitig – auch filialübergreifend aus einer Oberfläche."
     },
     {
-      "title": "Kauf oder Miete",
-      "description": "Dauerhaft im Einsatz oder nur für eine Kampagne – Sie entscheiden zwischen Kauf und flexibler Miete."
+      "title": "Schlüsselfertig zum Kauf",
+      "description": "Wir planen, liefern und montieren – Sie investieren einmal und kommunizieren dauerhaft."
     },
     {
       "title": "Für den Dauerbetrieb gebaut",
@@ -50,13 +50,12 @@
       "answer": "Zentral über die Meister Signage Software: Sie steuern alle Streifen gemeinsam oder einzeln, planen Inhalte im Voraus und verwalten mehrere Standorte aus einer Oberfläche."
     },
     {
-      "question": "Kann ich Stretched Bar Displays mieten statt kaufen?",
-      "answer": "Ja. Für temporäre Kampagnen, Pop-ups oder zum Testen bieten wir Stretched Bar Displays auch zur Miete an – inklusive Software und Support."
+      "question": "Übernehmen Sie Lieferung und Montage?",
+      "answer": "Ja. Wir liefern, montieren und richten das Display in der Schweiz schlüsselfertig ein – auf Wunsch inklusive Einrichtung der Inhalte und Einführung in die Software."
     }
   ],
   "internalLinks": [
     { "label": "Digital Signage kaufen", "href": "/digital-signage-kaufen/" },
-    { "label": "Digital Signage mieten", "href": "/digital-signage-mieten/" },
     { "label": "Software", "href": "/loesungen/software/" },
     { "label": "Retail & Handel", "href": "/branchen/retail/" },
     { "label": "Gastronomie", "href": "/branchen/gastronomie/" },
