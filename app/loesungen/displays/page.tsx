@@ -8,18 +8,19 @@ const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/loesungen/displays`;
 
 export const metadata: Metadata = {
-  title: { absolute: "Digital Signage Displays – alle Typen im Überblick | Meister Signage" },
+  title: { absolute: "Digital Signage Displays – alle Typen | Meister Signage" },
   description:
-    "Alle Digital-Signage-Display-Typen auf einen Blick: Indoor, LED Wall, Stretched Bar, transparent, doppelseitig, High-Brightness, mobil und Infostele. Kauf oder Miete, Schweizer Service.",
+    "Alle Display-Typen auf einen Blick: Indoor, LED Wall, Stretched Bar, transparent, doppelseitig, High-Brightness, mobil und Infostele – Kauf oder Miete.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "website",
     locale: "de_CH",
     url: PAGE_URL,
     siteName: "Meister Signage",
-    title: "Digital Signage Displays – alle Typen im Überblick | Meister Signage",
+    title: "Digital Signage Displays – alle Typen | Meister Signage",
     description:
       "Indoor, LED Wall, Stretched Bar, transparent, doppelseitig, High-Brightness, mobil, Infostele – das passende Display für jeden Einsatz.",
+    images: [`${SITE_URL}/images/products/Loesungen-Meister-Signage.webp`],
   },
 };
 
