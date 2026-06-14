@@ -2,9 +2,9 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { m as motion, useReducedMotion } from "framer-motion";
-import { ArrowRight, Plus, Minus } from "lucide-react";
+import { ArrowRight, Plus, Minus, X, ChevronLeft, ChevronRight } from "lucide-react";
 import { viewport, easeOut, staggerContainer, staggerItem } from "@/lib/motion";
 import ContactSection from "@/components/sections/ContactSection";
 import InternalLinksSection from "@/components/sections/InternalLinksSection";
@@ -137,6 +137,24 @@ export default function LandingPageContent({
   const reduced = useReducedMotion();
   const heroImg = resolveHeroImage(page);
   const hasImage = !!heroImg;
+
+  // Galerie-Lightbox
+  const [lightbox, setLightbox] = useState<number | null>(null);
+  const galleryLen = page.gallery?.length ?? 0;
+  useEffect(() => {
+    if (lightbox === null) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setLightbox(null);
+      else if (e.key === "ArrowRight") setLightbox((v) => (v === null ? v : (v + 1) % galleryLen));
+      else if (e.key === "ArrowLeft") setLightbox((v) => (v === null ? v : (v - 1 + galleryLen) % galleryLen));
+    };
+    document.addEventListener("keydown", onKey);
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      document.body.style.overflow = "";
+    };
+  }, [lightbox, galleryLen]);
 
   return (
     <>
@@ -452,22 +470,82 @@ export default function LandingPageContent({
           <div className="section-inner">
             <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
               {page.gallery.map((g, i) => (
-                <div
+                <button
                   key={i}
-                  className="relative aspect-[16/10] overflow-hidden rounded-[18px]"
+                  type="button"
+                  onClick={() => setLightbox(i)}
+                  aria-label={`Bild vergrössern: ${g.alt}`}
+                  className="group relative block aspect-[16/10] cursor-zoom-in overflow-hidden rounded-[18px]"
                   style={{ boxShadow: "0 2px 20px rgba(26,39,68,0.07), 0 0 0 1px rgba(26,39,68,0.055)" }}
                 >
                   <Image
                     src={g.src}
                     alt={g.alt}
                     fill
-                    className="object-cover"
+                    className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.04]"
                     sizes="(max-width: 640px) 100vw, 50vw"
                   />
-                </div>
+                  <span className="pointer-events-none absolute right-3 top-3 flex h-8 w-8 items-center justify-center rounded-full bg-white/85 text-navy opacity-0 shadow-sm transition-opacity duration-200 group-hover:opacity-100">
+                    <Plus className="h-4 w-4" strokeWidth={2.5} />
+                  </span>
+                </button>
               ))}
             </div>
           </div>
+
+          {lightbox !== null && page.gallery[lightbox] && (
+            <div
+              className="fixed inset-0 z-[120] flex items-center justify-center bg-navy/90 p-4 sm:p-8"
+              onClick={() => setLightbox(null)}
+              role="dialog"
+              aria-modal="true"
+              aria-label="Bildansicht"
+            >
+              <button
+                onClick={() => setLightbox(null)}
+                aria-label="Schliessen"
+                className="absolute right-4 top-4 flex h-11 w-11 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20"
+              >
+                <X className="h-6 w-6" strokeWidth={2} />
+              </button>
+              {page.gallery.length > 1 && (
+                <>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setLightbox((lightbox - 1 + page.gallery!.length) % page.gallery!.length);
+                    }}
+                    aria-label="Vorheriges Bild"
+                    className="absolute left-3 flex h-11 w-11 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20 sm:left-6"
+                  >
+                    <ChevronLeft className="h-6 w-6" strokeWidth={2} />
+                  </button>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setLightbox((lightbox + 1) % page.gallery!.length);
+                    }}
+                    aria-label="Nächstes Bild"
+                    className="absolute right-3 flex h-11 w-11 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20 sm:right-6"
+                  >
+                    <ChevronRight className="h-6 w-6" strokeWidth={2} />
+                  </button>
+                </>
+              )}
+              <figure className="relative max-w-[1100px]" onClick={(e) => e.stopPropagation()}>
+                <Image
+                  src={page.gallery[lightbox].src}
+                  alt={page.gallery[lightbox].alt}
+                  width={1200}
+                  height={750}
+                  className="h-auto max-h-[82vh] w-auto max-w-full rounded-lg object-contain"
+                />
+                <figcaption className="mt-3 text-center text-sm text-white/80">
+                  {page.gallery[lightbox].alt} · {lightbox + 1}/{page.gallery.length}
+                </figcaption>
+              </figure>
+            </div>
+          )}
         </section>
       )}
 
