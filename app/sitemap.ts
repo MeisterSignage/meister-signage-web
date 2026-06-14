@@ -29,6 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     /* Overviews */
     { url: "/branchen",                           priority: 0.8, cf: "monthly", date: "2026-05-18" },
     { url: "/loesungen",                          priority: 0.8, cf: "monthly", date: "2026-05-18" },
+    { url: "/loesungen/displays",                 priority: 0.8, cf: "monthly", date: "2026-06-14" },
     { url: "/wissen",                             priority: 0.7, cf: "monthly", date: "2026-05-18" },
 
     /* Editorial / company */
