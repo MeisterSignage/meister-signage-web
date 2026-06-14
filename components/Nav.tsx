@@ -22,6 +22,7 @@ const navItems: NavItem[] = [
       {
         heading: "Displays & Hardware",
         items: [
+          { label: "Alle Displays",           href: "/loesungen/displays",                desc: "Alle Display-Typen im Überblick" },
           { label: "Displays kaufen",         href: "/digital-signage-kaufen",            desc: "Kauf & Komplettinstallation" },
           { label: "Displays mieten",         href: "/digital-signage-mieten",            desc: "Flexibel für Events & Temporär" },
           { label: "Mobile Displays",         href: "/loesungen/mobile-displays",         desc: "Kundenstopper & flexible Lösungen" },
