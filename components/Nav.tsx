@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { ChevronDown, Menu, X } from "lucide-react";
+import SearchBox from "@/components/SearchBox";
 
 type DropdownItem = { label: string; href: string; desc?: string };
 type DropdownGroup = { heading: string; items: DropdownItem[] };
@@ -216,17 +217,20 @@ export default function Nav() {
           </Link>
         </div>
 
-        {/* Mobile toggle */}
-        <button
-          className="-mr-2 flex h-11 w-11 items-center justify-center text-navy lg:hidden"
-          onClick={() => setMenuOpen(!menuOpen)}
-          aria-label={menuOpen ? "Menü schliessen" : "Menü öffnen"}
-          aria-expanded={menuOpen}
-        >
-          {menuOpen
-            ? <X className="h-5 w-5" strokeWidth={1.75} />
-            : <Menu className="h-5 w-5" strokeWidth={1.75} />}
-        </button>
+        {/* Suche + Mobile-Toggle (rechts) */}
+        <div className="flex items-center gap-0.5">
+          <SearchBox />
+          <button
+            className="-mr-2 flex h-11 w-11 items-center justify-center text-navy lg:hidden"
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-label={menuOpen ? "Menü schliessen" : "Menü öffnen"}
+            aria-expanded={menuOpen}
+          >
+            {menuOpen
+              ? <X className="h-5 w-5" strokeWidth={1.75} />
+              : <Menu className="h-5 w-5" strokeWidth={1.75} />}
+          </button>
+        </div>
       </div>
 
       {/* Mobile menu */}
