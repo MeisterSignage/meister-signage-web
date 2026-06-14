@@ -59,6 +59,8 @@ const LOESUNGEN_IMAGES: Record<string, { src: string; product: boolean }> = {
   "digitaler-empfang":       { src: "/images/products/Hotelempfang-Meister-Signage.webp", product: false },
   "digitale-leitsysteme":    { src: "/images/products/Unternehmen-Empfang.webp",         product: false },
   "software":                { src: "/images/products/Software-Meister-Signage.webp",   product: true },
+  "stretched-display":       { src: "/images/products/Stretched-Display-Retail.webp",  product: false },
+  "transparentes-display":   { src: "/images/products/Transparentes-Display-Schaufenster.webp", product: false },
 };
 
 function resolveHeroImage(page: LandingPage): { src: string; product: boolean } | null {

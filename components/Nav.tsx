@@ -27,6 +27,8 @@ const navItems: NavItem[] = [
           { label: "Mobile Displays",         href: "/loesungen/mobile-displays",         desc: "Kundenstopper & flexible Lösungen" },
           { label: "Doppelseitige Displays",  href: "/loesungen/doppelseitige-displays",  desc: "Sichtbarkeit aus zwei Richtungen" },
           { label: "Menüboards",              href: "/loesungen/digitale-menueboards",    desc: "Für Gastronomie & Retail" },
+          { label: "Stretched Bar Display",   href: "/loesungen/stretched-display",       desc: "Ultrabreites Langformat" },
+          { label: "Transparentes Display",   href: "/loesungen/transparentes-display",   desc: "Schaufenster & Vitrine" },
         ],
       },
       {

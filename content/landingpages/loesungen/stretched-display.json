@@ -1,0 +1,86 @@
+{
+  "slug": "stretched-display",
+  "type": "loesungen",
+  "seoTitle": "Stretched Bar Display Schweiz | Meister Signage",
+  "seoDescription": "Ultrabreite Stretched Bar Displays für Regalkanten, Schaufenster-Bänder und Theken – schmales Langformat, hohe Helligkeit, Kauf oder Miete. Schweizer Service.",
+  "eyebrow": "Lösung · Stretched Bar Display",
+  "h1": "Stretched Bar Displays – Werbung im schmalen Langformat.",
+  "intro": "Stretched Bar Displays sind ultrabreite Langformat-Bildschirme (z. B. 16:3 oder 32:9) für Stellen, an denen ein normales Display nicht passt: Regalkanten im Detailhandel, Schaufenster-Bänder, Theken, schmale Nischen oder Korridore. Ein schlankes Format, das auffällt – ohne Platz wegzunehmen.",
+  "benefits": [
+    {
+      "title": "Passt, wo normale Displays nicht passen",
+      "description": "Das extrem schmale Langformat füllt Regalkanten, Fensterbänder und schmale Nischen, für die ein klassisches 16:9-Display zu wuchtig wäre."
+    },
+    {
+      "title": "Hell genug fürs Schaufenster",
+      "description": "Mit hoher Helligkeit bleiben Inhalte auch bei Tageslicht und in beleuchteten Verkaufsflächen klar lesbar."
+    },
+    {
+      "title": "Mehrere Streifen zentral steuern",
+      "description": "Mit der Meister Signage Software bespielen Sie ein einzelnes Display oder viele Regalkanten gleichzeitig – auch filialübergreifend aus einer Oberfläche."
+    },
+    {
+      "title": "Kauf oder Miete",
+      "description": "Dauerhaft im Einsatz oder nur für eine Kampagne – Sie entscheiden zwischen Kauf und flexibler Miete."
+    },
+    {
+      "title": "Für den Dauerbetrieb gebaut",
+      "description": "Robust für den 24/7-Einsatz in Retail-, Gastro- und Public-Umgebungen ausgelegt."
+    },
+    {
+      "title": "Schweizer Service",
+      "description": "Beratung zu Format und Montage, Installation und Support – persönlich und aus der Schweiz."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Welche Seitenverhältnisse und Grössen gibt es bei Stretched Bar Displays?",
+      "answer": "Stretched Bar Displays gibt es in ultrabreiten Formaten wie 16:3 oder 32:9 und in verschiedenen Längen. Welche Grösse passt, hängt von Einbauort und Betrachtungsdistanz ab – wir empfehlen das passende Modell im Erstgespräch."
+    },
+    {
+      "question": "Eignet sich ein Stretched Bar Display fürs Schaufenster?",
+      "answer": "Ja. Für Schaufenster setzen wir Modelle mit hoher Helligkeit ein, damit das Display auch bei Tageslicht gut lesbar bleibt. So läuft eine Werbebotschaft als schmales Band über die ganze Fensterbreite."
+    },
+    {
+      "question": "Kann ich Preise automatisch anzeigen lassen?",
+      "answer": "Ja. Inhalte und Preise lassen sich zeitgesteuert planen und – je nach Setup – aus bestehenden Datenquellen automatisiert einspielen. Details klären wir anhand Ihrer Systeme."
+    },
+    {
+      "question": "Wie werden mehrere Regalkanten-Displays verwaltet?",
+      "answer": "Zentral über die Meister Signage Software: Sie steuern alle Streifen gemeinsam oder einzeln, planen Inhalte im Voraus und verwalten mehrere Standorte aus einer Oberfläche."
+    },
+    {
+      "question": "Kann ich Stretched Bar Displays mieten statt kaufen?",
+      "answer": "Ja. Für temporäre Kampagnen, Pop-ups oder zum Testen bieten wir Stretched Bar Displays auch zur Miete an – inklusive Software und Support."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Digital Signage kaufen", "href": "/digital-signage-kaufen/" },
+    { "label": "Digital Signage mieten", "href": "/digital-signage-mieten/" },
+    { "label": "Software", "href": "/loesungen/software/" },
+    { "label": "Retail & Handel", "href": "/branchen/retail/" },
+    { "label": "Gastronomie", "href": "/branchen/gastronomie/" },
+    { "label": "Digitale Menüboards", "href": "/loesungen/digitale-menueboards/" }
+  ],
+  "cta": {
+    "eyebrow": "Stretched Bar Display anfragen",
+    "title": "Schmales Format. Grosse Wirkung.",
+    "subtitle": "Ob Regalkante, Schaufenster-Band oder Theke – wir empfehlen das passende Format und übernehmen Installation und Support.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Alle Displays ansehen",
+    "secondaryHref": "/loesungen"
+  },
+  "related": {
+    "branchen": [
+      { "label": "Retail & Handel", "href": "/branchen/retail/" },
+      { "label": "Gastronomie", "href": "/branchen/gastronomie/" },
+      { "label": "Unternehmen", "href": "/branchen/unternehmen/" }
+    ],
+    "loesungen": [
+      { "label": "Digitale Menüboards", "href": "/loesungen/digitale-menueboards/" },
+      { "label": "Digitale Schaufensterwerbung", "href": "/loesungen/digitale-schaufensterwerbung/" },
+      { "label": "Software", "href": "/loesungen/software/" }
+    ]
+  }
+}

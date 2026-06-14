@@ -1,0 +1,90 @@
+{
+  "slug": "transparentes-display",
+  "type": "loesungen",
+  "seoTitle": "Transparentes LED Display Schweiz | Meister Signage",
+  "seoDescription": "Transparente Displays für Schaufenster, Vitrinen und Showrooms – digitale Inhalte einblenden, ohne Sicht und Produkt zu verdecken. Kauf oder Miete, Schweizer Service.",
+  "eyebrow": "Lösung · Transparentes Display",
+  "h1": "Transparente Displays – Inhalte zeigen, ohne zu verdecken.",
+  "intro": "Transparente Displays zeigen digitale Inhalte auf durchsichtiger Fläche – Sie blenden Botschaften, Animationen oder Preise ein, ohne Schaufenster, Vitrine oder Produkt zu verdecken. Ideal dort, wo das echte Produkt und der digitale Inhalt gleichzeitig wirken sollen: Schaufenster, Schmuck- und Uhrenvitrinen, Showrooms, Museen und Empfangsbereiche.",
+  "benefits": [
+    {
+      "title": "Einblenden statt verdecken",
+      "description": "Inhalte erscheinen auf transparenter Fläche – die Auslage, das Produkt und die Sicht dahinter bleiben sichtbar."
+    },
+    {
+      "title": "Premium-Wow-Effekt",
+      "description": "Die durchsichtige Technik hebt Marke und Produkt hervor und bleibt im Gedächtnis – ein starker Blickfang für hochwertige Auftritte."
+    },
+    {
+      "title": "Schaufenster nutzen statt verbauen",
+      "description": "Statt das Fenster mit einem klassischen Display zuzustellen, legen Sie den digitalen Inhalt transparent über die bestehende Auslage."
+    },
+    {
+      "title": "Produkt und Inhalt vereint",
+      "description": "Das physische Produkt in der Vitrine und die digitale Information liegen im selben Blickfeld – perfekt für Schmuck, Uhren und Markenexponate."
+    },
+    {
+      "title": "Kauf oder Miete",
+      "description": "Dauerhafte Inszenierung im Geschäft oder ein Wow-Auftritt für Messe und Event – als Kauf oder zur Miete."
+    },
+    {
+      "title": "Schweizer Beratung & Service",
+      "description": "Wir beraten zu Grösse, Transparenzgrad und Montage, installieren vor Ort und bleiben mit 24/7-Support an Ihrer Seite."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Wie funktioniert ein transparentes Display?",
+      "answer": "Ein transparentes Display stellt Inhalte auf einer durchsichtigen Fläche dar. Dort, wo nichts angezeigt wird, bleibt die Fläche klar – so sieht man Produkt oder Auslage dahinter, während Texte, Bilder und Animationen darüber erscheinen."
+    },
+    {
+      "question": "Wie transparent ist ein transparentes Display wirklich?",
+      "answer": "Der Transparenzgrad hängt vom Modell ab. Wir wählen ihn passend zum Einsatz – mehr Transparenz für Vitrinen, in denen das Produkt im Vordergrund steht, oder kräftigere Inhalte für auffällige Schaufensterauftritte."
+    },
+    {
+      "question": "Welche Grössen gibt es?",
+      "answer": "Von kompakten Formaten für einzelne Vitrinen bis zu grossen Flächen für Schaufenster und Showrooms. Welche Grösse passt, hängt von Einbauort und Wirkung ab – wir empfehlen das passende Modell."
+    },
+    {
+      "question": "Funktioniert ein transparentes Display im Schaufenster bei Sonnenlicht?",
+      "answer": "Für helle Umgebungen und Schaufenster setzen wir entsprechend helle Modelle ein. Im direkten Gegenlicht beraten wir zu Platzierung und Helligkeit, damit der Inhalt klar erkennbar bleibt."
+    },
+    {
+      "question": "Eignet es sich für Schmuck- und Uhrenvitrinen?",
+      "answer": "Ja, besonders gut. Das echte Produkt bleibt sichtbar, während Sie Preise, Details oder Markenanimationen direkt darüber einblenden – ein starkes Mittel für Luxus- und Premium-Retail."
+    },
+    {
+      "question": "Kann ich ein transparentes Display für eine Messe mieten?",
+      "answer": "Ja. Für Messen, Events und Pop-ups bieten wir transparente Displays zur Miete an – inklusive Aufbau, Software und Support."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Digital Signage kaufen", "href": "/digital-signage-kaufen/" },
+    { "label": "Digital Signage mieten", "href": "/digital-signage-mieten/" },
+    { "label": "Digitale Schaufensterwerbung", "href": "/loesungen/digitale-schaufensterwerbung/" },
+    { "label": "Retail & Handel", "href": "/branchen/retail/" },
+    { "label": "Events & Messen", "href": "/branchen/events/" },
+    { "label": "Digitaler Empfang", "href": "/loesungen/digitaler-empfang/" }
+  ],
+  "cta": {
+    "eyebrow": "Transparentes Display anfragen",
+    "title": "Digital sichtbar. Produkt sichtbar.",
+    "subtitle": "Ob Schaufenster, Vitrine oder Showroom – wir empfehlen den passenden Transparenzgrad und die richtige Grösse und übernehmen Installation und Support.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Alle Displays ansehen",
+    "secondaryHref": "/loesungen"
+  },
+  "related": {
+    "branchen": [
+      { "label": "Retail & Handel", "href": "/branchen/retail/" },
+      { "label": "Events & Messen", "href": "/branchen/events/" },
+      { "label": "Hotellerie", "href": "/branchen/hotellerie/" }
+    ],
+    "loesungen": [
+      { "label": "Digitale Schaufensterwerbung", "href": "/loesungen/digitale-schaufensterwerbung/" },
+      { "label": "Doppelseitige Displays", "href": "/loesungen/doppelseitige-displays/" },
+      { "label": "Digitaler Empfang", "href": "/loesungen/digitaler-empfang/" }
+    ]
+  }
+}
