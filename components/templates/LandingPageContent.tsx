@@ -445,6 +445,31 @@ export default function LandingPageContent({
         />
       )}
 
+      {/* ── 2.7 Galerie (optional) ───────────────────────────────────────── */}
+      {page.gallery && page.gallery.length > 0 && (
+        <section className="w-full bg-white">
+          <div className="section-inner">
+            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+              {page.gallery.map((g, i) => (
+                <div
+                  key={i}
+                  className="relative aspect-[16/10] overflow-hidden rounded-[18px]"
+                  style={{ boxShadow: "0 2px 20px rgba(26,39,68,0.07), 0 0 0 1px rgba(26,39,68,0.055)" }}
+                >
+                  <Image
+                    src={g.src}
+                    alt={g.alt}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 640px) 100vw, 50vw"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* ── 3. FAQ ───────────────────────────────────────────────────────── */}
       {page.faq.length > 0 && (
         <section className="w-full bg-offwhite">

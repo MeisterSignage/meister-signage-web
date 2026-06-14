@@ -5,8 +5,13 @@
   "seoDescription": "Digitale Infostele für Lobby, Empfang & Wartebereich: freistehende Säule mit Wegweisung, News oder Werbung. Schlüsselfertig, Schweizer Service.",
   "eyebrow": "Lösung · Infostele",
   "h1": "Digitale Infostele – Information frei im Raum.",
-  "intro": "Eine digitale Infostele eignet sich für Lobby, Wartebereich und Empfang – freistehend mit allen relevanten Informationen. Eine digitale Infostele ist eine freistehende, vertikale Säule mit Display – aufgestellt in Empfangsbereichen, Lobbies, Wartezonen, Museen oder öffentlichen Gebäuden. Sie informiert, orientiert und begrüsst – ohne Wandmontage und ohne fixe Verkabelung. Inhalte werden zentral gepflegt und automatisch aktualisiert.",
-  "heroImage": "/images/products/Hotelempfang-Meister-Signage.webp",
+  "intro": "Eine digitale Infostele ist eine freistehende, vertikale Säule mit Display – aufgestellt in Empfangsbereichen, Lobbys, Wartezonen, Museen, Arenen, an Events oder in öffentlichen Gebäuden. Sie begrüsst, informiert und orientiert – ohne Wandmontage und ohne fixe Verkabelung. Inhalte werden zentral gepflegt und automatisch aktualisiert: vom Tagesprogramm über die Wegweisung bis zu Sponsoren- und Werbeflächen.",
+  "heroImage": "/images/products/Infostele-Empfang-Lobby.webp",
+  "gallery": [
+    { "src": "/images/products/Infostele-Event-Welcome.webp", "alt": "Digitale Infostele mit Willkommens-Screen an einem Event" },
+    { "src": "/images/products/Infostele-Wegweisung.webp", "alt": "Digitale Infostele zur Wegweisung in einem öffentlichen Gebäude" },
+    { "src": "/images/products/Infostele-Showroom.webp", "alt": "Digitale Infostele im Showroom" }
+  ],
   "benefits": [
     {
       "title": "Freistehend – flexibel positionierbar",
@@ -31,6 +36,10 @@
     {
       "title": "Professionelle Erscheinung",
       "description": "Schlankes Gehäuse, hochauflösendes Display, hochwertiges Standfussdesign – passt zur repräsentativen Wirkung in Empfangsbereichen, Showrooms und öffentlichen Gebäuden."
+    },
+    {
+      "title": "Stark an Events, Messen & in Arenen",
+      "description": "Begrüssung, Tagesprogramm, Wegweisung zu Sektoren und Sponsorenflächen auf einer freistehenden Stele – flexibel platziert, wo Besucherströme entstehen."
     }
   ],
   "faq": [
@@ -83,6 +92,10 @@
     {
       "label": "Unternehmen",
       "href": "/branchen/unternehmen/"
+    },
+    {
+      "label": "Events & Messen",
+      "href": "/branchen/events/"
     },
     {
       "label": "Digital Signage & Nachhaltigkeit",

@@ -34,6 +34,7 @@ export type LandingPage = {
   h1: string;
   intro: string;
   heroImage?: string;
+  gallery?: { src: string; alt: string }[];
   benefits: LPBenefit[];
   faq: LPFAQ[];
   internalLinks: LPLink[];
