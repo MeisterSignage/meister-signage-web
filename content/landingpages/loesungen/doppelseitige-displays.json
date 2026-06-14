@@ -6,6 +6,11 @@
   "eyebrow": "Lösung · Doppelseitige Displays",
   "h1": "Doppelseitige Displays – Sichtbarkeit aus zwei Richtungen.",
   "intro": "Doppelseitige Displays eignen sich für Räume, in denen Menschen aus verschiedenen Richtungen kommen – etwa Lobbys, Eingänge, Showrooms, Retail-Flächen oder Events. Auf einer Seite Orientierung, auf der anderen Seite Branding, Angebote oder Eventinformationen.",
+  "gallery": [
+    { "src": "/images/products/Doppelseitiges-Display-Mode-Boutique.webp", "alt": "Doppelseitiges Display als freistehende Stele in einer Mode-Boutique" },
+    { "src": "/images/products/Doppelseitiges-Display-Showroom.webp", "alt": "Doppelseitiges Display im Showroom" },
+    { "src": "/images/products/Doppelseitiges-Display-Eingang.webp", "alt": "Doppelseitiges Display am Eingang" }
+  ],
   "benefits": [
     {
       "title": "Sichtbarkeit aus zwei Richtungen",

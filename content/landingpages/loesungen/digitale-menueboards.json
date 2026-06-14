@@ -6,6 +6,11 @@
   "eyebrow": "Lösung · Digitale Menüboards",
   "h1": "Digitale Menüboards für Restaurants und Gastronomie",
   "intro": "Ein digitales Menüboard ersetzt gedruckte Karten und Tafelschriften durch einen aktuellen, professionellen Bildschirm. Inhalte lassen sich kurzfristig anpassen – Preise, Tagesangebote, ausverkaufte Gerichte – ohne Neudruck, ohne Laminiergerät, ohne Aufwand.",
+  "gallery": [
+    { "src": "/images/products/Menueboard-Fastfood-Burger.webp", "alt": "Digitale Menüboards über der Theke in einem Burger-Restaurant" },
+    { "src": "/images/products/Menueboard-Restaurant.webp", "alt": "Digitale Menüboards im Restaurant" },
+    { "src": "/images/products/Menueboard-Gastronomie.webp", "alt": "Digitales Menüboard in der Gastronomie" }
+  ],
   "benefits": [
     {
       "title": "Preise und Angebote sofort anpassen",

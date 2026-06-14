@@ -7,6 +7,11 @@
   "h1": "Mobile Displays – Aufmerksamkeit, die mit Ihnen reist.",
   "intro": "Mobile Digital-Signage-Displays reisen mit Ihnen und sorgen für Aufmerksamkeit am Eventstand, auf der Messe oder am Pop-up – akkubetrieben und in Minuten einsatzbereit. Mobile Displays sind transportable digitale Bildschirme, die nicht für einen festen Standort gemacht sind, sondern mit dem Einsatz wandern. Heute Messe in Zürich, morgen Eröffnung in Luzern, übermorgen Kundentag in Bern – ohne erneuten Aufbau, ohne Steckdose vor Ort, ohne IT-Vorbereitung. Akkubetrieb auf Anfrage möglich.",
   "heroImage": "/images/products/Mobile-Display-Outdoor.webp",
+  "gallery": [
+    { "src": "/images/products/Mobile-Display-Gastro-Terrasse.webp", "alt": "Mobiles Display als Kundenstopper auf einer Gastro-Terrasse" },
+    { "src": "/images/products/Mobile-Display-Cafe-Outdoor.webp", "alt": "Mobiles Outdoor-Display vor einem Café" },
+    { "src": "/images/products/Mobile-Display-Retail-Outdoor.webp", "alt": "Mobiles Display als Kundenstopper vor einem Geschäft" }
+  ],
   "benefits": [
     {
       "title": "Transportabel zwischen Standorten",
