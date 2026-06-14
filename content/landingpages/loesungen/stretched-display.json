@@ -6,6 +6,11 @@
   "eyebrow": "Lösung · Stretched Bar Display",
   "h1": "Stretched Bar Displays – Werbung im schmalen Langformat.",
   "intro": "Stretched Bar Displays sind ultrabreite Langformat-Bildschirme (z. B. 16:3 oder 32:9) für Stellen, an denen ein normales Display nicht passt: Regalkanten im Detailhandel, Schaufenster-Bänder, Theken, schmale Nischen oder Korridore. Ein schlankes Format, das auffällt – ohne Platz wegzunehmen.",
+  "gallery": [
+    { "src": "/images/products/Stretched-Display-Regal.webp", "alt": "Stretched Bar Display an der Regalkante im Retail" },
+    { "src": "/images/products/Stretched-Display-Decke.webp", "alt": "Stretched Bar Display im Querformat" },
+    { "src": "/images/products/Stretched-Display-Schaufenster.webp", "alt": "Stretched Bar Display als schmales Info-Band" }
+  ],
   "benefits": [
     {
       "title": "Passt, wo normale Displays nicht passen",

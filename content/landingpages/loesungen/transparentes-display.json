@@ -6,6 +6,11 @@
   "eyebrow": "Lösung · Transparentes Display",
   "h1": "Transparente Displays – Inhalte zeigen, ohne zu verdecken.",
   "intro": "Transparente Displays zeigen digitale Inhalte auf durchsichtiger Fläche – Sie blenden Botschaften, Animationen oder Preise ein, ohne Schaufenster, Vitrine oder Produkt zu verdecken. Ideal dort, wo das echte Produkt und der digitale Inhalt gleichzeitig wirken sollen: Schaufenster, Schmuck- und Uhrenvitrinen, Showrooms, Museen und Empfangsbereiche.",
+  "gallery": [
+    { "src": "/images/products/Transparentes-Display-Vitrine.webp", "alt": "Transparentes Display über einer Produktvitrine" },
+    { "src": "/images/products/Transparentes-Display-Boutique.webp", "alt": "Transparentes Display in einer Boutique" },
+    { "src": "/images/products/Transparentes-Display-Produkt.webp", "alt": "Transparentes Display – Produktansicht" }
+  ],
   "benefits": [
     {
       "title": "Einblenden statt verdecken",
