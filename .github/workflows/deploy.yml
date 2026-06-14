@@ -42,6 +42,9 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./out/
           server-dir: ${{ secrets.FTP_PATH }}
+          # Höheres Timeout gegen "AggregateError: (control socket)" —
+          # der FTP-Kontroll-Socket bricht bei vielen Dateien/langsamem Server sonst ab.
+          timeout: 120000
 
       # Only fires when dispatched with publish_slugs (i.e. from the Tuesday
       # auto-publish). Runs AFTER FTP so the post page and its /social/<slug>.jpg
