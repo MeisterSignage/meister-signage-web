@@ -5,6 +5,7 @@ import { ArrowRight } from "lucide-react";
 import ContactSection from "@/components/sections/ContactSection";
 import JsonLd from "@/components/JsonLd";
 import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
+import { itemListSchema } from "@/lib/schema/itemList";
 import { getAllWissenPages } from "@/lib/wissen";
 import type { WissenCategory } from "@/lib/wissen-types";
 
@@ -59,6 +60,14 @@ export default function WissenIndexPage() {
             { name: "Home",   path: "/" },
             { name: "Wissen", path: "/wissen" },
           ]) as Record<string, unknown>
+        }
+      />
+      <JsonLd
+        schema={
+          itemListSchema(
+            "Digital Signage Wissen & Ratgeber",
+            pages.map((p) => ({ name: p.h1, path: `/wissen/${p.slug}/` }))
+          ) as Record<string, unknown>
         }
       />
 

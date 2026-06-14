@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import OverviewPage from "@/components/templates/OverviewPage";
 import JsonLd from "@/components/JsonLd";
 import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
+import { itemListSchema } from "@/lib/schema/itemList";
+import { branchenPages } from "@/lib/landingpages";
 
 const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/branchen`;
@@ -31,6 +33,17 @@ export default function BranchenIndexPage() {
             { name: "Home", path: "/" },
             { name: "Branchen", path: "/branchen" },
           ]) as Record<string, unknown>
+        }
+      />
+      <JsonLd
+        schema={
+          itemListSchema(
+            "Digital Signage nach Branche",
+            Object.values(branchenPages).map((p) => ({
+              name: p.h1,
+              path: `/branchen/${p.slug}/`,
+            }))
+          ) as Record<string, unknown>
         }
       />
 

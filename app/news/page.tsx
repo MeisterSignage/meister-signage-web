@@ -5,6 +5,7 @@ import { ArrowRight } from "lucide-react";
 import { getPublishedPosts, formatDateDE } from "@/lib/news";
 import JsonLd from "@/components/JsonLd";
 import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
+import { itemListSchema } from "@/lib/schema/itemList";
 
 const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/news`;
@@ -41,6 +42,14 @@ export default function NewsPage() {
             { name: "Home", path: "/" },
             { name: "News", path: "/news" },
           ]) as Record<string, unknown>
+        }
+      />
+      <JsonLd
+        schema={
+          itemListSchema(
+            "Digital Signage News & Blog",
+            posts.map((p) => ({ name: p.title, path: `/news/${p.slug}/` }))
+          ) as Record<string, unknown>
         }
       />
 

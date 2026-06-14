@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import OverviewPage from "@/components/templates/OverviewPage";
 import JsonLd from "@/components/JsonLd";
 import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
+import { itemListSchema } from "@/lib/schema/itemList";
 
 const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/loesungen/displays`;
@@ -31,6 +32,21 @@ export default function DisplaysOverviewPage() {
             { name: "Home", path: "/" },
             { name: "Lösungen", path: "/loesungen" },
             { name: "Displays", path: "/loesungen/displays" },
+          ]) as Record<string, unknown>
+        }
+      />
+      <JsonLd
+        schema={
+          itemListSchema("Digital Signage Display-Typen", [
+            { name: "Indoor-Displays (Spark-Serie)", path: "/digital-signage-kaufen/" },
+            { name: "LED Walls & Videowall", path: "/loesungen/led-walls/" },
+            { name: "Digitale Menüboards", path: "/loesungen/digitale-menueboards/" },
+            { name: "Stretched Bar Display", path: "/loesungen/stretched-display/" },
+            { name: "Transparentes Display", path: "/loesungen/transparentes-display/" },
+            { name: "Doppelseitige Displays", path: "/loesungen/doppelseitige-displays/" },
+            { name: "High-Brightness-Display", path: "/loesungen/high-brightness-display/" },
+            { name: "Mobile Displays", path: "/loesungen/mobile-displays/" },
+            { name: "Digitale Infostele", path: "/loesungen/digitale-infostele/" },
           ]) as Record<string, unknown>
         }
       />

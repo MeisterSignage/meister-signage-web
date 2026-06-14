@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import OverviewPage from "@/components/templates/OverviewPage";
 import JsonLd from "@/components/JsonLd";
 import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
+import { itemListSchema } from "@/lib/schema/itemList";
+import { loesungenPages } from "@/lib/landingpages";
 
 const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/loesungen`;
@@ -31,6 +33,17 @@ export default function LoesungenIndexPage() {
             { name: "Home", path: "/" },
             { name: "Lösungen", path: "/loesungen" },
           ]) as Record<string, unknown>
+        }
+      />
+      <JsonLd
+        schema={
+          itemListSchema(
+            "Digital-Signage-Lösungen",
+            Object.values(loesungenPages).map((p) => ({
+              name: p.h1,
+              path: `/loesungen/${p.slug}/`,
+            }))
+          ) as Record<string, unknown>
         }
       />
 
