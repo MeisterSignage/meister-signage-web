@@ -2,64 +2,88 @@
   "slug": "software",
   "type": "loesungen",
   "seoTitle": "Digital Signage Software Schweiz | Meister Signage",
-  "seoDescription": "Digital-Signage-Software für zentrale Inhaltsverwaltung & Display-Steuerung. Web-basiert, einfach, ohne IT-Aufwand. Schweizer Service inklusive.",
+  "seoDescription": "Die Meister Signage Software: Inhalte zentral im Browser verwalten – Playlists, Zeitpläne, mehrere Standorte, Fernsteuerung, Apps und Offline-Wiedergabe. Schweizer Service inklusive.",
   "eyebrow": "Lösung · Software",
-  "h1": "Digital Signage Software – Inhalte zentral verwalten.",
-  "intro": "Die Meister Signage Software ist die zentrale Oberfläche zur Verwaltung Ihrer digitalen Inhalte. Sie steuern Displays, planen Inhalte, aktualisieren Kampagnen und behalten mehrere Standorte übersichtlich im Blick – ohne IT-Abteilung und ohne komplizierte Bedienung.",
+  "h1": "Digital Signage Software – alle Bildschirme aus einer Plattform.",
+  "intro": "Die Meister Signage Software ist Ihre zentrale Plattform für alle Displays – komplett im Browser, ohne zusätzlichen PC und ohne IT-Abteilung. Sie erstellen Inhalte per Drag-and-Drop, planen sie nach Tageszeit, steuern mehrere Bildschirme und Standorte gleichzeitig und verwalten alles aus der Ferne. Vom einzelnen Empfangsdisplay bis zum Filialnetz: eine Oberfläche für Inhalte, Zeitpläne, Apps und Geräte – und laufend um neue Funktionen erweitert.",
   "benefits": [
     {
-      "title": "Inhalte zentral verwalten",
-      "description": "Alle Bildschirme an einem Ort steuern – egal ob ein Display am Empfang oder ein ganzes Filialnetz mit mehreren Standorten."
+      "title": "Komplett im Browser – kein PC vor Ort",
+      "description": "Die gesamte Verwaltung läuft im Webbrowser. Sie brauchen keinen zusätzlichen Computer und keine IT-Abteilung – nur einen Login."
     },
     {
-      "title": "Zeitpläne erstellen",
-      "description": "Tagesmenü, Aktion oder Eventhinweis genau dann ausspielen, wann es passt – stunden-, tages- oder wochenbasiert geplant."
+      "title": "Inhalte per Drag-and-Drop",
+      "description": "Bilder, Videos, PDFs und Webinhalte stellen Sie im Browser einfach zu Wiedergabelisten zusammen – und spielen sie sofort auf die Bildschirme."
     },
     {
-      "title": "Mehrere Displays steuern",
-      "description": "Ein Display oder hundert: alle werden zentral verwaltet, gleichzeitig aktualisiert oder einzeln bespielt."
+      "title": "Layouts mit mehreren Zonen",
+      "description": "Teilen Sie den Bildschirm in Bereiche auf – Video, Bild, Lauftext und z. B. Wetter laufen gleichzeitig in eigenen Zonen."
     },
     {
-      "title": "Templates nutzen",
-      "description": "Vordefinierte Layouts in Ihrer Markenwelt – Schriften, Farben und Tonalität bleiben konsistent, der Aufwand bleibt minimal."
+      "title": "Fertige Vorlagen für jede Branche",
+      "description": "Professionell gestaltete Vorlagen für Gastro, Retail, Hotel und Empfang – ansprechende Inhalte ohne Designkenntnisse, in Ihrer Markenwelt."
     },
     {
-      "title": "Benutzerrechte verwalten",
-      "description": "Mehrere Personen, klare Rollen: wer darf Inhalte erstellen, freigeben oder veröffentlichen – Sie entscheiden."
+      "title": "Zeitpläne nach Tageszeit",
+      "description": "Frühstückskarte am Morgen, Abendmenü am Abend, Aktion nur am Wochenende – Inhalte erscheinen automatisch genau dann, wann sie passen."
     },
     {
-      "title": "Inhalte sofort aktualisieren",
-      "description": "Änderung gespeichert, Display zeigt sie an. Ohne Wartezeit, ohne Druckerei, ohne Aufwand."
+      "title": "Mehrere Displays, Gruppen & Standorte",
+      "description": "Ein Display oder ein ganzes Filialnetz: Bildschirme werden in Gruppen organisiert und gemeinsam oder einzeln bespielt – jeder Standort mit eigener Zeitzone."
     },
     {
-      "title": "Kampagnen planen",
-      "description": "Aktionen, Saisonthemen und wiederkehrende Inhalte im Voraus vorbereiten und automatisch ausspielen lassen."
+      "title": "Fernsteuerung von überall",
+      "description": "Inhalte, Bildschirme und Geräte verwalten Sie komplett aus der Ferne – inklusive Neustart, Ein- und Ausschaltzeiten und Live-Vorschau, was gerade läuft."
     },
     {
-      "title": "Standorte gruppieren",
-      "description": "Filialen, Räume oder Regionen in Gruppen organisieren und gezielt mit passenden Inhalten versorgen."
+      "title": "Läuft auch ohne Internet",
+      "description": "Inhalte werden lokal gespeichert und laufen bei einem Internetausfall zuverlässig weiter – kein schwarzer Bildschirm."
+    },
+    {
+      "title": "Apps & Live-Inhalte",
+      "description": "Wetter, Uhrzeit, News-Ticker, Social-Media-Wände, Kalender, QR-Codes und Inhalte aus Office und Cloud – automatisch aktualisiert."
+    },
+    {
+      "title": "Benutzerrollen & Sicherheit",
+      "description": "Mehrere Mitarbeitende mit klaren Rechten, sichere Anmeldung und verschlüsselte Inhalte – Sie behalten jederzeit die Kontrolle."
+    },
+    {
+      "title": "Laufend neue Funktionen",
+      "description": "Die Plattform wird kontinuierlich erweitert – etwa KI-Unterstützung beim Erstellen von Inhalten, Echtzeit-Dashboards mit Live-Kennzahlen und interaktive Touch-Anwendungen."
     }
   ],
   "faq": [
     {
-      "question": "Was ist Digital-Signage-Software?",
-      "answer": "Digital-Signage-Software ist die zentrale Oberfläche, mit der Inhalte auf einem oder mehreren Displays verwaltet, geplant und ausgespielt werden. Sie ersetzt manuelle USB-Sticks oder lokale Player und sorgt dafür, dass alle Bildschirme immer aktuell sind."
+      "question": "Was ist die Meister Signage Software?",
+      "answer": "Die zentrale Oberfläche, mit der Sie Inhalte auf einem oder vielen Displays erstellen, planen und ausspielen. Sie ersetzt USB-Sticks und lokale Player – alles läuft webbasiert in einer einzigen Plattform."
     },
     {
-      "question": "Können mehrere Displays zentral gesteuert werden?",
-      "answer": "Ja. Ob ein Display am Empfang oder mehrere Bildschirme an verschiedenen Standorten – alles wird in einer Oberfläche verwaltet. Inhalte lassen sich pro Display, pro Gruppe oder für alle gleichzeitig festlegen."
+      "question": "Brauche ich einen Computer oder IT-Kenntnisse?",
+      "answer": "Nein. Die Verwaltung läuft komplett im Browser, ein PC vor Ort ist nicht nötig. Die Oberfläche ist für alle bedienbar – bei der Einrichtung zeigen wir Ihnen alles, was Sie brauchen."
+    },
+    {
+      "question": "Können mehrere Displays und Standorte zentral gesteuert werden?",
+      "answer": "Ja. Ob ein Display oder ein Filialnetz: Bildschirme werden in Gruppen und nach Standort organisiert und gemeinsam oder einzeln bespielt – jeder Standort mit eigener Zeitzone und passenden lokalen Inhalten."
     },
     {
       "question": "Können Inhalte zeitgesteuert angezeigt werden?",
-      "answer": "Ja. Inhalte können stunden-, tages- oder wochenbasiert geplant werden – Mittagsmenü von 11–14 Uhr, Aktion am Wochenende, Veranstaltungshinweis nur in einer bestimmten Woche."
+      "answer": "Ja. Inhalte lassen sich stunden-, tages- oder wochenbasiert planen – Mittagsmenü von 11–14 Uhr, Aktion am Wochenende, Veranstaltungshinweis nur in einer bestimmten Woche."
     },
     {
-      "question": "Braucht es IT-Kenntnisse?",
-      "answer": "Nein. Die Software ist so aufgebaut, dass jede Person im Betrieb damit umgehen kann. Klare Oberfläche, Drag-and-Drop und vorbereitete Templates – bei der Einrichtung zeigen wir alles, was Sie wissen müssen."
+      "question": "Funktioniert die Software auch bei einem Internetausfall?",
+      "answer": "Ja. Inhalte werden lokal auf dem Player zwischengespeichert und laufen bei einem Internetausfall weiter. Sobald die Verbindung zurück ist, synchronisiert sich alles automatisch."
     },
     {
-      "question": "Können verschiedene Standorte verwaltet werden?",
-      "answer": "Ja. Standorte lassen sich in Gruppen organisieren und gezielt bespielen. Filialen sehen passende lokale Inhalte, übergeordnete Kampagnen werden zentral ausgerollt."
+      "question": "Welche Inhalte und Apps kann ich anzeigen?",
+      "answer": "Bilder, Videos, PDFs, Office-Dateien, Webseiten und Live-Streams – dazu Apps wie Wetter, Uhrzeit, News-Ticker, Social-Media-Wände, Kalender und QR-Codes, die sich automatisch aktualisieren."
+    },
+    {
+      "question": "Ist die Software interaktiv und gibt es neue Funktionen?",
+      "answer": "Ja. Die Plattform wird laufend erweitert – unter anderem mit KI-Unterstützung beim Erstellen von Inhalten, Echtzeit-Dashboards und interaktiven Touch-Anwendungen für Kioske und Wegeleitsysteme."
+    },
+    {
+      "question": "Wie steht es um Sicherheit und Benutzerrechte?",
+      "answer": "Mehrere Mitarbeitende arbeiten mit eigenen Rollen und Rechten, die Anmeldung lässt sich mit Zwei-Faktor-Authentifizierung absichern und lokale Inhalte sind verschlüsselt."
     },
     {
       "question": "Kann Meister Signage bei der Einrichtung unterstützen?",
@@ -107,8 +131,8 @@
   "cta": {
     "eyebrow": "Inhalte einfacher steuern?",
     "title": "Alles zentral. Eine Plattform für alle Displays.",
-    "subtitle": "Schildern Sie kurz Ihren Einsatz – wir zeigen Ihnen, wie die Meister Signage Software in Ihrem Betrieb funktioniert.",
-    "primaryLabel": "Software-Beratung anfragen",
+    "subtitle": "Schildern Sie kurz Ihren Einsatz – wir zeigen Ihnen in einer kurzen Demo, wie die Meister Signage Software in Ihrem Betrieb funktioniert.",
+    "primaryLabel": "Software-Demo anfragen",
     "primaryHref": "/kontakt",
     "secondaryLabel": "Lösungen ansehen",
     "secondaryHref": "/loesungen"
