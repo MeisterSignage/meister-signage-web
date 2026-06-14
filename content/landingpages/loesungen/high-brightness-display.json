@@ -7,6 +7,11 @@
   "h1": "High-Brightness-Displays – 3'500 nits für direkte Sonne.",
   "intro": "Ein High-Brightness-Display ist ein Bildschirm, der mit 3'500 nits rund das Siebenfache der üblichen Display-Helligkeit erreicht. Wo Standard-Displays (typisch 450 nits) im Schaufenster oder bei direktem Sonnenlicht ausgewaschen wirken, bringen High-Brightness-Displays mit 3'500 cd/m² gestochen scharfe Inhalte – auch um die Mittagszeit, auch hinter Schaufensterglas. Verfügbar in 43, 49, 55, 65 und 75 Zoll für Retail, Hotellerie und repräsentative Empfangsbereiche.",
   "heroImage": "/images/products/Schuhladen-Meister-Signage.webp",
+  "gallery": [
+    { "src": "/images/products/High-Brightness-Einkaufszentrum-Retail.webp", "alt": "High-Brightness-Display im Einkaufszentrum" },
+    { "src": "/images/products/High-Brightness-Einkaufszentrum-Event.webp", "alt": "High-Brightness-Display mit Event-Werbung im Einkaufszentrum" },
+    { "src": "/images/products/High-Brightness-Einkaufszentrum-Gastro.webp", "alt": "High-Brightness-Display für Gastronomie im Einkaufszentrum" }
+  ],
   "benefits": [
     {
       "title": "3'500 nits – das 7-fache eines Standard-Displays",

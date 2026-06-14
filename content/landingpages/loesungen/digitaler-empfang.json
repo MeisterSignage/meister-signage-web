@@ -6,6 +6,11 @@
   "eyebrow": "Lösung · Digitaler Empfang",
   "h1": "Digitaler Empfang – der erste Eindruck beginnt digital.",
   "intro": "Ein digitaler Empfang informiert, begrüsst und orientiert Besucher direkt beim Betreten des Gebäudes. Inhalte können zentral angepasst und jederzeit aktualisiert werden – im Unternehmen, im Hotel oder im Showroom.",
+  "gallery": [
+    { "src": "/images/products/Empfang-Business-Center.webp", "alt": "Digitaler Empfang in einem Business-Center" },
+    { "src": "/images/products/Unternehmen-Empfang.webp", "alt": "Digitaler Empfang in einem Unternehmen" },
+    { "src": "/images/products/Gesundheit-Praxis-Meister-Signage.webp", "alt": "Digitaler Empfang in einer Praxis" }
+  ],
   "benefits": [
     {
       "title": "Professioneller erster Eindruck",

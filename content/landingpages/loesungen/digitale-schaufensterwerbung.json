@@ -7,6 +7,11 @@
   "h1": "Digitale Schaufensterwerbung – sichtbar rund um die Uhr.",
   "intro": "Digitale Schaufensterwerbung macht Ihre Aktionen rund um die Uhr sichtbar – auch nachts und am Wochenende. Ein digitales Schaufensterdisplay verwandelt das Schaufenster in eine bewegte Werbefläche – auch nach Ladenschluss. Kampagnen, Aktionen und Produkte sind 24/7 sichtbar und lassen sich tageszeitabhängig steuern. Mit 450 nits Helligkeit wirken sie auch bei Tageslicht klar und kontrastreich.",
   "heroImage": "/images/products/Schuhladen-Meister-Signage.webp",
+  "gallery": [
+    { "src": "/images/products/Schaufensterwerbung-Optiker.webp", "alt": "Digitale Schaufensterwerbung im Schaufenster eines Optikers" },
+    { "src": "/images/products/Schaufensterwerbung-Elektronik.webp", "alt": "Digitale Schaufensterwerbung in einem Elektronikgeschäft" },
+    { "src": "/images/products/Schaufensterwerbung-Mode.webp", "alt": "Digitale Schaufensterwerbung in einem Modegeschäft" }
+  ],
   "benefits": [
     {
       "title": "Werbung auch nach Ladenschluss",
