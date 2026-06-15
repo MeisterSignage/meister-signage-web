@@ -24,6 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "/digital-signage-kaufen",             priority: 0.9, cf: "monthly", date: "2026-05-18" },
     { url: "/digital-signage-mieten",             priority: 0.9, cf: "monthly", date: "2026-05-18" },
     { url: "/was-kostet-digital-signage-schweiz", priority: 0.8, cf: "monthly", date: "2026-05-18" },
+    { url: "/digital-signage-wie-red-bull",       priority: 0.7, cf: "monthly", date: "2026-06-15" },
     { url: "/digital-signage-anbieter-vergleich", priority: 0.8, cf: "monthly", date: "2026-05-27" },
 
     /* Overviews */
