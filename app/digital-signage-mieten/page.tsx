@@ -12,9 +12,9 @@ const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/digital-signage-mieten`;
 
 export const metadata: Metadata = {
-  title: { absolute: "Digital Signage mieten Schweiz | Meister Signage" },
+  title: { absolute: "Digital Signage & Displays mieten Schweiz | Meister Signage" },
   description:
-    "Displays mieten in der Schweiz: Digital-Signage-Screens, Eventdisplays und Menüboards flexibel mieten – inkl. Lizenz und persönlicher Beratung.",
+    "Display mieten in der Schweiz: Digital-Signage-Screens, Eventdisplays und Menüboards flexibel zur Miete, inkl. Lizenz. Display-Miete ab CHF 129/Monat.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "website",
@@ -34,6 +34,11 @@ export const metadata: Metadata = {
 };
 
 const PAGE_FAQS = [
+  {
+    question: "Was kostet die Display-Miete?",
+    answer:
+      "Ein Display mieten Sie in der Schweiz ab CHF 129 pro Monat – je nach Grösse und Auflösung. Die Display-Miete umfasst Hardware, Software-Lizenz und Support; Einrichtung und Lieferung werden im Angebot transparent ausgewiesen.",
+  },
   {
     question: "Welche Displays können gemietet werden?",
     answer:

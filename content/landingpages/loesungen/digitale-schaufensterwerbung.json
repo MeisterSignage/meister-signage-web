@@ -1,11 +1,11 @@
 {
   "slug": "digitale-schaufensterwerbung",
   "type": "loesungen",
-  "seoTitle": "Digitale Schaufensterwerbung Schweiz | Meister Signage",
-  "seoDescription": "Digitale Schaufensterwerbung 24/7 sichtbar – auch nach Ladenschluss. Hohe Helligkeit, schlüsselfertig installiert ab Lager Luzern.",
+  "seoTitle": "Schaufensterwerbung & Schaufenster-Display | Meister Signage",
+  "seoDescription": "Digitale Schaufensterwerbung mit hellem Schaufenster-Display: 24/7 sichtbar, auch nach Ladenschluss. Werbemonitor fürs Schaufenster – schlüsselfertig ab Luzern.",
   "eyebrow": "Lösung · Schaufensterwerbung",
-  "h1": "Digitale Schaufensterwerbung – sichtbar rund um die Uhr.",
-  "intro": "Digitale Schaufensterwerbung macht Ihre Aktionen rund um die Uhr sichtbar – auch nachts und am Wochenende. Ein digitales Schaufensterdisplay verwandelt das Schaufenster in eine bewegte Werbefläche – auch nach Ladenschluss. Kampagnen, Aktionen und Produkte sind 24/7 sichtbar und lassen sich tageszeitabhängig steuern. Mit 450 nits Helligkeit wirken sie auch bei Tageslicht klar und kontrastreich.",
+  "h1": "Digitale Schaufensterwerbung mit dem richtigen Schaufenster-Display.",
+  "intro": "Digitale Schaufensterwerbung macht Ihre Aktionen rund um die Uhr sichtbar – auch nachts und am Wochenende. Ein helles Schaufenster-Display verwandelt das Schaufenster in eine bewegte Werbefläche, die auch nach Ladenschluss leuchtet. Ob als Werbemonitor im Schaufenster oder als durchgängige digitale Schaufensterkommunikation: Kampagnen, Aktionen und Produkte sind 24/7 sichtbar und lassen sich tageszeitabhängig steuern. Mit 450 nits Helligkeit wirken die Schaufenster-Displays auch bei Tageslicht klar und kontrastreich.",
   "heroImage": "/images/products/Schuhladen-Meister-Signage.webp",
   "gallery": [
     { "src": "/images/products/Schaufensterwerbung-Optiker.webp", "alt": "Digitale Schaufensterwerbung im Schaufenster eines Optikers" },
@@ -34,11 +34,23 @@
       "description": "Morgens Frühstücksaktion, mittags Lunch-Special, abends Bar-Promo, am Wochenende Markenkampagne – die richtige Botschaft zur richtigen Tageszeit, ohne manuellen Aufwand."
     },
     {
+      "title": "Werbemonitor statt gedrucktem Plakat",
+      "description": "Ein digitaler Werbemonitor im Schaufenster ersetzt Plakate, Klebefolien und Aufsteller – eine Fläche für alle Botschaften, jederzeit ohne Druckkosten aktualisierbar."
+    },
+    {
       "title": "Schlüsselfertig installiert",
       "description": "Display, Cloud-Software, Aufhängung oder Standfuss, Inbetriebnahme und Schulung – aus einer Hand und mit transparentem Festpreis statt Beratungsprojekt."
     }
   ],
   "faq": [
+    {
+      "question": "Was ist ein Schaufenster-Display bzw. Werbemonitor?",
+      "answer": "Ein Schaufenster-Display – oft auch Werbemonitor genannt – ist ein heller, für den Dauerbetrieb gebauter Bildschirm, der ins Schaufenster gerichtet ist und dort Aktionen, Produkte und Kampagnen zeigt. Im Gegensatz zu Consumer-Fernsehern bleibt er auch bei Tageslicht klar lesbar und läuft 24/7."
+    },
+    {
+      "question": "Was bedeutet digitale Schaufensterkommunikation?",
+      "answer": "Digitale Schaufensterkommunikation heisst: Sie bespielen Ihr Schaufenster mit bewegten, jederzeit aktualisierbaren Inhalten statt mit statischen Plakaten. Ein oder mehrere Schaufenster-Displays werden zentral gesteuert, zeitlich geplant und gemeinsam als Werbefläche genutzt."
+    },
     {
       "question": "Eignet sich jedes Display für die Schaufensterwerbung?",
       "answer": "Nein. Consumer-Fernseher oder einfache Office-Displays haben oft zu wenig Helligkeit und sind nicht für 24/7-Dauerbetrieb spezifiziert. Für Schaufenster braucht es professionelle Digital-Signage-Displays mit mindestens 450 nits und Dauerbetriebs-Zertifizierung."
