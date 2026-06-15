@@ -18,6 +18,13 @@ RedirectMatch 301 ^/events/?$                  /branchen/events/
 RedirectMatch 301 ^/digitales-menueboard/?$    /loesungen/digitale-menueboards/
 RedirectMatch 301 ^/digital-signage-hotel-empfang/?$ /branchen/hotellerie/
 RedirectMatch 301 ^/news/digital-signage-gastronomie-2025/?$ /news/digital-signage-gastronomie-2026/
+# Verwaiste WordPress-URLs mit Rankings/Impressionen (GSC) → passende Live-Seite
+RedirectMatch 301 ^/digital-signage-retail/?$        /branchen/retail/
+RedirectMatch 301 ^/digital-signage-gastronomie/?$   /branchen/gastronomie/
+RedirectMatch 301 ^/datenschutz-meister-signage/?$   /datenschutz/
+RedirectMatch 301 ^/designservice-fuer-digital-signage/?$ /
+RedirectMatch 301 ^/lift-and-play/?$                 /
+# Hinweis: /digital-signage-wie-red-bull/ wird als echte Seite neu aufgebaut (kein Redirect).
 
 # ─── Security Headers ──────────────────────────────────────────
 # Meister Signage — Novatrend / LiteSpeed
