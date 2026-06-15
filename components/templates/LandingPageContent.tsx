@@ -468,14 +468,14 @@ export default function LandingPageContent({
       {page.gallery && page.gallery.length > 0 && (
         <section className="w-full bg-white">
           <div className="section-inner">
-            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+            <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
               {page.gallery.map((g, i) => (
                 <button
                   key={i}
                   type="button"
                   onClick={() => setLightbox(i)}
                   aria-label={`Bild vergrössern: ${g.alt}`}
-                  className="group relative block aspect-[16/10] cursor-zoom-in overflow-hidden rounded-[18px]"
+                  className="group relative block aspect-[4/3] cursor-zoom-in overflow-hidden rounded-[14px]"
                   style={{ boxShadow: "0 2px 20px rgba(26,39,68,0.07), 0 0 0 1px rgba(26,39,68,0.055)" }}
                 >
                   <Image
@@ -483,7 +483,7 @@ export default function LandingPageContent({
                     alt={g.alt}
                     fill
                     className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.04]"
-                    sizes="(max-width: 640px) 100vw, 50vw"
+                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
                   />
                   <span className="pointer-events-none absolute right-3 top-3 flex h-8 w-8 items-center justify-center rounded-full bg-white/85 text-navy opacity-0 shadow-sm transition-opacity duration-200 group-hover:opacity-100">
                     <Plus className="h-4 w-4" strokeWidth={2.5} />
