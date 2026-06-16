@@ -27,7 +27,7 @@ const BRANCHEN_PARALLAX: Record<string, { image: string; eyebrow: string; title:
     image: "/images/products/Sektion-BG-parallax-Gastro.webp",
     eyebrow: "Gastronomie",
     title: "Genuss perfekt in Szene gesetzt.",
-    text: "Digitale Menüboards und Displays präsentieren Angebote, Tagesmenüs und Aktionen flexibel und hochwertig.",
+    text: "Digitale Menüboards und Displays präsentieren Angebote, Tagesmenüs und Aktionen flexibel und hochwertig – mit Bildern und Videos, die Ihre Gäste ansprechen.",
   },
   retail: {
     image: "/images/products/Sektion-BG-parallax-Retail.webp",
@@ -462,6 +462,68 @@ export default function LandingPageContent({
           ctaLabel="Beratung anfragen"
           ctaHref="/kontakt"
         />
+      )}
+
+      {/* ── 2.6 Use-Cases (optional, datengetrieben pro Seite) ───────────── */}
+      {page.useCases && page.useCases.items.length > 0 && (
+        <section className="w-full bg-white">
+          <div className="section-inner">
+
+            <motion.div
+              className="mb-12 max-w-2xl"
+              initial={reduced ? false : { opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={viewport}
+              transition={{ duration: 0.55, ease: easeOut }}
+            >
+              <span className="eyebrow">{page.useCases.eyebrow}</span>
+              <h2
+                className="mt-2 font-light text-navy"
+                style={{
+                  fontSize: "clamp(1.75rem, 2.8vw, 2.6rem)",
+                  lineHeight: 1.1,
+                  letterSpacing: "-0.025em",
+                }}
+              >
+                {page.useCases.title}
+              </h2>
+              {page.useCases.intro && (
+                <p className="mt-4 text-[16px] leading-relaxed text-cgray">
+                  {page.useCases.intro}
+                </p>
+              )}
+            </motion.div>
+
+            <motion.div
+              className="grid grid-cols-1 gap-4 sm:grid-cols-2"
+              variants={staggerContainer}
+              initial={reduced ? false : "hidden"}
+              whileInView="visible"
+              viewport={viewport}
+            >
+              {page.useCases.items.map((u, i) => (
+                <motion.div
+                  key={u.title}
+                  variants={staggerItem}
+                  className="flex flex-col rounded-[18px] p-7"
+                  style={{ background: "#f5f5f7", border: "1px solid rgba(26,39,68,0.07)" }}
+                >
+                  <span
+                    className="mb-5 text-[11px] font-black tracking-[0.15em]"
+                    style={{ color: "rgba(201,168,76,0.85)" }}
+                  >
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <h3 className="mb-3 text-[18px] font-bold text-navy">{u.title}</h3>
+                  <p className="text-[14px] leading-relaxed" style={{ color: "#6B7280" }}>
+                    {u.description}
+                  </p>
+                </motion.div>
+              ))}
+            </motion.div>
+
+          </div>
+        </section>
       )}
 
       {/* ── 2.7 Galerie (optional) ───────────────────────────────────────── */}

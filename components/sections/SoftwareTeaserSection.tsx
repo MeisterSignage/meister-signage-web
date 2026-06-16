@@ -4,18 +4,18 @@ import { ArrowRight, CalendarClock, MonitorSmartphone, Zap } from "lucide-react"
 const cards = [
   {
     icon: CalendarClock,
-    title: "Inhalte planen",
-    desc: "Tagesmenü, Aktion oder Eventhinweis automatisch zur passenden Zeit ausspielen.",
+    title: "Content planen",
+    desc: "Tagesmenü, Aktion oder Eventhinweis mit Bildern und Videos automatisch zur passenden Zeit ausspielen.",
   },
   {
     icon: MonitorSmartphone,
-    title: "Displays steuern",
-    desc: "Alle Bildschirme an einem Ort verwalten — ein Standort oder ein ganzes Filialnetz.",
+    title: "Player & Displays steuern",
+    desc: "Alle Bildschirme und Player an einem Ort verwalten — ein Standort oder ein ganzes Filialnetz.",
   },
   {
     icon: Zap,
     title: "Sofort veröffentlichen",
-    desc: "Änderung gespeichert, Display zeigt sie an. Ohne Wartezeit, ohne Druckerei.",
+    desc: "Änderung gespeichert, das System spielt sie auf dem Player aus. Ohne Wartezeit, ohne Druckerei.",
   },
 ];
 
@@ -37,7 +37,7 @@ export default function SoftwareTeaserSection() {
             Alles zentral gesteuert.
           </h2>
           <p className="mt-4 text-[16px] leading-relaxed text-cgray">
-            Mit der Meister Signage Software verwalten Sie Inhalte, Zeitpläne und Displays
+            Mit dem Meister Signage System verwalten Sie Inhalte, Zeitpläne und Displays
             einfach an einem Ort — flexibel, übersichtlich und ohne komplizierte IT.
           </p>
         </div>

@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 const HOME_FAQS = [
   {
     question: "Was kostet eine Digital-Signage-Lösung?",
-    answer: "Das hängt von Anzahl Bildschirmen, Einsatzort, Inhaltspflege und gewünschter Betreuung ab. Für kleine Lösungen ist ein schlanker Einstieg mit einem Display möglich. Wir erstellen Ihnen eine kostenlose, unverbindliche Einschätzung.",
+    answer: "Das hängt von Anzahl Bildschirmen, Einsatzort, Installation, Inhaltspflege und gewünschter Betreuung ab. Für kleine Lösungen ist ein schlanker Einstieg mit einem Display möglich. Viele Kunden starten mit einem einzelnen System und erweitern es später nach Bedarf. Wir erstellen Ihnen eine kostenlose, unverbindliche Einschätzung.",
   },
   {
     question: "Kann ich Inhalte selbst ändern?",

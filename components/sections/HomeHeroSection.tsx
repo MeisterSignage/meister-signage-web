@@ -186,7 +186,7 @@ function HeroVisual() {
           <Image src="/images/icons/hero-cloud.webp" alt="Cloud-Steuerung" width={96} height={96} className="h-8 w-8 rounded-lg object-cover" />
           <div>
             <p className="text-[11.5px] font-bold leading-none text-navy">Cloud-basiert</p>
-            <p className="mt-0.5 text-[9.5px] leading-snug text-navy/45">Inhalte überall verwalten.</p>
+            <p className="mt-0.5 text-[9.5px] leading-snug text-navy/45">Content &amp; Inhalte verwalten.</p>
           </div>
         </div>
       </div>
@@ -195,7 +195,7 @@ function HeroVisual() {
           <Image src="/images/icons/hero-headset.webp" alt="Persönlicher Support" width={96} height={96} className="h-8 w-8 rounded-lg object-cover" />
           <div>
             <p className="text-[11.5px] font-bold leading-none text-navy">Alles aus einer Hand</p>
-            <p className="mt-0.5 text-[9.5px] leading-snug text-navy/45">Hardware, Software und Content.</p>
+            <p className="mt-0.5 text-[9.5px] leading-snug text-navy/45">Hardware, Player, Software, Content.</p>
           </div>
         </div>
       </div>

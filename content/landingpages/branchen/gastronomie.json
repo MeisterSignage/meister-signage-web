@@ -5,7 +5,7 @@
   "seoDescription": "Digital Signage für Gastronomie: Menüboards, Tagesangebote, Aktionen – in Sekunden aktualisiert. Schlüsselfertig vom Schweizer Anbieter.",
   "eyebrow": "Branche · Gastronomie",
   "h1": "Digital Signage für die Gastronomie",
-  "intro": "Restaurants, Cafés, Bars und Bistros in der Schweiz setzen auf digitale Bildschirme, um Menüs, Tagesangebote und Hinweise schnell und professionell zu kommunizieren. Als Infobildschirme für Restaurants und Bars und als Teil einer modernen digitalen Gastro-Einrichtung machen sie das Angebot ansprechend sichtbar. Meister Signage plant und realisiert schlüsselfertige Lösungen – persönlich, verständlich und ohne IT-Aufwand.",
+  "intro": "Restaurants, Cafés, Bars und Bistros in der Schweiz setzen auf digitale Bildschirme, um Menüs, Tagesangebote, Aktionen und Hinweise schnell und professionell zu kommunizieren. Als Infobildschirme für Restaurants und Bars und als Teil einer modernen digitalen Gastro-Einrichtung machen sie das Angebot für Ihre Gäste ansprechend sichtbar. Meister Signage plant und realisiert schlüsselfertige Lösungen für die Schweizer Gastronomie – persönlich, verständlich und ohne IT-Aufwand.",
   "benefits": [
     {
       "title": "Inhalte in Minuten aktualisieren",
@@ -21,11 +21,11 @@
     },
     {
       "title": "Aktionen zeitgesteuert anzeigen",
-      "description": "Tagesgerichte, Saisonangebote oder Events lassen sich geplant anzeigen – automatisch, ohne manuellen Eingriff."
+      "description": "Tagesgerichte, Saisonangebote oder Veranstaltungen lassen sich geplant anzeigen – automatisch, ohne manuellen Eingriff."
     },
     {
       "title": "Schlüsselfertig umgesetzt",
-      "description": "Von der Planung bis zur Inbetriebnahme kümmern wir uns um alles – Display, Player, Inhalte und Einweisung."
+      "description": "Von der Planung bis zur Inbetriebnahme kümmern wir uns um alles – Hardware, Display, Player, Inhalte und Einweisung."
     },
     {
       "title": "Persönlicher Ansprechpartner",
@@ -51,9 +51,36 @@
     },
     {
       "question": "Funktioniert das auch für kleine Restaurants?",
-      "answer": "Ja. Digital Signage ist nicht nur für Ketten geeignet. Viele Einzelbetriebe starten mit einem einzigen Display und erweitern bei Bedarf."
+      "answer": "Ja. Digital Signage ist nicht nur für Ketten geeignet. Viele Einzelbetriebe – vom Café bis zur Kantine – starten mit einem einzigen Display und erweitern bei Bedarf an weiteren Standorten."
+    },
+    {
+      "question": "Lässt sich Digital Signage mit dem Kassensystem verbinden?",
+      "answer": "In vielen Fällen ja. Auf Wunsch binden wir eine Schnittstelle zum Kassensystem an, sodass Preise und Angebote automatisch auf dem Bildschirm erscheinen. Auch interaktive Touchscreen-Lösungen sind möglich – etwa eine Speisekarte zum Selbststöbern. Bedient wird trotzdem alles einfach und ohne IT-Kenntnisse."
     }
   ],
+  "useCases": {
+    "eyebrow": "So wird es eingesetzt",
+    "title": "In der Gastronomie konkret angewendet.",
+    "intro": "Als verlässlicher Partner der Schweizer Gastronomie betreuen wir unsere Kunden – vom Quartierrestaurant bis zur Hotelgastronomie – persönlich und vor Ort, mit lokalem Schweizer Support aus der Zentralschweiz.",
+    "items": [
+      {
+        "title": "Digitales Menüboard an der Theke",
+        "description": "Ein digitales Menüboard direkt an der Theke zeigt Speisen, Preise und Tagesangebote – immer aktuell, ohne Aushang und ohne Kreidetafel."
+      },
+      {
+        "title": "Tagesangebote und Aktionen auf dem Display",
+        "description": "Mittagstisch, Wochenaktionen und Sonderangebote spielen Sie zeitgesteuert auf jedem Bildschirm aus – als Content in Bild, Video oder Lauftext."
+      },
+      {
+        "title": "Speisekarte am Eingang als Infostele",
+        "description": "Eine Infostele im Eingangsbereich zeigt Ihre Speisekarte und lädt Gäste herein – auf Wunsch interaktiv als Touchscreen zum Durchblättern."
+      },
+      {
+        "title": "Veranstaltungshinweise und Events",
+        "description": "Konzerte, Brunch oder private Veranstaltungen kündigen Sie rechtzeitig an und erreichen Ihre Gäste direkt im Lokal."
+      }
+    ]
+  },
   "internalLinks": [
     {
       "label": "Digital Signage Schweiz",

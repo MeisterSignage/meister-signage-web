@@ -12,8 +12,8 @@
   "cards": [
     {
       "icon": "layout-grid",
-      "title": "Inhalte zentral verwalten",
-      "description": "Alle Bildschirme – ob ein Display oder mehrere Standorte – lassen sich von einer Stelle aus steuern."
+      "title": "Content zentral verwalten",
+      "description": "Alle Bildschirme und Player – ob ein Display oder mehrere Standorte – lassen sich über ein zentrales Management von einer Stelle aus steuern."
     },
     {
       "icon": "shield-off",

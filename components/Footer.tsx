@@ -164,7 +164,7 @@ export default function Footer() {
               className="max-w-[280px] text-[13px] leading-relaxed"
               style={{ color: "#d1d5db" }}
             >
-              Modern digital signage solutions for hospitality, retail, corporate and event spaces.
+              Digital-Signage-Systeme und digitale Beschilderung für Gastronomie, Retail, Unternehmen und Events – schlüsselfertig aus der Zentralschweiz.
             </p>
 
             {/* CTA button */}

@@ -15,6 +15,18 @@ export type LPLink = {
   href: string;
 };
 
+export type LPUseCase = {
+  title: string;
+  description: string;
+};
+
+export type LPUseCases = {
+  eyebrow: string;
+  title: string;
+  intro?: string;
+  items: LPUseCase[];
+};
+
 export type LPCta = {
   eyebrow: string;
   title: string;
@@ -36,6 +48,7 @@ export type LandingPage = {
   heroImage?: string;
   gallery?: { src: string; alt: string }[];
   benefits: LPBenefit[];
+  useCases?: LPUseCases;
   faq: LPFAQ[];
   internalLinks: LPLink[];
   cta: LPCta;
