@@ -17,7 +17,7 @@ const HERO_IMAGE = "/images/products/Events-Meister-Signage.webp";
 export const metadata: Metadata = {
   title: { absolute: "Digital Signage wie Red Bull – die Wirkung | Meister Signage" },
   description:
-    "Was Digital Signage wirklich bewirkt: Eine weltbekannte Getränkemarke steigerte den Umsatz am Verkaufspunkt um über 20 % in 90 Tagen. Was das für Sie bedeutet.",
+    "Was Digital Signage bewirkt: Eine weltbekannte Getränkemarke steigerte den Umsatz am Verkaufspunkt um über 20 % in 90 Tagen – was das für Sie heisst.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "article",
