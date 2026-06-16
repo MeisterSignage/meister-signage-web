@@ -6,7 +6,7 @@ date: "2026-06-16T06:00:00+02:00"
 category: "Praxis"
 image: "/images/products/Spark4-Design.webp"
 slug: "digital-signage-kosten-schweiz"
-status: scheduled
+status: published
 carousel:
   hook: "Hardware ab CHF 999 – und dann?"
   hookSub: "Lizenz, Installation, Support: Posten, die in vielen Erstangeboten fehlen."
