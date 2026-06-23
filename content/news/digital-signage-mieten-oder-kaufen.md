@@ -6,7 +6,7 @@ date: "2026-06-23T06:00:00+02:00"
 category: "Praxis"
 image: "/images/products/Spark5-Design.webp"
 slug: "digital-signage-mieten-oder-kaufen"
-status: scheduled
+status: published
 carousel:
   hook: "Digital Signage mieten oder kaufen?"
   hookSub: "Die falsche Wahl kostet schnell mehrere hundert Franken im Jahr."
