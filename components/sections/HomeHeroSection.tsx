@@ -32,7 +32,7 @@ export default function HomeHeroSection({
   return (
     <>
     <section
-      className="relative w-full overflow-hidden min-h-[60vh] lg:min-h-[65vh]"
+      className="relative w-full overflow-hidden min-h-[40dvh] lg:min-h-[45dvh]"
       style={{ backgroundColor: "#07101f" }}
     >
       {/* Background image — centered, full section height, width = height × 1536/1024 (3:2) */}
@@ -68,11 +68,11 @@ export default function HomeHeroSection({
       />
 
 
-      <div className="section-inner relative z-10">
+      <div className="section-inner relative z-10 !pt-8 !pb-4 md:!pt-10 md:!pb-4">
         <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-[1fr_1.35fr] lg:gap-6">
 
           {/* ── Layer 3: Hero Content ── */}
-          <div className="flex flex-col gap-6 lg:max-w-[480px]">
+          <div className="flex flex-col gap-5 lg:max-w-[480px]">
 
             {/* Eyebrow pill */}
             {eyebrow && (

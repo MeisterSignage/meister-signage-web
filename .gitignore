@@ -40,3 +40,6 @@ yarn-error.log*
 
 # carousel staging (temporär)
 .carousel-pack/
+
+# generierte Carousel-Bilder (per generate-carousels.ts reproduzierbar)
+meister-signage-carousels/
