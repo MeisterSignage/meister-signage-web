@@ -21,6 +21,13 @@ import luzern         from "@/content/landingpages/staedte/luzern.json";
 import zug            from "@/content/landingpages/staedte/zug.json";
 import bern           from "@/content/landingpages/staedte/bern.json";
 import basel          from "@/content/landingpages/staedte/basel.json";
+import stGallen       from "@/content/landingpages/staedte/st-gallen.json";
+import winterthur     from "@/content/landingpages/staedte/winterthur.json";
+import aarau          from "@/content/landingpages/staedte/aarau.json";
+import baden          from "@/content/landingpages/staedte/baden.json";
+import chur           from "@/content/landingpages/staedte/chur.json";
+import solothurn      from "@/content/landingpages/staedte/solothurn.json";
+import olten          from "@/content/landingpages/staedte/olten.json";
 
 import digitaleMenueboards    from "@/content/landingpages/loesungen/digitale-menueboards.json";
 import empfangsdisplays       from "@/content/landingpages/loesungen/empfangsdisplays.json";
@@ -51,11 +58,18 @@ export const branchenPages: Record<string, LandingPage> = {
 };
 
 export const staedtePages: Record<string, LandingPage> = {
-  zuerich: zuerich as LandingPage,
-  luzern:  luzern  as LandingPage,
-  zug:     zug     as LandingPage,
-  bern:    bern    as LandingPage,
-  basel:   basel   as LandingPage,
+  zuerich:      zuerich    as LandingPage,
+  luzern:       luzern     as LandingPage,
+  zug:          zug        as LandingPage,
+  bern:         bern       as LandingPage,
+  basel:        basel      as LandingPage,
+  "st-gallen":  stGallen   as LandingPage,
+  winterthur:   winterthur as LandingPage,
+  aarau:        aarau      as LandingPage,
+  baden:        baden      as LandingPage,
+  chur:         chur       as LandingPage,
+  solothurn:    solothurn  as LandingPage,
+  olten:        olten      as LandingPage,
 };
 
 export const loesungenPages: Record<string, LandingPage> = {

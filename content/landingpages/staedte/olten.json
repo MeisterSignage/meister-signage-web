@@ -1,0 +1,91 @@
+{
+  "slug": "olten",
+  "type": "staedte",
+  "seoTitle": "Digital Signage Olten – mieten & kaufen | Meister Signage",
+  "seoDescription": "Digital Signage in Olten: Displays mieten ab CHF 129 oder kaufen ab CHF 1.299. Für KMU, Detailhandel und Gastronomie im Mittelland – persönlich betreut.",
+  "eyebrow": "Standort · Olten",
+  "h1": "Digital Signage Olten",
+  "intro": "Olten liegt im Herzen des Schweizer Mittellands und ist als Eisenbahnknotenpunkt einer der bestvernetzten Standorte des Landes. Detailhandel, Dienstleister und Gastronomie prägen die Stadt. Meister Signage realisiert digitale Display-Lösungen für Betriebe in Olten – dank zentraler Lage besonders gut erreichbar, persönlich begleitet und ohne IT-Aufwand.",
+  "benefits": [
+    {
+      "title": "Zentrale Lage",
+      "description": "Olten ist von der Zentralschweiz aus besonders gut erreichbar – planbare Termine und schnelle Reaktion bei Installation und Support."
+    },
+    {
+      "title": "Detailhandel und Frequenz",
+      "description": "Als frequenzstarker Standort eignet sich Olten ideal für Schaufenster- und Werbedisplays, die Aufmerksamkeit erzeugen."
+    },
+    {
+      "title": "Gastronomie flexibel halten",
+      "description": "Digitale Menüboards zeigen Tagesangebote und Preise jederzeit aktuell – ohne gedruckte Tafeln."
+    },
+    {
+      "title": "Für KMU passend skaliert",
+      "description": "Ob Einzellösung oder mehrere Standorte – die Lösung wächst mit Ihrem Bedarf, zentral gesteuert."
+    },
+    {
+      "title": "Persönliche Betreuung",
+      "description": "Ein fester Ansprechpartner begleitet Ihr Projekt von der Planung bis zum laufenden Betrieb – direkt erreichbar."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Installiert Meister Signage in Olten?",
+      "answer": "Ja. Dank zentraler Lage ist Olten besonders gut erreichbar. Liefer- und Montagetermine planen wir verbindlich und meist kurzfristig."
+    },
+    {
+      "question": "Welche Lösungen eignen sich für Olten?",
+      "answer": "Schaufenster- und Werbedisplays für den Detailhandel, Menüboards für Gastronomie sowie Empfangsdisplays für Büros und Dienstleister."
+    },
+    {
+      "question": "Kann ich mit einem Bildschirm starten?",
+      "answer": "Ja. Viele Projekte starten bewusst klein mit einem Display und werden später nach Bedarf erweitert."
+    },
+    {
+      "question": "Brauche ich technisches Know-how?",
+      "answer": "Nein. Wir richten alles ein und übergeben schlüsselfertig. Die Bedienung im Alltag ist bewusst einfach gehalten."
+    },
+    {
+      "question": "Soll ich in Olten mieten oder kaufen?",
+      "answer": "Mieten ab CHF 129 passt für Events oder einen Test ohne grosse Vorabinvestition. Kaufen ab CHF 1.299 lohnt sich für den dauerhaften Einsatz und ist langfristig günstiger."
+    },
+    {
+      "question": "Was kostet Digital Signage in Olten?",
+      "answer": "Ein einzelnes Display gibt es ab CHF 1.299 zum Kauf oder ab CHF 129 zur Miete inklusive Software-Lizenz. Installation und Betreuung weisen wir je nach Projekt offen aus."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Digital Signage Schweiz", "href": "/digital-signage-schweiz/" },
+    { "label": "Digitales Werbedisplay", "href": "/loesungen/digitales-werbedisplay/" },
+    { "label": "Display kaufen", "href": "/digital-signage-kaufen/" },
+    { "label": "Display mieten", "href": "/digital-signage-mieten/" },
+    { "label": "Kosten & Preise", "href": "/was-kostet-digital-signage-schweiz/" },
+    { "label": "Digital Signage Aarau", "href": "/staedte/aarau/" },
+    { "label": "Digital Signage Solothurn", "href": "/staedte/solothurn/" },
+    { "label": "Kontakt", "href": "/kontakt/" }
+  ],
+  "cta": {
+    "eyebrow": "Projekt besprechen",
+    "title": "Digital-Signage-Lösung für Ihren Betrieb in Olten?",
+    "subtitle": "Sagen Sie kurz, was Sie vorhaben – wir melden uns persönlich mit einer klaren Einschätzung.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Über Meister Signage",
+    "secondaryHref": "/ueber-uns"
+  },
+  "related": {
+    "staedte": [
+      { "label": "Digital Signage Aarau", "href": "/staedte/aarau/" },
+      { "label": "Digital Signage Solothurn", "href": "/staedte/solothurn/" }
+    ],
+    "branchen": [
+      { "label": "Retail & Handel", "href": "/branchen/retail/" },
+      { "label": "Gastronomie", "href": "/branchen/gastronomie/" },
+      { "label": "Unternehmen", "href": "/branchen/unternehmen/" }
+    ],
+    "loesungen": [
+      { "label": "Digitales Werbedisplay", "href": "/loesungen/digitales-werbedisplay/" },
+      { "label": "Digitale Menüboards", "href": "/loesungen/digitale-menueboards/" }
+    ]
+  }
+}

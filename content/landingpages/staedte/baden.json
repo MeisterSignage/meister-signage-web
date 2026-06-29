@@ -1,0 +1,91 @@
+{
+  "slug": "baden",
+  "type": "staedte",
+  "seoTitle": "Digital Signage Baden – mieten & kaufen | Meister Signage",
+  "seoDescription": "Digital Signage in Baden: Displays mieten ab CHF 129 oder kaufen ab CHF 1.299. Für Industrie, Detailhandel und Gastronomie im Aargau – persönlich betreut.",
+  "eyebrow": "Standort · Baden",
+  "h1": "Digital Signage Baden",
+  "intro": "Baden verbindet einen starken Technologie- und Industriestandort mit Tourismus, Bäderkultur und einer belebten Altstadt. Meister Signage plant und installiert digitale Display-Lösungen für Unternehmen, Detailhandel und Gastronomie in Baden – verkehrsgünstig erreichbar, persönlich begleitet und ohne IT-Aufwand.",
+  "benefits": [
+    {
+      "title": "Für Industrie und Unternehmen",
+      "description": "Baden ist ein Technologiestandort. Empfangsdisplays und Infoscreens für interne Kommunikation gehören zu unseren Kernlösungen."
+    },
+    {
+      "title": "Tourismus und Gastronomie",
+      "description": "Hotels, Restaurants und Bäderbetriebe informieren Gäste über Displays elegant und jederzeit aktuell."
+    },
+    {
+      "title": "Detailhandel in der Altstadt",
+      "description": "Schaufenster-Displays setzen Aktionen und Kollektionen wirkungsvoll in Szene – direkt am Point of Sale."
+    },
+    {
+      "title": "Gut erreichbar",
+      "description": "Baden liegt verkehrsgünstig – Liefer- und Montagetermine lassen sich verlässlich planen."
+    },
+    {
+      "title": "Persönliche Betreuung",
+      "description": "Ein fester Ansprechpartner begleitet Ihr Projekt von der Planung bis zum laufenden Betrieb."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Realisiert Meister Signage Projekte in Baden?",
+      "answer": "Ja. Baden ist verkehrsgünstig erreichbar, Installationstermine lassen sich verlässlich und oft kurzfristig vereinbaren."
+    },
+    {
+      "question": "Welche Lösungen passen für Badener Betriebe?",
+      "answer": "Empfangsdisplays und Infoscreens für Unternehmen, Menüboards für Gastronomie sowie Schaufenster-Displays für den Detailhandel."
+    },
+    {
+      "question": "Eignet sich Digital Signage für Hotels in Baden?",
+      "answer": "Ja. Displays in Empfang und Lobby informieren Gäste über Services, Veranstaltungen und Orientierung – ohne Atmosphäre zu verlieren."
+    },
+    {
+      "question": "Brauche ich technisches Know-how?",
+      "answer": "Nein. Wir richten alles ein und übergeben schlüsselfertig. Die Bedienung im Alltag ist bewusst einfach gehalten."
+    },
+    {
+      "question": "Soll ich in Baden mieten oder kaufen?",
+      "answer": "Mieten ab CHF 129 passt für Events oder einen Test ohne grosse Vorabinvestition. Kaufen ab CHF 1.299 lohnt sich für den dauerhaften Einsatz und ist langfristig günstiger."
+    },
+    {
+      "question": "Was kostet Digital Signage in Baden?",
+      "answer": "Ein einzelnes Display gibt es ab CHF 1.299 zum Kauf oder ab CHF 129 zur Miete inklusive Software-Lizenz. Installation und Betreuung weisen wir je nach Projekt offen aus."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Digital Signage Schweiz", "href": "/digital-signage-schweiz/" },
+    { "label": "Empfangsdisplays", "href": "/loesungen/empfangsdisplays/" },
+    { "label": "Display kaufen", "href": "/digital-signage-kaufen/" },
+    { "label": "Display mieten", "href": "/digital-signage-mieten/" },
+    { "label": "Kosten & Preise", "href": "/was-kostet-digital-signage-schweiz/" },
+    { "label": "Digital Signage Aarau", "href": "/staedte/aarau/" },
+    { "label": "Digital Signage Zürich", "href": "/staedte/zuerich/" },
+    { "label": "Kontakt", "href": "/kontakt/" }
+  ],
+  "cta": {
+    "eyebrow": "Projekt besprechen",
+    "title": "Digital-Signage-Lösung für Ihren Betrieb in Baden?",
+    "subtitle": "Sagen Sie kurz, was Sie vorhaben – wir melden uns persönlich mit einer klaren Einschätzung.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Über Meister Signage",
+    "secondaryHref": "/ueber-uns"
+  },
+  "related": {
+    "staedte": [
+      { "label": "Digital Signage Aarau", "href": "/staedte/aarau/" },
+      { "label": "Digital Signage Zürich", "href": "/staedte/zuerich/" }
+    ],
+    "branchen": [
+      { "label": "Unternehmen", "href": "/branchen/unternehmen/" },
+      { "label": "Hotellerie", "href": "/branchen/hotellerie/" },
+      { "label": "Retail & Handel", "href": "/branchen/retail/" }
+    ],
+    "loesungen": [
+      { "label": "Empfangsdisplays", "href": "/loesungen/empfangsdisplays/" },
+      { "label": "Digitale Menüboards", "href": "/loesungen/digitale-menueboards/" }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "st-gallen",
+  "type": "staedte",
+  "seoTitle": "Digital Signage St. Gallen – Displays mieten & kaufen",
+  "seoDescription": "Digital Signage in St. Gallen: Displays mieten ab CHF 129 oder kaufen ab CHF 1.299. Für Detailhandel, Gastronomie und Bildung in der Ostschweiz – persönlich betreut.",
+  "eyebrow": "Standort · St. Gallen",
+  "h1": "Digital Signage St. Gallen",
+  "intro": "St. Gallen ist das wirtschaftliche und kulturelle Zentrum der Ostschweiz – mit lebendigem Detailhandel rund um den Stiftsbezirk, einer breiten Bildungslandschaft und einer aktiven Gastronomie. Meister Signage realisiert Digital-Signage-Projekte für Betriebe in St. Gallen mit klar geplanten Terminen, schweizweiter Installation und einem festen Ansprechpartner – ohne komplizierte IT.",
+  "benefits": [
+    {
+      "title": "Sichtbarkeit im Detailhandel",
+      "description": "Schaufenster und Verkaufsflächen in der St. Galler Innenstadt profitieren von digitalen Displays, die Kollektionen und Aktionen wirkungsvoll in Szene setzen."
+    },
+    {
+      "title": "Für Gastronomie und Cafés",
+      "description": "Digitale Menüboards zeigen Tagesangebote und Preise jederzeit aktuell – ideal für die dichte Gastroszene rund um Marktplatz und Altstadt."
+    },
+    {
+      "title": "Bildung und Empfang",
+      "description": "Hochschulen, Schulen und Verwaltungen nutzen Infoscreens für Orientierung, Veranstaltungen und interne Kommunikation."
+    },
+    {
+      "title": "Planbare Installation",
+      "description": "Wir koordinieren Lieferung und Montage als feste Termine – verlässlich planbar, auch für die Ostschweiz."
+    },
+    {
+      "title": "Ein Ansprechpartner",
+      "description": "Von Beratung über Installation bis Support betreut Sie eine Person, die Ihr Projekt kennt – kein Ticketsystem."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Installiert Meister Signage auch in St. Gallen?",
+      "answer": "Ja. Wir realisieren Projekte schweizweit, also auch in St. Gallen und der weiteren Ostschweiz. Liefer- und Montagetermine planen wir verbindlich im Voraus."
+    },
+    {
+      "question": "Welche Lösungen eignen sich für den St. Galler Detailhandel?",
+      "answer": "Schaufenster-Displays, digitale Werbedisplays und Menüboards für Gastronomie sind die häufigsten Einsatzbereiche in der Innenstadt."
+    },
+    {
+      "question": "Kann ich Inhalte selbst aktualisieren?",
+      "answer": "Ja. Inhalte werden so vorbereitet, dass Sie Angebote, Preise und Hinweise selbst und einfach ändern können – ohne technische Vorkenntnisse."
+    },
+    {
+      "question": "Wie läuft der Support aus der Distanz?",
+      "answer": "Viele Anliegen lösen wir per Fernzugriff. Bei Bedarf kommen wir mit einem geplanten Termin vor Ort."
+    },
+    {
+      "question": "Soll ich in St. Gallen mieten oder kaufen?",
+      "answer": "Mieten ab CHF 129 passt für Events, saisonale Aktionen oder einen Test ohne grosse Vorabinvestition. Kaufen ab CHF 1.299 lohnt sich für den dauerhaften Einsatz und ist langfristig günstiger."
+    },
+    {
+      "question": "Was kostet Digital Signage in St. Gallen?",
+      "answer": "Ein einzelnes Display gibt es ab CHF 1.299 zum Kauf oder ab CHF 129 zur Miete inklusive Software-Lizenz. Installation und Betreuung weisen wir je nach Projekt offen aus. Für eine kostenlose Einschätzung rufen Sie an oder schreiben kurz."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Digital Signage Schweiz", "href": "/digital-signage-schweiz/" },
+    { "label": "Digitale Menüboards", "href": "/loesungen/digitale-menueboards/" },
+    { "label": "Display kaufen", "href": "/digital-signage-kaufen/" },
+    { "label": "Display mieten", "href": "/digital-signage-mieten/" },
+    { "label": "Kosten & Preise", "href": "/was-kostet-digital-signage-schweiz/" },
+    { "label": "Digital Signage Winterthur", "href": "/staedte/winterthur/" },
+    { "label": "Digital Signage Chur", "href": "/staedte/chur/" },
+    { "label": "Kontakt", "href": "/kontakt/" }
+  ],
+  "cta": {
+    "eyebrow": "Projekt besprechen",
+    "title": "Digital-Signage-Lösung für Ihren Betrieb in St. Gallen?",
+    "subtitle": "Sagen Sie kurz, was Sie vorhaben – wir melden uns persönlich mit einer klaren Einschätzung.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Über Meister Signage",
+    "secondaryHref": "/ueber-uns"
+  },
+  "related": {
+    "staedte": [
+      { "label": "Digital Signage Winterthur", "href": "/staedte/winterthur/" },
+      { "label": "Digital Signage Chur", "href": "/staedte/chur/" }
+    ],
+    "branchen": [
+      { "label": "Retail & Handel", "href": "/branchen/retail/" },
+      { "label": "Gastronomie", "href": "/branchen/gastronomie/" },
+      { "label": "Unternehmen", "href": "/branchen/unternehmen/" }
+    ],
+    "loesungen": [
+      { "label": "Digitale Menüboards", "href": "/loesungen/digitale-menueboards/" },
+      { "label": "Digitales Werbedisplay", "href": "/loesungen/digitales-werbedisplay/" }
+    ]
+  }
+}

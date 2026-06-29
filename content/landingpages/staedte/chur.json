@@ -1,0 +1,91 @@
+{
+  "slug": "chur",
+  "type": "staedte",
+  "seoTitle": "Digital Signage Chur – mieten & kaufen | Meister Signage",
+  "seoDescription": "Digital Signage in Chur: Displays mieten ab CHF 129 oder kaufen ab CHF 1.299. Für Detailhandel, Hotellerie und Tourismus in Graubünden – persönlich betreut.",
+  "eyebrow": "Standort · Chur",
+  "h1": "Digital Signage Chur",
+  "intro": "Chur ist die älteste Stadt der Schweiz und das wirtschaftliche Tor zu den Bündner Tourismusregionen. Detailhandel, Gastronomie und eine ausgeprägte Hotellerie prägen die Stadt. Meister Signage realisiert digitale Display-Lösungen für Betriebe in Chur und Umgebung mit verbindlich geplanten Terminen, schweizweiter Installation und persönlicher Betreuung.",
+  "benefits": [
+    {
+      "title": "Stark für Hotellerie und Tourismus",
+      "description": "Hotels und Gästebetriebe in Chur und der Region informieren Gäste über Displays in Empfang und Lobby – mehrsprachig und elegant."
+    },
+    {
+      "title": "Detailhandel sichtbar machen",
+      "description": "Schaufenster und Verkaufsflächen in der Churer Altstadt gewinnen mit digitalen Displays Aufmerksamkeit."
+    },
+    {
+      "title": "Gastronomie flexibel halten",
+      "description": "Digitale Menüboards zeigen Tagesangebote und Preise jederzeit aktuell – ohne gedruckte Tafeln."
+    },
+    {
+      "title": "Planbare Installation",
+      "description": "Wir koordinieren Lieferung und Montage als feste Termine – verlässlich planbar, auch für Graubünden."
+    },
+    {
+      "title": "Ein Ansprechpartner",
+      "description": "Von Beratung bis Support betreut Sie eine Person, die Ihr Projekt kennt – direkt erreichbar."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Installiert Meister Signage auch in Chur?",
+      "answer": "Ja. Wir realisieren Projekte schweizweit, also auch in Chur und der Region Graubünden. Liefer- und Montagetermine planen wir verbindlich im Voraus."
+    },
+    {
+      "question": "Welche Lösungen eignen sich für Hotels in Chur?",
+      "answer": "Empfangs- und Lobbydisplays für Gästeinformationen, Orientierung und Serviceangebote – auf Wunsch mehrsprachig."
+    },
+    {
+      "question": "Können Inhalte mehrsprachig angezeigt werden?",
+      "answer": "Ja. Inhalte lassen sich in mehreren Sprachen vorbereiten und automatisch oder manuell wechseln – relevant für touristisch geprägte Betriebe."
+    },
+    {
+      "question": "Wie läuft der Support aus der Distanz?",
+      "answer": "Viele Anliegen lösen wir per Fernzugriff. Bei Bedarf kommen wir mit einem geplanten Termin vor Ort."
+    },
+    {
+      "question": "Soll ich in Chur mieten oder kaufen?",
+      "answer": "Mieten ab CHF 129 passt für Saisonbetrieb, Events oder einen Test ohne grosse Vorabinvestition. Kaufen ab CHF 1.299 lohnt sich für den dauerhaften Einsatz und ist langfristig günstiger."
+    },
+    {
+      "question": "Was kostet Digital Signage in Chur?",
+      "answer": "Ein einzelnes Display gibt es ab CHF 1.299 zum Kauf oder ab CHF 129 zur Miete inklusive Software-Lizenz. Installation und Betreuung weisen wir je nach Projekt offen aus."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Digital Signage Schweiz", "href": "/digital-signage-schweiz/" },
+    { "label": "Hotellerie", "href": "/branchen/hotellerie/" },
+    { "label": "Display kaufen", "href": "/digital-signage-kaufen/" },
+    { "label": "Display mieten", "href": "/digital-signage-mieten/" },
+    { "label": "Kosten & Preise", "href": "/was-kostet-digital-signage-schweiz/" },
+    { "label": "Digital Signage St. Gallen", "href": "/staedte/st-gallen/" },
+    { "label": "Digitale Menüboards", "href": "/loesungen/digitale-menueboards/" },
+    { "label": "Kontakt", "href": "/kontakt/" }
+  ],
+  "cta": {
+    "eyebrow": "Projekt besprechen",
+    "title": "Digital-Signage-Lösung für Ihren Betrieb in Chur?",
+    "subtitle": "Sagen Sie kurz, was Sie vorhaben – wir melden uns persönlich mit einer klaren Einschätzung.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Über Meister Signage",
+    "secondaryHref": "/ueber-uns"
+  },
+  "related": {
+    "staedte": [
+      { "label": "Digital Signage St. Gallen", "href": "/staedte/st-gallen/" },
+      { "label": "Digital Signage Zürich", "href": "/staedte/zuerich/" }
+    ],
+    "branchen": [
+      { "label": "Hotellerie", "href": "/branchen/hotellerie/" },
+      { "label": "Retail & Handel", "href": "/branchen/retail/" },
+      { "label": "Gastronomie", "href": "/branchen/gastronomie/" }
+    ],
+    "loesungen": [
+      { "label": "Digitaler Empfang", "href": "/loesungen/digitaler-empfang/" },
+      { "label": "Digitale Menüboards", "href": "/loesungen/digitale-menueboards/" }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "winterthur",
+  "type": "staedte",
+  "seoTitle": "Digital Signage Winterthur – mieten & kaufen",
+  "seoDescription": "Digital Signage in Winterthur: Displays mieten ab CHF 129 oder kaufen ab CHF 1.299. Für KMU, Detailhandel und Gastronomie – persönlich geplant und betreut.",
+  "eyebrow": "Standort · Winterthur",
+  "h1": "Digital Signage Winterthur",
+  "intro": "Winterthur verbindet eine starke KMU- und Industrietradition mit einer lebendigen Altstadt, Hochschulumfeld und vielfältiger Gastronomie. Meister Signage plant und installiert digitale Display-Lösungen für Betriebe in Winterthur – von der einzelnen Empfangslösung bis zum Multi-Display-Setup, persönlich begleitet und ohne IT-Aufwand.",
+  "benefits": [
+    {
+      "title": "Stark für KMU",
+      "description": "Winterthur ist eine KMU-Stadt. Wir skalieren Lösungen vom einzelnen Empfangsdisplay bis zur vernetzten Installation über mehrere Räume."
+    },
+    {
+      "title": "Detailhandel und Altstadt",
+      "description": "Schaufenster und Verkaufsflächen werden mit digitalen Displays auffälliger – Aktionen und Kampagnen lassen sich zentral steuern."
+    },
+    {
+      "title": "Gastronomie flexibel halten",
+      "description": "Digitale Menüboards ersetzen gedruckte Tafeln und zeigen Tagesangebote modern und jederzeit aktuell."
+    },
+    {
+      "title": "Gut erreichbar",
+      "description": "Winterthur liegt verkehrsgünstig – Liefer- und Montagetermine lassen sich verlässlich und kurzfristig planen."
+    },
+    {
+      "title": "Persönliche Betreuung",
+      "description": "Ein fester Ansprechpartner begleitet Ihr Projekt von der Planung bis zum laufenden Betrieb – direkt erreichbar."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Realisiert Meister Signage Projekte in Winterthur?",
+      "answer": "Ja. Winterthur ist verkehrsgünstig erreichbar, Installationstermine lassen sich verlässlich und oft kurzfristig vereinbaren."
+    },
+    {
+      "question": "Welche Lösungen passen für Winterthurer KMU?",
+      "answer": "Empfangsdisplays, Infoscreens für interne Kommunikation und Menüboards für Betriebsrestaurants sind typische Einsatzbereiche."
+    },
+    {
+      "question": "Kann ich mit einem Bildschirm starten?",
+      "answer": "Ja. Viele Projekte starten bewusst klein mit einem Display und werden später nach Bedarf erweitert."
+    },
+    {
+      "question": "Brauche ich eine IT-Abteilung?",
+      "answer": "Nein. Wir richten alles ein, schulen bei der Übergabe und bleiben erreichbar. Die Bedienung im Alltag ist bewusst einfach gehalten."
+    },
+    {
+      "question": "Soll ich in Winterthur mieten oder kaufen?",
+      "answer": "Mieten ab CHF 129 passt für Events oder einen Test ohne grosse Vorabinvestition. Kaufen ab CHF 1.299 lohnt sich für den dauerhaften Einsatz und ist langfristig günstiger."
+    },
+    {
+      "question": "Was kostet Digital Signage in Winterthur?",
+      "answer": "Ein einzelnes Display gibt es ab CHF 1.299 zum Kauf oder ab CHF 129 zur Miete inklusive Software-Lizenz. Installation und Betreuung werden je nach Projekt offen ausgewiesen."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Digital Signage Schweiz", "href": "/digital-signage-schweiz/" },
+    { "label": "Empfangsdisplays", "href": "/loesungen/empfangsdisplays/" },
+    { "label": "Display kaufen", "href": "/digital-signage-kaufen/" },
+    { "label": "Display mieten", "href": "/digital-signage-mieten/" },
+    { "label": "Kosten & Preise", "href": "/was-kostet-digital-signage-schweiz/" },
+    { "label": "Digital Signage Zürich", "href": "/staedte/zuerich/" },
+    { "label": "Digital Signage St. Gallen", "href": "/staedte/st-gallen/" },
+    { "label": "Kontakt", "href": "/kontakt/" }
+  ],
+  "cta": {
+    "eyebrow": "Projekt besprechen",
+    "title": "Digital-Signage-Lösung für Ihren Betrieb in Winterthur?",
+    "subtitle": "Sagen Sie kurz, was Sie vorhaben – wir melden uns persönlich mit einer klaren Einschätzung.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Über Meister Signage",
+    "secondaryHref": "/ueber-uns"
+  },
+  "related": {
+    "staedte": [
+      { "label": "Digital Signage Zürich", "href": "/staedte/zuerich/" },
+      { "label": "Digital Signage St. Gallen", "href": "/staedte/st-gallen/" }
+    ],
+    "branchen": [
+      { "label": "Unternehmen", "href": "/branchen/unternehmen/" },
+      { "label": "Retail & Handel", "href": "/branchen/retail/" },
+      { "label": "Gastronomie", "href": "/branchen/gastronomie/" }
+    ],
+    "loesungen": [
+      { "label": "Empfangsdisplays", "href": "/loesungen/empfangsdisplays/" },
+      { "label": "Digitale Menüboards", "href": "/loesungen/digitale-menueboards/" }
+    ]
+  }
+}

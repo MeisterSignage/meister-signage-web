@@ -1,0 +1,91 @@
+{
+  "slug": "aarau",
+  "type": "staedte",
+  "seoTitle": "Digital Signage Aarau – mieten & kaufen | Meister Signage",
+  "seoDescription": "Digital Signage in Aarau: Displays mieten ab CHF 129 oder kaufen ab CHF 1.299. Für Verwaltung, Detailhandel und KMU im Kanton Aargau – persönlich betreut.",
+  "eyebrow": "Standort · Aarau",
+  "h1": "Digital Signage Aarau",
+  "intro": "Als Hauptstadt des Kantons Aargau verbindet Aarau Verwaltung, Detailhandel und ein dichtes KMU-Netz mit einer sehenswerten Altstadt. Meister Signage realisiert digitale Display-Lösungen für Betriebe in Aarau – verkehrsgünstig erreichbar von der Zentralschweiz aus, persönlich geplant und ohne IT-Aufwand.",
+  "benefits": [
+    {
+      "title": "Empfang und Verwaltung",
+      "description": "Behörden, Büros und Dienstleister nutzen Empfangs- und Infodisplays für Orientierung, Termine und Besucherführung."
+    },
+    {
+      "title": "Detailhandel sichtbar machen",
+      "description": "Schaufenster und Verkaufsflächen in der Aarauer Altstadt gewinnen mit digitalen Displays Aufmerksamkeit am Point of Sale."
+    },
+    {
+      "title": "Für KMU passend skaliert",
+      "description": "Ob Einzellösung oder mehrere Standorte – die Lösung wächst mit Ihrem Bedarf, zentral gesteuert."
+    },
+    {
+      "title": "Kurze Wege",
+      "description": "Aarau ist von unserem Sitz in Baar verkehrsgünstig erreichbar – planbare Termine und schnelle Reaktion."
+    },
+    {
+      "title": "Ein Ansprechpartner",
+      "description": "Von der Beratung bis zum Support betreut Sie eine Person, die Ihr Projekt kennt – direkt erreichbar."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Installiert Meister Signage in Aarau?",
+      "answer": "Ja. Aarau ist von der Zentralschweiz aus gut erreichbar. Liefer- und Montagetermine planen wir verbindlich und meist kurzfristig."
+    },
+    {
+      "question": "Welche Lösungen eignen sich für Aarau?",
+      "answer": "Empfangs- und Infodisplays für Verwaltung und Büros sowie Schaufenster-Displays für den Detailhandel sind typische Einsatzbereiche."
+    },
+    {
+      "question": "Kann ich Inhalte selbst pflegen?",
+      "answer": "Ja. Inhalte werden so vorbereitet, dass Sie Hinweise, Termine und Angebote selbst und einfach aktualisieren können."
+    },
+    {
+      "question": "Wie schnell ist eine Installation möglich?",
+      "answer": "Ein einzelnes Display ist meist an einem Tag installiert und eingerichtet. Grössere Setups planen wir in Absprache."
+    },
+    {
+      "question": "Soll ich in Aarau mieten oder kaufen?",
+      "answer": "Mieten ab CHF 129 passt für Events oder einen Test ohne grosse Vorabinvestition. Kaufen ab CHF 1.299 lohnt sich für den dauerhaften Einsatz und ist langfristig günstiger."
+    },
+    {
+      "question": "Was kostet Digital Signage in Aarau?",
+      "answer": "Ein einzelnes Display gibt es ab CHF 1.299 zum Kauf oder ab CHF 129 zur Miete inklusive Software-Lizenz. Installation und Betreuung weisen wir je nach Projekt offen aus."
+    }
+  ],
+  "internalLinks": [
+    { "label": "Digital Signage Schweiz", "href": "/digital-signage-schweiz/" },
+    { "label": "Empfangsdisplays", "href": "/loesungen/empfangsdisplays/" },
+    { "label": "Display kaufen", "href": "/digital-signage-kaufen/" },
+    { "label": "Display mieten", "href": "/digital-signage-mieten/" },
+    { "label": "Kosten & Preise", "href": "/was-kostet-digital-signage-schweiz/" },
+    { "label": "Digital Signage Baden", "href": "/staedte/baden/" },
+    { "label": "Digital Signage Olten", "href": "/staedte/olten/" },
+    { "label": "Kontakt", "href": "/kontakt/" }
+  ],
+  "cta": {
+    "eyebrow": "Projekt besprechen",
+    "title": "Digital-Signage-Lösung für Ihren Betrieb in Aarau?",
+    "subtitle": "Sagen Sie kurz, was Sie vorhaben – wir melden uns persönlich mit einer klaren Einschätzung.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Über Meister Signage",
+    "secondaryHref": "/ueber-uns"
+  },
+  "related": {
+    "staedte": [
+      { "label": "Digital Signage Baden", "href": "/staedte/baden/" },
+      { "label": "Digital Signage Olten", "href": "/staedte/olten/" }
+    ],
+    "branchen": [
+      { "label": "Unternehmen", "href": "/branchen/unternehmen/" },
+      { "label": "Retail & Handel", "href": "/branchen/retail/" },
+      { "label": "Gastronomie", "href": "/branchen/gastronomie/" }
+    ],
+    "loesungen": [
+      { "label": "Empfangsdisplays", "href": "/loesungen/empfangsdisplays/" },
+      { "label": "Digitale Leitsysteme", "href": "/loesungen/digitale-leitsysteme/" }
+    ]
+  }
+}
