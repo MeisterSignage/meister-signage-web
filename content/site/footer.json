@@ -97,6 +97,34 @@
     {
       "label": "Basel",
       "href": "/staedte/basel/"
+    },
+    {
+      "label": "St. Gallen",
+      "href": "/staedte/st-gallen/"
+    },
+    {
+      "label": "Winterthur",
+      "href": "/staedte/winterthur/"
+    },
+    {
+      "label": "Aarau",
+      "href": "/staedte/aarau/"
+    },
+    {
+      "label": "Baden",
+      "href": "/staedte/baden/"
+    },
+    {
+      "label": "Chur",
+      "href": "/staedte/chur/"
+    },
+    {
+      "label": "Solothurn",
+      "href": "/staedte/solothurn/"
+    },
+    {
+      "label": "Olten",
+      "href": "/staedte/olten/"
     }
   ],
   "socials": {
