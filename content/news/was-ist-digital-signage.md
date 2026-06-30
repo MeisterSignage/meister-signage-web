@@ -6,7 +6,7 @@ date: "2026-06-30T06:00:00+02:00"
 category: "Trends"
 image: "/images/products/Spark3-Design.webp"
 slug: "was-ist-digital-signage"
-status: scheduled
+status: published
 carousel:
   hook: "Digital Signage – 2026 nicht mehr, was es mal war?"
   hookSub: "Einstieg, Installation und Risiko haben sich grundlegend verändert."
