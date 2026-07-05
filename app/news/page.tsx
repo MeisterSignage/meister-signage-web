@@ -89,10 +89,9 @@ export default function NewsPage() {
           ) : (
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
               {posts.map((post) => (
-                <Link
+                <div
                   key={post.slug}
-                  href={`/news/${post.slug}`}
-                  className="group flex flex-col overflow-hidden rounded-2xl border border-navy/8 bg-white transition-all duration-200 hover:-translate-y-0.5 hover:border-navy/16 hover:shadow-[0_8px_32px_rgba(26,39,68,0.08)]"
+                  className="group relative flex flex-col overflow-hidden rounded-2xl border border-navy/8 bg-white transition-all duration-200 hover:-translate-y-0.5 hover:border-navy/16 hover:shadow-[0_8px_32px_rgba(26,39,68,0.08)]"
                 >
                   {/* Thumbnail */}
                   <div className="relative h-[200px] w-full overflow-hidden bg-offwhite">
@@ -140,7 +139,12 @@ export default function NewsPage() {
                       />
                     </div>
                   </div>
-                </Link>
+
+                  {/* Ganze Karte klickbar, Ankertext = nur der Titel */}
+                  <Link href={`/news/${post.slug}/`} className="absolute inset-0">
+                    <span className="sr-only">{post.title}</span>
+                  </Link>
+                </div>
               ))}
             </div>
           )}

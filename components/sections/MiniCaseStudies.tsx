@@ -87,7 +87,7 @@ export default function MiniCaseStudies() {
         >
           {cases.map((c) => (
             <motion.div key={c.category} variants={staggerItem}>
-              <Link href={c.href} className="group block h-full">
+              <div className="group relative block h-full">
                 <motion.div
                   className="h-full overflow-hidden rounded-[16px] bg-white"
                   whileHover={reduced ? undefined : cardHover}
@@ -144,7 +144,10 @@ export default function MiniCaseStudies() {
                     </div>
                   </div>
                 </motion.div>
-              </Link>
+                <Link href={c.href} className="absolute inset-0 z-10">
+                  <span className="sr-only">{c.title}</span>
+                </Link>
+              </div>
             </motion.div>
           ))}
         </motion.div>

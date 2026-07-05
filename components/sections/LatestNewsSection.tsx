@@ -54,9 +54,8 @@ export default function LatestNewsSection({
 
 function NewsCard({ post }: { post: NewsPost }) {
   return (
-    <Link
-      href={`/news/${post.slug}/`}
-      className="group flex flex-col overflow-hidden rounded-2xl border border-navy/8 bg-white transition-all duration-200 hover:-translate-y-0.5 hover:border-navy/16 hover:shadow-[0_8px_32px_rgba(26,39,68,0.08)]"
+    <article
+      className="group relative flex flex-col overflow-hidden rounded-2xl border border-navy/8 bg-white transition-all duration-200 hover:-translate-y-0.5 hover:border-navy/16 hover:shadow-[0_8px_32px_rgba(26,39,68,0.08)]"
     >
       {/* Image */}
       <div className="relative h-[190px] w-full overflow-hidden bg-offwhite">
@@ -107,6 +106,11 @@ function NewsCard({ post }: { post: NewsPost }) {
           <ArrowRight className="h-3 w-3 transition-transform duration-150 group-hover:translate-x-0.5" strokeWidth={2.5} />
         </div>
       </div>
-    </Link>
+
+      {/* Ganze Karte klickbar, Ankertext = nur der Titel (Stretched Link) */}
+      <Link href={`/news/${post.slug}/`} className="absolute inset-0">
+        <span className="sr-only">{post.title}</span>
+      </Link>
+    </article>
   );
 }

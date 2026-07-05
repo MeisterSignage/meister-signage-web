@@ -178,10 +178,9 @@ export default function WissenIndexPage() {
                 </div>
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
                   {items.map((p) => (
-                    <Link
+                    <div
                       key={p.slug}
-                      href={`/wissen/${p.slug}`}
-                      className="group flex h-full flex-col gap-4 border border-navy/8 bg-offwhite p-6 transition-all duration-200 hover:border-magenta/25 hover:bg-white hover:shadow-[0_8px_28px_rgba(26,39,68,0.08)]"
+                      className="group relative flex h-full flex-col gap-4 border border-navy/8 bg-offwhite p-6 transition-all duration-200 hover:border-magenta/25 hover:bg-white hover:shadow-[0_8px_28px_rgba(26,39,68,0.08)]"
                     >
                       <div className="h-px w-8 bg-gold/50 transition-all duration-300 group-hover:w-12 group-hover:bg-gold" />
                       <h2 className="text-[18px] font-bold tracking-tight text-navy group-hover:text-magenta transition-colors duration-150">
@@ -197,7 +196,10 @@ export default function WissenIndexPage() {
                           strokeWidth={2.5}
                         />
                       </span>
-                    </Link>
+                      <Link href={`/wissen/${p.slug}/`} className="absolute inset-0">
+                        <span className="sr-only">{p.h1}</span>
+                      </Link>
+                    </div>
                   ))}
                 </div>
               </div>

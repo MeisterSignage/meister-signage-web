@@ -73,7 +73,7 @@ Die theoretische Antwort zu Mieten vs. Kaufen ist einfach: dauerhaft = Kauf, tem
 
 **Lehre:** Für Eventagenturen, Veranstalter und Multi-Standort-Konzepte ist meist ein hybrides Modell wirtschaftlich – nicht 100 % Kauf, nicht 100 % Miete.
 
-Die [Eventmiete-Sektion](/digital-signage-mieten#mietdauer) zeigt, welche Mietdauern wir typisch anbieten.
+Die [Eventmiete-Sektion](/digital-signage-mieten/#mietdauer) zeigt, welche Mietdauern wir typisch anbieten.
 
 ## Wann welches Modell – die kurze Logik
 

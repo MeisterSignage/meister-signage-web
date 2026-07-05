@@ -6,7 +6,6 @@ import JsonLd from "@/components/JsonLd";
 import { faqSchema } from "@/lib/schema/faq";
 import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
 import { serviceSchema } from "@/lib/schema/service";
-import { rentalOfferSchema } from "@/lib/schema/product";
 
 const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/digital-signage-mieten`;
@@ -14,7 +13,7 @@ const PAGE_URL = `${SITE_URL}/digital-signage-mieten`;
 export const metadata: Metadata = {
   title: { absolute: "Digital Signage & Displays mieten Schweiz | Meister Signage" },
   description:
-    "Display mieten in der Schweiz: Digital-Signage-Screens, Eventdisplays und Menüboards flexibel zur Miete, inkl. Lizenz. Display-Miete ab CHF 129/Monat.",
+    "Display mieten in der Schweiz: Digital-Signage-Screens, Eventdisplays und Menüboards flexibel zur Miete – inkl. Lizenz und persönlicher Betreuung. Konditionen auf Anfrage.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "website",
@@ -37,7 +36,7 @@ const PAGE_FAQS = [
   {
     question: "Was kostet die Display-Miete?",
     answer:
-      "Ein Display mieten Sie in der Schweiz ab CHF 129 pro Monat – je nach Grösse und Auflösung. Die Display-Miete umfasst Hardware, Software-Lizenz und Support; Einrichtung und Lieferung werden im Angebot transparent ausgewiesen.",
+      "Die Display-Miete kalkulieren wir individuell nach Grösse, Auflösung und Einsatzdauer. Sie umfasst Hardware, Software-Lizenz und Support; Konditionen, Einrichtung und Lieferung weisen wir im Angebot transparent aus – eine kurze Anfrage genügt.",
   },
   {
     question: "Welche Displays können gemietet werden?",
@@ -109,16 +108,6 @@ export default function DigitalSignageMietenPage() {
           }) as Record<string, unknown>
         }
       />
-      {rentalOfferSchema(
-        [
-          { name: "Meister Spark 3 Miete – 32\" Display", description: "32\" Full HD Display zur flexiblen Miete inkl. Lizenz.", monthlyPrice: 129, screenSize: "32 Zoll", resolution: "1920 × 1080 (Full HD)", powerTyp: "36 W", weightKg: 5.5 },
-          { name: "Meister Spark 4 Miete – 43\" Display", description: "43\" 4K UHD Display zur flexiblen Miete inkl. Lizenz.", monthlyPrice: 139, screenSize: "43 Zoll", resolution: "3840 × 2160 (4K UHD)",  powerTyp: "63 W", weightKg: 9.5 },
-          { name: "Meister Spark 5 Miete – 50\" Display", description: "50\" 4K UHD Display zur flexiblen Miete inkl. Lizenz.", monthlyPrice: 149, screenSize: "50 Zoll", resolution: "3840 × 2160 (4K UHD)",  powerTyp: "81 W", weightKg: 13  },
-        ],
-        PAGE_URL,
-      ).map((schema, i) => (
-        <JsonLd key={`rental-${i}`} schema={schema as Record<string, unknown>} />
-      ))}
 
       <DigitalSignageMietenContent />
 

@@ -49,7 +49,7 @@ function IndustryCard({
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
-      <Link href={href} className="group block h-full">
+      <div className="group block h-full">
         <div
           className={`
             relative overflow-hidden rounded-[32px] h-full
@@ -150,8 +150,13 @@ function IndustryCard({
             className="absolute inset-0 rounded-[32px] opacity-0 transition-opacity duration-500 group-hover:opacity-100"
             style={{ boxShadow: "inset 0 0 0 1px rgba(255,255,255,0.08)" }}
           />
+
+          {/* Ganze Karte klickbar, Ankertext = nur der Titel (Stretched Link) */}
+          <Link href={href} className="absolute inset-0 z-10">
+            <span className="sr-only">{title}</span>
+          </Link>
         </div>
-      </Link>
+      </div>
     </motion.div>
   );
 }

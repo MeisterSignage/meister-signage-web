@@ -24,9 +24,8 @@ function EditorialCard({
   featured?: boolean;
 }) {
   return (
-    <Link
-      href={`/news/${post.slug}/`}
-      className="group flex flex-col overflow-hidden rounded-[22px] bg-white"
+    <article
+      className="group relative flex flex-col overflow-hidden rounded-[22px] bg-white"
       style={{
         boxShadow:
           "0 2px 20px rgba(26,39,68,0.07), 0 0 0 1px rgba(26,39,68,0.055)",
@@ -118,7 +117,12 @@ function EditorialCard({
           />
         </div>
       </div>
-    </Link>
+
+      {/* Ganze Karte klickbar, Ankertext = nur der Titel (Stretched Link) */}
+      <Link href={`/news/${post.slug}/`} className="absolute inset-0">
+        <span className="sr-only">{post.title}</span>
+      </Link>
+    </article>
   );
 }
 

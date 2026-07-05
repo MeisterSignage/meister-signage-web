@@ -514,9 +514,8 @@ export default function DigitalSignageMietenContent() {
                     </span>
                   </div>
                   <div className="mb-4">
-                    <span className="text-[13px] font-semibold text-cgray">ab </span>
-                    <span className="text-[28px] font-black tracking-tight text-navy">
-                      CHF {pkg.price}
+                    <span className="text-[20px] font-black tracking-tight text-navy">
+                      Preis auf Anfrage
                     </span>
                   </div>
                   <p className="mb-5 text-[13px] leading-relaxed text-cgray">{pkg.desc}</p>
@@ -551,7 +550,7 @@ export default function DigitalSignageMietenContent() {
             viewport={viewport}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            Alle Preise aufgrund der Unternehmensform ohne MWST. Einmalige Setup-Gebühr von CHF 149. Individuelle Angebote auf Anfrage.
+            Individuelle Angebote auf Anfrage – Konditionen weisen wir transparent aus.
           </motion.p>
 
         </div>
@@ -704,7 +703,7 @@ export default function DigitalSignageMietenContent() {
           >
             <div>
               <p className="text-[15px] font-semibold text-navy">
-                Preise ab CHF 129 – Mietdauer passend zu Ihrem Bedarf.
+                Mietdauer passend zu Ihrem Bedarf.
               </p>
               <p className="mt-1 text-[13px] leading-relaxed text-cgray">
                 Wir kalkulieren transparent auf Basis der gewünschten Einsatzdauer. Kurz anfragen, klar zurückbekommen.

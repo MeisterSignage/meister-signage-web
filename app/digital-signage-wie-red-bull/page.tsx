@@ -82,6 +82,8 @@ const PAGE_FAQS = [
 ];
 
 const INTERNAL_LINKS = [
+  { label: "Digital Signage mieten", href: "/digital-signage-mieten/" },
+  { label: "Digital Signage Schweiz", href: "/digital-signage-schweiz/" },
   { label: "Retail & Handel", href: "/branchen/retail/" },
   { label: "Digitale Schaufensterwerbung", href: "/loesungen/digitale-schaufensterwerbung/" },
   { label: "Digital Signage Software", href: "/loesungen/software/" },

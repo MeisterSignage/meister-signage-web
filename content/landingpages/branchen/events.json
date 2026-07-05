@@ -95,7 +95,7 @@
     "primaryLabel": "Beratung anfragen",
     "primaryHref": "/kontakt",
     "secondaryLabel": "Displays mieten",
-    "secondaryHref": "/digital-signage-mieten"
+    "secondaryHref": "/digital-signage-mieten/"
   },
   "related": {
     "loesungen": [

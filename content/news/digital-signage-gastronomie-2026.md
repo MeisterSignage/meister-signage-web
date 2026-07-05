@@ -1,6 +1,6 @@
 ---
-title: "Digitale Menüboards in der Gastronomie: Trend 2026"
-seoTitle: "Digitale Menüboards 2026: Gastro-Trend"
+title: "Menüboard-Trends 2026: Was sich in der Gastronomie ändert"
+seoTitle: "Menüboard-Trends 2026 in der Gastronomie"
 description: "Digitale Menüboards 2026 in Schweizer Restaurants und Cafés: Warum sie zum Standard werden, was sie kosten und welche Modelle sich bewähren."
 date: "2026-05-08"
 category: "Gastronomie"
