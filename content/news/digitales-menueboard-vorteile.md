@@ -6,7 +6,7 @@ date: "2026-07-07T06:00:00+02:00"
 category: "Gastronomie"
 image: "/images/products/Restaurant-Meister-Signage.webp"
 slug: "digitales-menueboard-vorteile"
-status: scheduled
+status: published
 carousel:
   hook: "Digitales Menüboard – und trotzdem keine Wirkung?"
   hookSub: "Fünf typische Setup-Fehler kosten Lesbarkeit und Aufmerksamkeit."
