@@ -17,9 +17,14 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/mieten/"],
+        // /admin/ ist bereits per HTTP 401 geschützt – hier nur, damit die
+        // Login-URL nicht im Index landet. /_next/ bewusst NICHT sperren:
+        // Crawler brauchen die JS/CSS-Assets zum Rendern (sonst SEO-Schaden).
+        disallow: "/admin/",
       },
+      // AI-Crawler explizit erlauben (GEO / AI-Sichtbarkeit).
       { userAgent: "GPTBot", allow: "/" },
+      { userAgent: "OAI-SearchBot", allow: "/" },
       { userAgent: "ChatGPT-User", allow: "/" },
       { userAgent: "ClaudeBot", allow: "/" },
       { userAgent: "Claude-Web", allow: "/" },

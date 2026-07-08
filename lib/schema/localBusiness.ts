@@ -32,6 +32,7 @@ export const localBusinessSchema = {
   },
   areaServed: [
     { "@type": "Country", name: "Schweiz" },
+    { "@type": "AdministrativeArea", name: "Deutschschweiz" },
     { "@type": "AdministrativeArea", name: "Zentralschweiz" },
     { "@type": "City", name: "Luzern" },
     { "@type": "City", name: "Zug" },
