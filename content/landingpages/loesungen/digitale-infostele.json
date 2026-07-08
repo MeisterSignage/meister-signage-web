@@ -2,10 +2,10 @@
   "slug": "digitale-infostele",
   "type": "loesungen",
   "seoTitle": "Digitale Infostele für Empfang & Lobby | Meister Signage",
-  "seoDescription": "Digitale Infostele (Infosäule) für Lobby, Empfang, Events & Arenen: freistehende Säule mit Wegweisung, News oder Werbung. Schlüsselfertig, Schweizer Service.",
+  "seoDescription": "Digitale Infostele (Infosäule) für Lobby, Empfang, Events & Arenen: freistehende Säule mit Wegweisung, News oder Werbung – optional mit Touchscreen, für innen und aussen. Schweizer Service.",
   "eyebrow": "Lösung · Infostele",
   "h1": "Digitale Infostele – Information frei im Raum.",
-  "intro": "Eine digitale Infostele – auch Infosäule oder Informationsstele genannt – ist eine freistehende, vertikale Säule mit Display, ob innen oder im öffentlichen Raum – aufgestellt in Empfangsbereichen, Lobbys, Wartezonen, Museen, Arenen, an Events oder in öffentlichen Gebäuden. Sie begrüsst, informiert und orientiert – ohne Wandmontage und ohne fixe Verkabelung. Inhalte werden zentral gepflegt und automatisch aktualisiert: vom Tagesprogramm über die Wegweisung bis zu Sponsoren- und Werbeflächen.",
+  "intro": "Eine digitale Infostele – auch Infosäule oder Informationsstele genannt – ist eine freistehende, vertikale Säule mit Display, ob innen oder im öffentlichen Raum – aufgestellt in Empfangsbereichen, Lobbys, Wartezonen, Museen, Arenen, an Events oder in öffentlichen Gebäuden. Sie begrüsst, informiert und orientiert – ohne Wandmontage und ohne fixe Verkabelung. Inhalte werden zentral gepflegt und automatisch aktualisiert: vom Tagesprogramm über die Wegweisung bis zu Sponsoren- und Werbeflächen. Als digitaler Infoständer mit hochauflösendem UHD-Display und Android-Media-Player – zentral gesteuert, für den Innen- wie den Outdoor-Bereich.",
   "heroImage": "/images/products/Infostele-Empfang-Lobby.webp",
   "gallery": [
     { "src": "/images/products/Infostele-Event-Welcome.webp", "alt": "Digitale Infostele mit Willkommens-Screen an einem Event" },
@@ -40,6 +40,10 @@
     {
       "title": "Stark an Events, Messen & in Arenen",
       "description": "Begrüssung, Tagesprogramm, Wegweisung zu Sektoren und Sponsorenflächen auf einer freistehenden Stele – flexibel platziert, wo Besucherströme entstehen."
+    },
+    {
+      "title": "Indoor & Outdoor, hochauflösend",
+      "description": "Ob im Empfang, im öffentlichen Raum oder als wetterfeste Outdoor-Stele: das UHD-Display bleibt gut lesbar, gesteuert über einen integrierten Android-Media-Player."
     }
   ],
   "faq": [
@@ -70,6 +74,10 @@
     {
       "question": "Was kostet eine digitale Infostele?",
       "answer": "Im Mietmodell ab CHF 149, beim Kauf ab CHF 1.599 für ein 50-Zoll-Modell auf Standfuss. Hinzu kommen je nach Projekt Aufbau und die einmalige Einrichtungspauschale von CHF 149 – im Angebot transparent ausgewiesen."
+    },
+    {
+      "question": "Eignet sich eine Infostele auch als Werbestele?",
+      "answer": "Ja. Als digitale Werbestele spielt sie Kampagnen, Aktionen und Branding aus – im Handel, am POS oder in öffentlichen Bereichen. Inhalte lassen sich zentral planen und in Sekunden aktualisieren."
     }
   ],
   "internalLinks": [
@@ -88,6 +96,10 @@
     {
       "label": "Digitale Raumbeschilderung",
       "href": "/loesungen/digitale-raumbeschilderung/"
+    },
+    {
+      "label": "Digitale Kundenstopper",
+      "href": "/loesungen/digitale-kundenstopper/"
     },
     {
       "label": "Hotellerie",
