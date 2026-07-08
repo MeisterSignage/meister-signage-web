@@ -1,11 +1,11 @@
 {
   "slug": "doppelseitige-displays",
   "type": "loesungen",
-  "seoTitle": "Doppelseitige Displays Schweiz | Meister Signage",
-  "seoDescription": "Doppelseitige Digital-Signage-Displays für Lobby, Retail und Events – Sichtbarkeit aus zwei Richtungen, zwei Inhalte gleichzeitig. Schweizer Service.",
+  "seoTitle": "Doppelseitige Displays & Schaufensterdisplays | Meister Signage",
+  "seoDescription": "Doppelseitige Displays & Schaufensterdisplays für Lobby, Retail und Events – Sichtbarkeit aus zwei Richtungen, zwei Inhalte gleichzeitig, für Innen- und Aussenbereich. Schweizer Service.",
   "eyebrow": "Lösung · Doppelseitige Displays",
   "h1": "Doppelseitige Displays – Sichtbarkeit aus zwei Richtungen.",
-  "intro": "Doppelseitige Displays eignen sich für Räume, in denen Menschen aus verschiedenen Richtungen kommen – etwa Lobbys, Eingänge, Showrooms, Retail-Flächen oder Events. Auf einer Seite Orientierung, auf der anderen Seite Branding, Angebote oder Eventinformationen. Auch im Schaufenster wirken sie stark: hängend von der Decke oder auf einem Ständer, mit hoher Aussenhelligkeit für Passanten und angenehmer Innenhelligkeit für Besucher.",
+  "intro": "Doppelseitige Displays eignen sich für Räume, in denen Menschen aus verschiedenen Richtungen kommen – etwa Lobbys, Eingänge, Showrooms, Retail-Flächen oder Events. Auf einer Seite Orientierung, auf der anderen Seite Branding, Angebote oder Eventinformationen. Auch im Schaufenster wirken sie stark: hängend von der Decke oder auf einem Ständer, mit hoher Aussenhelligkeit für Passanten und angenehmer Innenhelligkeit für Besucher. Als doppelseitiges Schaufensterdisplay sorgt ein solcher Bildschirm für maximale Sichtbarkeit am Point of Sale – im Innen- wie im Aussenbereich.",
   "gallery": [
     { "src": "/images/products/Doppelseitiges-Display-Mode-Boutique.webp", "alt": "Doppelseitiges Display als freistehende Stele in einer Mode-Boutique" },
     { "src": "/images/products/Doppelseitiges-Display-Showroom.webp", "alt": "Doppelseitiges Display im Showroom" },
@@ -43,6 +43,10 @@
     {
       "title": "Premium fürs Schaufenster – hängend oder stehend",
       "description": "Für Luxushotels, Boutiquen und Premium-Retail: hängend von der Decke oder auf einem Ständer, professionell und tragfähig montiert – ein hochwertiger Blickfang zur Strasse und in den Raum."
+    },
+    {
+      "title": "Aufmerksamkeit am Point of Sale",
+      "description": "Als doppelseitiges Schaufensterdisplay zieht der Bildschirm Blicke an – innen wie aussen. Ideal für Retail und Gastronomie am Point of Sale (POS), robust und langlebig für den Dauereinsatz."
     }
   ],
   "faq": [
@@ -73,9 +77,21 @@
     {
       "question": "Kann die Helligkeit im Schaufenster nachts reduziert werden?",
       "answer": "Ja. Über einen Zeitplan lässt sich die Helligkeit abends automatisch senken – das schont Auge und Energie und vermeidet Blendung in der Nacht."
+    },
+    {
+      "question": "Eignen sich doppelseitige Displays für den Aussenbereich?",
+      "answer": "Ja. Für den Innenbereich wie auch für geschützte Aussenbereiche gibt es passende Varianten – im Schaufenster mit hoher Helligkeit für gute Sichtbarkeit bei Tageslicht. Welche Ausführung passt, klären wir je nach Standort."
     }
   ],
   "internalLinks": [
+    {
+      "label": "Digitale Schaufensterwerbung",
+      "href": "/loesungen/digitale-schaufensterwerbung/"
+    },
+    {
+      "label": "Digitale Kundenstopper",
+      "href": "/loesungen/digitale-kundenstopper/"
+    },
     {
       "label": "Hotellerie",
       "href": "/branchen/hotellerie/"
