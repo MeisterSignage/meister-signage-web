@@ -1,11 +1,11 @@
 {
   "slug": "digitales-werbedisplay",
   "type": "loesungen",
-  "seoTitle": "Digitales Werbedisplay für Retail & POS | Meister Signage",
+  "seoTitle": "Digitale Werbedisplays für Retail & POS | Meister Signage",
   "seoDescription": "Digitale Werbedisplays für Retail, Gastronomie & POS – ab CHF 129/Mt. oder ab CHF 1.299. Schlüsselfertig installiert vom Schweizer Anbieter.",
   "eyebrow": "Lösung · Werbedisplay",
   "h1": "Digitale Werbedisplays – Aufmerksamkeit, wo sie wirkt.",
-  "intro": "Ein digitales Werbedisplay wirkt direkt am Point of Sale und lenkt Aufmerksamkeit auf das, was zählt: Angebote, Marken, Aktionen. Ein digitales Werbedisplay zeigt Kampagnen, Aktionen, Produkte oder Markenwerte direkt am Ort der Entscheidung. Anders als gedruckte Plakate lassen sich Inhalte täglich anpassen, mit Bewegtbild ergänzen und auf Zielgruppen oder Tageszeit ausrichten. Für Retail, Gastronomie, Pop-up-Stores und Empfangsbereiche.",
+  "intro": "Ein digitales Werbedisplay wirkt direkt am Point of Sale und lenkt Aufmerksamkeit auf das, was zählt: Angebote, Marken, Aktionen. Ein digitales Werbedisplay zeigt Kampagnen, Aktionen, Produkte oder Markenwerte direkt am Ort der Entscheidung. Anders als gedruckte Plakate lassen sich Inhalte täglich anpassen, mit Bewegtbild ergänzen und auf Zielgruppen oder Tageszeit ausrichten. Für Retail, Gastronomie, Pop-up-Stores und Empfangsbereiche. Vom Einzelhandel bis zum Aussenbereich: Der integrierte Android-Mediaplayer holt neue Werbebotschaften per WLAN aus der Cloud – ganz ohne USB-Stick.",
   "heroImage": "/images/products/Schuhladen-Meister-Signage.webp",
   "benefits": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "title": "Mehrere Inhalte im Wechsel",
-      "description": "Statt einer Botschaft auf einem Plakat zeigt das digitale Werbedisplay 5, 10 oder 20 Inhalte im Wechsel. Sie kommunizieren parallel über Kampagnen, Produkte und Aktionen."
+      "description": "Statt einer Botschaft auf einem Plakat zeigt das digitale Werbedisplay 5, 10 oder 20 Inhalte im Wechsel – Bilder, Videos und Animationen. Sie kommunizieren parallel über Kampagnen, Produkte und Aktionen."
     },
     {
       "title": "Zeit- und tagesgesteuerte Werbung",
@@ -31,6 +31,10 @@
     {
       "title": "Verschiedene Grössen, klare Preise",
       "description": "Vom kompakten 32-Zoll-Display für die Theke bis zum 50-Zoll-Werbebildschirm fürs Schaufenster. Vier Standardmodelle mit transparenten Preisen – kein Beraterprojekt nötig."
+    },
+    {
+      "title": "Android-Mediaplayer, per WLAN gesteuert",
+      "description": "Der Bildschirm bringt einen Android-Mediaplayer bereits mit – Inhalte kommen per WLAN aus der Cloud, ohne PC oder USB-Stick. Auf Wunsch auch als Outdoor-Variante für den Aussenbereich."
     }
   ],
   "faq": [
@@ -57,6 +61,10 @@
     {
       "question": "Kann ich mehrere Werbedisplays zentral steuern?",
       "answer": "Ja. Auch mehrere Standorte oder ganze Filialnetze lassen sich über eine Oberfläche steuern. Inhalte können standortspezifisch oder einheitlich ausgespielt werden."
+    },
+    {
+      "question": "Wo lohnt sich ein digitales Werbedisplay besonders?",
+      "answer": "Überall mit Laufkundschaft: im Einzelhandel, in der Gastronomie und in Empfangsbereichen. Als digitaler Werbeaufsteller oder Kundenstopper zieht es Aufmerksamkeit direkt am Eingang – flexibler als gedruckte Plakate."
     }
   ],
   "internalLinks": [
