@@ -2,10 +2,10 @@
   "slug": "stretched-display",
   "type": "loesungen",
   "seoTitle": "Stretched, Ultra-Wide & Custom-Displays | Meister Signage",
-  "seoDescription": "Ultrabreite Stretched-, Ultra-Wide-, Panorama- und Custom-Format-Displays für Regalkanten, Theken, Flure und besondere Räume – schlüsselfertig geplant in der Schweiz.",
+  "seoDescription": "Ultrabreite Stretched-, Ultra-Wide-, Panorama- und Custom-Format-Displays für Regalkanten, Theken, Flure und besondere Räume – hohe Helligkeit, Full-HD-Auflösung, schlüsselfertig geplant in der Schweiz.",
   "eyebrow": "Lösung · Stretched Bar Display",
   "h1": "Stretched Bar Displays – Werbung im schmalen Langformat.",
-  "intro": "Stretched Bar Displays sind ultrabreite Langformat-Bildschirme (z. B. 16:3 oder 32:9) für Stellen, an denen ein normales Display nicht passt: Regalkanten im Detailhandel, Schaufenster-Bänder, Theken, schmale Nischen oder Korridore. Ein schlankes Format, das auffällt – ohne Platz wegzunehmen. Für besondere Räume realisieren wir auch grössere Ultra-Wide-Flächen über der Bar, durchgehende Panorama-Bänder in Fluren, gekrümmte Curved-Displays und weitere Custom-Formate.",
+  "intro": "Stretched Bar Displays sind ultrabreite Langformat-Bildschirme (z. B. 16:3 oder 32:9) für Stellen, an denen ein normales Display nicht passt: Regalkanten im Detailhandel, Schaufenster-Bänder, Theken, schmale Nischen oder Korridore. Ein schlankes Format, das auffällt – ohne Platz wegzunehmen. Für besondere Räume realisieren wir auch grössere Ultra-Wide-Flächen über der Bar, durchgehende Panorama-Bänder in Fluren, gekrümmte Curved-Displays und weitere Custom-Formate. Technisch setzen wir auf langlebige LCD-Panels (IPS) mit hoher Auflösung und Standard-Anschlüssen (HDMI) – für Indoor- wie geschützte Outdoor-Standorte.",
   "gallery": [
     { "src": "/images/products/Stretched-Display-Regal.webp", "alt": "Stretched Bar Display an der Regalkante im Retail" },
     { "src": "/images/products/Stretched-Display-Decke.webp", "alt": "Stretched Bar Display im Querformat" },
@@ -47,6 +47,10 @@
     {
       "title": "Custom-Formate mit Engineering",
       "description": "Flexible Panel-Kombinationen (2×2, 3×1 und mehr) mit nahtloser Kalibrierung. Statik, Prüfung und professionelle Montage übernehmen wir komplett."
+    },
+    {
+      "title": "Scharfe Auflösung, einfacher Anschluss",
+      "description": "Hochwertige IPS-LCD-Panels mit Full-HD- bis 4K-Auflösung sorgen für scharfe Inhalte aus jedem Blickwinkel. Der Anschluss erfolgt unkompliziert über HDMI oder integrierten Media-Player – wie bei einem normalen Monitor."
     }
   ],
   "faq": [
@@ -77,6 +81,10 @@
     {
       "question": "Wie lange dauert eine Custom-Installation?",
       "answer": "Länger als ein Standard-Einbau: Bei individuellen oder gekrümmten Formaten kommt eine Engineering-Phase dazu, die Installation selbst dauert anschliessend wenige Tage – je nach Komplexität."
+    },
+    {
+      "question": "Eignen sich Stretched Displays für innen und aussen?",
+      "answer": "Standardmodelle sind für den Indoor-Einsatz ausgelegt. Für Schaufenster hinter Glas oder geschützte Aussenbereiche wählen wir Varianten mit höherer Helligkeit – je nach Standort empfehlen wir das passende Modell."
     }
   ],
   "internalLinks": [
