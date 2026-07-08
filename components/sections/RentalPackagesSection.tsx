@@ -76,7 +76,7 @@ export default function RentalPackagesSection({
         )}
         {!note && (
           <p className="mt-6 text-center text-[12px] text-cgray/60">
-            Alle Preise exkl. MwSt. · Mindestmietdauer auf Anfrage · Einmalige Setup-Gebühr möglich.
+            Alle Preise exkl. MwSt. · Mindestmietdauer auf Anfrage · Einmalige Einrichtungspauschale CHF 149.
           </p>
         )}
 

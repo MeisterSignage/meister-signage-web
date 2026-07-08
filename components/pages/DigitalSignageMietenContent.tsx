@@ -196,8 +196,8 @@ const faqs = [
     answer: "Die Pakete beinhalten den jeweiligen Display sowie die Lizenzgebühren für die Nutzung. Je nach Projekt können zusätzliche Setup-Leistungen anfallen — das klären wir transparent im Voraus.",
   },
   {
-    question: "Gibt es eine Setup-Gebühr?",
-    answer: "Je nach Anwendung kann eine einmalige Setup-Gebühr für Vorbereitung, Einrichtung und individuelle Konfiguration anfallen. Das wird im Angebot ausgewiesen.",
+    question: "Gibt es eine Einrichtungspauschale?",
+    answer: "Ja. Für Vorbereitung, Einrichtung und individuelle Konfiguration fällt eine einmalige Einrichtungspauschale von CHF 149 pro Display an. Aufwendigere Projekte weisen wir im Angebot transparent aus.",
   },
   {
     question: "Kann ich später kaufen statt mieten?",

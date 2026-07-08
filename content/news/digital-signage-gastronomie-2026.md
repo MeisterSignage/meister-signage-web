@@ -57,7 +57,7 @@ Eine ausführliche Anleitung zur Grössen­wahl haben wir im Ratgeber [Digital S
 
 ## Was kostet ein digitales Menüboard wirklich?
 
-Die ehrliche Antwort: Beim Kauf zwischen CHF 1.299 (32 Zoll) und CHF 1.599 (50 Zoll), plus einmalig CHF 149 Einrichtung. Bei monatlicher Miete startet es bei CHF 129 inklusive Software-Lizenz. Die Lizenz beim Kauf liegt bei CHF 180 pro Jahr (gegen CHF 0 bei Miete).
+Die ehrliche Antwort: Beim Kauf zwischen CHF 1.299 (32 Zoll) und CHF 1.599 (50 Zoll), plus einmalige Einrichtungspauschale CHF 149. Bei monatlicher Miete startet es bei CHF 129 inklusive Software-Lizenz. Die Lizenz beim Kauf liegt bei CHF 180 pro Jahr (gegen CHF 0 bei Miete).
 
 Eine ausführliche Aufschlüsselung – inklusive Druckkosten­ersparnis und typischer Amortisations­dauer – findet sich auf der [Kosten­seite Digital Signage Schweiz](/was-kostet-digital-signage-schweiz/).
 

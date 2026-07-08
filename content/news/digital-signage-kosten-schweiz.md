@@ -31,7 +31,7 @@ Eine Hardware ab CHF 999 klingt verlockend – bis die monatliche Lizenz, das In
 
 **Worauf achten:** Im Erstangebot explizit nach "monatlicher Lizenz" oder "Cloud-Gebühr" fragen. Bei uns: ab CHF 180/Jahr im Kauf, im Mietpreis ab CHF 129 inklusive.
 
-## 2. Einrichtungs­pauschale ("Setup-Fee")
+## 2. Einrichtungs­pauschale
 
 **Typisches Missverständnis:** "Plug & Play – einfach einstecken."
 

@@ -54,14 +54,14 @@ const EXAMPLE_CALCULATIONS = [
     title: "Kleines Restaurant",
     setup: "1 × Spark 4 (43\") als digitales Menüboard",
     monthly: "ab CHF 139",
-    once: "+ CHF 149 Einrichtung",
+    once: "+ CHF 149 Einrichtungspauschale",
     note: "inkl. Lizenz, Cloud-Steuerung und Support – Tagesmenüs jederzeit aktualisieren.",
   },
   {
     title: "Empfangsbereich",
     setup: "1 × Spark 5 (50\") als digitales Empfangsdisplay",
     monthly: "ab CHF 149",
-    once: "+ CHF 149 Einrichtung",
+    once: "+ CHF 149 Einrichtungspauschale",
     note: "Begrüssung, Termine und Branding zentral steuerbar.",
   },
   {
@@ -75,7 +75,7 @@ const EXAMPLE_CALCULATIONS = [
     title: "Retailfläche",
     setup: "1 × Spark Q (33\" quadr.) + 1 × Spark 4 (43\")",
     monthly: "ab CHF 298/Monat",
-    once: "+ CHF 149 Einrichtung",
+    once: "+ CHF 149 Einrichtungspauschale",
     note: "Schaufenster und Verkaufsfläche bespielen – Kampagnen zentral gesteuert.",
   },
 ];
@@ -351,7 +351,7 @@ export default function WasKostetDigitalSignagePage() {
             </table>
           </div>
           <p className="mt-4 text-center text-[12px] text-cgray/60">
-            Alle Preise aufgrund der Unternehmensform ohne MWST. Setup-Gebühr CHF 149 einmalig.
+            Alle Preise aufgrund der Unternehmensform ohne MWST. Einrichtungspauschale CHF 149 einmalig.
           </p>
         </div>
       </section>
@@ -424,7 +424,7 @@ export default function WasKostetDigitalSignagePage() {
         packages={RENTAL_PACKAGES}
         ctaLabel="Anfrage starten"
         ctaHref="/kontakt"
-        note="Alle Preise aufgrund der Unternehmensform ohne MWST. Für Vorkonfiguration, Einrichtung und Inbetriebnahme fällt einmalig eine Setup-Gebühr von CHF 149 an. Bei einem späteren Kauf fallen keine Set-Up Gebühren mehr an."
+        note="Alle Preise aufgrund der Unternehmensform ohne MWST. Für Vorkonfiguration, Einrichtung und Inbetriebnahme fällt einmalig eine Einrichtungspauschale von CHF 149 an. Bei einem späteren Kauf fällt keine Einrichtungspauschale mehr an."
       />
 
       {/* 5 — Kaufen oder Mieten */}

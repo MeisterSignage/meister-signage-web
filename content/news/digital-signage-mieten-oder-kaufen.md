@@ -39,7 +39,7 @@ Die theoretische Antwort zu Mieten vs. Kaufen ist einfach: dauerhaft = Kauf, tem
 
 **Erwogen:** Spark 5 (50") im Schaufenster für Kampagnen­videos.
 
-**Entscheidung:** Miete für 3 Monate à CHF 149 = CHF 447 plus einmalige Einrichtung CHF 149. Kauf­preis CHF 1.599 hätte sich erst nach >10 Monaten gerechnet. Plus: nach dem Pop-up will der Brand kein Display in seinem Berliner Headquarter lagern.
+**Entscheidung:** Miete für 3 Monate à CHF 149/Monat = CHF 447 plus einmalige Einrichtungspauschale CHF 149. Kauf­preis CHF 1.599 hätte sich erst nach >10 Monaten gerechnet. Plus: nach dem Pop-up will der Brand kein Display in seinem Berliner Headquarter lagern.
 
 **Empfehlung:** Lösungs­seite [Digitale Schaufensterwerbung](/loesungen/digitale-schaufensterwerbung/) für ähnliche Konstellationen.
 
