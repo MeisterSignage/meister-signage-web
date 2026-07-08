@@ -6,7 +6,6 @@ import JsonLd from "@/components/JsonLd";
 import { faqSchema } from "@/lib/schema/faq";
 import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
 import { serviceSchema } from "@/lib/schema/service";
-import { rentalOfferSchema } from "@/lib/schema/product";
 
 const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/digital-signage-mieten`;
@@ -109,17 +108,6 @@ export default function DigitalSignageMietenPage() {
           }) as Record<string, unknown>
         }
       />
-      {rentalOfferSchema(
-        [
-          { name: 'Meister Spark 3 – 32" Digital Signage Display (Miete)', description: '32" Full HD Display zur Miete – inkl. Software-Lizenz und Support, ideal für Events und temporäre Einsätze.', monthlyPrice: 129, screenSize: "32 Zoll", resolution: "1920 × 1080 (Full HD)", powerTyp: "36 W", weightKg: 5.5 },
-          { name: 'Meister Spark 4 – 43" Digital Signage Display (Miete)', description: '43" 4K UHD Display zur Miete – inkl. Software-Lizenz und Support, für Gastronomie, Retail und Messen.',      monthlyPrice: 139, screenSize: "43 Zoll", resolution: "3840 × 2160 (4K UHD)",  powerTyp: "63 W", weightKg: 9.5 },
-          { name: 'Meister Spark 5 – 50" Digital Signage Display (Miete)', description: '50" 4K UHD Display zur Miete – inkl. Software-Lizenz und Support, für Schaufenster und grössere Flächen.',   monthlyPrice: 149, screenSize: "50 Zoll", resolution: "3840 × 2160 (4K UHD)",  powerTyp: "81 W", weightKg: 13  },
-          { name: 'Meister Spark Q+ – 33" quadratisches Display (Miete)',  description: '33" quadratisches Display zur Miete – für kreative Spezialinstallationen und Events.',                       monthlyPrice: 159, screenSize: "33 Zoll", resolution: "1920 × 1920 (quadratisch)", powerTyp: "53 W", weightKg: 7   },
-        ],
-        PAGE_URL,
-      ).map((schema, i) => (
-        <JsonLd key={`rental-${i}`} schema={schema as Record<string, unknown>} />
-      ))}
 
       <DigitalSignageMietenContent />
 
