@@ -5,7 +5,7 @@
   "seoDescription": "Doppelseitige Digital-Signage-Displays für Lobby, Retail und Events – Sichtbarkeit aus zwei Richtungen, zwei Inhalte gleichzeitig. Schweizer Service.",
   "eyebrow": "Lösung · Doppelseitige Displays",
   "h1": "Doppelseitige Displays – Sichtbarkeit aus zwei Richtungen.",
-  "intro": "Doppelseitige Displays eignen sich für Räume, in denen Menschen aus verschiedenen Richtungen kommen – etwa Lobbys, Eingänge, Showrooms, Retail-Flächen oder Events. Auf einer Seite Orientierung, auf der anderen Seite Branding, Angebote oder Eventinformationen.",
+  "intro": "Doppelseitige Displays eignen sich für Räume, in denen Menschen aus verschiedenen Richtungen kommen – etwa Lobbys, Eingänge, Showrooms, Retail-Flächen oder Events. Auf einer Seite Orientierung, auf der anderen Seite Branding, Angebote oder Eventinformationen. Auch im Schaufenster wirken sie stark: hängend von der Decke oder auf einem Ständer, mit hoher Aussenhelligkeit für Passanten und angenehmer Innenhelligkeit für Besucher.",
   "gallery": [
     { "src": "/images/products/Doppelseitiges-Display-Mode-Boutique.webp", "alt": "Doppelseitiges Display als freistehende Stele in einer Mode-Boutique" },
     { "src": "/images/products/Doppelseitiges-Display-Showroom.webp", "alt": "Doppelseitiges Display im Showroom" },
@@ -35,6 +35,14 @@
     {
       "title": "Elegante freistehende Lösung",
       "description": "Als Stele oder Hängesystem integriert sich das Display unauffällig in den Raum, ohne Wand- oder Pfeilermontage."
+    },
+    {
+      "title": "Zwei Helligkeiten für innen und aussen",
+      "description": "Im Schaufenster-Einsatz zeigt die Aussenseite mit hoher Helligkeit (bis 3'500 cd/m²) auch bei Sonne klare Inhalte, während die Innenseite mit angenehmerer Helligkeit für Besucher optimiert ist."
+    },
+    {
+      "title": "Premium fürs Schaufenster – hängend oder stehend",
+      "description": "Für Luxushotels, Boutiquen und Premium-Retail: hängend von der Decke oder auf einem Ständer, professionell und tragfähig montiert – ein hochwertiger Blickfang zur Strasse und in den Raum."
     }
   ],
   "faq": [
@@ -57,6 +65,14 @@
     {
       "question": "Eignen sich doppelseitige Displays für Events?",
       "answer": "Ja. Gerade an Events, Messen und Tagungen sind sie ein starkes Instrument – Programm auf einer Seite, Sponsoren auf der anderen. Für temporäre Einsätze bieten wir auch mobile, doppelseitige Lösungen zur Miete an."
+    },
+    {
+      "question": "Wie wird ein hängendes Display installiert?",
+      "answer": "Professionell mit tragfähiger Deckenbefestigung (Stahlseile bzw. passende Bolzen). Voraussetzung ist eine geeignete Decke, die wir vorab vor Ort prüfen. Die Montage übernimmt unser Team."
+    },
+    {
+      "question": "Kann die Helligkeit im Schaufenster nachts reduziert werden?",
+      "answer": "Ja. Über einen Zeitplan lässt sich die Helligkeit abends automatisch senken – das schont Auge und Energie und vermeidet Blendung in der Nacht."
     }
   ],
   "internalLinks": [

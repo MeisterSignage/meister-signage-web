@@ -142,6 +142,13 @@ export default function LoesungenIndexPage() {
                 imageSrc: "/images/products/SparkQ-Design.webp",
                 imageAlt: "Digitale Raumbeschilderung für Meetingräume",
               },
+              {
+                title: "Interaktive Terminals & Kiosks",
+                desc: "Touch-Terminals für Wayfinding, Check-in und Self-Service – robust im Dauerbetrieb.",
+                href: "/loesungen/interaktive-terminals-kiosks",
+                imageSrc: "/images/products/Infostele-Empfang-Lobby.webp",
+                imageAlt: "Interaktives Info-Terminal im Empfangsbereich",
+              },
             ],
           },
           {

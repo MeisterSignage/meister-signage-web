@@ -24,6 +24,7 @@ const navItems: NavItem[] = [
         heading: "Displays & Hardware",
         items: [
           { label: "Alle Displays",           href: "/loesungen/displays",                desc: "Alle Display-Typen im Überblick" },
+          { label: "LED & Video Walls",       href: "/loesungen/led-walls",               desc: "Grossflächig – Hotels, Corporate, Events" },
           { label: "Displays kaufen",         href: "/digital-signage-kaufen",            desc: "Kauf & Komplettinstallation" },
           { label: "Displays mieten",         href: "/digital-signage-mieten",            desc: "Flexibel für Events & Temporär" },
           { label: "Mobile Displays",         href: "/loesungen/mobile-displays",         desc: "Kundenstopper & flexible Lösungen" },
@@ -37,8 +38,11 @@ const navItems: NavItem[] = [
         heading: "Software & Anwendungen",
         items: [
           { label: "Software",                href: "/loesungen/software",                desc: "Zentrale Inhaltssteuerung" },
+          // Preise-Seite noch nicht öffentlich — zum Go-live einkommentieren:
+          // { label: "Preise",               href: "/preise",                            desc: "Meister Signage Cloud – Pakete & Lizenzen" },
           { label: "Digitaler Empfang",       href: "/loesungen/digitaler-empfang",       desc: "Empfangs- und Lobbydisplays" },
           { label: "Digitale Leitsysteme",    href: "/loesungen/digitale-leitsysteme",    desc: "Besucherführung & Wegweisung" },
+          { label: "Interaktive Terminals",   href: "/loesungen/interaktive-terminals-kiosks", desc: "Touch, Kiosk & Self-Service" },
         ],
       },
     ],

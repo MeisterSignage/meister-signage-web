@@ -2,10 +2,10 @@
   "slug": "led-walls",
   "type": "loesungen",
   "seoTitle": "LED Walls & Videowall Schweiz | Meister Signage",
-  "seoDescription": "Modulare LED Walls & Videowalls für Retail, Events und Empfangsbereiche – maximale Wirkung, schlüsselfertig geplant und installiert in der Schweiz.",
+  "seoDescription": "Nahtlose LED Walls & Video Walls für Hotels, Unternehmen, Events und Empfangsbereiche – maximale Wirkung, schlüsselfertig geplant und installiert in der Schweiz.",
   "eyebrow": "Lösung · LED Walls & Videowall",
   "h1": "LED Walls & Videowall – maximale Wirkung auf grosser Fläche.",
-  "intro": "LED Walls (auch Videowall oder Videowand genannt) setzen Massstäbe in Helligkeit, Sichtbarkeit und Wirkung. Ob als Videowall im Schaufenster, als Bühnenrückwand bei Events oder als grossflächiges Display in Empfangshallen – diese Lösungen kommunizieren dort, wo klassische Displays an ihre Grenzen stossen. Meister Signage plant, liefert und installiert Videowall-Systeme in der Schweiz.",
+  "intro": "LED Walls (auch Videowall oder Videowand genannt) setzen Massstäbe in Helligkeit, Sichtbarkeit und Wirkung. Ob als nahtlose Video Wall in der Hotel-Lobby, im Boardroom, als Bühnenrückwand am Event oder als grossflächiges Display in Empfangshallen – diese Lösungen kommunizieren dort, wo klassische Displays an ihre Grenzen stossen. Meister Signage plant, liefert und installiert LED- und Video-Wall-Systeme in der Schweiz – schlüsselfertig, von Hotels über Unternehmen bis zu Events.",
   "gallery": [
     { "src": "/images/products/LED-Wall-Event-Praesentation.webp", "alt": "LED Wall in einem Präsentationsraum an einem Event" },
     { "src": "/images/products/LED-Wall-Konferenzraum.webp", "alt": "LED Wall im Konferenzraum" },
@@ -35,6 +35,22 @@
     {
       "title": "Kauf oder Miete",
       "description": "Für permanente Installationen empfehlen wir den Kauf. Für Events und temporäre Einsätze ist die Miete die wirtschaftlichere Wahl."
+    },
+    {
+      "title": "Nahtloses Bild ohne störende Fugen",
+      "description": "Ultraschmaler Bezel (ab 0,88 mm) lässt grossflächige Video Walls praktisch fugenlos wirken. In 4K bleiben selbst kleine Schrift und Datenvisualisierungen gestochen scharf – ideal für repräsentative Umgebungen."
+    },
+    {
+      "title": "Für Hotels: Lobby, Restaurant & Konferenz",
+      "description": "Ein cineastisches Lobby-Erlebnis, Tagesempfehlungen im Restaurant und zuverlässige Präsentationen im Konferenzbereich – die Bühne für einen hochwertigen ersten Eindruck."
+    },
+    {
+      "title": "Für Corporate: Boardroom & Meeting",
+      "description": "Daten, Kennzahlen und Präsentationen optimal dargestellt – mit einfachem Input (HDMI, DisplayPort, Wireless) und der Möglichkeit, mehrere Räume zentral zu steuern."
+    },
+    {
+      "title": "Für Events & Sport: Live",
+      "description": "Live-Score, Live-Kamera, Sponsoren-Inhalte und Animationen ohne spürbare Verzögerung – für Arenen, Bühnen und Veranstaltungen, fix installiert oder zur Miete."
     }
   ],
   "faq": [
@@ -57,6 +73,18 @@
     {
       "question": "Was kostet eine LED Wall?",
       "answer": "Die Kosten hängen von Grösse, Pixel-Pitch und Einsatzort ab. Kontaktieren Sie uns für eine individuelle Einschätzung."
+    },
+    {
+      "question": "Kann ich auf einer Wall mehrere Inhalte gleichzeitig zeigen?",
+      "answer": "Ja. Die Fläche lässt sich in Zonen aufteilen – zum Beispiel oben Markeninhalt, unten Event-Informationen oder Live-Daten. Alle Zonen sind unabhängig steuerbar."
+    },
+    {
+      "question": "Können wir Live-Kamera-Bilder oder Live-Daten anzeigen?",
+      "answer": "Ja. Über HDMI oder SDI binden wir Live-Kamera-Feeds ein, über Schnittstellen auch Live-Daten wie Kennzahlen oder Ergebnisse – in Echtzeit, ohne manuellen Aufwand."
+    },
+    {
+      "question": "Lassen sich mehrere Displays und Räume zentral verwalten?",
+      "answer": "Ja. Lobby, Restaurant, Konferenzbereich oder mehrere Standorte steuern Sie aus einer Zentrale – Inhalte identisch oder standortspezifisch, geplant und in Echtzeit."
     }
   ],
   "internalLinks": [

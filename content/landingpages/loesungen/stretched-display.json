@@ -1,11 +1,11 @@
 {
   "slug": "stretched-display",
   "type": "loesungen",
-  "seoTitle": "Stretched Bar Display Schweiz | Meister Signage",
-  "seoDescription": "Ultrabreite Stretched Bar Displays für Regalkanten, Schaufenster & Theken – schmales Langformat, hohe Helligkeit, schlüsselfertig zum Kauf. Schweizer Service.",
+  "seoTitle": "Stretched, Ultra-Wide & Custom-Displays | Meister Signage",
+  "seoDescription": "Ultrabreite Stretched-, Ultra-Wide-, Panorama- und Custom-Format-Displays für Regalkanten, Theken, Flure und besondere Räume – schlüsselfertig geplant in der Schweiz.",
   "eyebrow": "Lösung · Stretched Bar Display",
   "h1": "Stretched Bar Displays – Werbung im schmalen Langformat.",
-  "intro": "Stretched Bar Displays sind ultrabreite Langformat-Bildschirme (z. B. 16:3 oder 32:9) für Stellen, an denen ein normales Display nicht passt: Regalkanten im Detailhandel, Schaufenster-Bänder, Theken, schmale Nischen oder Korridore. Ein schlankes Format, das auffällt – ohne Platz wegzunehmen.",
+  "intro": "Stretched Bar Displays sind ultrabreite Langformat-Bildschirme (z. B. 16:3 oder 32:9) für Stellen, an denen ein normales Display nicht passt: Regalkanten im Detailhandel, Schaufenster-Bänder, Theken, schmale Nischen oder Korridore. Ein schlankes Format, das auffällt – ohne Platz wegzunehmen. Für besondere Räume realisieren wir auch grössere Ultra-Wide-Flächen über der Bar, durchgehende Panorama-Bänder in Fluren, gekrümmte Curved-Displays und weitere Custom-Formate.",
   "gallery": [
     { "src": "/images/products/Stretched-Display-Regal.webp", "alt": "Stretched Bar Display an der Regalkante im Retail" },
     { "src": "/images/products/Stretched-Display-Decke.webp", "alt": "Stretched Bar Display im Querformat" },
@@ -35,6 +35,18 @@
     {
       "title": "Schweizer Service",
       "description": "Beratung zu Format und Montage, Installation und Support – persönlich und aus der Schweiz."
+    },
+    {
+      "title": "Ultra-Wide über der Bar",
+      "description": "Statt zweier Displays eine durchgehende Ultra-Wide-Fläche über der Theke (z. B. 32:9) – für Cocktail-Karte, Sport-Feed oder Visuals in eindrucksvollem Format."
+    },
+    {
+      "title": "Panorama & Curved für besondere Räume",
+      "description": "Durchgehende Panorama-Bänder in langen Fluren oder gekrümmte Curved-Displays in runden Empfangszonen – wirkungsvoll dort, wo Standardformate an ihre Grenzen kommen."
+    },
+    {
+      "title": "Custom-Formate mit Engineering",
+      "description": "Flexible Panel-Kombinationen (2×2, 3×1 und mehr) mit nahtloser Kalibrierung. Statik, Prüfung und professionelle Montage übernehmen wir komplett."
     }
   ],
   "faq": [
@@ -57,6 +69,14 @@
     {
       "question": "Übernehmen Sie Lieferung und Montage?",
       "answer": "Ja. Wir liefern, montieren und richten das Display in der Schweiz schlüsselfertig ein – auf Wunsch inklusive Einrichtung der Inhalte und Einführung in die Software."
+    },
+    {
+      "question": "Gibt es auch gekrümmte (Curved) oder komplett individuelle Formate?",
+      "answer": "Ja. Neben ultrabreiten Bändern realisieren wir Panorama-Flächen, gekrümmte Curved-Displays und individuelle Panel-Anordnungen. Solche Custom-Lösungen planen wir mit Statik und Engineering – nennen Sie uns Raummasse und Vorstellung."
+    },
+    {
+      "question": "Wie lange dauert eine Custom-Installation?",
+      "answer": "Länger als ein Standard-Einbau: Bei individuellen oder gekrümmten Formaten kommt eine Engineering-Phase dazu, die Installation selbst dauert anschliessend wenige Tage – je nach Komplexität."
     }
   ],
   "internalLinks": [

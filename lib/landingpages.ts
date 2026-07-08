@@ -47,6 +47,7 @@ import digitaleRaumbeschilderung from "@/content/landingpages/loesungen/digitale
 import highBrightnessDisplay   from "@/content/landingpages/loesungen/high-brightness-display.json";
 import stretchedDisplay        from "@/content/landingpages/loesungen/stretched-display.json";
 import transparentesDisplay    from "@/content/landingpages/loesungen/transparentes-display.json";
+import interaktiveTerminals     from "@/content/landingpages/loesungen/interaktive-terminals-kiosks.json";
 
 export const branchenPages: Record<string, LandingPage> = {
   gastronomie:  gastronomie  as LandingPage,
@@ -91,6 +92,7 @@ export const loesungenPages: Record<string, LandingPage> = {
   "high-brightness-display":        highBrightnessDisplay        as LandingPage,
   "stretched-display":              stretchedDisplay             as LandingPage,
   "transparentes-display":          transparentesDisplay         as LandingPage,
+  "interaktive-terminals-kiosks":   interaktiveTerminals         as LandingPage,
 };
 
 export function getBranchenPage(slug: string): LandingPage | null {

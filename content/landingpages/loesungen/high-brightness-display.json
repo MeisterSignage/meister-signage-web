@@ -5,7 +5,7 @@
   "seoDescription": "High-Brightness-Displays 3'500 cd/m² für Schaufenster mit Sonneneinstrahlung. 43–75 Zoll, Auto-Helligkeit. Schlüsselfertig aus der Schweiz.",
   "eyebrow": "Lösung · High-Brightness-Display",
   "h1": "High-Brightness-Displays – 3'500 nits für direkte Sonne.",
-  "intro": "Ein High-Brightness-Display ist ein Bildschirm, der mit 3'500 nits rund das Siebenfache der üblichen Display-Helligkeit erreicht. Wo Standard-Displays (typisch 450 nits) im Schaufenster oder bei direktem Sonnenlicht ausgewaschen wirken, bringen High-Brightness-Displays mit 3'500 cd/m² gestochen scharfe Inhalte – auch um die Mittagszeit, auch hinter Schaufensterglas. Verfügbar in 43, 49, 55, 65 und 75 Zoll für Retail, Hotellerie und repräsentative Empfangsbereiche.",
+  "intro": "Ein High-Brightness-Display ist ein Bildschirm, der mit 3'500 nits rund das Siebenfache der üblichen Display-Helligkeit erreicht. Wo Standard-Displays (typisch 450 nits) im Schaufenster oder bei direktem Sonnenlicht ausgewaschen wirken, bringen High-Brightness-Displays mit 3'500 cd/m² gestochen scharfe Inhalte – auch um die Mittagszeit, auch hinter Schaufensterglas. Verfügbar in 43, 49, 55, 65 und 75 Zoll für Retail, Hotellerie und repräsentative Empfangsbereiche. Für komplett offene Aussenbereiche – Hotel-Eingang, Terrasse oder Event – gibt es zusätzlich eine wetterfeste, IP65-geschützte Outdoor-Variante.",
   "heroImage": "/images/products/Schuhladen-Meister-Signage.webp",
   "gallery": [
     { "src": "/images/products/High-Brightness-Einkaufszentrum-Retail.webp", "alt": "High-Brightness-Display im Einkaufszentrum" },
@@ -36,6 +36,14 @@
     {
       "title": "Cloud-Steuerung wie unsere Standard-Displays",
       "description": "Gleiche Inhalts-Verwaltung wie bei der Spark-Reihe: Cloud-CMS, browserbasiert, Drag-and-Drop. Wer schon einen Standard-Bildschirm mit unserer Software betreibt, kann das High-Brightness-Display nahtlos in dieselbe Steuerung einbinden."
+    },
+    {
+      "title": "Wetterfeste Outdoor-Variante (IP65)",
+      "description": "Für komplett offene Standorte gibt es eine IP65-geschützte Ausführung mit gehärtetem Glas und robustem Gehäuse – wasserdicht gegen Regen und staubgeschützt, für Hotel-Eingänge, Terrassen und Event-Flächen."
+    },
+    {
+      "title": "Heizung & Lüftung für jedes Wetter",
+      "description": "Interne Thermostate verhindern das Einfrieren im Schweizer Winter, aktive Lüftung führt die Wärme im Sommer geräuscharm ab – für zuverlässigen Dauerbetrieb im Freien."
     }
   ],
   "faq": [
@@ -56,8 +64,8 @@
       "answer": "Stromverbrauch je nach Grösse 200–580 W bei voller Helligkeit. Bei Verwendung der automatischen Helligkeitsregelung reduzieren sich die effektiven Verbräuche im Tagesschnitt um 30–50 %. Im Standby unter 0.5 W. Software-Lizenz und Cloud-Steuerung werden wie bei der Spark-Reihe abgerechnet."
     },
     {
-      "question": "Geht das auch als Outdoor-Variante (komplett ungeschützt)?",
-      "answer": "Diese High-Brightness-Klasse ist für den Einsatz hinter Glas konzipiert (Schaufenster, Glasfassade, Vitrine) – nicht für ungeschützte Aussenflächen mit Regen und Schnee. Für komplett offene Outdoor-Standorte (Bushaltestelle, Fassade ohne Glas) bieten wir separate IP65-geschützte Outdoor-Displays an – sprechen Sie uns an."
+      "question": "Geht das auch komplett wetterfest für draussen?",
+      "answer": "Ja. Die Standard-High-Brightness-Klasse ist für den Einsatz hinter Glas optimiert (Schaufenster, Glasfassade, Vitrine). Für komplett offene Aussenflächen mit Regen und Schnee bieten wir eine wetterfeste, IP65-geschützte Outdoor-Variante mit gehärtetem Glas sowie Heizung und Lüftung an – nennen Sie uns Standort und Ausrichtung, wir empfehlen die passende Ausführung."
     },
     {
       "question": "Kann ich das Display mieten statt kaufen?",
@@ -66,6 +74,10 @@
     {
       "question": "Wie hoch ist der Lieferaufwand und wer übernimmt die Montage?",
       "answer": "Lieferung schweizweit. Aufgrund Gewicht (43\": 19 kg; 75\": 49 kg) und Schaufenster-Logistik empfehlen wir die Montage durch unser Team – das geht meist innerhalb eines halben Tages. Bei mehreren Filialen koordinieren wir die Termine zentral."
+    },
+    {
+      "question": "Braucht die Outdoor-Variante eine eigene Stromversorgung?",
+      "answer": "Ja, ein Stromanschluss in der Nähe ist nötig. Für mobile Aussen-Einsätze und Events sind auf Wunsch Akku-Lösungen möglich. Die Details klären wir bei der Standortbegehung."
     }
   ],
   "internalLinks": [

@@ -1,0 +1,60 @@
+{
+  "slug": "interaktive-terminals-kiosks",
+  "type": "loesungen",
+  "seoTitle": "Interaktive Terminals & Kiosk-Systeme | Meister Signage",
+  "seoDescription": "Interaktive Touch-Terminals und Kiosks für Wayfinding, Check-in und Self-Service – robust für den 24/7-Betrieb in Hotellerie, Gastronomie und Retail.",
+  "eyebrow": "Lösung · Interaktive Systeme",
+  "h1": "Interaktive Info-Terminals & Kiosk-Systeme – Self-Service für Ihre Gäste.",
+  "intro": "Gäste wollen Informationen selbst finden – schnell und unkompliziert. Ein interaktives Touch-Terminal macht genau das möglich: Wayfinding im Hotel, Check-in-Unterstützung, Veranstaltungs-Infos oder Bestellungen. Meister Signage bietet professionelle Touch-Systeme, robust und zuverlässig, ausgelegt für den 24/7-Betrieb.",
+  "gallery": [
+    { "src": "/images/products/Infostele-Empfang-Lobby.webp", "alt": "Interaktive Infostele im Empfangsbereich" },
+    { "src": "/images/products/Infostele-Wegweisung.webp", "alt": "Touch-Terminal zur Wegweisung" },
+    { "src": "/images/products/Hotelempfang-Meister-Signage.webp", "alt": "Digitaler Empfang mit interaktivem Terminal im Hotel" }
+  ],
+  "benefits": [
+    { "title": "Wayfinding in der Lobby", "description": "Ein grosses Touch-Terminal im Foyer zeigt den Weg zu Spa, Restaurant oder Aufzug – mit Karten oder Videos. Gäste finden sich selbst zurecht, die Rezeption wird entlastet." },
+    { "title": "Check-in & Registration", "description": "Basis-Infos zum Self-Service: Zimmerausstattung, WLAN-Code, Frühstückszeiten, Check-out. In Echtzeit aktualisierbar." },
+    { "title": "Event-Info & Agenda", "description": "Für Konferenzen, Bankette und Hochzeiten: Tagesagenda, Raumpläne, Sprecher-Infos und Kontakte – live aktualisiert, wenn sich das Programm ändert." },
+    { "title": "Self-Service & Bestellung", "description": "In der Gastronomie können Gäste am Terminal bestellen – moderner, schnellerer Service mit Zusatzverkaufs-Potenzial und optionaler Kassen-Anbindung." },
+    { "title": "Robuste Touch-Technik", "description": "Projected-Capacitive-Touch funktioniert zuverlässig – auch mit Handschuhen oder feuchten Fingern. Formate von 32\" bis 65\", freistehend oder wandmontiert." },
+    { "title": "Zentral verwaltet mit Meister Signage Cloud", "description": "Navigation und Inhalte pflegen, mehrsprachig anbieten und in Echtzeit aktualisieren – auch offline lauffähig. Unsere Cloud-Plattform ist in Kürze verfügbar." }
+  ],
+  "faq": [
+    { "question": "Können Gäste am Terminal Eingaben machen oder reservieren?", "answer": "Ja, über eine Bildschirm-Tastatur. Eine Anbindung an Ihr Buchungssystem ist möglich." },
+    { "question": "Wie robust ist das Terminal gegen Vandalismus?", "answer": "Die Touchscreens sind robust, der Ständer kann aus massivem Edelstahl gefertigt werden. Für anspruchsvolle Umgebungen gibt es zusätzlich geschützte Varianten." },
+    { "question": "Kann das Terminal auch Videos zeigen?", "answer": "Ja, eingebettete Videos inklusive Ton – je nach Aufstellung über Lautsprecher oder Kopfhörer-Ausgang." },
+    { "question": "Wie oft muss gewartet werden?", "answer": "Minimal: jährliche Reinigung und Software-Updates. Im Fehlerfall helfen wir per Fernzugriff oder vor Ort." },
+    { "question": "Was kostet ein interaktives Terminal?", "answer": "Das hängt von Grösse und Ausstattung ab. Nach einer kurzen Beschreibung erhalten Sie ein individuelles Angebot – Konditionen auf Anfrage." }
+  ],
+  "internalLinks": [
+    { "label": "Digitale Infostele", "href": "/loesungen/digitale-infostele/" },
+    { "label": "Digitaler Empfang", "href": "/loesungen/digitaler-empfang/" },
+    { "label": "Digitale Leitsysteme", "href": "/loesungen/digitale-leitsysteme/" },
+    { "label": "LED & Video Walls", "href": "/loesungen/led-walls/" },
+    { "label": "Hotellerie", "href": "/branchen/hotellerie/" },
+    { "label": "Gastronomie", "href": "/branchen/gastronomie/" }
+  ],
+  "cta": {
+    "eyebrow": "Terminal anfragen",
+    "title": "Digitalisieren Sie Ihr Gäste-Erlebnis.",
+    "subtitle": "Beschreiben Sie Ihr Projekt und die geplanten Inhalte – wir antworten innert 24 Stunden mit einer konkreten Einschätzung.",
+    "primaryLabel": "Beratung anfragen",
+    "primaryHref": "/kontakt",
+    "secondaryLabel": "Digitale Infostele",
+    "secondaryHref": "/loesungen/digitale-infostele"
+  },
+  "related": {
+    "loesungen": [
+      { "label": "Digitale Infostele", "href": "/loesungen/digitale-infostele/" },
+      { "label": "Digitale Leitsysteme", "href": "/loesungen/digitale-leitsysteme/" }
+    ],
+    "branchen": [
+      { "label": "Hotellerie", "href": "/branchen/hotellerie/" },
+      { "label": "Gastronomie", "href": "/branchen/gastronomie/" }
+    ],
+    "staedte": [
+      { "label": "Digital Signage Zürich", "href": "/staedte/zuerich/" },
+      { "label": "Digital Signage Luzern", "href": "/staedte/luzern/" }
+    ]
+  }
+}
