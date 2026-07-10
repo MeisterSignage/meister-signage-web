@@ -45,6 +45,9 @@ export type LandingPage = {
   eyebrow: string;
   h1: string;
   intro: string;
+  /** ISO-Datum der letzten inhaltlichen Aktualisierung (Freshness-Signal).
+   *  Optional — fällt sonst auf LANDINGPAGE_CONTENT_DATE zurück. */
+  dateModified?: string;
   heroImage?: string;
   gallery?: { src: string; alt: string }[];
   benefits: LPBenefit[];

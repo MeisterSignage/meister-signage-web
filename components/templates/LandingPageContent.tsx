@@ -9,7 +9,17 @@ import { viewport, easeOut, staggerContainer, staggerItem } from "@/lib/motion";
 import ContactSection from "@/components/sections/ContactSection";
 import InternalLinksSection from "@/components/sections/InternalLinksSection";
 import ParallaxShowcaseSection from "@/components/sections/ParallaxShowcaseSection";
+import { LANDINGPAGE_CONTENT_DATE } from "@/lib/seo-config";
 import type { LandingPage, LPLink } from "@/lib/lp-types";
+
+/** Format an ISO date as German month + year, e.g. "Mai 2026". */
+function formatMonthYearDE(iso: string): string {
+  if (!iso) return "";
+  return new Date(iso).toLocaleDateString("de-CH", {
+    month: "long",
+    year: "numeric",
+  });
+}
 
 /* ─── Image mapping ──────────────────────────────────────────────────────── */
 
@@ -231,6 +241,11 @@ export default function LandingPageContent({
               }}
             >
               {page.intro}
+            </p>
+
+            {/* Zuletzt aktualisiert (Freshness-Signal für SEO/GEO) */}
+            <p className="mb-8 text-sm" style={{ color: "rgba(156,163,175,0.7)" }}>
+              Zuletzt aktualisiert: {formatMonthYearDE(page.dateModified ?? LANDINGPAGE_CONTENT_DATE)}
             </p>
 
             <div className="flex flex-wrap gap-4">

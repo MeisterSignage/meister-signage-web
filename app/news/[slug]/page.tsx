@@ -13,6 +13,7 @@ import JsonLd from "@/components/JsonLd";
 import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
 import { articleSchema } from "@/lib/schema/article";
 import CTASection from "@/components/sections/CTASection";
+import AuthorBox from "@/components/sections/AuthorBox";
 
 const SITE_URL = "https://www.meister-signage.ch";
 
@@ -170,6 +171,9 @@ export default async function NewsDetailPage({
           />
         </div>
       </article>
+
+      {/* Autor (E-E-A-T / GEO) */}
+      <AuthorBox updatedISO={post.dateISO} />
 
       {/* CTA */}
       <CTASection

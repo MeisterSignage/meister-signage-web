@@ -14,3 +14,13 @@
  */
 export const SITE_INDEXABLE =
   (process.env.NEXT_PUBLIC_SITE_INDEXABLE ?? "true").toLowerCase() !== "false";
+
+/**
+ * Fallback-Datum für das sichtbare „Zuletzt aktualisiert"-Freshness-Signal
+ * auf den SEO-Landingpages (Branchen / Städte / Lösungen), wenn die einzelne
+ * JSON-Seite kein eigenes `dateModified` gesetzt hat. Entspricht dem
+ * Content-Stand, den auch app/sitemap.ts für Detailseiten ausweist.
+ * Beim Aktualisieren einer Seite entweder `dateModified` im JSON pflegen
+ * oder diesen Baseline-Wert anheben.
+ */
+export const LANDINGPAGE_CONTENT_DATE = "2026-05-15";

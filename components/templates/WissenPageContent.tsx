@@ -8,6 +8,7 @@ import { ArrowRight, Plus, Minus, Check } from "lucide-react";
 import { viewport, easeOut, staggerContainer, staggerItem } from "@/lib/motion";
 import ContactSection from "@/components/sections/ContactSection";
 import InternalLinksSection from "@/components/sections/InternalLinksSection";
+import AuthorBox from "@/components/sections/AuthorBox";
 import type { WissenPage } from "@/lib/wissen-types";
 
 /** Format an ISO date as German month + year, e.g. "Mai 2026" */
@@ -348,6 +349,9 @@ export default function WissenPageContent({ page }: { page: WissenPage }) {
       {page.internalLinks.length > 0 && (
         <InternalLinksSection eyebrow="Verwandte Themen" links={page.internalLinks} />
       )}
+
+      {/* ── 7b. AUTOR (E-E-A-T / GEO) ───────────────────────────────────── */}
+      <AuthorBox updatedISO={page.dateModified ?? page.datePublished} />
 
       {/* ── 8. DARK CTA ─────────────────────────────────────────────────── */}
       <section
