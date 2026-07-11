@@ -1,11 +1,11 @@
 {
   "slug": "digitaler-empfang",
   "type": "loesungen",
-  "seoTitle": "Digitaler Empfang Schweiz | Meister Signage",
-  "seoDescription": "Digitaler Empfang für Unternehmen, Hotels & Showrooms: Besucher begrüssen, informieren und führen – ab dem ersten Eindruck. Schweizer Service.",
+  "seoTitle": "Digitaler Empfang & Empfangsbildschirm | Meister Signage",
+  "seoDescription": "Empfangsbildschirm-Software für den digitalen Empfang: Besucher begrüssen, informieren und führen – ab dem ersten Eindruck. Schweizer Service.",
   "eyebrow": "Lösung · Digitaler Empfang",
   "h1": "Digitaler Empfang – der erste Eindruck beginnt digital.",
-  "intro": "Ein digitaler Empfang informiert, begrüsst und orientiert Besucher direkt beim Betreten des Gebäudes. Inhalte können zentral angepasst und jederzeit aktualisiert werden – im Unternehmen, im Hotel oder im Showroom.",
+  "intro": "Ein digitaler Empfang – auch Empfangsbildschirm oder Welcome Screen genannt – informiert, begrüsst und orientiert Besucher direkt beim Betreten des Gebäudes. Über die Meister Signage Software steuern Sie die Inhalte des Empfangsbildschirms zentral und aktualisieren sie jederzeit – im Unternehmen, im Hotel oder im Showroom.",
   "gallery": [
     { "src": "/images/products/Empfang-Business-Center.webp", "alt": "Digitaler Empfang in einem Business-Center" },
     { "src": "/images/products/Unternehmen-Empfang.webp", "alt": "Digitaler Empfang in einem Unternehmen" },
@@ -41,6 +41,14 @@
     {
       "question": "Was ist ein digitaler Empfang?",
       "answer": "Ein digitaler Empfang ist ein Display im Eingangsbereich, das Besucher begrüsst, informiert und orientiert. Inhalte wie Termine, Räume, Ansprechpersonen oder Markenbotschaften werden zentral verwaltet und in Echtzeit angezeigt."
+    },
+    {
+      "question": "Mit welcher Software wird der Empfangsbildschirm gesteuert?",
+      "answer": "Der Empfangsbildschirm läuft mit der Meister Signage Software: Begrüssungen, Termine und Inhalte verwalten Sie zentral im Browser, planen sie zeitgesteuert und aktualisieren sie jederzeit – ganz ohne IT-Aufwand."
+    },
+    {
+      "question": "Was ist ein Welcome Screen am Empfang?",
+      "answer": "Ein Welcome Screen ist ein Begrüssungsbildschirm im Eingangsbereich, der Gäste – oft mit Namen – persönlich willkommen heisst. Als digitaler Empfang kombiniert er Begrüssung, Orientierung und Markenbotschaften auf einem Empfangsbildschirm."
     },
     {
       "question": "Welche Inhalte können angezeigt werden?",
