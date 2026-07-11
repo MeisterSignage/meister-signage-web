@@ -315,7 +315,7 @@ export default function DigitalSignageMietenContent() {
                 color: "#f3f4f6",
               }}
             >
-              Mieten, wenn{" "}
+              Digital Signage mieten, wenn{" "}
               <span style={{ color: "#ffffff" }}>Flexibilität zählt.</span>
             </h1>
 
@@ -323,7 +323,7 @@ export default function DigitalSignageMietenContent() {
               className="mb-10 max-w-[440px] leading-relaxed"
               style={{ fontSize: "clamp(1rem, 1.5vw, 1.15rem)", color: "rgba(209,213,219,0.9)" }}
             >
-              Mietlösungen eignen sich überall dort, wo Flexibilität zählt: temporäre Einsätze, Events, Messen, Pop-ups, Promotions oder Unternehmen, die Digital Signage zuerst testen möchten. Ob mieten, leihen, ausleihen oder im Verleih – persönlich betreut und sofort einsatzbereit.
+              Ein Display mieten lohnt sich überall dort, wo Flexibilität zählt: temporäre Einsätze, Events, Messen, Pop-ups, Promotions oder Unternehmen, die Digital Signage zuerst testen möchten. Display-Miete ab CHF 129/Mt., inkl. Lizenz – ob mieten, leihen, ausleihen oder im Verleih, persönlich betreut und sofort einsatzbereit.
             </p>
 
             <div className="flex flex-wrap gap-4">
