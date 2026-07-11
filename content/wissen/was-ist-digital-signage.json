@@ -6,7 +6,7 @@
   "eyebrow": "Wissen · Grundlagen",
   "h1": "Was ist Digital Signage?",
   "intro": "Definition und Praxis-Übersicht zu Digital Signage – worum es geht, wie es funktioniert, was es kostet und wofür es eingesetzt wird. Digital Signage bezeichnet vernetzte Bildschirmlösungen, mit denen Inhalte zentral verwaltet und automatisch ausgespielt werden – im Eingang, am Verkaufspunkt, am Empfang oder am Event.",
-  "definition": "Digital Signage ist die digitale Variante klassischer Beschilderung. Statt gedruckter Plakate, Aushänge oder Menükarten zeigen vernetzte Bildschirme Inhalte, die zentral gesteuert, geplant und in Sekunden aktualisiert werden.",
+  "definition": "Digital Signage bedeutet auf Deutsch sinngemäss «digitale Beschilderung» und ist die digitale Variante klassischer Beschilderung. Statt gedruckter Plakate, Aushänge oder Menükarten zeigen vernetzte Bildschirme Inhalte, die zentral gesteuert, geplant und in Sekunden aktualisiert werden.",
   "explanation": [
     "Im Kern besteht ein Digital-Signage-System aus vier Bausteinen: dem Display, einem Mediaplayer, der Software (CMS) und den Inhalten. Das Display zeigt, der Player spielt ab, die Software steuert und plant, die Inhalte transportieren die Botschaft. Bei modernen Displays ist der Player bereits integriert (System-on-Chip) – ein separater Mini-PC ist dann nicht nötig.",
     "Statt jede Tafel manuell zu wechseln, werden Inhalte einmal vorbereitet und automatisch zum passenden Zeitpunkt ausgespielt: Mittagsmenü von 11–14 Uhr, Aktion am Wochenende, Eventhinweis nur in einer bestimmten Woche. Ein einzelnes Display am Empfang wird genauso verwaltet wie Dutzende Bildschirme über mehrere Standorte – immer aus einer zentralen Oberfläche.",
@@ -55,6 +55,10 @@
     {
       "question": "Was ist Digital Signage einfach erklärt?",
       "answer": "Digital Signage ist die digitale Variante klassischer Beschilderung: vernetzte Bildschirme zeigen Inhalte, die zentral verwaltet, geplant und automatisch ausgespielt werden – statt gedruckter Plakate oder Menükarten."
+    },
+    {
+      "question": "Was bedeutet Digital Signage auf Deutsch?",
+      "answer": "«Digital Signage» bedeutet auf Deutsch sinngemäss «digitale Beschilderung» oder «digitale Beschriftung». Gemeint sind vernetzte Bildschirme, die Informationen, Werbung oder Wegweisung anzeigen – zentral gesteuert und jederzeit aktualisierbar."
     },
     {
       "question": "Was kostet Digital Signage in der Schweiz?",
