@@ -52,6 +52,74 @@
       "description": "Die Plattform wird kontinuierlich erweitert – etwa KI-Unterstützung beim Erstellen von Inhalten, Echtzeit-Dashboards mit Live-Kennzahlen und interaktive Touch-Anwendungen."
     }
   ],
+  "capabilities": {
+    "eyebrow": "Funktionen",
+    "title": "Alle Funktionen auf einen Blick.",
+    "intro": "Von Drag-and-drop-Editor bis Proof of Play – die wichtigsten Funktionen der Meister Signage Software im Überblick. Alles im Browser, alles aus einer Oberfläche.",
+    "outro": "Diese Funktionen machen die Meister Signage Software zum zentralen Werkzeug für Ihre gesamte Bildschirmkommunikation – vom einzelnen Lobby-Display bis zum Netzwerk über mehrere Standorte.",
+    "items": [
+      {
+        "title": "Drag-and-drop-Widgets",
+        "text": "Über 50 fertige Bausteine: Bilder, Videos, Texte, Slideshows, Laufschriften und mehr – einfach auf die Fläche ziehen.",
+        "icon": "<rect x=\"3\" y=\"3\" width=\"8\" height=\"8\" rx=\"1.5\"/><rect x=\"13\" y=\"13\" width=\"8\" height=\"8\" rx=\"1.5\"/><path d=\"M13 6h5M15.5 3.5 18 6l-2.5 2.5M11 18H6M8.5 20.5 6 18l2.5-2.5\"/>"
+      },
+      {
+        "title": "Cloud-Medienbibliothek",
+        "text": "Alle Bilder und Videos zentral gespeichert, in Ordnern organisiert und von überall für das ganze Team erreichbar.",
+        "icon": "<path d=\"M7 18a4.5 4.5 0 1 1 .6-8.96A6 6 0 0 1 19 11.5 3.75 3.75 0 0 1 18 18.9\"/><path d=\"M12 13v7M9 17l3 3 3-3\"/>"
+      },
+      {
+        "title": "Vorlagen im Corporate Design",
+        "text": "Starten Sie nie bei null: anpassbare Layout-Vorlagen – auf Wunsch fertig in Ihrem CI eingerichtet.",
+        "icon": "<rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path d=\"M3 9h18M9 9v12\"/>"
+      },
+      {
+        "title": "Intelligente Zeitplanung",
+        "text": "Inhalte nach Uhrzeit, Wochentag oder Datum ausspielen – mit automatischem Start- und Enddatum für Kampagnen.",
+        "icon": "<rect x=\"3\" y=\"4\" width=\"18\" height=\"17\" rx=\"2\"/><path d=\"M3 9h18M8 2v4M16 2v4\"/><circle cx=\"15\" cy=\"15\" r=\"3.2\"/><path d=\"M15 13.5V15l1.2 1\"/>"
+      },
+      {
+        "title": "Playlists",
+        "text": "Mehrere Inhalte zu Programmen bündeln, Reihenfolge und Anzeigedauer festlegen – einmal einrichten, automatisch abspielen.",
+        "icon": "<path d=\"M4 6h11M4 11h11M4 16h6\"/><path d=\"M14 15.5v-4.8a.6.6 0 0 1 .9-.5l4 2.4a.6.6 0 0 1 0 1l-4 2.4a.6.6 0 0 1-.9-.5Z\"/>"
+      },
+      {
+        "title": "Multi-Screen-Verwaltung",
+        "text": "Ein Display oder hundert, ein Standort oder viele: alles zentral gesteuert über eine einzige Oberfläche.",
+        "icon": "<rect x=\"2.5\" y=\"4\" width=\"12\" height=\"8.5\" rx=\"1.2\"/><rect x=\"9.5\" y=\"9\" width=\"12\" height=\"8.5\" rx=\"1.2\"/><path d=\"M6.5 15.5v2M13.5 20.5v-1.5M4.5 17.5h4M11.5 20.5h4\"/>"
+      },
+      {
+        "title": "Benutzer & Rechte",
+        "text": "Abgestufte Zugriffsrechte für Ihr Team: gestalten, planen oder nur ansehen – Sie behalten die Kontrolle.",
+        "icon": "<circle cx=\"9\" cy=\"8\" r=\"3.2\"/><path d=\"M3.5 20c.5-3.5 2.8-5.5 5.5-5.5S14 16.5 14.5 20\"/><circle cx=\"17.5\" cy=\"9.5\" r=\"2.3\"/><path d=\"M15.5 14.6c2.6-.4 4.8 1 5.4 3.9\"/>"
+      },
+      {
+        "title": "Echtzeit-Updates",
+        "text": "Änderungen erscheinen innerhalb weniger Minuten auf allen Displays – egal, wo sie stehen.",
+        "icon": "<path d=\"M20 12a8 8 0 1 1-2.34-5.66\"/><path d=\"M20 4v4h-4\"/><path d=\"M12 8v4l2.5 2\"/>"
+      },
+      {
+        "title": "Live-Inhalte",
+        "text": "Uhrzeit, Wetter, RSS-News und Webseiten binden sich live ein und aktualisieren sich von selbst.",
+        "icon": "<circle cx=\"12\" cy=\"12\" r=\"2\"/><path d=\"M8.5 8.5a5 5 0 0 0 0 7M15.5 8.5a5 5 0 0 1 0 7M5.6 5.6a9 9 0 0 0 0 12.8M18.4 5.6a9 9 0 0 1 0 12.8\"/>"
+      },
+      {
+        "title": "Social Media & Streaming",
+        "text": "Instagram-Feeds und YouTube-Livestreams direkt auf dem Display – aktuelle Kanäle, null Mehraufwand.",
+        "icon": "<rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"3\"/><path d=\"M10.2 14.8v-5.6a.6.6 0 0 1 .9-.5l4.6 2.8a.6.6 0 0 1 0 1l-4.6 2.8a.6.6 0 0 1-.9-.5Z\"/>"
+      },
+      {
+        "title": "Monitoring & Proof of Play",
+        "text": "Online-Status aller Displays im Blick plus Ausspielnachweis – ideal für Werbepartner und Auswertungen.",
+        "icon": "<path d=\"M3 20h18\"/><path d=\"M6 20v-6M11 20V9M16 20v-9M21 20V6\"/><path d=\"M4 8.5 9 5l4 3 6-4.5\"/>"
+      },
+      {
+        "title": "Schulung & Support",
+        "text": "Persönliche Einführung, Onboarding Kit und ein direkter Ansprechpartner in der Schweiz – kein Ticketsystem.",
+        "icon": "<path d=\"M12 3 3 7.5 12 12l9-4.5L12 3Z\"/><path d=\"M6.5 9.8V15c0 1.5 2.5 3 5.5 3s5.5-1.5 5.5-3V9.8\"/><path d=\"M21 8v5\"/>"
+      }
+    ]
+  },
   "faq": [
     {
       "question": "Was ist die Meister Signage Software?",

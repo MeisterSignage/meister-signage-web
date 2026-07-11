@@ -27,6 +27,21 @@ export type LPUseCases = {
   items: LPUseCase[];
 };
 
+export type LPCapability = {
+  /** Inner SVG markup for a 24×24 stroke icon (viewBox "0 0 24 24"). */
+  icon: string;
+  title: string;
+  text: string;
+};
+
+export type LPCapabilities = {
+  eyebrow?: string;
+  title?: string;
+  intro?: string;
+  outro?: string;
+  items: LPCapability[];
+};
+
 export type LPCta = {
   eyebrow: string;
   title: string;
@@ -48,6 +63,7 @@ export type LandingPage = {
   heroImage?: string;
   gallery?: { src: string; alt: string }[];
   benefits: LPBenefit[];
+  capabilities?: LPCapabilities;
   useCases?: LPUseCases;
   faq: LPFAQ[];
   internalLinks: LPLink[];

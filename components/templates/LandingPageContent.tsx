@@ -440,6 +440,82 @@ export default function LandingPageContent({
         </div>
       </section>
 
+      {/* ── 2.2 Funktionen / Capabilities (optional, datengetrieben pro Seite) ── */}
+      {page.capabilities && page.capabilities.items.length > 0 && (
+        <section className="w-full bg-offwhite">
+          <div className="section-inner">
+
+            <motion.div
+              className="mb-12 max-w-2xl"
+              initial={reduced ? false : { opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={viewport}
+              transition={{ duration: 0.55, ease: easeOut }}
+            >
+              <span className="eyebrow">{page.capabilities.eyebrow ?? "Funktionen"}</span>
+              <h2
+                className="mt-2 font-light text-navy"
+                style={{
+                  fontSize: "clamp(1.75rem, 2.8vw, 2.6rem)",
+                  lineHeight: 1.1,
+                  letterSpacing: "-0.025em",
+                }}
+              >
+                {page.capabilities.title ?? "Alle Funktionen auf einen Blick."}
+              </h2>
+              {page.capabilities.intro && (
+                <p className="mt-4 text-[16px] leading-relaxed text-cgray">
+                  {page.capabilities.intro}
+                </p>
+              )}
+            </motion.div>
+
+            <motion.div
+              className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3"
+              variants={staggerContainer}
+              initial={reduced ? false : "hidden"}
+              whileInView="visible"
+              viewport={viewport}
+            >
+              {page.capabilities.items.map((c) => (
+                <motion.article
+                  key={c.title}
+                  variants={staggerItem}
+                  className="group flex flex-col rounded-[18px] border border-navy/8 bg-white p-7 transition-all duration-200 hover:-translate-y-1 hover:border-gold"
+                >
+                  <span className="inline-flex h-14 w-14 items-center justify-center rounded-[12px] bg-navy">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth={1.6}
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="h-7 w-7 text-gold"
+                      aria-hidden="true"
+                      dangerouslySetInnerHTML={{ __html: c.icon }}
+                    />
+                  </span>
+                  <h3 className="mt-5 text-[17px] font-bold text-navy">{c.title}</h3>
+                  <span
+                    className="mt-3 block h-[2px] w-8 bg-gold transition-colors duration-200 group-hover:bg-magenta"
+                    aria-hidden="true"
+                  />
+                  <p className="mt-3 text-[14px] leading-relaxed text-cgray">{c.text}</p>
+                </motion.article>
+              ))}
+            </motion.div>
+
+            {page.capabilities.outro && (
+              <p className="mx-auto mt-12 max-w-2xl text-center text-[15px] leading-relaxed text-cgray">
+                {page.capabilities.outro}
+              </p>
+            )}
+
+          </div>
+        </section>
+      )}
+
       {/* ── 2.5 Atmospheric parallax — branchen-specific or general loesungen ── */}
       {page.type === "branchen" && BRANCHEN_PARALLAX[page.slug] && (
         <ParallaxShowcaseSection
