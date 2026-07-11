@@ -115,7 +115,7 @@ export default function DigitalSignageMietenPage() {
         eyebrow="Weitere Seiten"
         links={[
           { label: "Digital Signage kaufen",    href: "/digital-signage-kaufen" },
-          { label: "Anbieter im Vergleich",     href: "/digital-signage-anbieter-vergleich" },
+          { label: "Digital Signage Anbieter",  href: "/digital-signage-anbieter-vergleich" },
           { label: "Kosten & Preise",           href: "/was-kostet-digital-signage-schweiz" },
           { label: "Mobile Displays",           href: "/loesungen/mobile-displays" },
           { label: "Doppelseitige Displays",    href: "/loesungen/doppelseitige-displays" },
