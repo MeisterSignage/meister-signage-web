@@ -81,7 +81,7 @@ Wie alle Spark-Modelle ist der Spark Q+ vollständig kabellos – Daten kommen �
 
 | Modell | Kauf | Miete |
 |---|---|---|
-| Spark Q+ (33 Zoll, quadratisch) | ab CHF 1.699 | ab CHF 159 |
+| Spark Q+ (33 Zoll, quadratisch) | ab CHF 1.699 | ab CHF 179 |
 
 Mietpreis inklusive Hardware, Software und Support. Einmalige Einrichtungs­pauschale: CHF 149. Beim Kauf zusätzlich Software-Lizenz ab CHF 180/Jahr.
 

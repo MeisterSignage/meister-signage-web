@@ -50,7 +50,7 @@ export default function LoesungenIndexPage() {
       <OverviewPage
         eyebrow="Lösungen"
         title="Die richtige Lösung für jeden Einsatz."
-        intro="Unsere Digital-Signage-Lösungen reichen von der schlüsselfertigen Display-Installation über flexible Mietlösungen bis hin zu grossflächigen LED Walls – für jeden Anwendungsfall die richtige Lösung und das passende Setup. Werbung im Schaufenster, Menüboards in der Gastronomie, Wegweisung im Hotel, Raumbeschilderung im Büro, Eventdisplays auf Messen: jede Lösung ist auf Einsatz, Standort und Budget abgestimmt. Persönliche Beratung, Schweizer Service und Hardware, die im 24/7-Betrieb hält – aus einer Hand geplant und betreut."
+        intro="Von der schlüsselfertigen Display-Installation über flexible Mietlösungen bis zu grossflächigen LED Walls – für jeden Einsatz die passende Lösung. Persönlich beraten, schweizweit betreut, Hardware für den 24/7-Betrieb: alles aus einer Hand."
         heroImage="/images/products/Loesungen-Meister-Signage.webp"
         groups={[
           {

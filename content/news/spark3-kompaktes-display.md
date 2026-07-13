@@ -74,7 +74,7 @@ Branchen-Standard bei professionellen Digital-Signage-Displays liegt bei 40–80
 
 | Modell | Kauf | Miete |
 |---|---|---|
-| Spark 3 (32 Zoll, Full HD) | ab CHF 1.299 | ab CHF 129 |
+| Spark 3 (32 Zoll, Full HD) | ab CHF 1.299 | ab CHF 149 |
 
 Im Mietpreis enthalten: Hardware, Software-Lizenz und technischer Support. Einmalige Einrichtungs­pauschale: CHF 149. Beim Kauf separate Lizenz ab CHF 180/Jahr – vollständige Aufschlüsselung: [Was kostet Digital Signage?](/was-kostet-digital-signage-schweiz/).
 

@@ -67,7 +67,7 @@ Eine ausführliche Pro/Contra-Liste zur Entscheidung Consumer-TV vs. Profi-Displ
 
 Lange war es Branchen­standard, Digital-Signage-Lösungen ausschliesslich projekt­basiert anzubieten – sprich: "Kontaktieren Sie uns für ein individuelles Angebot". Das ist für komplexe Multi-Standort-Projekte sinnvoll, für KMU aber abschreckend.
 
-2026 zeigt sich, dass Standard-KMU-Lösungen mit Festpreisen massiv schneller verkauft werden. Wir veröffentlichen alle Preise transparent: ab CHF 129 zur Miete oder ab CHF 1.299 zum Kauf, plus klar ausgewiesene Lizenz- und Einrichtungs­kosten. Der direkte Vergleich mit anderen Schweizer Anbietern: [Anbieter-Vergleich](/digital-signage-anbieter-vergleich/).
+2026 zeigt sich, dass Standard-KMU-Lösungen mit Festpreisen massiv schneller verkauft werden. Wir veröffentlichen alle Preise transparent: ab CHF 149 zur Miete oder ab CHF 1.299 zum Kauf, plus klar ausgewiesene Lizenz- und Einrichtungs­kosten. Der direkte Vergleich mit anderen Schweizer Anbietern: [Anbieter-Vergleich](/digital-signage-anbieter-vergleich/).
 
 ## Was diese 5 Trends für Schweizer KMU bedeuten
 

@@ -60,7 +60,7 @@ Eine realistische Kalkulation für ein Hotel mit einem Display im Empfangs­bere
 | Hardware (Spark 4, 43" 4K) | CHF 1.499 einmalig | – |
 | Einrichtung + Schulung | CHF 149 einmalig | im Mietpreis |
 | Software-Lizenz | CHF 180/Jahr | im Mietpreis |
-| Mietpreis | – | ab CHF 139/Mo. |
+| Mietpreis | – | ab CHF 159/Mo. |
 | **Jahr 1 total** | **CHF 1.828** | **ab CHF 1.668** |
 | **Jahr 2+ jährlich** | **CHF 180** | **ab CHF 1.668** |
 

@@ -37,7 +37,7 @@ Vier Modelle, vier Stärken. Das Spark-Sortiment von Meister Signage deckt die h
 | **Konnektivität** | WiFi6 + BT 5.2 | WiFi6 + BT 5.2 | WiFi6 + BT 5.2 | WiFi6 + BT 5.2 |
 | **Dauer­betrieb** | 24/7 | 24/7 | 24/7 | 24/7 |
 | **Kauf ab** | CHF 1.299 | CHF 1.499 | CHF 1.599 | CHF 1.699 |
-| **Miete ab** | CHF 129 | CHF 139 | CHF 149 | CHF 159 |
+| **Miete ab** | CHF 149 | CHF 159 | CHF 169 | CHF 179 |
 | **Charakter** | Kompakt | Vielseitig | Grossflächig | Kreativ |
 
 Alle Modelle: eingebauter Media Player, Datenverbindung 100 % wireless (keine HDMI-/USB-/Ethernet-Ports), Strom­versorgung über externes 120-W-Netzteil mit 24 V DC am Display (GS- und TÜV-zertifiziert, Effizienz-Klasse VI).

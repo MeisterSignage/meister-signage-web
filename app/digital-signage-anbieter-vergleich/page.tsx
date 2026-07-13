@@ -86,7 +86,7 @@ const ROWS: Row[] = [
   {
     criterion: "Transparente Preise auf der Website",
     cells: [
-      { type: "yes", note: "ab CHF 129 (Miete) oder CHF 1.299 (Kauf)" },
+      { type: "yes", note: "ab CHF 149 (Miete) oder CHF 1.299 (Kauf)" },
       { type: "no" },
       { type: "no" },
       { type: "no", note: "Beratungsmodell" },
@@ -517,7 +517,7 @@ export default function AnbieterVergleichPage() {
           {[
             {
               title: "Preise sichtbar – sofort einschätzbar",
-              body: "Sie wissen vor dem ersten Gespräch, ob das Budget reicht. Ab CHF 1.299 zum Kauf (Lizenz ab CHF 180/Jahr) oder ab CHF 129 zur Miete inkl. Lizenz.",
+              body: "Sie wissen vor dem ersten Gespräch, ob das Budget reicht. Ab CHF 1.299 zum Kauf (Lizenz ab CHF 180/Jahr) oder ab CHF 149 zur Miete inkl. Lizenz.",
             },
             {
               title: "Klares Spark-Sortiment + Flexibilität",

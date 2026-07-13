@@ -4,7 +4,6 @@ import EditorialNewsSection from "@/components/sections/EditorialNewsSection";
 import { getLatestPosts } from "@/lib/news";
 import PremiumBenefitGrid from "@/components/sections/PremiumBenefitGrid";
 import IndustriesSection from "@/components/sections/IndustriesSection";
-import UseCasesSection from "@/components/sections/UseCasesSection";
 import TrustProcessSection from "@/components/sections/TrustProcessSection";
 import ModernFAQSection from "@/components/sections/ModernFAQSection";
 import CTASection from "@/components/sections/CTASection";
@@ -92,11 +91,8 @@ export default function Home() {
       {/* 3.6 — Software teaser */}
       <SoftwareTeaserSection />
 
-      {/* 4 — Industries bento */}
+      {/* 4 — Industries bento (Branchen + Anwendungen zusammengeführt) */}
       <IndustriesSection />
-
-      {/* 5 — Use cases editorial */}
-      <UseCasesSection />
 
 
       {/* 6 — Trust & process */}

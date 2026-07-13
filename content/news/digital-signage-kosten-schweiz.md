@@ -29,7 +29,7 @@ Eine Hardware ab CHF 999 klingt verlockend – bis die monatliche Lizenz, das In
 
 **Realität:** Bei den meisten Digital-Signage-Anbietern läuft die Inhalts­steuerung über eine Cloud-Software, die separat lizenziert werden muss. Übliche Lizenz­kosten: CHF 180–600 pro Jahr und Display. Bei 3 Displays sind das CHF 540–1.800 pro Jahr.
 
-**Worauf achten:** Im Erstangebot explizit nach "monatlicher Lizenz" oder "Cloud-Gebühr" fragen. Bei uns: ab CHF 180/Jahr im Kauf, im Mietpreis ab CHF 129 inklusive.
+**Worauf achten:** Im Erstangebot explizit nach "monatlicher Lizenz" oder "Cloud-Gebühr" fragen. Bei uns: ab CHF 180/Jahr im Kauf, im Mietpreis ab CHF 149 inklusive.
 
 ## 2. Einrichtungs­pauschale
 
@@ -77,7 +77,7 @@ Ein faires Erstangebot enthält alle fünf Posten explizit – auch wenn manche 
 | **Total Jahr 1** | **CHF 1.877** |
 | Jährlich ab Jahr 2 | CHF 180 |
 
-Im [Mietmodell ab CHF 139](/digital-signage-mieten/) sind Lizenz, Versand und Einrichtung im Monatspreis – nur die optionale Content-Erstellung kommt extra.
+Im [Mietmodell ab CHF 159](/digital-signage-mieten/) sind Lizenz, Versand und Einrichtung im Monatspreis – nur die optionale Content-Erstellung kommt extra.
 
 ## Wie Sie versteckte Kosten im Angebot erkennen
 

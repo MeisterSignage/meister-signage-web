@@ -18,7 +18,7 @@ const packages = [
     model: "Spark 3",
     size: '32"',
     spec: "Full HD",
-    price: 129,
+    price: 149,
     desc: "Kompakt und präzise — ideal für Theken, Point-of-Sale und kleine Flächen.",
     imageSrc: "/images/products/Spark3-Design.webp",
   },
@@ -26,7 +26,7 @@ const packages = [
     model: "Spark 4",
     size: '43"',
     spec: "4K UHD",
-    price: 139,
+    price: 159,
     desc: "Vielseitig und präsent — für Retail, Hotellerie und Gastronomie.",
     imageSrc: "/images/products/Spark4-Design.webp",
   },
@@ -34,8 +34,8 @@ const packages = [
     model: "Spark 5",
     size: '50"',
     spec: "4K UHD",
-    price: 149,
-    badge: "Populär",
+    price: 169,
+    badge: "Beliebtestes Mietmodell",
     desc: "Grossflächig und dominant — perfekt für Events, Messen und grosse Räume.",
     imageSrc: "/images/products/Spark5-Design.webp",
   },
@@ -43,7 +43,7 @@ const packages = [
     model: "Spark Q+",
     size: '33"',
     spec: "Full HD quadr.",
-    price: 159,
+    price: 179,
     desc: "Das quadratische Format für kreative Konzepte und besondere Inszenierungen.",
     imageSrc: "/images/products/SparkQ-Design.webp",
   },
@@ -323,7 +323,7 @@ export default function DigitalSignageMietenContent() {
               className="mb-10 max-w-[440px] leading-relaxed"
               style={{ fontSize: "clamp(1rem, 1.5vw, 1.15rem)", color: "rgba(209,213,219,0.9)" }}
             >
-              Ein Display mieten lohnt sich überall dort, wo Flexibilität zählt: temporäre Einsätze, Events, Messen, Pop-ups, Promotions oder Unternehmen, die Digital Signage zuerst testen möchten. Display-Miete ab CHF 129/Mt., inkl. Lizenz – ob mieten, leihen, ausleihen oder im Verleih, persönlich betreut und sofort einsatzbereit.
+              Displays flexibel mieten statt kaufen – ideal für Events, Messen, Pop-ups oder zum Ausprobieren. Ab CHF 149/Mt. inkl. Lizenz, persönlich betreut und sofort einsatzbereit.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -513,10 +513,12 @@ export default function DigitalSignageMietenContent() {
                       {pkg.size} · {pkg.spec}
                     </span>
                   </div>
-                  <div className="mb-4">
-                    <span className="text-[20px] font-black tracking-tight text-navy">
-                      Preis auf Anfrage
+                  <div className="mb-4 flex items-baseline gap-1.5">
+                    <span className="text-[13px] font-semibold text-cgray">ab</span>
+                    <span className="text-[26px] font-black tracking-tight text-navy">
+                      CHF {pkg.price}
                     </span>
+                    <span className="text-[13px] font-semibold text-cgray">/ Mt.<sup className="text-[10px]">*</sup></span>
                   </div>
                   <p className="mb-5 text-[13px] leading-relaxed text-cgray">{pkg.desc}</p>
                   <ul className="mb-5 space-y-2">
@@ -550,7 +552,7 @@ export default function DigitalSignageMietenContent() {
             viewport={viewport}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            Individuelle Angebote auf Anfrage – Konditionen weisen wir transparent aus.
+            * Preise pro Display / Monat, exkl. MwSt. Einmalige Einrichtungspauschale CHF 149 pro Display. Unverbindlich anfragen – Konditionen weisen wir vorab transparent aus.
           </motion.p>
 
         </div>

@@ -29,7 +29,7 @@ Drei Entwicklungen treffen aufeinander:
 
 **2. Erwartung der Gäste verändert sich.** Wer im Stadtzentrum durch sechs Restaurants vor­bei­läuft, vergleicht nicht nur das Essen, sondern auch den ersten Eindruck. Ein hand­geschriebener Aushang neben einer hoch­wertigen digitalen Anzeige fällt zurück.
 
-**3. Hardware-Preise sind gefallen.** Ein professionelles 32-Zoll-Display kostete vor 5 Jahren noch CHF 2.500. Heute startet der Einstieg bei CHF 1.299 zum Kauf oder ab CHF 129 zur Miete – inklusive Software und Cloud-Steuerung.
+**3. Hardware-Preise sind gefallen.** Ein professionelles 32-Zoll-Display kostete vor 5 Jahren noch CHF 2.500. Heute startet der Einstieg bei CHF 1.299 zum Kauf oder ab CHF 149 zur Miete – inklusive Software und Cloud-Steuerung.
 
 ## Was ein gutes digitales Menüboard können sollte
 
@@ -57,7 +57,7 @@ Eine ausführliche Anleitung zur Grössen­wahl haben wir im Ratgeber [Digital S
 
 ## Was kostet ein digitales Menüboard wirklich?
 
-Die ehrliche Antwort: Beim Kauf zwischen CHF 1.299 (32 Zoll) und CHF 1.599 (50 Zoll), plus einmalige Einrichtungspauschale CHF 149. Bei monatlicher Miete startet es bei CHF 129 inklusive Software-Lizenz. Die Lizenz beim Kauf liegt bei CHF 180 pro Jahr (gegen CHF 0 bei Miete).
+Die ehrliche Antwort: Beim Kauf zwischen CHF 1.299 (32 Zoll) und CHF 1.599 (50 Zoll), plus einmalige Einrichtungspauschale CHF 149. Bei monatlicher Miete startet es bei CHF 149 inklusive Software-Lizenz. Die Lizenz beim Kauf liegt bei CHF 180 pro Jahr (gegen CHF 0 bei Miete).
 
 Eine ausführliche Aufschlüsselung – inklusive Druckkosten­ersparnis und typischer Amortisations­dauer – findet sich auf der [Kosten­seite Digital Signage Schweiz](/was-kostet-digital-signage-schweiz/).
 

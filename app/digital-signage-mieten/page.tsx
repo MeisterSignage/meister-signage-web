@@ -11,9 +11,9 @@ const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/digital-signage-mieten`;
 
 export const metadata: Metadata = {
-  title: { absolute: "Display mieten Schweiz – ab CHF 129/Mt. | Meister Signage" },
+  title: { absolute: "Display mieten Schweiz – ab CHF 149/Mt. | Meister Signage" },
   description:
-    "Display mieten Schweiz ab CHF 129/Mt.: Digital-Signage-Screens, Eventdisplays und Menüboards flexibel mieten – inkl. Lizenz und persönlicher Betreuung.",
+    "Display mieten Schweiz ab CHF 149/Mt.: Digital-Signage-Screens, Eventdisplays und Menüboards flexibel mieten – inkl. Lizenz und persönlicher Betreuung.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "website",

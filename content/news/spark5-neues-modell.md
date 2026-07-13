@@ -73,7 +73,7 @@ Für die anderen Einsatz­bereiche stehen die kompakteren Modelle bereit: Der [S
 
 | Modell | Kauf | Miete |
 |---|---|---|
-| Spark 5 (50 Zoll, 4K UHD) | ab CHF 1.599 | ab CHF 149 |
+| Spark 5 (50 Zoll, 4K UHD) | ab CHF 1.599 | ab CHF 169 |
 
 Im Mietpreis sind Software-Lizenz, Cloud-Steuerung und Support enthalten. Mietdauer flexibel ab wenigen Tagen für Events bis mehrere Monate für Pop-ups oder Übergangs­lösungen. Einmalige Einrichtungs­pauschale: CHF 149.
 

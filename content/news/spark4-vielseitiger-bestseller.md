@@ -84,7 +84,7 @@ Für kompaktere Einsätze empfehlen wir den [Spark 3](/digital-signage-kaufen/) 
 
 | Modell | Kauf | Miete |
 |---|---|---|
-| Spark 4 (43 Zoll, 4K) | ab CHF 1.499 | ab CHF 139 |
+| Spark 4 (43 Zoll, 4K) | ab CHF 1.499 | ab CHF 159 |
 
 Mietpreis inklusive Hardware, Software und Support. Einmalige Einrichtungs­pauschale: CHF 149. Beim Kauf zusätzlich Software-Lizenz ab CHF 180/Jahr.
 

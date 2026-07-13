@@ -52,7 +52,7 @@ const PAGE_FAQS = [
   {
     question: "Können Displays gemietet werden?",
     answer:
-      "Ja. Meister Signage bietet flexible Mietpakete ab CHF 129 — inklusive Lizenz, Cloud-Steuerung und Support. Ideal für Events oder als Einstieg.",
+      "Ja. Meister Signage bietet flexible Mietpakete ab CHF 149 — inklusive Lizenz, Cloud-Steuerung und Support. Ideal für Events oder als Einstieg.",
   },
   {
     question: "Unterstützt Meister Signage bei Installation und Betreuung?",
