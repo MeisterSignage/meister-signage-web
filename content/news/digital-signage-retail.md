@@ -6,7 +6,7 @@ date: "2026-07-14T06:00:00+02:00"
 category: "Retail"
 image: "/images/products/Schuhladen-Meister-Signage.webp"
 slug: "digital-signage-retail"
-status: scheduled
+status: published
 carousel:
   hook: "Verbringen Sie die Sale-Saison wieder mit Plakatdruck?"
   hookSub: "Frühling, SSV, Black Friday, Weihnachten – jede Aktion neu drucken und aufhängen."
