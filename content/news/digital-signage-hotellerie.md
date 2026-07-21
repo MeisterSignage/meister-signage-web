@@ -6,7 +6,7 @@ date: "2026-07-21T06:00:00+02:00"
 category: "Hotellerie"
 image: "/images/products/Hotelempfang-Meister-Signage.webp"
 slug: "digital-signage-hotellerie"
-status: scheduled
+status: published
 carousel:
   hook: "Empfang voller Aushänge und ausgedruckter Frühstückskarten?"
   hookSub: "Im kleinen Hotel wirkt das schnell unaufgeräumt – und kostet täglich Zeit."
