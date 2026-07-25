@@ -1,6 +1,7 @@
 {
   "slug": "aarau",
   "type": "staedte",
+  "noindex": true,
   "seoTitle": "Digital Signage Aarau – mieten & kaufen | Meister Signage",
   "seoDescription": "Digital Signage in Aarau: Displays mieten ab CHF 149 oder kaufen ab CHF 1.299. Für Verwaltung, Detailhandel und KMU im Kanton Aargau – persönlich betreut.",
   "eyebrow": "Standort · Aarau",
@@ -55,14 +56,38 @@
     }
   ],
   "internalLinks": [
-    { "label": "Digital Signage Schweiz", "href": "/digital-signage-schweiz/" },
-    { "label": "Empfangsdisplays", "href": "/loesungen/empfangsdisplays/" },
-    { "label": "Display kaufen", "href": "/digital-signage-kaufen/" },
-    { "label": "Display mieten", "href": "/digital-signage-mieten/" },
-    { "label": "Kosten & Preise", "href": "/was-kostet-digital-signage-schweiz/" },
-    { "label": "Digital Signage Baden", "href": "/staedte/baden/" },
-    { "label": "Digital Signage Olten", "href": "/staedte/olten/" },
-    { "label": "Kontakt", "href": "/kontakt/" }
+    {
+      "label": "Digital Signage Schweiz",
+      "href": "/digital-signage-schweiz/"
+    },
+    {
+      "label": "Empfangsdisplays",
+      "href": "/loesungen/empfangsdisplays/"
+    },
+    {
+      "label": "Display kaufen",
+      "href": "/digital-signage-kaufen/"
+    },
+    {
+      "label": "Display mieten",
+      "href": "/digital-signage-mieten/"
+    },
+    {
+      "label": "Kosten & Preise",
+      "href": "/was-kostet-digital-signage-schweiz/"
+    },
+    {
+      "label": "Digital Signage Baden",
+      "href": "/staedte/baden/"
+    },
+    {
+      "label": "Digital Signage Olten",
+      "href": "/staedte/olten/"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/kontakt/"
+    }
   ],
   "cta": {
     "eyebrow": "Projekt besprechen",
@@ -75,17 +100,38 @@
   },
   "related": {
     "staedte": [
-      { "label": "Digital Signage Baden", "href": "/staedte/baden/" },
-      { "label": "Digital Signage Olten", "href": "/staedte/olten/" }
+      {
+        "label": "Digital Signage Baden",
+        "href": "/staedte/baden/"
+      },
+      {
+        "label": "Digital Signage Olten",
+        "href": "/staedte/olten/"
+      }
     ],
     "branchen": [
-      { "label": "Unternehmen", "href": "/branchen/unternehmen/" },
-      { "label": "Retail & Handel", "href": "/branchen/retail/" },
-      { "label": "Gastronomie", "href": "/branchen/gastronomie/" }
+      {
+        "label": "Unternehmen",
+        "href": "/branchen/unternehmen/"
+      },
+      {
+        "label": "Retail & Handel",
+        "href": "/branchen/retail/"
+      },
+      {
+        "label": "Gastronomie",
+        "href": "/branchen/gastronomie/"
+      }
     ],
     "loesungen": [
-      { "label": "Empfangsdisplays", "href": "/loesungen/empfangsdisplays/" },
-      { "label": "Digitale Leitsysteme", "href": "/loesungen/digitale-leitsysteme/" }
+      {
+        "label": "Empfangsdisplays",
+        "href": "/loesungen/empfangsdisplays/"
+      },
+      {
+        "label": "Digitale Leitsysteme",
+        "href": "/loesungen/digitale-leitsysteme/"
+      }
     ]
   }
 }

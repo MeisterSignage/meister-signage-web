@@ -1,6 +1,7 @@
 {
   "slug": "olten",
   "type": "staedte",
+  "noindex": true,
   "seoTitle": "Digital Signage Olten – mieten & kaufen | Meister Signage",
   "seoDescription": "Digital Signage in Olten: Displays mieten ab CHF 149 oder kaufen ab CHF 1.299. Für KMU, Detailhandel und Gastronomie im Mittelland – persönlich betreut.",
   "eyebrow": "Standort · Olten",
@@ -55,14 +56,38 @@
     }
   ],
   "internalLinks": [
-    { "label": "Digital Signage Schweiz", "href": "/digital-signage-schweiz/" },
-    { "label": "Digitales Werbedisplay", "href": "/loesungen/digitales-werbedisplay/" },
-    { "label": "Display kaufen", "href": "/digital-signage-kaufen/" },
-    { "label": "Display mieten", "href": "/digital-signage-mieten/" },
-    { "label": "Kosten & Preise", "href": "/was-kostet-digital-signage-schweiz/" },
-    { "label": "Digital Signage Aarau", "href": "/staedte/aarau/" },
-    { "label": "Digital Signage Solothurn", "href": "/staedte/solothurn/" },
-    { "label": "Kontakt", "href": "/kontakt/" }
+    {
+      "label": "Digital Signage Schweiz",
+      "href": "/digital-signage-schweiz/"
+    },
+    {
+      "label": "Digitales Werbedisplay",
+      "href": "/loesungen/digitales-werbedisplay/"
+    },
+    {
+      "label": "Display kaufen",
+      "href": "/digital-signage-kaufen/"
+    },
+    {
+      "label": "Display mieten",
+      "href": "/digital-signage-mieten/"
+    },
+    {
+      "label": "Kosten & Preise",
+      "href": "/was-kostet-digital-signage-schweiz/"
+    },
+    {
+      "label": "Digital Signage Aarau",
+      "href": "/staedte/aarau/"
+    },
+    {
+      "label": "Digital Signage Solothurn",
+      "href": "/staedte/solothurn/"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/kontakt/"
+    }
   ],
   "cta": {
     "eyebrow": "Projekt besprechen",
@@ -75,17 +100,38 @@
   },
   "related": {
     "staedte": [
-      { "label": "Digital Signage Aarau", "href": "/staedte/aarau/" },
-      { "label": "Digital Signage Solothurn", "href": "/staedte/solothurn/" }
+      {
+        "label": "Digital Signage Aarau",
+        "href": "/staedte/aarau/"
+      },
+      {
+        "label": "Digital Signage Solothurn",
+        "href": "/staedte/solothurn/"
+      }
     ],
     "branchen": [
-      { "label": "Retail & Handel", "href": "/branchen/retail/" },
-      { "label": "Gastronomie", "href": "/branchen/gastronomie/" },
-      { "label": "Unternehmen", "href": "/branchen/unternehmen/" }
+      {
+        "label": "Retail & Handel",
+        "href": "/branchen/retail/"
+      },
+      {
+        "label": "Gastronomie",
+        "href": "/branchen/gastronomie/"
+      },
+      {
+        "label": "Unternehmen",
+        "href": "/branchen/unternehmen/"
+      }
     ],
     "loesungen": [
-      { "label": "Digitales Werbedisplay", "href": "/loesungen/digitales-werbedisplay/" },
-      { "label": "Digitale Menüboards", "href": "/loesungen/digitale-menueboards/" }
+      {
+        "label": "Digitales Werbedisplay",
+        "href": "/loesungen/digitales-werbedisplay/"
+      },
+      {
+        "label": "Digitale Menüboards",
+        "href": "/loesungen/digitale-menueboards/"
+      }
     ]
   }
 }

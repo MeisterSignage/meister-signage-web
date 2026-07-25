@@ -1,3 +1,8 @@
+# ─── Directory-Listing deaktivieren ───────────────────────────
+# Verhindert indexierte "Index of /staedte/"-Verzeichnisansichten
+# (GSC: /staedte/?MD= etc.) — SEO- und Sicherheitsproblem.
+Options -Indexes
+
 # ─── HTTPS + www Redirect ─────────────────────────────────────
 RewriteEngine On
 RewriteCond %{HTTPS} off
@@ -18,6 +23,10 @@ RedirectMatch 301 ^/events/?$                  /branchen/events/
 RedirectMatch 301 ^/digitales-menueboard/?$    /loesungen/digitale-menueboards/
 RedirectMatch 301 ^/digital-signage-hotel-empfang/?$ /branchen/hotellerie/
 RedirectMatch 301 ^/news/digital-signage-gastronomie-2025/?$ /news/digital-signage-gastronomie-2026/
+# Fehl-Slug: News-Artikel "5 Trends 2026" lag unter der Definitions-URL und
+# kannibalisierte die Wissensseite (Pos 6,7 vs 44,9). Artikel wandert nach
+# /news/digital-signage-trends-2026/, die "was ist"-Nachfrage geht auf die Wissensseite.
+RedirectMatch 301 ^/news/was-ist-digital-signage/?$ /wissen/was-ist-digital-signage/
 # Verwaiste WordPress-URLs mit Rankings/Impressionen (GSC) → passende Live-Seite
 RedirectMatch 301 ^/digital-signage-retail/?$        /branchen/retail/
 RedirectMatch 301 ^/digital-signage-gastronomie/?$   /branchen/gastronomie/

@@ -1,6 +1,7 @@
 {
   "slug": "baden",
   "type": "staedte",
+  "noindex": true,
   "seoTitle": "Digital Signage Baden – mieten & kaufen | Meister Signage",
   "seoDescription": "Digital Signage in Baden: Displays mieten ab CHF 149 oder kaufen ab CHF 1.299. Für Industrie, Detailhandel und Gastronomie im Aargau – persönlich betreut.",
   "eyebrow": "Standort · Baden",
@@ -55,14 +56,38 @@
     }
   ],
   "internalLinks": [
-    { "label": "Digital Signage Schweiz", "href": "/digital-signage-schweiz/" },
-    { "label": "Empfangsdisplays", "href": "/loesungen/empfangsdisplays/" },
-    { "label": "Display kaufen", "href": "/digital-signage-kaufen/" },
-    { "label": "Display mieten", "href": "/digital-signage-mieten/" },
-    { "label": "Kosten & Preise", "href": "/was-kostet-digital-signage-schweiz/" },
-    { "label": "Digital Signage Aarau", "href": "/staedte/aarau/" },
-    { "label": "Digital Signage Zürich", "href": "/staedte/zuerich/" },
-    { "label": "Kontakt", "href": "/kontakt/" }
+    {
+      "label": "Digital Signage Schweiz",
+      "href": "/digital-signage-schweiz/"
+    },
+    {
+      "label": "Empfangsdisplays",
+      "href": "/loesungen/empfangsdisplays/"
+    },
+    {
+      "label": "Display kaufen",
+      "href": "/digital-signage-kaufen/"
+    },
+    {
+      "label": "Display mieten",
+      "href": "/digital-signage-mieten/"
+    },
+    {
+      "label": "Kosten & Preise",
+      "href": "/was-kostet-digital-signage-schweiz/"
+    },
+    {
+      "label": "Digital Signage Aarau",
+      "href": "/staedte/aarau/"
+    },
+    {
+      "label": "Digital Signage Zürich",
+      "href": "/staedte/zuerich/"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/kontakt/"
+    }
   ],
   "cta": {
     "eyebrow": "Projekt besprechen",
@@ -75,17 +100,38 @@
   },
   "related": {
     "staedte": [
-      { "label": "Digital Signage Aarau", "href": "/staedte/aarau/" },
-      { "label": "Digital Signage Zürich", "href": "/staedte/zuerich/" }
+      {
+        "label": "Digital Signage Aarau",
+        "href": "/staedte/aarau/"
+      },
+      {
+        "label": "Digital Signage Zürich",
+        "href": "/staedte/zuerich/"
+      }
     ],
     "branchen": [
-      { "label": "Unternehmen", "href": "/branchen/unternehmen/" },
-      { "label": "Hotellerie", "href": "/branchen/hotellerie/" },
-      { "label": "Retail & Handel", "href": "/branchen/retail/" }
+      {
+        "label": "Unternehmen",
+        "href": "/branchen/unternehmen/"
+      },
+      {
+        "label": "Hotellerie",
+        "href": "/branchen/hotellerie/"
+      },
+      {
+        "label": "Retail & Handel",
+        "href": "/branchen/retail/"
+      }
     ],
     "loesungen": [
-      { "label": "Empfangsdisplays", "href": "/loesungen/empfangsdisplays/" },
-      { "label": "Digitale Menüboards", "href": "/loesungen/digitale-menueboards/" }
+      {
+        "label": "Empfangsdisplays",
+        "href": "/loesungen/empfangsdisplays/"
+      },
+      {
+        "label": "Digitale Menüboards",
+        "href": "/loesungen/digitale-menueboards/"
+      }
     ]
   }
 }

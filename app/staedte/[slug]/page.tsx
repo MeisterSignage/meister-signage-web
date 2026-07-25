@@ -22,10 +22,15 @@ export async function generateMetadata({
 
   const url = `${SITE_URL}/staedte/${slug}`;
 
+  // Schwache Template-Städte (ohne lokale Substanz) → noindex, um Doorway-Risiko
+  // zu vermeiden. Gesteuert per "noindex": true in der jeweiligen Stadt-JSON.
+  const noindex = (page as { noindex?: boolean }).noindex === true;
+
   return {
     title: { absolute: page.seoTitle },
     description: page.seoDescription,
     alternates: { canonical: url },
+    ...(noindex ? { robots: { index: false, follow: true } } : {}),
     openGraph: {
       type: "website",
       locale: "de_CH",

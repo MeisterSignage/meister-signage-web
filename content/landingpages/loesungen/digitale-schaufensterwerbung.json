@@ -82,6 +82,14 @@
     {
       "question": "Für welche Geschäfte lohnt sich digitale Schaufensterwerbung?",
       "answer": "Besonders im Einzelhandel mit Laufkundschaft – Mode, Optik, Elektronik, Bäckerei oder Gastronomie. Überall dort, wo Sichtbarkeit am Point of Sale zählt und Aktionen häufig wechseln, zahlt sich ein digitales Schaufenster-Display schnell aus."
+    },
+    {
+      "question": "Sind Schaufenster-Displays auch ausserhalb der Öffnungszeiten sichtbar?",
+      "answer": "Ja – und genau das ist ihr grösster Vorteil. Schaufenster-Displays laufen 24/7 und werben gerade ausserhalb der Öffnungszeiten weiter: abends, nachts und am Wochenende, wenn Passanten Zeit haben, vor dem Schaufenster stehen zu bleiben. Während gedruckte Plakate im dunklen Schaufenster verschwinden, leuchten die Displays hell weiter und machen Ihre Aktionen rund um die Uhr sichtbar."
+    },
+    {
+      "question": "Kann ich mehrere Schaufenster-Displays zentral verwalten?",
+      "answer": "Ja. Ob ein Schaufenster oder mehrere Filialen: Alle Schaufenster-Displays werden zentral über die Cloud gesteuert. Sie aktualisieren Aktionen und Kampagnen an einem Ort und spielen sie auf allen Standorten gleichzeitig oder standortindividuell aus – ohne Vor-Ort-Aufwand."
     }
   ],
   "internalLinks": [
@@ -116,6 +124,10 @@
     {
       "label": "High-Brightness-Display",
       "href": "/loesungen/high-brightness-display/"
+    },
+    {
+      "label": "Transparentes Display",
+      "href": "/loesungen/transparentes-display/"
     },
     {
       "label": "Digital Signage & Nachhaltigkeit",

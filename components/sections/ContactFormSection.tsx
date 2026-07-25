@@ -92,6 +92,11 @@ export default function ContactFormSection() {
 
       if (res.ok) {
         setState("success");
+        // GA4-Conversion: abgesendete Kontaktanfrage (nur nach Consent aktiv)
+        const gtag = (window as unknown as { gtag?: (...args: unknown[]) => void }).gtag;
+        if (typeof gtag === "function") {
+          gtag("event", "generate_lead", { form_name: "kontaktformular" });
+        }
         form.reset();
         setDatenschutz(false);
       } else {

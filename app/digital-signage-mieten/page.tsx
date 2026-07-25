@@ -6,6 +6,7 @@ import JsonLd from "@/components/JsonLd";
 import { faqSchema } from "@/lib/schema/faq";
 import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
 import { serviceSchema } from "@/lib/schema/service";
+import { rentalOfferSchema } from "@/lib/schema/product";
 
 const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/digital-signage-mieten`;
@@ -31,6 +32,15 @@ export const metadata: Metadata = {
       "Display mieten Schweiz: Digital-Signage-Screens, Eventdisplays und mobile Displays flexibel mieten.",
   },
 };
+
+// Miet-Angebote als Product/Offer mit priceSpecification (monatlich) — für
+// Rich Results & KI-Zitierbarkeit. Preise = zentrale Miet-Preise des Spark-Sortiments.
+const RENTAL_OFFERS = [
+  { name: 'Meister Signage Spark 3 – 32" Display mieten', description: "Kompaktes 32-Zoll Full-HD-Display zur Miete – ideal für Theken, Point-of-Sale und kleine Flächen. Inkl. Lizenz und persönlicher Betreuung.", monthlyPrice: 149, screenSize: '32"', resolution: "Full HD" },
+  { name: 'Meister Signage Spark 4 – 43" Display mieten', description: "Vielseitiges 43-Zoll 4K-Display zur Miete – für Retail, Hotellerie und Gastronomie. Inkl. Lizenz und persönlicher Betreuung.", monthlyPrice: 159, screenSize: '43"', resolution: "4K UHD" },
+  { name: 'Meister Signage Spark 5 – 50" Display mieten', description: "Grossflächiges 50-Zoll 4K-Display zur Miete – perfekt für Events, Messen und grosse Räume. Inkl. Lizenz und persönlicher Betreuung.", monthlyPrice: 169, screenSize: '50"', resolution: "4K UHD" },
+  { name: 'Meister Signage Spark Q+ – quadratisches Display mieten', description: "Quadratisches 33-Zoll Full-HD-Display zur Miete – für kreative Konzepte und besondere Inszenierungen. Inkl. Lizenz und persönlicher Betreuung.", monthlyPrice: 179, screenSize: '33" (quadratisch)', resolution: "Full HD" },
+];
 
 const PAGE_FAQS = [
   {
@@ -108,6 +118,10 @@ export default function DigitalSignageMietenPage() {
           }) as Record<string, unknown>
         }
       />
+
+      {rentalOfferSchema(RENTAL_OFFERS, PAGE_URL).map((schema, i) => (
+        <JsonLd key={`rental-${i}`} schema={schema as Record<string, unknown>} />
+      ))}
 
       <DigitalSignageMietenContent />
 

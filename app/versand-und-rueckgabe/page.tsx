@@ -9,6 +9,8 @@ export const metadata: Metadata = {
   description:
     "Transparente Informationen zu Versand, Lieferung, Rückgabe und Gewährleistung für Digital-Signage-Hardware von Meister Signage.",
   alternates: { canonical: PAGE_URL },
+  // Service-/Rechtsseite ohne kommerziellen Suchwert → nicht indexieren (spart Crawl-Budget)
+  robots: { index: false, follow: true },
 };
 
 export default function VersandUndRueckgabePage() {

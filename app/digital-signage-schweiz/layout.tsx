@@ -4,18 +4,18 @@ const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/digital-signage-schweiz`;
 
 export const metadata: Metadata = {
-  title: { absolute: "Digital Signage Schweiz | Meister Signage" },
+  title: { absolute: "Digital Signage schweizweit – Lösungen für jede Branche | Meister Signage" },
   description:
-    "Digitale Displays und moderne Digital-Signage-Lösungen für Restaurants, Hotels, Unternehmen, Retail und Events in der Schweiz.",
+    "Digital Signage schweizweit geliefert, installiert und betreut – Lösungen für Gastronomie, Hotellerie, Retail, Unternehmen und Events. Persönlicher Service, transparente Preise.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "website",
     locale: "de_CH",
     url: PAGE_URL,
     siteName: "Meister Signage",
-    title: "Digital Signage Schweiz | Meister Signage",
+    title: "Digital Signage schweizweit – Lösungen für jede Branche | Meister Signage",
     description:
-      "Digitale Displays und moderne Digital-Signage-Lösungen für Restaurants, Hotels, Unternehmen, Retail und Events in der Schweiz.",
+      "Digital Signage schweizweit geliefert, installiert und betreut – Lösungen für Gastronomie, Hotellerie, Retail, Unternehmen und Events. Persönlicher Service, transparente Preise.",
     images: [
       {
         url: `${SITE_URL}/og/meister-signage-og.png`,
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Digital Signage Schweiz | Meister Signage",
+    title: "Digital Signage schweizweit – Lösungen für jede Branche | Meister Signage",
     description:
-      "Digitale Displays und moderne Digital-Signage-Lösungen für Restaurants, Hotels, Unternehmen, Retail und Events in der Schweiz.",
+      "Digital Signage schweizweit geliefert, installiert und betreut – Lösungen für Gastronomie, Hotellerie, Retail, Unternehmen und Events. Persönlicher Service, transparente Preise.",
   },
 };
 

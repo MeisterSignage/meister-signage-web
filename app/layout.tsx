@@ -13,6 +13,7 @@ import { websiteSchema } from "@/lib/schema/website";
 import { personSchema } from "@/lib/schema/person";
 import { SITE_INDEXABLE } from "@/lib/seo-config";
 import CookieConsent from "@/components/CookieConsent";
+import ConversionTracking from "@/components/ConversionTracking";
 
 const lato = Lato({
   subsets: ["latin"],
@@ -121,6 +122,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Footer />
           <FloatingSocials />
           <CookieConsent />
+          <ConversionTracking />
         </MotionProvider>
       </body>
     </html>

@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 import { SITE_INDEXABLE } from "@/lib/seo-config";
-import { getAllBranchenSlugs, getAllLoesungenSlugs, getAllStaedteSlugs } from "@/lib/landingpages";
+import { getAllBranchenSlugs, getAllLoesungenSlugs, getAllStaedteSlugs, getStaedtePage } from "@/lib/landingpages";
 import { getAllWissenSlugs } from "@/lib/wissen";
 import { getPublishedPosts } from "@/lib/news";
 
@@ -26,11 +26,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "/was-kostet-digital-signage-schweiz", priority: 0.8, cf: "monthly", date: "2026-05-18" },
     { url: "/digital-signage-wie-red-bull",       priority: 0.7, cf: "monthly", date: "2026-06-15" },
     { url: "/digital-signage-anbieter-vergleich", priority: 0.8, cf: "monthly", date: "2026-05-27" },
+    /* /preise: noch nicht öffentlich — zum Go-live hier eintragen. */
 
     /* Overviews */
     { url: "/branchen",                           priority: 0.8, cf: "monthly", date: "2026-05-18" },
     { url: "/loesungen",                          priority: 0.8, cf: "monthly", date: "2026-05-18" },
     { url: "/loesungen/displays",                 priority: 0.8, cf: "monthly", date: "2026-06-14" },
+    { url: "/erste-schritte",                     priority: 0.6, cf: "monthly", date: "2026-07-11" },
     { url: "/wissen",                             priority: 0.7, cf: "monthly", date: "2026-05-18" },
 
     /* Editorial / company */
@@ -60,12 +62,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       cf: "monthly" as const,
       date: "2026-05-15",
     })),
-    ...getAllStaedteSlugs().map((slug): Entry => ({
-      url: `/staedte/${slug}`,
-      priority: 0.9,
-      cf: "monthly" as const,
-      date: "2026-05-15",
-    })),
+    // noindex-Städte (schwache Template-Seiten) NICHT in die Sitemap aufnehmen
+    ...getAllStaedteSlugs()
+      .filter((slug) => (getStaedtePage(slug) as { noindex?: boolean } | null)?.noindex !== true)
+      .map((slug): Entry => ({
+        url: `/staedte/${slug}`,
+        priority: 0.9,
+        cf: "monthly" as const,
+        date: "2026-05-15",
+      })),
     ...getAllWissenSlugs().map((slug): Entry => ({
       url: `/wissen/${slug}`,
       priority: 0.7,

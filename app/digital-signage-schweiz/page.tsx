@@ -203,7 +203,7 @@ export default function DigitalSignageSchweizPage() {
                 color: "#f3f4f6",
               }}
             >
-              Digital Signage Lösungen für moderne Räume.
+              Digital Signage für die ganze Schweiz — Lösungen für jede Branche.
             </h1>
             <p
               className="mb-8 max-w-[520px] leading-relaxed"
