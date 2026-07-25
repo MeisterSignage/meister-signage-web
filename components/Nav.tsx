@@ -32,6 +32,8 @@ const navItems: NavItem[] = [
           { label: "Menüboards",              href: "/loesungen/digitale-menueboards",    desc: "Für Gastronomie & Retail" },
           { label: "Stretched Bar Display",   href: "/loesungen/stretched-display",       desc: "Ultrabreites Langformat" },
           { label: "Transparentes Display",   href: "/loesungen/transparentes-display",   desc: "Schaufenster & Vitrine" },
+          { label: "High-Brightness-Display", href: "/loesungen/high-brightness-display", desc: "Hohe Helligkeit für Sonne & Outdoor" },
+          { label: "Digitale Raumbeschilderung", href: "/loesungen/digitale-raumbeschilderung", desc: "Türschilder & Raumbelegung" },
         ],
       },
       {
@@ -42,7 +44,9 @@ const navItems: NavItem[] = [
           // { label: "Preise",               href: "/preise",                            desc: "Meister Signage Cloud – Pakete & Lizenzen" },
           { label: "Digitaler Empfang",       href: "/loesungen/digitaler-empfang",       desc: "Empfangs- und Lobbydisplays" },
           { label: "Digitale Leitsysteme",    href: "/loesungen/digitale-leitsysteme",    desc: "Besucherführung & Wegweisung" },
+          { label: "Digitale Infostele",      href: "/loesungen/digitale-infostele",      desc: "Info-Stele für öffentliche Räume" },
           { label: "Interaktive Terminals",   href: "/loesungen/interaktive-terminals-kiosks", desc: "Touch, Kiosk & Self-Service" },
+          { label: "Schaufensterwerbung",     href: "/loesungen/digitale-schaufensterwerbung", desc: "Werbung im Schaufenster, 24/7" },
         ],
       },
     ],
