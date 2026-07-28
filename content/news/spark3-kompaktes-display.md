@@ -6,7 +6,7 @@ date: "2026-07-28T06:00:00+02:00"
 category: "Produkte"
 image: "/images/products/Spark3-Design.webp"
 slug: "spark3-kompaktes-display"
-status: scheduled
+status: published
 carousel:
   hook: "Grosser Bildschirm für eine kleine Theke?"
   hookSub: "Oft Overkill – 32 Zoll reichen, wenn die Qualität stimmt."
