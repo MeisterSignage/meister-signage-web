@@ -6,7 +6,7 @@ date: "2026-08-04T06:00:00+02:00"
 category: "Produkte"
 image: "/images/products/SparkQ-Design.webp"
 slug: "sparkq-quadratisches-display"
-status: scheduled
+status: published
 carousel:
   hook: "Standard-Bildschirm im Querformat – schon wieder?"
   hookSub: "Nicht jeder Inhalt und nicht jeder Raum passt ins 16:9-Raster."
