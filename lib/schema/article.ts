@@ -16,12 +16,13 @@ export function articleSchema({
   datePublished,
   dateModified,
   imageUrl,
-  authorName = "Chris Meister",
+  authorName = "Christopher Meister",
   category,
 }: ArticleSchemaInput) {
   return {
     "@context": "https://schema.org",
     "@type": "Article",
+    "@id": `${url}#article`,
     headline: title,
     description,
     url,
@@ -38,12 +39,7 @@ export function articleSchema({
     },
     publisher: {
       "@type": "Organization",
-      name: "Meister Signage",
-      url: "https://www.meister-signage.ch",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://www.meister-signage.ch/logo.svg",
-      },
+      "@id": "https://www.meister-signage.ch/#organization",
     },
     articleSection: category || undefined,
     keywords: category

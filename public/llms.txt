@@ -1,39 +1,52 @@
 # Meister Signage
 
-> Schlüsselfertige Digital-Signage-Lösungen für Gastronomie, Hotellerie, Retail und
-> Unternehmen in der Zentralschweiz. Planung, Installation und Support aus einer Hand.
+> Schlüsselfertige Digital-Signage-Lösungen für Schweizer KMU: Displays, Software, Installation und persönliche Betreuung aus einer Hand.
 
 ## Grundlagen
 
-- [Was ist Digital Signage?](https://www.meister-signage.ch/wissen/was-ist-digital-signage): Definition, Funktionsweise und Einsatzgebiete von Digital Signage.
-- [Kosten Digital Signage Schweiz](https://www.meister-signage.ch/was-kostet-digital-signage-schweiz): Kaufpreise ab CHF 1'299, Mietpakete ab CHF 129/Monat.
-- [Digital Signage wie Red Bull](https://www.meister-signage.ch/digital-signage-wie-red-bull): Erfolgsgeschichte – über 20 % mehr Umsatz am Verkaufspunkt durch Digital Signage statt gedruckter Plakate.
+- [Was ist Digital Signage?](https://www.meister-signage.ch/wissen/was-ist-digital-signage/): Definition, Systembestandteile, Kostenrahmen und Einsatzgebiete von Digital Signage.
+- [Kosten Digital Signage Schweiz](https://www.meister-signage.ch/was-kostet-digital-signage-schweiz/): Transparente Kauf-, Miet-, Software- und Einrichtungskosten sowie wichtige Kostenfaktoren.
+- [Mieten oder kaufen?](https://www.meister-signage.ch/wissen/digital-signage-mieten-oder-kaufen/): Entscheidungshilfe für temporäre, testweise und dauerhafte Einsätze.
 
 ## Lösungen
 
-- [Alle Displays im Überblick](https://www.meister-signage.ch/loesungen/displays): Alle Display-Typen – Indoor, LED Wall, Stretched Bar, transparent, doppelseitig, High-Brightness, mobil und Infostele.
-- [Digital Signage kaufen](https://www.meister-signage.ch/digital-signage-kaufen): Spark-Sortiment (32"–50", Full HD und 4K UHD), Preise und schlüsselfertige Installation.
-- [Digital Signage mieten](https://www.meister-signage.ch/digital-signage-mieten): Mietpakete ab CHF 129/Monat für Events, Pop-ups und saisonale Einsätze.
-- [Digital Signage Software](https://www.meister-signage.ch/loesungen/software): Zentrale Plattform im Browser – Playlists, Zeitpläne, mehrere Standorte, Fernsteuerung und Apps.
-- [Stretched Bar Display](https://www.meister-signage.ch/loesungen/stretched-display): Ultrabreite Langformat-Displays für Regalkanten, Schaufenster-Bänder und Theken (Kauf).
-- [Transparentes Display](https://www.meister-signage.ch/loesungen/transparentes-display): Durchsichtige Displays für Schaufenster, Vitrinen und Showrooms (Kauf).
+- [Alle Displays im Überblick](https://www.meister-signage.ch/loesungen/displays/): Display-Typen für Innenräume, Schaufenster, Empfang, Gastronomie, Events und Besucherinformation.
+- [Digital Signage kaufen](https://www.meister-signage.ch/digital-signage-kaufen/): Spark-Sortiment mit Grössen, Spezifikationen, Preisen und schlüsselfertiger Installation.
+- [Digital Signage mieten](https://www.meister-signage.ch/digital-signage-mieten/): Mietmodelle für Events, Pop-ups, saisonale Einsätze und Tests vor einer Kaufentscheidung.
+- [Digital Signage Software](https://www.meister-signage.ch/loesungen/software/): Zentrale Plattform für Playlists, Zeitpläne, mehrere Standorte und Fernsteuerung.
+- [Stretched Bar Display](https://www.meister-signage.ch/loesungen/stretched-display/): Ultrabreite Langformat-Displays für Regalkanten, Schaufensterbänder und Theken.
+- [Transparentes Display](https://www.meister-signage.ch/loesungen/transparentes-display/): Durchsichtige Displays für Schaufenster, Vitrinen und Showrooms.
 
 ## Branchen
 
-- [Gastronomie](https://www.meister-signage.ch/branchen/gastronomie): Digitale Menüboards für Restaurants, Cafés und Bäckereien.
-- [Gesundheit & Praxis](https://www.meister-signage.ch/branchen/gesundheit): Displays für Wartezimmer, Empfang und Apotheke – datenschutzfreundlich (revDSG).
-- [Retail & Handel](https://www.meister-signage.ch/branchen/retail): Point-of-Sale-Displays für Schaufenster und Verkaufsflächen.
-- [Events & Messen](https://www.meister-signage.ch/branchen/events): Wayfinding, Agenda-Displays und Sponsorenpräsentation.
-- [Hotellerie](https://www.meister-signage.ch/branchen/hotellerie): Lobby- und Empfangsdisplays für Gästeinformation.
+- [Gastronomie](https://www.meister-signage.ch/branchen/gastronomie/): Digitale Menüboards für Restaurants, Cafés und Bäckereien.
+- [Gesundheit & Praxis](https://www.meister-signage.ch/branchen/gesundheit/): Displays für Wartezimmer, Empfang und Apotheken.
+- [Retail & Handel](https://www.meister-signage.ch/branchen/retail/): Point-of-Sale-Displays für Schaufenster und Verkaufsflächen.
+- [Events & Messen](https://www.meister-signage.ch/branchen/events/): Besucherführung, Agenda-Displays und Sponsorenpräsentation.
+- [Hotellerie](https://www.meister-signage.ch/branchen/hotellerie/): Lobby- und Empfangsdisplays für Gästeinformation.
 
 ## Wissen
 
-- [Digitale Menüboards](https://www.meister-signage.ch/wissen/digitale-menuboards): Einsatz in der Gastronomie, Funktionen und Vorteile.
-- [Mieten vs. Kaufen](https://www.meister-signage.ch/wissen/digital-signage-mieten-oder-kaufen): Entscheidungshilfe für temporäre vs. dauerhafte Einsätze.
-- [Digital Signage Software](https://www.meister-signage.ch/wissen/digital-signage-software): Cloud-CMS, Zeitplanung, Fernzugriff.
+- [Digitale Menüboards](https://www.meister-signage.ch/wissen/digitale-menueboards/): Einsatz in der Gastronomie, Funktionen und Auswahlkriterien.
+- [Digital Signage Software](https://www.meister-signage.ch/wissen/digital-signage-software/): Cloud-CMS, Zeitplanung, Fernzugriff und Auswahlkriterien.
+- [Digital Signage und Nachhaltigkeit](https://www.meister-signage.ch/wissen/digital-signage-nachhaltigkeit/): Lebensdauer, Energie, Verpackung und Entsorgung sachlich eingeordnet.
+
+## Key Facts
+
+- Unternehmen: Meister Signage – Christopher Meister, Einzelunternehmen in Baar, Schweiz
+- Angebot: Beratung, Displays, Software, Installation, Miete, Kauf und laufende Betreuung
+- Zielgruppen: Gastronomie, Hotellerie, Retail, Unternehmen, Gesundheit sowie Events und Messen
+- Servicegebiet: Zentralschweiz und schweizweiter Projekteinsatz
 
 ## Optional
 
-- [News & Insights](https://www.meister-signage.ch/news): Branchentrends, Produktneuheiten und Projektstories.
-- [Über uns](https://www.meister-signage.ch/ueber-uns): Unternehmen, Gründer Christopher Meister, Servicegebiet Zentralschweiz.
-- [Kontakt](https://www.meister-signage.ch/kontakt): +41 76 452 66 87, info@meister-signage.ch
+- [News & Insights](https://www.meister-signage.ch/news/): Branchentrends, Produktneuheiten und Praxiswissen.
+- [Über uns](https://www.meister-signage.ch/ueber-uns/): Unternehmen, Gründer Christopher Meister, Arbeitsweise und Servicegebiet.
+- [Redaktionelle Richtlinien](https://www.meister-signage.ch/redaktionelle-richtlinien/): Regeln für Autorenschaft, Quellen, Aktualisierungen, Korrekturen und kommerzielle Transparenz.
+
+## Contact
+
+- Website: https://www.meister-signage.ch/
+- E-Mail: info@meister-signage.ch
+- Telefon: +41 76 452 66 87
+- Adresse: Chriesimatt 20, 6340 Baar, Schweiz

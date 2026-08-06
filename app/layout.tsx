@@ -8,7 +8,6 @@ import FloatingSocials from "@/components/ui/FloatingSocials";
 import JsonLd from "@/components/JsonLd";
 import MotionProvider from "@/components/MotionProvider";
 import { organizationSchema } from "@/lib/schema/organization";
-import { localBusinessSchema } from "@/lib/schema/localBusiness";
 import { websiteSchema } from "@/lib/schema/website";
 import { personSchema } from "@/lib/schema/person";
 import { SITE_INDEXABLE } from "@/lib/seo-config";
@@ -108,9 +107,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="de-CH" className={lato.variable}>
       <head>
-        {/* Global structured data — Organization, LocalBusiness, WebSite */}
+        {/* Global structured data — one canonical business entity, WebSite, Person */}
         <JsonLd schema={organizationSchema as Record<string, unknown>} />
-        <JsonLd schema={localBusinessSchema as Record<string, unknown>} />
         <JsonLd schema={websiteSchema as Record<string, unknown>} />
         <JsonLd schema={personSchema as Record<string, unknown>} />
       </head>

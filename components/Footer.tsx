@@ -247,6 +247,13 @@ export default function Footer() {
             >
               Versand & Rückgabe
             </Link>
+            <Link
+              href="/redaktionelle-richtlinien/"
+              className="text-[12px] transition-colors duration-150 hover:!text-white"
+              style={{ color: "#d1d5db" }}
+            >
+              Redaktion
+            </Link>
           </div>
           <span className="text-[11px] tracking-wide" style={{ color: "#9ca3af" }}>
             Made with care in Switzerland.

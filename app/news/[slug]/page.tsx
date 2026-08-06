@@ -13,6 +13,7 @@ import JsonLd from "@/components/JsonLd";
 import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
 import { articleSchema } from "@/lib/schema/article";
 import CTASection from "@/components/sections/CTASection";
+import ArticleAuthor from "@/components/ArticleAuthor";
 
 const SITE_URL = "https://www.meister-signage.ch";
 
@@ -69,7 +70,7 @@ export default async function NewsDetailPage({
   const post = getPostBySlug(slug);
   if (!post) notFound();
 
-  const pageUrl = `${SITE_URL}/news/${post.slug}`;
+  const pageUrl = `${SITE_URL}/news/${post.slug}/`;
   const ogImage = post.image
     ? `${SITE_URL}${post.image}`
     : `${SITE_URL}/og/meister-signage-og.png`;
@@ -170,6 +171,8 @@ export default async function NewsDetailPage({
           />
         </div>
       </article>
+
+      <ArticleAuthor />
 
       {/* CTA */}
       <CTASection

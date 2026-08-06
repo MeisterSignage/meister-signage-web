@@ -32,13 +32,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "/branchen",                           priority: 0.8, cf: "monthly", date: "2026-05-18" },
     { url: "/loesungen",                          priority: 0.8, cf: "monthly", date: "2026-05-18" },
     { url: "/loesungen/displays",                 priority: 0.8, cf: "monthly", date: "2026-06-14" },
-    { url: "/erste-schritte",                     priority: 0.6, cf: "monthly", date: "2026-07-11" },
     { url: "/wissen",                             priority: 0.7, cf: "monthly", date: "2026-05-18" },
 
     /* Editorial / company */
     { url: "/news",                               priority: 0.7, cf: "weekly",  date: "2026-05-18" },
     { url: "/ueber-uns",                          priority: 0.6, cf: "yearly",  date: "2026-05-18" },
     { url: "/kontakt",                            priority: 0.8, cf: "yearly",  date: "2026-05-18" },
+    { url: "/redaktionelle-richtlinien",          priority: 0.3, cf: "yearly",  date: "2026-08-06" },
 
     /* Legal */
     { url: "/datenschutz",                        priority: 0.3, cf: "yearly",  date: "2026-05-01" },

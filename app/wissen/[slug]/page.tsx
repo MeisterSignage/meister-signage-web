@@ -22,7 +22,7 @@ export async function generateMetadata({
   const page = getWissenPage(slug);
   if (!page) return {};
 
-  const url = `${SITE_URL}/wissen/${slug}`;
+  const url = `${SITE_URL}/wissen/${slug}/`;
   return {
     title: { absolute: page.seoTitle },
     description: page.seoDescription,

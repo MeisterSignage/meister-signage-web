@@ -9,6 +9,7 @@ import { viewport, easeOut, staggerContainer, staggerItem } from "@/lib/motion";
 import ContactSection from "@/components/sections/ContactSection";
 import InternalLinksSection from "@/components/sections/InternalLinksSection";
 import type { WissenPage } from "@/lib/wissen-types";
+import ArticleAuthor from "@/components/ArticleAuthor";
 
 /** Format an ISO date as German month + year, e.g. "Mai 2026" */
 function formatMonthYearDE(iso: string): string {
@@ -343,6 +344,10 @@ export default function WissenPageContent({ page }: { page: WissenPage }) {
           </div>
         </section>
       )}
+
+      <section className="w-full bg-white">
+        <ArticleAuthor />
+      </section>
 
       {/* ── 7. INTERNAL LINKS ───────────────────────────────────────────── */}
       {page.internalLinks.length > 0 && (

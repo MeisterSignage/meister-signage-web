@@ -2,7 +2,7 @@ const BASE = "https://www.meister-signage.ch";
 
 export const organizationSchema = {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": ["Organization", "ProfessionalService"],
   "@id": `${BASE}/#organization`,
   name: "Meister Signage",
   legalName: "Meister Signage",
@@ -26,6 +26,11 @@ export const organizationSchema = {
     postalCode: "6340",
     addressCountry: "CH",
   },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 47.1928,
+    longitude: 8.5295,
+  },
   areaServed: [
     { "@type": "Country", name: "Schweiz" },
     { "@type": "AdministrativeArea", name: "Zentralschweiz" },
@@ -48,6 +53,14 @@ export const organizationSchema = {
       availableLanguage: ["de", "en"],
     },
   ],
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "08:00",
+      closes: "18:00",
+    },
+  ],
   knowsAbout: [
     "Digital Signage",
     "Digital-Signage-Displays",
@@ -58,13 +71,12 @@ export const organizationSchema = {
     "Empfangsdisplays",
     "Event-Displays",
   ],
-  foundingDate: "2015",
   founder: {
     "@type": "Person",
-    name: "Chris Meister",
+    "@id": `${BASE}/#person-chris-meister`,
+    name: "Christopher Meister",
   },
   sameAs: [
-    "https://www.google.com/search?kgmid=/g/11z2v5lqzr",
     "https://www.linkedin.com/company/meister-signage/",
     "https://www.instagram.com/meistersignage/",
   ],
