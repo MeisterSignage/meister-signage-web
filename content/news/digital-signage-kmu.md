@@ -6,7 +6,7 @@ date: "2026-08-11T06:00:00+02:00"
 category: "Tipps"
 image: "/images/products/Unternehmen-Empfang.webp"
 slug: "digital-signage-kmu"
-status: scheduled
+status: published
 carousel:
   hook: "Denken Sie, Digital Signage lohnt sich nur für grosse Ketten?"
   hookSub: "Zu teuer, zu kompliziert, zu viel Aufwand – die häufigsten Irrtümer."
