@@ -79,10 +79,10 @@ Das geht mit Plakaten schlicht nicht – ausser man stellt jemanden ein, der jed
 
 Für Schaufenster­einsatz im Retail haben wir eine eigene Lösungs­seite: [Digitale Schaufensterwerbung](/loesungen/digitale-schaufensterwerbung/). Die wichtigsten Eigenschaften:
 
-- **Mindestens 450 nits Helligkeit** – sonst wirkt das Display tagsüber ausgewaschen
-- **24/7-Dauer­betrieb spezifiziert** – damit es auch nach Laden­schluss läuft
-- **Mindestens 43 Zoll** – damit Passanten es aus 4–5 m Distanz wahrnehmen
-- **Bautiefe ≤ 20 mm** – damit es im Schaufenster nicht klobig wirkt
+- Mindestens 450 nits Helligkeit – sonst wirkt das Display tagsüber ausgewaschen
+- 24/7-Dauer­betrieb spezifiziert – damit es auch nach Laden­schluss läuft
+- Mindestens 43 Zoll – damit Passanten es aus 4–5 m Distanz wahrnehmen
+- Bautiefe ≤ 20 mm – damit es im Schaufenster nicht klobig wirkt
 
 Die Spark-Reihe erfüllt alle vier Punkte – mit nur 15.5 mm Tiefe. Detaillierter Vergleich auf der [Anbieter-Vergleichsseite](/digital-signage-anbieter-vergleich/).
 
@@ -94,10 +94,10 @@ Wer 3, 5 oder 20 Filialen betreibt, gewinnt zusätzliche Vorteile durch zentrale
 
 Aus unseren Retail-Projekten:
 
-- **Schaufenster:** [Spark 5 (50")](/news/spark5-neues-modell/) für maximale Sichtbarkeit
-- **Eingangs­bereich:** [Spark 4 (43")](/digital-signage-kaufen/) als Bestseller
-- **Theke/Kassen­bereich:** [Spark 3 (32")](/digital-signage-kaufen/) für Treue­programm und Cross-Sell
-- **Concept-Store/Design:** [Spark Q+ (33" quadratisch)](/digital-signage-kaufen/) als Eyecatcher
+- Schaufenster: [Spark 5 (50")](/news/spark5-neues-modell/) für maximale Sichtbarkeit
+- Eingangs­bereich: [Spark 4 (43")](/digital-signage-kaufen/) als Bestseller
+- Theke/Kassen­bereich: [Spark 3 (32")](/digital-signage-kaufen/) für Treue­programm und Cross-Sell
+- Concept-Store/Design: [Spark Q+ (33" quadratisch)](/digital-signage-kaufen/) als Eyecatcher
 
 ## Nächste Schritte
 

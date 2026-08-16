@@ -1,7 +1,7 @@
 ---
 title: "Spark 5: Das 50-Zoll-Display für Schaufenster und Empfangshallen"
-seoTitle: "Spark 5 – 50 Zoll 4K-Display"
-description: "Spark 5 – 50 Zoll 4K-Display, 15.5 mm Bautiefe, 24/7-Dauerbetrieb. Grösstes Display der Meister-Signage-Reihe für Schaufenster und Lobby."
+seoTitle: "50-Zoll-Display für Schaufenster & Lobby | Spark 5"
+description: "Spark 5 ist das grossflächige 50-Zoll-4K-Display für Schaufenster, Lobby und Events. 24/7-Betrieb, Media Player und Cloud-Steuerung integriert."
 date: "2026-04-22"
 category: "Produkte"
 image: "/images/products/Spark5-Design.webp"
@@ -19,7 +19,7 @@ carousel:
   cta: "Grossflächig auffallen mit Spark 5?"
 ---
 
-Das 50-Zoll-Display Spark 5 ist das grösste Modell in unserem Standard-Sortiment – ausgelegt für Einsätze, bei denen Wirkung über Distanz entscheidet, von Schaufenstern bis zu Empfangshallen. Schaufenster, Hotellobby, Konferenz­halle, Empfangs­bereich. Hier sind die technischen Details und die typischen Anwendungs­fälle, für die wir es empfehlen.
+Das 50-Zoll-Display Spark 5 ist das grösste Modell in unserem Standard-Sortiment – ausgelegt für Schaufenster, Lobby und Events, bei denen Wirkung über Distanz entscheidet. Hier sind die technischen Details und die typischen Anwendungs­fälle, für die wir es empfehlen. Kleinere Standorte und die Unterschiede zu Spark 3 und Spark 4 behandelt der [Spark-Sortiment-Vergleich](/news/spark-sortiment-vergleich/).
 
 ## Was das Spark 5 von Consumer-TVs unterscheidet
 

@@ -25,43 +25,43 @@ Die theoretische Antwort zu Mieten vs. Kaufen ist einfach: dauerhaft = Kauf, tem
 
 ## Fall 1: Quartier­bäckerei mit Lunch-Geschäft
 
-**Situation:** Bäckerei in Luzern, ein Standort, tägliche Mittags­angebote, plus saisonale Aktionen (Fastenwähen, Grittibänz, Osterhasen).
+Situation: Bäckerei in Luzern, ein Standort, tägliche Mittags­angebote, plus saisonale Aktionen (Fastenwähen, Grittibänz, Osterhasen).
 
-**Erwogen:** Spark 3 (32") hinter der Theke.
+Erwogen: Spark 3 (32") hinter der Theke.
 
-**Entscheidung:** Kauf für CHF 1.299. Begründung: Display läuft täglich von 6–18 h, Standort fix, keine Saisonalität in der Hardware – nur in den Inhalten. Lizenz CHF 180/Jahr ist vernach­lässigbar im Vergleich zur eingesparten Druckerei (vorher ca. CHF 80/Monat für Tages­karten und Aushänge).
+Entscheidung: Kauf für CHF 1.299. Begründung: Display läuft täglich von 6–18 h, Standort fix, keine Saisonalität in der Hardware – nur in den Inhalten. Lizenz CHF 180/Jahr ist vernach­lässigbar im Vergleich zur eingesparten Druckerei (vorher ca. CHF 80/Monat für Tages­karten und Aushänge).
 
-**Amortisation:** ~16 Monate.
+Amortisation: ~16 Monate.
 
 ## Fall 2: Pop-up-Store in der Zürcher Innenstadt
 
-**Situation:** Mode-Brand testet einen Pop-up-Store für 3 Monate über Weihnachten, danach Standort­wechsel oder Verlängerung offen.
+Situation: Mode-Brand testet einen Pop-up-Store für 3 Monate über Weihnachten, danach Standort­wechsel oder Verlängerung offen.
 
-**Erwogen:** Spark 5 (50") im Schaufenster für Kampagnen­videos.
+Erwogen: Spark 5 (50") im Schaufenster für Kampagnen­videos.
 
-**Entscheidung:** Miete für 3 Monate à CHF 169/Monat = CHF 507 plus einmalige Einrichtungspauschale CHF 149. Kauf­preis CHF 1.599 hätte sich erst nach >10 Monaten gerechnet. Plus: nach dem Pop-up will der Brand kein Display in seinem Berliner Headquarter lagern.
+Entscheidung: Miete für 3 Monate à CHF 169/Monat = CHF 507 plus einmalige Einrichtungspauschale CHF 149. Kauf­preis CHF 1.599 hätte sich erst nach >10 Monaten gerechnet. Plus: nach dem Pop-up will der Brand kein Display in seinem Berliner Headquarter lagern.
 
-**Empfehlung:** Lösungs­seite [Digitale Schaufensterwerbung](/loesungen/digitale-schaufensterwerbung/) für ähnliche Konstellationen.
+Empfehlung: Lösungs­seite [Digitale Schaufensterwerbung](/loesungen/digitale-schaufensterwerbung/) für ähnliche Konstellationen.
 
 ## Fall 3: Restaurant testet Digital Signage skeptisch
 
-**Situation:** Familien­geführtes Restaurant in Zug, Wirt ist gegenüber Technik skeptisch. Will erst testen, ob "das Digitale" überhaupt wirkt, bevor er CHF 1.500 investiert.
+Situation: Familien­geführtes Restaurant in Zug, Wirt ist gegenüber Technik skeptisch. Will erst testen, ob "das Digitale" überhaupt wirkt, bevor er CHF 1.500 investiert.
 
-**Erwogen:** Spark 4 (43") als Menüboard.
+Erwogen: Spark 4 (43") als Menüboard.
 
-**Entscheidung:** 6 Monate Miete à CHF 159 = CHF 954. Nach positiver Erfahrung Wechsel zum Kauf – wir rechnen einen Teil der bezahlten Mieten auf den Kaufpreis an (individuell ausgehandelt). 
+Entscheidung: 6 Monate Miete à CHF 159 = CHF 954. Nach positiver Erfahrung Wechsel zum Kauf – wir rechnen einen Teil der bezahlten Mieten auf den Kaufpreis an (individuell ausgehandelt).
 
-**Lehre:** Mieten als "risiko­freier Einstieg" funktioniert besonders, wenn Skepsis im Spiel ist. Siehe auch unsere [Mietkategorien­seite](/digital-signage-mieten/) für die Standard­modelle.
+Lehre: Mieten als "risiko­freier Einstieg" funktioniert besonders, wenn Skepsis im Spiel ist. Siehe auch unsere [Mietkategorien­seite](/digital-signage-mieten/) für die Standard­modelle.
 
 ## Fall 4: Architektur­büro mit Empfangs­display
 
-**Situation:** Mittelständisches Architektur­büro in Bern, möchte im Empfangs­bereich eigene Projekte zeigen. Display soll Jahre laufen, kein Personal mit Wechsel beauftragt sein.
+Situation: Mittelständisches Architektur­büro in Bern, möchte im Empfangs­bereich eigene Projekte zeigen. Display soll Jahre laufen, kein Personal mit Wechsel beauftragt sein.
 
-**Erwogen:** Spark Q+ (33" quadratisch) – passt zum design­orientierten Anspruch des Büros.
+Erwogen: Spark Q+ (33" quadratisch) – passt zum design­orientierten Anspruch des Büros.
 
-**Entscheidung:** Kauf für CHF 1.699. Begründung: Dauerhafter Einsatz, Wert­anlage im Büroraum, Architektur­büro will kein laufender Mietvertrag. Lizenz CHF 180/Jahr trägt der Geschäfts­führer als Marketing-Position.
+Entscheidung: Kauf für CHF 1.699. Begründung: Dauerhafter Einsatz, Wert­anlage im Büroraum, Architektur­büro will kein laufender Mietvertrag. Lizenz CHF 180/Jahr trägt der Geschäfts­führer als Marketing-Position.
 
-**Amortisation:** schwer in CHF zu beziffern, aber Eindruck bei Kunden­besuchen klar messbar (qualitatives Feedback).
+Amortisation: schwer in CHF zu beziffern, aber Eindruck bei Kunden­besuchen klar messbar (qualitatives Feedback).
 
 ## Fall 5: Eventagentur mit 8 wechselnden Standorten pro Jahr
 

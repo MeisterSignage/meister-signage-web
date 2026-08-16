@@ -61,8 +61,8 @@ Eine realistische Kalkulation für ein Hotel mit einem Display im Empfangs­bere
 | Einrichtung + Schulung | CHF 149 einmalig | im Mietpreis |
 | Software-Lizenz | CHF 180/Jahr | im Mietpreis |
 | Mietpreis | – | ab CHF 159/Mo. |
-| **Jahr 1 total** | **CHF 1.828** | **ab CHF 1.668** |
-| **Jahr 2+ jährlich** | **CHF 180** | **ab CHF 1.668** |
+| Jahr 1 total | CHF 1.828 | ab CHF 1.668 |
+| Jahr 2+ jährlich | CHF 180 | ab CHF 1.668 |
 
 Für dauerhaften Einsatz ist Kauf nach 2 Jahren günstiger. Ein Vergleich mit anderen Konstellationen findet sich in [Mieten oder Kaufen: 5 KMU-Fälle](/news/digital-signage-mieten-oder-kaufen/).
 
@@ -70,10 +70,10 @@ Für dauerhaften Einsatz ist Kauf nach 2 Jahren günstiger. Ein Vergleich mit an
 
 Im Boutique-Hotel-Empfang sind drei technische Anforderungen wichtig, die nicht alle Displays erfüllen:
 
-- **Hochformat-fähig:** Empfangs­bereiche sind oft schmaler als breiter
-- **Flach (≤ 20 mm):** Wirkt wie ein gerahmtes Bild, nicht wie ein Bildschirm. Die Spark-Reihe baut nur 15.5 mm tief, mehr Details auf der [Vergleichs­seite](/digital-signage-anbieter-vergleich/)
-- **Vollständig kabellos:** Keine sichtbaren HDMI- oder Ethernet-Kabel an der Rezeption
-- **Mehrsprachen-fähig in der Software:** automatische Rotation, nicht nur manueller Wechsel
+- Hochformat-fähig: Empfangs­bereiche sind oft schmaler als breiter
+- Flach (≤ 20 mm): Wirkt wie ein gerahmtes Bild, nicht wie ein Bildschirm. Die Spark-Reihe baut nur 15.5 mm tief, mehr Details auf der [Vergleichs­seite](/digital-signage-anbieter-vergleich/)
+- Vollständig kabellos: Keine sichtbaren HDMI- oder Ethernet-Kabel an der Rezeption
+- Mehrsprachen-fähig in der Software: automatische Rotation, nicht nur manueller Wechsel
 
 ## Welche Spark-Grösse passt
 

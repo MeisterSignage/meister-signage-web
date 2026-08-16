@@ -69,7 +69,7 @@ Für Restaurants mit festem Standort empfehlen wir meist den Kauf, da sich die I
 
 Wer wissen will, was eine Lösung für den eigenen Betrieb kostet, schickt am besten kurz drei Infos: **Lokal­grösse, Anzahl Bildschirme, Einsatz­ort** (Theke / Schaufenster / Lobby). Wir antworten persönlich innert 24 h mit einer transparenten Einschätzung.
 
-- Branchen­seite mit Anwendungs­beispielen: [Digital Signage in der Gastronomie](/branchen/gastronomie/)
+- Branchen­seite mit Anwendungs­beispielen: [Menüboards für Gastronomie und Cafés](/branchen/gastronomie/)
 - Spezial­lösung für Menüboards: [Digitale Menüboards](/loesungen/digitale-menueboards/)
 - Vergleich mit Schweizer Mitbewerbern: [Anbieter im Vergleich](/digital-signage-anbieter-vergleich/)
 - Direkter Kontakt: [Beratung anfragen](/kontakt/)

@@ -25,35 +25,35 @@ Eine Hardware ab CHF 999 klingt verlockend – bis die monatliche Lizenz, das In
 
 ## 1. Lizenzgebühren beim Kauf
 
-**Typisches Missverständnis:** "Hardware gekauft = fertig." 
+Typisches Missverständnis: "Hardware gekauft = fertig."
 
-**Realität:** Bei den meisten Digital-Signage-Anbietern läuft die Inhalts­steuerung über eine Cloud-Software, die separat lizenziert werden muss. Übliche Lizenz­kosten: CHF 180–600 pro Jahr und Display. Bei 3 Displays sind das CHF 540–1.800 pro Jahr.
+Realität: Bei den meisten Digital-Signage-Anbietern läuft die Inhalts­steuerung über eine Cloud-Software, die separat lizenziert werden muss. Übliche Lizenz­kosten: CHF 180–600 pro Jahr und Display. Bei 3 Displays sind das CHF 540–1.800 pro Jahr.
 
-**Worauf achten:** Im Erstangebot explizit nach "monatlicher Lizenz" oder "Cloud-Gebühr" fragen. Bei uns: ab CHF 180/Jahr im Kauf, im Mietpreis ab CHF 149 inklusive.
+Worauf achten: Im Erstangebot explizit nach "monatlicher Lizenz" oder "Cloud-Gebühr" fragen. Bei uns: ab CHF 180/Jahr im Kauf, im Mietpreis ab CHF 149 inklusive.
 
 ## 2. Einrichtungs­pauschale
 
-**Typisches Missverständnis:** "Plug & Play – einfach einstecken."
+Typisches Missverständnis: "Plug & Play – einfach einstecken."
 
-**Realität:** Der erste Inhalt­satz, die Cloud-Anmeldung, die Schulung und die Test­phase brauchen Zeit. Branchen­übliche Einrichtungs­pauschalen liegen bei CHF 200–800 pro Projekt – je nach Aufwand. Bei uns ist die Standard-Einrichtung CHF 149 pro Display.
+Realität: Der erste Inhalt­satz, die Cloud-Anmeldung, die Schulung und die Test­phase brauchen Zeit. Branchen­übliche Einrichtungs­pauschalen liegen bei CHF 200–800 pro Projekt – je nach Aufwand. Bei uns ist die Standard-Einrichtung CHF 149 pro Display.
 
-**Worauf achten:** Ob "Setup", "Onboarding" oder "Schulung" im Erstangebot aufgeführt sind.
+Worauf achten: Ob "Setup", "Onboarding" oder "Schulung" im Erstangebot aufgeführt sind.
 
 ## 3. Versand und Installation
 
-**Typisches Missverständnis:** "Lieferkosten? Marginal."
+Typisches Missverständnis: "Lieferkosten? Marginal."
 
-**Realität:** Ein 50-Zoll-Display ist sperrig (47×30×4 Zoll Verpackung, 17.5 kg). Schweizer Spedition: CHF 80–200. Wer eine Vor-Ort-Installation will (Wand­halterung, Stromzuleitung), zahlt typisch CHF 200–600 pro Display. Bei uns transparent ausgewiesen, oft persönlich begleitet aus der Zentralschweiz – die [Versand- und Rückgabeseite](/versand-und-rueckgabe/) zeigt alle Konditionen.
+Realität: Ein 50-Zoll-Display ist sperrig (47×30×4 Zoll Verpackung, 17.5 kg). Schweizer Spedition: CHF 80–200. Wer eine Vor-Ort-Installation will (Wand­halterung, Stromzuleitung), zahlt typisch CHF 200–600 pro Display. Bei uns transparent ausgewiesen, oft persönlich begleitet aus der Zentralschweiz – die [Versand- und Rückgabeseite](/versand-und-rueckgabe/) zeigt alle Konditionen.
 
-**Worauf achten:** Im Angebot explizit "Lieferung CH" und "Installation" als separate Posten verlangen.
+Worauf achten: Im Angebot explizit "Lieferung CH" und "Installation" als separate Posten verlangen.
 
 ## 4. Inhalts-Erstellung und Content-Pflege
 
-**Typisches Missverständnis:** "Inhalte mache ich selbst."
+Typisches Missverständnis: "Inhalte mache ich selbst."
 
-**Realität:** Die meisten KMU schätzen den Inhalts­aufwand massiv: Tages­menü mit Foto, saisonale Aktion mit Branding, mehrsprachige Versionen – das sind je nach Komplexität 30 Min bis 3 h pro Inhalt. Wer das auslagert, zahlt CHF 50–150 pro Inhalts­set.
+Realität: Die meisten KMU schätzen den Inhalts­aufwand massiv: Tages­menü mit Foto, saisonale Aktion mit Branding, mehrsprachige Versionen – das sind je nach Komplexität 30 Min bis 3 h pro Inhalt. Wer das auslagert, zahlt CHF 50–150 pro Inhalts­set.
 
-**Worauf achten:** Vor dem Kauf realistisch einschätzen, ob jemand im Betrieb die Inhalte tatsächlich macht – oder ob Content-Pflege dazugebucht werden muss.
+Worauf achten: Vor dem Kauf realistisch einschätzen, ob jemand im Betrieb die Inhalte tatsächlich macht – oder ob Content-Pflege dazugebucht werden muss.
 
 ## 5. Rück­bau und Entsorgung
 

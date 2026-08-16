@@ -25,20 +25,20 @@ Vier Modelle, vier Stärken. Das Spark-Sortiment von Meister Signage deckt die h
 
 | | Spark 3 | Spark 4 | Spark 5 | Spark Q+ |
 |---|---|---|---|---|
-| **Grösse** | 32 Zoll | 43 Zoll | 50 Zoll | 33 Zoll |
-| **Format** | 16:9 | 16:9 | 16:9 | 1:1 (Quadrat) |
-| **Auflösung** | Full HD (1920×1080) | 4K UHD (3840×2160) | 4K UHD (3840×2160) | 1920×1920 |
-| **Helligkeit** | 450 nits | 450 nits | 450 nits | 450 nits |
-| **Bautiefe** | 15.5 mm | 15.5 mm | 15.5 mm | 15.5 mm |
-| **Bezel (Rahmen)** | 13.5 mm | 13.5 mm | 13.5 mm | 13.5 mm |
-| **Gewicht** | 5.5 kg | 9.5 kg | 13 kg | 7 kg |
-| **Stromverbrauch (typ.)** | 36 W | 63 W | 81 W | 53 W |
-| **Standby** | 0.8 W | 0.8 W | 0.8 W | 0.8 W |
-| **Konnektivität** | WiFi6 + BT 5.2 | WiFi6 + BT 5.2 | WiFi6 + BT 5.2 | WiFi6 + BT 5.2 |
-| **Dauer­betrieb** | 24/7 | 24/7 | 24/7 | 24/7 |
-| **Kauf ab** | CHF 1.299 | CHF 1.499 | CHF 1.599 | CHF 1.699 |
-| **Miete ab** | CHF 149 | CHF 159 | CHF 169 | CHF 179 |
-| **Charakter** | Kompakt | Vielseitig | Grossflächig | Kreativ |
+| Grösse | 32 Zoll | 43 Zoll | 50 Zoll | 33 Zoll |
+| Format | 16:9 | 16:9 | 16:9 | 1:1 (Quadrat) |
+| Auflösung | Full HD (1920×1080) | 4K UHD (3840×2160) | 4K UHD (3840×2160) | 1920×1920 |
+| Helligkeit | 450 nits | 450 nits | 450 nits | 450 nits |
+| Bautiefe | 15.5 mm | 15.5 mm | 15.5 mm | 15.5 mm |
+| Bezel (Rahmen) | 13.5 mm | 13.5 mm | 13.5 mm | 13.5 mm |
+| Gewicht | 5.5 kg | 9.5 kg | 13 kg | 7 kg |
+| Stromverbrauch (typ.) | 36 W | 63 W | 81 W | 53 W |
+| Standby | 0.8 W | 0.8 W | 0.8 W | 0.8 W |
+| Konnektivität | WiFi6 + BT 5.2 | WiFi6 + BT 5.2 | WiFi6 + BT 5.2 | WiFi6 + BT 5.2 |
+| Dauer­betrieb | 24/7 | 24/7 | 24/7 | 24/7 |
+| Kauf ab | CHF 1.299 | CHF 1.499 | CHF 1.599 | CHF 1.699 |
+| Miete ab | CHF 149 | CHF 159 | CHF 169 | CHF 179 |
+| Charakter | Kompakt | Vielseitig | Grossflächig | Kreativ |
 
 Alle Modelle: eingebauter Media Player, Datenverbindung 100 % wireless (keine HDMI-/USB-/Ethernet-Ports), Strom­versorgung über externes 120-W-Netzteil mit 24 V DC am Display (GS- und TÜV-zertifiziert, Effizienz-Klasse VI).
 
