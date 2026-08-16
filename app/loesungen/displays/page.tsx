@@ -55,7 +55,7 @@ export default function DisplaysOverviewPage() {
       <OverviewPage
         eyebrow="Displays"
         title="Digital Signage Displays – das passende für jeden Einsatz."
-        intro="Welcher Display-Typ passt zu Ihrem Vorhaben? Hier finden Sie alle Digital-Signage-Displays im Überblick – vom klassischen Indoor-Bildschirm über grossflächige LED Walls und ultrabreite Stretched Bars bis zu transparenten, doppelseitigen, hellen und mobilen Lösungen. Jeder Typ ist auf Einsatzort, Sichtbarkeit und Budget abgestimmt. Persönliche Beratung, Schweizer Service und Hardware für den 24/7-Betrieb – als Kauf oder, bei den Spark-Displays, auch zur Miete."
+        intro="Welcher Display-Typ passt zu Ihrem Vorhaben? Hier finden Sie alle Digital-Signage-Displays im Überblick – vom klassischen Indoor-Bildschirm über grossflächige LED Walls und ultrabreite Stretched Bars bis zu transparenten, doppelseitigen, hellen und mobilen Lösungen. Jeder Typ ist auf Einsatzort, Sichtbarkeit und Budget abgestimmt. Persönliche Beratung, Schweizer Service und Hardware für den 24/7-Betrieb – als Kauf oder, bei den Spark-Displays, auch zur Miete. Entscheidend sind Betrachtungsabstand, Umgebungslicht, Montageart und die Frage, wie häufig Inhalte wechseln. Wir vergleichen diese Faktoren gemeinsam, empfehlen eine passende Grösse und berücksichtigen Stromversorgung, Netzwerk und Bedienung schon in der Planung. So entsteht keine isolierte Bildschirmanschaffung, sondern eine betriebsbereite Lösung, die sich im Alltag zuverlässig aktualisieren lässt und später um weitere Standorte ergänzt werden kann."
         heroImage="/images/products/Loesungen-Meister-Signage.webp"
         groups={[
           {

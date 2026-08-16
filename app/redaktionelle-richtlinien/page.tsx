@@ -60,6 +60,14 @@ const sections = [
     title: "AI-Unterstützung und menschliche Prüfung",
     text: "Digitale Werkzeuge können bei Recherche, Strukturierung und sprachlicher Überarbeitung unterstützen. Veröffentlichte Fachinhalte bleiben redaktionell verantwortet und werden vor der Veröffentlichung auf Verständlichkeit, sachliche Plausibilität und Markenkonsistenz geprüft.",
   },
+  {
+    title: "Qualitätssicherung vor der Veröffentlichung",
+    text: "Vor der Freigabe werden zentrale Aussagen, technische Werte, Preise, interne Links und Quellen kontrolliert. Zusätzlich prüfen wir, ob Überschriften und Seitentitel den tatsächlichen Inhalt korrekt beschreiben und ob Leser die wichtigsten Antworten ohne unnötige Fachsprache finden. Bei Produktvergleichen trennen wir messbare Eigenschaften von unserer praktischen Einschätzung.",
+  },
+  {
+    title: "Geltungsbereich und Überprüfung",
+    text: "Diese redaktionellen Richtlinien gelten für Wissensartikel, Branchenleitfäden, Produktvorstellungen und News von Meister Signage. Bestehende Inhalte werden regelmässig überprüft, wenn sich Produkte, Preise, technische Standards oder rechtliche Rahmenbedingungen ändern. Veraltete Beiträge werden aktualisiert, zusammengeführt oder auf die fachlich passendere Seite weitergeleitet.",
+  },
 ];
 
 export default function RedaktionelleRichtlinienPage() {

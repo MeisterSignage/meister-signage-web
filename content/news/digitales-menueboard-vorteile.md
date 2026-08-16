@@ -86,7 +86,7 @@ Aus unseren Best-Practice-Projekten:
 ## Nächste Schritte
 
 - **Branchen­fokus Gastronomie:** [/branchen/gastronomie](/branchen/gastronomie/)
-- **Trend-Artikel zu Menüboards 2026:** [Digital Signage in der Gastronomie](/news/digital-signage-gastronomie-2026/)
+- **Trend-Artikel zu Menüboards 2026:** [Menüboard-Trends 2026](/news/digital-signage-gastronomie-2026/)
 - **Spark-Sortiment im Vergleich:** [Welches Modell für meine Theke?](/news/spark-sortiment-vergleich/)
 - **Kostenübersicht:** [/was-kostet-digital-signage-schweiz](/was-kostet-digital-signage-schweiz/)
 - **Direkte Beratung:** [Kontakt aufnehmen](/kontakt/)

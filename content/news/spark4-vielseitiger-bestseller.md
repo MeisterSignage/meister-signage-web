@@ -1,7 +1,7 @@
 ---
 title: "Spark 4 – der 43-Zoll-Bestseller mit 4K"
-seoTitle: "Spark 4 – 43 Zoll 4K Bestseller"
-description: "Spark 4 – 43 Zoll 4K-Display, 15.5 mm flach, 24/7-Dauerbetrieb. Vielseitig für Schaufenster, Empfang und Menüboards. Aus der Schweiz."
+seoTitle: "43-Zoll-4K-Display für Menüboard & Empfang | Spark 4"
+description: "Spark 4 ist das vielseitige 43-Zoll-4K-Display für Menüboards, Empfang und Verkaufsflächen. 24/7-Betrieb, 15.5 mm flach und cloudgesteuert."
 date: "2026-06-09T06:00:00+02:00"
 category: "Produkte"
 image: "/images/products/Spark4-Design.webp"
@@ -19,7 +19,7 @@ carousel:
   cta: "Mit dem Bestseller starten?"
 ---
 
-43 Zoll treffen einen Sweet Spot: gross genug, um aus der Distanz zu wirken, kompakt genug für die meisten Räume. Der Spark 4 ist deshalb unser meistverkaufter 43-Zoll-Bestseller — und das aus gutem Grund. Hier die kompletten Spec-Daten und die Einsatz­bereiche, für die wir ihn empfehlen.
+43 Zoll treffen einen Sweet Spot: gross genug, um aus der Distanz zu wirken, kompakt genug für die meisten Räume. Der Spark 4 ist deshalb unser bevorzugtes 4K-Display für Menüboards und Empfangsbereiche. Hier folgen die kompletten Spec-Daten und die Einsatz­bereiche, für die wir ihn empfehlen. Die Abgrenzung zu den anderen Grössen zeigt der [Spark-Sortiment-Vergleich](/news/spark-sortiment-vergleich/).
 
 ## Warum der Spark 4 so beliebt ist
 
