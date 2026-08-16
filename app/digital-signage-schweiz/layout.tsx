@@ -4,18 +4,18 @@ const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/digital-signage-schweiz`;
 
 export const metadata: Metadata = {
-  title: { absolute: "Digital Signage schweizweit – Lösungen für jede Branche | Meister Signage" },
+  title: { absolute: "Digital Signage Schweiz – kaufen oder mieten | Meister Signage" },
   description:
-    "Digital Signage schweizweit geliefert, installiert und betreut – Lösungen für Gastronomie, Hotellerie, Retail, Unternehmen und Events. Persönlicher Service, transparente Preise.",
+    "Digital Signage in der Schweiz: Displays ab CHF 149 mieten oder ab CHF 1.299 kaufen – inklusive Software, Installation und persönlicher Betreuung.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "website",
     locale: "de_CH",
     url: PAGE_URL,
     siteName: "Meister Signage",
-    title: "Digital Signage schweizweit – Lösungen für jede Branche | Meister Signage",
+    title: "Digital Signage Schweiz – kaufen oder mieten | Meister Signage",
     description:
-      "Digital Signage schweizweit geliefert, installiert und betreut – Lösungen für Gastronomie, Hotellerie, Retail, Unternehmen und Events. Persönlicher Service, transparente Preise.",
+      "Displays ab CHF 149 mieten oder ab CHF 1.299 kaufen – inklusive Software, Installation und persönlicher Betreuung in der Schweiz.",
     images: [
       {
         url: `${SITE_URL}/og/meister-signage-og.png`,
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Digital Signage schweizweit – Lösungen für jede Branche | Meister Signage",
+    title: "Digital Signage Schweiz – kaufen oder mieten | Meister Signage",
     description:
-      "Digital Signage schweizweit geliefert, installiert und betreut – Lösungen für Gastronomie, Hotellerie, Retail, Unternehmen und Events. Persönlicher Service, transparente Preise.",
+      "Displays ab CHF 149 mieten oder ab CHF 1.299 kaufen – inklusive Software und persönlicher Betreuung.",
   },
 };
 
