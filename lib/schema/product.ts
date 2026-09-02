@@ -1,5 +1,9 @@
 const BASE = "https://www.meister-signage.ch";
 
+function absoluteImage(path: string) {
+  return path.startsWith("http") ? path : `${BASE}${path}`;
+}
+
 const merchantReturnPolicy = {
   "@type": "MerchantReturnPolicy",
   applicableCountry: "CH",
@@ -66,6 +70,7 @@ export interface ProductOffer {
   sku: string;
   price: number;
   priceCurrency?: string;
+  image: string;
   /** Optional model-specific specs for additionalProperty enrichment. */
   screenSize?: string;
   resolution?: string;
@@ -80,9 +85,9 @@ export function productSchema(offers: ProductOffer[], pageUrl: string) {
     name: offer.name,
     description: offer.description,
     sku: offer.sku,
+    image: absoluteImage(offer.image),
     brand: {
-      "@type": "Organization",
-      "@id": `${BASE}/#organization`,
+      "@type": "Brand",
       name: "Meister Signage",
     },
     additionalProperty: buildAdditionalProperty(offer),
@@ -108,6 +113,7 @@ export interface RentalOffer {
   name: string;
   description: string;
   monthlyPrice: number;
+  image: string;
   /** Optional model-specific specs for additionalProperty enrichment. */
   screenSize?: string;
   resolution?: string;
@@ -121,9 +127,9 @@ export function rentalOfferSchema(offers: RentalOffer[], pageUrl: string) {
     "@type": "Product",
     name: offer.name,
     description: offer.description,
+    image: absoluteImage(offer.image),
     brand: {
-      "@type": "Organization",
-      "@id": `${BASE}/#organization`,
+      "@type": "Brand",
       name: "Meister Signage",
     },
     additionalProperty: buildAdditionalProperty({
@@ -131,6 +137,7 @@ export function rentalOfferSchema(offers: RentalOffer[], pageUrl: string) {
       description: offer.description,
       sku: "",
       price: offer.monthlyPrice,
+      image: offer.image,
       screenSize: offer.screenSize,
       resolution: offer.resolution,
       powerTyp: offer.powerTyp,
