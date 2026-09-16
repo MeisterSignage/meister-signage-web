@@ -2,11 +2,11 @@
   "slug": "was-ist-digital-signage",
   "category": "Grundlagen",
   "seoTitle": "Was ist Digital Signage? Definition & Kosten | Meister Signage",
-  "seoDescription": "Digital Signage einfach erklärt: Definition, Funktionsweise, Hardware, Kosten in CHF und kaufen oder mieten – und wann es sich für Unternehmen lohnt.",
+  "seoDescription": "Was ist Digital Signage? Die Definition einfach erklärt: vernetzte Bildschirme, zentral gesteuerte Inhalte, typische Anwendungen und Kosten in der Schweiz.",
   "eyebrow": "Wissen · Grundlagen",
   "h1": "Was ist Digital Signage?",
-  "intro": "Definition und Praxis-Übersicht zu Digital Signage – worum es geht, wie es funktioniert, was es kostet und wofür es eingesetzt wird. Digital Signage bezeichnet vernetzte Bildschirmlösungen, mit denen Inhalte zentral verwaltet und automatisch ausgespielt werden – im Eingang, am Verkaufspunkt, am Empfang oder am Event.",
-  "definition": "Digital Signage bedeutet auf Deutsch sinngemäss «digitale Beschilderung» und ist die digitale Variante klassischer Beschilderung. Statt gedruckter Plakate, Aushänge oder Menükarten zeigen vernetzte Bildschirme Inhalte, die zentral gesteuert, geplant und in Sekunden aktualisiert werden.",
+  "intro": "Digital Signage bedeutet digitale Beschilderung: Vernetzte Bildschirme zeigen Informationen, Werbung oder Wegweisung, deren Inhalte zentral geplant und aktualisiert werden. Hier erfahren Sie, wie das funktioniert, wo Unternehmen solche Screens einsetzen und welche Kosten in der Schweiz entstehen.",
+  "definition": "Zur Definition von Digital Signage gehören nicht nur digitale Screens, sondern auch die zentrale Steuerung ihrer Inhalte. Statt gedruckter Plakate, Aushänge oder Menükarten zeigen vernetzte Bildschirme wechselnde Inhalte nach einem Zeitplan. Ein gewöhnlicher Bildschirm wird erst mit passender Software, Inhalten und Steuerung zur Digital-Signage-Lösung.",
   "explanation": [
     "Im Kern besteht ein Digital-Signage-System aus vier Bausteinen: dem Display, einem Mediaplayer, der Software (CMS) und den Inhalten. Das Display zeigt, der Player spielt ab, die Software steuert und plant, die Inhalte transportieren die Botschaft. Bei modernen Displays ist der Player bereits integriert (System-on-Chip) – ein separater Mini-PC ist dann nicht nötig.",
     "Statt jede Tafel manuell zu wechseln, werden Inhalte einmal vorbereitet und automatisch zum passenden Zeitpunkt ausgespielt: Mittagsmenü von 11–14 Uhr, Aktion am Wochenende, Eventhinweis nur in einer bestimmten Woche. Ein einzelnes Display am Empfang wird genauso verwaltet wie Dutzende Bildschirme über mehrere Standorte – immer aus einer zentralen Oberfläche.",
@@ -124,5 +124,5 @@
     }
   ],
   "datePublished": "2026-05-17",
-  "dateModified": "2026-08-16"
+  "dateModified": "2026-09-16"
 }

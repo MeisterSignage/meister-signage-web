@@ -323,7 +323,7 @@ export default function DigitalSignageMietenContent() {
               className="mb-10 max-w-[440px] leading-relaxed"
               style={{ fontSize: "clamp(1rem, 1.5vw, 1.15rem)", color: "rgba(209,213,219,0.9)" }}
             >
-              Displays flexibel mieten statt kaufen – ideal für Events, Messen, Pop-ups oder zum Ausprobieren. Ab CHF 149/Mt. inkl. Lizenz, persönlich betreut und sofort einsatzbereit.
+              Einen professionellen Bildschirm mieten statt kaufen: Unsere Digital-Signage-Displays eignen sich für Events, Messen, Pop-ups und den laufenden Einsatz. Ab CHF 149/Mt. inkl. Lizenz und persönlicher Betreuung.
             </p>
 
             <div className="flex flex-wrap gap-4">
