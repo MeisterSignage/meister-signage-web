@@ -6,6 +6,7 @@
  *   public/social/carousels/<slug>.pdf                    (LinkedIn document post)
  *
  * Self-hosted, no external API. Run via: npx tsx scripts/generate-carousels.ts
+ * Optional single post: npx tsx scripts/generate-carousels.ts <slug>
  */
 
 import fs from "node:fs";
@@ -24,6 +25,7 @@ async function pngFor(slide: Parameters<typeof renderSlide>[0], i: number, total
 }
 
 async function main() {
+  const requestedSlug = process.argv[2];
   fs.mkdirSync(OUT_DIR, { recursive: true });
   const files = fs.readdirSync(NEWS_DIR).filter((f) => f.endsWith(".md"));
 
@@ -33,6 +35,7 @@ async function main() {
     const { data } = matter(raw);
     if (data.status === "draft") continue;
     const slug = (data.slug as string) || file.replace(/\.md$/, "");
+    if (requestedSlug && slug !== requestedSlug) continue;
 
     const copy = data.carousel as CarouselCopy | undefined;
     if (!copy || !copy.hook) {
@@ -58,6 +61,9 @@ async function main() {
     fs.writeFileSync(path.join(OUT_DIR, `${slug}.pdf`), await pdf.save());
     console.log(`  + ${slug} (${slides.length} slides + pdf)`);
     posts++;
+  }
+  if (requestedSlug && posts === 0) {
+    throw new Error(`No publishable carousel found for: ${requestedSlug}`);
   }
   console.log(`\ncarousels: ${posts} post(s) generated.`);
 }

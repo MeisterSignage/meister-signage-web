@@ -63,7 +63,7 @@ Bei sechs Saison­wechseln pro Jahr:
 | Personal­zeit (à CHF 60/h) | CHF 1.800–3.000 | CHF 300 (Inhalte erstellen) |
 | Total pro Jahr | **CHF 3.300–5.500** | **CHF 300** |
 
-Bei einer einmaligen Display-Investition von CHF 1.499 (Spark 4) plus CHF 180/Jahr Lizenz ist der Break-Even nach 4–6 Monaten. Mehr zu Kosten auf der [Kosten­seite](/was-kostet-digital-signage-schweiz/).
+Bei einer einmaligen Display-Investition von CHF 1.599 (Spark 4) plus CHF 180/Jahr Lizenz ist der Break-Even nach 4–7 Monaten. Mehr zu Kosten auf der [Kosten­seite](/was-kostet-digital-signage-schweiz/).
 
 ## Zeit­steuerung: das eigentliche Highlight
 

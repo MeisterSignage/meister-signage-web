@@ -57,11 +57,11 @@ Eine realistische Kalkulation für ein Hotel mit einem Display im Empfangs­bere
 
 | Position | Kauf-Variante | Miet-Variante |
 |---|---|---|
-| Hardware (Spark 4, 43" 4K) | CHF 1.499 einmalig | – |
+| Hardware (Spark 4, 43" 4K) | CHF 1.599 einmalig | – |
 | Einrichtung + Schulung | CHF 149 einmalig | im Mietpreis |
 | Software-Lizenz | CHF 180/Jahr | im Mietpreis |
 | Mietpreis | – | ab CHF 159/Mo. |
-| Jahr 1 total | CHF 1.828 | ab CHF 1.668 |
+| Jahr 1 total | CHF 1.928 | ab CHF 1.668 |
 | Jahr 2+ jährlich | CHF 180 | ab CHF 1.668 |
 
 Für dauerhaften Einsatz ist Kauf nach 2 Jahren günstiger. Ein Vergleich mit anderen Konstellationen findet sich in [Mieten oder Kaufen: 5 KMU-Fälle](/news/digital-signage-mieten-oder-kaufen/).

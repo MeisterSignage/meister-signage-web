@@ -1,7 +1,7 @@
 ---
 title: "Digital Signage für KMU: mit einem Display starten"
 seoTitle: "Digital Signage KMU Schweiz – kleiner Start"
-description: "Digital Signage für Schweizer KMU: mit einem Display ab CHF 149 Miete oder CHF 1.299 Kauf starten – einfach, planbar und ohne eigene IT."
+description: "Digital Signage für Schweizer KMU: mit einem Display ab CHF 149 Miete oder CHF 1.399 Kauf starten – einfach, planbar und ohne eigene IT."
 date: "2026-08-11T06:00:00+02:00"
 category: "Tipps"
 image: "/images/products/Unternehmen-Empfang.webp"
@@ -33,7 +33,7 @@ Alle drei Einwände sind verständlich. Und bei allen dreien hat sich in den let
 
 ## Was heute möglich ist
 
-Ein einzelnes Display mit eingebautem Media Player und cloudbasierter Software gibt es ab CHF 1.299 zum Kauf oder ab CHF 149 zur Miete – inklusive Software-Lizenz. Die Einrichtung dauert weniger als eine Stunde, die Bedienung erfordert keine IT-Kenntnisse.
+Ein einzelnes Display mit eingebautem Media Player und cloudbasierter Software gibt es ab CHF 1.399 zum Kauf oder ab CHF 149 zur Miete – inklusive Software-Lizenz. Die Einrichtung dauert weniger als eine Stunde, die Bedienung erfordert keine IT-Kenntnisse.
 
 Inhalte werden über ein Web-Interface gepflegt — ähnlich einfach wie das Erstellen einer Instagram-Story. Text eingeben, Bild hochladen, Zeitplan festlegen, fertig. Mehr zur Cloud-Steuerung: [Software-Lösung](/loesungen/software/).
 
@@ -76,7 +76,7 @@ Gerade für KMU ist es wichtig, einen Ansprechpartner zu haben, der bei Fragen e
 
 | Variante | Preisbereich |
 |---|---|
-| Kauf (1 Display) | ab CHF 1.299 |
+| Kauf (1 Display) | ab CHF 1.399 |
 | Miete (flexibel) | ab CHF 149 |
 
 Software, Einrichtung und Einweisung sind inklusive. Eine detaillierte Übersicht aller Posten finden Sie auf unserer [Kostenseite](/was-kostet-digital-signage-schweiz/). Was beim Kauf zusätzlich kommt (Lizenz, Versand etc.), zeigen wir transparent im Artikel [Versteckte Kosten bei Digital Signage](/news/digital-signage-kosten-schweiz/).

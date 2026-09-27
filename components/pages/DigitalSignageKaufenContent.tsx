@@ -612,7 +612,7 @@ export default function DigitalSignageKaufenContent() {
                   { label: "Helligkeit", values: ["450 nits", "450 nits", "450 nits", "450 nits"] },
                   { label: "Stromverbrauch (typ.)", values: ["36 W", "63 W", "81 W", "53 W"] },
                   { label: "Ideal für", values: ["Menüboards, Empfang", "Gastronomie, Retail", "Schaufenster, grosse Flächen", "Spezialinstallationen"] },
-                  { label: "Kaufpreis", values: ["CHF 1'299", "CHF 1'499", "CHF 1'599", "CHF 1'699"], bold: true },
+                  { label: "Kaufpreis", values: ["CHF 1'399", "CHF 1'599", "CHF 1'699", "CHF 1'799"], bold: true },
                   { label: "Mietpreis", values: ["ab CHF 149", "ab CHF 159", "ab CHF 169", "ab CHF 179"], bold: true },
                   { label: "Cloud-Steuerung", values: ["check", "check", "check", "check"] },
                   { label: "Persönlicher Support", values: ["check", "check", "check", "check"] },

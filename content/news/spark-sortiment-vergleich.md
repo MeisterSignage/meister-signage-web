@@ -36,7 +36,7 @@ Vier Modelle, vier Stärken. Das Spark-Sortiment von Meister Signage deckt die h
 | Standby | 0.8 W | 0.8 W | 0.8 W | 0.8 W |
 | Konnektivität | WiFi6 + BT 5.2 | WiFi6 + BT 5.2 | WiFi6 + BT 5.2 | WiFi6 + BT 5.2 |
 | Dauer­betrieb | 24/7 | 24/7 | 24/7 | 24/7 |
-| Kauf ab | CHF 1.299 | CHF 1.499 | CHF 1.599 | CHF 1.699 |
+| Kauf ab | CHF 1.399 | CHF 1.599 | CHF 1.699 | CHF 1.799 |
 | Miete ab | CHF 149 | CHF 159 | CHF 169 | CHF 179 |
 | Charakter | Kompakt | Vielseitig | Grossflächig | Kreativ |
 

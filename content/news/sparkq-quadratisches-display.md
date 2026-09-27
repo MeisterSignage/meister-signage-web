@@ -1,7 +1,7 @@
 ---
 title: "Spark Q+ – 33 Zoll quadratisch für kreative Installationen"
 seoTitle: "Spark Q+ – quadratisches 33-Zoll-Display"
-description: "Spark Q+: 33 Zoll im Quadratformat, 15.5 mm flach, WiFi6. Für Concept Stores, Design-Hotels, Agenturen und Multi-Display-Installationen. Ab CHF 1.699."
+description: "Spark Q+: 33 Zoll im Quadratformat, 15.5 mm flach, WiFi6. Für Concept Stores, Design-Hotels, Agenturen und Multi-Display-Installationen. Ab CHF 1.799."
 date: "2026-08-04T06:00:00+02:00"
 category: "Produkte"
 image: "/images/products/SparkQ-Design.webp"
@@ -81,7 +81,7 @@ Wie alle Spark-Modelle ist der Spark Q+ vollständig kabellos – Daten kommen �
 
 | Modell | Kauf | Miete |
 |---|---|---|
-| Spark Q+ (33 Zoll, quadratisch) | ab CHF 1.699 | ab CHF 179 |
+| Spark Q+ (33 Zoll, quadratisch) | ab CHF 1.799 | ab CHF 179 |
 
 Mietpreis inklusive Hardware, Software und Support. Einmalige Einrichtungs­pauschale: CHF 149. Beim Kauf zusätzlich Software-Lizenz ab CHF 180/Jahr.
 

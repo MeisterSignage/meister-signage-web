@@ -6,7 +6,7 @@ const PAGE_URL = `${SITE_URL}/digital-signage-schweiz`;
 export const metadata: Metadata = {
   title: { absolute: "Digital Signage Schweiz – kaufen oder mieten | Meister Signage" },
   description:
-    "Digital Signage in der Schweiz: Displays ab CHF 149 mieten oder ab CHF 1.299 kaufen – inklusive Software, Installation und persönlicher Betreuung.",
+    "Digital Signage in der Schweiz: Displays ab CHF 149 mieten oder ab CHF 1.399 kaufen – inklusive Software, Installation und persönlicher Betreuung.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "website",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "Meister Signage",
     title: "Digital Signage Schweiz – kaufen oder mieten | Meister Signage",
     description:
-      "Displays ab CHF 149 mieten oder ab CHF 1.299 kaufen – inklusive Software, Installation und persönlicher Betreuung in der Schweiz.",
+      "Displays ab CHF 149 mieten oder ab CHF 1.399 kaufen – inklusive Software, Installation und persönlicher Betreuung in der Schweiz.",
     images: [
       {
         url: `${SITE_URL}/og/meister-signage-og.png`,
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Digital Signage Schweiz – kaufen oder mieten | Meister Signage",
     description:
-      "Displays ab CHF 149 mieten oder ab CHF 1.299 kaufen – inklusive Software und persönlicher Betreuung.",
+      "Displays ab CHF 149 mieten oder ab CHF 1.399 kaufen – inklusive Software und persönlicher Betreuung.",
   },
 };
 

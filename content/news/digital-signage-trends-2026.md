@@ -59,7 +59,7 @@ Im Detail: [Digital Signage mieten](/digital-signage-mieten/). Praxisbeispiele i
 
 ## Trend 4: 24/7-Standard statt Consumer-TV-Hack
 
-Vor wenigen Jahren haben kleinere Betriebe oft Consumer-TVs als improvisiertes Digital-Signage genutzt. Das funktioniert kurzfristig, aber bei 12-Stunden-Tagesbetrieb sterben Consumer-Geräte oft innerhalb eines Jahres. 2026 wird die Lücke zwischen Consumer-TV (CHF 400) und Profi-Display (ab CHF 1.299) immer wirtschaftlicher zu schliessen – weil die Profi-Geräte günstiger werden und mehrere Jahre halten.
+Vor wenigen Jahren haben kleinere Betriebe oft Consumer-TVs als improvisiertes Digital-Signage genutzt. Das funktioniert kurzfristig, aber bei 12-Stunden-Tagesbetrieb sterben Consumer-Geräte oft innerhalb eines Jahres. 2026 wird die Lücke zwischen Consumer-TV (CHF 400) und Profi-Display (ab CHF 1.399) immer wirtschaftlicher zu schliessen – weil die Profi-Geräte günstiger werden und mehrere Jahre halten.
 
 Eine ausführliche Pro/Contra-Liste zur Entscheidung Consumer-TV vs. Profi-Display findet sich im Ratgeber [Vor- und Nachteile von Digital Signage](/wissen/digital-signage-vorteile-nachteile/).
 
@@ -67,7 +67,7 @@ Eine ausführliche Pro/Contra-Liste zur Entscheidung Consumer-TV vs. Profi-Displ
 
 Lange war es Branchen­standard, Digital-Signage-Lösungen ausschliesslich projekt­basiert anzubieten – sprich: "Kontaktieren Sie uns für ein individuelles Angebot". Das ist für komplexe Multi-Standort-Projekte sinnvoll, für KMU aber abschreckend.
 
-2026 zeigt sich, dass Standard-KMU-Lösungen mit Festpreisen massiv schneller verkauft werden. Wir veröffentlichen alle Preise transparent: ab CHF 149 zur Miete oder ab CHF 1.299 zum Kauf, plus klar ausgewiesene Lizenz- und Einrichtungs­kosten. Der direkte Vergleich mit anderen Schweizer Anbietern: [Anbieter-Vergleich](/digital-signage-anbieter-vergleich/).
+2026 zeigt sich, dass Standard-KMU-Lösungen mit Festpreisen massiv schneller verkauft werden. Wir veröffentlichen alle Preise transparent: ab CHF 149 zur Miete oder ab CHF 1.399 zum Kauf, plus klar ausgewiesene Lizenz- und Einrichtungs­kosten. Der direkte Vergleich mit anderen Schweizer Anbietern: [Anbieter-Vergleich](/digital-signage-anbieter-vergleich/).
 
 ## Was diese 5 Trends für Schweizer KMU bedeuten
 

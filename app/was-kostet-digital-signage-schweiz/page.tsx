@@ -23,26 +23,26 @@ const BUY_PRICES = [
   {
     model: "Spark 3",
     size: '32" Full HD',
-    price: "CHF 1'299",
+    price: "CHF 1'399",
     suitedFor: "Menüboards und Empfang",
   },
   {
     model: "Spark 4",
     size: '43" 4K UHD',
-    price: "CHF 1'499",
+    price: "CHF 1'599",
     suitedFor: "Gastronomie und Retail",
   },
   {
     model: "Spark 5",
     size: '50" 4K UHD',
-    price: "CHF 1'599",
+    price: "CHF 1'699",
     badge: "Empfehlung",
     suitedFor: "Schaufenster und grössere Flächen",
   },
   {
     model: "Spark Q+",
     size: '33" quadratisch Full HD',
-    price: "CHF 1'699",
+    price: "CHF 1'799",
     suitedFor: "Spezialinstallationen",
   },
 ];
@@ -260,7 +260,7 @@ export default function WasKostetDigitalSignagePage() {
             <div className="mt-10 flex flex-wrap items-center gap-x-7 gap-y-3">
               {[
                 "ab CHF 149 mieten",
-                "ab CHF 1'299 kaufen",
+                "ab CHF 1'399 kaufen",
                 "transparent kalkuliert",
               ].map((t) => (
                 <span
@@ -292,7 +292,7 @@ export default function WasKostetDigitalSignagePage() {
       {/* 2 — Kurzantwort */}
       <PricingQuickAnswerSection
         title="Digital Signage Kosten – die Kurzantwort"
-        text="Digital Signage kostet in der Schweiz je nach Modell ab CHF 149 im Mietmodell oder ab CHF 1'299 beim Kauf eines professionellen Displays. Hinzu kommen je nach Modell Einrichtung, Versand, Softwarelizenz, Content-Erstellung oder Installation."
+        text="Digital Signage kostet in der Schweiz je nach Modell ab CHF 149 im Mietmodell oder ab CHF 1'399 beim Kauf eines professionellen Displays. Hinzu kommen je nach Modell Einrichtung, Versand, Softwarelizenz, Content-Erstellung oder Installation."
         facts={[
           {
             metric: "ab CHF 149",
@@ -300,7 +300,7 @@ export default function WasKostetDigitalSignagePage() {
             description: "inklusive Lizenz, Cloud-Steuerung und Support",
           },
           {
-            metric: "ab CHF 1'299",
+            metric: "ab CHF 1'399",
             label: "Kauf",
             description: "für professionelle Digital-Signage-Displays",
           },
@@ -334,10 +334,10 @@ export default function WasKostetDigitalSignagePage() {
               </thead>
               <tbody>
                 {[
-                  { model: "Spark 3", size: '32"', res: "Full HD", buy: "CHF 1'299", rent: "CHF 149" },
-                  { model: "Spark 4", size: '43"', res: "4K UHD", buy: "CHF 1'499", rent: "CHF 159" },
-                  { model: "Spark 5", size: '50"', res: "4K UHD", buy: "CHF 1'599", rent: "CHF 169" },
-                  { model: "Spark Q+", size: '33" quadr.', res: "Full HD", buy: "CHF 1'699", rent: "CHF 179" },
+                  { model: "Spark 3", size: '32"', res: "Full HD", buy: "CHF 1'399", rent: "CHF 149" },
+                  { model: "Spark 4", size: '43"', res: "4K UHD", buy: "CHF 1'599", rent: "CHF 159" },
+                  { model: "Spark 5", size: '50"', res: "4K UHD", buy: "CHF 1'699", rent: "CHF 169" },
+                  { model: "Spark Q+", size: '33" quadr.', res: "Full HD", buy: "CHF 1'799", rent: "CHF 179" },
                 ].map((r) => (
                   <tr key={r.model} className="border-b border-navy/5">
                     <td className="py-3 pr-4 font-semibold text-navy">{r.model}</td>

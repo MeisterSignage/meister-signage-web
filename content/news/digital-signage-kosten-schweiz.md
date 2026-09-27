@@ -69,12 +69,12 @@ Ein faires Erstangebot enthält alle fünf Posten explizit – auch wenn manche 
 
 | Position | Betrag |
 |---|---|
-| Hardware (Spark 4, 43" 4K) | CHF 1.499 |
+| Hardware (Spark 4, 43" 4K) | CHF 1.599 |
 | Einrichtungs­pauschale | CHF 149 |
 | Versand CH | CHF 49 |
 | Software-Lizenz Jahr 1 | CHF 180 |
 | Content-Erstellung (optional) | nur auf Wunsch |
-| **Total Jahr 1** | **CHF 1.877** |
+| **Total Jahr 1** | **CHF 1.977** |
 | Jährlich ab Jahr 2 | CHF 180 |
 
 Im [Mietmodell ab CHF 159](/digital-signage-mieten/) sind Lizenz, Versand und Einrichtung im Monatspreis – nur die optionale Content-Erstellung kommt extra.

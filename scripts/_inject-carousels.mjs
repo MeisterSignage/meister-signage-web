@@ -72,7 +72,7 @@ const COPY = {
   "spark3-kompaktes-display": {
     hook: "Grosser Bildschirm für eine kleine Theke?",
     hookSub: "Oft Overkill – 32 Zoll reichen, wenn die Qualität stimmt.",
-    solution: "Spark 3: das 32-Zoll-Profi-Display ab CHF 1.299.",
+    solution: "Spark 3: das 32-Zoll-Profi-Display ab CHF 1.399.",
     solutionSub: "Hinter der Theke, neben der Kasse, im Eingang – kompakt und stark.",
     benefits: ["Profi-Features im Einstiegsmodell", "24/7-Dauerbetrieb spezifiziert", "Cloud-gesteuert, kein externer Player"],
     cta: "Kompakt einsteigen mit Spark 3?",

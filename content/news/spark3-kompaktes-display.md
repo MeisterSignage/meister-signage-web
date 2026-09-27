@@ -1,7 +1,7 @@
 ---
-title: "Spark 3 – das 32-Zoll-Einstiegs­display ab CHF 1.299"
+title: "Spark 3 – das 32-Zoll-Einstiegs­display ab CHF 1.399"
 seoTitle: "32-Zoll-Display für Theke & POS | Spark 3"
-description: "Spark 3 ist das kompakte 32-Zoll-Display für Theke, Kasse und kleine Empfangsbereiche. Full HD, Media Player und 24/7-Betrieb ab CHF 1.299."
+description: "Spark 3 ist das kompakte 32-Zoll-Display für Theke, Kasse und kleine Empfangsbereiche. Full HD, Media Player und 24/7-Betrieb ab CHF 1.399."
 date: "2026-07-28T06:00:00+02:00"
 category: "Produkte"
 image: "/images/products/Spark3-Design.webp"
@@ -10,7 +10,7 @@ status: published
 carousel:
   hook: "Grosser Bildschirm für eine kleine Theke?"
   hookSub: "Oft Overkill – 32 Zoll reichen, wenn die Qualität stimmt."
-  solution: "Spark 3: das 32-Zoll-Profi-Display ab CHF 1.299."
+  solution: "Spark 3: das 32-Zoll-Profi-Display ab CHF 1.399."
   solutionSub: "Hinter der Theke, neben der Kasse, im Eingang – kompakt und stark."
   benefits:
     - "Profi-Features im Einstiegsmodell"
@@ -19,7 +19,7 @@ carousel:
   cta: "Kompakt einsteigen mit Spark 3?"
 ---
 
-Nicht jeder Einsatzort braucht einen grossen Bildschirm. Hinter der Theke, neben der Kasse oder im Eingangs­bereich eines kleinen Ladens reichen 32 Zoll völlig aus — wenn die Qualität stimmt. Der Spark 3 ist unser kompaktes Display für Theke und Point of Sale, ab CHF 1.299 mit allen relevanten Profi-Features. Wer mehrere Modelle direkt vergleichen möchte, findet Grössen und Einsatzbereiche im [Spark-Sortiment-Vergleich](/news/spark-sortiment-vergleich/).
+Nicht jeder Einsatzort braucht einen grossen Bildschirm. Hinter der Theke, neben der Kasse oder im Eingangs­bereich eines kleinen Ladens reichen 32 Zoll völlig aus — wenn die Qualität stimmt. Der Spark 3 ist unser kompaktes Display für Theke und Point of Sale, ab CHF 1.399 mit allen relevanten Profi-Features. Wer mehrere Modelle direkt vergleichen möchte, findet Grössen und Einsatzbereiche im [Spark-Sortiment-Vergleich](/news/spark-sortiment-vergleich/).
 
 ## Für wen der Spark 3 gemacht ist
 
@@ -74,7 +74,7 @@ Branchen-Standard bei professionellen Digital-Signage-Displays liegt bei 40–80
 
 | Modell | Kauf | Miete |
 |---|---|---|
-| Spark 3 (32 Zoll, Full HD) | ab CHF 1.299 | ab CHF 149 |
+| Spark 3 (32 Zoll, Full HD) | ab CHF 1.399 | ab CHF 149 |
 
 Im Mietpreis enthalten: Hardware, Software-Lizenz und technischer Support. Einmalige Einrichtungs­pauschale: CHF 149. Beim Kauf separate Lizenz ab CHF 180/Jahr – vollständige Aufschlüsselung: [Was kostet Digital Signage?](/was-kostet-digital-signage-schweiz/).
 
