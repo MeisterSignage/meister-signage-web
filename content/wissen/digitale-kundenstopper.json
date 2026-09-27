@@ -5,13 +5,13 @@
   "seoDescription": "Digitale Kundenstopper im Einsatz: Indoor, Outdoor, Akku-Betrieb. Vorteile, Spezifikationen und passende Anwendungsfälle für KMU in der Schweiz.",
   "eyebrow": "Wissen · Outdoor & Mobile",
   "h1": "Was ist ein digitaler Kundenstopper? Funktionen und Einsatzgebiete.",
-  "intro": "Ein digitaler Kundenstopper ist ein freistehendes Display mit verschiedenen Funktionen und vielfältigen Einsatzgebieten – kurz erklärt. Gedruckte Kundenstopper sind statisch und müssen manuell gewechselt werden. Digitale Kundenstopper lassen sich flexibel platzieren und zentral mit aktuellen Inhalten bespielen.",
-  "definition": "Ein digitaler Kundenstopper ist ein mobiles Display, das gedruckte Aufsteller ersetzt. Inhalte werden in Sekunden aktualisiert, Aktionen wirken hochwertiger und der Auftritt bleibt jederzeit aktuell.",
+  "intro": "Ein digitaler Kundenstopper ist ein freistehendes Display für wechselnde Angebote, Informationen und Bilder. Gedruckte Plakate müssen manuell gewechselt werden; digitale Inhalte lassen sich ohne neuen Druck aktualisieren. Platzierung, zentrale Verwaltung und weitere Funktionen hängen vom Gerät und der eingesetzten Software ab.",
+  "definition": "Ein digitaler Kundenstopper ist ein freistehender Bildschirm, der gedruckte Aufsteller ersetzt. Er zeigt digital aktualisierbare Inhalte und kann je nach Ausführung mobil oder mit Akku betrieben werden.",
   "explanation": [
     "Im Eingangsbereich, vor dem Restaurant, an Messen oder im Pop-up-Store – überall dort, wo gedruckte Kundenstopper bisher Aufmerksamkeit erzeugen sollten, sind digitale Varianten der nächste Schritt.",
-    "Sie sind flexibel platzierbar, oft akkubetrieben und brauchen keine feste Installation. Inhalte werden zentral über die Meister Signage Software gesteuert – das Display zeigt, was zur aktuellen Tageszeit oder Aktion passt.",
-    "Für den Aussenbereich gibt es wetterfeste Modelle mit höherer Helligkeit – ideal für Promotionen, Märkte und Events draussen.",
-    "Im Outdoor-Einsatz entscheidend ist die Helligkeit – 1500 cd/m² sind das Minimum für gute Sichtbarkeit auf sonnigen Plätzen. Wasserdichtigkeit nach IP65 verhindert Schäden bei Regen oder Reinigung. Wer mehrtägig auf Märkten oder Events steht, braucht ausserdem einen ausreichenden Akku-Puffer – Modelle mit 27 Stunden Laufzeit überbrücken auch ganze Marktwochenenden ohne Stromanschluss."
+    "Sie sind flexibel platzierbar, oft akkubetrieben und brauchen keine feste Installation. Wie Inhalte übertragen, zeitlich geplant oder zentral gesteuert werden, hängt vom Abspielsystem und der eingesetzten Software ab.",
+    "Für den Aussenbereich gibt es speziell ausgelegte Modelle mit höherer Helligkeit. Neben der Schutzart müssen auch Temperatur, Wind, Aufstellung und Ladebedingungen zum Einsatz passen.",
+    "Für die Lesbarkeit draussen zählen Helligkeit, Entspiegelung, Blickwinkel und Ausrichtung. Im Sortiment von Meister Signage ergänzt ein neues 43-Zoll-Battery-Board mit Mini-LED und bis zu 3’000 Nits Spitzenhelligkeit die bestehende 1’500-Nits-Ausführung. Spitzenhelligkeit ist nicht mit garantierter Dauerhelligkeit gleichzusetzen. Das neue Board verfügt über ein IP65-Gehäuse und einen integrierten Lithium-Akku. Laufzeit und Ladeplanung werden für das konkrete Modell und Nutzungsprofil geklärt. Preise auf Anfrage."
   ],
   "examples": [
     {
@@ -33,16 +33,16 @@
   ],
   "benefits": [
     "Flexibel platzierbar – ohne feste Installation",
-    "Inhalte in Sekunden aktualisierbar",
+    "Inhalte digital aktualisierbar – ohne neuen Druck",
     "Akku-Varianten ohne Steckdose möglich",
     "Hochwertiger als gedruckte Aufsteller",
-    "Wetterfest für den Aussenbereich",
-    "Zentral steuerbar über die Software"
+    "Outdoor-Ausführungen für geeignete Aussenstandorte",
+    "Zentrale Steuerung je nach Gerät und Software möglich"
   ],
   "faq": [
     {
       "question": "Was ist ein digitaler Kundenstopper?",
-      "answer": "Ein mobiles Display, das gedruckte Kundenstopper ersetzt. Inhalte werden in Sekunden aktualisiert und wirken digital deutlich hochwertiger."
+      "answer": "Ein freistehendes Display, das gedruckte Aufsteller durch digital aktualisierbare Inhalte ersetzt. Mobilität, Akkubetrieb und zentrale Verwaltung hängen von der Geräteausführung und Software ab."
     },
     {
       "question": "Können digitale Kundenstopper ohne Stromanschluss laufen?",
@@ -50,14 +50,18 @@
     },
     {
       "question": "Sind digitale Kundenstopper outdoor-tauglich?",
-      "answer": "Ja. Für den Aussenbereich gibt es wetterfeste Geräte mit hoher Helligkeit und entsprechender Schutzklasse."
+      "answer": "Für den Aussenbereich gibt es speziell ausgelegte Geräte, zum Beispiel das neue Battery-Board mit IP65-Gehäuse. Die Schutzart allein ist keine Freigabe bei jedem Wetter; Standort, Temperatur und Aufstellung müssen ebenfalls zum Modell passen."
     },
     {
       "question": "Können digitale Kundenstopper auch gemietet werden?",
-      "answer": "Ja. Gerade für temporäre Einsätze, Events und Pop-ups ist die Miete eine flexible Option."
+      "answer": "Für temporäre Einsätze, Events und Pop-ups prüfen wir eine Mietlösung. Ob das gewünschte Modell zum Termin verfügbar ist und welche Leistungen enthalten sind, wird individuell vereinbart. Preise auf Anfrage."
     }
   ],
   "internalLinks": [
+    {
+      "label": "Digitale Kundenstopper & neues Battery-Board",
+      "href": "/loesungen/digitale-kundenstopper/"
+    },
     {
       "label": "Mobile Displays",
       "href": "/loesungen/mobile-displays/"

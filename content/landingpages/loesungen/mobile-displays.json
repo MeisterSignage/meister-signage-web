@@ -5,7 +5,7 @@
   "seoDescription": "Mobile Digital-Signage-Displays für Roadshows & Messen – transportabel, akkubetrieben, kabellos. Mietbar oder kaufbar, schweizweit lieferbar.",
   "eyebrow": "Lösung · Mobile Displays",
   "h1": "Mobile Displays – Aufmerksamkeit, die mit Ihnen reist.",
-  "intro": "Mobile Digital-Signage-Displays reisen mit Ihnen und sorgen für Aufmerksamkeit am Eventstand, auf der Messe oder am Pop-up – akkubetrieben und in Minuten einsatzbereit. Mobile Displays sind transportable digitale Bildschirme, die nicht für einen festen Standort gemacht sind, sondern mit dem Einsatz wandern. Heute Messe in Zürich, morgen Eröffnung in Luzern, übermorgen Kundentag in Bern – ohne erneuten Aufbau, ohne Steckdose vor Ort, ohne IT-Vorbereitung. Akkubetrieb auf Anfrage möglich.",
+  "intro": "Mobile Digital-Signage-Displays begleiten Sie an den Eventstand, auf die Messe oder zum Pop-up. Sie sind für wechselnde Einsatzorte gedacht: heute Zürich, morgen Luzern, übermorgen Bern. Je nach Modell sind Akkubetrieb und Outdoor-Einsatz möglich. Wir stimmen Transport, Stromversorgung und die Aktualisierung Ihrer Inhalte auf die gewählte Ausführung ab. Preise auf Anfrage.",
   "heroImage": "/images/products/Mobile-Display-Outdoor.webp",
   "gallery": [
     { "src": "/images/products/Mobile-Display-Gastro-Terrasse.webp", "alt": "Mobiles Display als Kundenstopper auf einer Gastro-Terrasse" },
@@ -15,15 +15,15 @@
   "benefits": [
     {
       "title": "Transportabel zwischen Standorten",
-      "description": "Aufladen, einpacken, am nächsten Ort ausladen, einschalten – das Display ist sofort wieder einsatzbereit. Ideal für Roadshows, Messereihen oder Filial-Touren."
+      "description": "Mit abgestimmter Vorbereitung begleiten mobile Displays Ihre Roadshows, Messereihen oder Filial-Touren. Transport, Aufstellung und Stromversorgung werden passend zum Gerät und zu den wechselnden Standorten geplant."
     },
     {
-      "title": "Akkubetrieb auf Anfrage",
-      "description": "Für Standorte ohne Stromanschluss bieten wir Modelle mit integriertem Akku – mehrere Stunden Laufzeit, dann wieder aufladen. Perfekt für Pop-ups, Open-Air-Events oder mobile Promotion."
+      "title": "Neu: Outdoor-Battery-Board mit Mini-LED",
+      "description": "Unser neues 43-Zoll-Battery-Board mit integriertem Akku bietet bis zu 3’000 Nits Spitzenhelligkeit und ein IP65-Gehäuse. Es ergänzt die bisherige 1’500-Nits-Ausführung. Details zu beiden Geräten finden Sie auf unserer Seite für digitale Kundenstopper."
     },
     {
       "title": "Inhalte unterwegs aktualisieren",
-      "description": "Über die Cloud-Steuerung von jedem Standort aus. Bei mehreren Stopps in einer Tour können Inhalte standortspezifisch oder einheitlich ausgespielt werden."
+      "description": "Für Touren planen wir standortspezifische oder einheitliche Inhalte. Ob die Aktualisierung über eine Cloud-Lösung möglich ist und welche Verbindung benötigt wird, hängt vom gewählten Gerät und Softwarepaket ab."
     },
     {
       "title": "Mehrwert über die ganze Tour",
@@ -31,11 +31,11 @@
     },
     {
       "title": "Robust für Transport",
-      "description": "Hochwertige Transport-Cases und stabile Standfüsse halten häufigen Auf- und Abbau aus. Wir empfehlen das passende Setup je nach Einsatzhäufigkeit."
+      "description": "Für häufige Standortwechsel empfehlen wir eine zum Gerät passende Transportverpackung und Aufstelllösung. Transport-Cases und weiteres Zubehör werden je nach Modell und Einsatzhäufigkeit separat abgestimmt."
     },
     {
       "title": "Schnell einsatzbereit",
-      "description": "WiFi-Verbindung herstellen, Inhalte sind automatisch da. Keine Kabelverbindungen, keine USB-Sticks, keine IT-Vorbereitung am Standort."
+      "description": "Wir klären Inhalte, Abspielsystem und Netzwerkzugang vor dem Einsatz. Mit einer passenden Vorbereitung lässt sich der Aufwand beim Standortwechsel reduzieren. Einrichtung und Bedienung richten sich nach dem gewählten Modell."
     },
     {
       "title": "4G LTE-Variante auf Anfrage",
@@ -45,36 +45,36 @@
   "faq": [
     {
       "question": "Worin unterscheidet sich ein Mobile Display von einem digitalen Kundenstopper?",
-      "answer": "Ein digitaler Kundenstopper ist für einen festen Standort gedacht (z.B. dauerhaft vor dem Restaurant oder im Schaufenster). Mobile Displays sind für den Transport zwischen mehreren Standorten konzipiert – Roadshow, Messe-Tour, Filialeinsätze. Wenn das Display nur an einem Ort steht, ist ein Kundenstopper meist die bessere Wahl."
+      "answer": "Mobile Displays sind der Oberbegriff für transportable Bildschirme. Ein digitaler Kundenstopper ist eine freistehende Ausführung, etwa vor einem Restaurant oder am Eventeingang, und kann ebenfalls mobil sein. Für häufige Transporte zwischen Standorten prüfen wir zusätzlich Verpackung, Gewicht und Aufbau."
     },
     {
       "question": "Wie lange läuft das Display im Akkubetrieb?",
-      "answer": "Je nach Modell und Helligkeitseinstellung 4 bis 8 Stunden. Für längere Veranstaltungen empfehlen wir Wechselakkus oder eine kurze Aufladung in der Pause."
+      "answer": "Das hängt vom konkreten Modell, der Helligkeit, den Inhalten und der Umgebungstemperatur ab. Akku- und Ladezeiten sind nicht zwischen Geräten übertragbar. Wir klären den vorgesehenen Tagesablauf und die Ladefenster; für das neue Battery-Board nennen wir keine pauschale Stundenzahl."
     },
     {
       "question": "Kann ich das Display ohne IT-Kenntnisse aufbauen?",
-      "answer": "Ja. Aufstellen, einschalten, WiFi verbinden – fertig. Wir bereiten die Inhalte vor dem Versand vor, beim Empfang ist das Display sofort einsatzbereit."
+      "answer": "Wir unterstützen Sie bei der Vorbereitung und erklären die Bedienung des gewählten Geräts. Ob vor Ort eine Internetverbindung oder weitere Einrichtung nötig ist, hängt von der vereinbarten Konfiguration ab. Den gewünschten Einrichtungs- und Betreuungsumfang halten wir in der Offerte fest."
     },
     {
       "question": "Wie wird das Display transportiert?",
-      "answer": "In einem stabilen Transport-Case mit Polsterung. Für häufige Transporte empfehlen wir Premium-Cases mit Rollen. Beim Versand zwischen Standorten kümmern wir uns auf Wunsch um die Logistik."
+      "answer": "Das hängt von Grösse, Gewicht und Bauform des gewählten Geräts ab. Wir klären geeignete Transportverpackungen, gegebenenfalls ein passendes Case und die Handhabung vor Ort. Zubehör und Logistikleistungen werden separat vereinbart."
     },
     {
       "question": "Eignet sich das Display für den Aussenbereich?",
-      "answer": "Für geschützte Aussenbereiche (überdachte Eingänge, Markisen) ja. Für direkten Wettereinfluss empfehlen wir spezielle Outdoor-Modelle – die wir auf Anfrage individuell zusammenstellen."
+      "answer": "Nur entsprechend ausgelegte Modelle sollten draussen eingesetzt werden. Dazu gehört unser neues Battery-Board mit IP65-Gehäuse. Schutzart allein genügt jedoch nicht: Temperatur, Wind, Standort und Ladebedingungen müssen zu den Einsatzvorgaben des jeweiligen Geräts passen. Ein Vordach macht ein Indoor-Display nicht automatisch outdoor-tauglich."
     },
     {
       "question": "Funktioniert das Display ohne WLAN am Standort?",
-      "answer": "Für Standorte ohne WLAN bieten wir auf Anfrage Modelle mit integriertem 4G LTE-Modul. Damit holt sich das Display Inhalte direkt über das Mobilfunknetz – ideal für Aussen-Events, Pop-ups in entlegenen Lagen oder mobile Verkaufsstände. Eine SIM-Karte mit Datenpaket wird mitgeliefert."
+      "answer": "Für bestimmte Modelle sind Mobilfunklösungen auf Anfrage möglich. Ob Modul, SIM-Karte oder Datenpaket erforderlich sind und welche Offline-Funktionen zur Verfügung stehen, klären wir je Ausführung. Diese Möglichkeiten sind nicht pauschal Bestandteil jedes mobilen Displays oder Battery-Boards."
     },
     {
       "question": "Kann ich Mobile Displays auch nur mieten?",
-      "answer": "Gerade für temporäre Touren und einmalige Events ist Miete oft die bessere Lösung – mit Lieferung, Vorbereitung der Inhalte und Rückholung. Auch hier mit transparenten Preisen ab CHF 149."
+      "answer": "Für temporäre Touren und einmalige Events prüfen wir gerne eine Mietlösung. Geräteverfügbarkeit sowie Lieferung, Einrichtung und Rückholung werden individuell vereinbart. Preise auf Anfrage."
     }
   ],
   "internalLinks": [
     {
-      "label": "Digitale Kundenstopper",
+      "label": "Digitale Kundenstopper & neues Battery-Board",
       "href": "/loesungen/digitale-kundenstopper/"
     },
     {
@@ -117,7 +117,7 @@
   "cta": {
     "eyebrow": "Mobile Lösung anfragen",
     "title": "Wo soll Ihr Display als nächstes auftauchen?",
-    "subtitle": "Schildern Sie kurz Ihre Tour oder Veranstaltungsreihe – wir empfehlen das passende mobile Setup, inklusive Akku-Variante falls nötig.",
+    "subtitle": "Schildern Sie kurz Ihre Tour oder Veranstaltungsreihe – wir empfehlen das passende mobile Setup, bei Bedarf mit Akku und Outdoor-Eignung. Preise auf Anfrage.",
     "primaryLabel": "Beratung anfragen",
     "primaryHref": "/kontakt",
     "secondaryLabel": "Displays mieten",

@@ -1,70 +1,88 @@
 {
   "slug": "digitale-kundenstopper",
   "type": "loesungen",
-  "seoTitle": "Digitaler Kundenstopper Indoor & Outdoor | Meister Signage",
-  "seoDescription": "Digitaler Kundenstopper 43\" – Indoor & Outdoor, IP65, 27h Akku, kabellos. Für Eingang, Schaufenster, Eventstand. Aus der Schweiz, ab Lager Luzern.",
+  "seoTitle": "Outdoor-Kundenstopper mit Akku | Meister Signage",
+  "seoDescription": "Neu: 43-Zoll-Battery-Board mit bis zu 3’000 Nits Spitzenhelligkeit, Mini-LED und IP65. Für Gastronomie, Hotels und Events. Preise auf Anfrage.",
   "eyebrow": "Lösung · Kundenstopper",
-  "h1": "Digitaler Kundenstopper – Indoor, Outdoor, mit Akku.",
-  "intro": "Ein digitaler Kundenstopper ist ein freistehender, beweglicher 43-Zoll-Bildschirm, der gedruckte A-Tafeln ersetzt. Inhalte wechseln in Sekunden, ohne Druck. Dank IP65-Schutz und 1500 nits Helligkeit auch im direkten Sonnenlicht und bei Regen einsatzfähig. Mit integriertem Akku (27 h Laufzeit) sogar an Standorten ganz ohne Steckdose. Mehrere digitale Kundenstopper steuern Sie zentral und filialübergreifend über die Meister Signage Software.",
-  "heroImage": "/images/products/Mobile-Display-Outdoor.webp",
+  "h1": "Digitale Kundenstopper mit Akku für draussen.",
+  "intro": "Neu: ein 43-Zoll-Battery-Board mit Mini-LED, bis zu 3’000 Nits Spitzenhelligkeit und IP65-Gehäuse. Es ergänzt unsere bestehende 1’500-Nits-Ausführung. Mit Akku bringen Sie Tagesangebote, Gästeinformationen und Eventprogramme dorthin, wo sie gebraucht werden – auch ohne Steckdose am Aufstellort. Preise auf Anfrage.",
   "benefits": [
     {
-      "title": "Echte Outdoor-Fähigkeit (IP65)",
-      "description": "Spritzwasser- und staubgeschützt nach IP65. Anti-Glare-Glas reduziert Spiegelungen, gehärtetes Sicherheitsglas schützt vor Beschädigung. Einsatz vor dem Laden, am Strassencafé oder am Eventstand bei Wind und Wetter."
+      "title": "Neu: Mini-LED für helle Standorte",
+      "description": "Das neue 43-Zoll-Battery-Board bietet bis zu 3’000 Nits Spitzenhelligkeit. Mini-LED mit Local Dimming regelt die Hintergrundbeleuchtung in einzelnen Bereichen. Die entspiegelte Glasfront hilft, Reflexionen zu reduzieren; Ausrichtung und Sonneneinfall bleiben bei der Standortwahl wichtig."
     },
     {
-      "title": "1500 nits – auch in praller Sonne lesbar",
-      "description": "Mit 1500 cd/m² rund dreimal heller als ein Standard-Display. Damit bleiben Inhalte bei direktem Tageslicht und in Schaufenstern klar lesbar – auch bei Sonneneinstrahlung."
+      "title": "Akku statt Steckdose am Einsatzort",
+      "description": "Der integrierte Lithium-Akku des neuen Battery-Boards ermöglicht den Einsatz ohne dauernden Netzanschluss. Eine rückseitige Anzeige zeigt den Ladestand. Einsatzdauer und Ladepausen planen wir anhand der gewählten Helligkeit, der Inhalte und der Bedingungen vor Ort."
     },
     {
-      "title": "Akku-Betrieb 27 Stunden",
-      "description": "Integrierter Lithium-Polymer-Akku (58.800 mAh) für rund 27 Stunden Laufzeit. Für Pop-ups, Open-Air-Events, Wochenmärkte oder Standorte ganz ohne Stromanschluss. Ladezeit ca. 8 Stunden."
+      "title": "Rollen und Griff für den Standortwechsel",
+      "description": "Das neue Battery-Board lässt sich auf geeignetem, ebenem Untergrund umplatzieren. Rollen, Griff und Arretierung unterstützen die Aufstellung. Für Schwellen, Transport und die Sicherung im Aussenbereich berücksichtigen wir die konkreten Aufstellbedingungen."
     },
     {
-      "title": "Mobil mit abschliessbaren Rollen",
-      "description": "44 kg auf vibrationsgedämpften Rollen mit Sperrfunktion. Aufstellen, ausrichten, Bremse rein – fertig. Standortwechsel innert Minuten, auch täglich neu positioniert."
+      "title": "IP65-Gehäuse und gehärtete Glasfront",
+      "description": "Das neue Modell kombiniert ein IP65-Gehäuse mit entspiegeltem, gehärtetem Frontglas. IP65 steht für Schutz gegen Staub und Strahlwasser – nicht für eine uneingeschränkte Freigabe bei jedem Wetter. Wind, Temperatur, Aufstellung und Ladeort werden separat berücksichtigt."
     },
     {
-      "title": "Inhalte zentral und sicher",
-      "description": "Cloud-CMS auf Android-Basis, Verwaltung per Browser. WLAN Dual-Band oder optional mit 4G-Modul für Standorte ohne WiFi. Inhalte werden verschlüsselt übertragen."
+      "title": "Tagesangebote für Gastronomie und Hotellerie",
+      "description": "Frühstück, Mittagsmenü, Terrassenangebot oder Begrüssung zur Veranstaltung: Ein digitaler Aufsteller schafft Platz für wechselnde Informationen. Kurze Texte, gut lesbare Schrift und ein klares Angebot helfen Gästen, sich schnell zu orientieren."
     },
     {
-      "title": "3 Jahre Garantie, lebenslanger Support",
-      "description": "Robuste Hardware, für 24/7-Dauerbetrieb spezifiziert. 3 Jahre Herstellergarantie auf das Gerät, technischer Support ohne Zeitlimit – wir bleiben Ihr Ansprechpartner."
+      "title": "Wegleitung und Programm für Events",
+      "description": "Nutzen Sie den mobilen Kundenstopper für den Empfang, die Wegleitung oder aktuelle Programmpunkte. Gemeinsam klären wir Standorte, Inhalte und die passende Lösung für deren Aktualisierung – abgestimmt auf das gewählte Gerät."
     }
   ],
+  "useCases": {
+    "eyebrow": "Zwei Varianten",
+    "title": "Welcher Akku-Kundenstopper passt zu Ihrem Standort?",
+    "intro": "Die bestehende Ausführung und das neue Battery-Board sind unterschiedliche Geräte. Helligkeit, Akkulaufzeit, Ladezeit und Ausstattung werden deshalb je Modell betrachtet.",
+    "items": [
+      {
+        "title": "Bewährt: 43 Zoll mit 1’500 Nits",
+        "description": "Unsere bestehende Ausführung verbindet ein 43-Zoll-Display mit 1’500 Nits, IP65-Gehäuse und integriertem Akku. Ob sie für Ihren Eingang, Ihre Terrasse oder Ihren Promotionstand passt, klären wir anhand des konkreten Standorts. Preise auf Anfrage."
+      },
+      {
+        "title": "Neu: 43-Zoll-Battery-Board mit Mini-LED",
+        "description": "Bis zu 3’000 Nits Spitzenhelligkeit, Local Dimming, IP65-Gehäuse und ein integrierter Lithium-Akku: Das neue Modell erweitert die Auswahl für helle Aussenstandorte. Zur Ausstattung gehören entspiegeltes Frontglas, Rollen, Griff und eine rückseitige Akkuanzeige. Preise auf Anfrage."
+      }
+    ]
+  },
   "faq": [
     {
       "question": "Was ist der Unterschied zwischen einem digitalen und einem klassischen Kundenstopper?",
-      "answer": "Ein klassischer Kundenstopper trägt eine bedruckte Tafel, die für jede Änderung neu gedruckt werden muss. Ein digitaler Kundenstopper zeigt einen 43-Zoll-Bildschirm – Inhalte lassen sich beliebig oft kurzfristig wechseln, mit Bewegtbild ergänzen und auf Tageszeit oder Wochentag automatisieren. Plus: Akku-Betrieb und 1500 nits Helligkeit für echten Outdoor-Einsatz."
+      "answer": "Ein klassischer Kundenstopper zeigt ein gedrucktes Plakat oder eine beschriftete Tafel. Die digitale Variante nutzt einen Bildschirm für Angebote, Bilder und Informationen. Inhalte können geändert werden, ohne neue Plakate zu drucken. Funktionen wie Zeitpläne und zentrale Verwaltung hängen vom eingesetzten Abspielsystem und der Software ab."
     },
     {
-      "question": "Kann ein digitaler Kundenstopper bei Regen draussen stehen?",
-      "answer": "Ja. Schutzklasse IP65 bedeutet: vollständig staubdicht und geschützt gegen Strahlwasser aus allen Richtungen. Damit ist der Einsatz bei Regen, Nebel und Spritzwasser problemlos möglich. Bei extremen Wetterlagen (Sturm, längere Frostperioden unter 0 °C) empfehlen wir den Kundenstopper über Nacht ins Trockene zu nehmen."
+      "question": "Was ist am neuen Battery-Board anders?",
+      "answer": "Das neue 43-Zoll-Modell nutzt Mini-LED mit Local Dimming und erreicht bis zu 3’000 Nits Spitzenhelligkeit. Es ergänzt die bestehende 1’500-Nits-Ausführung. Akku, Ladezeit, Gewicht und weitere Ausstattungsdetails sind modellabhängig; Daten des bisherigen Geräts gelten nicht automatisch für das neue Board."
     },
     {
-      "question": "Wie lange läuft der Akku ohne Ladung?",
-      "answer": "Bis zu 27 Stunden Dauerbetrieb mit einer Ladung. Die Ladezeit beträgt rund 8 Stunden. Für mehrtägige Events oder Wochenmärkte reicht das in der Regel mit einer Ladung über Nacht. Bei reduzierter Helligkeit oder Standby-Phasen entsprechend länger."
+      "question": "Ist das neue Battery-Board bei Sonne lesbar?",
+      "answer": "Bis zu 3’000 Nits Spitzenhelligkeit und entspiegeltes Frontglas unterstützen den Einsatz bei hellem Umgebungslicht. Der Spitzenwert ist keine zugesicherte Dauerhelligkeit. Die tatsächliche Lesbarkeit hängt auch von direktem Sonneneinfall, Blickwinkel, Inhalt und Ausrichtung ab. Wir prüfen deshalb mit Ihnen den vorgesehenen Standort."
     },
     {
-      "question": "Funktioniert der Kundenstopper auch ohne WLAN?",
-      "answer": "Ja. Inhalte werden lokal auf dem Gerät gespeichert und automatisch abgespielt – kein WLAN nötig für die Wiedergabe. Für die Aktualisierung der Inhalte braucht es WLAN oder optional ein integriertes 4G-Modul mit SIM-Karte (für Standorte ganz ohne WiFi)."
+      "question": "Wie lange hält der Akku und wie wird das Board geladen?",
+      "answer": "Die Laufzeit hängt unter anderem von Helligkeit, Inhalten, Temperatur und Nutzungsprofil ab. Für das neue Battery-Board nennen wir deshalb keine pauschale Stundenzahl oder feste Ladezeit. Wir stimmen Einsatzdauer und Ladefenster auf die gewählte Ausführung ab; geladen wird gemäss deren Bedienungsanleitung an einem geeigneten Ladeort."
     },
     {
-      "question": "Wie schwer ist der Kundenstopper und kann ich ihn alleine bewegen?",
-      "answer": "Das Gerät wiegt rund 44 kg und steht auf vibrationsfesten Rollen mit Sperrfunktion. Schieben und Aufstellen ist mit einer Person gut möglich, beim Heben über Treppen oder Schwellen empfehlen wir zu zweit. Abmessungen: ca. 120 cm Breite, 60 cm Höhe, 49 cm Tiefe – passt durch jede Standardtür."
+      "question": "Was bedeutet IP65 beim Einsatz draussen?",
+      "answer": "IP65 bezeichnet Schutz gegen Staub und Strahlwasser. Daraus folgt keine pauschale Eignung bei Sturm, Frost, Hitze oder zum Laden im Regen. Entscheidend sind zusätzlich die zulässigen Einsatzbedingungen, ein geeigneter Standort und die Aufstellhinweise für das jeweilige Modell."
     },
     {
-      "question": "Wie sicher ist der Kundenstopper gegen Vandalismus oder Diebstahl?",
-      "answer": "Gehärtetes Anti-Glare-Glas schützt das Display, die Rollen lassen sich blockieren. Das Gerät kann zusätzlich verankert oder mit Sicherheitsschloss gesichert werden. Für unbeaufsichtigte Aussen-Einsätze über Nacht empfehlen wir trotzdem, das Gerät ins Innere zu rollen."
+      "question": "Wie werden Inhalte auf das neue Board übertragen?",
+      "answer": "Das neue Board verfügt über ein Android-basiertes Abspielsystem. Welche Software, Netzwerkverbindung und Aktualisierungsmöglichkeiten zu Ihrem Einsatz passen, klären wir für die gelieferte Konfiguration. Cloud-Anbindung, Mobilfunk und Offline-Funktionen werden nicht pauschal für jede Ausführung vorausgesetzt."
     },
     {
-      "question": "Lohnt sich ein digitaler Kundenstopper für kleine Betriebe?",
-      "answer": "Ja, besonders bei wechselnden Angeboten (Gastronomie, Friseur, Apotheke, Boutique). Die Investition rechnet sich oft schnell, weil keine laufenden Druckkosten und keine Wartezeit beim Plakatwechsel mehr anfallen. Plus: die Mobilität erlaubt Einsatz an unterschiedlichen Standorten ohne Mehrkosten."
+      "question": "Kann ich das Battery-Board einfach umstellen?",
+      "answer": "Rollen und Griff erleichtern Standortwechsel auf geeignetem, ebenem Untergrund. Für Treppen, Schwellen und den Transport sind die Gerätemasse, das Gewicht und geeignete Hilfsmittel zu berücksichtigen. Die Arretierung ersetzt keine Prüfung der Standsicherheit bei Wind."
     },
     {
-      "question": "Kann ich erst mieten und später kaufen?",
-      "answer": "Ja. Eine Mietphase eignet sich, um den Einsatz im Alltag zu prüfen. Auf Wunsch wird ein Teil der bezahlten Miete später auf den Kaufpreis angerechnet – das besprechen wir individuell."
+      "question": "Für welche Anwendungen eignet sich ein Battery-Board?",
+      "answer": "Typische Anwendungen sind Tagesangebote in der Gastronomie, Gästeinformationen in der Hotellerie sowie Programmhinweise und Wegleitung bei Events. Besonders interessant ist der Akkubetrieb dort, wo am Aufstellort keine Steckdose verfügbar ist. Standort, Einsatzdauer und Sicherheitsanforderungen bestimmen die passende Ausführung."
+    },
+    {
+      "question": "Was kostet ein digitaler Kundenstopper und ist Miete möglich?",
+      "answer": "Preise auf Anfrage. Wir erstellen eine Offerte passend zu Modell, Ausstattung, Software und gewünschtem Service. Ob eine Mietlösung für Ihr Gerät und Ihren Termin verfügbar ist, prüfen wir individuell. Lieferumfang, Lieferzeit und Konditionen halten wir in der Offerte fest."
     }
   ],
   "internalLinks": [
@@ -105,6 +123,14 @@
       "href": "/branchen/gastronomie/"
     },
     {
+      "label": "Hotellerie",
+      "href": "/branchen/hotellerie/"
+    },
+    {
+      "label": "Events & Messen",
+      "href": "/branchen/events/"
+    },
+    {
       "label": "High-Brightness-Display",
       "href": "/loesungen/high-brightness-display/"
     },
@@ -120,8 +146,8 @@
   "cta": {
     "eyebrow": "Projekt besprechen",
     "title": "Welcher Kundenstopper passt zu Ihrem Standort?",
-    "subtitle": "Schildern Sie kurz Standort, Einsatzort (Indoor/Outdoor) und ob Akku-Betrieb gewünscht ist – wir empfehlen das passende Modell und nennen Mietpreis oder Kaufpreis transparent.",
-    "primaryLabel": "Beratung anfragen",
+    "subtitle": "Nennen Sie uns Standort, gewünschte Einsatzdauer und Ihre Inhalte. Wir vergleichen die passende Ausführung und klären Ausstattung, Ladeplanung und Verfügbarkeit. Preise auf Anfrage.",
+    "primaryLabel": "Battery-Board anfragen",
     "primaryHref": "/kontakt",
     "secondaryLabel": "Über Meister Signage",
     "secondaryHref": "/ueber-uns"
