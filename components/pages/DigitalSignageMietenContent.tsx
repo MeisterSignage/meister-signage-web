@@ -5,49 +5,21 @@ import Link from "next/link";
 import { useState } from "react";
 import { m as motion, useReducedMotion } from "framer-motion";
 import {
-  ArrowRight, Plus, Minus, Check,
+  ArrowRight, Plus, Minus, Check, ChevronDown,
   MapPin, User, Layers, RefreshCw, Zap,
   CalendarRange, Banknote, BadgeCheck, MonitorPlay,
 } from "lucide-react";
 import { viewport, easeOut, staggerContainer, staggerItem } from "@/lib/motion";
+import {
+  RENTAL_PACKAGES as packages,
+  RENTAL_TERMS,
+  RENTAL_FAQS as faqs,
+  RENTAL_FOOTNOTE,
+  RENTAL_INCLUDED,
+  OPTIONAL_FLOOR_STAND_MONTHLY,
+} from "@/lib/rental-pricing";
 
 /* ─── Data ───────────────────────────────────────────────────────────────── */
-
-const packages = [
-  {
-    model: "Spark 3",
-    size: '32"',
-    spec: "Full HD",
-    price: 149,
-    desc: "Kompakt und präzise — ideal für Theken, Point-of-Sale und kleine Flächen.",
-    imageSrc: "/images/products/Spark3-Design.webp",
-  },
-  {
-    model: "Spark 4",
-    size: '43"',
-    spec: "4K UHD",
-    price: 159,
-    desc: "Vielseitig und präsent — für Retail, Hotellerie und Gastronomie.",
-    imageSrc: "/images/products/Spark4-Design.webp",
-  },
-  {
-    model: "Spark 5",
-    size: '50"',
-    spec: "4K UHD",
-    price: 169,
-    badge: "Beliebtestes Mietmodell",
-    desc: "Grossflächig und dominant — perfekt für Events, Messen und grosse Räume.",
-    imageSrc: "/images/products/Spark5-Design.webp",
-  },
-  {
-    model: "Spark Q+",
-    size: '33"',
-    spec: "Full HD quadr.",
-    price: 179,
-    desc: "Das quadratische Format für kreative Konzepte und besondere Inszenierungen.",
-    imageSrc: "/images/products/SparkQ-Design.webp",
-  },
-];
 
 const benefits = [
   {
@@ -58,7 +30,7 @@ const benefits = [
   {
     icon: CalendarRange,
     title: "Flexibel skalierbar",
-    desc: "Screens nach Bedarf anpassen, erweitern oder zurückgeben — ohne gebundenes Inventar.",
+    desc: "Screens und Laufzeit passend zum Einsatz wählen. Erweiterungen oder Änderungen vereinbaren wir gemeinsam.",
   },
   {
     icon: Zap,
@@ -68,7 +40,7 @@ const benefits = [
   {
     icon: BadgeCheck,
     title: "Lizenz inklusive",
-    desc: "Die Software-Lizenz ist in jedem Paket enthalten. Keine versteckten Zusatzkosten.",
+    desc: "Die Software-Lizenz ist während der vereinbarten Mietlaufzeit in jedem Spark-Paket enthalten.",
   },
   {
     icon: MonitorPlay,
@@ -127,13 +99,25 @@ const useCases = [
 
 const trustItems = [
   { icon: MapPin,    label: "Schweizer Betreuung",     desc: "Lokaler Ansprechpartner aus der Zentralschweiz" },
-  { icon: User,      label: "Persönliche Einrichtung",  desc: "Einrichtung vor Ort oder remote — betriebsbereit ab Tag 1" },
-  { icon: Layers,    label: "Alles inklusive",          desc: "Hardware, Lizenz und Support aus einer Hand" },
-  { icon: RefreshCw, label: "Flexible Laufzeit",        desc: "Keine langfristige Bindung — jederzeit anpassbar" },
+  { icon: User,      label: "Persönliche Einrichtung",  desc: "Vorkonfiguriert und eingewiesen — Vor-Ort-Montage auf Wunsch separat" },
+  { icon: Layers,    label: "Klarer Leistungsumfang",    desc: "Display, Standardeinrichtung, Lizenz und Wandhalterung inklusive" },
+  { icon: RefreshCw, label: "Passende Laufzeit",         desc: "1, 3, 6 oder 12 Monate — kürzere Einsätze auf Anfrage" },
   { icon: Zap,       label: "Kein IT-Aufwand",          desc: "Plug & Play — wir kümmern uns um die Technik" },
 ];
 
 const rentalCategories = [
+  {
+    title: "Digitale Stelen",
+    desc: "Freistehende Displays für Empfang, Orientierung und Events. Mietpreis auf Anfrage; Transport und Vor-Ort-Aufwand nach Absprache.",
+    href: "/loesungen/digitale-infostele",
+    priceLabel: "Preis auf Anfrage",
+  },
+  {
+    title: "Battery-Boards",
+    desc: "Digitale Kundenstopper mit Akku für wechselnde Einsatzorte. Mietpreis auf Anfrage; Transport und Vor-Ort-Aufwand nach Absprache.",
+    href: "/loesungen/digitale-kundenstopper",
+    priceLabel: "Preis auf Anfrage",
+  },
   {
     title: "Mobile Displays",
     desc: "Flexibel platzierbar, ideal für Eingänge, Promotionen und Events ohne feste Installation.",
@@ -146,7 +130,7 @@ const rentalCategories = [
   },
   {
     title: "Eventdisplays",
-    desc: "Für Messen, Tagungen und Anlässe – inkl. Aufbau, Inhaltsvorbereitung und Rückgabe.",
+    desc: "Für Messen, Tagungen und Anlässe – Aufbau, individuelle Inhaltsvorbereitung und Rückholung optional nach Absprache.",
     href: "/branchen/events",
   },
   {
@@ -163,45 +147,6 @@ const rentalCategories = [
     title: "Leitsysteme",
     desc: "Wegeleitung und Besucherführung für Events, Tagungen und temporäre Bereiche.",
     href: "/loesungen/digitale-leitsysteme",
-  },
-];
-
-const faqs = [
-  {
-    question: "Welche Displays können gemietet werden?",
-    answer: "Gemietet werden können mobile Displays, doppelseitige Displays, Eventdisplays, Menüboards, Empfangsdisplays und digitale Leitsysteme. Für jede Anwendung wählen wir gemeinsam das passende Format.",
-  },
-  {
-    question: "Eignen sich Mietdisplays für Events?",
-    answer: "Ja. Mietdisplays sind besonders für Messen, Tagungen, Anlässe und Pop-ups gemacht. Wir bereiten Inhalte, Layout und Aufbau auf den Einsatz vor und nehmen das Equipment nach dem Event wieder zurück.",
-  },
-  {
-    question: "Können Inhalte vorbereitet werden?",
-    answer: "Ja. Auf Wunsch übernehmen wir die Vorbereitung der Inhalte – Templates, Texte, Bilder und Zeitpläne sind bei Lieferung bereits eingerichtet. So ist das Display ab Tag 1 betriebsbereit.",
-  },
-  {
-    question: "Gibt es Unterstützung beim Aufbau?",
-    answer: "Ja. Wir liefern vorkonfiguriert. Auf Wunsch unterstützen wir persönlich vor Ort beim Aufbau und der Inbetriebnahme – gerade bei Events und mehreren Displays bewährt sich das.",
-  },
-  {
-    question: "Wie kurzfristig sind Mietlösungen möglich?",
-    answer: "Je nach Verfügbarkeit auch sehr kurzfristig. Für Events empfehlen wir, frühzeitig anzufragen, damit Inhalte, Layout und Lieferung in Ruhe vorbereitet werden können.",
-  },
-  {
-    question: "Wie lange muss ich mindestens mieten?",
-    answer: "Die Mietdauer richtet sich nach Ihrem Bedarf – vom dreitägigen Event bis zum mehrjährigen Dauereinsatz. Wir kalkulieren transparent auf Basis der gewünschten Einsatzdauer. Häufige Konstellationen: Eventmiete (3–14 Tage), Pop-up/Saison (1–6 Monate), Dauer- oder Übergangsmiete (ab 1 Monat aufwärts).",
-  },
-  {
-    question: "Was ist im Mietpreis enthalten?",
-    answer: "Die Pakete beinhalten den jeweiligen Display sowie die Lizenzgebühren für die Nutzung. Je nach Projekt können zusätzliche Setup-Leistungen anfallen — das klären wir transparent im Voraus.",
-  },
-  {
-    question: "Gibt es eine Einrichtungspauschale?",
-    answer: "Ja. Für Vorbereitung, Einrichtung und individuelle Konfiguration fällt eine einmalige Einrichtungspauschale von CHF 149 pro Display an. Aufwendigere Projekte weisen wir im Angebot transparent aus.",
-  },
-  {
-    question: "Kann ich später kaufen statt mieten?",
-    answer: "Das kann individuell besprochen werden. Die Miete eignet sich auch gut, um Digital Signage zuerst im Alltag zu testen, bevor eine langfristige Kaufentscheidung getroffen wird.",
   },
 ];
 
@@ -323,7 +268,7 @@ export default function DigitalSignageMietenContent() {
               className="mb-10 max-w-[440px] leading-relaxed"
               style={{ fontSize: "clamp(1rem, 1.5vw, 1.15rem)", color: "rgba(209,213,219,0.9)" }}
             >
-              Einen professionellen Bildschirm mieten statt kaufen: Unsere Digital-Signage-Displays eignen sich für Events, Messen, Pop-ups und den laufenden Einsatz. Ab CHF 149/Mt. inkl. Lizenz und persönlicher Betreuung.
+              Einen professionellen Bildschirm mieten statt kaufen: Unsere Digital-Signage-Displays eignen sich für Events, Messen, Pop-ups und den laufenden Einsatz. Ab CHF {packages[0].monthlyPrices[12]} pro Display und Monat* bei 12 Monaten Laufzeit – inklusive Einrichtung, Softwarelizenz und Wandhalterung.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -445,7 +390,7 @@ export default function DigitalSignageMietenContent() {
               Transparente Pakete. Sofort einsetzbar.
             </h2>
             <p className="mt-3 max-w-lg text-[16px] leading-relaxed text-cgray">
-              Vier Modelle — vom kompakten Thekendisplay bis zum grossen Event-Screen. Alle inkl. Lizenz und persönlicher Betreuung.
+              Vier Modelle — vom kompakten Thekendisplay bis zum grossen Event-Screen. Alle inklusive Standardeinrichtung, Softwarelizenz und Wandhalterung.
             </p>
           </motion.div>
 
@@ -516,13 +461,13 @@ export default function DigitalSignageMietenContent() {
                   <div className="mb-4 flex items-baseline gap-1.5">
                     <span className="text-[13px] font-semibold text-cgray">ab</span>
                     <span className="text-[26px] font-black tracking-tight text-navy">
-                      CHF {pkg.price}
+                      CHF {pkg.monthlyPrices[12]}
                     </span>
                     <span className="text-[13px] font-semibold text-cgray">/ Mt.<sup className="text-[10px]">*</sup></span>
                   </div>
                   <p className="mb-5 text-[13px] leading-relaxed text-cgray">{pkg.desc}</p>
                   <ul className="mb-5 space-y-2">
-                    {["Software-Lizenz inklusive", "Persönliche Einrichtungshilfe", "Plug & Play"].map(
+                    {RENTAL_INCLUDED.map(
                       (f) => (
                         <li key={f} className="flex items-center gap-2">
                           <span className="flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-gold/12">
@@ -546,14 +491,82 @@ export default function DigitalSignageMietenContent() {
           </motion.div>
 
           <motion.p
-            className="mt-8 text-center text-[12px] text-cgray/60"
+            id="mietpreis-hinweis"
+            className="mt-8 text-center text-[13px] leading-relaxed text-cgray"
             initial={reduced ? false : { opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={viewport}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            * Preise pro Display / Monat, exkl. MwSt. Einmalige Einrichtungspauschale CHF 149 pro Display. Unverbindlich anfragen – Konditionen weisen wir vorab transparent aus.
+            * {RENTAL_FOOTNOTE}
           </motion.p>
+
+          <details className="group/terms mt-8 rounded-[18px] border border-navy/10 bg-white">
+            <summary className="flex cursor-pointer list-none items-center justify-between gap-4 rounded-[18px] px-5 py-6 text-[16px] font-semibold text-navy focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-magenta sm:px-7 [&::-webkit-details-marker]:hidden">
+              Alle Mietlaufzeiten vergleichen
+              <ChevronDown
+                aria-hidden="true"
+                className="h-5 w-5 shrink-0 text-magenta transition-transform group-open/terms:rotate-180"
+              />
+            </summary>
+            <div className="border-t border-navy/10 px-5 pb-6 pt-5 sm:px-7">
+              <p className="mb-4 text-[14px] leading-relaxed text-cgray">
+                Wählen Sie Ihre Mietlaufzeit. Alle Beträge gelten pro Display und Monat für die angegebene Laufzeit – inklusive Standardeinrichtung, Softwarelizenz und Wandhalterung.
+              </p>
+              <div
+                role="region"
+                aria-label="Mietpreise nach Laufzeit, horizontal scrollbar"
+                tabIndex={0}
+                className="overflow-x-auto rounded-[12px] border border-navy/10 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-magenta"
+              >
+                <table className="w-full min-w-[540px] border-collapse text-left text-[14px] tabular-nums">
+                  <caption className="caption-top bg-offwhite px-4 py-3 text-left text-[13px] font-medium text-cgray">
+                    Spark-Mietpreise in CHF pro Display und Monat
+                  </caption>
+                  <thead className="border-y border-navy/10 bg-offwhite text-navy">
+                    <tr>
+                      <th scope="col" className="px-4 py-4 font-semibold">Modell</th>
+                      {RENTAL_TERMS.map((months) => (
+                        <th key={months} scope="col" className="px-4 py-4 text-right font-semibold">
+                          {months} {months === 1 ? "Monat" : "Monate"}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-navy/10">
+                    {packages.map((pkg) => (
+                      <tr key={pkg.model}>
+                        <th scope="row" className="whitespace-nowrap px-4 py-4 font-semibold text-navy">
+                          {pkg.model}
+                        </th>
+                        {RENTAL_TERMS.map((months) => (
+                          <td
+                            key={months}
+                            className={`whitespace-nowrap px-4 py-4 text-right ${months === 12 ? "bg-magenta/5 font-semibold text-navy" : "text-cgray"}`}
+                          >
+                            CHF {pkg.monthlyPrices[months]}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <p className="mt-3 text-[12px] text-cgray sm:hidden">Auf kleinen Bildschirmen seitlich wischen, um alle Laufzeiten zu sehen.</p>
+              <p className="mt-4 text-[13px] leading-relaxed text-cgray">
+                Kürzere Einsätze und individuelle Laufzeiten auf Anfrage. Es gilt die jeweils vereinbarte Mietlaufzeit.
+              </p>
+            </div>
+          </details>
+
+          <div className="mt-6 rounded-[14px] border border-navy/8 bg-white px-5 py-5 sm:px-7">
+            <p className="text-[14px] font-semibold text-navy">
+              Optional: Bodenständer für CHF {OPTIONAL_FLOOR_STAND_MONTHLY} pro Monat zusätzlich.
+            </p>
+            <p className="mt-2 text-[13px] leading-relaxed text-cgray">
+              Lieferung auf Anfrage, Abholung möglich. Montage vor Ort und Rückholung werden separat nach Absprache offeriert. Die Standardeinrichtung ist bereits im Mietpreis enthalten – ohne zusätzliche Einrichtungspauschale.
+            </p>
+          </div>
 
         </div>
       </section>
@@ -639,9 +652,9 @@ export default function DigitalSignageMietenContent() {
               Vom Eventtag bis zum Dauereinsatz – flexibel mietbar.
             </h2>
             <p className="mt-3 max-w-2xl text-[16px] leading-relaxed text-cgray">
-              Sie mieten so lange, wie Sie das Display brauchen. Ob für eine dreitägige Messe, eine
-              Pop-up-Saison oder einen mehrmonatigen Übergang – Lieferung, Aufbau und Rückholung
-              stimmen wir auf Ihren Zeitplan ab.
+              Wählen Sie eine Laufzeit von 1, 3, 6 oder 12 Monaten. Kürzere Einsätze, etwa für eine
+              dreitägige Messe, offerieren wir auf Anfrage. Lieferung, Montage vor Ort und Rückholung
+              stimmen wir separat mit Ihnen ab.
             </p>
           </motion.div>
 
@@ -657,7 +670,7 @@ export default function DigitalSignageMietenContent() {
                 eyebrow: "Kurzzeit",
                 title: "Event, Messe, Tagung",
                 duration: "wenige Tage bis 2 Wochen",
-                body: "Für einmalige Anlässe: Display, Inhalte und Aufbau passend zum Event vorbereitet. Lieferung und Abholung abgestimmt auf Veranstaltungsbeginn und -ende.",
+                body: "Für einmalige Anlässe: Mietpreis auf Anfrage. Individuelle Inhalte, Aufbau, Lieferung und Rückholung können separat passend zum Event vereinbart werden.",
                 useCases: "Messeauftritte · Konferenzen · Eröffnungen · Sponsorenanzeigen",
               },
               {
@@ -670,8 +683,8 @@ export default function DigitalSignageMietenContent() {
               {
                 eyebrow: "Dauer­einsatz",
                 title: "Test- oder Übergangs­miete",
-                duration: "ab einem Monat aufwärts",
-                body: "Wenn Sie Digital Signage erst im Alltag prüfen wollen, bevor Sie kaufen – oder eine Übergangslösung benötigen. Späterer Wechsel auf Kauf jederzeit möglich.",
+                duration: "6 oder 12 Monate",
+                body: "Wenn Sie Digital Signage erst im Alltag prüfen wollen, bevor Sie kaufen – oder eine Übergangslösung benötigen. Einen späteren Wechsel auf Kauf können wir individuell besprechen.",
                 useCases: "Filialtest · Konzept­validierung · Übergang vor Umbau · Kauf-Vorlauf",
               },
             ].map((scen) => (
@@ -777,6 +790,9 @@ export default function DigitalSignageMietenContent() {
                     {cat.title}
                   </h3>
                   <p className="flex-1 text-[14px] leading-relaxed text-cgray">{cat.desc}</p>
+                  {cat.priceLabel && (
+                    <p className="mt-4 text-[13px] font-semibold text-navy">{cat.priceLabel}</p>
+                  )}
                   <span className="mt-5 inline-flex items-center gap-1.5 text-[12px] font-bold uppercase tracking-[0.1em] text-magenta">
                     {cat.title} ansehen
                     <ArrowRight className="h-3 w-3 transition-transform duration-200 group-hover:translate-x-1" strokeWidth={2.5} />
@@ -808,7 +824,7 @@ export default function DigitalSignageMietenContent() {
                 letterSpacing: "-0.025em",
               }}
             >
-              Professionell präsent — ohne langfristige Bindung.
+              Professionell präsent — mit passender Mietlaufzeit.
             </h2>
             <p className="mt-3 max-w-lg text-[16px] leading-relaxed text-cgray">
               Für temporäre Einsätze, Tests und flexible Einsatzorte ist die Miete oft die pragmatischere Wahl.
@@ -1108,8 +1124,8 @@ export default function DigitalSignageMietenContent() {
               {[
                 { n: "01", title: "Bedarf klären",     body: "Wir besprechen Einsatzort, Laufzeit und Grösse persönlich." },
                 { n: "02", title: "Paket wählen",      body: "Gemeinsam wählen wir den passenden Screen für Ihren Einsatz." },
-                { n: "03", title: "Einrichtung",       body: "Lieferung und Konfiguration — betriebsbereit ab dem ersten Tag." },
-                { n: "04", title: "Flexibel nutzen",   body: "Sie verwenden den Screen — und geben ihn bei Bedarf wieder zurück." },
+                { n: "03", title: "Einrichtung",       body: "Standardeinrichtung inklusive — Lieferung und Montage vor Ort nach Absprache." },
+                { n: "04", title: "Screen nutzen",     body: "Sie verwenden den Screen während der vereinbarten Laufzeit. Rückgabe oder Verlängerung stimmen wir gemeinsam ab." },
               ].map((step) => (
                 <div key={step.n} className="flex flex-col gap-4">
                   <span className="text-[13px] font-black tracking-tight" style={{ color: "#fe019a" }}>

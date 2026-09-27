@@ -113,6 +113,7 @@ export interface RentalOffer {
   name: string;
   description: string;
   monthlyPrice: number;
+  rentalDurationMonths?: number;
   image: string;
   /** Optional model-specific specs for additionalProperty enrichment. */
   screenSize?: string;
@@ -150,6 +151,14 @@ export function rentalOfferSchema(offers: RentalOffer[], pageUrl: string) {
       price: offer.monthlyPrice,
       priceValidUntil: new Date(Date.now() + 90 * 86400000).toISOString().slice(0, 10),
       availability: "https://schema.org/InStock",
+      businessFunction: "http://purl.org/goodrelations/v1#LeaseOut",
+      ...(offer.rentalDurationMonths ? {
+        eligibleDuration: {
+          "@type": "QuantitativeValue",
+          value: offer.rentalDurationMonths,
+          unitCode: "MON",
+        },
+      } : {}),
       priceSpecification: {
         "@type": "UnitPriceSpecification",
         price: offer.monthlyPrice,
