@@ -9,7 +9,7 @@ export const contentType = og.contentType;
 export default async function Image() {
   return renderOgImage({
     eyebrow: "Displays mieten",
-    title: "Flexibel einsetzen. Ohne Bindung.",
-    subtitle: "Digital-Signage-Screens ab CHF 149 – inklusive Lizenz, persönlich aus der Schweiz betreut.",
+    title: "Mieten. Passend zu Ihrem Einsatz.",
+    subtitle: "Ab CHF 119 pro Display und Monat bei 12 Monaten Laufzeit. Einrichtung, Lizenz und Wandhalterung inklusive.",
   });
 }

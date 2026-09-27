@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Check, MonitorPlay, BadgeCheck, Zap, Banknote, UserCheck, RefreshCw } from "lucide-react";
+import { RENTAL_FOOTNOTE } from "@/lib/rental-pricing";
 
 type Package = {
   name: string;
@@ -24,7 +25,7 @@ type RentalPackagesSectionProps = {
 
 const MINI_BENEFITS = [
   { icon: MonitorPlay, label: "Moderne Technik" },
-  { icon: BadgeCheck,  label: "Alles inklusive" },
+  { icon: BadgeCheck,  label: "Lizenz inklusive" },
   { icon: Zap,         label: "Schnelle Installation" },
   { icon: Banknote,    label: "Planbare Kosten" },
   { icon: UserCheck,   label: "Persönlicher Support" },
@@ -70,13 +71,13 @@ export default function RentalPackagesSection({
 
         {/* Note */}
         {note && (
-          <p className="mt-6 text-center text-[12px] text-cgray/60">
+          <p className="mt-6 text-center text-[13px] leading-relaxed text-cgray">
             {note}
           </p>
         )}
         {!note && (
-          <p className="mt-6 text-center text-[12px] text-cgray/60">
-            Alle Preise exkl. MwSt. · Mindestmietdauer auf Anfrage · Einmalige Einrichtungspauschale CHF 149.
+          <p className="mt-6 text-center text-[13px] leading-relaxed text-cgray">
+            {RENTAL_FOOTNOTE} Lieferung auf Anfrage, Abholung möglich.
           </p>
         )}
 

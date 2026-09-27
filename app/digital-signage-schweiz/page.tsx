@@ -52,7 +52,7 @@ const PAGE_FAQS = [
   {
     question: "Können Displays gemietet werden?",
     answer:
-      "Ja. Meister Signage bietet flexible Mietpakete ab CHF 149 — inklusive Lizenz, Cloud-Steuerung und Support. Ideal für Events oder als Einstieg.",
+      "Ja. Spark-Displays mieten Sie ab CHF 119 pro Display und Monat bei 12 Monaten Laufzeit – inklusive Standardeinrichtung, Softwarelizenz, Wandhalterung und Support. Für 1, 3 oder 6 Monate gelten eigene Monatsraten; kürzere Events, Stelen und Battery-Boards offerieren wir auf Anfrage. Lieferung auf Anfrage, Abholung möglich.",
   },
   {
     question: "Unterstützt Meister Signage bei Installation und Betreuung?",

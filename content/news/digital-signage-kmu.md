@@ -1,7 +1,7 @@
 ---
 title: "Digital Signage für KMU: mit einem Display starten"
 seoTitle: "Digital Signage KMU Schweiz – kleiner Start"
-description: "Digital Signage für Schweizer KMU: mit einem Display ab CHF 149 Miete oder CHF 1.399 Kauf starten – einfach, planbar und ohne eigene IT."
+description: "Digital Signage für KMU: ab CHF 119 pro Display und Monat bei 12 Monaten Mietlaufzeit oder ab CHF 1.399 Kaufpreis."
 date: "2026-08-11T06:00:00+02:00"
 category: "Tipps"
 image: "/images/products/Unternehmen-Empfang.webp"
@@ -33,7 +33,7 @@ Alle drei Einwände sind verständlich. Und bei allen dreien hat sich in den let
 
 ## Was heute möglich ist
 
-Ein einzelnes Display mit eingebautem Media Player und cloudbasierter Software gibt es ab CHF 1.399 zum Kauf oder ab CHF 149 zur Miete – inklusive Software-Lizenz. Die Einrichtung dauert weniger als eine Stunde, die Bedienung erfordert keine IT-Kenntnisse.
+Ein einzelnes Display mit eingebautem Media Player gibt es ab CHF 1.399 zum Kauf oder ab CHF 119 pro Display und Monat bei 12 Monaten Mietlaufzeit. Bei der Miete sind Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlicher Support enthalten. Beim Kauf kommen CHF 149 für die Einrichtung und CHF 180 pro Jahr für die Softwarelizenz hinzu. Die Einrichtung dauert weniger als eine Stunde, die Bedienung erfordert keine IT-Kenntnisse.
 
 Inhalte werden über ein Web-Interface gepflegt — ähnlich einfach wie das Erstellen einer Instagram-Story. Text eingeben, Bild hochladen, Zeitplan festlegen, fertig. Mehr zur Cloud-Steuerung: [Software-Lösung](/loesungen/software/).
 
@@ -77,9 +77,9 @@ Gerade für KMU ist es wichtig, einen Ansprechpartner zu haben, der bei Fragen e
 | Variante | Preisbereich |
 |---|---|
 | Kauf (1 Display) | ab CHF 1.399 |
-| Miete (flexibel) | ab CHF 149 |
+| Miete bei 12 Monaten Laufzeit | ab CHF 119 pro Display und Monat |
 
-Software, Einrichtung und Einweisung sind inklusive. Eine detaillierte Übersicht aller Posten finden Sie auf unserer [Kostenseite](/was-kostet-digital-signage-schweiz/). Was beim Kauf zusätzlich kommt (Lizenz, Versand etc.), zeigen wir transparent im Artikel [Versteckte Kosten bei Digital Signage](/news/digital-signage-kosten-schweiz/).
+Die Miete enthält Display, Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlichen Support ohne zusätzliche Einrichtungspauschale. Ein Bodenständer kostet optional CHF 50 pro Monat. Lieferung auf Anfrage, Abholung möglich; Montage vor Ort, Rückholung und individuelle Inhalte werden separat offeriert. Andere Monatsraten für 1, 3 oder 6 Monate finden Sie auf der [Mietseite](/digital-signage-mieten/). Beim Kauf kommen CHF 149 für die Einrichtung und CHF 180 pro Jahr für die Lizenz hinzu. Eine detaillierte Übersicht aller Posten finden Sie auf unserer [Kostenseite](/was-kostet-digital-signage-schweiz/).
 
 ## Fazit
 

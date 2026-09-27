@@ -10,6 +10,7 @@ import {
   TrendingUp, Banknote, Settings2, BadgeCheck, UserCheck,
 } from "lucide-react";
 import { viewport, easeOut, staggerContainer, staggerItem } from "@/lib/motion";
+import { RENTAL_PACKAGES, RENTAL_FOOTNOTE } from "@/lib/rental-pricing";
 
 /* ─── Data ───────────────────────────────────────────────────────────────── */
 
@@ -613,7 +614,7 @@ export default function DigitalSignageKaufenContent() {
                   { label: "Stromverbrauch (typ.)", values: ["36 W", "63 W", "81 W", "53 W"] },
                   { label: "Ideal für", values: ["Menüboards, Empfang", "Gastronomie, Retail", "Schaufenster, grosse Flächen", "Spezialinstallationen"] },
                   { label: "Kaufpreis", values: ["CHF 1'399", "CHF 1'599", "CHF 1'699", "CHF 1'799"], bold: true },
-                  { label: "Mietpreis", values: ["ab CHF 149", "ab CHF 159", "ab CHF 169", "ab CHF 179"], bold: true },
+                  { label: "Miete/Mt. bei 12 Monaten", values: RENTAL_PACKAGES.map((pkg) => `CHF ${pkg.monthlyPrices[12]}`), bold: true },
                   { label: "Cloud-Steuerung", values: ["check", "check", "check", "check"] },
                   { label: "Persönlicher Support", values: ["check", "check", "check", "check"] },
                   { label: "24 V DC am Display", values: ["check", "check", "check", "check"] },
@@ -665,8 +666,8 @@ export default function DigitalSignageKaufenContent() {
             </table>
           </motion.div>
 
-          <p className="mt-6 text-center text-[12px] text-cgray/60">
-            Alle Preise aufgrund der Unternehmensform ohne MWST. Einrichtung, Versand und Software separat ausgewiesen.
+          <p className="mt-6 text-center text-[13px] leading-relaxed text-cgray">
+            Miete: {RENTAL_FOOTNOTE} Beim Kauf werden Einrichtung und Software separat ausgewiesen. Lieferung auf Anfrage, Abholung möglich.
           </p>
 
         </div>

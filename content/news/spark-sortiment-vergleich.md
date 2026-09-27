@@ -37,7 +37,7 @@ Vier Modelle, vier Stärken. Das Spark-Sortiment von Meister Signage deckt die h
 | Konnektivität | WiFi6 + BT 5.2 | WiFi6 + BT 5.2 | WiFi6 + BT 5.2 | WiFi6 + BT 5.2 |
 | Dauer­betrieb | 24/7 | 24/7 | 24/7 | 24/7 |
 | Kauf ab | CHF 1.399 | CHF 1.599 | CHF 1.699 | CHF 1.799 |
-| Miete ab | CHF 149 | CHF 159 | CHF 169 | CHF 179 |
+| Miete pro Display und Monat bei 12 Monaten Laufzeit | CHF 119 | CHF 129 | CHF 139 | CHF 149 |
 | Charakter | Kompakt | Vielseitig | Grossflächig | Kreativ |
 
 Alle Modelle: eingebauter Media Player, Datenverbindung 100 % wireless (keine HDMI-/USB-/Ethernet-Ports), Strom­versorgung über externes 120-W-Netzteil mit 24 V DC am Display (GS- und TÜV-zertifiziert, Effizienz-Klasse VI).
@@ -96,7 +96,7 @@ Alle Spark-Displays werden über dieselbe cloud­basierte Plattform verwaltet. W
 
 ## Kaufen oder mieten?
 
-Alle Modelle sind als Kauf und im Mietmodell verfügbar. Die Miete enthält Software und Support — ideal für den Einstieg oder temporäre Einsätze. Mehr dazu: [Digital Signage mieten](/digital-signage-mieten/) oder [kaufen](/digital-signage-kaufen/).
+Alle Modelle sind als Kauf und im Mietmodell verfügbar. Die oben genannten Monatsraten gelten pro Display bei 12 Monaten Laufzeit und enthalten Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlichen Support. Für 1, 3 oder 6 Monate gelten andere Monatsraten; kürzere Eventeinsätze auf Anfrage. Ein Bodenständer ist optional für CHF 50 pro Monat erhältlich. Lieferung auf Anfrage, Abholung möglich; Montage vor Ort, Rückholung und individuelle Inhalte werden separat offeriert. Beim Kauf kommen CHF 149 für die Einrichtung und CHF 180 pro Jahr für die Softwarelizenz hinzu. Mehr dazu: [Digital Signage mieten](/digital-signage-mieten/) oder [kaufen](/digital-signage-kaufen/).
 
 ## Nächste Schritte
 

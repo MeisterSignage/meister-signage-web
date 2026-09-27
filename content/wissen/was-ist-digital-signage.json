@@ -12,8 +12,8 @@
     "Statt jede Tafel manuell zu wechseln, werden Inhalte einmal vorbereitet und automatisch zum passenden Zeitpunkt ausgespielt: Mittagsmenü von 11–14 Uhr, Aktion am Wochenende, Eventhinweis nur in einer bestimmten Woche. Ein einzelnes Display am Empfang wird genauso verwaltet wie Dutzende Bildschirme über mehrere Standorte – immer aus einer zentralen Oberfläche.",
     "Als Hardware kommen meist hochwertige LCD-Displays für den 24/7-Dauerbetrieb zum Einsatz – im Innenbereich typischerweise 32 bis 55 Zoll in 4K. Für besondere Einsätze gibt es Sonderformate: ultrabreite Stretched Bars für Regalkanten, transparente Displays für Vitrinen, doppelseitige Stelen, besonders helle Schaufenster-Displays sowie grossflächige LED Walls.",
     "Die Software (das CMS) ist das Herzstück. Sie läuft im Browser ohne lokalen PC und erlaubt Inhalte per Drag-and-Drop, Zeitpläne, fertige Vorlagen, Apps wie Wetter, News oder Social-Media-Wände sowie die Fernsteuerung mehrerer Bildschirme und Standorte. Inhalte werden lokal zwischengespeichert und laufen auch bei einem Internetausfall weiter.",
-    "Was kostet Digital Signage in der Schweiz? Schlüsselfertige Display-Lösungen beginnen im Kauf bei rund CHF 1'300–1'600 pro Bildschirm, in der Miete ab rund CHF 149 pro Monat inklusive Software. Dazu kommen Einrichtung und – beim Kauf – eine Software-Lizenz. Der genaue Preis hängt von Grösse, Stückzahl und Montage ab.",
-    "Kaufen oder mieten? Kaufen lohnt sich für den dauerhaften Einsatz, Mieten für Events, Pop-ups oder zum Testen – bei der Miete sind Hardware, Software und Support meist inbegriffen. Beides ist möglich; wir empfehlen je nach Vorhaben das passende Modell.",
+    "Was kostet Digital Signage in der Schweiz? Spark-Displays beginnen beim Kauf bei CHF 1'399 pro Bildschirm, zuzüglich CHF 149 Einrichtung und CHF 180 pro Jahr für die Softwarelizenz. Die Spark-Miete beginnt bei CHF 119 pro Display und Monat bei 12 Monaten Laufzeit – inklusive Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlichem Support. Lieferung auf Anfrage, Abholung möglich; Montage vor Ort, Rückholung und individuelle Inhalte werden separat offeriert. Für andere Laufzeiten gelten andere Monatsraten. Stelen und Battery-Boards zur Miete: Preise auf Anfrage.",
+    "Kaufen oder mieten? Die Entscheidung hängt von Nutzungsdauer und Leistungsumfang ab. Die Spark-Miete enthält Hardware, Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlichen Support. Laufzeiten von 1, 3, 6 oder 12 Monaten sind möglich; kürzere Eventeinsätze offerieren wir auf Anfrage. Wir empfehlen je nach Vorhaben das passende Modell.",
     "Als Schweizer Anbieter übernehmen wir Beratung, Installation und 24/7-Service vor Ort. Die Bearbeitung von Personendaten erfolgt im Einklang mit dem Schweizer Datenschutzgesetz (revDSG) – auf Wunsch betreiben wir die Lösung datenschutzfreundlich, und Inhalte laufen auch lokal auf dem Display."
   ],
   "examples": [
@@ -62,7 +62,7 @@
     },
     {
       "question": "Was kostet Digital Signage in der Schweiz?",
-      "answer": "Schlüsselfertige Lösungen beginnen im Kauf bei rund CHF 1'300–1'600 pro Display, in der Miete ab rund CHF 149 pro Monat inklusive Software. Dazu kommen Einrichtung und beim Kauf eine Lizenz. Der genaue Preis hängt von Grösse, Stückzahl und Montage ab."
+      "answer": "Spark-Displays beginnen beim Kauf bei CHF 1'399 pro Display, zuzüglich CHF 149 Einrichtung und CHF 180 pro Jahr für die Softwarelizenz. Die Spark-Miete beginnt bei CHF 119 pro Display und Monat bei 12 Monaten Laufzeit – inklusive Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlichem Support. Lieferung auf Anfrage, Abholung möglich; Montage vor Ort, Rückholung und individuelle Inhalte werden separat offeriert. Ein Bodenständer ist optional für CHF 50 pro Monat erhältlich. Stelen und Battery-Boards zur Miete: Preise auf Anfrage."
     },
     {
       "question": "Welche Hardware brauche ich für Digital Signage?",
@@ -74,7 +74,7 @@
     },
     {
       "question": "Was ist der Unterschied zwischen Digital Signage kaufen und mieten?",
-      "answer": "Kaufen lohnt sich für den dauerhaften Einsatz, Mieten für Events, Pop-ups oder zum Testen. Bei der Miete sind Hardware, Software und Support meist inbegriffen."
+      "answer": "Beim Kauf gehört das Display Ihnen; Einrichtung und Softwarelizenz werden separat berechnet. Bei der Spark-Miete nutzen Sie das Gerät für die vereinbarte Laufzeit. Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlicher Support sind im Mietpreis enthalten. Welche Variante passt, hängt von Nutzungsdauer und Leistungsumfang ab."
     },
     {
       "question": "Wie viele Bildschirme kann ich zentral verwalten?",

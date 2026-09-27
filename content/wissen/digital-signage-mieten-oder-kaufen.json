@@ -8,9 +8,9 @@
   "intro": "Beide Modelle haben ihre Berechtigung. Welche Variante sinnvoll ist, hängt von Nutzungsdauer, Flexibilität und Budget ab – nicht vom Bauchgefühl.",
   "definition": "Mieten lohnt sich, wenn Einsätze temporär sind, Flexibilität wichtig ist oder Digital Signage zuerst getestet werden soll. Kaufen lohnt sich, wenn Displays langfristig genutzt werden, mehrere Standorte ausgestattet werden und volle Eigentümerschaft gewünscht ist.",
   "explanation": [
-    "Beim Mieten zahlen Sie eine planbare monatliche Gebühr – inklusive Softwarelizenz und Support. Die Anfangsinvestition bleibt tief, die Laufzeit ist flexibel, und nach dem Einsatz wird das Equipment zurückgegeben.",
+    "Bei der Spark-Miete zahlen Sie eine monatliche Rate für die vereinbarte Laufzeit von 1, 3, 6 oder 12 Monaten – inklusive Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlichem Support. Der Einstieg liegt bei CHF 119 pro Display und Monat bei 12 Monaten Laufzeit. Kürzere Eventeinsätze und andere Laufzeiten offerieren wir auf Anfrage.",
     "Beim Kauf gehört das Display Ihnen. Über die Nutzungsdauer ist diese Variante in der Regel günstiger – die Anfangsinvestition ist allerdings höher und Sie tragen Lizenz, Wartung und allfällige Updates selbst.",
-    "Eine Zwischenlösung: Sie starten mit Miete und entscheiden sich später für den Kauf. 30 % der bezahlten Mieten können auf den Kaufpreis angerechnet werden – so wird der Übergang fliessend."
+    "Eine Zwischenlösung: Sie starten mit Miete und prüfen später den Kauf. Einen Wechsel und eine allfällige Anrechnung besprechen wir individuell; eine feste Anrechnungsquote ist nicht zugesagt."
   ],
   "examples": [
     {
@@ -23,12 +23,12 @@
     },
     {
       "title": "Mieten dann Kaufen",
-      "description": "Sie testen die Lösung im Mietmodell und steigen bei Bedarf in den Kauf um – 30 % der Mieten werden angerechnet."
+      "description": "Sie testen die Lösung im Mietmodell und besprechen bei Bedarf einen späteren Kauf. Die Konditionen und eine allfällige Anrechnung werden individuell vereinbart."
     }
   ],
   "benefits": [
     "Mieten: keine Kapitalbindung, monatlich planbar",
-    "Mieten: Lizenz und Support inkludiert",
+    "Spark-Miete: Standardeinrichtung, Lizenz, Wandhalterung und persönlicher Support enthalten",
     "Mieten: flexibel bei Events und Pop-ups",
     "Kaufen: günstiger über mehrere Jahre",
     "Kaufen: volle Eigentümerschaft",
@@ -41,15 +41,15 @@
     },
     {
       "question": "Kann ich von Miete auf Kauf wechseln?",
-      "answer": "Ja. Nach einer Mietphase können 30 % der bezahlten Monatsmieten exkl. Einrichtungspauschale auf den Kaufpreis angerechnet werden."
+      "answer": "Einen späteren Kauf können wir individuell besprechen. Ob und in welchem Umfang bisherige Mieten angerechnet werden, wird ausdrücklich vereinbart; es gibt keine pauschal zugesagte Anrechnungsquote."
     },
     {
       "question": "Was ist im Mietmodell enthalten?",
-      "answer": "Display, Softwarelizenz, Cloud-Steuerung und Support. Je nach Projekt fällt eine einmalige Einrichtungspauschale von CHF 149 an, die im Angebot ausgewiesen wird."
+      "answer": "Bei den Spark-Mietpaketen sind Display, Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlicher Support enthalten – ohne zusätzliche Einrichtungspauschale. Ein Bodenständer ist optional für CHF 50 pro Monat erhältlich. Lieferung auf Anfrage, Abholung möglich; Montage vor Ort, Rückholung und individuelle Inhalte werden separat offeriert. Mietpreise für Stelen und Battery-Boards erhalten Sie auf Anfrage."
     },
     {
       "question": "Wann lohnt sich der Kauf?",
-      "answer": "Wenn Displays länger als drei Jahre eingesetzt werden, mehrere Standorte ausgestattet werden oder Eigentum aus betrieblichen Gründen bevorzugt wird."
+      "answer": "Wenn Displays langfristig genutzt werden oder Eigentum aus betrieblichen Gründen bevorzugt wird. Entscheidend sind die geplante Nutzungsdauer und ein Vergleich mit dem gleichen Leistungsumfang, nicht eine pauschale Jahresgrenze."
     }
   ],
   "internalLinks": [

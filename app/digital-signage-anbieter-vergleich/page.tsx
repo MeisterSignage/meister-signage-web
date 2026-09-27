@@ -86,7 +86,7 @@ const ROWS: Row[] = [
   {
     criterion: "Transparente Preise auf der Website",
     cells: [
-      { type: "yes", note: "ab CHF 149 (Miete) oder CHF 1.399 (Kauf)" },
+      { type: "yes", note: "Miete ab CHF 119/Display/Monat bei 12 Monaten; Gerätekauf ab CHF 1.399" },
       { type: "no" },
       { type: "no" },
       { type: "no", note: "Beratungsmodell" },
@@ -517,7 +517,7 @@ export default function AnbieterVergleichPage() {
           {[
             {
               title: "Preise sichtbar – sofort einschätzbar",
-              body: "Sie wissen vor dem ersten Gespräch, ob das Budget reicht. Ab CHF 1.399 zum Kauf (Lizenz ab CHF 180/Jahr) oder ab CHF 149 zur Miete inkl. Lizenz.",
+              body: "Gerätekauf ab CHF 1.399, zuzüglich Einrichtung und Lizenz ab CHF 180/Jahr. Miete ab CHF 119 pro Display und Monat bei 12 Monaten Laufzeit – inklusive Standardeinrichtung, Lizenz und Wandhalterung. Lieferung auf Anfrage, Abholung möglich.",
             },
             {
               title: "Klares Spark-Sortiment + Flexibilität",
@@ -537,15 +537,15 @@ export default function AnbieterVergleichPage() {
             },
             {
               title: "Schlüsselfertig & transparent",
-              body: "Bei der Miete sind Display, Software-Lizenz, Einrichtung und Lieferung in einem Monatspreis enthalten. Beim Kauf ist die Lizenz separat ausgewiesen (ab CHF 180/Jahr) – keine versteckten Posten.",
+              body: "In der Spark-Miete sind Display, Standardeinrichtung, Softwarelizenz und Wandhalterung enthalten. Lieferung auf Anfrage, Abholung möglich; Vor-Ort-Montage und Rückholung separat. Beim Kauf werden Einrichtung und Lizenz (ab CHF 180/Jahr) separat ausgewiesen.",
             },
             {
               title: "Direkter Kontakt zum Inhaber",
               body: "Sie sprechen mit Chris Meister persönlich – nicht mit einem Vertriebsteam. Entscheidungen sind kurz, Verantwortung ist klar.",
             },
             {
-              title: "Miete als risikofreier Einstieg",
-              body: "Wer unsicher ist, startet mit Miete und prüft die Lösung im Alltag. Späterer Wechsel auf Kauf ist möglich.",
+              title: "Miete zum Testen im Alltag",
+              body: "Wählen Sie eine Mietlaufzeit von 1, 3, 6 oder 12 Monaten und prüfen Sie die Lösung im Alltag. Einen späteren Wechsel auf Kauf vereinbaren wir individuell.",
             },
             {
               title: "Sitz in Baar – lokal in der Zentralschweiz",

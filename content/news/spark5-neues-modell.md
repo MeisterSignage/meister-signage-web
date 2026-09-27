@@ -57,7 +57,7 @@ Im Empfangs­bereich grosser Hotels oder Firmen­gebäude wirken kleinere Displa
 
 ### Bühnenrückwand bei Events
 
-Bei Tagungen und Anlässen ersetzt das Spark 5 oft eine kleinere LED-Wand. Es ist leichter zu transportieren, schneller aufgestellt und benötigt keinen externen Media Player. Für Events ist auch die [Mietvariante](/digital-signage-mieten/) attraktiv – flexibel, mit Auf- und Abbau-Service.
+Bei Tagungen und Anlässen ersetzt das Spark 5 oft eine kleinere LED-Wand. Es ist leichter zu transportieren, schneller aufgestellt und benötigt keinen externen Media Player. Für Events ist auch die [Mietvariante](/digital-signage-mieten/) attraktiv. Auf- und Abbau können separat nach Absprache offeriert werden.
 
 ## Installation: kabellos und ohne Elektriker
 
@@ -71,11 +71,11 @@ Für die anderen Einsatz­bereiche stehen die kompakteren Modelle bereit: Der [S
 
 ## Preise
 
-| Modell | Kauf | Miete |
+| Modell | Kauf | Miete pro Display und Monat bei 12 Monaten Laufzeit |
 |---|---|---|
-| Spark 5 (50 Zoll, 4K UHD) | ab CHF 1.699 | ab CHF 169 |
+| Spark 5 (50 Zoll, 4K UHD) | ab CHF 1.699 | CHF 139 |
 
-Im Mietpreis sind Software-Lizenz, Cloud-Steuerung und Support enthalten. Mietdauer flexibel ab wenigen Tagen für Events bis mehrere Monate für Pop-ups oder Übergangs­lösungen. Einmalige Einrichtungs­pauschale: CHF 149.
+Im Mietpreis enthalten: Display, Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlicher Support. Es fällt keine zusätzliche Miet-Einrichtungspauschale an. Laufzeiten von 1, 3, 6 oder 12 Monaten haben unterschiedliche Monatsraten; kürzere Eventeinsätze offerieren wir auf Anfrage. Ein Bodenständer ist optional für CHF 50 pro Monat erhältlich. Lieferung auf Anfrage, Abholung möglich; Montage vor Ort, Rückholung und individuelle Inhalte werden separat offeriert. Beim Kauf kommen CHF 149 für die Einrichtung und CHF 180 pro Jahr für die Softwarelizenz hinzu.
 
 ## Nächste Schritte
 

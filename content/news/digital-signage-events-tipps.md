@@ -80,7 +80,7 @@ Ein kurzer Check am Vorabend verhindert böse Überraschungen.
 
 ## Mieten statt kaufen — für Events meist die beste Wahl
 
-Für einmalige oder seltene Anlässe lohnt sich die Miete. Die Displays werden geliefert, eingerichtet und nach dem Event wieder abgeholt. Kein Lagerproblem, kein Wertverlust. Mietdauer flexibel ab wenigen Tagen.
+Für einmalige oder seltene Anlässe kann die Miete sinnvoll sein. Bei den Spark-Mietpaketen sind Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlicher Support enthalten. Lieferung auf Anfrage, Abholung möglich; Montage vor Ort, Rückholung und individuelle Inhalte werden separat offeriert. Für kürzere Einsätze als einen Monat erhalten Sie einen individuellen Mietpreis auf Anfrage. Die veröffentlichten Monatsraten beziehen sich jeweils auf eine Laufzeit von 1, 3, 6 oder 12 Monaten.
 
 Welches Modell für welchen Eventtyp?
 

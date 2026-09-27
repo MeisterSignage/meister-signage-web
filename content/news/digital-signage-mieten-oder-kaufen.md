@@ -23,6 +23,8 @@ Die theoretische Antwort zu Mieten vs. Kaufen ist einfach: dauerhaft = Kauf, tem
 
 > Wer den allgemeinen Vergleich der beiden Modelle sucht, findet ihn im Ratgeber [Digital Signage mieten oder kaufen](/wissen/digital-signage-mieten-oder-kaufen/) im Wissens-Hub. Dieser Artikel zeigt die fünf häufigsten Praxis-Konstellationen, die wir aus Beratungs­gesprächen kennen.
 
+> **Hinweis zu den Preisen:** Die folgenden Fälle beschreiben den Preisstand des ursprünglichen Beitrags und sind keine aktuellen Tarifangebote. Heute gelten für Spark 3, Spark 4, Spark 5 und Spark Q+ bei 12 Monaten Laufzeit CHF 119, 129, 139 beziehungsweise 149 pro Display und Monat. Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlicher Support sind enthalten. Für andere Laufzeiten gelten andere [Monatsraten](/digital-signage-mieten/). Lieferung auf Anfrage, Abholung möglich; Montage vor Ort, Rückholung und individuelle Inhalte werden separat offeriert.
+
 ## Fall 1: Quartier­bäckerei mit Lunch-Geschäft
 
 Situation: Bäckerei in Luzern, ein Standort, tägliche Mittags­angebote, plus saisonale Aktionen (Fastenwähen, Grittibänz, Osterhasen).
@@ -39,7 +41,7 @@ Situation: Mode-Brand testet einen Pop-up-Store für 3 Monate über Weihnachten,
 
 Erwogen: Spark 5 (50") im Schaufenster für Kampagnen­videos.
 
-Entscheidung: Miete für 3 Monate à CHF 169/Monat = CHF 507 plus einmalige Einrichtungspauschale CHF 149. Kauf­preis CHF 1.599 hätte sich erst nach >10 Monaten gerechnet. Plus: nach dem Pop-up will der Brand kein Display in seinem Berliner Headquarter lagern.
+Damals beschriebene Entscheidung: Miete für 3 Monate à CHF 169 pro Display und Monat plus damalige Einrichtungspauschale CHF 149. Der damalige Kaufpreis lag bei CHF 1.599. Diese früheren Konditionen gelten nicht für neue Angebote; bei der aktuellen Spark-Miete ist die Standardeinrichtung enthalten. Nach dem Pop-up wollte der Brand kein Display in seinem Berliner Headquarter lagern.
 
 Empfehlung: Lösungs­seite [Digitale Schaufensterwerbung](/loesungen/digitale-schaufensterwerbung/) für ähnliche Konstellationen.
 
@@ -49,7 +51,7 @@ Situation: Familien­geführtes Restaurant in Zug, Wirt ist gegenüber Technik s
 
 Erwogen: Spark 4 (43") als Menüboard.
 
-Entscheidung: 6 Monate Miete à CHF 159 = CHF 954. Nach positiver Erfahrung Wechsel zum Kauf – wir rechnen einen Teil der bezahlten Mieten auf den Kaufpreis an (individuell ausgehandelt).
+Damals beschriebene Entscheidung: 6 Monate Miete à CHF 159 pro Display und Monat. Nach positiver Erfahrung folgte der Wechsel zum Kauf mit einer individuell ausgehandelten Anrechnung. Daraus ergibt sich keine allgemeine Zusage für neue Mietverträge; einen späteren Kauf besprechen wir individuell.
 
 Lehre: Mieten als "risiko­freier Einstieg" funktioniert besonders, wenn Skepsis im Spiel ist. Siehe auch unsere [Mietkategorien­seite](/digital-signage-mieten/) für die Standard­modelle.
 
@@ -87,7 +89,7 @@ Nach diesen fünf Fällen kristallisiert sich ein Muster heraus:
 
 Egal ob Kauf oder Miete, bei Meister Signage gleich:
 - Software-Lizenz im Mietpreis enthalten, beim Kauf transparent ab CHF 180/Jahr
-- Persönliche Einrichtung und Schulung
+- Standardeinrichtung im aktuellen Spark-Mietpreis enthalten, beim Kauf CHF 149
 - Cloud-Steuerung für Inhalte
 - Direkter Inhaber-Kontakt statt Hotline
 

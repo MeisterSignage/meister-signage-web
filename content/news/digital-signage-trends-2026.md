@@ -47,13 +47,13 @@ Besonders in Schaufenstern, an Lobby-Wänden und in Sonder­einbauten ein echter
 
 ## Trend 3: Mieten wird flexibler
 
-Klassische Mietverträge in der Digital-Signage-Branche waren oft monatlich. Inzwischen bieten viele Anbieter (auch wir) flexible Mietdauern an – von wenigen Tagen für Events bis mehrere Jahre für Übergangs­installationen. Das öffnet drei neue Anwendungs­fälle:
+Für unterschiedliche Einsätze stehen unterschiedliche Mietlaufzeiten zur Auswahl. Bei Meister Signage gibt es Monatsraten für 1, 3, 6 oder 12 Monate. Kürzere Eventeinsätze und andere Laufzeiten offerieren wir auf Anfrage. Das ermöglicht drei Anwendungsfälle:
 
 | Anwendung | Typische Mietdauer |
 |---|---|
-| Messen, Tagungen, Anlässe | 3–14 Tage |
-| Pop-up-Stores, saisonale Aktionen | 1–6 Monate |
-| Test- oder Übergangs­miete vor Kauf | ab 1 Monat |
+| Messen, Tagungen, Anlässe | kürzere Einsätze auf Anfrage |
+| Pop-up-Stores, saisonale Aktionen | 1, 3 oder 6 Monate |
+| Test- oder Übergangs­miete vor Kauf | 6 oder 12 Monate |
 
 Im Detail: [Digital Signage mieten](/digital-signage-mieten/). Praxisbeispiele im Artikel [Mieten oder Kaufen: 5 KMU-Fälle](/news/digital-signage-mieten-oder-kaufen/).
 
@@ -67,7 +67,7 @@ Eine ausführliche Pro/Contra-Liste zur Entscheidung Consumer-TV vs. Profi-Displ
 
 Lange war es Branchen­standard, Digital-Signage-Lösungen ausschliesslich projekt­basiert anzubieten – sprich: "Kontaktieren Sie uns für ein individuelles Angebot". Das ist für komplexe Multi-Standort-Projekte sinnvoll, für KMU aber abschreckend.
 
-2026 zeigt sich, dass Standard-KMU-Lösungen mit Festpreisen massiv schneller verkauft werden. Wir veröffentlichen alle Preise transparent: ab CHF 149 zur Miete oder ab CHF 1.399 zum Kauf, plus klar ausgewiesene Lizenz- und Einrichtungs­kosten. Der direkte Vergleich mit anderen Schweizer Anbietern: [Anbieter-Vergleich](/digital-signage-anbieter-vergleich/).
+Für Standard-KMU-Lösungen erleichtern klare Preise den Vergleich. Unsere Spark-Miete beginnt bei CHF 119 pro Display und Monat bei 12 Monaten Laufzeit – inklusive Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlichem Support. Der Kauf beginnt bei CHF 1.399, zuzüglich CHF 149 Einrichtung und CHF 180 pro Jahr für die Softwarelizenz. Lieferung auf Anfrage, Abholung möglich; Montage vor Ort, Rückholung und individuelle Inhalte werden separat offeriert. Ein Bodenständer kostet optional CHF 50 pro Monat. Der direkte Vergleich mit anderen Schweizer Anbietern: [Anbieter-Vergleich](/digital-signage-anbieter-vergleich/).
 
 ## Was diese 5 Trends für Schweizer KMU bedeuten
 

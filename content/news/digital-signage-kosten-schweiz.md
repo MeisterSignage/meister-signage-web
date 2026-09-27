@@ -29,13 +29,13 @@ Typisches Missverständnis: "Hardware gekauft = fertig."
 
 Realität: Bei den meisten Digital-Signage-Anbietern läuft die Inhalts­steuerung über eine Cloud-Software, die separat lizenziert werden muss. Übliche Lizenz­kosten: CHF 180–600 pro Jahr und Display. Bei 3 Displays sind das CHF 540–1.800 pro Jahr.
 
-Worauf achten: Im Erstangebot explizit nach "monatlicher Lizenz" oder "Cloud-Gebühr" fragen. Bei uns: ab CHF 180/Jahr im Kauf, im Mietpreis ab CHF 149 inklusive.
+Worauf achten: Im Erstangebot explizit nach "monatlicher Lizenz" oder "Cloud-Gebühr" fragen. Bei uns: CHF 180/Jahr im Kauf. Bei der Spark-Miete ab CHF 119 pro Display und Monat bei 12 Monaten Laufzeit ist die Softwarelizenz bereits enthalten.
 
 ## 2. Einrichtungs­pauschale
 
 Typisches Missverständnis: "Plug & Play – einfach einstecken."
 
-Realität: Der erste Inhalt­satz, die Cloud-Anmeldung, die Schulung und die Test­phase brauchen Zeit. Branchen­übliche Einrichtungs­pauschalen liegen bei CHF 200–800 pro Projekt – je nach Aufwand. Bei uns ist die Standard-Einrichtung CHF 149 pro Display.
+Realität: Cloud-Anmeldung, Einweisung und die Testphase brauchen Zeit. Branchenübliche Einrichtungspauschalen liegen bei CHF 200–800 pro Projekt – je nach Aufwand. Bei uns kostet die Standardeinrichtung beim Kauf CHF 149 pro Display. Bei der Spark-Miete ist sie im Monatspreis enthalten, ohne zusätzliche Einrichtungspauschale. Individuelle Inhalte werden separat offeriert.
 
 Worauf achten: Ob "Setup", "Onboarding" oder "Schulung" im Erstangebot aufgeführt sind.
 
@@ -59,9 +59,9 @@ Worauf achten: Vor dem Kauf realistisch einschätzen, ob jemand im Betrieb die I
 
 **Typisches Missverständnis:** "Display hält ewig."
 
-**Realität:** Professionelle Digital-Signage-Displays halten 5–7 Jahre im 24/7-Betrieb. Danach: Demontage, Entsorgung der Elektronik (Schweizer SENS-Gebühr ca. CHF 30–50), Wand­reparatur falls fest verbaut. Bei einer Miete fallen diese Kosten nicht an – das Display wird zurück­genommen.
+**Realität:** Professionelle Digital-Signage-Displays halten 5–7 Jahre im 24/7-Betrieb. Danach: Demontage, Entsorgung der Elektronik (Schweizer SENS-Gebühr ca. CHF 30–50), Wandreparatur falls fest verbaut. Bei einer Miete wird das Gerät nach dem vereinbarten Zeitraum zurückgegeben. Demontage und Rückholung sind nicht pauschal im Monatspreis enthalten und werden bei Bedarf separat vereinbart.
 
-**Worauf achten:** Bei langfristigem Kauf einkalkulieren. Bei Miete kein Thema.
+**Worauf achten:** Bei langfristigem Kauf einkalkulieren. Bei Miete den Rückgabeweg und allfällige Zusatzleistungen vorab vereinbaren.
 
 ## So sieht ein ehrliches Erstangebot aus
 
@@ -71,13 +71,12 @@ Ein faires Erstangebot enthält alle fünf Posten explizit – auch wenn manche 
 |---|---|
 | Hardware (Spark 4, 43" 4K) | CHF 1.599 |
 | Einrichtungs­pauschale | CHF 149 |
-| Versand CH | CHF 49 |
+| Lieferung | auf Anfrage; Abholung möglich |
 | Software-Lizenz Jahr 1 | CHF 180 |
 | Content-Erstellung (optional) | nur auf Wunsch |
-| **Total Jahr 1** | **CHF 1.977** |
 | Jährlich ab Jahr 2 | CHF 180 |
 
-Im [Mietmodell ab CHF 159](/digital-signage-mieten/) sind Lizenz, Versand und Einrichtung im Monatspreis – nur die optionale Content-Erstellung kommt extra.
+Der Spark 4 kostet im [Mietmodell](/digital-signage-mieten/) CHF 129 pro Display und Monat bei 12 Monaten Laufzeit. Enthalten sind Display, Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlicher Support. Lieferung auf Anfrage, Abholung möglich; Montage vor Ort, Rückholung und individuelle Inhalte werden separat offeriert. Ein Bodenständer kostet optional CHF 50 pro Monat. Andere Laufzeiten haben eigene Monatsraten.
 
 ## Wie Sie versteckte Kosten im Angebot erkennen
 

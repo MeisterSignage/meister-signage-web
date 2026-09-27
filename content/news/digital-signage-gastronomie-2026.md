@@ -29,7 +29,7 @@ Drei Entwicklungen treffen aufeinander:
 
 **2. Erwartung der Gäste verändert sich.** Wer im Stadtzentrum durch sechs Restaurants vor­bei­läuft, vergleicht nicht nur das Essen, sondern auch den ersten Eindruck. Ein hand­geschriebener Aushang neben einer hoch­wertigen digitalen Anzeige fällt zurück.
 
-**3. Hardware-Preise sind gefallen.** Ein professionelles 32-Zoll-Display kostete vor 5 Jahren noch CHF 2.500. Heute startet der Einstieg bei CHF 1.399 zum Kauf oder ab CHF 149 zur Miete – inklusive Software und Cloud-Steuerung.
+**3. Hardware-Preise sind gefallen.** Ein professionelles 32-Zoll-Display kostete vor 5 Jahren noch CHF 2.500. Heute startet der Einstieg bei CHF 1.399 zum Kauf oder ab CHF 119 pro Display und Monat bei 12 Monaten Mietlaufzeit. Bei der Miete sind Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlicher Support enthalten.
 
 ## Was ein gutes digitales Menüboard können sollte
 
@@ -57,13 +57,13 @@ Eine ausführliche Anleitung zur Grössen­wahl haben wir im Ratgeber [Digital S
 
 ## Was kostet ein digitales Menüboard wirklich?
 
-Die ehrliche Antwort: Beim Kauf zwischen CHF 1.399 (32 Zoll) und CHF 1.699 (50 Zoll), plus einmalige Einrichtungspauschale CHF 149. Bei monatlicher Miete startet es bei CHF 149 inklusive Software-Lizenz. Die Lizenz beim Kauf liegt bei CHF 180 pro Jahr (gegen CHF 0 bei Miete).
+Die ehrliche Antwort: Beim Kauf zwischen CHF 1.399 (32 Zoll) und CHF 1.699 (50 Zoll), plus einmalige Einrichtungspauschale CHF 149 und Softwarelizenz CHF 180 pro Jahr. Die Miete startet bei CHF 119 pro Display und Monat bei 12 Monaten Laufzeit – inklusive Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlichem Support. Es gibt keine zusätzliche Miet-Einrichtungspauschale. Lieferung auf Anfrage, Abholung möglich; Montage vor Ort, Rückholung und individuelle Inhalte werden separat offeriert. Ein Bodenständer kostet optional CHF 50 pro Monat. Für andere Laufzeiten gelten die [aktuellen Monatsraten](/digital-signage-mieten/).
 
 Eine ausführliche Aufschlüsselung – inklusive Druckkosten­ersparnis und typischer Amortisations­dauer – findet sich auf der [Kosten­seite Digital Signage Schweiz](/was-kostet-digital-signage-schweiz/).
 
 ## Mieten oder Kaufen?
 
-Für Restaurants mit festem Standort empfehlen wir meist den Kauf, da sich die Investition über 2–3 Jahre amortisiert. Für saisonale Aussen­standorte oder Pop-up-Konzepte ist die Miete flexibler. Mehr dazu: [Digital Signage mieten](/digital-signage-mieten/) oder [kaufen](/digital-signage-kaufen/).
+Für Restaurants mit festem Standort kann der Kauf bei längerfristiger Nutzung sinnvoll sein. Für saisonale Standorte oder Pop-up-Konzepte kann eine passende Mietlaufzeit die bessere Wahl sein. Vergleichen Sie Nutzungsdauer und Leistungsumfang anhand der aktuellen Konditionen; die Eignung für einen Aussenstandort muss zusätzlich geprüft werden. Mehr dazu: [Digital Signage mieten](/digital-signage-mieten/) oder [kaufen](/digital-signage-kaufen/).
 
 ## Nächste Schritte
 

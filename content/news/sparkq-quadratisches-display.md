@@ -79,11 +79,11 @@ Wie alle Spark-Modelle ist der Spark Q+ vollständig kabellos – Daten kommen �
 
 ## Preise
 
-| Modell | Kauf | Miete |
+| Modell | Kauf | Miete pro Display und Monat bei 12 Monaten Laufzeit |
 |---|---|---|
-| Spark Q+ (33 Zoll, quadratisch) | ab CHF 1.799 | ab CHF 179 |
+| Spark Q+ (33 Zoll, quadratisch) | ab CHF 1.799 | CHF 149 |
 
-Mietpreis inklusive Hardware, Software und Support. Einmalige Einrichtungs­pauschale: CHF 149. Beim Kauf zusätzlich Software-Lizenz ab CHF 180/Jahr.
+Im Mietpreis enthalten: Display, Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlicher Support. Es fällt keine zusätzliche Miet-Einrichtungspauschale an. Ein Bodenständer ist optional für CHF 50 pro Monat erhältlich. Lieferung auf Anfrage, Abholung möglich; Montage vor Ort, Rückholung und individuelle Inhalte werden separat offeriert. Andere Laufzeiten: [Digital Signage mieten](/digital-signage-mieten/). Beim Kauf kommen CHF 149 für die Einrichtung und CHF 180 pro Jahr für die Softwarelizenz hinzu.
 
 ## Nächste Schritte
 

@@ -53,18 +53,16 @@ Häufige Fragen am Empfang: WLAN-Passwort, Frühstücks­zeit, Spa-Öffnungs­ze
 
 ## Was ein Boutique-Hotel typisch investiert
 
-Eine realistische Kalkulation für ein Hotel mit einem Display im Empfangs­bereich:
+Die Preispositionen für ein Hotel mit einem Spark 4 im Empfangsbereich. Die Mietrate gilt pro Display und Monat bei 12 Monaten Laufzeit:
 
 | Position | Kauf-Variante | Miet-Variante |
 |---|---|---|
 | Hardware (Spark 4, 43" 4K) | CHF 1.599 einmalig | – |
-| Einrichtung + Schulung | CHF 149 einmalig | im Mietpreis |
+| Standardeinrichtung | CHF 149 einmalig | im Mietpreis |
 | Software-Lizenz | CHF 180/Jahr | im Mietpreis |
-| Mietpreis | – | ab CHF 159/Mo. |
-| Jahr 1 total | CHF 1.928 | ab CHF 1.668 |
-| Jahr 2+ jährlich | CHF 180 | ab CHF 1.668 |
+| Mietpreis bei 12 Monaten Laufzeit | – | CHF 129 pro Display und Monat |
 
-Für dauerhaften Einsatz ist Kauf nach 2 Jahren günstiger. Ein Vergleich mit anderen Konstellationen findet sich in [Mieten oder Kaufen: 5 KMU-Fälle](/news/digital-signage-mieten-oder-kaufen/).
+Bei der Miete sind zudem Wandhalterung und persönlicher Support enthalten; eine zusätzliche Einrichtungspauschale entfällt. Lieferung auf Anfrage, Abholung möglich. Montage vor Ort, Rückholung und individuelle Inhalte werden separat offeriert. Ein Bodenständer ist optional für CHF 50 pro Monat erhältlich. Für andere Laufzeiten gelten andere [Monatsraten](/digital-signage-mieten/). Ob Kauf oder Miete besser passt, hängt von der geplanten Nutzung und dem gesamten Leistungsumfang ab. Ein Vergleich mit anderen Konstellationen findet sich in [Mieten oder Kaufen: 5 KMU-Fälle](/news/digital-signage-mieten-oder-kaufen/).
 
 ## Was die Hardware konkret können sollte
 

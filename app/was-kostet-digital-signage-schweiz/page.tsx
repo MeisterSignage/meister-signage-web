@@ -17,6 +17,7 @@ import { faqSchema } from "@/lib/schema/faq";
 import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
 import { serviceSchema } from "@/lib/schema/service";
 import kostenFaq from "@/content/site/kosten-faq.json";
+import { RENTAL_PACKAGES as SPARK_RENTALS, RENTAL_FOOTNOTE, RENTAL_INCLUDED } from "@/lib/rental-pricing";
 
 
 const BUY_PRICES = [
@@ -53,30 +54,30 @@ const EXAMPLE_CALCULATIONS = [
   {
     title: "Kleines Restaurant",
     setup: "1 × Spark 4 (43\") als digitales Menüboard",
-    monthly: "ab CHF 159",
-    once: "+ CHF 149 Einrichtungspauschale",
-    note: "inkl. Lizenz, Cloud-Steuerung und Support – Tagesmenüs jederzeit aktualisieren.",
+    monthly: "CHF 129 pro Monat",
+    once: "bei 12 Monaten Laufzeit",
+    note: "Ein Display inklusive Standardeinrichtung, Softwarelizenz und Wandhalterung – Tagesmenüs jederzeit aktualisieren.",
   },
   {
     title: "Empfangsbereich",
     setup: "1 × Spark 5 (50\") als digitales Empfangsdisplay",
-    monthly: "ab CHF 169",
-    once: "+ CHF 149 Einrichtungspauschale",
-    note: "Begrüssung, Termine und Branding zentral steuerbar.",
+    monthly: "CHF 139 pro Monat",
+    once: "bei 12 Monaten Laufzeit",
+    note: "Ein Display inklusive Standardeinrichtung, Softwarelizenz und Wandhalterung. Begrüssung, Termine und Branding zentral steuerbar.",
   },
   {
     title: "Eventeinsatz",
     setup: "2 × Spark 5 (50\") für Agenda und Wegleitung",
-    monthly: "ab CHF 338/Monat",
-    once: "individuelle Vorbereitung",
-    note: "kurzfristige Miete inkl. Inhaltsvorbereitung und Rückgabe nach Event.",
+    monthly: "Preis auf Anfrage",
+    once: "passend zur Eventdauer",
+    note: "Kurzzeiteinsätze unter einem Monat auf Anfrage. Individuelle Inhalte, Lieferung, Vor-Ort-Montage und Rückholung separat nach Absprache.",
   },
   {
     title: "Retailfläche",
-    setup: "1 × Spark Q (33\" quadr.) + 1 × Spark 4 (43\")",
-    monthly: "ab CHF 338/Monat",
-    once: "+ CHF 149 Einrichtungspauschale",
-    note: "Schaufenster und Verkaufsfläche bespielen – Kampagnen zentral gesteuert.",
+    setup: "1 × Spark Q+ (33\" quadr.) + 1 × Spark 4 (43\")",
+    monthly: "CHF 278 pro Monat für beide Displays",
+    once: "bei 12 Monaten Laufzeit",
+    note: "Je Display inklusive Standardeinrichtung, Softwarelizenz und Wandhalterung. Kampagnen zentral steuern.",
   },
 ];
 
@@ -86,7 +87,7 @@ const PAGE_URL = `${SITE_URL}/was-kostet-digital-signage-schweiz`;
 export const metadata: Metadata = {
   title: { absolute: "Was kostet Digital Signage in der Schweiz? | Meister Signage" },
   description:
-    "Digital Signage Kosten in der Schweiz ab CHF 149: Mietpreise, Kaufpreise, Lizenzkosten und Kostenfaktoren verständlich erklärt. Preisübersicht für KMU.",
+    "Digital Signage ab CHF 119 pro Display und Monat bei 12 Monaten Laufzeit mieten. Kaufpreise, enthaltene Leistungen und Zusatzkosten für Schweizer KMU.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "website",
@@ -103,40 +104,15 @@ export const metadata: Metadata = {
   },
 };
 
-const RENTAL_PACKAGES = [
-  {
-    name: "Spark 3",
-    size: '32" Digital Signage Screen',
-    price: 149,
-    image: "/images/products/Spark3-Design.webp",
-    benefits: ["inkl. Lizenz, Cloud-Steuerung und Support"],
-  },
-  {
-    name: "Spark 4",
-    size: '43" Digital Signage Screen',
-    price: 159,
-    image: "/images/products/Spark4-Design.webp",
-    benefits: ["inkl. Lizenz, Cloud-Steuerung und Support"],
-  },
-  {
-    name: "Spark 5",
-    size: '50" Digital Signage Screen',
-    price: 169,
-    badge: "Meistgemietet",
-    featured: true,
-    image: "/images/products/Spark5-Design.webp",
-    benefits: ["inkl. Lizenz, Cloud-Steuerung und Support"],
-  },
-  {
-    name: "Spark Q",
-    size: '33" Digital Signage Screen (quadratisch)',
-    price: 179,
-    badge: "Sonderformat",
-    featured: true,
-    image: "/images/products/SparkQ-Design.webp",
-    benefits: ["inkl. Lizenz, Cloud-Steuerung und Support"],
-  },
-];
+const RENTAL_PACKAGES = SPARK_RENTALS.map((pkg) => ({
+  name: pkg.model,
+  size: `${pkg.size} ${pkg.spec}`,
+  price: pkg.monthlyPrices[12],
+  image: pkg.imageSrc,
+  badge: pkg.badge,
+  featured: pkg.model === "Spark 5",
+  benefits: [...RENTAL_INCLUDED, "Persönliche Betreuung"],
+}));
 
 export default function WasKostetDigitalSignagePage() {
   return (
@@ -259,7 +235,7 @@ export default function WasKostetDigitalSignagePage() {
             {/* Trust micro */}
             <div className="mt-10 flex flex-wrap items-center gap-x-7 gap-y-3">
               {[
-                "ab CHF 149 mieten",
+                "ab CHF 119/Display/Monat bei 12 Monaten Laufzeit",
                 "ab CHF 1'399 kaufen",
                 "transparent kalkuliert",
               ].map((t) => (
@@ -292,12 +268,12 @@ export default function WasKostetDigitalSignagePage() {
       {/* 2 — Kurzantwort */}
       <PricingQuickAnswerSection
         title="Digital Signage Kosten – die Kurzantwort"
-        text="Digital Signage kostet in der Schweiz je nach Modell ab CHF 149 im Mietmodell oder ab CHF 1'399 beim Kauf eines professionellen Displays. Hinzu kommen je nach Modell Einrichtung, Versand, Softwarelizenz, Content-Erstellung oder Installation."
+        text="Ein Spark-Display mieten Sie ab CHF 119 pro Display und Monat bei 12 Monaten Laufzeit – inklusive Standardeinrichtung, Softwarelizenz und Wandhalterung. Beim Gerätekauf ab CHF 1'399 kommen Einrichtung und Lizenz separat hinzu. Lieferung auf Anfrage, Abholung möglich; Vor-Ort-Montage und individuelle Inhalte separat nach Absprache."
         facts={[
           {
-            metric: "ab CHF 149",
+            metric: "ab CHF 119",
             label: "Miete",
-            description: "inklusive Lizenz, Cloud-Steuerung und Support",
+            description: "pro Display und Monat bei 12 Monaten Laufzeit; Einrichtung, Lizenz und Wandhalterung inklusive",
           },
           {
             metric: "ab CHF 1'399",
@@ -306,8 +282,8 @@ export default function WasKostetDigitalSignagePage() {
           },
           {
             metric: "ab CHF 149",
-            label: "Einrichtung",
-            description: "einmalig für Vorkonfiguration und Inbetriebnahme",
+            label: "Einrichtung beim Kauf",
+            description: "einmalig beim Kauf; in der Spark-Miete bereits inklusive",
           },
         ]}
       />
@@ -329,15 +305,15 @@ export default function WasKostetDigitalSignagePage() {
                   <th className="py-3 pr-4 font-semibold text-navy">Grösse</th>
                   <th className="py-3 pr-4 font-semibold text-navy">Auflösung</th>
                   <th className="py-3 pr-4 font-semibold text-navy">Kaufpreis</th>
-                  <th className="py-3 font-semibold text-navy">Miete/Mt.</th>
+                  <th className="py-3 font-semibold text-navy">Miete/Mt. bei 12 Monaten</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { model: "Spark 3", size: '32"', res: "Full HD", buy: "CHF 1'399", rent: "CHF 149" },
-                  { model: "Spark 4", size: '43"', res: "4K UHD", buy: "CHF 1'599", rent: "CHF 159" },
-                  { model: "Spark 5", size: '50"', res: "4K UHD", buy: "CHF 1'699", rent: "CHF 169" },
-                  { model: "Spark Q+", size: '33" quadr.', res: "Full HD", buy: "CHF 1'799", rent: "CHF 179" },
+                  { model: "Spark 3", size: '32"', res: "Full HD", buy: "CHF 1'399", rent: `CHF ${SPARK_RENTALS[0].monthlyPrices[12]}` },
+                  { model: "Spark 4", size: '43"', res: "4K UHD", buy: "CHF 1'599", rent: `CHF ${SPARK_RENTALS[1].monthlyPrices[12]}` },
+                  { model: "Spark 5", size: '50"', res: "4K UHD", buy: "CHF 1'699", rent: `CHF ${SPARK_RENTALS[2].monthlyPrices[12]}` },
+                  { model: "Spark Q+", size: '33" quadr.', res: "Full HD", buy: "CHF 1'799", rent: `CHF ${SPARK_RENTALS[3].monthlyPrices[12]}` },
                 ].map((r) => (
                   <tr key={r.model} className="border-b border-navy/5">
                     <td className="py-3 pr-4 font-semibold text-navy">{r.model}</td>
@@ -350,8 +326,8 @@ export default function WasKostetDigitalSignagePage() {
               </tbody>
             </table>
           </div>
-          <p className="mt-4 text-center text-[12px] text-cgray/60">
-            Alle Preise aufgrund der Unternehmensform ohne MWST. Einrichtungspauschale CHF 149 einmalig.
+          <p className="mt-4 text-center text-[13px] leading-relaxed text-cgray">
+            {RENTAL_FOOTNOTE} Beim Kauf kommen einmalig CHF 149 Einrichtung und ab CHF 180 pro Jahr für die Softwarelizenz hinzu. Lieferung auf Anfrage, Abholung möglich.
           </p>
         </div>
       </section>
@@ -411,7 +387,7 @@ export default function WasKostetDigitalSignagePage() {
           </div>
 
           <p className="mt-6 text-center text-[12px] text-cgray/60">
-            Alle Preise aufgrund der Unternehmensform ohne MWST. Versand- und Speditionskosten für Displays auf Anfrage. 30 % der Mietkosten können bei einem späteren Kauf angerechnet werden.
+            Es wird keine MWST verrechnet. Einrichtung und Softwarelizenz beim Kauf separat. Lieferung auf Anfrage, Abholung möglich. Einen späteren Wechsel von Miete auf Kauf und eine mögliche Anrechnung vereinbaren wir individuell.
           </p>
         </div>
       </section>
@@ -420,11 +396,11 @@ export default function WasKostetDigitalSignagePage() {
       <RentalPackagesSection
         eyebrow="Mieten"
         title="Digital Signage mieten – Preisübersicht"
-        subtitle="Das Mietmodell eignet sich besonders für KMU, Events, Gastronomie, Retail und temporäre Einsätze. Die Kosten bleiben planbar und die Einstiegshürde tief."
+        subtitle="Die folgenden Monatsraten gelten pro Display bei 12 Monaten Laufzeit. Weitere Laufzeiten von 1, 3 und 6 Monaten finden Sie auf der Mietseite; kürzere Events offerieren wir auf Anfrage."
         packages={RENTAL_PACKAGES}
         ctaLabel="Anfrage starten"
         ctaHref="/kontakt"
-        note="Alle Preise aufgrund der Unternehmensform ohne MWST. Für Vorkonfiguration, Einrichtung und Inbetriebnahme fällt einmalig eine Einrichtungspauschale von CHF 149 an. Bei einem späteren Kauf fällt keine Einrichtungspauschale mehr an."
+        note={`${RENTAL_FOOTNOTE} Bodenständer optional CHF 50 pro Monat. Lieferung auf Anfrage, Abholung möglich. Vor-Ort-Montage und Rückholung separat nach Absprache. Stelen und Battery-Boards: Preis auf Anfrage.`}
       />
 
       {/* 5 — Kaufen oder Mieten */}
@@ -458,7 +434,7 @@ export default function WasKostetDigitalSignagePage() {
             icon: Wrench,
             title: "Einrichtung",
             description:
-              "Vorkonfiguration, Inbetriebnahme und Anpassung an den geplanten Einsatz. Ab CHF 149 einmalig.",
+              "Beim Kauf ab CHF 149 einmalig für Vorkonfiguration und Inbetriebnahme. In der Spark-Miete ist die Standardeinrichtung bereits enthalten – ohne separate Pauschale.",
           },
           {
             icon: BadgeCheck,
@@ -470,7 +446,7 @@ export default function WasKostetDigitalSignagePage() {
             icon: Truck,
             title: "Versand",
             description:
-              "Versand- und Speditionskosten richten sich nach Displaygrösse, Standort und Lieferumfang. Gerne erstellen wir Ihnen ein individuelles Angebot.",
+              "Lieferung auf Anfrage, Abholung möglich. Lieferkosten richten sich nach Displaygrösse, Standort und Lieferumfang; Rückholung separat nach Absprache.",
           },
           {
             icon: Palette,
@@ -482,7 +458,7 @@ export default function WasKostetDigitalSignagePage() {
             icon: MapPin,
             title: "Installation",
             description:
-              "Je nach Einsatzort kann eine einfache Selbstmontage reichen oder eine Unterstützung vor Ort sinnvoll sein.",
+              "Die Wandhalterung ist in der Spark-Miete enthalten. Montage und Inbetriebnahme vor Ort offerieren wir bei Bedarf separat.",
           },
           {
             icon: Zap,
@@ -522,8 +498,8 @@ export default function WasKostetDigitalSignagePage() {
             ))}
           </div>
 
-          <p className="mt-6 text-center text-[12px] text-cgray/60">
-            Alle Preise aufgrund der Unternehmensform ohne MWST. Individuelle Setups auf Anfrage.
+          <p className="mt-6 text-center text-[13px] leading-relaxed text-cgray">
+            Es wird keine MWST verrechnet. Lieferung auf Anfrage, Abholung möglich. Vor-Ort-Montage, Rückholung und individuelle Inhalte separat nach Absprache.
           </p>
         </div>
       </section>
@@ -562,7 +538,7 @@ export default function WasKostetDigitalSignagePage() {
         title="Sie möchten wissen, was Digital Signage für Ihren Betrieb kostet?"
         subtitle="Schildern Sie kurz Ihren Einsatz. Wir zeigen Ihnen, welche Variante sinnvoll ist und welche Kosten realistisch einzuplanen sind."
         primaryCta={{ label: "Beratung anfragen", href: "/kontakt" }}
-        secondaryCta={{ label: "Mietpreise ansehen", href: "/digital-signage-mieten#pakete" }}
+        secondaryCta={{ label: "Mietpreise ansehen", href: "/digital-signage-mieten#sortiment" }}
       />
 
       {/* 10 — Contact */}
