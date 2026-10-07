@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import HomeHeroSection from "@/components/sections/HomeHeroSection";
+import LinkedInPostSection from "@/components/sections/LinkedInPostSection";
 import EditorialNewsSection from "@/components/sections/EditorialNewsSection";
 import { getLatestPosts } from "@/lib/news";
 import PremiumBenefitGrid from "@/components/sections/PremiumBenefitGrid";
@@ -109,6 +110,7 @@ export default function Home() {
 
       {/* 7 — Editorial news */}
       <EditorialNewsSection posts={latestPosts} />
+      <LinkedInPostSection />
 
       {/* 8 — Internal links */}
       <InternalLinksSection

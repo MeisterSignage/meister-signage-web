@@ -17,7 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const fixed: Entry[] = [
     /* Core */
-    { url: "/",                                   priority: 1.0, cf: "weekly" },
+    { date: "2026-10-07", url: "/",                                   priority: 1.0, cf: "weekly" },
     { url: "/digital-signage-schweiz",            priority: 1.0, cf: "weekly" },
 
     /* Money pages */

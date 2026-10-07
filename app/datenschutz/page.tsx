@@ -259,6 +259,16 @@ export default function DatenschutzPage() {
               Daten an die jeweiligen Plattformen übertragen. Erst wenn Sie einen Link anklicken und
               die externe Plattform besuchen, gelten deren Datenschutzbestimmungen.
             </p>
+            <p className="card-body mt-4">
+              Auf der Startseite können Sie zusätzlich einen LinkedIn-Beitrag laden. Die Einbettung
+              wird erst nach Ihrem Klick auf «LinkedIn-Beitrag laden» aktiviert. Dabei stellt Ihr
+              Browser eine Verbindung zu LinkedIn her und überträgt unter anderem Ihre IP-Adresse
+              und Browserinformationen. LinkedIn kann Cookies verwenden und den Aufruf einem
+              angemeldeten LinkedIn-Konto zuordnen. Mit «Einbettung schliessen» entfernen Sie den
+              eingebetteten Inhalt; bereits übertragene Daten werden dadurch nicht gelöscht.
+              Weitere Informationen finden Sie in der{" "}
+              <a href="https://www.linkedin.com/legal/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-magenta hover:underline">Datenschutzrichtlinie von LinkedIn</a>.
+            </p>
           </section>
 
           {/* 9 */}
