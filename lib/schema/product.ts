@@ -10,34 +10,6 @@ const merchantReturnPolicy = {
   returnPolicyCategory: "https://schema.org/MerchantReturnNotPermitted",
 };
 
-const shippingDetails = {
-  "@type": "OfferShippingDetails",
-  shippingRate: {
-    "@type": "MonetaryAmount",
-    minValue: 0,
-    maxValue: 150,
-    currency: "CHF",
-  },
-  shippingDestination: {
-    "@type": "DefinedRegion",
-    addressCountry: "CH",
-  },
-  deliveryTime: {
-    "@type": "ShippingDeliveryTime",
-    handlingTime: {
-      "@type": "QuantitativeValue",
-      minValue: 1,
-      maxValue: 3,
-      unitCode: "DAY",
-    },
-    transitTime: {
-      "@type": "QuantitativeValue",
-      minValue: 2,
-      maxValue: 7,
-      unitCode: "DAY",
-    },
-  },
-};
 
 const COMMON_PROPERTIES: { name: string; value: string }[] = [
   { name: "Bautiefe", value: "15.5 mm" },
@@ -96,10 +68,7 @@ export function productSchema(offers: ProductOffer[], pageUrl: string) {
       url: pageUrl,
       priceCurrency: offer.priceCurrency ?? "CHF",
       price: offer.price,
-      priceValidUntil: new Date(Date.now() + 90 * 86400000).toISOString().slice(0, 10),
-      availability: "https://schema.org/InStock",
       hasMerchantReturnPolicy: merchantReturnPolicy,
-      shippingDetails,
       seller: {
         "@type": "Organization",
         "@id": `${BASE}/#organization`,
@@ -149,8 +118,6 @@ export function rentalOfferSchema(offers: RentalOffer[], pageUrl: string) {
       url: pageUrl,
       priceCurrency: "CHF",
       price: offer.monthlyPrice,
-      priceValidUntil: new Date(Date.now() + 90 * 86400000).toISOString().slice(0, 10),
-      availability: "https://schema.org/InStock",
       businessFunction: "http://purl.org/goodrelations/v1#LeaseOut",
       ...(offer.rentalDurationMonths ? {
         eligibleDuration: {

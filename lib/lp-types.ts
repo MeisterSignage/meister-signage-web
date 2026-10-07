@@ -15,6 +15,15 @@ export type LPLink = {
   href: string;
 };
 
+export type LPComparison = {
+  title: string;
+  intro?: string;
+  columns: string[];
+  rows: { label: string; values: string[] }[];
+  note?: string;
+  links?: LPLink[];
+};
+
 export type LPUseCase = {
   title: string;
   description: string;
@@ -61,6 +70,8 @@ export type LandingPage = {
   h1: string;
   intro: string;
   heroImage?: string;
+  updatedAt?: string;
+  comparison?: LPComparison;
   gallery?: { src: string; alt: string }[];
   benefits: LPBenefit[];
   capabilities?: LPCapabilities;

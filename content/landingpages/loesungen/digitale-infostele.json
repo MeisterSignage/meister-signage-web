@@ -1,16 +1,25 @@
 {
   "slug": "digitale-infostele",
   "type": "loesungen",
-  "seoTitle": "Digitale Infostele für Empfang & Lobby | Meister Signage",
-  "seoDescription": "Digitale Infostele für Empfang, Lobby und Events – optional mit Touchscreen. Mietpreis auf Anfrage oder kaufen ab CHF 1.599, schweizweit betreut.",
+  "seoTitle": "Digitale Infostele mit Touchscreen | Meister Signage",
+  "seoDescription": "Digitale Stele für Empfang, Lobby und Events – auch mit Touchscreen. Interaktive Wegfindung, Produktinfos und Self-Service individuell planen. Schweizweit.",
   "eyebrow": "Lösung · Infostele",
-  "h1": "Digitale Infostele – Information frei im Raum.",
-  "intro": "Eine digitale Infostele – auch Infosäule oder Informationsstele genannt – ist eine freistehende, vertikale Säule mit Display, ob innen oder im öffentlichen Raum – aufgestellt in Empfangsbereichen, Lobbys, Wartezonen, Museen, Arenen, an Events oder in öffentlichen Gebäuden. Sie begrüsst, informiert und orientiert – ohne Wandmontage und ohne fixe Verkabelung. Inhalte werden zentral gepflegt und automatisch aktualisiert: vom Tagesprogramm über die Wegweisung bis zu Sponsoren- und Werbeflächen. Als digitaler Infoständer mit hochauflösendem UHD-Display und Android-Media-Player – zentral gesteuert, für den Innen- wie den Outdoor-Bereich.",
+  "h1": "Digitale Infostele – auf Wunsch mit Touchscreen.",
+  "intro": "Eine digitale Infostele ist ein freistehender Informationsbildschirm für Empfang, Lobby, Showroom oder Events. Als Infosäule zeigt sie Begrüssungen, Wegweiser, Tagesprogramme und Werbung. Mit einem Touchscreen wird daraus eine interaktive Stele: Besucher wählen Informationen selbst aus. Wir stimmen Display, Standfuss, Stromversorgung und Software auf Ihren Standort in der Schweiz ab. Touch-Ausführung und interaktive Anwendungen offerieren wir auf Anfrage.",
   "heroImage": "/images/products/Infostele-Empfang-Lobby.webp",
   "gallery": [
-    { "src": "/images/products/Infostele-Event-Welcome.webp", "alt": "Digitale Infostele mit Willkommens-Screen an einem Event" },
-    { "src": "/images/products/Infostele-Wegweisung.webp", "alt": "Digitale Infostele zur Wegweisung in einem öffentlichen Gebäude" },
-    { "src": "/images/products/Infostele-Showroom.webp", "alt": "Digitale Infostele im Showroom" }
+    {
+      "src": "/images/products/Infostele-Event-Welcome.webp",
+      "alt": "Digitale Infostele mit Willkommens-Screen an einem Event"
+    },
+    {
+      "src": "/images/products/Infostele-Wegweisung.webp",
+      "alt": "Digitale Infostele zur Wegweisung in einem öffentlichen Gebäude"
+    },
+    {
+      "src": "/images/products/Infostele-Showroom.webp",
+      "alt": "Digitale Infostele im Showroom"
+    }
   ],
   "benefits": [
     {
@@ -30,8 +39,8 @@
       "description": "Inhalte werden über die Cloud verwaltet – von einer Person oder einer ganzen Filialkette. Auch mehrere Infostelen an verschiedenen Standorten lassen sich einheitlich bespielen."
     },
     {
-      "title": "Touchscreen-Variante auf Anfrage",
-      "description": "Für interaktive Anwendungen (Self-Service, Raumbuchung, Wegfindung) bieten wir Touchdisplay-Modelle. Standard sind passive Anzeige-Infostelen."
+      "title": "Touchscreen für selbst gewählte Informationen",
+      "description": "Besucher tippen auf Kategorien, blättern durch Produkte oder wählen ihr Ziel auf einem Gebäudeplan. Dafür braucht es neben dem Touchdisplay eine passende Anwendung mit gut erreichbaren Bedienelementen."
     },
     {
       "title": "Professionelle Erscheinung",
@@ -42,8 +51,8 @@
       "description": "Begrüssung, Tagesprogramm, Wegweisung zu Sektoren und Sponsorenflächen auf einer freistehenden Stele – flexibel platziert, wo Besucherströme entstehen."
     },
     {
-      "title": "Indoor & Outdoor, hochauflösend",
-      "description": "Ob im Empfang, im öffentlichen Raum oder als wetterfeste Outdoor-Stele: das UHD-Display bleibt gut lesbar, gesteuert über einen integrierten Android-Media-Player."
+      "title": "Die passende Ausführung für den Standort",
+      "description": "Indoor- und Outdoor-Stelen stellen unterschiedliche Anforderungen an Helligkeit, Gehäuse, Temperatur und Aufstellung. Auflösung, Player und Schutzart prüfen wir für das konkret angebotene Modell."
     }
   ],
   "faq": [
@@ -61,23 +70,27 @@
     },
     {
       "question": "Brauche ich eine spezielle Stromversorgung?",
-      "answer": "Nein. Eine normale Steckdose in Reichweite genügt – das externe Netzteil führt eine dünne Niederspannungs-Leitung zum Display. Bei Standorten ohne Steckdose besprechen wir alternative Lösungen."
+      "answer": "In der Regel wird eine Steckdose in Reichweite benötigt. Anschluss, Kabelführung und Netzwerk planen wir anhand des gewählten Modells und Standorts. Freistehend bedeutet nicht automatisch kabellos oder akkubetrieben."
     },
     {
       "question": "Kann die Infostele Touch-Funktion haben?",
-      "answer": "Ja, auf Anfrage. Für interaktive Anwendungen wie Self-Service, Raumbuchung oder Wegfindung bieten wir Touchscreen-Varianten. Standard ist die passive Anzeige-Infostele – meist die bessere Wahl, wenn Vandalismus oder Hygiene ein Thema sind."
+      "answer": "Ja. Digitale Stelen mit Touchscreen sind auf Anfrage erhältlich. Eine interaktive Oberfläche ermöglicht beispielsweise Produktinformationen, Wegfindung oder Programmauswahl. Besucheranmeldung, Raumbuchung und andere Self-Service-Prozesse benötigen zusätzlich passende Software und gegebenenfalls Schnittstellen; sie sind nicht allein durch den Touchscreen enthalten."
     },
     {
       "question": "Wie schwer ist eine Infostele und kann ich sie selbst verschieben?",
-      "answer": "Je nach Modell zwischen 15 und 25 kg, durch die schmale, vertikale Bauform aber gut handhabbar. Auf Wunsch mit Rollen am Standfuss für einfaches Verschieben innerhalb eines Raums."
+      "answer": "Gewicht und Transportmöglichkeiten hängen von Bildschirm, Gehäuse und Standfuss ab. Wir nennen die Daten für das ausgewählte Modell. Rollen, geeignete Transporthilfen, freie Wege und eine sichere Aufstellung planen wir bei Bedarf mit ein."
     },
     {
       "question": "Was kostet eine digitale Infostele?",
-      "answer": "Digitale Stelen vermieten wir auf Anfrage. Modell, Laufzeit und Ausstattung stimmen wir individuell ab. Lieferung auf Anfrage, Abholung möglich. Aufbau und Rückholung werden separat nach Absprache offeriert. Beim Kauf beginnt ein 50-Zoll-Modell auf Standfuss bei CHF 1.599. Die einmalige Einrichtungspauschale von CHF 149 gilt beim Kauf; den weiteren Leistungsumfang weisen wir im Angebot transparent aus."
+      "answer": "Digitale Infostelen zum Kauf oder zur Miete offerieren wir passend zu Displaygrösse, Gehäuse, Standfuss und Laufzeit. Für eine Touchscreen-Stele kommen die gewünschte Anwendung und gegebenenfalls Schnittstellen hinzu. Hardware, Einrichtung, Software, Lieferung und Montage weisen wir im Angebot getrennt aus. Abholung ist nach Absprache möglich."
     },
     {
       "question": "Eignet sich eine Infostele auch als Werbestele?",
       "answer": "Ja. Als digitale Werbestele spielt sie Kampagnen, Aktionen und Branding aus – im Handel, am POS oder in öffentlichen Bereichen. Inhalte lassen sich zentral planen und in Sekunden aktualisieren."
+    },
+    {
+      "question": "Worauf kommt es bei einer gut bedienbaren Touchscreen-Stele an?",
+      "answer": "Auf grosse Schaltflächen, gut lesbare Texte, verständliche Navigation und eine erreichbare Bedienhöhe. Die Anwendung sollte nach Inaktivität zum Start zurückkehren und persönliche Eingaben löschen. Zugänglichkeit, Reinigung und Platz vor dem Gerät werden für den Einsatzort mitgeplant."
     }
   ],
   "internalLinks": [
@@ -116,6 +129,14 @@
     {
       "label": "Digital Signage & Nachhaltigkeit",
       "href": "/wissen/digital-signage-nachhaltigkeit/"
+    },
+    {
+      "label": "Interaktive Terminals und Kiosks",
+      "href": "/loesungen/interaktive-terminals-kiosks/"
+    },
+    {
+      "label": "Digital-Signage-Software",
+      "href": "/loesungen/software/"
     }
   ],
   "cta": {
@@ -152,5 +173,85 @@
         "href": "/branchen/unternehmen/"
       }
     ]
-  }
+  },
+  "comparison": {
+    "title": "Digitale Stele: Anzeige oder Touchscreen?",
+    "columns": [
+      "Infostele ohne Touch",
+      "Interaktive Touchscreen-Stele"
+    ],
+    "rows": [
+      {
+        "label": "Bedienung",
+        "values": [
+          "Inhalte laufen automatisch nach Zeitplan",
+          "Besucher wählen Inhalte durch Berührung"
+        ]
+      },
+      {
+        "label": "Typische Nutzung",
+        "values": [
+          "Begrüssung, Tagesprogramm, Werbung",
+          "Wegfindung, Produktkatalog, Informationsauswahl"
+        ]
+      },
+      {
+        "label": "Inhalte und Software",
+        "values": [
+          "Wiedergabelisten im Digital-Signage-CMS",
+          "Zusätzlich eine für Touch geeignete Oberfläche"
+        ]
+      },
+      {
+        "label": "Anbindung externer Systeme",
+        "values": [
+          "Für Live-Daten je nach Anwendung",
+          "Für Buchung, Anmeldung oder Bestellungen separat prüfen"
+        ]
+      },
+      {
+        "label": "Planung",
+        "values": [
+          "Sichtabstand, Lesbarkeit und Laufwege",
+          "Zusätzlich Bedienhöhe, Erreichbarkeit und Rückkehr zum Startbild"
+        ]
+      },
+      {
+        "label": "Preis",
+        "values": [
+          "Modell und Leistungsumfang gemäss Offerte",
+          "Touchhardware und Anwendung individuell offeriert"
+        ]
+      }
+    ],
+    "note": "Ein Touchscreen allein enthält noch kein Buchungs-, Kassen- oder Check-in-System. Funktionen, Schnittstellen und laufende Kosten werden im Projekt festgelegt."
+  },
+  "useCases": {
+    "eyebrow": "Interaktive Möglichkeiten",
+    "title": "Was Besucher an einer Touchscreen-Stele selbst erledigen können.",
+    "intro": "Diese Anwendungen sind mögliche Projektvarianten. Gemeinsam klären wir, welche Inhalte und Software dafür benötigt werden.",
+    "items": [
+      {
+        "title": "Interaktive Wegfindung",
+        "description": "Besucher wählen Abteilung, Raum oder Ausstellungsbereich und sehen den passenden Weg auf einem Gebäudeplan. Pläne und Zielverzeichnis müssen aktuell gepflegt werden."
+      },
+      {
+        "title": "Produkte und Leistungen entdecken",
+        "description": "Im Showroom lassen sich Produktgruppen, Varianten, Bilder und technische Informationen gezielt aufrufen. Ein QR-Code kann zur passenden Seite auf dem eigenen Smartphone führen."
+      },
+      {
+        "title": "Programm und Gästeinformationen",
+        "description": "An Events, in Hotels oder Museen wählen Gäste Programmpunkte, Serviceangebote oder verfügbare Sprachversionen. Mehrsprachige Inhalte werden redaktionell vorbereitet."
+      },
+      {
+        "title": "Kontakt und Feedback",
+        "description": "Mit einer passenden Formularanwendung können Besucher eine Anfrage oder Rückmeldung erfassen. Datenschutz, Datenübertragung und das Löschen der Sitzung werden dabei mitgeplant."
+      },
+      {
+        "title": "Besucheranmeldung und Buchung",
+        "description": "Check-in oder Raumbuchung sind mögliche individuelle Integrationen. Voraussetzung sind eine geeignete Anwendung, geklärte Abläufe und unterstützte Schnittstellen zum jeweiligen System."
+      }
+    ]
+  },
+  "updatedAt": "2026-10-07"
 }

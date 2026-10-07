@@ -7,6 +7,7 @@ import { m as motion, useReducedMotion } from "framer-motion";
 import { ArrowRight, Plus, Minus, X, ChevronLeft, ChevronRight } from "lucide-react";
 import { viewport, easeOut, staggerContainer, staggerItem } from "@/lib/motion";
 import ContactSection from "@/components/sections/ContactSection";
+import ComparisonSection from "@/components/sections/ComparisonSection";
 import InternalLinksSection from "@/components/sections/InternalLinksSection";
 import ParallaxShowcaseSection from "@/components/sections/ParallaxShowcaseSection";
 import type { LandingPage, LPLink } from "@/lib/lp-types";
@@ -439,6 +440,8 @@ export default function LandingPageContent({
 
         </div>
       </section>
+
+      {page.comparison && <ComparisonSection comparison={page.comparison} />}
 
       {/* ── 2.2 Funktionen / Capabilities (optional, datengetrieben pro Seite) ── */}
       {page.capabilities && page.capabilities.items.length > 0 && (

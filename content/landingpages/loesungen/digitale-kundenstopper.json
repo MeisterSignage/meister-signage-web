@@ -177,5 +177,58 @@
         "href": "/branchen/gastronomie/"
       }
     ]
-  }
+  },
+  "comparison": {
+    "title": "Unsere digitalen Kundenstopper im Vergleich",
+    "columns": [
+      "Bestehende 1’500-Nits-Ausführung",
+      "Neues Mini-LED-Battery-Board"
+    ],
+    "rows": [
+      {
+        "label": "Bildschirm",
+        "values": [
+          "43 Zoll",
+          "43 Zoll"
+        ]
+      },
+      {
+        "label": "Helligkeitsangabe",
+        "values": [
+          "1’500 nits",
+          "Bis zu 3’000 nits Spitzenhelligkeit"
+        ]
+      },
+      {
+        "label": "Display-Technik",
+        "values": [
+          "Gemäss konkretem Datenblatt",
+          "Mini-LED mit Local Dimming"
+        ]
+      },
+      {
+        "label": "Gehäuse",
+        "values": [
+          "IP65 gemäss Modellausführung",
+          "IP65 mit entspiegelter Glasfront"
+        ]
+      },
+      {
+        "label": "Akku und Ladezeit",
+        "values": [
+          "Daten der angebotenen Ausführung prüfen",
+          "Einsatzdauer und Ladefenster individuell planen"
+        ]
+      },
+      {
+        "label": "Preis und Verfügbarkeit",
+        "values": [
+          "Auf Anfrage",
+          "Auf Anfrage"
+        ]
+      }
+    ],
+    "note": "Spitzenhelligkeit und dauerhafte Helligkeit sind nicht gleichzusetzen. Akku-, Gewichts- und Ausstattungsdaten gelten jeweils nur für das konkrete Modell."
+  },
+  "updatedAt": "2026-10-07"
 }

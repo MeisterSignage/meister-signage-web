@@ -79,6 +79,42 @@ collections:
       - { label: "Headline (H1)",      name: "h1",             widget: "string" }
       - { label: "Intro-Text",         name: "intro",          widget: "text" }
       - { label: "Hero-Bild",          name: "heroImage",      widget: "image", required: false }
+      - { label: "Inhalt aktualisiert am", name: "updatedAt", widget: "string", required: false, hint: "YYYY-MM-DD; nur bei tatsächlicher Inhaltsänderung setzen." }
+      - label: "Vergleichstabelle"
+        name: "comparison"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Einleitung", name: "intro", widget: "text", required: false }
+          - label: "Spalten"
+            name: "columns"
+            widget: "list"
+            field: { label: "Spaltentitel", name: "column", widget: "string" }
+          - label: "Zeilen"
+            name: "rows"
+            widget: "list"
+            fields:
+              - { label: "Kriterium", name: "label", widget: "string" }
+              - label: "Werte (gleiche Reihenfolge und Anzahl wie Spalten)"
+                name: "values"
+                widget: "list"
+                field: { label: "Wert", name: "value", widget: "text" }
+          - { label: "Hinweis", name: "note", widget: "text", required: false }
+      - label: "Anwendungsbeispiele"
+        name: "useCases"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Einleitung", name: "intro", widget: "text", required: false }
+          - label: "Beispiele"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Titel", name: "title", widget: "string" }
+              - { label: "Beschreibung", name: "description", widget: "text" }
       - label: "Vorteile / Benefits"
         name: "benefits"
         widget: "list"
@@ -159,6 +195,42 @@ collections:
       - { label: "Headline (H1)",      name: "h1",             widget: "string" }
       - { label: "Intro-Text",         name: "intro",          widget: "text" }
       - { label: "Hero-Bild",          name: "heroImage",      widget: "image", required: false }
+      - { label: "Inhalt aktualisiert am", name: "updatedAt", widget: "string", required: false, hint: "YYYY-MM-DD; nur bei tatsächlicher Inhaltsänderung setzen." }
+      - label: "Vergleichstabelle"
+        name: "comparison"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Einleitung", name: "intro", widget: "text", required: false }
+          - label: "Spalten"
+            name: "columns"
+            widget: "list"
+            field: { label: "Spaltentitel", name: "column", widget: "string" }
+          - label: "Zeilen"
+            name: "rows"
+            widget: "list"
+            fields:
+              - { label: "Kriterium", name: "label", widget: "string" }
+              - label: "Werte (gleiche Reihenfolge und Anzahl wie Spalten)"
+                name: "values"
+                widget: "list"
+                field: { label: "Wert", name: "value", widget: "text" }
+          - { label: "Hinweis", name: "note", widget: "text", required: false }
+      - label: "Anwendungsbeispiele"
+        name: "useCases"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Einleitung", name: "intro", widget: "text", required: false }
+          - label: "Beispiele"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Titel", name: "title", widget: "string" }
+              - { label: "Beschreibung", name: "description", widget: "text" }
       - label: "Vorteile / Benefits"
         name: "benefits"
         widget: "list"

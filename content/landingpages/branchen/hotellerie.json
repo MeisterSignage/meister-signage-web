@@ -52,6 +52,10 @@
     {
       "question": "Wie schnell kann die Installation erfolgen?",
       "answer": "Ein Display ist in der Regel an einem Tag installiert und eingerichtet. Grössere Installationen mit mehreren Screens planen wir in Absprache mit Ihrem Betrieb."
+    },
+    {
+      "question": "Wie können Hotelgäste Informationen selbst aufrufen?",
+      "answer": "Eine Infostele mit Touchscreen kann Serviceangebote, Ausflugsinformationen oder Veranstaltungsprogramme zur Auswahl zeigen. Mehrsprachige Inhalte und die Bedienoberfläche werden passend zum Hotel vorbereitet. Ein automatischer Check-in benötigt zusätzlich eine geeignete Anwendung und Schnittstellen."
     }
   ],
   "internalLinks": [
@@ -94,6 +98,10 @@
     {
       "label": "Digital Signage & Nachhaltigkeit",
       "href": "/wissen/digital-signage-nachhaltigkeit/"
+    },
+    {
+      "label": "Digitale Stele mit Touchscreen",
+      "href": "/loesungen/digitale-infostele/"
     }
   ],
   "cta": {
@@ -136,5 +144,6 @@
         "href": "/staedte/zug/"
       }
     ]
-  }
+  },
+  "updatedAt": "2026-10-07"
 }

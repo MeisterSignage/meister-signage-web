@@ -285,7 +285,7 @@ export default function DigitalSignageKaufenContent() {
                 color: "#f3f4f6",
               }}
             >
-              Investieren Sie <span style={{ color: "#ffffff" }}>einmal.</span>
+              Ihr Display. <span style={{ color: "#ffffff" }}>Ihr Eigentum.</span>
               <br />
               Kommunizieren Sie <span style={{ color: "#ffffff" }}>dauerhaft.</span>
             </h1>
@@ -294,7 +294,7 @@ export default function DigitalSignageKaufenContent() {
               className="mb-10 max-w-[440px] leading-relaxed"
               style={{ fontSize: "clamp(1rem, 1.5vw, 1.15rem)", color: "rgba(209,213,219,0.9)" }}
             >
-              Schlüsselfertige Digital-Signage-Displays für Gastronomie, Retail, Hotellerie und Unternehmen. Persönlich geplant, eingerichtet und betreut – damit Sie einmal investieren und dauerhaft kommunizieren.
+              Digital-Signage-Displays für Gastronomie, Retail, Hotellerie und Unternehmen kaufen. Wir planen Hardware, Einrichtung und Software passend zu Ihrem Einsatz. Der Gerätepreis wird einmalig bezahlt; Einrichtung und laufende Softwarelizenz werden separat ausgewiesen.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -580,7 +580,7 @@ export default function DigitalSignageKaufenContent() {
                 <tr>
                   <th className="w-[160px] pb-6 pr-4 align-bottom text-[13px] font-semibold text-cgray" />
                   {products.map((p) => (
-                    <th key={p.model} className="relative pb-6 text-center align-bottom">
+                    <th scope="col" key={p.model} className="relative pb-6 text-center align-bottom">
                       {p.tag === "Premium" && (
                         <span
                           className="absolute -top-1 left-1/2 -translate-x-1/2 rounded-full px-3 py-0.5 text-[9px] font-black uppercase tracking-[0.12em] text-white"
@@ -612,11 +612,11 @@ export default function DigitalSignageKaufenContent() {
                   { label: "Bautiefe", values: ["15.5 mm", "15.5 mm", "15.5 mm", "15.5 mm"] },
                   { label: "Helligkeit", values: ["450 nits", "450 nits", "450 nits", "450 nits"] },
                   { label: "Stromverbrauch (typ.)", values: ["36 W", "63 W", "81 W", "53 W"] },
-                  { label: "Ideal für", values: ["Menüboards, Empfang", "Gastronomie, Retail", "Schaufenster, grosse Flächen", "Spezialinstallationen"] },
+                  { label: "Ideal für", values: ["Menüboards, Empfang", "Gastronomie, Retail", "Grosse Innenflächen", "Spezialinstallationen"] },
                   { label: "Kaufpreis", values: ["CHF 1'399", "CHF 1'599", "CHF 1'699", "CHF 1'799"], bold: true },
                   { label: "Miete/Mt. bei 12 Monaten", values: RENTAL_PACKAGES.map((pkg) => `CHF ${pkg.monthlyPrices[12]}`), bold: true },
                   { label: "Cloud-Steuerung", values: ["check", "check", "check", "check"] },
-                  { label: "Persönlicher Support", values: ["check", "check", "check", "check"] },
+                  { label: "Laufende Betreuung beim Kauf", values: ["Nach Vereinbarung", "Nach Vereinbarung", "Nach Vereinbarung", "Nach Vereinbarung"] },
                   { label: "24 V DC am Display", values: ["check", "check", "check", "check"] },
                   { label: "Datenübertragung wireless (WiFi6)", values: ["check", "check", "check", "check"] },
                   { label: "Plug & Play", values: ["check", "check", "check", "check"] },
@@ -625,9 +625,9 @@ export default function DigitalSignageKaufenContent() {
                     key={row.label}
                     className={i % 2 === 0 ? "bg-offwhite/60" : ""}
                   >
-                    <td className="py-3.5 pl-4 pr-4 text-[13px] font-semibold text-navy/80">
+                    <th scope="row" className="py-3.5 pl-4 pr-4 text-[13px] font-semibold text-navy/80">
                       {row.label}
-                    </td>
+                    </th>
                     {row.values.map((val, j) => (
                       <td
                         key={j}
@@ -637,7 +637,7 @@ export default function DigitalSignageKaufenContent() {
                       >
                         {val === "check" ? (
                           <span className="mx-auto flex h-5 w-5 items-center justify-center rounded-full bg-green-50">
-                            <Check className="h-3 w-3 text-green-600" strokeWidth={3} />
+                            <Check aria-hidden="true" className="h-3 w-3 text-green-600" strokeWidth={3} /><span className="sr-only">Ja</span>
                           </span>
                         ) : (
                           val
@@ -656,7 +656,7 @@ export default function DigitalSignageKaufenContent() {
                         href="/kontakt/"
                         className="inline-flex items-center gap-1.5 text-[12px] font-bold uppercase tracking-[0.1em] text-magenta transition-colors duration-150 hover:text-navy"
                       >
-                        Anfragen
+                        {p.model} anfragen
                         <ArrowRight className="h-3 w-3" strokeWidth={2.5} />
                       </Link>
                     </td>
@@ -667,7 +667,7 @@ export default function DigitalSignageKaufenContent() {
           </motion.div>
 
           <p className="mt-6 text-center text-[13px] leading-relaxed text-cgray">
-            Miete: {RENTAL_FOOTNOTE} Beim Kauf werden Einrichtung und Software separat ausgewiesen. Lieferung auf Anfrage, Abholung möglich.
+            Miete: {RENTAL_FOOTNOTE} Beim Kauf kommen einmalig CHF 149 Einrichtung und eine Softwarelizenz ab CHF 180 pro Jahr hinzu. Lieferung auf Anfrage, Abholung möglich.
           </p>
 
         </div>

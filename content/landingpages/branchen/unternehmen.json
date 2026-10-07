@@ -52,6 +52,10 @@
     {
       "question": "Was kostet eine Lösung für den Empfangsbereich?",
       "answer": "Das hängt von Anzahl Displays, Inhalten und gewünschter Betreuung ab. Wir erstellen Ihnen eine kostenlose, unverbindliche Einschätzung."
+    },
+    {
+      "question": "Welche Inhalte eignen sich für einen Bildschirm zur Mitarbeiterinformation?",
+      "answer": "Geeignet sind interne Nachrichten, Termine, Sicherheitshinweise und Standortinformationen. Zuständigkeiten, Freigaben und Aktualisierungsrhythmus sollten vorab feststehen. Vertrauliche Daten gehören nur auf Bildschirme mit entsprechend begrenztem Publikum."
     }
   ],
   "internalLinks": [
@@ -86,6 +90,10 @@
     {
       "label": "Digital Signage & Nachhaltigkeit",
       "href": "/wissen/digital-signage-nachhaltigkeit/"
+    },
+    {
+      "label": "Digitale Stele mit Touchscreen",
+      "href": "/loesungen/digitale-infostele/"
     }
   ],
   "cta": {
@@ -128,5 +136,6 @@
         "href": "/staedte/luzern/"
       }
     ]
-  }
+  },
+  "updatedAt": "2026-10-07"
 }

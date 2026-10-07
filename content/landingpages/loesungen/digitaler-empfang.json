@@ -7,9 +7,18 @@
   "h1": "Digitaler Empfang – der erste Eindruck beginnt digital.",
   "intro": "Ein digitaler Empfang – auch Empfangsbildschirm oder Welcome Screen genannt – informiert, begrüsst und orientiert Besucher direkt beim Betreten des Gebäudes. Über die Meister Signage Software steuern Sie die Inhalte des Empfangsbildschirms zentral und aktualisieren sie jederzeit – im Unternehmen, im Hotel oder im Showroom.",
   "gallery": [
-    { "src": "/images/products/Empfang-Business-Center.webp", "alt": "Digitaler Empfang in einem Business-Center" },
-    { "src": "/images/products/Unternehmen-Empfang.webp", "alt": "Digitaler Empfang in einem Unternehmen" },
-    { "src": "/images/products/Gesundheit-Praxis-Meister-Signage.webp", "alt": "Digitaler Empfang in einer Praxis" }
+    {
+      "src": "/images/products/Empfang-Business-Center.webp",
+      "alt": "Digitaler Empfang in einem Business-Center"
+    },
+    {
+      "src": "/images/products/Unternehmen-Empfang.webp",
+      "alt": "Digitaler Empfang in einem Unternehmen"
+    },
+    {
+      "src": "/images/products/Gesundheit-Praxis-Meister-Signage.webp",
+      "alt": "Digitaler Empfang in einer Praxis"
+    }
   ],
   "benefits": [
     {
@@ -143,5 +152,49 @@
         "href": "/loesungen/software/"
       }
     ]
-  }
+  },
+  "comparison": {
+    "title": "Empfangsdisplay, Infostele oder Touch-Terminal?",
+    "columns": [
+      "Display an der Wand",
+      "Freistehende Infostele",
+      "Stele mit Touchscreen"
+    ],
+    "rows": [
+      {
+        "label": "Geeignet für",
+        "values": [
+          "Welcome Screen und Unternehmensnews",
+          "Information mitten in der Lobby",
+          "Selbst gewählte Besucherinformationen"
+        ]
+      },
+      {
+        "label": "Bedienung",
+        "values": [
+          "Automatische Anzeige",
+          "Automatische Anzeige",
+          "Interaktive Auswahl"
+        ]
+      },
+      {
+        "label": "Aufstellung",
+        "values": [
+          "Geeignete Wand und Montage",
+          "Stellfläche, Strom und freie Laufwege",
+          "Zusätzlich Platz und erreichbare Bedienhöhe"
+        ]
+      },
+      {
+        "label": "Typische Inhalte",
+        "values": [
+          "Begrüssung und Termine",
+          "Programm, Orientierung und Werbung",
+          "Gebäudeplan, Serviceübersicht, Produktinformationen"
+        ]
+      }
+    ],
+    "note": "Eine Besucheranmeldung oder Raumbuchung benötigt zusätzliche Software und gegebenenfalls eine Systemanbindung."
+  },
+  "updatedAt": "2026-10-07"
 }

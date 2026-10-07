@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import PricingQuickAnswerSection from "@/components/sections/PricingQuickAnswerSection";
 import RentalPackagesSection from "@/components/sections/RentalPackagesSection";
+import ComparisonSection from "@/components/sections/ComparisonSection";
 import BuyVsRentSection from "@/components/sections/BuyVsRentSection";
 import BenefitsSection from "@/components/sections/BenefitsSection";
 import RecommendationSection from "@/components/sections/RecommendationSection";
@@ -404,6 +405,22 @@ export default function WasKostetDigitalSignagePage() {
       />
 
       {/* 5 — Kaufen oder Mieten */}
+      <ComparisonSection comparison={{
+        title: "Spark 3: Kauf und Miete im ersten Jahr",
+        intro: "Rechenbeispiel für ein 32-Zoll-Display mit Standardausstattung. Der genaue Leistungsumfang wird in der Offerte festgehalten.",
+        columns: ["Kauf", "Miete mit 12 Monaten Laufzeit"],
+        rows: [
+          { label: "Gerät", values: ["CHF 1’399 einmalig", "CHF 119 pro Monat"] },
+          { label: "Standardeinrichtung", values: ["CHF 149 einmalig", "Enthalten"] },
+          { label: "Softwarelizenz", values: ["Ab CHF 180 pro Jahr", "Enthalten"] },
+          { label: "Summe für 12 Monate", values: ["Ab CHF 1’728", `CHF ${SPARK_RENTALS[0].monthlyPrices[12] * 12}`] },
+          { label: "Eigentum am Gerät", values: ["Gerät gehört Ihnen", "Gerät bleibt Mietgerät"] },
+          { label: "Halterung und Betreuung", values: ["Umfang gemäss Offerte", "Wandhalterung und persönliche Betreuung enthalten"] },
+        ],
+        note: "Keine vollständige Gesamtkostenrechnung: Lieferung, Montage vor Ort, Zubehör und individuelle Inhalte kommen je nach Projekt hinzu. Beim Kauf fällt die Softwarelizenz auch in Folgejahren an. Preise ohne MWST aufgrund der Unternehmensform.",
+        links: [{ label: "Spark-Modelle vergleichen", href: "/digital-signage-kaufen/#vergleich" }, { label: "Mietlaufzeiten vergleichen", href: "/digital-signage-mieten/" }],
+      }} />
+
       <BuyVsRentSection
         eyebrow="Kaufen oder mieten"
         title="Welche Variante lohnt sich für Ihren Betrieb?"

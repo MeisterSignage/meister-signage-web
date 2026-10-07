@@ -5,12 +5,21 @@
   "seoDescription": "Digitale Schaufensterwerbung: Spark 5 ab CHF 139 pro Display/Monat bei 12 Monaten Laufzeit inklusive Einrichtung, Lizenz und Wandhalterung. Beratung schweizweit.",
   "eyebrow": "Lösung · Schaufensterwerbung",
   "h1": "Digitale Schaufensterwerbung mit dem richtigen Schaufenster-Display.",
-  "intro": "Digitale Schaufensterwerbung macht Ihre Aktionen rund um die Uhr sichtbar – auch nachts und am Wochenende. Ein helles Schaufenster-Display verwandelt das Schaufenster in eine bewegte Werbefläche, die auch nach Ladenschluss leuchtet. Ob als Werbemonitor im Schaufenster oder als durchgängige digitale Schaufensterkommunikation: Kampagnen, Aktionen und Produkte sind 24/7 sichtbar und lassen sich tageszeitabhängig steuern. Mit 450 nits Helligkeit wirken die Schaufenster-Displays auch bei Tageslicht klar und kontrastreich. So zieht die Werbung am Point of Sale maximale Aufmerksamkeit auf sich – mit Bildern und Videos, die im Einzelhandel Blicke fangen.",
+  "intro": "Digitale Schaufensterwerbung zeigt Aktionen, Produkte und Angebote auf einem Werbemonitor hinter Glas – auch nach Ladenschluss, wenn Sie es im Zeitplan vorsehen. Inhalte lassen sich zentral ändern und für einzelne Filialen planen. Welches Schaufenster-Display passt, hängt von Sonneneinstrahlung, Spiegelungen, Sichtabstand und Wärmeentwicklung ab. Wir prüfen den Standort und wählen dafür ein Indoor- oder spezielles High-Brightness-Modell.",
   "heroImage": "/images/products/Schuhladen-Meister-Signage.webp",
   "gallery": [
-    { "src": "/images/products/Schaufensterwerbung-Optiker.webp", "alt": "Digitale Schaufensterwerbung im Schaufenster eines Optikers" },
-    { "src": "/images/products/Schaufensterwerbung-Elektronik.webp", "alt": "Digitale Schaufensterwerbung in einem Elektronikgeschäft" },
-    { "src": "/images/products/Schaufensterwerbung-Mode.webp", "alt": "Digitale Schaufensterwerbung in einem Modegeschäft" }
+    {
+      "src": "/images/products/Schaufensterwerbung-Optiker.webp",
+      "alt": "Digitale Schaufensterwerbung im Schaufenster eines Optikers"
+    },
+    {
+      "src": "/images/products/Schaufensterwerbung-Elektronik.webp",
+      "alt": "Digitale Schaufensterwerbung in einem Elektronikgeschäft"
+    },
+    {
+      "src": "/images/products/Schaufensterwerbung-Mode.webp",
+      "alt": "Digitale Schaufensterwerbung in einem Modegeschäft"
+    }
   ],
   "benefits": [
     {
@@ -18,8 +27,8 @@
       "description": "Während gedruckte Plakate im dunklen Schaufenster verschwinden, leuchtet das digitale Schaufensterdisplay weiter – auch abends, nachts und an Sonntagen, wenn Passanten besonders viel Zeit haben hinzuschauen."
     },
     {
-      "title": "Hohe Helligkeit für Tageslicht",
-      "description": "Mit 450 nits sind die Inhalte auch bei einfallendem Sonnenlicht gut lesbar. Für direkte Sonneneinstrahlung empfehlen wir spezielle High-Brightness-Modelle."
+      "title": "Helligkeit passend zum Schaufenster",
+      "description": "Spark-Displays mit 450 nits kommen für geeignete, lichtgeschützte Standorte infrage. Bei heller Umgebung oder direkter Sonne prüfen wir ein High-Brightness-Display und dessen thermische Eignung hinter Glas."
     },
     {
       "title": "Aktionen sofort kommunizieren",
@@ -27,7 +36,7 @@
     },
     {
       "title": "Bewegtbild zieht Blicke an",
-      "description": "Studien zeigen: bewegte Inhalte werden bis zu 4-mal stärker wahrgenommen als statische Plakate. Im Schaufenster, wo Passanten in Sekunden vorbeigehen, ist das entscheidend."
+      "description": "Bilder, kurze Videos und wechselnde Angebote können Aufmerksamkeit auf Ihr Sortiment lenken. Eine klare Botschaft und gut lesbare Schrift helfen Passanten, das Angebot beim Vorbeigehen zu erfassen."
     },
     {
       "title": "Zeitgesteuerte Werbung",
@@ -49,7 +58,7 @@
   "faq": [
     {
       "question": "Was ist ein Schaufenster-Display bzw. Werbemonitor?",
-      "answer": "Ein Schaufenster-Display – oft auch Werbemonitor genannt – ist ein heller, für den Dauerbetrieb gebauter Bildschirm, der ins Schaufenster gerichtet ist und dort Aktionen, Produkte und Kampagnen zeigt. Im Gegensatz zu Consumer-Fernsehern bleibt er auch bei Tageslicht klar lesbar und läuft 24/7."
+      "answer": "Ein Schaufenster-Display ist ein Bildschirm, der Aktionen, Produkte und Kampagnen nach aussen zeigt. Für eine geeignete Lösung werden Helligkeit, Betriebsdauer und Wärmeentwicklung am konkreten Standort geprüft."
     },
     {
       "question": "Was bedeutet digitale Schaufensterkommunikation?",
@@ -57,11 +66,11 @@
     },
     {
       "question": "Eignet sich jedes Display für die Schaufensterwerbung?",
-      "answer": "Nein. Consumer-Fernseher oder einfache Office-Displays haben oft zu wenig Helligkeit und sind nicht für 24/7-Dauerbetrieb spezifiziert. Für Schaufenster braucht es professionelle Digital-Signage-Displays mit mindestens 450 nits und Dauerbetriebs-Zertifizierung."
+      "answer": "Nein. Helligkeit allein reicht als Auswahlkriterium nicht aus. Auch Spiegelungen, direkte Sonne, Wärme hinter Glas, zulässige Betriebsdauer und Montage müssen zum Gerät passen. Eine allgemeine Mindesthelligkeit garantiert keine Lesbarkeit an jedem Standort."
     },
     {
       "question": "Funktioniert das auch bei direktem Sonnenlicht?",
-      "answer": "Bei normalem Tageslicht ja. Bei direkter Sonneneinstrahlung über mehrere Stunden empfehlen wir High-Brightness-Modelle (700 bis 2500 nits) – diese sprechen wir individuell ab, je nach Ausrichtung und Schaufensterglas."
+      "answer": "Für direkte Sonne ist eine gesonderte Standortprüfung nötig. Wir stimmen Helligkeit, Temperaturbereich, Belüftung und Glasreflexionen auf ein dafür geeignetes Modell ab. Ein Standarddisplay mit 450 nits ist keine pauschale Lösung für sonnige Schaufenster."
     },
     {
       "question": "Wie wird das Display im Schaufenster montiert?",
@@ -168,5 +177,51 @@
         "href": "/branchen/gastronomie/"
       }
     ]
-  }
+  },
+  "comparison": {
+    "title": "Welches Display passt ins Schaufenster?",
+    "columns": [
+      "Spark-Indoor-Display",
+      "High-Brightness-Display"
+    ],
+    "rows": [
+      {
+        "label": "Standort",
+        "values": [
+          "Lichtgeschützter Bereich nach Prüfung",
+          "Helle Schaufenster; Modell nach Standortprüfung"
+        ]
+      },
+      {
+        "label": "Helligkeit",
+        "values": [
+          "450 nits",
+          "Modellabhängig; passend zu Umgebungslicht und Reflexionen"
+        ]
+      },
+      {
+        "label": "Wärme hinter Glas",
+        "values": [
+          "Zulässige Einsatzbedingungen prüfen",
+          "Temperaturbereich und Belüftung gezielt planen"
+        ]
+      },
+      {
+        "label": "Aussenaufstellung",
+        "values": [
+          "Keine Outdoor-Freigabe aus der Helligkeit ableiten",
+          "Nur mit ausdrücklich geeigneter Outdoor-Ausführung"
+        ]
+      },
+      {
+        "label": "Kosten",
+        "values": [
+          "Spark-Preise auf der Kauf- und Mietseite",
+          "Individuelle Offerte"
+        ]
+      }
+    ],
+    "note": "High Brightness bedeutet nicht automatisch wetterfest. Die Wahl erfolgt anhand der tatsächlichen Aufstellung."
+  },
+  "updatedAt": "2026-10-07"
 }

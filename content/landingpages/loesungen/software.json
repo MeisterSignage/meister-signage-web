@@ -37,7 +37,7 @@
     },
     {
       "title": "Läuft auch ohne Internet",
-      "description": "Inhalte werden lokal gespeichert und laufen bei einem Internetausfall zuverlässig weiter – kein schwarzer Bildschirm."
+      "description": "Lokal zwischengespeicherte Bilder und Videos können bei einem Internetausfall weiterlaufen. Live-Daten und Webinhalte bleiben von ihrer Verbindung abhängig; der Umfang richtet sich nach Player und Konfiguration."
     },
     {
       "title": "Apps & Live-Inhalte",
@@ -123,7 +123,7 @@
   "faq": [
     {
       "question": "Was ist die Meister Signage Software?",
-      "answer": "Die zentrale Oberfläche, mit der Sie Inhalte auf einem oder vielen Displays erstellen, planen und ausspielen. Sie ersetzt USB-Sticks und lokale Player – alles läuft webbasiert in einer einzigen Plattform."
+      "answer": "Die Digital-Signage-Software ist das Content-Management-System (CMS) für Ihre Bildschirme. Im Browser erstellen und planen Sie Inhalte; ein integrierter oder separater kompatibler Media-Player spielt sie am Display ab. Manuelles Aktualisieren per USB-Stick entfällt bei der zentralen Verwaltung."
     },
     {
       "question": "Brauche ich einen Computer oder IT-Kenntnisse?",
@@ -139,7 +139,7 @@
     },
     {
       "question": "Funktioniert die Software auch bei einem Internetausfall?",
-      "answer": "Ja. Inhalte werden lokal auf dem Player zwischengespeichert und laufen bei einem Internetausfall weiter. Sobald die Verbindung zurück ist, synchronisiert sich alles automatisch."
+      "answer": "Bereits lokal gespeicherte Bilder und Videos können auf einem entsprechend eingerichteten Player weiterlaufen. Live-Streams, Webseiten und aktuelle Daten benötigen weiterhin eine Verbindung. Welche Inhalte offline verfügbar bleiben, prüfen wir für Ihre Konfiguration."
     },
     {
       "question": "Welche Inhalte und Apps kann ich anzeigen?",
@@ -156,6 +156,10 @@
     {
       "question": "Kann Meister Signage bei der Einrichtung unterstützen?",
       "answer": "Ja. Wir richten die Software ein, schulen Ihr Team und unterstützen beim ersten Content-Setup. Auf Wunsch übernehmen wir auch laufende Aktualisierungen."
+    },
+    {
+      "question": "Kann ich vorhandene Bildschirme und Touchdisplays weiterverwenden?",
+      "answer": "Das prüfen wir anhand von Modell, Betriebssystem, Anschlüssen und gewünschter Anwendung. Je nach Gerät wird ein kompatibler externer Media-Player benötigt. Touchbedienung setzt zusätzlich eine unterstützte Touchschnittstelle und eine dafür gestaltete Anwendung voraus."
     }
   ],
   "internalLinks": [
@@ -194,6 +198,10 @@
     {
       "label": "Digital Signage Anbieter",
       "href": "/digital-signage-anbieter-vergleich/"
+    },
+    {
+      "label": "Interaktive Infostele mit Touchscreen",
+      "href": "/loesungen/digitale-infostele/"
     }
   ],
   "cta": {
@@ -224,5 +232,6 @@
         "href": "/loesungen/digitale-leitsysteme/"
       }
     ]
-  }
+  },
+  "updatedAt": "2026-10-07"
 }

@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 import { SITE_INDEXABLE } from "@/lib/seo-config";
-import { getAllBranchenSlugs, getAllLoesungenSlugs, getAllStaedteSlugs, getStaedtePage } from "@/lib/landingpages";
+import { getAllBranchenSlugs, getAllLoesungenSlugs, getAllStaedteSlugs, getStaedtePage, getBranchenPage, getLoesungenPage } from "@/lib/landingpages";
 import { getAllWissenSlugs } from "@/lib/wissen";
 import { getPublishedPosts } from "@/lib/news";
 
@@ -13,37 +13,33 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const base = "https://www.meister-signage.ch";
 
-  type Entry = { url: string; priority: number; cf: Freq; date: string };
+  type Entry = { url: string; priority: number; cf: Freq; date?: string };
 
   const fixed: Entry[] = [
     /* Core */
-    { url: "/",                                   priority: 1.0, cf: "weekly",  date: "2026-05-18" },
-    { url: "/digital-signage-schweiz",            priority: 1.0, cf: "weekly",  date: "2026-05-18" },
+    { url: "/",                                   priority: 1.0, cf: "weekly" },
+    { url: "/digital-signage-schweiz",            priority: 1.0, cf: "weekly" },
 
     /* Money pages */
-    { url: "/digital-signage-kaufen",             priority: 0.9, cf: "monthly", date: "2026-05-18" },
-    { url: "/digital-signage-mieten",             priority: 0.9, cf: "monthly", date: "2026-05-18" },
-    { url: "/was-kostet-digital-signage-schweiz", priority: 0.8, cf: "monthly", date: "2026-05-18" },
-    { url: "/digital-signage-wie-red-bull",       priority: 0.7, cf: "monthly", date: "2026-06-15" },
-    { url: "/digital-signage-anbieter-vergleich", priority: 0.8, cf: "monthly", date: "2026-05-27" },
+    { date: "2026-10-07", url: "/digital-signage-kaufen",             priority: 0.9, cf: "monthly" },
+    { url: "/digital-signage-mieten",             priority: 0.9, cf: "monthly" },
+    { date: "2026-10-07", url: "/was-kostet-digital-signage-schweiz", priority: 0.8, cf: "monthly" },
+    { url: "/digital-signage-wie-red-bull",       priority: 0.7, cf: "monthly" },
+    { url: "/digital-signage-anbieter-vergleich", priority: 0.8, cf: "monthly" },
     /* /preise: noch nicht öffentlich — zum Go-live hier eintragen. */
 
     /* Overviews */
-    { url: "/branchen",                           priority: 0.8, cf: "monthly", date: "2026-05-18" },
-    { url: "/loesungen",                          priority: 0.8, cf: "monthly", date: "2026-05-18" },
-    { url: "/loesungen/displays",                 priority: 0.8, cf: "monthly", date: "2026-06-14" },
-    { url: "/wissen",                             priority: 0.7, cf: "monthly", date: "2026-05-18" },
+    { url: "/branchen",                           priority: 0.8, cf: "monthly" },
+    { url: "/loesungen",                          priority: 0.8, cf: "monthly" },
+    { url: "/loesungen/displays",                 priority: 0.8, cf: "monthly" },
+    { url: "/wissen",                             priority: 0.7, cf: "monthly" },
 
     /* Editorial / company */
-    { url: "/news",                               priority: 0.7, cf: "weekly",  date: "2026-05-18" },
-    { url: "/ueber-uns",                          priority: 0.6, cf: "yearly",  date: "2026-05-18" },
-    { url: "/kontakt",                            priority: 0.8, cf: "yearly",  date: "2026-05-18" },
-    { url: "/redaktionelle-richtlinien",          priority: 0.3, cf: "yearly",  date: "2026-08-06" },
+    { url: "/news",                               priority: 0.7, cf: "weekly" },
+    { url: "/ueber-uns",                          priority: 0.6, cf: "yearly" },
+    { url: "/kontakt",                            priority: 0.8, cf: "yearly" },
+    { url: "/redaktionelle-richtlinien",          priority: 0.3, cf: "yearly" },
 
-    /* Legal */
-    { url: "/datenschutz",                        priority: 0.3, cf: "yearly",  date: "2026-05-01" },
-    { url: "/impressum",                          priority: 0.3, cf: "yearly",  date: "2026-05-01" },
-    { url: "/versand-und-rueckgabe",              priority: 0.4, cf: "yearly",  date: "2026-05-27" },
   ];
 
   /* Detail-Seiten dynamisch aus dem CMS-Inhalt — neue Einträge im JSON
@@ -52,15 +48,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const dynamic: Entry[] = [
     ...getAllBranchenSlugs().map((slug): Entry => ({
       url: `/branchen/${slug}`,
+      date: getBranchenPage(slug)?.updatedAt,
       priority: 0.9,
       cf: "monthly" as const,
-      date: "2026-05-15",
     })),
     ...getAllLoesungenSlugs().map((slug): Entry => ({
       url: `/loesungen/${slug}`,
+      date: getLoesungenPage(slug)?.updatedAt,
       priority: 0.9,
       cf: "monthly" as const,
-      date: "2026-05-15",
     })),
     // noindex-Städte (schwache Template-Seiten) NICHT in die Sitemap aufnehmen
     ...getAllStaedteSlugs()
@@ -69,19 +65,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `/staedte/${slug}`,
         priority: 0.9,
         cf: "monthly" as const,
-        date: "2026-05-15",
       })),
     ...getAllWissenSlugs().map((slug): Entry => ({
       url: `/wissen/${slug}`,
       priority: 0.7,
       cf: "monthly" as const,
-      date: "2026-05-15",
     })),
     ...getPublishedPosts().map((post): Entry => ({
       url: `/news/${post.slug}`,
       priority: 0.6,
       cf: "monthly" as const,
-      date: post.date,
+
     })),
   ];
 
@@ -92,7 +86,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const path = p.url === "/" ? "/" : p.url.endsWith("/") ? p.url : `${p.url}/`;
     return {
       url: `${base}${path}`,
-      lastModified: new Date(p.date),
+      ...(p.date ? { lastModified: new Date(p.date) } : {}),
       changeFrequency: p.cf,
       priority: p.priority,
     };

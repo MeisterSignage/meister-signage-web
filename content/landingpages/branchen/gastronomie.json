@@ -55,7 +55,7 @@
     },
     {
       "question": "Lässt sich Digital Signage mit dem Kassensystem verbinden?",
-      "answer": "In vielen Fällen ja. Auf Wunsch binden wir eine Schnittstelle zum Kassensystem an, sodass Preise und Angebote automatisch auf dem Bildschirm erscheinen. Auch interaktive Touchscreen-Lösungen sind möglich – etwa eine Speisekarte zum Selbststöbern. Bedient wird trotzdem alles einfach und ohne IT-Kenntnisse."
+      "answer": "Eine Anbindung ist abhängig vom konkreten Kassensystem, verfügbaren Schnittstellen und der eingesetzten Software. Wir prüfen, ob Preise und Angebote übernommen werden können und welcher Aufwand entsteht. Eine interaktive Speisekarte ist ebenfalls möglich; Bestellung und Bezahlung benötigen zusätzliche Funktionen und sind nicht automatisch enthalten."
     }
   ],
   "useCases": {
@@ -125,6 +125,10 @@
     {
       "label": "Digital Signage & Nachhaltigkeit",
       "href": "/wissen/digital-signage-nachhaltigkeit/"
+    },
+    {
+      "label": "Digitale Kundenstopper vergleichen",
+      "href": "/loesungen/digitale-kundenstopper/"
     }
   ],
   "cta": {
@@ -167,5 +171,49 @@
         "href": "/staedte/zuerich/"
       }
     ]
-  }
+  },
+  "comparison": {
+    "title": "Welche digitale Anzeige passt zu Ihrem Restaurant?",
+    "columns": [
+      "Digitales Menüboard",
+      "Display an der Theke",
+      "Digitaler Kundenstopper"
+    ],
+    "rows": [
+      {
+        "label": "Aufgabe",
+        "values": [
+          "Speisen und Preise übersichtlich zeigen",
+          "Zusatzangebote und Tagesaktionen",
+          "Gäste am Eingang auf Angebote hinweisen"
+        ]
+      },
+      {
+        "label": "Inhalte",
+        "values": [
+          "Digitale Speisekarte und wechselnde Tagesmenüs",
+          "Kurze Aktionen und Produktbilder",
+          "Mittagsmenü, Öffnungszeiten und Hinweise"
+        ]
+      },
+      {
+        "label": "Planung",
+        "values": [
+          "Lesedistanz und Anzahl Gerichte",
+          "Platzangebot und Blickrichtung",
+          "Licht, Wetter, Standsicherheit und Strom bzw. Akku"
+        ]
+      },
+      {
+        "label": "Aktualisierung",
+        "values": [
+          "Inhalte über ein geeignetes CMS pflegen",
+          "Zeitpläne für Tagesangebote",
+          "Abspielsystem und Anbindung modellabhängig"
+        ]
+      }
+    ],
+    "note": "Ein Menüboard ist keine automatische Bestell- oder Kassenlösung. Schnittstellen und Touch-Bestellung werden separat geprüft."
+  },
+  "updatedAt": "2026-10-07"
 }
