@@ -5,11 +5,12 @@ description: "Eine Gemeinde testete die Bildschirmlösung über die Sommerferien
 date: "2026-10-07T12:00:00+02:00"
 dateModified: "2026-10-07"
 category: "Kundenprojekt"
+image: "/images/projekte/gemeinde/empfang.jpg"
 slug: "gemeindehaus-besucherinformation"
 status: published
 ---
 
-Ein Bildschirm im Gemeindehaus soll Besucherinnen und Besuchern helfen, die richtige Abteilung zu finden. In diesem Projekt hat eine Gemeinde unsere Lösung zunächst über die Sommerferien im Alltag getestet und sich anschliessend für den Kauf entschieden. Der Projektbericht wurde am 2. Oktober 2026 auf LinkedIn veröffentlicht; die Gemeinde wird hier nicht namentlich genannt.
+Ein Bildschirm im Gemeindehaus soll Besucherinnen und Besuchern helfen, die richtige Abteilung zu finden. In diesem Projekt hat eine Gemeinde unsere Lösung zunächst über die Sommerferien im Alltag getestet und sich anschliessend für den Kauf entschieden. Der Projektbericht wurde am 2. Oktober 2026 auf LinkedIn veröffentlicht.
 
 ## Die Aufgabe: Abteilungen und Stockwerke sichtbar machen
 
@@ -43,8 +44,18 @@ Für eine vergleichbare Besucherinformation sind vier Fragen hilfreich:
 
 Eine [Infostele mit Touchscreen](/loesungen/digitale-infostele/) kann interaktive Auswahl ermöglichen. Dafür braucht es zusätzlich eine geeignete Anwendung. Eine einfache [Empfangsanzeige](/loesungen/digitaler-empfang/) kann dagegen ausreichen, wenn alle wichtigen Ziele direkt sichtbar sein sollen.
 
-## Originalbeitrag und Projektbilder
+## Einblicke in die Gemeinde
 
-Die Fotos und das ursprüngliche Projektfeedback finden Sie im [LinkedIn-Beitrag von Meister Signage vom 2. Oktober 2026](https://www.linkedin.com/feed/update/urn:li:ugcPost:7511690816638148608/). Die Bilder werden hier nicht separat übernommen.
+Die Projektbilder zeigen das Wanddisplay im Eingangsbereich und die Übersicht der Abteilungen nach Stockwerk.
+
+<div id="projektbilder" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:24px;margin:24px 0">
+<figure style="margin:0"><img src="/images/projekte/gemeinde/wanddisplay.jpg" alt="Wanddisplay zur Besucherinformation im Eingangsbereich der Gemeinde" width="1152" height="1536" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:12px" /><figcaption>Gemeinde: Wanddisplay im Eingangsbereich.</figcaption></figure>
+<figure style="margin:0"><img src="/images/projekte/gemeinde/besucherinformation.jpg" alt="Digitales Informationsdisplay neben dem Treppenaufgang der Gemeinde" width="1152" height="1536" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:12px" /><figcaption>Gemeinde: Orientierung vor dem Treppenaufgang.</figcaption></figure>
+<figure style="margin:0"><img src="/images/projekte/gemeinde/etagenuebersicht.jpg" alt="Digitale Übersicht der Abteilungen und Stockwerke der Gemeinde" width="1152" height="1536" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:12px" /><figcaption>Gemeinde: Abteilungen nach Stockwerk im Überblick.</figcaption></figure>
+</div>
+
+## Originalbeitrag
+
+Das ursprüngliche Projektfeedback finden Sie im [LinkedIn-Beitrag von Meister Signage vom 2. Oktober 2026](https://www.linkedin.com/feed/update/urn:li:ugcPost:7511690816638148608/).
 
 Sie planen eine Besucherinformation? Beschreiben Sie uns Gebäude, Inhalte und gewünschten Einsatz in einer [unverbindlichen Anfrage](/kontakt/). Eine erste Orientierung bieten die [Kostenübersicht](/was-kostet-digital-signage-schweiz/) und die [Mietmodelle](/digital-signage-mieten/).

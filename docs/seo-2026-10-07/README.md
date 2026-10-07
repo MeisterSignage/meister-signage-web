@@ -19,3 +19,6 @@ Produktionsbuild erfolgreich; ESLint für geänderte TypeScript-Dateien und git 
 
 ## Offene Fakten
 Gemeindename/Fotofreigabe fehlen: Veröffentlichung anonymisiert. Nachweise für fünf echte Miet-/Kauffälle fehlen: als Beispiele bezeichnet. Modellabhängige Touch-, Integrations- und Outdoor-Eigenschaften nur nach bestätigtem Datenblatt verbindlich zusagen. Rankingwirkung ist nach Veröffentlichung zu messen.
+
+## Ergänzung: Freigabe der Projektbilder
+Am 7. Oktober 2026 hat der Inhaber die Verwendung der vier Bilder aus dem LinkedIn-Beitrag ausdrücklich freigegeben. Ein Titelbild und drei Galerieaufnahmen wurden ergänzt. Im redaktionellen Text, in Bildbeschreibungen und Dateinamen wird ausschliesslich «Gemeinde» verwendet. Die freigegebenen Originalaufnahmen werden unverändert übernommen. Die frühere offene Fotofreigabe ist damit erledigt.
