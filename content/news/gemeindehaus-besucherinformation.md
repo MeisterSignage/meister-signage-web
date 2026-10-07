@@ -1,6 +1,6 @@
 ---
 title: "Besucherinformation im Gemeindehaus: vom Alltagstest zum Kauf"
-seoTitle: "Gemeindehaus: Digital Signage in der Praxis | Meister Signage"
+seoTitle: "Gemeindehaus: Digital Signage in der Praxis"
 description: "Eine Gemeinde testete die Bildschirmlösung über die Sommerferien und entschied sich danach für ein 50-Zoll-Display zur Besucherinformation."
 date: "2026-10-07T12:00:00+02:00"
 dateModified: "2026-10-07"
