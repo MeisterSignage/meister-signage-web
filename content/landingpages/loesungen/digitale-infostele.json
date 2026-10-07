@@ -24,11 +24,11 @@
   "benefits": [
     {
       "title": "Freistehend – flexibel positionierbar",
-      "description": "Die Infostele steht frei im Raum und braucht keine Wandhalterung. Standortwechsel sind ohne baulichen Eingriff möglich – ideal für Flächen, die sich ändern."
+      "description": "Eine freistehende Infostele braucht keine Wandhalterung. Standfläche, Kabelführung und Sicherung werden passend zum Gerät und zu den Laufwegen geplant. Standortwechsel sind möglich, wenn Gewicht und Aufstellung dafür geeignet sind."
     },
     {
       "title": "Information auf Augenhöhe",
-      "description": "Stehende, vertikale Bauform sorgt dafür, dass Inhalte für Besucher in natürlicher Lesehöhe sind – ohne sich bücken oder strecken zu müssen."
+      "description": "Eine vertikale Bauform schafft Platz für Begrüssung, Etagenübersicht oder Produktinformationen. Schriftgrösse und Anzeigehöhe richten sich nach Sichtabstand; bei Touch-Anwendungen zählt zusätzlich eine gut erreichbare Bedienfläche."
     },
     {
       "title": "Vielseitig: Begrüssung, Orientierung, Werbung",
@@ -95,6 +95,14 @@
     {
       "question": "Wie wählen wir ein konkretes Touchmodell aus?",
       "answer": "Für die Auswahl benötigen wir den Einsatzort, verfügbare Fläche, gewünschte Bedienhöhe, Inhalte und Schnittstellen. In der Offerte nennen wir Modell, Displaygrösse, Masse, Gewicht, Strom-/Netzwerkbedarf sowie die enthaltene Anwendung. So bleibt nachvollziehbar, welche Funktion aus Hardware und welche aus Software entsteht."
+    },
+    {
+      "question": "Wann ist ein Wanddisplay sinnvoller als eine digitale Infostele?",
+      "answer": "Ein Wanddisplay eignet sich, wenn eine gut sichtbare Wandfläche vorhanden ist und die Laufwege frei bleiben sollen. Eine Infostele bietet sich an, wenn Informationen frei im Raum platziert werden müssen. Für beide Lösungen zählen Lesbarkeit und sichere Montage beziehungsweise Aufstellung. Das Gemeindeprojekt auf unserer Website zeigt eine Etagenübersicht auf einem Wanddisplay; es ist keine Touch-Stelen-Installation."
+    },
+    {
+      "question": "Welche Angaben brauche ich für eine Offerte für eine Infostele?",
+      "answer": "Hilfreich sind ein Foto des Standorts, die verfügbare Stellfläche, gewünschte Inhalte, tägliche Betriebszeiten und die Entscheidung Anzeige oder Touch. Nennen Sie auch Strom- und Netzwerkzugang sowie den gewünschten Termin. Für eine interaktive Stele klären wir zusätzlich Bedienablauf, Sprachversionen und benötigte Schnittstellen."
     }
   ],
   "internalLinks": [
@@ -232,7 +240,21 @@
         ]
       }
     ],
-    "note": "Ein Touchscreen allein enthält noch kein Buchungs-, Kassen- oder Check-in-System. Funktionen, Schnittstellen und laufende Kosten werden im Projekt festgelegt."
+    "note": "Ein Touchscreen allein enthält noch kein Buchungs-, Kassen- oder Check-in-System. Funktionen, Schnittstellen und laufende Kosten werden im Projekt festgelegt.",
+    "links": [
+      {
+        "label": "Wanddisplay im Einsatz: Gemeindeprojekt",
+        "href": "/news/gemeindehaus-besucherinformation/"
+      },
+      {
+        "label": "Infostele oder mobiles Display?",
+        "href": "/loesungen/mobile-displays/"
+      },
+      {
+        "label": "Software und Voraussetzungen",
+        "href": "/loesungen/software/"
+      }
+    ]
   },
   "useCases": {
     "eyebrow": "Interaktive Möglichkeiten",

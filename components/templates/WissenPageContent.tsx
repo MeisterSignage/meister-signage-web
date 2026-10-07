@@ -9,6 +9,7 @@ import { viewport, easeOut, staggerContainer, staggerItem } from "@/lib/motion";
 import ContactSection from "@/components/sections/ContactSection";
 import InternalLinksSection from "@/components/sections/InternalLinksSection";
 import type { WissenPage } from "@/lib/wissen-types";
+import ComparisonSection from "@/components/sections/ComparisonSection";
 import ArticleAuthor from "@/components/ArticleAuthor";
 
 /** Format an ISO date as German month + year, e.g. "Mai 2026" */
@@ -258,6 +259,8 @@ export default function WissenPageContent({ page }: { page: WissenPage }) {
           </div>
         </section>
       )}
+
+      {page.comparison && <ComparisonSection comparison={page.comparison} />}
 
       {/* ── 4. EXAMPLES ─────────────────────────────────────────────────── */}
       {page.examples.length > 0 && (

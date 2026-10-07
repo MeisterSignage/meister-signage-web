@@ -1,3 +1,5 @@
+import type { LPComparison } from "@/lib/lp-types";
+
 /** Shared TypeScript types for the Wissen / knowledge-hub system. */
 
 export type WissenCategory =
@@ -23,6 +25,7 @@ export type WissenPage = {
   definition: string;
   /** 2–4 paragraphs of plain explanation */
   explanation: string[];
+  comparison?: LPComparison;
   /** Concrete examples / use cases */
   examples: { title: string; description: string }[];
   /** Short benefits / value points */

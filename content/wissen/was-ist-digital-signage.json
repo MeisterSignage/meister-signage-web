@@ -8,13 +8,10 @@
   "intro": "Digital Signage bedeutet digitale Beschilderung: Vernetzte Bildschirme zeigen Informationen, Werbung oder Wegweisung, deren Inhalte zentral geplant und aktualisiert werden. Hier erfahren Sie, wie das funktioniert, wo Unternehmen solche Screens einsetzen und welche Kosten in der Schweiz entstehen.",
   "definition": "Zur Definition von Digital Signage gehören nicht nur digitale Screens, sondern auch die zentrale Steuerung ihrer Inhalte. Statt gedruckter Plakate, Aushänge oder Menükarten zeigen vernetzte Bildschirme wechselnde Inhalte nach einem Zeitplan. Ein gewöhnlicher Bildschirm wird erst mit passender Software, Inhalten und Steuerung zur Digital-Signage-Lösung.",
   "explanation": [
-    "Im Kern besteht ein Digital-Signage-System aus vier Bausteinen: dem Display, einem Mediaplayer, der Software (CMS) und den Inhalten. Das Display zeigt, der Player spielt ab, die Software steuert und plant, die Inhalte transportieren die Botschaft. Bei modernen Displays ist der Player bereits integriert (System-on-Chip) – ein separater Mini-PC ist dann nicht nötig.",
-    "Statt jede Tafel manuell zu wechseln, werden Inhalte einmal vorbereitet und automatisch zum passenden Zeitpunkt ausgespielt: Mittagsmenü von 11–14 Uhr, Aktion am Wochenende, Eventhinweis nur in einer bestimmten Woche. Ein einzelnes Display am Empfang wird genauso verwaltet wie Dutzende Bildschirme über mehrere Standorte – immer aus einer zentralen Oberfläche.",
-    "Als Hardware kommen meist hochwertige LCD-Displays für den 24/7-Dauerbetrieb zum Einsatz – im Innenbereich typischerweise 32 bis 55 Zoll in 4K. Für besondere Einsätze gibt es Sonderformate: ultrabreite Stretched Bars für Regalkanten, transparente Displays für Vitrinen, doppelseitige Stelen, besonders helle Schaufenster-Displays sowie grossflächige LED Walls.",
-    "Die Software (das CMS) ist das Herzstück. Sie läuft im Browser ohne lokalen PC und erlaubt Inhalte per Drag-and-Drop, Zeitpläne, fertige Vorlagen, Apps wie Wetter, News oder Social-Media-Wände sowie die Fernsteuerung mehrerer Bildschirme und Standorte. Inhalte werden lokal zwischengespeichert und laufen auch bei einem Internetausfall weiter.",
-    "Was kostet Digital Signage in der Schweiz? Spark-Displays beginnen beim Kauf bei CHF 1'399 pro Bildschirm, zuzüglich CHF 149 Einrichtung und CHF 180 pro Jahr für die Softwarelizenz. Die Spark-Miete beginnt bei CHF 119 pro Display und Monat bei 12 Monaten Laufzeit – inklusive Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlichem Support. Lieferung auf Anfrage, Abholung möglich; Montage vor Ort, Rückholung und individuelle Inhalte werden separat offeriert. Für andere Laufzeiten gelten andere Monatsraten. Stelen und Battery-Boards zur Miete: Preise auf Anfrage.",
-    "Kaufen oder mieten? Die Entscheidung hängt von Nutzungsdauer und Leistungsumfang ab. Die Spark-Miete enthält Hardware, Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlichen Support. Laufzeiten von 1, 3, 6 oder 12 Monaten sind möglich; kürzere Eventeinsätze offerieren wir auf Anfrage. Wir empfehlen je nach Vorhaben das passende Modell.",
-    "Als Schweizer Anbieter übernehmen wir Beratung, Installation und 24/7-Service vor Ort. Die Bearbeitung von Personendaten erfolgt im Einklang mit dem Schweizer Datenschutzgesetz (revDSG) – auf Wunsch betreiben wir die Lösung datenschutzfreundlich, und Inhalte laufen auch lokal auf dem Display."
+    "Ein Digital-Signage-System besteht aus Display, Mediaplayer, Software (CMS) und Inhalten. Der Player kann im Bildschirm integriert sein oder als separates Gerät angeschlossen werden. Welche Kombination passt, hängt von Betriebsdauer, Standort, Displayformat und den gewünschten Funktionen ab.",
+    "Im Alltag werden Bilder, Videos oder Informationen im CMS vorbereitet, einem Bildschirm oder einer Gruppe zugeordnet und nach Zeitplan veröffentlicht. Beispielsweise läuft das Mittagsmenü von 11 bis 14 Uhr; danach erscheinen das Abendangebot oder Veranstaltungshinweise. Eine verantwortliche Person prüft Preise, Termine und Lesbarkeit.",
+    "Die Verbindung wird für die Übertragung neuer Inhalte und gegebenenfalls für Live-Daten benötigt. Ob gespeicherte Inhalte bei einem Internetausfall weiterlaufen, hängt von Player und Software ab. Wetterdaten, Livestreams oder Buchungsfunktionen benötigen je nach Anwendung weiterhin eine Verbindung. Offline-Verhalten und Rechte für Mitarbeitende sollten vor dem Einsatz geprüft werden.",
+    "Ein Kostenbeispiel für die Schweiz: Spark 3 kostet ab CHF 1’399, dazu kommen CHF 149 Standardeinrichtung und eine Softwarelizenz ab CHF 180 pro Jahr. Das ergibt ab CHF 1’728 im ersten Jahr vor zusätzlichem Zubehör, Lieferung, Montage und individuellen Inhalten. Die Spark-3-Miete kostet CHF 119 monatlich bei zwölf Monaten Laufzeit, inklusive Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlichem Support. Es wird keine MWST verrechnet. Stelen und Battery-Boards werden individuell offeriert."
   ],
   "examples": [
     {
@@ -43,13 +40,12 @@
     }
   ],
   "benefits": [
-    "Inhalte zentral steuern und in Sekunden aktualisieren",
-    "Druck- und Materialkosten reduzieren",
-    "Hochwertiger, moderner Markenauftritt",
-    "Flexible Zeitsteuerung und Kampagnenplanung",
-    "Skalierbar von einem Display bis zu mehreren Standorten",
-    "Auch ohne laufendes Software-Abo möglich",
-    "Schweizer Service, Installation und 24/7-Support"
+    "Informationen ohne neuen Plakatdruck aktualisieren",
+    "Inhalte nach Uhrzeit, Wochentag und Standort planen",
+    "Einheitliche Gestaltung mit wiederverwendbaren Vorlagen",
+    "Bildschirme mit geeigneter Software zentral verwalten",
+    "Mit einem Standort beginnen und den Ausbau passend planen",
+    "Betreuung und Schulung im vereinbarten Leistungsumfang"
   ],
   "faq": [
     {
@@ -66,7 +62,7 @@
     },
     {
       "question": "Welche Hardware brauche ich für Digital Signage?",
-      "answer": "Ein Display, einen Mediaplayer (oft bereits im Display integriert), eine Software und Inhalte. Im Innenbereich sind 32–55 Zoll in 4K üblich; für Sonderfälle gibt es Stretched-, transparente, doppelseitige oder besonders helle Displays."
+      "answer": "Sie benötigen ein für den Einsatz geeignetes Display, einen integrierten oder externen Mediaplayer und die passende Software. Grösse, Auflösung und Helligkeit richten sich nach Inhalt und Standort. Ein Spark 3 hat beispielsweise 32 Zoll und Full HD; Spark 4 und Spark 5 haben 43 beziehungsweise 50 Zoll und 4K. Nicht jedes Display hat die gleichen Anschlüsse oder unterstützt dieselben Apps."
     },
     {
       "question": "Braucht Digital Signage zwingend ein Software-Abo?",
@@ -81,12 +77,16 @@
       "answer": "Von einem einzelnen Display bis zu Dutzenden über mehrere Standorte – alle werden in einer Oberfläche verwaltet, in Gruppen organisiert und gemeinsam oder einzeln bespielt."
     },
     {
-      "question": "Ist Digital Signage datenschutzkonform (Hosting in der Schweiz)?",
-      "answer": "Ja. Die Bearbeitung von Personendaten erfolgt im Einklang mit dem Schweizer Datenschutzgesetz (revDSG). Auf Wunsch betreiben wir die Lösung datenschutzfreundlich; Inhalte laufen zudem lokal auf dem Display weiter."
+      "question": "Welche Daten und Zugriffsrechte muss ich bei Digital Signage klären?",
+      "answer": "Bei öffentlichen Menüs und Wegweisern werden andere Daten verarbeitet als bei Besucheranmeldungen oder personalisierten Begrüssungen. Klären Sie vorab die angezeigten und gespeicherten Daten, Nutzerrechte, Hosting, beteiligte Anbieter und Löschfristen. Eine lokale Wiedergabe allein beantwortet diese Fragen nicht; die konkrete Software und Anwendung müssen dazu passen."
     },
     {
       "question": "Wie hoch ist der Stromverbrauch eines Digital-Signage-Displays?",
-      "answer": "Moderne Displays sind sparsam: ein 43-Zoll-Display verbraucht im Betrieb typischerweise rund 60–90 Watt, im Standby unter 1 Watt. Mehr dazu auf unserer Seite zu Digital Signage und Nachhaltigkeit."
+      "answer": "Der Verbrauch hängt von Modell, Helligkeit und täglichen Betriebsstunden ab. Für einen Vergleich rechnen Sie Leistungsaufnahme in Watt × Betriebsstunden ÷ 1’000 = Kilowattstunden. Bei angenommenen 60 Watt und zehn Stunden sind das 0,6 kWh pro Tag, zuzüglich allfälligem Standby-Verbrauch. Verwenden Sie für die Planung die Werte des konkreten Geräts."
+    },
+    {
+      "question": "Was unterscheidet Digital Signage von einem Fernseher mit USB-Stick?",
+      "answer": "Ein Fernseher mit USB-Wiedergabe kann für einfache Inhalte ausreichen. Digital Signage ergänzt je nach System Zeitpläne, Vorlagen, zentrale Aktualisierung und die Verwaltung mehrerer Bildschirme. Bei der Hardware zählen die freigegebene Betriebsdauer, Hochformat-Eignung, Helligkeit und unterstützte Anschlüsse. Ein professionelles System muss zur Aufgabe passen; mehr Funktionen sind nicht automatisch erforderlich."
     }
   ],
   "internalLinks": [
@@ -121,8 +121,79 @@
     {
       "label": "Display-Grösse wählen",
       "href": "/wissen/digital-signage-groesse-waehlen/"
+    },
+    {
+      "label": "Praxis: Besucherinformation einer Gemeinde",
+      "href": "/news/gemeindehaus-besucherinformation/"
+    },
+    {
+      "label": "Digitale Infostele mit Touchscreen",
+      "href": "/loesungen/digitale-infostele/"
+    },
+    {
+      "label": "Digitale Kundenstopper mit Akku",
+      "href": "/loesungen/digitale-kundenstopper/"
     }
   ],
   "datePublished": "2026-05-17",
-  "dateModified": "2026-10-07"
+  "dateModified": "2026-10-07",
+  "comparison": {
+    "title": "Welche Digital-Signage-Lösung passt zu Ihrer Aufgabe?",
+    "intro": "Zuerst die Aufgabe festlegen, danach Bildschirm und Software auswählen. Eine Informationsanzeige hat andere Anforderungen als eine interaktive Anwendung.",
+    "columns": [
+      "Typische Lösung",
+      "Vor der Auswahl klären"
+    ],
+    "rows": [
+      {
+        "label": "Menüs und Tagesangebote",
+        "values": [
+          "Wanddisplay oder digitales Menüboard",
+          "Lesbarkeit, wechselnde Preise, Betriebszeiten und Inhaltspflege"
+        ]
+      },
+      {
+        "label": "Orientierung im Gebäude",
+        "values": [
+          "Empfangsdisplay oder digitale Infostele",
+          "Sichtbare Etagenübersicht oder interaktive Zielauswahl mit Touch?"
+        ]
+      },
+      {
+        "label": "Wechselnde Aufstellorte",
+        "values": [
+          "Mobiles Display oder digitaler Kundenstopper",
+          "Transport, Standsicherheit, Steckdose oder Akku und Ladefenster"
+        ]
+      },
+      {
+        "label": "Werbung hinter Glas",
+        "values": [
+          "Für den Standort geeignetes Schaufensterdisplay",
+          "Sonne, Reflexionen, Belüftung und zulässige Betriebstemperatur"
+        ]
+      },
+      {
+        "label": "Mehrere Standorte",
+        "values": [
+          "Displays mit zentral verwalteter Software",
+          "Zuständigkeiten, Freigaben, Netzwerk und Lizenzkosten je Display"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "label": "Infostelen mit und ohne Touch vergleichen",
+        "href": "/loesungen/digitale-infostele/"
+      },
+      {
+        "label": "Digitale Kundenstopper: Modelle vergleichen",
+        "href": "/loesungen/digitale-kundenstopper/"
+      },
+      {
+        "label": "Kosten für Kauf und Miete vergleichen",
+        "href": "/was-kostet-digital-signage-schweiz/"
+      }
+    ]
+  }
 }

@@ -2,15 +2,24 @@
   "slug": "mobile-displays",
   "type": "loesungen",
   "seoTitle": "Mobile Displays Schweiz – akkubetrieben | Meister Signage",
-  "seoDescription": "Mobile Digital-Signage-Displays für Roadshows & Messen – transportabel, akkubetrieben, kabellos. Mietbar oder kaufbar, schweizweit lieferbar.",
+  "seoDescription": "Mobile Displays für Events, Roadshows und digitale Kundenstopper. Stromversorgung, Transport und Outdoor-Eignung passend zum Standort planen. Preise auf Anfrage.",
   "eyebrow": "Lösung · Mobile Displays",
   "h1": "Mobile Displays – Aufmerksamkeit, die mit Ihnen reist.",
-  "intro": "Mobile Digital-Signage-Displays begleiten Sie an den Eventstand, auf die Messe oder zum Pop-up. Sie sind für wechselnde Einsatzorte gedacht: heute Zürich, morgen Luzern, übermorgen Bern. Je nach Modell sind Akkubetrieb und Outdoor-Einsatz möglich. Wir stimmen Transport, Stromversorgung und die Aktualisierung Ihrer Inhalte auf die gewählte Ausführung ab. Preise auf Anfrage.",
+  "intro": "Mobile Displays sind transportable Bildschirme für Events, Messen und wechselnde Verkaufsflächen. Digitale Kundenstopper sind eine freistehende Ausführung, beispielsweise vor einem Restaurant oder am Eventeingang. Je nach Modell sind Akku- und Outdoor-Betrieb möglich. Wir stimmen Transport, Stromversorgung und Inhaltspflege auf die Ausführung ab. Preise auf Anfrage.",
   "heroImage": "/images/products/Mobile-Display-Outdoor.webp",
   "gallery": [
-    { "src": "/images/products/Mobile-Display-Gastro-Terrasse.webp", "alt": "Mobiles Display als Kundenstopper auf einer Gastro-Terrasse" },
-    { "src": "/images/products/Mobile-Display-Cafe-Outdoor.webp", "alt": "Mobiles Outdoor-Display vor einem Café" },
-    { "src": "/images/products/Mobile-Display-Retail-Outdoor.webp", "alt": "Mobiles Display als Kundenstopper vor einem Geschäft" }
+    {
+      "src": "/images/products/Mobile-Display-Gastro-Terrasse.webp",
+      "alt": "Mobiles Display als Kundenstopper auf einer Gastro-Terrasse"
+    },
+    {
+      "src": "/images/products/Mobile-Display-Cafe-Outdoor.webp",
+      "alt": "Mobiles Outdoor-Display vor einem Café"
+    },
+    {
+      "src": "/images/products/Mobile-Display-Retail-Outdoor.webp",
+      "alt": "Mobiles Display als Kundenstopper vor einem Geschäft"
+    }
   ],
   "benefits": [
     {
@@ -152,5 +161,52 @@
         "href": "/branchen/gastronomie/"
       }
     ]
-  }
+  },
+  "comparison": {
+    "title": "Mobiles Display, Kundenstopper oder Infostele?",
+    "intro": "Die Begriffe überschneiden sich. Entscheidend sind der konkrete Einsatz und die Ausstattung des angebotenen Geräts.",
+    "columns": [
+      "Typischer Einsatz",
+      "Wichtig für die Auswahl"
+    ],
+    "rows": [
+      {
+        "label": "Mobiles Eventdisplay",
+        "values": [
+          "Messe, Roadshow, wechselnde Veranstaltungsorte",
+          "Transportverpackung, Gewicht, Aufbau und Stromzugang"
+        ]
+      },
+      {
+        "label": "Digitaler Kundenstopper",
+        "values": [
+          "Angebote am Eingang, auf der Terrasse oder am Promotionstand",
+          "Lesbarkeit, sichere Aufstellung und bei Akku-Modellen die Ladeplanung"
+        ]
+      },
+      {
+        "label": "Digitale Infostele",
+        "values": [
+          "Begrüssung, Orientierung und auf Wunsch interaktive Information",
+          "Stellfläche, Kabelführung und gegebenenfalls Touch-Anwendung"
+        ]
+      }
+    ],
+    "note": "Mobil bedeutet weder automatisch akkubetrieben noch wetterfest. Für das konkrete Gerät gelten dessen Betriebs- und Aufstellbedingungen.",
+    "links": [
+      {
+        "label": "Digitale Kundenstopper mit Akku vergleichen",
+        "href": "/loesungen/digitale-kundenstopper/"
+      },
+      {
+        "label": "Digitale Infostele mit Touchscreen",
+        "href": "/loesungen/digitale-infostele/"
+      },
+      {
+        "label": "Event-Displays planen",
+        "href": "/loesungen/event-displays/"
+      }
+    ]
+  },
+  "updatedAt": "2026-10-07"
 }

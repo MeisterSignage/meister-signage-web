@@ -395,6 +395,27 @@ collections:
       - { label: "Headline (H1)",      name: "h1",             widget: "string" }
       - { label: "Intro",              name: "intro",          widget: "text" }
       - { label: "In-Kürze / Definition", name: "definition", widget: "text", hint: "1–2 Sätze, farbiger Block oben." }
+      - label: "Vergleichstabelle"
+        name: "comparison"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Einleitung", name: "intro", widget: "text", required: false }
+          - label: "Spalten"
+            name: "columns"
+            widget: "list"
+            field: { label: "Spaltentitel", name: "column", widget: "string" }
+          - label: "Zeilen"
+            name: "rows"
+            widget: "list"
+            fields:
+              - { label: "Kriterium", name: "label", widget: "string" }
+              - label: "Werte (gleiche Reihenfolge und Anzahl wie Spalten)"
+                name: "values"
+                widget: "list"
+                field: { label: "Wert", name: "value", widget: "text" }
+          - { label: "Hinweis", name: "note", widget: "text", required: false }
       - label: "Erklärungs-Absätze"
         name: "explanation"
         widget: "list"

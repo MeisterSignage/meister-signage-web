@@ -1,11 +1,11 @@
 {
   "slug": "digitale-kundenstopper",
   "type": "loesungen",
-  "seoTitle": "Outdoor-Kundenstopper mit Akku | Meister Signage",
-  "seoDescription": "Neu: 43-Zoll-Battery-Board mit bis zu 3’000 Nits Spitzenhelligkeit, Mini-LED und IP65. Für Gastronomie, Hotels und Events. Preise auf Anfrage.",
+  "seoTitle": "Digitale Kundenstopper mit Akku | Meister Signage",
+  "seoDescription": "Digitale Kundenstopper für Gastronomie, Handel und Events: 43-Zoll-Modelle mit Akku vergleichen. Standort, Helligkeit und Ladeplanung klären. Offerte auf Anfrage.",
   "eyebrow": "Lösung · Kundenstopper",
   "h1": "Digitale Kundenstopper mit Akku für draussen.",
-  "intro": "Neu: ein 43-Zoll-Battery-Board mit Mini-LED, bis zu 3’000 Nits Spitzenhelligkeit und IP65-Gehäuse. Es ergänzt unsere bestehende 1’500-Nits-Ausführung. Mit Akku bringen Sie Tagesangebote, Gästeinformationen und Eventprogramme dorthin, wo sie gebraucht werden – auch ohne Steckdose am Aufstellort. Preise auf Anfrage.",
+  "intro": "Digitale Kundenstopper sind freistehende Werbedisplays für wechselnde Angebote, Gästeinformationen und Eventprogramme. Mit Akku können sie ohne Steckdose am Aufstellort eingesetzt werden. Zur Auswahl stehen eine 43-Zoll-Ausführung mit 1’500 Nits und ein neues Mini-LED-Battery-Board mit bis zu 3’000 Nits Spitzenhelligkeit. Wir vergleichen die Geräte anhand Ihres Standorts, der gewünschten Einsatzdauer und der Inhaltspflege. Preise auf Anfrage.",
   "benefits": [
     {
       "title": "Neu: Mini-LED für helle Standorte",
@@ -83,6 +83,14 @@
     {
       "question": "Was kostet ein digitaler Kundenstopper und ist Miete möglich?",
       "answer": "Preise auf Anfrage. Wir erstellen eine Offerte passend zu Modell, Ausstattung, Software und gewünschtem Service. Ob eine Mietlösung für Ihr Gerät und Ihren Termin verfügbar ist, prüfen wir individuell. Lieferumfang, Lieferzeit und Konditionen halten wir in der Offerte fest."
+    },
+    {
+      "question": "Wann lohnt sich ein digitaler Kundenstopper mit Akku?",
+      "answer": "Ein Akkumodell ist sinnvoll, wenn der Aufstellort wechselt oder dort keine geeignete Steckdose verfügbar ist. Planen Sie feste Ladefenster und einen passenden Ladeort ein. Bei einem dauerhaft gleichen Standort mit Stromanschluss kann eine netzbetriebene Lösung besser passen. Häufigkeit der Inhaltswechsel und Aufwand für Transport, Laden und Pflege gehören ebenfalls zur Entscheidung."
+    },
+    {
+      "question": "Welche Angaben helfen beim Vergleich und bei der Offerte?",
+      "answer": "Senden Sie ein Foto des Standorts und nennen Sie Innen- oder Ausseneinsatz, direkte Sonne, tägliche Einsatzdauer, Ladeort und Transportwege. Wir klären dazu Inhalte, Aktualisierung, Kauf oder gewünschte Mietdauer. Die Offerte sollte Gerät, Software, Einrichtung, Zubehör, Lieferung und Betreuung nachvollziehbar ausweisen."
     }
   ],
   "internalLinks": [
@@ -228,7 +236,21 @@
         ]
       }
     ],
-    "note": "Spitzenhelligkeit und dauerhafte Helligkeit sind nicht gleichzusetzen. Akku-, Gewichts- und Ausstattungsdaten gelten jeweils nur für das konkrete Modell."
+    "note": "Spitzenhelligkeit und dauerhafte Helligkeit sind nicht gleichzusetzen. Akku-, Gewichts- und Ausstattungsdaten gelten jeweils nur für das konkrete Modell.",
+    "links": [
+      {
+        "label": "Mobile Displays für wechselnde Standorte",
+        "href": "/loesungen/mobile-displays/"
+      },
+      {
+        "label": "Infostelen für Empfang und Lobby",
+        "href": "/loesungen/digitale-infostele/"
+      },
+      {
+        "label": "Digitaler Kundenstopper einfach erklärt",
+        "href": "/wissen/digitale-kundenstopper/"
+      }
+    ]
   },
   "updatedAt": "2026-10-07"
 }

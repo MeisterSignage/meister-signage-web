@@ -117,6 +117,9 @@ export default function Home() {
         eyebrow="Weitere Seiten"
         links={[
           { label: "Digital Signage Schweiz",  href: "/digital-signage-schweiz" },
+          { label: "Was ist Digital Signage?", href: "/wissen/was-ist-digital-signage/" },
+          { label: "Digitale Infostele mit Touchscreen", href: "/loesungen/digitale-infostele/" },
+          { label: "Digitale Kundenstopper mit Akku", href: "/loesungen/digitale-kundenstopper/" },
           { label: "Kosten & Preise",          href: "/was-kostet-digital-signage-schweiz" },
           { label: "Digital Signage mieten",   href: "/digital-signage-mieten" },
           { label: "Digital Signage kaufen",  href: "/digital-signage-kaufen" },
