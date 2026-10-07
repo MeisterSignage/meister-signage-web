@@ -5,12 +5,21 @@
   "seoDescription": "High-Brightness-Displays mit 3'500 cd/m² für sonnige Schaufenster. In 43–75 Zoll, Full HD bis 4K – schweizweit geplant und installiert.",
   "eyebrow": "Lösung · High-Brightness-Display",
   "h1": "High-Brightness-Displays – 3'500 nits für direkte Sonne.",
-  "intro": "Ein High-Brightness-Display ist ein Bildschirm, der mit 3'500 nits rund das Siebenfache der üblichen Display-Helligkeit erreicht. Wo Standard-Displays (typisch 450 nits) im Schaufenster oder bei direktem Sonnenlicht ausgewaschen wirken, bringen High-Brightness-Displays mit 3'500 cd/m² gestochen scharfe Inhalte – auch um die Mittagszeit, auch hinter Schaufensterglas. Verfügbar in 43, 49, 55, 65 und 75 Zoll für Retail, Hotellerie und repräsentative Empfangsbereiche. Für komplett offene Aussenbereiche – Hotel-Eingang, Terrasse oder Event – gibt es zusätzlich eine wetterfeste, IP65-geschützte Outdoor-Variante. So bleibt Ihre Werbung auch bei direkter Sonne sichtbar und zieht im Einzelhandel maximale Aufmerksamkeit auf sich.",
+  "intro": "High-Brightness-Displays sind für helle Standorte vorgesehen. Für ein Schaufenster prüfen wir Helligkeit, Reflexionen, Sonneneinstrahlung und Temperatur gemeinsam. Ein hoher Nits-Wert allein garantiert keine Lesbarkeit bei jedem Wetter. Grösse, zulässige Temperaturen, Belüftung und Garantie nennen wir für das konkret angebotene Modell. Offene Aussenbereiche benötigen zusätzlich eine geeignete wetterfeste Ausführung.",
   "heroImage": "/images/products/Schuhladen-Meister-Signage.webp",
   "gallery": [
-    { "src": "/images/products/High-Brightness-Einkaufszentrum-Retail.webp", "alt": "High-Brightness-Display im Einkaufszentrum" },
-    { "src": "/images/products/High-Brightness-Einkaufszentrum-Event.webp", "alt": "High-Brightness-Display mit Event-Werbung im Einkaufszentrum" },
-    { "src": "/images/products/High-Brightness-Einkaufszentrum-Gastro.webp", "alt": "High-Brightness-Display für Gastronomie im Einkaufszentrum" }
+    {
+      "src": "/images/products/High-Brightness-Einkaufszentrum-Retail.webp",
+      "alt": "High-Brightness-Display im Einkaufszentrum"
+    },
+    {
+      "src": "/images/products/High-Brightness-Einkaufszentrum-Event.webp",
+      "alt": "High-Brightness-Display mit Event-Werbung im Einkaufszentrum"
+    },
+    {
+      "src": "/images/products/High-Brightness-Einkaufszentrum-Gastro.webp",
+      "alt": "High-Brightness-Display für Gastronomie im Einkaufszentrum"
+    }
   ],
   "benefits": [
     {
@@ -26,12 +35,12 @@
       "description": "Integrierter Umgebungslichtsensor passt die Helligkeit dynamisch an die Tageszeit an. Hell tagsüber, gedimmt nach Ladenschluss. Spart Strom und verlängert die Lebensdauer des Panels."
     },
     {
-      "title": "Hitzeresistenz bis 110 °C Oberflächentemperatur",
-      "description": "Schaufenster heizen sich im Sommer extrem auf. Standard-Displays zeigen dann sogenanntes 'Blackening' – schwarze Schatten am Bildschirm. Diese Display-Klasse hält Oberflächentemperaturen bis 110 °C aus, dank integriertem Kühlsystem."
+      "title": "Temperatur und Belüftung prüfen",
+      "description": "Hinter Glas können hohe Temperaturen entstehen. Wir prüfen zulässige Umgebungs- und Paneltemperaturen sowie die Belüftung am konkreten Modell. Oberflächentemperatur und zulässige Umgebungstemperatur sind nicht dasselbe."
     },
     {
-      "title": "70'000+ Betriebsstunden, 3 Jahre Garantie",
-      "description": "Spezifiziert für 24/7-Dauerbetrieb über mehr als 8 Jahre kontinuierlich. 3 Jahre kommerzielle Garantie ab Werk, optional auf 5 Jahre erweiterbar. Lebenslanger technischer Support."
+      "title": "Betriebsfreigabe und Garantie je Modell",
+      "description": "Betriebszeiten, Garantieumfang und Serviceoptionen werden für das ausgewählte Gerät in der Offerte festgehalten. Eine technische Betriebsstundenangabe ist keine Garantie für die Lebensdauer."
     },
     {
       "title": "Cloud-Steuerung wie unsere Standard-Displays",
@@ -49,11 +58,11 @@
   "faq": [
     {
       "question": "Wann reicht ein Standard-Display nicht mehr aus?",
-      "answer": "Standard-Digital-Signage-Displays mit 450 nits funktionieren gut in Innenräumen mit normaler Beleuchtung. Sobald direktes Sonnenlicht durchs Schaufenster fällt oder das Display in einer hellen Fassade verbaut wird, werden Inhalte tagsüber ausgewaschen. Als Faustregel: wenn Sie die Sonne mit der Hand abschatten müssen, um etwas zu erkennen, braucht es mehr Helligkeit. 3'500 nits sind so hell, dass Inhalte auch bei voller Mittagssonne klar bleiben."
+      "answer": "Spark mit 450 nits kommt für geeignete Innenräume und lichtgeschützte Standorte infrage. Bei direkter Sonne oder starken Reflexionen prüfen wir eine hellere Displayklasse sowie deren Temperaturfreigabe. Entscheidend ist der Standorttest, nicht allein die maximale Helligkeitsangabe."
     },
     {
       "question": "Welche Grösse für welches Schaufenster?",
-      "answer": "Faustregel: Display-Diagonale ≈ Schaufenstertiefe × 0.4. Für ein 1.5 m tiefes Schaufenster passt 43–49 Zoll. Für ein 2.5 m tiefes Schaufenster 55–65 Zoll. Für grosse Glasfassaden oder Flagship-Stores 75 Zoll. Wir prüfen den Standort auch persönlich vor Ort."
+      "answer": "Wir prüfen Glasfläche, Betrachtungsabstand, Inhalt, Ausrichtung und verfügbare Montagefläche. Die Schaufenstertiefe allein bestimmt die Displaydiagonale nicht. Ein Testlayout zeigt, ob Texte aus dem vorgesehenen Abstand lesbar sind."
     },
     {
       "question": "Wie wird das Display im Schaufenster montiert?",
@@ -61,7 +70,7 @@
     },
     {
       "question": "Welche Betriebskosten fallen an?",
-      "answer": "Stromverbrauch je nach Grösse 200–580 W bei voller Helligkeit. Bei Verwendung der automatischen Helligkeitsregelung reduzieren sich die effektiven Verbräuche im Tagesschnitt um 30–50 %. Im Standby unter 0.5 W. Software-Lizenz und Cloud-Steuerung werden wie bei der Spark-Reihe abgerechnet."
+      "answer": "Stromverbrauch und Softwarekosten hängen von Modell, Helligkeit, Laufzeit und Player ab. Berechnen lässt sich der Strombedarf als Watt × Betriebsstunden ÷ 1000 in kWh. Automatische Helligkeitsregelung kann den Verbrauch reduzieren; eine pauschale Einsparquote nennen wir nicht."
     },
     {
       "question": "Geht das auch komplett wetterfest für draussen?",
@@ -148,5 +157,6 @@
         "href": "/branchen/gastronomie/"
       }
     ]
-  }
+  },
+  "updatedAt": "2026-10-07"
 }

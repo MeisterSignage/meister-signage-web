@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 import { SITE_INDEXABLE } from "@/lib/seo-config";
 import { getAllBranchenSlugs, getAllLoesungenSlugs, getAllStaedteSlugs, getStaedtePage, getBranchenPage, getLoesungenPage } from "@/lib/landingpages";
-import { getAllWissenSlugs } from "@/lib/wissen";
+import { getAllWissenSlugs, getWissenPage } from "@/lib/wissen";
 import { getPublishedPosts } from "@/lib/news";
 
 export const dynamic = "force-static";
@@ -63,16 +63,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       .filter((slug) => (getStaedtePage(slug) as { noindex?: boolean } | null)?.noindex !== true)
       .map((slug): Entry => ({
         url: `/staedte/${slug}`,
+        date: getStaedtePage(slug)?.updatedAt,
         priority: 0.9,
         cf: "monthly" as const,
       })),
     ...getAllWissenSlugs().map((slug): Entry => ({
       url: `/wissen/${slug}`,
+      date: getWissenPage(slug)?.dateModified,
       priority: 0.7,
       cf: "monthly" as const,
     })),
     ...getPublishedPosts().map((post): Entry => ({
       url: `/news/${post.slug}`,
+      date: post.dateModified ?? post.date,
       priority: 0.6,
       cf: "monthly" as const,
 

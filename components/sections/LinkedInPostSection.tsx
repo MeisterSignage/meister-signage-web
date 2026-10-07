@@ -29,7 +29,7 @@ export default function LinkedInPostSection() {
             <a href={POST_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 font-semibold text-magenta underline underline-offset-4">
               Beitrag auf LinkedIn lesen <ArrowUpRight aria-hidden="true" className="h-4 w-4" />
             </a>
-            <Link href="/loesungen/digitaler-empfang/" className="font-semibold text-navy underline underline-offset-4">Lösungen für den Empfang</Link>
+            <Link href="/news/gemeindehaus-besucherinformation/" className="font-semibold text-navy underline underline-offset-4">Projektbericht lesen</Link>
           </div>
         </div>
         <div className="min-w-0 overflow-hidden rounded-2xl border border-navy/10 bg-white">

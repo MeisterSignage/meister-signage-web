@@ -41,7 +41,7 @@
   "faq": [
     {
       "question": "Was ist Digital Signage Software?",
-      "answer": "Die zentrale Oberfläche zur Verwaltung digitaler Inhalte auf einem oder mehreren Displays – ersetzt manuelle USB-Sticks und lokale Player."
+      "answer": "Das CMS ist die Oberfläche zur Verwaltung und Planung von Inhalten. Ein integrierter oder kompatibler externer Media-Player gibt diese am Display wieder. Zentrale Verwaltung ersetzt den manuellen Dateitransfer, nicht den benötigten Player."
     },
     {
       "question": "Was kostet Digital Signage Software?",
@@ -82,5 +82,6 @@
       "href": "/digital-signage-anbieter-vergleich/"
     }
   ],
-  "datePublished": "2026-05-17"
+  "datePublished": "2026-05-17",
+  "dateModified": "2026-10-07"
 }

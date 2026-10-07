@@ -6,6 +6,7 @@ date: "2026-07-14T06:00:00+02:00"
 category: "Retail"
 image: "/images/products/Schuhladen-Meister-Signage.webp"
 slug: "digital-signage-retail"
+dateModified: "2026-10-07"
 status: published
 carousel:
   hook: "Verbringen Sie die Sale-Saison wieder mit Plakatdruck?"
@@ -25,7 +26,7 @@ Im Schweizer Retail dreht sich das Marketingjahr um wenige grosse Sale-Momente: 
 
 ## Der typische Sale-Plan ohne Digital Signage
 
-Eine Boutique in der Zürcher Innenstadt vor 2026:
+Illustratives Planungsszenario für eine Boutique; keine gemessene Kundenreferenz:
 
 - 2 Wochen vor Sale: Plakate designen, drucken lassen (CHF 200–400)
 - 3 Tage vor Sale: Plakate kommen an, werden in Schaufenster und Laden aufgehängt
@@ -53,13 +54,13 @@ Mit einem Display im Schaufenster und einem zweiten am Eingang läuft die Planun
 
 Zur Black-Friday-Woche um 6 Uhr früh wechselt das Display automatisch von der Herbst­kampagne auf die Black-Friday-Deals – ohne dass jemand vor Ort sein muss.
 
-## Was das in CHF spart
+## Welche Kosten Sie vergleichen sollten
 
 Bei sechs Saison­wechseln pro Jahr:
 
 | Position | Plakat-Variante | Digital |
 |---|---|---|
-| Plakat-Druck | CHF 1.500–2.500 | CHF 0 |
+| Druckkosten im angenommenen Beispiel | CHF 1.500–2.500 | Nur tatsächlich ersetzte Druckprodukte einsparen |
 | Personal­zeit (à CHF 60/h) | CHF 1.800–3.000 | CHF 300 (Inhalte erstellen) |
 | Total pro Jahr | **CHF 3.300–5.500** | **CHF 300** |
 
@@ -104,3 +105,10 @@ Aus unseren Retail-Projekten:
 - **Jahresplan fürs Display erstellen** – wir helfen beim ersten Mal
 - **Schaufenster­modell wählen** – Beratung zur Helligkeit am Standort: [Kontakt](/kontakt/)
 - **Lösungs­übersicht für Retail:** [Branche Retail](/branchen/retail/) und [Digitales Werbedisplay](/loesungen/digitales-werbedisplay/)
+
+
+## Standortprüfung fürs Schaufenster
+
+Spark-Displays mit 450 nits eignen sich nicht pauschal für sonnige Schaufenster. Für direkte Sonne oder starke Reflexionen prüfen wir ein [High-Brightness-Display](/loesungen/high-brightness-display/) sowie die Temperatur und Belüftung hinter Glas. Die Auswahl erfolgt anhand des konkreten Standorts.
+
+Für eine vollständige Rechnung kommen bei Digital Signage Gerät oder Miete, Einrichtung, Lizenz, Strom und Inhaltspflege hinzu. Die Beispielsummen sind keine garantierte Ersparnis.

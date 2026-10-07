@@ -104,9 +104,9 @@ const ROWS: Row[] = [
     ],
   },
   {
-    criterion: "Schlüsselfertige Komplettlösung (Display + Software + Installation, ein Preis)",
+    criterion: "Leistungsumfang von Hardware, Software und Montage",
     cells: [
-      { type: "yes" },
+      { type: "info", text: "Spark-Miete: Einrichtung und Lizenz inklusive; Vor-Ort-Montage separat" },
       { type: "no", note: "Lizenz separat" },
       { type: "info", text: "modular" },
       { type: "info", text: "projektbasiert" },

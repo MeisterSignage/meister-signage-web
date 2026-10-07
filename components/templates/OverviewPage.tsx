@@ -1,3 +1,5 @@
+import ComparisonSection from "@/components/sections/ComparisonSection";
+import type { LPComparison } from "@/lib/lp-types";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
@@ -18,6 +20,7 @@ export type OverviewGroup = {
 };
 
 type Props = {
+  comparison?: LPComparison;
   eyebrow: string;
   title: string;
   intro: string | string[];
@@ -88,6 +91,7 @@ function ItemCard({ item }: { item: OverviewItem }) {
 }
 
 export default function OverviewPage({
+  comparison,
   eyebrow,
   title,
   intro,
@@ -194,6 +198,7 @@ export default function OverviewPage({
           }}
         />
       </section>
+      {comparison && <ComparisonSection comparison={comparison} />}
 
       {/* ── Cards grid (floating card) ───────────────────────────────────── */}
       <section

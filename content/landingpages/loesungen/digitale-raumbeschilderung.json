@@ -36,7 +36,7 @@
   "faq": [
     {
       "question": "Mit welchen Kalendersystemen ist die Raumbeschilderung kompatibel?",
-      "answer": "Synchronisation mit Microsoft 365/Outlook und Google Workspace ist möglich. Auf Anfrage prüfen wir auch Integrationen mit Ihrem konkreten System – meist über Standard-Kalender-Protokolle wie iCal/CalDAV."
+      "answer": "Wir prüfen die Anbindung an Ihr konkretes Kalendersystem, etwa Microsoft 365 oder Google Workspace, anhand der gewählten Hardware und Anwendung. Eine reine Kalenderanzeige und eine Buchung mit Rückschreiben benötigen unterschiedliche Funktionen und Berechtigungen."
     },
     {
       "question": "Können Mitarbeitende den Raum direkt am Display buchen?",
@@ -56,7 +56,7 @@
     },
     {
       "question": "Was kostet digitale Raumbeschilderung?",
-      "answer": "Mietpreise für digitale Raumbeschilderung auf Anfrage, beim Kauf ab CHF 1.299. Bei mehreren Räumen erstellen wir ein individuelles Angebot. Touchdisplay- und Kalendersystem-Integration werden separat ausgewiesen."
+      "answer": "Der Preis hängt von Display, Montage, Softwarelizenz und Kalenderanbindung ab. Anzeige und Touchbuchung werden getrennt geplant. In der Offerte benennen wir das konkrete Modell und alle benötigten Bestandteile; Kauf- und Mietpreise auf Anfrage."
     }
   ],
   "internalLinks": [
@@ -119,5 +119,6 @@
         "href": "/branchen/hotellerie/"
       }
     ]
-  }
+  },
+  "updatedAt": "2026-10-07"
 }

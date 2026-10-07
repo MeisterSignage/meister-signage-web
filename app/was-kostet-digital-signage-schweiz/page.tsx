@@ -39,7 +39,7 @@ const BUY_PRICES = [
     size: '50" 4K UHD',
     price: "CHF 1'699",
     badge: "Empfehlung",
-    suitedFor: "Schaufenster und grössere Flächen",
+    suitedFor: "Grössere Innenflächen; Schaufenster nur nach Lichtprüfung",
   },
   {
     model: "Spark Q+",
@@ -421,6 +421,17 @@ export default function WasKostetDigitalSignagePage() {
         links: [{ label: "Spark-Modelle vergleichen", href: "/digital-signage-kaufen/#vergleich" }, { label: "Mietlaufzeiten vergleichen", href: "/digital-signage-mieten/" }],
       }} />
 
+      <ComparisonSection comparison={{
+        title: "Spark 3 über 12, 24 und 36 Monate: eine Planungsrechnung",
+        intro: "Verglichen werden dieselbe Hardware und die zentrale Software. Zubehör, Betreuung und Projektleistungen müssen zusätzlich mit gleichem Umfang kalkuliert werden.",
+        columns: ["Kauf: Gerät + Einrichtung + Lizenz", "Miete: Szenario mit CHF 119 pro Monat"],
+        rows: [12, 24, 36].map((months) => ({
+          label: `${months} Monate`,
+          values: [`Ab CHF ${(1399 + 149 + 180 * months / 12).toLocaleString("de-CH")}`, `CHF ${(SPARK_RENTALS[0].monthlyPrices[12] * months).toLocaleString("de-CH")}`],
+        })),
+        note: "Annahmen: Kauf CHF 1’399, einmalige Einrichtung CHF 149 und Lizenz ab CHF 180 pro Jahr. Die Mietrate von CHF 119 gilt für 12 Monate; die Werte für 24 und 36 Monate unterstellen unveränderte Anschlusskonditionen und sind kein verbindliches Verlängerungsangebot. Miete enthält Wandhalterung und persönliche Betreuung; beim Kauf sind diese gemäss Offerte zusätzlich zu berücksichtigen. Lieferung, Montage, individuelle Inhalte, Reparaturen und Strom fehlen in beiden Summen. Daher kein pauschaler Amortisationszeitpunkt. Es wird keine MWST verrechnet.",
+        links: [{ label: "Mietlaufzeiten und Umfang", href: "/digital-signage-mieten/" }, { label: "Strombedarf berechnen", href: "/wissen/digital-signage-nachhaltigkeit/" }],
+      }} />
       <BuyVsRentSection
         eyebrow="Kaufen oder mieten"
         title="Welche Variante lohnt sich für Ihren Betrieb?"
@@ -428,7 +439,7 @@ export default function WasKostetDigitalSignagePage() {
         buyLabel="Kaufen lohnt sich, wenn:"
         rentLabel="Mieten lohnt sich, wenn:"
         buyReasons={[
-          "Sie die Displays länger als drei Jahre einsetzen möchten",
+          "Sie langfristig planen und die Gesamtkosten bei gleichem Leistungsumfang verglichen haben",
           "mehrere Standorte ausgestattet werden sollen",
           "Sie Eigentum bevorzugen",
           "die Lösung langfristig fest eingeplant ist",
@@ -481,7 +492,7 @@ export default function WasKostetDigitalSignagePage() {
             icon: Zap,
             title: "Energieeffizient",
             description:
-              "Die Spark Displays arbeiten mit energieeffizienter 24-V-Technologie und sind für einen wirtschaftlichen Dauerbetrieb ausgelegt.",
+              "Die Stromkosten hängen von Leistungsaufnahme und Betriebszeiten ab. 24 V beschreibt die Versorgung am Display und ist allein kein Nachweis für einen niedrigeren Verbrauch.",
           },
         ]}
       />
@@ -493,7 +504,7 @@ export default function WasKostetDigitalSignagePage() {
             <span className="eyebrow">Beispielrechnungen</span>
             <h2 className="heading-max-2 mb-3 text-navy">So setzen sich typische Setups zusammen.</h2>
             <p className="text-cgray">
-              Vier realistische Szenarien aus Praxis-Anfragen – als Orientierung für Ihr eigenes Projekt.
+              Vier illustrative Planungsszenarien – als Orientierung für Ihr eigenes Projekt.
             </p>
           </div>
 

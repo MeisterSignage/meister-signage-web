@@ -5,25 +5,25 @@
   "seoDescription": "Welches Display-Format passt zu welchem Einsatz? Praxis-Tipps zur Auswahl von 32 bis 75 Zoll – mit konkreten Beispielen aus Schweizer KMU.",
   "eyebrow": "Wissen · Auswahl",
   "h1": "Digital Signage Grösse wählen – welcher Bildschirm passt zu Ihrem Einsatzort?",
-  "intro": "Welcher Bildschirm passt zu Ihrem Einsatz? Display-Grösse wählen ist die Schlüsselentscheidung – diese Übersicht zeigt typische Fälle für 32, 43 und 50 Zoll. Die richtige Displaygrösse entscheidet darüber, ob Inhalte wahrgenommen werden oder nicht. Zu klein und niemand sieht es, zu gross und es wirkt überdimensioniert. Diese Faustregeln helfen bei der Auswahl.",
-  "definition": "Als Faustregel gilt: Die Diagonale des Displays sollte etwa 1/6 bis 1/4 des typischen Betrachtungsabstands betragen. Bei 2 m Abstand passt also ein 32- bis 50-Zoll-Display. Bei 4 m Abstand eher 50–80 Zoll.",
+  "intro": "Die passende Displaygrösse hängt von Sichtabstand, Inhalt und verfügbarer Fläche ab. Ein Menü mit vielen Positionen braucht eine andere Darstellung als ein grosses Produktbild. Vergleichen Sie deshalb nicht nur die Zollzahl, sondern prüfen Sie ein Musterlayout aus der tatsächlichen Entfernung.",
+  "definition": "Eine feste Formel aus Betrachtungsabstand und Bildschirmdiagonale genügt nicht. Entscheidend ist, ob die wichtigsten Texte am geplanten Standort lesbar bleiben. 32 Zoll entsprechen rund 81 cm Diagonale, 43 Zoll rund 109 cm und 50 Zoll 127 cm. Die Zollzahl beschreibt die Diagonale, nicht Breite oder Höhe.",
   "explanation": [
     "Drei Faktoren bestimmen die richtige Grösse: der durchschnittliche Betrachtungsabstand, die Funktion (kurze Aufmerksamkeit vs. längeres Lesen) und der Einsatzort (Innenraum vs. Schaufenster mit Tageslicht).",
-    "Für Menüboards an der Theke oder Empfangsdisplays bis 2 m Entfernung reichen 32 Zoll. Für allgemeine Verkaufsflächen, Hotellobbies oder Wartebereiche mit 2–4 m Abstand sind 43 Zoll der Standard. Für Schaufenster oder grössere Räume mit hoher Distanz empfehlen sich 50 Zoll oder grösser.",
+    "32 Zoll können an einer kleinen Theke passen, 43 Zoll in einer Lobby und 50 Zoll für eine grössere Innenfläche. Das sind Startpunkte für die Auswahl, keine garantierten Leseabstände. Testen Sie Schriftgrösse, Kontrast, Informationsmenge und Hoch- oder Querformat am geplanten Standort.",
     "Quadratische Formate (z.B. 33 Zoll quadratisch) wirken in modernen Innenarchitekturen ausgewogen und sind ideal für Markenwelten, Galerien oder Spezialeinbauten – etwa neben Säulen, in Nischen oder als Akzent."
   ],
   "examples": [
     {
       "title": "32 Zoll – Theke & Empfang",
-      "description": "Für Menüboards, Bestellpunkte, kleine Empfangsdisplays. Betrachtungsabstand ca. 1.5–2.5 m. Hochformat ideal für Speisekarten."
+      "description": "Kompakter Ausgangspunkt für Theke und kleine Empfangsbereiche. Prüfen Sie ein Musterlayout aus der Entfernung der Kundschaft."
     },
     {
       "title": "43 Zoll – Verkaufsraum & Lobby",
-      "description": "Der Bestseller für Retail, Gastronomie, Hotellerie. Betrachtungsabstand 2–4 m. Sichtbar von mehreren Plätzen, ohne den Raum zu dominieren."
+      "description": "Für viele Verkaufsräume und Lobbys eine mögliche Ausgangsgrösse. Lesbarkeit hängt von Layout und Abstand ab."
     },
     {
-      "title": "50 Zoll – Schaufenster & grosse Flächen",
-      "description": "Für Flagship-Auftritte, Schaufensterwerbung oder Empfangshallen. Auch bei 4–6 m Abstand klar lesbar."
+      "title": "50 Zoll – grössere Innenflächen",
+      "description": "Mehr Darstellungsfläche für grössere Inhalte. Für Schaufenster müssen zusätzlich Helligkeit, Sonneneinstrahlung und Temperatur geprüft werden."
     },
     {
       "title": "33 Zoll quadratisch – Sonderformate",
@@ -33,27 +33,27 @@
   "benefits": [
     "32 Zoll: kompakt, ideal für Theke und Menüboards",
     "43 Zoll: Allrounder für Retail und Gastronomie",
-    "50 Zoll: hohe Sichtbarkeit für Schaufenster und Hallen",
+    "50 Zoll: mehr Fläche für grosse Inhalte",
     "Quadratformat: ästhetisch in Spezialinstallationen",
-    "Alle Grössen mit 450 nits Helligkeit für Tageslicht",
+    "Spark: 450 nits für geeignete Innenstandorte; direkte Sonne separat prüfen",
     "Alle Grössen mit 15.5 mm Bautiefe – flach an der Wand"
   ],
   "faq": [
     {
       "question": "Welche Faustregel gilt für die Displaygrösse?",
-      "answer": "Diagonale ≈ Betrachtungsabstand × 0.15 bis 0.25. Beispiel: bei 3 m Abstand → 45–75 cm Diagonale → 32–43 Zoll. Bei 5 m Abstand → 75–125 cm → 50 Zoll oder grösser. Diese Regel funktioniert für reines Lesen; für reinen Eyecatcher reicht etwas kleiner."
+      "answer": "Beginnen Sie mit einem realen Musterinhalt: Welche Information muss aus welcher Entfernung gelesen werden? Testen Sie Schriftgrösse und Kontrast am Standort. Eine Zoll- oder Abstandsformel allein berücksichtigt weder Textmenge noch Blickwinkel. Zur Umrechnung gilt: 1 Zoll = 2.54 cm."
     },
     {
       "question": "Ist ein grösseres Display immer besser?",
-      "answer": "Nein. Ein zu grosses Display wirkt im kleinen Raum erdrückend und ungeplant. In einem 20 m² Verkaufsraum sieht ein 75-Zoll-Display deplatziert aus – 43 Zoll passt besser. Grösse richtet sich nach Raum, nicht nach Budget."
+      "answer": "Nicht automatisch. Die verfügbare Wandfläche, der Betrachtungsabstand und die Inhalte entscheiden gemeinsam. Ein grosses Bild und ein dichtes Menü stellen unterschiedliche Anforderungen; ein Testlayout hilft bei der Auswahl."
     },
     {
       "question": "Welche Grösse für Schaufensterwerbung?",
-      "answer": "Für Schaufenster empfehlen wir mindestens 50 Zoll, weil Passanten oft schräg und in Bewegung schauen. Die Auflösung sollte 4K UHD sein, damit auch bei kurzer Distanz scharfe Inhalte erscheinen."
+      "answer": "Grösse, Ausrichtung und Licht müssen gemeinsam passen. Spark mit 450 nits kommt nur für geeignete lichtgeschützte Standorte infrage. Bei direkter Sonne prüfen wir ein High-Brightness-Modell und dessen thermische Eignung hinter Glas."
     },
     {
       "question": "Spielt die Helligkeit eine Rolle bei der Grössenwahl?",
-      "answer": "Indirekt ja. Bei hellem Tageslicht oder direktem Sonneneinfall muss das Display heller sein, sonst wirken Inhalte ausgewaschen – unabhängig von der Grösse. Unsere Spark-Modelle bieten alle 450 nits, was für Innenräume mit Tageslicht reicht. Für direkte Sonneneinstrahlung empfehlen wir spezielle High-Brightness-Modelle (700–2500 nits)."
+      "answer": "Ja. Ein grösserer Bildschirm gleicht fehlende Helligkeit nicht aus. Reflexionen, Tageslicht und Sonne prüfen wir separat. Die konkreten Anforderungen und zulässigen Temperaturen richten sich nach Standort und Modell."
     },
     {
       "question": "Kann ich später auf grösser wechseln?",
@@ -86,5 +86,6 @@
       "href": "/loesungen/digitale-menueboards/"
     }
   ],
-  "datePublished": "2026-05-27"
+  "datePublished": "2026-05-27",
+  "dateModified": "2026-10-07"
 }

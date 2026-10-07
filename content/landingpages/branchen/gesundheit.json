@@ -43,7 +43,7 @@
     },
     {
       "question": "Ist Digital Signage im Gesundheitsbereich datenschutzkonform?",
-      "answer": "Ja. Die Displays zeigen allgemeine Inhalte und verarbeiten keine Patientendaten. Die Lösung lässt sich im Einklang mit dem Schweizer Datenschutzgesetz (revDSG) betreiben; Inhalte laufen auch lokal auf dem Display."
+      "answer": "Allgemeine Praxisinformationen lassen sich ohne die Anzeige von Patientendaten planen. Sobald persönliche Namen, Aufrufsysteme oder andere personenbezogene Inhalte eingebunden werden, müssen Datenfluss, Zugriffsrechte und Freigaben gesondert geprüft werden. Ein Display allein garantiert keine Datenschutzkonformität."
     },
     {
       "question": "Eignet es sich auch für Apotheken und Zahnarztpraxen?",
@@ -59,12 +59,30 @@
     }
   ],
   "internalLinks": [
-    { "label": "Digitaler Empfang", "href": "/loesungen/digitaler-empfang/" },
-    { "label": "Digitale Infostele", "href": "/loesungen/digitale-infostele/" },
-    { "label": "Empfangsdisplays", "href": "/loesungen/empfangsdisplays/" },
-    { "label": "Displays kaufen", "href": "/digital-signage-kaufen/" },
-    { "label": "Software", "href": "/loesungen/software/" },
-    { "label": "Was ist Digital Signage?", "href": "/wissen/was-ist-digital-signage/" }
+    {
+      "label": "Digitaler Empfang",
+      "href": "/loesungen/digitaler-empfang/"
+    },
+    {
+      "label": "Digitale Infostele",
+      "href": "/loesungen/digitale-infostele/"
+    },
+    {
+      "label": "Empfangsdisplays",
+      "href": "/loesungen/empfangsdisplays/"
+    },
+    {
+      "label": "Displays kaufen",
+      "href": "/digital-signage-kaufen/"
+    },
+    {
+      "label": "Software",
+      "href": "/loesungen/software/"
+    },
+    {
+      "label": "Was ist Digital Signage?",
+      "href": "/wissen/was-ist-digital-signage/"
+    }
   ],
   "cta": {
     "eyebrow": "Praxis-Lösung anfragen",
@@ -77,14 +95,33 @@
   },
   "related": {
     "branchen": [
-      { "label": "Hotellerie", "href": "/branchen/hotellerie/" },
-      { "label": "Unternehmen", "href": "/branchen/unternehmen/" },
-      { "label": "Retail & Handel", "href": "/branchen/retail/" }
+      {
+        "label": "Hotellerie",
+        "href": "/branchen/hotellerie/"
+      },
+      {
+        "label": "Unternehmen",
+        "href": "/branchen/unternehmen/"
+      },
+      {
+        "label": "Retail & Handel",
+        "href": "/branchen/retail/"
+      }
     ],
     "loesungen": [
-      { "label": "Digitaler Empfang", "href": "/loesungen/digitaler-empfang/" },
-      { "label": "Digitale Infostele", "href": "/loesungen/digitale-infostele/" },
-      { "label": "Empfangsdisplays", "href": "/loesungen/empfangsdisplays/" }
+      {
+        "label": "Digitaler Empfang",
+        "href": "/loesungen/digitaler-empfang/"
+      },
+      {
+        "label": "Digitale Infostele",
+        "href": "/loesungen/digitale-infostele/"
+      },
+      {
+        "label": "Empfangsdisplays",
+        "href": "/loesungen/empfangsdisplays/"
+      }
     ]
-  }
+  },
+  "updatedAt": "2026-10-07"
 }

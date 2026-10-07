@@ -91,6 +91,10 @@
     {
       "question": "Worauf kommt es bei einer gut bedienbaren Touchscreen-Stele an?",
       "answer": "Auf grosse Schaltflächen, gut lesbare Texte, verständliche Navigation und eine erreichbare Bedienhöhe. Die Anwendung sollte nach Inaktivität zum Start zurückkehren und persönliche Eingaben löschen. Zugänglichkeit, Reinigung und Platz vor dem Gerät werden für den Einsatzort mitgeplant."
+    },
+    {
+      "question": "Wie wählen wir ein konkretes Touchmodell aus?",
+      "answer": "Für die Auswahl benötigen wir den Einsatzort, verfügbare Fläche, gewünschte Bedienhöhe, Inhalte und Schnittstellen. In der Offerte nennen wir Modell, Displaygrösse, Masse, Gewicht, Strom-/Netzwerkbedarf sowie die enthaltene Anwendung. So bleibt nachvollziehbar, welche Funktion aus Hardware und welche aus Software entsteht."
     }
   ],
   "internalLinks": [
@@ -137,6 +141,10 @@
     {
       "label": "Digital-Signage-Software",
       "href": "/loesungen/software/"
+    },
+    {
+      "label": "Praxisprojekt: Besucherinformation im Gemeindehaus",
+      "href": "/news/gemeindehaus-besucherinformation/"
     }
   ],
   "cta": {
@@ -250,6 +258,10 @@
       {
         "title": "Besucheranmeldung und Buchung",
         "description": "Check-in oder Raumbuchung sind mögliche individuelle Integrationen. Voraussetzung sind eine geeignete Anwendung, geklärte Abläufe und unterstützte Schnittstellen zum jeweiligen System."
+      },
+      {
+        "title": "Beispiel: eine Abteilung im Gemeindehaus finden",
+        "description": "Ein möglicher Ablauf: Sprache wählen, auf «Abteilungen» tippen, gewünschte Stelle auswählen und Etage sowie Weg anzeigen. Nach Inaktivität kehrt die Oberfläche zum Start zurück. Dies ist ein Planungsszenario; das verlinkte Gemeindeprojekt verwendet eine Informationsanzeige ohne hier belegte Touchfunktion."
       }
     ]
   },

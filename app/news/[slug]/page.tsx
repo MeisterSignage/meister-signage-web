@@ -94,6 +94,7 @@ export default async function NewsDetailPage({
             description: post.description,
             url: pageUrl,
             datePublished: post.dateISO,
+            dateModified: post.dateModified ?? post.dateISO,
             imageUrl: ogImage,
             category: post.category,
           }) as Record<string, unknown>
@@ -139,7 +140,7 @@ export default async function NewsDetailPage({
           {/* Last updated (GEO signal) */}
           {post.date && (
             <p className="mt-3 text-sm text-cgray/60">
-              Zuletzt aktualisiert: {formatMonthYearDE(post.date)}
+              Zuletzt aktualisiert: {formatMonthYearDE(post.dateModified ?? post.date)}
             </p>
           )}
         </div>

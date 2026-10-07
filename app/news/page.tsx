@@ -67,13 +67,7 @@ export default function NewsPage() {
             Software-Updates und Trends, die sich tatsächlich im Alltag bewähren.
           </p>
           <p className="mt-4 max-w-2xl text-[16px] leading-relaxed text-cgray/90">
-            Jeden Dienstag um 06:00 Uhr erscheint ein neuer Beitrag, automatisch publiziert
-            über unsere Content-Pipeline. Die Schwerpunkte: Branchenleitfäden (Gastronomie,
-            Retail, Hotellerie), Hardware-Vorstellungen aus der Spark-Reihe, Kosten- und
-            Mietmodell-Vergleiche, sowie technische Hintergründe zu Stromverbrauch, 4G-LTE-Anbindung,
-            Outdoor-Tauglichkeit und Software-Bedienung. Wir vermeiden Marketing-Floskeln und
-            schreiben so, wie wir auch mit Kunden am Telefon sprechen würden – konkret,
-            ehrlich, mit Zahlen statt Versprechen.
+            Hier finden Sie Produktinformationen, Planungshilfen und Einblicke aus unseren Projekten. Preise und technische Angaben aktualisieren wir bei relevanten Änderungen. Reale Projekte und illustrative Planungsszenarien sind als solche gekennzeichnet.
           </p>
         </div>
       </section>

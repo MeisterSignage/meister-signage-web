@@ -1,15 +1,16 @@
 ---
 title: "Versteckte Kosten bei Digital Signage – worauf achten"
 seoTitle: "Versteckte Kosten Digital Signage Schweiz"
-description: "5 Kostenpositionen, die viele Schweizer Digital-Signage-Anbieter nicht im Erstangebot ausweisen – und wie Sie diese erkennen, bevor Sie unterschreiben."
+description: "Fünf Kostenpositionen für den Offertenvergleich: Lizenz, Einrichtung, Lieferung, Inhalte und Rückbau transparent prüfen."
 date: "2026-06-16T06:00:00+02:00"
 category: "Praxis"
 image: "/images/products/Spark4-Design.webp"
 slug: "digital-signage-kosten-schweiz"
+dateModified: "2026-10-07"
 status: published
 carousel:
   hook: "Hardware ab CHF 999 – und dann?"
-  hookSub: "Lizenz, Installation, Support: Posten, die in vielen Erstangeboten fehlen."
+  hookSub: "Lizenz, Installation, Support: Posten, die beim Vergleich verschiedener Angebote separat geprüft werden sollten."
   solution: "Transparente Gesamtkosten – ohne böse Überraschungen."
   solutionSub: "Wir zeigen, was wirklich auf Sie zukommt, bevor Sie unterschreiben."
   benefits:
@@ -19,7 +20,7 @@ carousel:
   cta: "Ehrliche Kostenübersicht?"
 ---
 
-Eine Hardware ab CHF 999 klingt verlockend – bis die monatliche Lizenz, das Installations­paket und der Premium-Support dazu­kommen. Hier eine ehrliche Übersicht der **fünf Kostenpositionen, die in vielen Erstangeboten fehlen** – und wie Sie diese erkennen, bevor Sie unterschreiben.
+Eine Hardware ab CHF 999 klingt verlockend – bis die monatliche Lizenz, das Installations­paket und der Premium-Support dazu­kommen. Hier eine ehrliche Übersicht der **fünf Kostenpositionen, die beim Vergleich verschiedener Angebote separat geprüft werden sollten** – und wie Sie diese erkennen, bevor Sie unterschreiben.
 
 > Eine vollständige Kostenübersicht für Schweizer Digital-Signage-Projekte gibt es auf der dedizierten Seite [Was kostet Digital Signage in der Schweiz?](/was-kostet-digital-signage-schweiz/). Dieser Artikel fokussiert auf die versteckten Posten.
 
@@ -27,7 +28,7 @@ Eine Hardware ab CHF 999 klingt verlockend – bis die monatliche Lizenz, das In
 
 Typisches Missverständnis: "Hardware gekauft = fertig."
 
-Realität: Bei den meisten Digital-Signage-Anbietern läuft die Inhalts­steuerung über eine Cloud-Software, die separat lizenziert werden muss. Übliche Lizenz­kosten: CHF 180–600 pro Jahr und Display. Bei 3 Displays sind das CHF 540–1.800 pro Jahr.
+Realität: Bei den meisten Digital-Signage-Anbietern läuft die Inhalts­steuerung über eine Cloud-Software, die separat lizenziert werden muss. Prüfen Sie Lizenzpreis, Abrechnung pro Display und enthaltene Funktionen.
 
 Worauf achten: Im Erstangebot explizit nach "monatlicher Lizenz" oder "Cloud-Gebühr" fragen. Bei uns: CHF 180/Jahr im Kauf. Bei der Spark-Miete ab CHF 119 pro Display und Monat bei 12 Monaten Laufzeit ist die Softwarelizenz bereits enthalten.
 
@@ -35,7 +36,7 @@ Worauf achten: Im Erstangebot explizit nach "monatlicher Lizenz" oder "Cloud-Geb
 
 Typisches Missverständnis: "Plug & Play – einfach einstecken."
 
-Realität: Cloud-Anmeldung, Einweisung und die Testphase brauchen Zeit. Branchenübliche Einrichtungspauschalen liegen bei CHF 200–800 pro Projekt – je nach Aufwand. Bei uns kostet die Standardeinrichtung beim Kauf CHF 149 pro Display. Bei der Spark-Miete ist sie im Monatspreis enthalten, ohne zusätzliche Einrichtungspauschale. Individuelle Inhalte werden separat offeriert.
+Realität: Cloud-Anmeldung, Einweisung und die Testphase brauchen Zeit. Einrichtungskosten hängen von Aufwand und Umfang ab. Bei uns kostet die Standardeinrichtung beim Kauf CHF 149 pro Display. Bei der Spark-Miete ist sie im Monatspreis enthalten, ohne zusätzliche Einrichtungspauschale. Individuelle Inhalte werden separat offeriert.
 
 Worauf achten: Ob "Setup", "Onboarding" oder "Schulung" im Erstangebot aufgeführt sind.
 
@@ -43,7 +44,7 @@ Worauf achten: Ob "Setup", "Onboarding" oder "Schulung" im Erstangebot aufgefüh
 
 Typisches Missverständnis: "Lieferkosten? Marginal."
 
-Realität: Ein 50-Zoll-Display ist sperrig (47×30×4 Zoll Verpackung, 17.5 kg). Schweizer Spedition: CHF 80–200. Wer eine Vor-Ort-Installation will (Wand­halterung, Stromzuleitung), zahlt typisch CHF 200–600 pro Display. Bei uns transparent ausgewiesen, oft persönlich begleitet aus der Zentralschweiz – die [Versand- und Rückgabeseite](/versand-und-rueckgabe/) zeigt alle Konditionen.
+Realität: Verpackung, Gewicht, Lieferweg und Montageaufwand richten sich nach Modell und Standort. Lassen Sie diese Positionen in der Offerte separat ausweisen.
 
 Worauf achten: Im Angebot explizit "Lieferung CH" und "Installation" als separate Posten verlangen.
 
@@ -82,7 +83,7 @@ Der Spark 4 kostet im [Mietmodell](/digital-signage-mieten/) CHF 129 pro Display
 
 **Drei Prüf­fragen, bevor Sie unterschreiben:**
 
-1. **"Was kostet mich das in Summe nach 24 Monaten – inklusive Lizenz?"** – Wer ausweicht, hat versteckte Kosten.
+1. **"Was kostet mich das in Summe nach 24 Monaten – inklusive Lizenz?"** – So werden unterschiedliche Angebote vergleichbar.
 2. **"Welche Posten kommen nach dem Erstangebot dazu, wenn ich nur die Hardware kaufe?"** – Saubere Anbieter listen Lizenz, Update, Support transparent.
 3. **"Was passiert, wenn ich nach 2 Jahren wechseln will?"** – Wer mit Cloud-Lock-in arbeitet, macht den Wechsel teuer.
 
@@ -90,6 +91,6 @@ Wer Schweizer Anbieter direkt vergleichen will, findet die Übersicht auf [unser
 
 ## Unsere Politik: vorab transparent
 
-Wir veröffentlichen alle Preise auf der Website – [Kauf](/digital-signage-kaufen/), [Miete](/digital-signage-mieten/) und [Kosten­übersicht](/was-kostet-digital-signage-schweiz/). Kein versteckter Lock-in, keine Premium-Tier-Tricks. Falls Sie ein Angebot von einem anderen Anbieter haben und unsicher sind, ob alle Posten ausgewiesen sind – schicken Sie es uns, wir geben eine ehrliche Zweit­meinung.
+Wir veröffentlichen alle Preise auf der Website – [Kauf](/digital-signage-kaufen/), [Miete](/digital-signage-mieten/) und [Kosten­übersicht](/was-kostet-digital-signage-schweiz/). Den vereinbarten Umfang halten wir schriftlich fest. Falls Sie ein Angebot von einem anderen Anbieter haben und unsicher sind, ob alle Posten ausgewiesen sind – schicken Sie es uns, wir geben eine ehrliche Zweit­meinung.
 
 [Beratung anfragen](/kontakt/) – innert 24 h mit klarer Einschätzung.

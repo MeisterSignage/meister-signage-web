@@ -53,6 +53,20 @@ export default function DisplaysOverviewPage() {
       />
 
       <OverviewPage
+        comparison={{
+        title: "Welcher Displaytyp passt zu Ihrem Einsatzort?",
+        columns: ["Geeignet für", "Vor der Auswahl prüfen"],
+        rows: [
+          { label: "Spark-Wanddisplay", values: ["Menüboard, Empfang, Innenraum", "32 Zoll Full HD, 43/50 Zoll 4K; WLAN und Strom. 450 nits sind keine pauschale Lösung für direkte Sonne."] },
+          { label: "High-Brightness", values: ["Helle Schaufenster hinter Glas", "Sonne, Reflexionen, Belüftung und zulässige Temperaturen. Nicht automatisch wetterfest."] },
+          { label: "Infostele", values: ["Freistehende Information und Werbung", "Standfläche, Gewicht, sichere Aufstellung und Kabelführung."] },
+          { label: "Touchscreen-Stele", values: ["Interaktive Information und Wegfindung", "Zusätzliche Anwendung, Bedienhöhe, Schnittstellen und Umgang mit Eingaben."] },
+          { label: "Akku-Kundenstopper", values: ["Mobile Hinweise an Eingang oder Event", "Modellbezogene Laufzeit, Ladeort, Schutzart und zulässige Wetterbedingungen."] },
+          { label: "LED-Wall", values: ["Grosse Flächen und besondere Formate", "Pixelabstand, Sichtdistanz, Controller, Stromversorgung und Montage."] },
+        ],
+        note: "Die Auswahl richtet sich nach dem konkreten Modell und Standort. Touch, Akku und Outdoor-Eignung sind keine Standardmerkmale aller Displays.",
+        links: [{ label: "Spark-Modelle und Preise", href: "/digital-signage-kaufen/" }, { label: "Touchscreen-Stele", href: "/loesungen/digitale-infostele/" }, { label: "Kundenstopper vergleichen", href: "/loesungen/digitale-kundenstopper/" }],
+      }}
         eyebrow="Displays"
         title="Digital Signage Displays – das passende für jeden Einsatz."
         intro="Welcher Display-Typ passt zu Ihrem Vorhaben? Hier finden Sie alle Digital-Signage-Displays im Überblick – vom klassischen Indoor-Bildschirm über grossflächige LED Walls und ultrabreite Stretched Bars bis zu transparenten, doppelseitigen, hellen und mobilen Lösungen. Jeder Typ ist auf Einsatzort, Sichtbarkeit und Budget abgestimmt. Persönliche Beratung, Schweizer Service und Hardware für den 24/7-Betrieb – je nach Display-Typ als Kauf oder zur Miete. Für Spark-Displays gelten feste Monatsraten je Laufzeit; Stelen und Battery-Boards zur Miete offerieren wir auf Anfrage. Entscheidend sind Betrachtungsabstand, Umgebungslicht, Montageart und die Frage, wie häufig Inhalte wechseln. Wir vergleichen diese Faktoren gemeinsam, empfehlen eine passende Grösse und berücksichtigen Stromversorgung, Netzwerk und Bedienung schon in der Planung. So entsteht keine isolierte Bildschirmanschaffung, sondern eine betriebsbereite Lösung, die sich im Alltag zuverlässig aktualisieren lässt und später um weitere Standorte ergänzt werden kann."
@@ -65,7 +79,7 @@ export default function DisplaysOverviewPage() {
             items: [
               {
                 title: "Indoor-Displays (Spark-Serie)",
-                desc: "Schlüsselfertige Indoor-Displays von 32 bis 50 Zoll in 4K – für Gastronomie, Retail, Hotel und Empfang.",
+                desc: "Schlüsselfertige Indoor-Displays von 32 bis 50 Zoll: Spark 3 in Full HD, Spark 4 und 5 in 4K – für Gastronomie, Retail, Hotel und Empfang.",
                 href: "/digital-signage-kaufen",
                 imageSrc: "/images/products/Spark4-Design.webp",
                 imageAlt: "Indoor Digital Signage Display der Spark-Serie",

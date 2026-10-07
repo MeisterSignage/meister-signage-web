@@ -11,6 +11,7 @@ export type NewsPost = {
   seoTitle?: string;
   description: string;
   date: string;
+  dateModified?: string;
   category: string;
   image?: string;
   status: "published" | "draft" | "scheduled";
@@ -40,6 +41,7 @@ function readAllPosts(): NewsPost[] {
       title:       (data.title       as string)  ?? "Kein Titel",
       seoTitle:    (data.seoTitle    as string | undefined),
       description: (data.description as string)  ?? "",
+      dateModified: data.dateModified as string | undefined,
       date:        (data.date        as string)  ?? "",
       category:    (data.category    as string)  ?? "",
       image:       (data.image       as string | undefined),
@@ -87,6 +89,7 @@ export function getPostBySlug(slug: string): NewsPostWithContent | null {
         title:       (data.title       as string)  ?? "",
         seoTitle:    (data.seoTitle    as string | undefined),
         description: (data.description as string)  ?? "",
+        dateModified: data.dateModified as string | undefined,
         date:        (data.date        as string)  ?? "",
         category:    (data.category    as string)  ?? "",
         image:       (data.image       as string | undefined),

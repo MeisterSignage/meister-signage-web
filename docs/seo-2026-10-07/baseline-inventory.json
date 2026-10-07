@@ -1,0 +1,555 @@
+[
+  {
+    "url": "https://www.meister-signage.ch/",
+    "title": "Digital Signage & Displays Zentralschweiz | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/digital-signage-schweiz/",
+    "title": "Digital Signage Schweiz – kaufen oder mieten | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/digital-signage-schweiz/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/digital-signage-kaufen/",
+    "title": "Digital Signage kaufen Schweiz | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/digital-signage-kaufen/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/digital-signage-mieten/",
+    "title": "Display mieten Schweiz – ab CHF 119/Mt. | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/digital-signage-mieten/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/was-kostet-digital-signage-schweiz/",
+    "title": "Was kostet Digital Signage in der Schweiz? | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/was-kostet-digital-signage-schweiz/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/digital-signage-wie-red-bull/",
+    "title": "Digital Signage wie Red Bull – die Wirkung | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/digital-signage-wie-red-bull/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/digital-signage-anbieter-vergleich/",
+    "title": "Digital Signage Anbieter im Vergleich | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/digital-signage-anbieter-vergleich/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/branchen/",
+    "title": "Digital Signage Branchen Schweiz | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/branchen/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/loesungen/",
+    "title": "Digital-Signage-Lösungen Schweiz | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/loesungen/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/loesungen/displays/",
+    "title": "Digital Signage Displays – alle Typen | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/loesungen/displays/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/wissen/",
+    "title": "Digital Signage Wissen & Ratgeber | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/wissen/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/news/",
+    "title": "Digital Signage News & Blog – Tipps Schweiz | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/news/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/ueber-uns/",
+    "title": "Über uns – Digital Signage Schweiz | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/ueber-uns/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/kontakt/",
+    "title": "Kontakt – Digital Signage Beratung Schweiz | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/kontakt/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/redaktionelle-richtlinien/",
+    "title": "Redaktionelle Richtlinien | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/redaktionelle-richtlinien/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/branchen/gastronomie/",
+    "title": "Digital Signage Gastronomie | Menüboards Schweiz",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/branchen/gastronomie/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/branchen/hotellerie/",
+    "title": "Digital Signage Hotellerie Schweiz – Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/branchen/hotellerie/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/branchen/retail/",
+    "title": "Digital Signage Retail & Einzelhandel Schweiz | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/branchen/retail/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/branchen/events/",
+    "title": "Digital Signage für Events & Messen | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/branchen/events/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/branchen/unternehmen/",
+    "title": "Digital Signage für Unternehmen | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/branchen/unternehmen/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/branchen/gesundheit/",
+    "title": "Digital Signage für Praxis & Gesundheit | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/branchen/gesundheit/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/loesungen/software/",
+    "title": "Digital Signage Software Schweiz | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/loesungen/software/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/loesungen/mobile-displays/",
+    "title": "Mobile Displays Schweiz – akkubetrieben | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/loesungen/mobile-displays/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/loesungen/doppelseitige-displays/",
+    "title": "Doppelseitige Displays Schweiz | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/loesungen/doppelseitige-displays/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/loesungen/digitaler-empfang/",
+    "title": "Digitaler Empfang & Empfangsbildschirm | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/loesungen/digitaler-empfang/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/loesungen/digitale-leitsysteme/",
+    "title": "Digitale Leitsysteme Schweiz | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/loesungen/digitale-leitsysteme/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/loesungen/digitale-menueboards/",
+    "title": "Digitale Menüboards Schweiz – Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/loesungen/digitale-menueboards/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/loesungen/empfangsdisplays/",
+    "title": "Empfangsdisplays Schweiz – Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/loesungen/empfangsdisplays/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/loesungen/event-displays/",
+    "title": "Event-Displays mieten Schweiz – Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/loesungen/event-displays/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/loesungen/led-walls/",
+    "title": "Videowand & LED Walls Schweiz | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/loesungen/led-walls/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/loesungen/indoor-signage/",
+    "title": "Indoor Signage Schweiz | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/loesungen/indoor-signage/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/loesungen/digitale-kundenstopper/",
+    "title": "Outdoor-Kundenstopper mit Akku | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/loesungen/digitale-kundenstopper/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/loesungen/digitales-werbedisplay/",
+    "title": "Digitales Werbedisplay für Retail & POS | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/loesungen/digitales-werbedisplay/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/loesungen/digitale-schaufensterwerbung/",
+    "title": "Schaufensterwerbung & Schaufenster-Display | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/loesungen/digitale-schaufensterwerbung/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/loesungen/digitale-infostele/",
+    "title": "Digitale Infostele mit Touchscreen | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/loesungen/digitale-infostele/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/loesungen/digitale-raumbeschilderung/",
+    "title": "Digitale Raumbeschilderung Meetingräume | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/loesungen/digitale-raumbeschilderung/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/loesungen/high-brightness-display/",
+    "title": "High-Brightness-Display 3'500 nits | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/loesungen/high-brightness-display/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/loesungen/stretched-display/",
+    "title": "Stretched Displays & Ultra-Wide Screens | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/loesungen/stretched-display/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/loesungen/transparentes-display/",
+    "title": "Transparentes LED Display Schweiz | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/loesungen/transparentes-display/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/loesungen/interaktive-terminals-kiosks/",
+    "title": "Interaktive Infoterminals & Kiosk-Systeme | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/loesungen/interaktive-terminals-kiosks/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/staedte/zuerich/",
+    "title": "Digital Signage Zürich – mieten & kaufen | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/staedte/zuerich/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/staedte/luzern/",
+    "title": "Digital Signage Luzern – mieten & kaufen | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/staedte/luzern/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/staedte/zug/",
+    "title": "Digital Signage Zug – mieten & kaufen | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/staedte/zug/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/staedte/bern/",
+    "title": "Digital Signage Bern – mieten & kaufen | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/staedte/bern/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/staedte/basel/",
+    "title": "Digital Signage Basel – mieten & kaufen | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/staedte/basel/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/wissen/was-ist-digital-signage/",
+    "title": "Was ist Digital Signage? Definition & Kosten | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/wissen/was-ist-digital-signage/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/wissen/digital-signage-mieten-oder-kaufen/",
+    "title": "Digital Signage mieten oder kaufen? | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/wissen/digital-signage-mieten-oder-kaufen/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/wissen/digital-signage-vorteile-nachteile/",
+    "title": "Digital Signage Vor- und Nachteile | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/wissen/digital-signage-vorteile-nachteile/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/wissen/digital-signage-groesse-waehlen/",
+    "title": "Display-Grösse wählen: 32, 43, 50 Zoll | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/wissen/digital-signage-groesse-waehlen/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/wissen/digital-signage-nachhaltigkeit/",
+    "title": "Nachhaltiges Digital Signage | Strom & Lebensdauer",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/wissen/digital-signage-nachhaltigkeit/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/wissen/digital-signage-software/",
+    "title": "Digital Signage Software einfach erklärt | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/wissen/digital-signage-software/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/wissen/outdoor-displays/",
+    "title": "Outdoor Displays Schweiz | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/wissen/outdoor-displays/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/wissen/digitale-kundenstopper/",
+    "title": "Digitaler Kundenstopper erklärt | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/wissen/digitale-kundenstopper/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/wissen/digitale-menueboards/",
+    "title": "Digitale Menüboards: Ratgeber | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/wissen/digitale-menueboards/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/wissen/digitale-leitsysteme/",
+    "title": "Digitale Leitsysteme erklärt | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/wissen/digitale-leitsysteme/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/news/digital-signage-kmu/",
+    "title": "Digital Signage KMU Schweiz – kleiner Start | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/news/digital-signage-kmu/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/news/sparkq-quadratisches-display/",
+    "title": "Spark Q+ – quadratisches 33-Zoll-Display | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/news/sparkq-quadratisches-display/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/news/spark3-kompaktes-display/",
+    "title": "32-Zoll-Display für Theke & POS | Spark 3 | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/news/spark3-kompaktes-display/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/news/digital-signage-hotellerie/",
+    "title": "Digital Signage Boutique-Hotel: Klein starten | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/news/digital-signage-hotellerie/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/news/digital-signage-retail/",
+    "title": "Black Friday Sale digital planen | Retail | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/news/digital-signage-retail/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/news/digitales-menueboard-vorteile/",
+    "title": "Menüboard Setup: 5 Fehler vermeiden | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/news/digitales-menueboard-vorteile/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/news/digital-signage-trends-2026/",
+    "title": "Digital Signage 2026: 5 Trends Schweiz | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/news/digital-signage-trends-2026/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/news/digital-signage-mieten-oder-kaufen/",
+    "title": "Mieten oder Kaufen: 5 KMU-Praxisfälle | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/news/digital-signage-mieten-oder-kaufen/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/news/digital-signage-kosten-schweiz/",
+    "title": "Versteckte Kosten Digital Signage Schweiz | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/news/digital-signage-kosten-schweiz/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/news/spark4-vielseitiger-bestseller/",
+    "title": "43-Zoll-4K-Display für Menüboard & Empfang | Spark 4 | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/news/spark4-vielseitiger-bestseller/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/news/spark-sortiment-vergleich/",
+    "title": "Spark 3, 4, 5, Q+ im Vergleich | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/news/spark-sortiment-vergleich/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/news/digital-signage-gastronomie-2026/",
+    "title": "Menüboard-Trends 2026 in der Gastronomie | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/news/digital-signage-gastronomie-2026/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/news/spark5-neues-modell/",
+    "title": "50-Zoll-Display für Schaufenster & Lobby | Spark 5 | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/news/spark5-neues-modell/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/news/digital-signage-events-tipps/",
+    "title": "5 Tipps: Digital Signage am Event | Meister Signage",
+    "status": 200,
+    "robots": "index, follow",
+    "canonical": "https://www.meister-signage.ch/news/digital-signage-events-tipps/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/datenschutz/",
+    "title": "Datenschutzerklärung – Meister Signage",
+    "status": 200,
+    "robots": "noindex, nofollow",
+    "canonical": "https://www.meister-signage.ch/datenschutz/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/impressum/",
+    "title": "Impressum – Meister Signage",
+    "status": 200,
+    "robots": "noindex, nofollow",
+    "canonical": "https://www.meister-signage.ch/impressum/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/staedte/aarau/",
+    "title": "Digital Signage Aarau – mieten & kaufen | Meister Signage",
+    "status": 200,
+    "robots": "noindex, follow",
+    "canonical": "https://www.meister-signage.ch/staedte/aarau/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/staedte/baden/",
+    "title": "Digital Signage Baden – mieten & kaufen | Meister Signage",
+    "status": 200,
+    "robots": "noindex, follow",
+    "canonical": "https://www.meister-signage.ch/staedte/baden/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/staedte/chur/",
+    "title": "Digital Signage Chur – mieten & kaufen | Meister Signage",
+    "status": 200,
+    "robots": "noindex, follow",
+    "canonical": "https://www.meister-signage.ch/staedte/chur/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/staedte/olten/",
+    "title": "Digital Signage Olten – mieten & kaufen | Meister Signage",
+    "status": 200,
+    "robots": "noindex, follow",
+    "canonical": "https://www.meister-signage.ch/staedte/olten/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/staedte/solothurn/",
+    "title": "Digital Signage Solothurn – Displays mieten & kaufen",
+    "status": 200,
+    "robots": "noindex, follow",
+    "canonical": "https://www.meister-signage.ch/staedte/solothurn/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/staedte/st-gallen/",
+    "title": "Digital Signage St. Gallen – Displays mieten & kaufen",
+    "status": 200,
+    "robots": "noindex, follow",
+    "canonical": "https://www.meister-signage.ch/staedte/st-gallen/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/staedte/winterthur/",
+    "title": "Digital Signage Winterthur – mieten & kaufen",
+    "status": 200,
+    "robots": "noindex, follow",
+    "canonical": "https://www.meister-signage.ch/staedte/winterthur/"
+  },
+  {
+    "url": "https://www.meister-signage.ch/versand-und-rueckgabe/",
+    "title": "Versand & Rückgabe – Meister Signage",
+    "status": 200,
+    "robots": "noindex, follow",
+    "canonical": "https://www.meister-signage.ch/versand-und-rueckgabe/"
+  }
+]

@@ -51,8 +51,7 @@ export default function VersandUndRueckgabePage() {
             <p className="card-body mb-3">
               Die genauen Versand- und Installationskosten hängen von Modell, Standort und
               Lieferumfang ab und werden im individuellen Angebot vorab transparent ausgewiesen.
-              Handlingszeit beträgt in der Regel 1–3 Arbeitstage, Transit innerhalb der Schweiz
-              2–7 Arbeitstage.
+              Verfügbarkeit, Versandtermin und geplante Montagezeit bestätigen wir für das konkrete Modell in der Offerte.
             </p>
           </section>
 
@@ -99,8 +98,7 @@ export default function VersandUndRueckgabePage() {
             <h2 className="mb-3 text-navy">Gewährleistung & Herstellergarantie</h2>
             <p className="card-body mb-3">
               Auf alle gelieferten Geräte gilt die jeweilige <strong>Herstellergarantie</strong>{" "}
-              (in der Regel 24 Monate ab Lieferdatum). Defekte werden im Garantiezeitraum nach
-              den Bedingungen des Herstellers behoben.
+              mit dem für das jeweilige Modell ausgewiesenen Umfang und der vereinbarten Laufzeit. Garantiebedingungen, Vorgehen bei Defekten und zusätzliche Serviceleistungen werden vor dem Kauf geklärt.
             </p>
             <p className="card-body">
               Darüber hinaus bietet Meister Signage auf Wunsch erweiterte Servicevereinbarungen
@@ -139,9 +137,7 @@ export default function VersandUndRueckgabePage() {
               Verkabelungs-Sets) wird je nach Angebot separat ausgewiesen und beigelegt.
             </p>
             <p className="card-body">
-              Für die Inbetriebnahme benötigt das Display eine 230 V Steckdose im Umkreis von
-              ca. 1.5 Metern (Standard-Netzkabel) sowie – je nach Einsatz – einen WLAN-Empfang
-              oder einen LAN-Anschluss. Bei begleiteten Projekten übernehmen wir die
+              Spark benötigt WLAN und eine geeignete Stromversorgung für das externe Netzteil; am Display liegen 24 V DC an. Spark besitzt keinen LAN- oder HDMI-Eingang. Kabellängen, Montage und Anschlüsse anderer Modelle prüfen wir separat. Bei begleiteten Projekten übernehmen wir die
               Erstkonfiguration und richten die Inhaltsverwaltung gemeinsam mit Ihnen ein.
             </p>
           </section>

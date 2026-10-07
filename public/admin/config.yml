@@ -41,10 +41,11 @@ collections:
       - { label: "Titel",            name: "title",       widget: "string" }
       - { label: "Kurzbeschreibung", name: "description", widget: "text" }
       - { label: "Datum",            name: "date",        widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, picker_utc: false }
+      - { label: "Letzte fachliche Änderung", name: "dateModified", widget: "date", date_format: "YYYY-MM-DD", required: false }
       - label: "Kategorie"
         name: "category"
         widget: "select"
-        options: ["Produkte", "Branchen", "Anleitungen", "Aktuelles", "Kunden", "Tipps"]
+        options: ["Produkte", "Branchen", "Anleitungen", "Aktuelles", "Kunden", "Tipps", "Kundenprojekt", "Planung"]
       - { label: "Titelbild", name: "image", widget: "image", required: false }
       - label: "Status"
         name: "status"

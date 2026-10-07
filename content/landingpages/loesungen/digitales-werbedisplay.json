@@ -10,7 +10,7 @@
   "benefits": [
     {
       "title": "Aufmerksamkeit am Point of Sale",
-      "description": "Bewegte digitale Inhalte werden im Verkaufsraum oder Schaufenster bis zu 4-mal stärker wahrgenommen als statische Plakate – nachgewiesen in Studien der Display-Werbeforschung."
+      "description": "Bewegte Inhalte können Angebote am Verkaufspunkt hervorheben. Die Wirkung hängt von Gestaltung, Standort und Publikum ab und sollte im eigenen Betrieb geprüft werden."
     },
     {
       "title": "Inhalte ohne Druck und Wartezeit",
@@ -40,7 +40,7 @@
   "faq": [
     {
       "question": "Was ist der Unterschied zwischen einem digitalen Werbedisplay und einem normalen Fernseher?",
-      "answer": "Werbedisplays sind für den professionellen Dauerbetrieb (24/7) ausgelegt, haben höhere Helligkeit (450 nits statt 250), längere Lebensdauer und integrierte Mediaplayer – kein externer USB-Stick oder Computer nötig. Ein Consumer-Fernseher wäre nach wenigen Wochen Dauerbetrieb defekt."
+      "answer": "Profi-Displays unterscheiden sich je nach Modell bei zulässiger Betriebsdauer, Helligkeit, Ausrichtung, Garantie und Inhaltsverwaltung. Spark bietet einen integrierten Player und ist für 24/7-Betrieb spezifiziert. Ein Consumer-TV ist nicht pauschal ungeeignet; die Herstellerfreigaben für den geplanten Einsatz müssen geprüft werden."
     },
     {
       "question": "Welche Inhalte zeige ich auf einem digitalen Werbedisplay?",
@@ -155,5 +155,6 @@
         "href": "/branchen/hotellerie/"
       }
     ]
-  }
+  },
+  "updatedAt": "2026-10-07"
 }

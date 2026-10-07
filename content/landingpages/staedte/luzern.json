@@ -55,7 +55,7 @@
     },
     {
       "question": "Soll ich ein Display in Luzern mieten oder kaufen?",
-      "answer": "Spark-Displays mieten Sie ab CHF 119 pro Display und Monat bei einer Laufzeit von 12 Monaten – inklusive Standardeinrichtung, Software-Lizenz, Wandhalterung und persönlicher Betreuung. Für 1, 3 und 6 Monate gelten eigene Monatspreise; kürzere Events offerieren wir auf Anfrage. Kaufen ab CHF 1.399 lohnt sich, wenn Sie dauerhaft kommunizieren und langfristig die tiefsten Gesamtkosten möchten. Beide Wege bieten wir aus Luzern persönlich an."
+      "answer": "Spark-Displays mieten Sie ab CHF 119 pro Display und Monat bei einer Laufzeit von 12 Monaten – inklusive Standardeinrichtung, Software-Lizenz, Wandhalterung und persönlicher Betreuung. Für 1, 3 und 6 Monate gelten eigene Monatspreise; kürzere Events offerieren wir auf Anfrage. Kaufen ab CHF 1.399 lohnt sich, wenn Sie dauerhaft kommunizieren und langfristig die tiefsten Gesamtkosten möchten. Beide Wege betreuen wir in Luzern persönlich; unser Sitz ist in Baar."
     },
     {
       "question": "Was kostet Digital Signage in Luzern?",
@@ -148,5 +148,6 @@
         "href": "/loesungen/empfangsdisplays/"
       }
     ]
-  }
+  },
+  "updatedAt": "2026-10-07"
 }

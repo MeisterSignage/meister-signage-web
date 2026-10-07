@@ -7,9 +7,18 @@
   "h1": "Digitale Menüboards für Restaurants und Gastronomie",
   "intro": "Ein digitales Menüboard ersetzt gedruckte Karten und Tafelschriften durch einen aktuellen, professionellen Bildschirm. Inhalte lassen sich kurzfristig anpassen – Preise, Tagesangebote, ausverkaufte Gerichte – ohne Neudruck, ohne Laminiergerät, ohne Aufwand.",
   "gallery": [
-    { "src": "/images/products/Menueboard-Fastfood-Burger.webp", "alt": "Digitale Menüboards über der Theke in einem Burger-Restaurant" },
-    { "src": "/images/products/Menueboard-Restaurant.webp", "alt": "Digitale Menüboards im Restaurant" },
-    { "src": "/images/products/Menueboard-Gastronomie.webp", "alt": "Digitales Menüboard in der Gastronomie" }
+    {
+      "src": "/images/products/Menueboard-Fastfood-Burger.webp",
+      "alt": "Digitale Menüboards über der Theke in einem Burger-Restaurant"
+    },
+    {
+      "src": "/images/products/Menueboard-Restaurant.webp",
+      "alt": "Digitale Menüboards im Restaurant"
+    },
+    {
+      "src": "/images/products/Menueboard-Gastronomie.webp",
+      "alt": "Digitales Menüboard in der Gastronomie"
+    }
   ],
   "benefits": [
     {
@@ -40,7 +49,7 @@
   "faq": [
     {
       "question": "Was brauche ich für ein digitales Menüboard?",
-      "answer": "Ein professioneller Display, ein Media-Player und die entsprechende Software. Wir liefern und installieren alles aus einer Hand – inklusive Inhaltsvorbereitung."
+      "answer": "Ein geeignetes Display, einen integrierten oder kompatiblen Media-Player, Software und vorbereitete Inhalte. Den Umfang von Montage, Schulung und individueller Inhaltsgestaltung halten wir in der Offerte getrennt fest."
     },
     {
       "question": "Welche Displaygrösse ist sinnvoll?",
@@ -56,7 +65,7 @@
     },
     {
       "question": "Was kostet ein digitales Menüboard?",
-      "answer": "Die Kosten umfassen Hardware, Software und optional Betreuung. Wir erstellen Ihnen gerne eine kostenlose Einschätzung basierend auf Ihren Anforderungen."
+      "answer": "Ein Spark 3 mit 32 Zoll kostet ab CHF 1’399 für das Gerät, zuzüglich CHF 149 Standardeinrichtung und einer Softwarelizenz ab CHF 180 pro Jahr. Die Miete beginnt bei CHF 119 pro Display und Monat bei 12 Monaten Laufzeit, inklusive Standardeinrichtung, Softwarelizenz und Wandhalterung. Lieferung, Montage vor Ort und individuelle Inhalte werden separat offeriert. Es wird keine MWST verrechnet."
     }
   ],
   "internalLinks": [
@@ -141,5 +150,6 @@
         "href": "/staedte/zuerich/"
       }
     ]
-  }
+  },
+  "updatedAt": "2026-10-07"
 }

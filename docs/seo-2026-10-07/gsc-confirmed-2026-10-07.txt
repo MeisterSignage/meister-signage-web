@@ -1,0 +1,329 @@
+- banner:
+  - button:
+  - link:
+    - /url: ./search-console?resource_id=https%3A%2F%2Fwww.meister-signage.ch%2F
+  - search:
+    - textbox [disabled]: Inspect any URL in "https://www.meister-signage.ch/"
+    - combobox
+    - button:
+  - button:
+    - generic: help_outline
+  - tooltip: Help
+  - button:
+    - generic: manage_accounts
+  - tooltip: User settings
+  - button:
+    - generic: notifications
+  - tooltip: Messages
+  - generic: "17"
+  - button:
+  - button:
+- dialog:
+  - navigation:
+    - button:
+      - combobox: https://www.meister-signage.ch/
+      - generic: 
+    - link:
+      - /url: ./search-console?resource_id=https%3A%2F%2Fwww.meister-signage.ch%2F
+      - generic: home
+      - generic: Overview
+    - link:
+      - /url: ./search-console/performance/insights?resource_id=https%3A%2F%2Fwww.meister-signage.ch%2F
+      - generic: lightbulb_2
+      - generic: Insights
+    - link:
+      - /url: ./search-console/performance/search-analytics?resource_id=https%3A%2F%2Fwww.meister-signage.ch%2F
+      - generic: trending_up
+      - generic: Performance
+    - button:
+      - generic: keyboard_arrow_down
+    - button:
+      - generic: search
+      - generic: URL inspection
+    - generic: Indexing
+    - button [expanded]:
+      - generic: keyboard_arrow_up
+    - link:
+      - /url: ./search-console/index?resource_id=https%3A%2F%2Fwww.meister-signage.ch%2F
+      - generic: file_copy
+      - generic: Pages
+    - link:
+      - /url: ./search-console/sitemaps?resource_id=https%3A%2F%2Fwww.meister-signage.ch%2F
+      - generic: account_tree
+      - generic: Sitemaps
+    - link:
+      - /url: ./search-console/removals?resource_id=https%3A%2F%2Fwww.meister-signage.ch%2F
+      - generic: visibility_off
+      - generic: Removals
+    - generic: Experience
+    - button [expanded]:
+      - generic: keyboard_arrow_up
+    - link:
+      - /url: ./search-console/core-web-vitals?resource_id=https%3A%2F%2Fwww.meister-signage.ch%2F
+      - generic: speed
+      - generic: Core Web Vitals
+    - link:
+      - /url: ./search-console/https?resource_id=https%3A%2F%2Fwww.meister-signage.ch%2F
+      - generic: lock
+      - generic: HTTPS
+    - generic: Shopping
+    - button [expanded]:
+      - generic: keyboard_arrow_up
+    - link:
+      - /url: ./search-console/r/product?resource_id=https%3A%2F%2Fwww.meister-signage.ch%2F
+      - generic: layers
+      - generic: Product snippets
+    - link:
+      - /url: ./search-console/r/merchant-listings?resource_id=https%3A%2F%2Fwww.meister-signage.ch%2F
+      - generic: layers
+      - generic: Merchant listings
+    - generic: Enhancements
+    - button [expanded]:
+      - generic: keyboard_arrow_up
+    - link:
+      - /url: ./search-console/r/breadcrumbs?resource_id=https%3A%2F%2Fwww.meister-signage.ch%2F
+      - generic: layers
+      - generic: Breadcrumbs
+    - generic: Security & Manual Actions
+    - button:
+      - generic: keyboard_arrow_down
+    - link:
+      - /url: ./search-console/links?resource_id=https%3A%2F%2Fwww.meister-signage.ch%2F
+      - generic: link_2
+      - generic: Links
+    - link:
+      - /url: ./search-console/achievements?resource_id=https%3A%2F%2Fwww.meister-signage.ch%2F
+      - generic: trophy
+      - generic: Achievements
+    - link:
+      - /url: ./search-console/settings?resource_id=https%3A%2F%2Fwww.meister-signage.ch%2F
+      - generic: settings
+      - generic: Settings
+    - button:
+      - generic: feedback
+      - generic: Submit feedback
+    - button:
+      - generic: info
+      - generic: About Search Console
+    - link:
+      - /url: https://myaccount.google.com/privacypolicy?hl=en
+      - text: Privacy
+    - link:
+      - /url: https://myaccount.google.com/termsofservice?hl=en
+      - text: Terms
+- navigation:
+  - heading [level=1]: Performance
+- button:
+  - generic: 
+  - generic: EXPORT
+- radiogroup:
+  - radio:
+    - generic: 24 hours
+  - radio:
+    - generic: 7 days
+  - radio [checked]:
+    - generic: 28 days
+  - radio:
+    - generic: 3 months
+- button:
+  - generic: More
+  - generic: arrow_drop_down
+- list:
+  - button:
+    - generic: "Search type: Web"
+    - generic: arrow_drop_down
+  - tooltip: "Search type: Web"
+  - button:
+    - generic: add
+    - generic: Add filter
+  - tooltip: Add filter
+  - button:
+    - generic: filter_list_spark
+  - tooltip: Customize your Performance report using AI
+  - button:
+    - generic: Reset filters
+  - tooltip: Reset filters
+- generic: "Last update: 14 hours ago"
+- main:
+  - button:
+    - generic: 
+    - generic: Total clicks
+    - generic: "75"
+  - button:
+    - generic: 
+  - button:
+    - generic: 
+    - generic: Total impressions
+    - generic: 5.8K
+  - button:
+    - generic: 
+  - button:
+    - generic: Average CTR
+    - generic: 1.3%
+  - button:
+    - generic: 
+  - button:
+    - generic: Average position
+    - generic: "14.8"
+  - button:
+    - generic: 
+  - button:
+    - generic: Daily
+  - generic: Clicks
+  - generic: Impressions
+  - application:
+    - generic: Chart, containing counts of Total clicks, Total impressions, Average CTR, and Average position from September 7, 2026 to October 4, 2026
+  - generic: info
+  - generic: Get more details on your site’s performance in generative AI features on Google Search
+  - generic: Open report
+  - generic: chevron_forward
+  - link:
+    - /url: ./search-console/performance/search-analytics/ai?resource_id=https%3A%2F%2Fwww.meister-signage.ch%2F
+  - tablist:
+    - tab [selected]:
+      - generic: Queries
+    - tab:
+      - generic: Pages
+    - tab:
+      - generic: Countries
+    - tab:
+      - generic: Devices
+    - tab:
+      - generic: Search appearance
+    - tab:
+      - generic: Days
+  - tabpanel:
+    - button:
+      - generic: 
+    - table:
+      - rowgroup:
+        - row:
+          - columnheader:
+            - generic: Top queries
+            - button:
+          - columnheader:
+            - button:
+            - generic: Clicks
+          - columnheader:
+            - button:
+            - generic: Impressions
+      - rowgroup:
+        - row:
+          - cell:
+            - generic: chris meister
+          - cell:
+            - generic: "2"
+          - cell:
+            - generic: "9"
+        - row:
+          - cell:
+            - generic: bildschirm mieten
+          - cell:
+            - generic: "1"
+          - cell:
+            - generic: "233"
+        - row:
+          - cell:
+            - generic: werbemonitor schaufenster
+          - cell:
+            - generic: "1"
+          - cell:
+            - generic: "18"
+        - row:
+          - cell:
+            - generic: informationsstele
+          - cell:
+            - generic: "1"
+          - cell:
+            - generic: "7"
+        - row:
+          - cell:
+            - generic: transparenter bildschirm
+          - cell:
+            - generic: "1"
+          - cell:
+            - generic: "7"
+        - row:
+          - cell:
+            - generic: transparentes display
+          - cell:
+            - generic: "1"
+          - cell:
+            - generic: "6"
+        - row:
+          - cell:
+            - generic: menüboards
+          - cell:
+            - generic: "1"
+          - cell:
+            - generic: "4"
+        - row:
+          - cell:
+            - generic: display durchsichtig
+          - cell:
+            - generic: "1"
+          - cell:
+            - generic: "2"
+        - row:
+          - cell:
+            - generic: videowand mieten
+          - cell:
+            - generic: "1"
+          - cell:
+            - generic: "2"
+        - row:
+          - cell:
+            - generic: digital signage restaurant
+          - cell:
+            - generic: "1"
+          - cell:
+            - generic: "1"
+    - generic: "Rows per page:"
+    - listbox:
+      - text: "5"
+      - option [selected]: "10"
+      - text: 25 50 100 250 500
+    - generic: 1-10 of 452
+    - button [disabled]:
+    - tooltip: Previous page
+    - button:
+    - tooltip: Next page
+- dialog "Date range":
+  - heading "Date range" [level=2]:
+    - generic: Date range
+  - tablist:
+    - tab "Filter" [selected]:
+      - generic: Filter
+    - tab "Compare":
+      - generic: Compare
+  - tabpanel "Filter":
+    - radiogroup:
+      - radio "Last 6 months"
+      - generic: Last 6 months
+      - radio "Last 12 months"
+      - generic: Last 12 months
+      - radio "Last 16 months"
+      - generic: Last 16 months
+      - radio "Custom"
+      - generic: Custom
+    - generic: Start date
+    - generic: Start date
+    - generic: Start date
+    - textbox "Start date": 2026-09-07
+    - button "Open calendar":
+    - tooltip: Open calendar
+    - paragraph: YYYY-MM-DD
+    - generic: YYYY-MM-DD
+    - generic: "-"
+    - generic: End date
+    - generic: End date
+    - generic: End date
+    - textbox "End date": 2026-10-04
+    - button "Open calendar":
+    - tooltip: Open calendar
+    - paragraph: YYYY-MM-DD
+    - generic: YYYY-MM-DD
+  - button "Cancel" [active]:
+    - generic: Cancel
+  - button "Apply" [disabled]:
+    - generic: Apply

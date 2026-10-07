@@ -6,6 +6,7 @@ date: "2026-04-22"
 category: "Produkte"
 image: "/images/products/Spark5-Design.webp"
 slug: "spark5-neues-modell"
+dateModified: "2026-10-07"
 status: published
 carousel:
   hook: "Soll Ihr Schaufenster auch aus Distanz wirken?"
@@ -25,8 +26,8 @@ Das 50-Zoll-Display Spark 5 ist das grösste Modell in unserem Standard-Sortimen
 
 Auf den ersten Blick sieht ein Consumer-TV ähnlich aus – aber drei Dinge sind grundsätzlich anders:
 
-1. **24/7-Dauerbetrieb spezifiziert.** Consumer-TVs sind für 4–6 Stunden täglich gebaut. Im Dauerbetrieb sterben sie meist innerhalb eines Jahres. Das Spark 5 ist für 24-Stunden-Einsatz konzipiert.
-2. **450 nits Helligkeit.** Auch bei Tageslicht und im hellen Schaufenster bleibt der Inhalt klar lesbar. Consumer-TVs liegen typisch bei 250 nits.
+1. **24/7-Dauerbetrieb spezifiziert.** Bei Consumer-TVs sind zulässige Betriebsdauer und gewerbliche Nutzung modellabhängig. Ob ein TV für diesen Einsatz geeignet ist, hängt von seiner Betriebsfreigabe und den Garantiebedingungen ab. Das Spark 5 ist für 24-Stunden-Einsatz konzipiert.
+2. **450 nits Helligkeit.** Für geeignete Innenräume; bei heller Umgebung, Glasreflexionen oder direkter Sonne ist eine gesonderte Standortprüfung nötig. Consumer-TVs liegen typisch bei 250 nits.
 3. **Integrierter Media Player.** Kein zusätzlicher Stick, kein USB, kein HDMI-Kabel nötig – Inhalte laufen über die integrierte Cloud-Anbindung.
 
 ## Technische Daten im Überblick
@@ -49,7 +50,7 @@ Auf den ersten Blick sieht ein Consumer-TV ähnlich aus – aber drei Dinge sind
 
 ### Schaufenster im Retail
 
-Mit 4K-Auflösung und 450 nits bleibt das Spark 5 auch bei direkter Schaufenster­beleuchtung scharf. Ideal für saisonale Kampagnen, Neuheiten und Verkaufs­aktionen – die rund um die Uhr laufen, auch nach Laden­schluss. Wer mehr zu dieser Anwendung wissen möchte, findet eine fokussierte Lösungsseite zu [digitaler Schaufensterwerbung](/loesungen/digitale-schaufensterwerbung/).
+Die 4K-Auflösung ermöglicht detailreiche Inhalte. Ob 450 nits am Standort ausreichen, hängt von Tageslicht und Reflexionen ab. Ideal für saisonale Kampagnen, Neuheiten und Verkaufs­aktionen – die rund um die Uhr laufen, auch nach Laden­schluss. Wer mehr zu dieser Anwendung wissen möchte, findet eine fokussierte Lösungsseite zu [digitaler Schaufensterwerbung](/loesungen/digitale-schaufensterwerbung/).
 
 ### Empfangshalle in Hotels und Unternehmen
 
@@ -65,7 +66,7 @@ Eine Besonderheit, die wir in der [Vergleichstabelle](/digital-signage-anbieter-
 
 ## Welche Grösse für welchen Einsatz?
 
-50 Zoll sind nicht für jeden Standort die richtige Wahl. Eine kompakte Theke oder ein kleines Empfangs­büro wirkt mit dem Spark 5 schnell überdimensioniert. Eine Faustregel: **Diagonale ≈ Betrachtungs­abstand × 0.2**. Bei 5 m Abstand passt 50 Zoll, bei 2 m wäre 32 Zoll (Spark 3) besser. Eine detaillierte Anleitung findet sich im Ratgeber [Digital Signage Grösse wählen](/wissen/digital-signage-groesse-waehlen/).
+50 Zoll sind nicht für jeden Standort die richtige Wahl. Eine kompakte Theke oder ein kleines Empfangs­büro wirkt mit dem Spark 5 schnell überdimensioniert. Eine pauschale Distanzformel genügt nicht. Prüfen Sie Schriftgrösse, Informationsmenge und Sichtabstand anhand eines realen Musterlayouts. Eine detaillierte Anleitung findet sich im Ratgeber [Digital Signage Grösse wählen](/wissen/digital-signage-groesse-waehlen/).
 
 Für die anderen Einsatz­bereiche stehen die kompakteren Modelle bereit: Der [Spark 3](/digital-signage-kaufen/) für Theke und POS, der [Spark 4](/digital-signage-kaufen/) als Bestseller für mittlere Räume.
 
@@ -83,3 +84,8 @@ Im Mietpreis enthalten: Display, Standardeinrichtung, Softwarelizenz, Wandhalter
 - Hardware-Details und Preistabelle: [Digital Signage kaufen](/digital-signage-kaufen/)
 - Mietvariante für Events oder Pop-ups: [Digital Signage mieten](/digital-signage-mieten/)
 - Persönliche Beratung: [Kontakt aufnehmen](/kontakt/)
+
+
+## Standortprüfung fürs Schaufenster
+
+Spark-Displays mit 450 nits eignen sich nicht pauschal für sonnige Schaufenster. Für direkte Sonne oder starke Reflexionen prüfen wir ein [High-Brightness-Display](/loesungen/high-brightness-display/) sowie die Temperatur und Belüftung hinter Glas. Die Auswahl erfolgt anhand des konkreten Standorts.

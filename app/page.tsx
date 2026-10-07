@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 const HOME_FAQS = [
   {
     question: "Was kostet eine Digital-Signage-Lösung?",
-    answer: "Das hängt von Anzahl Bildschirmen, Einsatzort, Installation, Inhaltspflege und gewünschter Betreuung ab. Für kleine Lösungen ist ein schlanker Einstieg mit einem Display möglich. Viele Kunden starten mit einem einzelnen System und erweitern es später nach Bedarf. Wir erstellen Ihnen eine kostenlose, unverbindliche Einschätzung.",
+    answer: "Ein Spark 3 mit 32 Zoll kostet ab CHF 1’399 für das Gerät, zuzüglich CHF 149 Standardeinrichtung und einer Softwarelizenz ab CHF 180 pro Jahr. Die Miete beginnt bei CHF 119 pro Display und Monat bei 12 Monaten Laufzeit, inklusive Standardeinrichtung, Softwarelizenz und Wandhalterung. Lieferung, Montage vor Ort und individuelle Inhalte werden separat offeriert. Es wird keine MWST verrechnet.",
   },
   {
     question: "Kann ich Inhalte selbst ändern?",

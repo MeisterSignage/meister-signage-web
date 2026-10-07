@@ -1,0 +1,205 @@
+Search Console, read 2026-10-07. Web, all countries/devices. 2026-09-07–2026-10-04 vs 2026-08-10–2026-09-06. UI chart date accessibility label erroneous; dates verified in date dialog. Raw visible table, not full CSV export.
+
+
+Total clicks
+75
+Last 28 days
+76
+Previous 28 days
+
+
+Total impressions
+5.8K
+Last 28 days
+7.97K
+Previous 28 days
+
+Average CTR
+1.3%
+Last 28 days
+1%
+Previous 28 days
+
+
+Average position
+14.8
+Last 28 days
+20.1
+Previous 28 days
+
+Daily
+5
+10
+15
+20
+25
+9
+6
+3
+0
+450
+300
+150
+0
+Chart, containing counts of Last 28 days Clicks, Previous 28 days Clicks, Last 28 days Impressions, Previous 28 days Impressions, Last 28 days CTR, Previous 28 days CTR, Last 28 days Position, and Previous 28 days Position from Invalid Date to January 1, 1970
+info
+Get more details on your site’s performance in generative AI features on Google Search
+Open report
+chevron_forward
+QUERIES
+PAGES
+COUNTRIES
+DEVICES
+SEARCH APPEARANCE
+DAYS
+
+Top queries
+	
+Clicks
+Last 28 days
+	
+Clicks
+Previous 28 days
+	
+Clicks
+Difference
+	
+Impressions
+Last 28 days
+	
+Impressions
+Previous 28 days
+	
+Impressions
+Difference
+	
+Position
+Last 28 days
+	
+Position
+Previous 28 days
+	
+Position
+Difference
+
+chris meister	2	1	1	9	7	2	3.3	2.1	1.2
+bildschirm mieten	1	0	1	233	302	-69	7.2	8.6	-1.4
+werbemonitor schaufenster	1	0	1	18	44	-26	6.6	9.7	-3.1
+informationsstele	1	0	1	7	6	1	5.4	14.8	-9.4
+transparenter bildschirm	1	0	1	7	7	0	11.3	15.3	-4
+transparentes display	1	0	1	6	0	6	6.2	0	6.2
+menüboards	1	0	1	4	0	4	1.3	0	1.3
+display durchsichtig	1	0	1	2	0	2	4.5	0	4.5
+videowand mieten	1	0	1	2	1	1	9.5	9	0.5
+digital signage restaurant	1	0	1	1	25	-24	1	2.3	-1.3
+digitales menüboard gastronomie
+	1
+	0
+	1
+	1
+	1
+	0
+	1
+	1
+	0
+
+transparentdisplay	1	0	1	1	0	1	4	0	4
+kundenstopper mieten	1	0	1	1	0	1	6	0	6
+touch kiosk	1	0	1	1	1	0	14	5	9
+digital signage	0	1	-1	472	271	201	10.6	27.7	-17.1
+digital signage schweiz	0	0	0	106	146	-40	8.2	13.3	-5.2
+signage	0	0	0	98	131	-33	10.4	12.3	-1.9
+besucher leitsysteme	0	0	0	55	42	13	4.4	10.2	-5.8
+digitale screens bern	0	0	0	54	69	-15	5.9	5.2	0.7
+welche top-5-anbieter für display-video-werbung in der schweiz sollte ich vergleichen?	0	0	0	46	33	13	4.6	6.4	-1.9
+kosten digitale plakatwerbung schweiz	0	0	0	44	74	-30	11.9	12.9	-1
+digitale beschilderung	0	0	0	44	72	-28	15.9	16.5	-0.6
+displays	0	0	0	42	42	0	24.4	25.5	-1.1
+digitale schaufenster	0	0	0	42	76	-34	27.8	29.1	-1.3
+digital signage arztpraxis	0	0	0	41	33	8	10.4	12.6	-2.3
+digitale aussenwerbung für kmu	0	0	0	41	68	-27	19.6	17.9	1.7
+led wall	0	0	0	37	26	11	19	27.5	-8.5
+display miete	0	0	0	36	44	-8	4.8	3.5	1.3
+digitale werbung basel buchen	0	0	0	36	51	-15	23.4	23.7	-0.2
+kann ich digitale werbung in bern buchen?	0	0	0	36	62	-26	43.4	36.5	6.9
+digitale werbung zürich buchen	0	0	0	36	53	-17	46.2	46.1	0.1
+empfangsbildschirm	0	0	0	35	44	-9	4.8	3.3	1.5
+digitale screens	0	0	0	34	56	-22	23.5	30.6	-7.1
+digitaler empfang	0	0	0	34	58	-24	26.8	29.7	-2.9
+digitale werbung luzern buchen	0	0	0	33	57	-24	36.7	40.1	-3.4
+digitale werbung bern	0	0	0	33	56	-23	53	50	3.1
+digital signage anbieter	0	0	0	32	78	-46	23.3	24.6	-1.3
+interaktive terminals	0	0	0	31	39	-8	11.6	8.6	3
+empfangsbildschirm software	0	0	0	29	62	-33	6.4	6	0.4
+was ist digital signage	0	0	0	29	42	-13	7.1	16.1	-9
+digitale aussenwerbung bern	0	0	0	29	67	-38	25.1	25.4	-0.3
+digitale werbung bern buchen	0	0	0	29	58	-29	45.2	40.1	5.1
+digital signage mieten	0	0	0	26	140	-114	34.5	32.5	2.1
+digital signage; outdoorscreens; indoorscreens; aussenbildschirme; innenbildschirme; digitales marketing; wizard smart solutions; wizard	0	0	0	25	33	-8	9.1	10.5	-1.4
+digitale kundenstopper	0	0	0	25	10	15	15.7	16.7	-1
+schaufenster displays	0	0	0	25	66	-41	32.2	28.6	3.5
+digital screens	0	0	0	24	9	15	17	27	-10
+digitale screens finden	0	0	0	24	60	-36	23.1	30.4	-7.3
+digitale schaufensterwerbung	0	0	0	23	54	-31	18.9	23.4	-4.4
+screenlösungen	0	0	0	23	0	23	19.3	0	19.3
+digital signage by displays the best of zurich	0	0	0	23	40	-17	52.1	47.4	4.7
+digital signage; indoorscreens; outdoorscreens; bildschirme; wizard smart solutions; software	0	0	0	22	26	-4	20.4	15.7	4.7
+anzeigetechnik öffentlich	0	0	0	21	35	-14	9.1	11.5	-2.4
+digitale raumbeschilderung	0	1	-1	21	31	-10	16.7	14.9	1.7
+digitale gastro-einrichtung	0	0	0	20	12	8	20.3	22.3	-2
+video walls	0	0	0	20	28	-8	28	38.3	-10.4
+digitale infostele	0	0	0	19	39	-20	10.6	4.7	6
+preis dooh schweiz	0	0	0	19	0	19	19.7	0	19.7
+digital signage displays	0	0	0	18	15	3	17.6	18.4	-0.8
+raumbeschilderung digital	0	0	0	18	6	12	18.2	5.2	13.1
+werbefläche digital buchen	0	0	0	18	9	9	67.3	66.1	1.2
+wie lassen sich digital-signage-displays an mehreren standorten zentral verwalten und überwachen?	0	0	0	17	0	17	6.5	0	6.5
+digitaler portier	0	0	0	17	32	-15	36.4	34.6	1.8
+digital signage event	0	0	0	16	37	-21	13.6	16.3	-2.7
+welche anbieter für digital signage in der schweiz übernehmen beratung, installation und support für mehrere standorte	0	0	0	15	0	15	2.9	0	2.9
+infostele eingangsbereich	0	0	0	15	0	15	7.3	0	7.3
+led-wand veranstaltung	0	0	0	15	32	-17	12.8	26.2	-13.4
+réserver une publicité numérique à bâle	0	0	0	15	29	-14	38.7	48	-9.4
+welcome screen empfang	0	0	0	14	28	-14	3.2	1.9	1.3
+welche display-video-optionen sind am besten für lokale events und kurzfristige aktionen?	0	0	0	14	25	-11	5.1	8.3	-3.1
+digital signage software schweiz	0	0	0	14	28	-14	7.7	7.9	-0.2
+signage software	0	0	0	14	9	5	9.4	10	-0.6
+empfangsmonitor	0	0	0	14	32	-18	41	37.4	3.6
+pubblicità dooh a basilea	0	0	0	14	18	-4	58	83.8	-25.8
+digitale schaufenster kommunikation	0	0	0	13	45	-32	6.5	20.6	-14.1
+sparkq	0	0	0	13	12	1	6.6	7.7	-1.1
+transparent display	0	0	0	13	17	-4	8	8.2	-0.2
+begrüssungsbildschirm empfang	0	0	0	13	42	-29	9.3	11	-1.7
+digital signage definition	0	0	0	13	57	-44	10.8	16	-5.2
+digital signage display	0	0	0	13	7	6	16.8	21.9	-5.1
+interaktive wegweiser	0	0	0	13	23	-10	22.9	20.2	2.7
+empfang ersetzen	0	0	0	13	36	-23	43.9	45.9	-2
+digital signage luzern lokal	0	0	0	12	10	2	1	1	0
+digital signage anzeigen	0	0	0	12	0	12	9.5	0	9.5
+digital signage systeme	0	0	0	12	0	12	10.3	0	10.3
+digital screen	0	0	0	12	8	4	15.6	24.5	-8.9
+empfangsterminal	0	0	0	12	11	1	28.3	41.5	-13.2
+digitale indoor kommunikation	0	0	0	12	8	4	38.8	39.5	-0.7
+infostele	0	0	0	11	44	-33	4.5	7.6	-3.1
+signage system	0	0	0	11	8	3	9.1	10.8	-1.7
+digital displays	0	0	0	11	20	-9	12.6	19	-6.4
+schaufenster display	0	0	0	11	27	-16	24.7	16.6	8.2
+info bildschirme für messen	0	0	0	11	13	-2	36.5	43.5	-7
+digitale anmeldung empfang	0	0	0	11	39	-28	41.7	42.9	-1.2
+prenotare una pubblicità digitale a basilea	0	0	0	11	4	7	48.1	53.5	-5.4
+réserver une publicité numérique à berne	0	0	0	11	30	-19	48.3	48.2	0
+publicité dooh lucerne	0	0	0	11	29	-18	77.2	71.3	5.8
+überkopfanzeiger	0	0	0	11	13	-2	86.3	84.4	1.9
+schlüsselfertige digital signage	0	0	0	10	9	1	5	6.8	-1.8
+digitale signage	0	0	0	10	9	1	9.5	9.1	0.4
+Rows per page:
+5
+10
+25
+50
+100
+250
+500
+1-100 of 618
+Previous page
+Next page

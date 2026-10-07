@@ -6,6 +6,7 @@ date: "2026-06-09T06:00:00+02:00"
 category: "Produkte"
 image: "/images/products/Spark4-Design.webp"
 slug: "spark4-vielseitiger-bestseller"
+dateModified: "2026-10-07"
 status: published
 carousel:
   hook: "Zu klein wirkt verloren, zu gross sprengt den Raum?"
@@ -56,7 +57,7 @@ Die meisten Betriebe suchen ein Display, das in Standard­situationen überzeugt
 
 Der Sprung von Full HD auf 4K ist bei 43 Zoll deutlich sichtbar. Texte sind schärfer, Bilder detail­reicher, Videos wirken professioneller. Gerade bei Inhalten mit feiner Typografie oder hochwertigen Produkt­bildern zahlt sich die höhere Auflösung aus.
 
-## Vollständig kabellos – auch die Daten
+## Daten kabellos, Strom über eine Leitung
 
 Anders als bei klassischen Digital-Signage-Setups gibt es am Spark 4 keine HDMI-, USB- oder Ethernet-Ports. Inhalte kommen über WiFi6 auf den integrierten Media Player. Das bedeutet: keine sichtbaren Datenkabel, kein externer Mini-PC, keine USB-Sticks. Bei der Installation reduziert das den Aufwand erheblich – Details auf der [Vergleichs­seite](/digital-signage-anbieter-vergleich/).
 
@@ -95,3 +96,8 @@ Im Mietpreis enthalten: Display, Standardeinrichtung, Softwarelizenz, Wandhalter
 - Mietoptionen: [Digital Signage mieten](/digital-signage-mieten/)
 - Anbieter im Vergleich: [Anbieter-Vergleichs­seite](/digital-signage-anbieter-vergleich/)
 - Beratung: [Jetzt Kontakt aufnehmen](/kontakt/)
+
+
+## Standortprüfung fürs Schaufenster
+
+Spark-Displays mit 450 nits eignen sich nicht pauschal für sonnige Schaufenster. Für direkte Sonne oder starke Reflexionen prüfen wir ein [High-Brightness-Display](/loesungen/high-brightness-display/) sowie die Temperatur und Belüftung hinter Glas. Die Auswahl erfolgt anhand des konkreten Standorts.

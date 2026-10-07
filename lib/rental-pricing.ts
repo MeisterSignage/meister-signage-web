@@ -43,6 +43,8 @@ export const OPTIONAL_FLOOR_STAND_MONTHLY = 50;
 export const RENTAL_FOOTNOTE = "Preise pro Display und Monat bei einer Laufzeit von 12 Monaten. Standardeinrichtung, Softwarelizenz und Wandhalterung inklusive.";
 
 export const RENTAL_FAQS = [
+  { question: "Was gilt für Rückgabe, Schäden und Verlängerung?", answer: "Rückgabetermin, Rückholung, Zustand bei Rückgabe, Umgang mit Schäden, allfällige Kaution und eine Verlängerung halten wir vor Mietbeginn schriftlich fest. Ein Monatsbetrag bedeutet keine freie monatliche Kündigung: Es gilt die vereinbarte Laufzeit. Ein vorzeitiger Wechsel oder Kauf wird gesondert vereinbart." },
+
   {
     question: "Was kostet die Display-Miete?",
     answer: "Die Spark-Displays mieten Sie bei einer Laufzeit von 12 Monaten ab CHF 119 pro Display und Monat. Standardeinrichtung, Softwarelizenz, Wandhalterung und persönliche Betreuung sind inklusive. Für 1, 3 oder 6 Monate gelten die Monatsraten in unserem Laufzeitvergleich. Lieferung auf Anfrage, Abholung möglich. Vor-Ort-Montage und Rückholung vereinbaren wir separat.",

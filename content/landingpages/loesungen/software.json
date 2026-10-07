@@ -45,11 +45,11 @@
     },
     {
       "title": "Benutzerrollen & Sicherheit",
-      "description": "Mehrere Mitarbeitende mit klaren Rechten, sichere Anmeldung und verschlüsselte Inhalte – Sie behalten jederzeit die Kontrolle."
+      "description": "Benutzerrollen und Anmeldeverfahren werden passend zur gewählten Plattform und zu Ihrem Team eingerichtet. Besondere Sicherheitsanforderungen prüfen wir vorab."
     },
     {
       "title": "Laufend neue Funktionen",
-      "description": "Die Plattform wird kontinuierlich erweitert – etwa KI-Unterstützung beim Erstellen von Inhalten, Echtzeit-Dashboards mit Live-Kennzahlen und interaktive Touch-Anwendungen."
+      "description": "Wir zeigen den verfügbaren Funktionsumfang in einer Demo. Touch-Anwendungen, Datenanbindungen und weitere Erweiterungen werden je nach Plattform separat geplant."
     }
   ],
   "capabilities": {
@@ -147,11 +147,11 @@
     },
     {
       "question": "Ist die Software interaktiv und gibt es neue Funktionen?",
-      "answer": "Ja. Die Plattform wird laufend erweitert – unter anderem mit KI-Unterstützung beim Erstellen von Inhalten, Echtzeit-Dashboards und interaktiven Touch-Anwendungen für Kioske und Wegeleitsysteme."
+      "answer": "Interaktive Anwendungen, Dashboards und automatische Datenübernahmen hängen von Plattform, Player und verfügbaren Schnittstellen ab. In der Demo zeigen wir die aktuell verfügbaren Funktionen; individuelle Anwendungen werden separat geplant."
     },
     {
       "question": "Wie steht es um Sicherheit und Benutzerrechte?",
-      "answer": "Mehrere Mitarbeitende arbeiten mit eigenen Rollen und Rechten, die Anmeldung lässt sich mit Zwei-Faktor-Authentifizierung absichern und lokale Inhalte sind verschlüsselt."
+      "answer": "Wir klären Benutzerrollen, Anmeldeverfahren, Hosting und Schutz der gespeicherten Inhalte für die konkret eingesetzte Plattform. Anforderungen wie Zwei-Faktor-Anmeldung, Freigaben und Datenverarbeitung werden vor der Einrichtung geprüft und im Leistungsumfang festgehalten."
     },
     {
       "question": "Kann Meister Signage bei der Einrichtung unterstützen?",
@@ -160,6 +160,14 @@
     {
       "question": "Kann ich vorhandene Bildschirme und Touchdisplays weiterverwenden?",
       "answer": "Das prüfen wir anhand von Modell, Betriebssystem, Anschlüssen und gewünschter Anwendung. Je nach Gerät wird ein kompatibler externer Media-Player benötigt. Touchbedienung setzt zusätzlich eine unterstützte Touchschnittstelle und eine dafür gestaltete Anwendung voraus."
+    },
+    {
+      "question": "Was kostet die Software?",
+      "answer": "Bei der Spark-Miete ist die Softwarelizenz enthalten. Beim Kauf startet sie ab CHF 180 pro Jahr und Display. Individuelle Vorlagen, Schnittstellen, Touch-Anwendungen und laufende Inhaltspflege werden nach Umfang separat vereinbart. Welche Funktionen Ihre Lizenz umfasst, zeigen wir vor der Bestellung."
+    },
+    {
+      "question": "Wo werden Inhalte gespeichert?",
+      "answer": "Die Verwaltung erfolgt über eine Cloud-Plattform; geeignete Player speichern Medien zusätzlich lokal für die Wiedergabe. Hostingstandort, Datenverarbeitung und benötigte Zugriffsrechte klären wir für Ihre konkrete Plattform, bevor sensible Daten eingebunden werden."
     }
   ],
   "internalLinks": [
@@ -233,5 +241,68 @@
       }
     ]
   },
-  "updatedAt": "2026-10-07"
+  "updatedAt": "2026-10-07",
+  "comparison": {
+    "title": "Software: Was gehört dazu, was braucht zusätzliche Planung?",
+    "intro": "Die Tabelle trennt die zentrale Inhaltsverwaltung von individuellen Erweiterungen. Der verbindliche Umfang steht in Ihrer Offerte.",
+    "columns": [
+      "Leistungsumfang",
+      "Voraussetzung / Abgrenzung"
+    ],
+    "rows": [
+      {
+        "label": "Bilder, Videos und Zeitpläne",
+        "values": [
+          "Zentrale Verwaltung für die vereinbarte Display-Konfiguration",
+          "Kompatibler Player, passende Medienformate und Lizenz"
+        ]
+      },
+      {
+        "label": "Mehrere Displays",
+        "values": [
+          "Inhalte nach Gerät oder Gruppe organisieren",
+          "Lizenzierung und Zugriffsrechte je Projekt klären"
+        ]
+      },
+      {
+        "label": "Offline-Wiedergabe",
+        "values": [
+          "Lokal gespeicherte Medien auf geeignetem Player",
+          "Keine aktuellen Webinhalte oder Live-Daten ohne Verbindung"
+        ]
+      },
+      {
+        "label": "Individuelle Vorlagen und Pflege",
+        "values": [
+          "Zusatzleistung nach vereinbartem Umfang",
+          "Gestaltung, Korrekturen und Zuständigkeiten festlegen"
+        ]
+      },
+      {
+        "label": "Kalender, Kasse oder Buchungssystem",
+        "values": [
+          "Schnittstellenprüfung und gesonderte Einrichtung",
+          "Zugriff, unterstützte Funktionen und Folgekosten klären"
+        ]
+      },
+      {
+        "label": "Touch und Self-Service",
+        "values": [
+          "Passende Anwendung zusätzlich zur Touchhardware",
+          "Bedienablauf, Daten, Rückkehr zum Start und Integration planen"
+        ]
+      }
+    ],
+    "note": "Die Spark-Lizenz ist in der Miete enthalten; beim Kauf ab CHF 180 pro Jahr und Display. Zusatzleistungen sind damit nicht automatisch enthalten.",
+    "links": [
+      {
+        "label": "Kosten und Preise",
+        "href": "/was-kostet-digital-signage-schweiz/"
+      },
+      {
+        "label": "Touchscreen-Stele",
+        "href": "/loesungen/digitale-infostele/"
+      }
+    ]
+  }
 }

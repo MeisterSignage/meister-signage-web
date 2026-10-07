@@ -70,7 +70,7 @@
     },
     {
       "question": "Braucht Digital Signage zwingend ein Software-Abo?",
-      "answer": "Nein. Es gibt Modelle mit und ohne laufendes Abo. Im Mietmodell ist die Software inklusive; beim Kauf ist eine Lizenz möglich, aber kein zwingendes monatliches Abo."
+      "answer": "Digital Signage kann grundsätzlich auch lokal betrieben werden. Für die von uns angebotene Cloud-Verwaltung ist eine passende Lizenz erforderlich: in der Spark-Miete enthalten, beim Kauf ab CHF 180 pro Jahr. Jährliche Abrechnung bedeutet nicht lizenzfreie Nutzung. Welche lokale Alternative ein Gerät unterstützt, prüfen wir vorab."
     },
     {
       "question": "Was ist der Unterschied zwischen Digital Signage kaufen und mieten?",
@@ -124,5 +124,5 @@
     }
   ],
   "datePublished": "2026-05-17",
-  "dateModified": "2026-09-16"
+  "dateModified": "2026-10-07"
 }

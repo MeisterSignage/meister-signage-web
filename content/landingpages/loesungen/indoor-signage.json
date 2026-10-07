@@ -7,9 +7,18 @@
   "h1": "Indoor Signage – Digitale Displays für Innenräume",
   "intro": "Indoor Signage besteht aus digitalen Displays für Innenräume – Lobby, Ladenfläche, Empfang oder Wartebereich. Indoor Signage umfasst alle digitalen Displays, die im Innern von Gebäuden eingesetzt werden – von der Empfangstafel über das Menüboard bis zum Wegweiser in grossen Gebäuden. So wird daraus eine durchgängige digitale Indoor-Kommunikation. Meister Signage plant massgeschneiderte Indoor-Lösungen für Gastronomie, Retail, Hotellerie und Unternehmen in der Schweiz.",
   "gallery": [
-    { "src": "/images/products/Indoor-Signage-Cafe.webp", "alt": "Indoor Digital Signage in einem Café" },
-    { "src": "/images/products/Indoor-Signage-Restaurant.webp", "alt": "Indoor Digital Signage mit Speisekarte im Restaurant" },
-    { "src": "/images/products/Indoor-Signage-Fachhandel.webp", "alt": "Indoor Digital Signage in einem Fachgeschäft" }
+    {
+      "src": "/images/products/Indoor-Signage-Cafe.webp",
+      "alt": "Indoor Digital Signage in einem Café"
+    },
+    {
+      "src": "/images/products/Indoor-Signage-Restaurant.webp",
+      "alt": "Indoor Digital Signage mit Speisekarte im Restaurant"
+    },
+    {
+      "src": "/images/products/Indoor-Signage-Fachhandel.webp",
+      "alt": "Indoor Digital Signage in einem Fachgeschäft"
+    }
   ],
   "benefits": [
     {
@@ -56,7 +65,7 @@
     },
     {
       "question": "Was kostet Indoor Signage?",
-      "answer": "Die Kosten hängen von Anzahl Screens, Grösse und gewünschten Leistungen ab. Ein Einstieg ist bereits mit einem Display möglich. Wir erstellen Ihnen eine kostenlose Einschätzung."
+      "answer": "Ein Spark 3 mit 32 Zoll kostet ab CHF 1’399 für das Gerät, zuzüglich CHF 149 Standardeinrichtung und einer Softwarelizenz ab CHF 180 pro Jahr. Die Miete beginnt bei CHF 119 pro Display und Monat bei 12 Monaten Laufzeit, inklusive Standardeinrichtung, Softwarelizenz und Wandhalterung. Lieferung, Montage vor Ort und individuelle Inhalte werden separat offeriert. Es wird keine MWST verrechnet."
     }
   ],
   "internalLinks": [
@@ -133,5 +142,6 @@
         "href": "/staedte/luzern/"
       }
     ]
-  }
+  },
+  "updatedAt": "2026-10-07"
 }

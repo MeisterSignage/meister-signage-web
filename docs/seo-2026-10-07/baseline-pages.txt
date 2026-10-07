@@ -1,0 +1,182 @@
+Search Console, read 2026-10-07. Web, all countries/devices. 2026-09-07–2026-10-04 vs 2026-08-10–2026-09-06. UI chart date accessibility label erroneous; dates verified in date dialog. Raw visible table, not full CSV export.
+
+
+Total clicks
+75
+Last 28 days
+76
+Previous 28 days
+
+
+Total impressions
+5.8K
+Last 28 days
+7.97K
+Previous 28 days
+
+Average CTR
+1.3%
+Last 28 days
+1%
+Previous 28 days
+
+
+Average position
+14.8
+Last 28 days
+20.1
+Previous 28 days
+
+Daily
+5
+10
+15
+20
+25
+9
+6
+3
+0
+450
+300
+150
+0
+Chart, containing counts of Last 28 days Clicks, Previous 28 days Clicks, Last 28 days Impressions, Previous 28 days Impressions, Last 28 days CTR, Previous 28 days CTR, Last 28 days Position, and Previous 28 days Position from Invalid Date to January 1, 1970
+info
+Get more details on your site’s performance in generative AI features on Google Search
+Open report
+chevron_forward
+QUERIES
+PAGES
+COUNTRIES
+DEVICES
+SEARCH APPEARANCE
+DAYS
+
+Top pages
+	
+Clicks
+Last 28 days
+	
+Clicks
+Previous 28 days
+	
+Clicks
+Difference
+	
+Impressions
+Last 28 days
+	
+Impressions
+Previous 28 days
+	
+Impressions
+Difference
+	
+Position
+Last 28 days
+	
+Position
+Previous 28 days
+	
+Position
+Difference
+
+https://www.meister-signage.ch/digital-signage-mieten/	14	7	7	652	856	-204	10	11.2	-1.1
+https://www.meister-signage.ch/	12	22	-10	490	589	-99	7.3	6.9	0.5
+https://www.meister-signage.ch/loesungen/transparentes-display/	6	5	1	140	165	-25	11.4	15.3	-3.9
+https://www.meister-signage.ch/loesungen/led-walls/	5	3	2	208	260	-52	14.8	22.1	-7.3
+https://www.meister-signage.ch/loesungen/digitale-menueboards/	5	4	1	61	78	-17	8.9	13.3	-4.4
+https://www.meister-signage.ch/loesungen/digitale-schaufensterwerbung/	4	3	1	200	368	-168	15.8	19.5	-3.7
+https://www.meister-signage.ch/staedte/zuerich/	3	0	3	126	200	-74	28.5	32	-3.4
+https://www.meister-signage.ch/loesungen/high-brightness-display/	3	0	3	89	186	-97	8.6	15.3	-6.8
+https://www.meister-signage.ch/wissen/was-ist-digital-signage/	2	2	0	1,108	964	144	11.4	22	-10.6
+https://www.meister-signage.ch/loesungen/digitale-infostele/	2	0	2	246	335	-89	19.9	17.7	2.2
+https://www.meister-signage.ch/loesungen/digitaler-empfang/
+Copy URL to clipboard
+Open in new tab
+Inspect URL
+	2
+	0
+	2
+	184
+	375
+	-191
+	19
+	23.9
+	-4.8
+
+https://www.meister-signage.ch/loesungen/interaktive-terminals-kiosks/	2	2	0	120	196	-76	12	12.2	-0.2
+https://www.meister-signage.ch/branchen/gastronomie/	2	3	-1	107	203	-96	11.7	8.5	3.2
+https://www.meister-signage.ch/loesungen/stretched-display/	2	1	1	96	40	56	10.1	9	1.1
+https://www.meister-signage.ch/loesungen/mobile-displays/	2	5	-3	95	96	-1	11.2	22.1	-10.9
+https://www.meister-signage.ch/ueber-uns/	2	0	2	35	44	-9	5	9.7	-4.7
+https://www.meister-signage.ch/wissen/digital-signage-groesse-waehlen/	2	1	1	12	4	8	4.5	4	0.5
+https://www.meister-signage.ch/staedte/bern/	1	0	1	247	457	-210	33.5	40	-6.5
+https://www.meister-signage.ch/was-kostet-digital-signage-schweiz/	1	3	-2	170	349	-179	13.7	16.5	-2.7
+https://www.meister-signage.ch/digital-signage-anbieter-vergleich/	1	0	1	123	192	-69	12.9	20	-7
+https://www.meister-signage.ch/branchen/gesundheit/	1	1	0	121	127	-6	14.1	16.2	-2.1
+https://www.meister-signage.ch/loesungen/digitale-leitsysteme/	1	0	1	119	131	-12	9.9	17.9	-7.9
+https://www.meister-signage.ch/branchen/hotellerie/	1	1	0	52	132	-80	20.8	26.6	-5.9
+https://www.meister-signage.ch/digital-signage-schweiz/	0	0	0	208	323	-115	21.5	32.3	-10.8
+https://www.meister-signage.ch/loesungen/displays/	0	0	0	203	282	-79	20.9	24.6	-3.7
+https://www.meister-signage.ch/staedte/basel/	0	1	-1	152	254	-102	34	44.1	-10.1
+https://www.meister-signage.ch/loesungen/software/	0	0	0	126	214	-88	12.9	20.3	-7.3
+https://www.meister-signage.ch/loesungen/digitale-raumbeschilderung/	0	2	-2	113	92	21	15.2	15.1	0.1
+https://www.meister-signage.ch/staedte/luzern/	0	0	0	89	256	-167	35.1	37.2	-2.1
+https://www.meister-signage.ch/news/digital-signage-kmu/	0	3	-3	65	129	-64	15.4	13.3	2.1
+https://www.meister-signage.ch/branchen/events/	0	1	-1	55	149	-94	26.8	27.1	-0.4
+https://www.meister-signage.ch/digital-signage-kaufen/	0	0	0	45	55	-10	15.8	33.3	-17.4
+https://www.meister-signage.ch/staedte/zug/	0	1	-1	43	92	-49	12	4.5	7.6
+https://www.meister-signage.ch/kontakt/	0	0	0	39	58	-19	7.6	9.4	-1.8
+https://www.meister-signage.ch/loesungen/	0	0	0	39	38	1	22.7	40.9	-18.2
+https://www.meister-signage.ch/digital-signage-wie-red-bull/	0	0	0	31	26	5	7.8	14.5	-6.7
+https://www.meister-signage.ch/wissen/	0	0	0	30	51	-21	26.4	22.8	3.6
+https://www.meister-signage.ch/branchen/unternehmen/	0	0	0	27	94	-67	48.6	39.4	9.2
+https://www.meister-signage.ch/news/	0	0	0	26	36	-10	50.3	43.6	6.7
+https://www.meister-signage.ch/news/sparkq-quadratisches-display/	0	0	0	25	32	-7	8.2	7.5	0.8
+https://www.meister-signage.ch/news/spark3-kompaktes-display/	0	1	-1	22	15	7	6.6	6	0.6
+https://www.meister-signage.ch/loesungen/doppelseitige-displays/	0	1	-1	20	38	-18	7	17.3	-10.4
+https://www.meister-signage.ch/branchen/retail/	0	0	0	20	72	-52	20.9	28.9	-8
+https://www.meister-signage.ch/wissen/digital-signage-nachhaltigkeit/	0	0	0	17	58	-41	8.7	13	-4.3
+https://www.meister-signage.ch/loesungen/event-displays/	0	0	0	17	23	-6	11.2	13	-1.8
+https://www.meister-signage.ch/news/digital-signage-gastronomie-2025/	0	0	0	10	4	6	8.5	4	4.5
+https://www.meister-signage.ch/wissen/digitale-kundenstopper/	0	0	0	9	7	2	7.2	6.3	0.9
+https://www.meister-signage.ch/branchen/	0	0	0	9	11	-2	22.2	31.3	-9.1
+https://www.meister-signage.ch/loesungen/digitale-kundenstopper/	0	1	-1	8	20	-12	4.9	7.5	-2.6
+https://www.meister-signage.ch/wissen/digital-signage-vorteile-nachteile/	0	0	0	6	4	2	4.3	3	1.3
+https://www.meister-signage.ch/wissen/digital-signage-software/	0	0	0	6	2	4	7	3	4
+https://www.meister-signage.ch/news/spark4-vielseitiger-bestseller/	0	0	0	6	1	5	15	9	6
+https://www.meister-signage.ch/news/digital-signage-events-tipps/	0	0	0	5	4	1	21.6	15.8	5.9
+https://www.meister-signage.ch/loesungen/digitales-werbedisplay/	0	0	0	4	3	1	11.3	5.7	5.6
+https://www.meister-signage.ch/news/digitales-menueboard-vorteile/	0	0	0	4	0	4	16.3	0	16.3
+https://www.meister-signage.ch/news/digital-signage-retail/	0	0	0	3	6	-3	16	8.5	7.5
+https://www.meister-signage.ch/news/digital-signage-trends-2026/	0	1	-1	2	2	0	5	1.5	3.5
+https://www.meister-signage.ch/wissen/digital-signage-mieten-oder-kaufen/	0	0	0	2	0	2	5.5	0	5.5
+https://www.meister-signage.ch/wissen/outdoor-displays/	0	0	0	2	1	1	6.5	5	1.5
+https://www.meister-signage.ch/news/digital-signage-kosten-schweiz/	0	0	0	2	7	-5	7.5	23.6	-16.1
+https://www.meister-signage.ch/loesungen/interaktive-terminals-kiosks	0	0	0	1	0	1	1	0	1
+https://www.meister-signage.ch/loesungen/indoor-signage/	0	0	0	1	7	-6	3	17.1	-14.1
+https://www.meister-signage.ch/news/digital-signage-gastronomie-2026/	0	0	0	1	1	0	5	9	-4
+https://www.meister-signage.ch/redaktionelle-richtlinien/	0	0	0	1	3	-2	5	25	-20
+https://www.meister-signage.ch/news/digital-signage-hotellerie/	0	1	-1	1	11	-10	10	4.8	5.2
+https://www.meister-signage.ch/news/was-ist-digital-signage/	0	0	0	0	43	-43	0	5.6	-5.6
+https://www.meister-signage.ch/versand-und-rueckgabe/	0	0	0	0	3	-3	0	4.7	-4.7
+https://www.meister-signage.ch/wissen/digitale-leitsysteme/	0	0	0	0	3	-3	0	6.7	-6.7
+https://www.meister-signage.ch/loesungen/event-displays	0	0	0	0	3	-3	0	8.3	-8.3
+https://www.meister-signage.ch/wissen/digitale-menueboards/	0	0	0	0	2	-2	0	2.5	-2.5
+https://www.meister-signage.ch/loesungen/digitale-menueboards	0	0	0	0	1	-1	0	1	-1
+https://www.meister-signage.ch/news/digital-signage-mieten-oder-kaufen/	0	0	0	0	1	-1	0	5	-5
+https://www.meister-signage.ch/news/spark-sortiment-vergleich/	0	0	0	0	1	-1	0	5	-5
+https://www.meister-signage.ch/staedte/solothurn/	0	0	0	0	1	-1	0	7	-7
+Rows per page:
+5
+10
+25
+50
+100
+250
+500
+1-74 of 74
+Previous page
+Next page

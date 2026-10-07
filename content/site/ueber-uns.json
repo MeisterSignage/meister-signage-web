@@ -46,22 +46,22 @@
   },
   "arbeitsweise": {
     "eyebrow": "Unsere Arbeitsweise",
-    "title": "Was Meister Signage von anonymen Anbietern unterscheidet.",
-    "subtitle": "Digital Signage gibt es viele. Was selten ist: ein Anbieter, der zuhört, verständlich erklärt und eine Lösung liefert, die wirklich zum Betrieb passt.",
-    "problemsLabel": "Wie es oft läuft",
+    "title": "Was wir vor der Umsetzung gemeinsam klären.",
+    "subtitle": "Ein gutes Ergebnis beginnt mit klaren Anforderungen, einem nachvollziehbaren Angebot und vereinbarten Zuständigkeiten.",
+    "problemsLabel": "Typische Planungsfragen",
     "solutionsLabel": "Wie Meister Signage arbeitet",
     "problems": [
       {
-        "title": "Standardlösungen ohne Rücksicht auf den Alltag",
-        "description": "Viele Anbieter liefern fertige Pakete – unabhängig davon, ob sie zum Betrieb, zur Branche oder zum Team passen."
+        "title": "Welche Lösung passt zum Alltag?",
+        "description": "Einsatzort, Inhalte, Licht und Bedienung bestimmen, welches Display sinnvoll ist."
       },
       {
-        "title": "Beratung endet nach der Unterschrift",
-        "description": "Nach dem Kauf gibt es ein Handbuch und eine Hotline. Persönliche Unterstützung und echtes Interesse am laufenden Betrieb fehlen."
+        "title": "Wer betreut die Lösung?",
+        "description": "Inhaltspflege, Rückmeldungen und technische Unterstützung brauchen klare Zuständigkeiten."
       },
       {
-        "title": "Technische Komplexität wird nicht erklärt",
-        "description": "Fachchinesisch, unverständliche Angebote und fehlende Transparenz machen die Zusammenarbeit unnötig schwierig."
+        "title": "Welche Leistungen sind enthalten?",
+        "description": "Hardware, Software, Montage und laufende Betreuung werden im Angebot nachvollziehbar getrennt."
       }
     ],
     "solutions": [

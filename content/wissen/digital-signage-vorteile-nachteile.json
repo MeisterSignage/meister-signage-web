@@ -19,7 +19,7 @@
     },
     {
       "title": "Vorteil: Bewegtbild zieht Blicke an",
-      "description": "Studien zeigen: bewegte Inhalte werden bis zu 4-mal stärker wahrgenommen als statische Plakate. Wichtig im Schaufenster, am Eingang, am POS."
+      "description": "Bewegte Bilder können Aufmerksamkeit auf ein Angebot lenken. Ob das am Standort wirkt, hängt von Gestaltung, Platzierung und Publikum ab; einen pauschalen Wirkungsfaktor versprechen wir nicht."
     },
     {
       "title": "Vorteil: Mehrere Botschaften parallel",
@@ -55,11 +55,11 @@
     },
     {
       "question": "Wie lange hält ein Digital-Signage-Display?",
-      "answer": "Professionelle Digital-Signage-Displays sind für 24/7-Dauerbetrieb spezifiziert und halten bei normaler Nutzung 5–7 Jahre. Consumer-Fernseher sind nicht für Dauerbetrieb gemacht und sterben oft innerhalb des ersten Jahres – darum bitte keine TV-Geräte als Ersatz nutzen."
+      "answer": "Lebensdauer und zulässige Betriebsdauer hängen vom Modell und den Einsatzbedingungen ab. Prüfen Sie Dauerbetriebsfreigabe und Garantiebedingungen. Aus der Geräteklasse allein lässt sich kein Ausfallzeitpunkt für einen Fernseher oder ein Signage-Display ableiten."
     },
     {
       "question": "Was passiert bei Stromausfall oder Internet-Ausfall?",
-      "answer": "Bei Stromausfall bleibt das Display dunkel – wie ein Computer. Bei Internet-Ausfall spielt das Display die zuletzt geladenen Inhalte weiter ab; Aktualisierungen sind erst nach Wiederherstellung möglich. Für kritische Anwendungen empfehlen wir USV (unterbrechungsfreie Stromversorgung) und Backup-Konnektivität via 4G LTE."
+      "answer": "Ohne Strom bleibt das Display dunkel, sofern keine geeignete Ersatzversorgung vorhanden ist. Lokal gespeicherte Bilder und Videos können bei einem Internetausfall auf einem entsprechend eingerichteten Player weiterlaufen. Live-Daten, Webseiten und neue Inhalte benötigen eine Verbindung."
     },
     {
       "question": "Muss ich IT-Kenntnisse haben, um Digital Signage zu betreiben?",
@@ -67,11 +67,11 @@
     },
     {
       "question": "Ist Digital Signage umweltfreundlicher als gedruckte Plakate?",
-      "answer": "Auf längere Sicht ja. Ein Display ersetzt über die Lebensdauer hunderte gedruckter Plakate, spart Druckfarbe, Papier, Versand und Plotterzeit. Energieverbrauch im Standby beträgt nur 0.8 W – im Betrieb 36–81 W je nach Grösse. Über mehrere Jahre meist deutlich umweltfreundlicher als laufender Plakatdruck."
+      "answer": "Das lässt sich nicht pauschal beantworten. Herstellung, Nutzung, Strom und Entsorgung des Displays müssen mit den tatsächlich vermiedenen Druckprodukten verglichen werden. Details und nachvollziehbare Strombeispiele finden Sie in unserem Nachhaltigkeitsratgeber."
     },
     {
       "question": "Wie schnell rechnet sich die Investition?",
-      "answer": "Hängt vom Einsatz ab. In der Gastronomie typisch 12–24 Monate durch eingesparte Druckkosten und Mehrumsatz dank aktuellerer Inhalte. Im Empfangsbereich rechnet sich der Mehrwert eher über professionellen Auftritt und Effizienz, schwieriger in CHF zu quantifizieren."
+      "answer": "Vergleichen Sie Anschaffung, Einrichtung, Lizenz, Strom und Inhaltspflege mit tatsächlich eingesparten Kosten. Zusätzlicher Umsatz ist ohne Messung keine sichere Rechengrösse. Ein Vergleich über mehrere Jahre hilft bei der Entscheidung, ersetzt aber keine projektspezifische Kalkulation."
     }
   ],
   "internalLinks": [
@@ -104,5 +104,6 @@
       "href": "/digital-signage-mieten/"
     }
   ],
-  "datePublished": "2026-05-27"
+  "datePublished": "2026-05-27",
+  "dateModified": "2026-10-07"
 }

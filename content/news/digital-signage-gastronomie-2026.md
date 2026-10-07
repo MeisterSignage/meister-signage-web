@@ -6,6 +6,7 @@ date: "2026-05-08"
 category: "Gastronomie"
 image: "/images/products/Spark3-Design.webp"
 slug: "digital-signage-gastronomie-2026"
+dateModified: "2026-10-07"
 status: published
 carousel:
   hook: "Drucken Sie Ihre Speisekarte noch jede Woche neu?"
@@ -25,7 +26,7 @@ Vor fünf Jahren war ein digitales Menüboard in einem Schweizer Restaurant eine
 
 Drei Entwicklungen treffen aufeinander:
 
-**1. Steigende Druck- und Personalkosten.** Eine gedruckte Speisekarte kostet pro Neudruck 50–200 CHF. Bei zweimaliger saisonaler Anpassung pro Jahr sind das schnell 500 CHF – ohne den Aufwand für Aushänge, Tagesmenüs und Aktionen mit­zurechnen.
+**1. Steigende Druck- und Personalkosten.** Rechenbeispiel: Ein Betrieb kalkuliert CHF 50–200 pro Neudruck seiner Speisekarten. Bei angenommenen zwei Neudrucken pro Jahr wären das CHF 100–400 – ohne den Aufwand für Aushänge, Tagesmenüs und Aktionen mit­zurechnen.
 
 **2. Erwartung der Gäste verändert sich.** Wer im Stadtzentrum durch sechs Restaurants vor­bei­läuft, vergleicht nicht nur das Essen, sondern auch den ersten Eindruck. Ein hand­geschriebener Aushang neben einer hoch­wertigen digitalen Anzeige fällt zurück.
 
@@ -37,7 +38,7 @@ Nicht jeder Bildschirm eignet sich als Menüboard im Dauer­einsatz. Diese fünf
 
 | Anforderung | Warum es zählt |
 |---|---|
-| **24/7-Dauer­betrieb spezifiziert** | Consumer-TVs sterben bei 12h-Dauerlast oft innert eines Jahres |
+| **24/7-Dauer­betrieb spezifiziert** | Betriebsfreigabe und Garantie müssen zum geplanten Einsatz passen |
 | **Mind. 450 nits Helligkeit** | Auch bei Tageslicht und in hellen Lokalen klar lesbar |
 | **Integrierter Media Player** | Kein externes Stick-Gerät, weniger Komponenten, weniger Stör­quellen |
 | **Cloud-Steuerung** | Tagesmenü vom Smartphone aktualisieren – auch ausser Haus |
@@ -51,7 +52,7 @@ Aus über hundert betreuten Gastro-Projekten kristallisieren sich klare Empfehlu
 
 **Restaurants mit Lunch-Geschäft:** [Spark 4 mit 43 Zoll und 4K](/digital-signage-kaufen/) – der Bestseller. Gross genug, um aus dem ganzen Lokal lesbar zu sein, kompakt genug für die meisten Wände.
 
-**Take-Away und Schaufenster:** [Spark 5 mit 50 Zoll](/news/spark5-neues-modell/) – auch von der Strasse sichtbar, mit 450 nits Helligkeit auch bei Tageslicht.
+**Take-Away und Schaufenster:** [Spark 5 mit 50 Zoll](/news/spark5-neues-modell/) – auch von der Strasse sichtbar, mit 450 nits für geeignete lichtgeschützte Standorte; direkte Sonne erfordert eine gesonderte Displayauswahl.
 
 Eine ausführliche Anleitung zur Grössen­wahl haben wir im Ratgeber [Digital Signage Grösse wählen](/wissen/digital-signage-groesse-waehlen/) zusammengestellt.
 
@@ -73,3 +74,8 @@ Wer wissen will, was eine Lösung für den eigenen Betrieb kostet, schickt am be
 - Spezial­lösung für Menüboards: [Digitale Menüboards](/loesungen/digitale-menueboards/)
 - Vergleich mit Schweizer Mitbewerbern: [Anbieter im Vergleich](/digital-signage-anbieter-vergleich/)
 - Direkter Kontakt: [Beratung anfragen](/kontakt/)
+
+
+## Standortprüfung fürs Schaufenster
+
+Spark-Displays mit 450 nits eignen sich nicht pauschal für sonnige Schaufenster. Für direkte Sonne oder starke Reflexionen prüfen wir ein [High-Brightness-Display](/loesungen/high-brightness-display/) sowie die Temperatur und Belüftung hinter Glas. Die Auswahl erfolgt anhand des konkreten Standorts.

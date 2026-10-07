@@ -90,6 +90,10 @@
     {
       "label": "Digital Signage & Nachhaltigkeit",
       "href": "/wissen/digital-signage-nachhaltigkeit/"
+    },
+    {
+      "label": "Gemeindehaus: ein Projekt aus der Praxis",
+      "href": "/news/gemeindehaus-besucherinformation/"
     }
   ],
   "cta": {
@@ -132,5 +136,6 @@
         "href": "/staedte/zuerich/"
       }
     ]
-  }
+  },
+  "updatedAt": "2026-10-07"
 }

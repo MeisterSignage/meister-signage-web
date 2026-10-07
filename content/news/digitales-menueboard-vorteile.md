@@ -6,6 +6,7 @@ date: "2026-07-07T06:00:00+02:00"
 category: "Gastronomie"
 image: "/images/products/Restaurant-Meister-Signage.webp"
 slug: "digitales-menueboard-vorteile"
+dateModified: "2026-10-07"
 status: published
 carousel:
   hook: "Digitales Menüboard – und trotzdem keine Wirkung?"
@@ -25,7 +26,7 @@ Ein digitales Menüboard kann ein gedrucktes Pendant in jedem Punkt schlagen –
 
 ## Fehler 1: Display zu klein für den Betrachtungs­abstand
 
-Der häufigste Fehler. Ein 32-Zoll-Display hinter einer 5 m langen Theke wirkt verloren. Die Faust­regel: **Bildschirm-Diagonale ≈ Betrachtungs­abstand × 0.2**.
+Der häufigste Fehler. Ein 32-Zoll-Display hinter einer 5 m langen Theke wirkt verloren. Entscheidend sind Schriftgrösse, Inhalt und Sichtabstand. Testen Sie ein Musterlayout am Standort statt einer pauschalen Distanzformel.
 
 | Theke / Lokal | Empfohlene Grösse |
 |---|---|
@@ -65,7 +66,7 @@ Einmal eingerichtet, läuft das jeden Tag automatisch. Mehr zur Cloud-Steuerung:
 
 Ein Display mit 250 nits (Standard für Consumer-TVs) wirkt im hellen Café tagsüber ausgewaschen. Für die Gastro­nomie empfehlen wir **mindestens 450 nits** – das ist Standard bei der Spark-Reihe. Bei Schaufenster-Einsatz mit direktem Sonnen­licht reicht auch das nicht; dort braucht es High-Brightness-Modelle ab 700 nits, die wir auf Anfrage konfigurieren.
 
-Wer Consumer-TVs als Menüboard nutzt, läuft zudem in das zweite Problem: keine 24/7-Spezifikation. Diese Geräte sterben bei 12-Stunden-Tagesbetrieb oft innerhalb des ersten Jahres. Eine ausführliche Pro/Contra-Analyse: [Digital Signage Vor- und Nachteile](/wissen/digital-signage-vorteile-nachteile/).
+Wer Consumer-TVs als Menüboard nutzt, läuft zudem in das zweite Problem: keine 24/7-Spezifikation. Betriebsfreigabe und Garantiebedingungen müssen für das jeweilige Gerät geprüft werden. Eine ausführliche Pro/Contra-Analyse: [Digital Signage Vor- und Nachteile](/wissen/digital-signage-vorteile-nachteile/).
 
 ## Bonus: Inhaltspflege nicht delegieren
 

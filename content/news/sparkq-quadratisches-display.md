@@ -6,6 +6,7 @@ date: "2026-08-04T06:00:00+02:00"
 category: "Produkte"
 image: "/images/products/SparkQ-Design.webp"
 slug: "sparkq-quadratisches-display"
+dateModified: "2026-10-07"
 status: published
 carousel:
   hook: "Standard-Bildschirm im Querformat – schon wieder?"
@@ -75,7 +76,7 @@ Für klassische Menüboards, Schaufenster oder Informations­displays sind die r
 
 ## Wireless installiert in Minuten
 
-Wie alle Spark-Modelle ist der Spark Q+ vollständig kabellos – Daten kommen über WiFi6, Strom über ein externes 120-W-Netzteil mit 24-V-DC-Zuleitung zum Display. Das ermöglicht Installationen auch dort, wo keine 230-V-Steckdose direkt am Wandplatz vorhanden ist. Weitere Details im [Anbieter-Vergleich](/digital-signage-anbieter-vergleich/).
+Wie alle Spark-Modelle ist der Spark Q+ bei der Datenübertragung kabellos – Inhalte kommen über WiFi6, Strom über ein externes 120-W-Netzteil mit 24-V-DC-Zuleitung zum Display. Das ermöglicht Installationen auch dort, wo keine 230-V-Steckdose direkt am Wandplatz vorhanden ist. Weitere Details im [Anbieter-Vergleich](/digital-signage-anbieter-vergleich/).
 
 ## Preise
 
