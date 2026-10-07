@@ -1,11 +1,11 @@
 {
   "slug": "digitale-schaufensterwerbung",
   "type": "loesungen",
-  "seoTitle": "Schaufensterwerbung & Schaufenster-Display | Meister Signage",
-  "seoDescription": "Digitale Schaufensterwerbung: Spark 5 ab CHF 139 pro Display/Monat bei 12 Monaten Laufzeit inklusive Einrichtung, Lizenz und Wandhalterung. Beratung schweizweit.",
+  "seoTitle": "Digitale Schaufensterwerbung & Displays | Meister Signage",
+  "seoDescription": "Schaufenster-Display passend zu Sonne, Glas und Sichtabstand auswählen. Indoor und High Brightness vergleichen, Kosten für Kauf und Miete klären. Schweizweit.",
   "eyebrow": "Lösung · Schaufensterwerbung",
   "h1": "Digitale Schaufensterwerbung mit dem richtigen Schaufenster-Display.",
-  "intro": "Digitale Schaufensterwerbung zeigt Aktionen, Produkte und Angebote auf einem Werbemonitor hinter Glas – auch nach Ladenschluss, wenn Sie es im Zeitplan vorsehen. Inhalte lassen sich zentral ändern und für einzelne Filialen planen. Welches Schaufenster-Display passt, hängt von Sonneneinstrahlung, Spiegelungen, Sichtabstand und Wärmeentwicklung ab. Wir prüfen den Standort und wählen dafür ein Indoor- oder spezielles High-Brightness-Modell.",
+  "intro": "Digitale Schaufensterwerbung zeigt Angebote, Produkte und Informationen auf einem Bildschirm hinter Glas. Ein Schaufenster-Display oder Werbemonitor lässt sich mit passender Software zentral aktualisieren und nach Öffnungszeiten oder Aktionen steuern. Entscheidend sind Lesbarkeit von der Strasse, direkte Sonne, Spiegelungen und Wärme hinter der Scheibe. Wir wählen Display, Montage und Inhaltspflege passend zu Ihrem Geschäft in der Schweiz aus.",
   "heroImage": "/images/products/Schuhladen-Meister-Signage.webp",
   "gallery": [
     {
@@ -23,82 +23,74 @@
   ],
   "benefits": [
     {
-      "title": "Werbung auch nach Ladenschluss",
-      "description": "Während gedruckte Plakate im dunklen Schaufenster verschwinden, leuchtet das digitale Schaufensterdisplay weiter – auch abends, nachts und an Sonntagen, wenn Passanten besonders viel Zeit haben hinzuschauen."
+      "title": "Lesbarkeit vom Gehweg aus",
+      "description": "Wir betrachten das Schaufenster aus der Perspektive Ihrer Kundschaft: bei typischen Lichtverhältnissen, aus dem tatsächlichen Abstand und auch schräg im Vorbeigehen. Danach werden Helligkeit, Schriftgrösse und Ausrichtung festgelegt."
     },
     {
-      "title": "Helligkeit passend zum Schaufenster",
-      "description": "Spark-Displays mit 450 nits kommen für geeignete, lichtgeschützte Standorte infrage. Bei heller Umgebung oder direkter Sonne prüfen wir ein High-Brightness-Display und dessen thermische Eignung hinter Glas."
+      "title": "Aktionen ohne neuen Plakatdruck",
+      "description": "Angebote, Preise und Bilder lassen sich im vereinbarten CMS ändern. Eine verantwortliche Person prüft die Inhalte; Zeitpläne sorgen dafür, dass abgelaufene Aktionen nicht weiter angezeigt werden."
     },
     {
-      "title": "Aktionen sofort kommunizieren",
-      "description": "Neue Kollektion, Rabattaktion, Sale-Wochenende – über die Cloud-Steuerung in Minuten geändert. Kein Plakatdruck, keine Wartezeit, keine veralteten Angebote im Schaufenster."
+      "title": "Indoor oder High Brightness passend auswählen",
+      "description": "Spark mit 450 nits kommt für geeignete, lichtgeschützte Bereiche infrage. Helle Schaufenster und direkte Sonne benötigen eine separate Modellprüfung, die auch Temperaturbereich und Belüftung berücksichtigt."
     },
     {
-      "title": "Bewegtbild zieht Blicke an",
-      "description": "Bilder, kurze Videos und wechselnde Angebote können Aufmerksamkeit auf Ihr Sortiment lenken. Eine klare Botschaft und gut lesbare Schrift helfen Passanten, das Angebot beim Vorbeigehen zu erfassen."
+      "title": "Inhalte passend zur Tageszeit",
+      "description": "Planen Sie Tagesangebote, Öffnungszeiten und Kampagnen nach Ihrem Betrieb. Anzeigezeiten, Nachtbetrieb und gegebenenfalls Helligkeitsregelung werden auf Standort, Gerät und geltende Vorgaben abgestimmt."
     },
     {
-      "title": "Zeitgesteuerte Werbung",
-      "description": "Morgens Frühstücksaktion, mittags Lunch-Special, abends Bar-Promo, am Wochenende Markenkampagne – die richtige Botschaft zur richtigen Tageszeit, ohne manuellen Aufwand."
+      "title": "Montage und Verkabelung mitplanen",
+      "description": "Wand- oder Deckenhalterung und Standfuss werden nach Gewicht, Befestigungsmöglichkeiten und Sichtachse ausgewählt. Stromversorgung, Netzteil und notwendige Lüftungsabstände gehören zur Planung."
     },
     {
-      "title": "Werbemonitor statt gedrucktem Plakat",
-      "description": "Ein digitaler Werbemonitor im Schaufenster ersetzt Plakate, Klebefolien und Aufsteller – eine Fläche für alle Botschaften, jederzeit ohne Druckkosten aktualisierbar."
-    },
-    {
-      "title": "Schlüsselfertig installiert",
-      "description": "Display, Cloud-Software, Aufhängung oder Standfuss, Inbetriebnahme und Schulung – aus einer Hand und mit transparentem Festpreis statt Beratungsprojekt."
-    },
-    {
-      "title": "Android-Steuerung, indoor & outdoor",
-      "description": "Der Bildschirm bringt einen Android-Media-Player mit und wird zentral über die Cloud gesteuert. Für den offenen Aussenbereich gibt es wetterfeste Outdoor-Varianten mit noch höherer Helligkeit."
+      "title": "Einzelgeschäft oder mehrere Filialen",
+      "description": "Mit einer geeigneten Cloud-Verwaltung lassen sich gemeinsame Kampagnen und lokale Angebote kombinieren. Softwarelizenz, Nutzerrechte, Schulung und Betreuung werden im Angebot ausgewiesen."
     }
   ],
   "faq": [
     {
-      "question": "Was ist ein Schaufenster-Display bzw. Werbemonitor?",
-      "answer": "Ein Schaufenster-Display ist ein Bildschirm, der Aktionen, Produkte und Kampagnen nach aussen zeigt. Für eine geeignete Lösung werden Helligkeit, Betriebsdauer und Wärmeentwicklung am konkreten Standort geprüft."
+      "question": "Was ist digitale Schaufensterwerbung?",
+      "answer": "Digitale Schaufensterwerbung nutzt einen Bildschirm hinter Glas, um Produkte, Angebote oder Informationen nach aussen zu zeigen. Die Begriffe Schaufenster-Display, Werbemonitor und digitale Schaufensterkommunikation beschreiben diesen Einsatz. Mit passender Software werden Inhalte aktualisiert und nach Zeitplan ausgespielt."
     },
     {
-      "question": "Was bedeutet digitale Schaufensterkommunikation?",
-      "answer": "Digitale Schaufensterkommunikation – auch Schaufenster-Kommunikation genannt – heisst: Sie bespielen Ihr Schaufenster mit bewegten, jederzeit aktualisierbaren Inhalten statt mit statischen Plakaten. Ein oder mehrere Schaufenster-Displays werden zentral gesteuert, zeitlich geplant und gemeinsam als Werbefläche genutzt."
+      "question": "Wie hell muss ein Schaufenster-Display sein?",
+      "answer": "Es gibt keinen Helligkeitswert, der für jedes Schaufenster passt. Entscheidend sind Umgebungslicht, Reflexionen, direkte Sonne und Inhalt. Spark mit 450 nits kommt nur für geeignete, lichtgeschützte Standorte infrage. Für hellere Bedingungen prüfen wir ein High-Brightness-Modell. Dauerhelligkeit und Spitzenhelligkeit dürfen beim Gerätevergleich nicht gleichgesetzt werden."
     },
     {
-      "question": "Eignet sich jedes Display für die Schaufensterwerbung?",
-      "answer": "Nein. Helligkeit allein reicht als Auswahlkriterium nicht aus. Auch Spiegelungen, direkte Sonne, Wärme hinter Glas, zulässige Betriebsdauer und Montage müssen zum Gerät passen. Eine allgemeine Mindesthelligkeit garantiert keine Lesbarkeit an jedem Standort."
+      "question": "Funktioniert ein Werbemonitor bei direkter Sonne hinter Glas?",
+      "answer": "Dafür muss das konkrete Modell geeignet sein. Neben der Lesbarkeit zählen die zulässige Betriebstemperatur, Sonneneinwirkung und Belüftung. Hohe Helligkeit allein löst Wärmestau hinter Glas nicht. Wir prüfen deshalb Ausrichtung, Beschattung und Montagebedingungen, bevor wir ein Gerät empfehlen."
     },
     {
-      "question": "Funktioniert das auch bei direktem Sonnenlicht?",
-      "answer": "Für direkte Sonne ist eine gesonderte Standortprüfung nötig. Wir stimmen Helligkeit, Temperaturbereich, Belüftung und Glasreflexionen auf ein dafür geeignetes Modell ab. Ein Standarddisplay mit 450 nits ist keine pauschale Lösung für sonnige Schaufenster."
+      "question": "Welche Bildschirmgrösse und welches Format passen ins Schaufenster?",
+      "answer": "Massgebend sind die verfügbare Fläche, der Sichtabstand und die Grösse der dargestellten Informationen. Hochformat eignet sich beispielsweise für eine einzelne Produktbotschaft; Querformat kann zu breiteren Flächen passen. Testen Sie Schrift und Preisangaben aus der tatsächlichen Entfernung. Die gewünschte Ausrichtung muss für das Display und die Halterung freigegeben sein."
     },
     {
-      "question": "Wie wird das Display im Schaufenster montiert?",
-      "answer": "Je nach Situation hängend mit Deckenhalterung, frei stehend auf einem Standfuss oder fest verschraubt an der Schaufensterwand. Wir prüfen den Standort und empfehlen die passende Montage."
+      "question": "Wie wird ein Schaufenster-Display montiert?",
+      "answer": "Möglich sind je nach Gerät eine Wand- oder Deckenhalterung sowie ein geeigneter Standfuss. Wir prüfen Tragfähigkeit, Gewicht, Sichtachse, Kabelwege und die vom Hersteller geforderten Abstände. Eine Wandhalterung im Mietpaket bedeutet nicht, dass jede Deckenmontage oder die Montage vor Ort im Preis enthalten ist."
     },
     {
-      "question": "Kann das Display die ganze Nacht laufen?",
-      "answer": "Ja, alle unsere Spark-Displays sind für 24/7-Dauerbetrieb spezifiziert. Bei nur 0.8 W im Standby können Inhalte auch nachts unterbrochen werden – günstig und energieeffizient."
+      "question": "Braucht der Bildschirm WLAN und einen Stromanschluss?",
+      "answer": "Bei Spark werden neue Inhalte über WLAN übertragen; das externe Netzteil benötigt einen passenden Stromanschluss. Zum Display führt eine 24-V-Leitung. Spark hat keinen HDMI- oder LAN-Eingang. Anschlüsse und Netzwerkoptionen anderer Modelle werden separat geprüft. Ob Inhalte ohne Internet weiterlaufen, hängt vom gewählten Player und der Software ab."
     },
     {
-      "question": "Wie sieht die Verkabelung im Schaufenster aus?",
-      "answer": "Datenverbindung läuft per WiFi – keine sichtbaren HDMI- oder Ethernet-Kabel. Strom kommt über ein externes Netzteil, das versteckt platziert werden kann. Zum Display führt nur eine dünne Niederspannungs-Leitung."
+      "question": "Kann die Schaufensterwerbung auch nach Ladenschluss laufen?",
+      "answer": "Ja, sofern das Gerät für die geplante Betriebsdauer geeignet ist. Legen Sie sinnvolle Anzeige- und Ausschaltzeiten fest und berücksichtigen Sie Umgebungshelligkeit, Nachbarschaft und örtliche Vorgaben. Ein für Dauerbetrieb ausgelegtes Gerät muss nicht rund um die Uhr eingeschaltet bleiben. Nachtabsenkung und automatische Abschaltung hängen von Gerät und Steuerung ab."
     },
     {
-      "question": "Was kostet digitale Schaufensterwerbung?",
-      "answer": "Den Spark 5 mit 50 Zoll und 450 nits mieten Sie ab CHF 139 pro Display und Monat bei 12 Monaten Laufzeit – inklusive Standardeinrichtung, Software-Lizenz, Wandhalterung und persönlicher Betreuung. Lieferung auf Anfrage, Abholung möglich. Montage vor Ort, Rückholung und individuelle Inhaltserstellung offerieren wir separat nach Absprache. Beim Kauf startet das Gerät bei CHF 1.699; die einmalige Einrichtungspauschale von CHF 149 und die Lizenz kommen beim Kauf separat hinzu. Spezielle High-Brightness-Modelle für direkte Sonneneinstrahlung offerieren wir auf Anfrage."
+      "question": "Was kostet digitale Schaufensterwerbung zum Kauf oder zur Miete?",
+      "answer": "Für einen geeigneten, lichtgeschützten Standort ist Spark 5 mit 50 Zoll und 450 nits ein Preisbeispiel: Kauf ab CHF 1’699 plus CHF 149 Standardeinrichtung und Softwarelizenz ab CHF 180 pro Jahr, zusammen ab CHF 2’028 im ersten Jahr. Bei zwölf Monaten Laufzeit kostet die Miete CHF 139 monatlich, insgesamt CHF 1’668, inklusive Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlicher Betreuung. Lieferung, Montage vor Ort, Rückholung bei Miete und individuelle Inhalte werden separat offeriert; beim Kauf kommt benötigtes Zubehör hinzu. Es wird keine MWST verrechnet. High-Brightness-Modelle werden individuell angeboten; der Spark-Preis ist kein Preis für ein sonnengeeignetes Schaufensterdisplay."
     },
     {
-      "question": "Für welche Geschäfte lohnt sich digitale Schaufensterwerbung?",
-      "answer": "Besonders im Einzelhandel mit Laufkundschaft – Mode, Optik, Elektronik, Bäckerei oder Gastronomie. Überall dort, wo Sichtbarkeit am Point of Sale zählt und Aktionen häufig wechseln, zahlt sich ein digitales Schaufenster-Display schnell aus."
-    },
-    {
-      "question": "Sind Schaufenster-Displays auch ausserhalb der Öffnungszeiten sichtbar?",
-      "answer": "Ja – und genau das ist ihr grösster Vorteil. Schaufenster-Displays laufen 24/7 und werben gerade ausserhalb der Öffnungszeiten weiter: abends, nachts und am Wochenende, wenn Passanten Zeit haben, vor dem Schaufenster stehen zu bleiben. Während gedruckte Plakate im dunklen Schaufenster verschwinden, leuchten die Displays hell weiter und machen Ihre Aktionen rund um die Uhr sichtbar."
+      "question": "Welche Inhalte funktionieren auf einem Schaufenster-Bildschirm?",
+      "answer": "Beginnen Sie mit einer klaren Botschaft: ein Produkt, ein Angebot oder eine Leistung mit gut lesbaren Angaben. Kurze Videos sind möglich, sollten die Kerninformation aber nicht verdrängen. Vermeiden Sie kleinteilige Preislisten und testen Sie Entwürfe vom Gehweg aus. Beispiele sind eine neue Kollektion, ein Tagesangebot oder ein Hinweis auf eine Beratung im Geschäft."
     },
     {
       "question": "Kann ich mehrere Schaufenster-Displays zentral verwalten?",
-      "answer": "Ja. Ob ein Schaufenster oder mehrere Filialen: Alle Schaufenster-Displays werden zentral über die Cloud gesteuert. Sie aktualisieren Aktionen und Kampagnen an einem Ort und spielen sie auf allen Standorten gleichzeitig oder standortindividuell aus – ohne Vor-Ort-Aufwand."
+      "answer": "Mit einem passenden CMS können Sie Inhalte für mehrere Displays oder Filialen vorbereiten und zuweisen. Gemeinsame Kampagnen und standortspezifische Angebote lassen sich je nach Software kombinieren. Wir klären unterstützte Geräte, Lizenzkosten, Nutzerrechte und die benötigte Internetverbindung für die konkrete Konfiguration."
+    },
+    {
+      "question": "Wann lohnt sich ein digitales Schaufensterdisplay?",
+      "answer": "Es ist besonders interessant, wenn Angebote häufig wechseln und tatsächlich Laufkundschaft am Schaufenster vorbeikommt. Vergleichen Sie Geräte-, Software-, Energie- und Pflegekosten mit dem bisherigen Aufwand. Beobachten Sie beispielsweise Anfragen nach beworbenen Produkten oder die Nutzung eines Angebotscodes. Eine feste Umsatzsteigerung oder Amortisationszeit lässt sich daraus im Voraus nicht garantieren."
     }
   ],
   "internalLinks": [
@@ -141,12 +133,24 @@
     {
       "label": "Digital Signage & Nachhaltigkeit",
       "href": "/wissen/digital-signage-nachhaltigkeit/"
+    },
+    {
+      "label": "Kosten und Leistungen im Vergleich",
+      "href": "/was-kostet-digital-signage-schweiz/"
+    },
+    {
+      "label": "Display-Grösse und Sichtabstand wählen",
+      "href": "/wissen/digital-signage-groesse-waehlen/"
+    },
+    {
+      "label": "Software und Inhaltspflege",
+      "href": "/loesungen/software/"
     }
   ],
   "cta": {
     "eyebrow": "Projekt besprechen",
     "title": "Schaufensterwerbung digital – wie und in welcher Grösse?",
-    "subtitle": "Sagen Sie uns kurz Schaufenstermass, Ausrichtung und gewünschte Botschaft – wir empfehlen das passende Display und nennen Mietpreis oder Kaufpreis transparent.",
+    "subtitle": "Schicken Sie uns ein Foto von aussen, Schaufenstermasse, Ausrichtung zur Sonne und Ihre gewünschte Botschaft. Wir klären Display, Montage und Betrieb und erstellen eine passende Offerte.",
     "primaryLabel": "Beratung anfragen",
     "primaryHref": "/kontakt",
     "secondaryLabel": "Über Meister Signage",
@@ -207,6 +211,13 @@
         ]
       },
       {
+        "label": "Inhalte und Anschlüsse",
+        "values": [
+          "Spark: WLAN, integrierter Player; kein HDMI oder LAN",
+          "Player, Anschlüsse und Software nach Modellausführung prüfen"
+        ]
+      },
+      {
         "label": "Aussenaufstellung",
         "values": [
           "Keine Outdoor-Freigabe aus der Helligkeit ableiten",
@@ -221,7 +232,41 @@
         ]
       }
     ],
-    "note": "High Brightness bedeutet nicht automatisch wetterfest. Die Wahl erfolgt anhand der tatsächlichen Aufstellung."
+    "note": "High Brightness bedeutet nicht automatisch wetterfest. Die Wahl erfolgt anhand der tatsächlichen Aufstellung.",
+    "intro": "Ein Bildschirm hinter Glas steht zwar im Innenraum, kann aber deutlich stärkerem Licht und höheren Temperaturen ausgesetzt sein als ein Display im Verkaufsraum.",
+    "links": [
+      {
+        "label": "High-Brightness-Displays für helle Standorte",
+        "href": "/loesungen/high-brightness-display/"
+      },
+      {
+        "label": "Kosten für Kauf und Miete vergleichen",
+        "href": "/was-kostet-digital-signage-schweiz/"
+      },
+      {
+        "label": "Digitale Kundenstopper vor dem Geschäft",
+        "href": "/loesungen/digitale-kundenstopper/"
+      }
+    ]
   },
-  "updatedAt": "2026-10-07"
+  "updatedAt": "2026-10-07",
+  "useCases": {
+    "eyebrow": "Standort und Inhalte",
+    "title": "So planen Sie einen Werbemonitor im Schaufenster.",
+    "intro": "Ein Foto allein zeigt nicht alle Licht- und Temperaturverhältnisse. Diese drei Schritte helfen, eine passende Lösung auszuwählen.",
+    "items": [
+      {
+        "title": "1. Schaufenster zu mehreren Tageszeiten prüfen",
+        "description": "Notieren Sie direkte Sonne, Spiegelungen und vorhandene Beschattung. Fotografieren Sie die Fläche von aussen am Morgen und Nachmittag. Ergänzen Sie Schaufenstermasse, möglichen Montageort und vorhandene Stromversorgung."
+      },
+      {
+        "title": "2. Sichtabstand und Botschaft testen",
+        "description": "Prüfen Sie einen Entwurf in der vorgesehenen Grösse vom Gehweg aus. Eine Hauptbotschaft, ein gut sichtbarer Preis und eine klare Handlungsaufforderung sind leichter zu erfassen als viele kleine Texte. Hoch- oder Querformat richtet sich nach Fläche und Inhalt."
+      },
+      {
+        "title": "3. Betrieb und Inhaltspflege festlegen",
+        "description": "Bestimmen Sie Anzeigezeiten und die Person, die Angebote aktuell hält. Klären Sie vorab Netzwerkzugang, Softwarelizenz, Freigaben, Montage und Betreuung. Erst dann lassen sich Kauf und Miete mit vergleichbarem Leistungsumfang gegenüberstellen."
+      }
+    ]
+  }
 }
