@@ -117,7 +117,7 @@ const rentalCategories = [
   },
   {
     title: "Meister Board 43″",
-    desc: "Digitaler Kundenstopper mit Akku und 3500 Nits Helligkeit. Transport im geeigneten Pkw möglich. Mietpreis und Mietdauer auf Anfrage; Lieferung und Rückholung separat.",
+    desc: "Digitaler Kundenstopper mit Akku und 3’000 Nits Helligkeit. Transport im geeigneten Pkw möglich. Mietpreis und Mietdauer auf Anfrage; Lieferung und Rückholung separat.",
     href: "/loesungen/digitale-kundenstopper",
     priceLabel: "Preis auf Anfrage",
   },

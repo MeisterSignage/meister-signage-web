@@ -11,7 +11,7 @@
     "Im Eingangsbereich, vor dem Restaurant, an Messen oder im Pop-up-Store – überall dort, wo gedruckte Kundenstopper bisher Aufmerksamkeit erzeugen sollten, sind digitale Varianten der nächste Schritt.",
     "Sie sind flexibel platzierbar, oft akkubetrieben und brauchen keine feste Installation. Wie Inhalte übertragen, zeitlich geplant oder zentral gesteuert werden, hängt vom Abspielsystem und der eingesetzten Software ab.",
     "Für den Aussenbereich gibt es speziell ausgelegte Modelle mit höherer Helligkeit. Neben der Schutzart müssen auch Temperatur, Wind, Aufstellung und Ladebedingungen zum Einsatz passen.",
-    "Für die Lesbarkeit draussen zählen Helligkeit, Entspiegelung, Blickwinkel und Ausrichtung. Im Sortiment von Meister Signage ergänzt ein neues 43-Zoll-Battery-Board mit Mini-LED und bis zu 3’000 Nits Spitzenhelligkeit die bestehende 1’500-Nits-Ausführung. Spitzenhelligkeit ist nicht mit garantierter Dauerhelligkeit gleichzusetzen. Das neue Board verfügt über ein IP65-Gehäuse und einen integrierten Lithium-Akku. Laufzeit und Ladeplanung werden für das konkrete Modell und Nutzungsprofil geklärt. Preise auf Anfrage."
+    "Für die Lesbarkeit draussen zählen Helligkeit, Entspiegelung, Blickwinkel und Ausrichtung. Das Meister Board 43″ (Refee EcoVision LD-ECO43RFA) bietet laut Lieferant 3’000 Nits, Full HD, ein ADS-Panel ohne Touch, dynamische zonenweise Dimmung und IP65. Der Akku hat 60 Ah; angegeben sind 12–40 Stunden Laufzeit je nach Umgebung und Nutzung sowie etwa 6,5 Stunden Ladezeit. Eine bestimmte Laufzeit bei voller Helligkeit ist damit nicht zugesichert. Das Board ergänzt die bestehende 1’500-Nits-Ausführung. Kauf und Miete auf Anfrage."
   ],
   "examples": [
     {
@@ -83,5 +83,6 @@
       "href": "/loesungen/high-brightness-display/"
     }
   ],
-  "datePublished": "2026-05-17"
+  "datePublished": "2026-05-17",
+  "dateModified": "2026-10-09"
 }

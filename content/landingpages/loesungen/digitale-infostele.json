@@ -5,7 +5,7 @@
   "seoDescription": "Digitale Stele für Empfang, Lobby und Events – auch mit Touchscreen. Interaktive Wegfindung, Produktinfos und Self-Service individuell planen. Schweizweit.",
   "eyebrow": "Lösung · Infostele",
   "h1": "Digitale Infostele – auf Wunsch mit Touchscreen.",
-  "intro": "Eine digitale Infostele ist ein freistehender Informationsbildschirm für Empfang, Lobby, Showroom oder Events. Als Infosäule zeigt sie Begrüssungen, Wegweiser, Tagesprogramme und Werbung. Mit einem Touchscreen wird daraus eine interaktive Stele: Besucher wählen Informationen selbst aus. Wir stimmen Display, Standfuss, Stromversorgung und Software auf Ihren Standort in der Schweiz ab. Touch-Ausführung und interaktive Anwendungen offerieren wir auf Anfrage.",
+  "intro": "Eine digitale Infostele ist ein freistehender Informationsbildschirm für Empfang, Lobby, Showroom oder Events. Als Infosäule zeigt sie Begrüssungen, Wegweiser, Tagesprogramme und Werbung. Mit einem Touchscreen wird daraus eine interaktive Stele: Besucher wählen Informationen selbst aus. Wir stimmen Display, Standfuss, Stromversorgung und Software auf Ihren Standort in der Schweiz ab. Touch-Ausführung und interaktive Anwendungen offerieren wir auf Anfrage. Zur Miete bieten wir die Meister Stele 55″ mit Touchscreen im Hochformat an. Mietpreis und Mietdauer auf Anfrage; Bereitstellung inklusive.",
   "heroImage": "/images/products/Infostele-Empfang-Lobby.webp",
   "gallery": [
     {
@@ -57,6 +57,10 @@
   ],
   "faq": [
     {
+      "question": "Welche Touch-Stele kann ich mieten?",
+      "answer": "Die Meister Stele 55″ ist eine freistehende Touch-Stele im Hochformat (Portrait). Mietpreis und Mietdauer vereinbaren wir auf Anfrage. Bereitstellung, Funktionsprüfung, kurze Einweisung und normale Reinigung sind inklusive. Die gewünschte interaktive Anwendung und Inhalte stimmen wir gesondert ab."
+    },
+    {
       "question": "Ist eine Infosäule dasselbe wie eine Infostele?",
       "answer": "Ja. Die Begriffe Infosäule, Infostele und digitale Stele meinen dieselbe Lösung: eine freistehende, vertikale Säule mit Display für Information, Wegweisung und Werbung."
     },
@@ -78,11 +82,11 @@
     },
     {
       "question": "Wie schwer ist eine Infostele und kann ich sie selbst verschieben?",
-      "answer": "Gewicht und Transportmöglichkeiten hängen von Bildschirm, Gehäuse und Standfuss ab. Wir nennen die Daten für das ausgewählte Modell. Rollen, geeignete Transporthilfen, freie Wege und eine sichere Aufstellung planen wir bei Bedarf mit ein."
+      "answer": "Die Meister Stele 55″ ist gross und schwer und kann nicht im Pkw transportiert werden. Sie benötigt einen geeigneten Transporter und sichere Ladungssicherung. Lieferung, Aufstellung und Rückholung offerieren wir separat nach Aufwand. Zufahrt, Treppen, Lift und benötigtes Personal klären wir vorab. Genaue Masse und Gewicht nennen wir nach Bestätigung für die konkrete Ausführung."
     },
     {
       "question": "Was kostet eine digitale Infostele?",
-      "answer": "Digitale Infostelen zum Kauf oder zur Miete offerieren wir passend zu Displaygrösse, Gehäuse, Standfuss und Laufzeit. Für eine Touchscreen-Stele kommen die gewünschte Anwendung und gegebenenfalls Schnittstellen hinzu. Hardware, Einrichtung, Software, Lieferung und Montage weisen wir im Angebot getrennt aus. Abholung ist nach Absprache möglich."
+      "answer": "Die Meister Stele 55″ mit Touchscreen vermieten wir auf Anfrage. Bereitstellung, Funktionsprüfung, kurze Einweisung und normale Reinigung sind im vereinbarten Mietpreis enthalten. Lieferung, Aufstellung, Rückholung sowie individuelle Anwendungen und Inhaltserstellung vereinbaren wir separat. Kaufangebote richten sich nach Modell, Ausstattung und gewünschtem Service."
     },
     {
       "question": "Eignet sich eine Infostele auch als Werbestele?",
@@ -287,5 +291,5 @@
       }
     ]
   },
-  "updatedAt": "2026-10-07"
+  "updatedAt": "2026-10-09"
 }
