@@ -13,6 +13,9 @@ import { viewport, easeOut, staggerContainer, staggerItem } from "@/lib/motion";
 import {
   RENTAL_PACKAGES as packages,
   RENTAL_TERMS,
+  MEISTER_RENTAL_DISPLAYS,
+  MEISTER_DISPLAY_DETAILS,
+  MEISTER_RENTAL_CONDITIONS,
   RENTAL_FAQS as faqs,
   RENTAL_FOOTNOTE,
   RENTAL_INCLUDED,
@@ -107,14 +110,14 @@ const trustItems = [
 
 const rentalCategories = [
   {
-    title: "Digitale Stelen",
-    desc: "Freistehende Displays für Empfang, Orientierung und Events. Mietpreis auf Anfrage; Transport und Vor-Ort-Aufwand nach Absprache.",
+    title: "Meister Stele 55″ Touch",
+    desc: "Freistehende Touch-Stele im Hochformat. Gross und schwer: Transporter erforderlich. Lieferung, Aufstellung und Rückholung separat nach Absprache.",
     href: "/loesungen/digitale-infostele",
     priceLabel: "Preis auf Anfrage",
   },
   {
-    title: "Battery-Boards",
-    desc: "Digitale Kundenstopper mit Akku für wechselnde Einsatzorte. Mietpreis auf Anfrage; Transport und Vor-Ort-Aufwand nach Absprache.",
+    title: "Meister Board 43″",
+    desc: "Digitaler Kundenstopper mit Akku und 3500 Nits Helligkeit. Transport im geeigneten Pkw möglich. Mietpreis und Mietdauer auf Anfrage; Lieferung und Rückholung separat.",
     href: "/loesungen/digitale-kundenstopper",
     priceLabel: "Preis auf Anfrage",
   },
@@ -501,6 +504,22 @@ export default function DigitalSignageMietenContent() {
             * {RENTAL_FOOTNOTE}
           </motion.p>
 
+          <section aria-labelledby="meister-mietdisplays" className="mt-12 rounded-[18px] border border-navy/10 bg-white p-6 sm:p-8">
+            <h2 id="meister-mietdisplays" className="scroll-mt-28 text-2xl font-semibold text-navy">Meister Signage 43″ und 55″ mieten</h2>
+            <p className="mt-4 text-[15px] leading-relaxed text-cgray">{MEISTER_DISPLAY_DETAILS}</p>
+            <div className="mt-6 grid gap-5 sm:grid-cols-2">
+              {MEISTER_RENTAL_DISPLAYS.map((display) => (
+                <article key={display.model} className="rounded-xl border border-navy/10 p-5">
+                  <h3 className="text-lg font-semibold text-navy">{display.model}</h3>
+                  <p className="mt-3 text-xl font-semibold text-navy">Ab CHF {display.monthlyPrices[12]} / Monat</p>
+                  <p className="mt-2 text-sm text-cgray">Bei 12 Monaten Laufzeit, exkl. MWST. Weitere Laufzeiten im Vergleich unten.</p>
+                  <Link href="/kontakt/" className="btn-secondary mt-5">Miete anfragen</Link>
+                </article>
+              ))}
+            </div>
+            <p className="mt-5 text-sm leading-relaxed text-cgray">{MEISTER_RENTAL_CONDITIONS}</p>
+          </section>
+
           <details className="group/terms mt-8 rounded-[18px] border border-navy/10 bg-white">
             <summary className="flex cursor-pointer list-none items-center justify-between gap-4 rounded-[18px] px-5 py-6 text-[16px] font-semibold text-navy focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-magenta sm:px-7 [&::-webkit-details-marker]:hidden">
               Alle Mietlaufzeiten vergleichen
@@ -511,7 +530,7 @@ export default function DigitalSignageMietenContent() {
             </summary>
             <div className="border-t border-navy/10 px-5 pb-6 pt-5 sm:px-7">
               <p className="mb-4 text-[14px] leading-relaxed text-cgray">
-                Wählen Sie Ihre Mietlaufzeit. Alle Beträge gelten pro Display und Monat für die angegebene Laufzeit – inklusive Standardeinrichtung, Softwarelizenz und Wandhalterung.
+                Alle Beträge gelten pro Display und Monat für die angegebene Laufzeit. Spark inklusive Standardeinrichtung, Softwarelizenz und Wandhalterung. Meister-Displays inklusive Bereitstellung, Funktionsprüfung, kurzer Einweisung und normaler Reinigung; Preise exkl. MWST.
               </p>
               <div
                 role="region"
@@ -521,7 +540,7 @@ export default function DigitalSignageMietenContent() {
               >
                 <table className="w-full min-w-[540px] border-collapse text-left text-[14px] tabular-nums">
                   <caption className="caption-top bg-offwhite px-4 py-3 text-left text-[13px] font-medium text-cgray">
-                    Spark-Mietpreise in CHF pro Display und Monat
+                    Spark- und Meister-Mietpreise in CHF pro Display und Monat
                   </caption>
                   <thead className="border-y border-navy/10 bg-offwhite text-navy">
                     <tr>
@@ -534,7 +553,7 @@ export default function DigitalSignageMietenContent() {
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-navy/10">
-                    {packages.map((pkg) => (
+                    {[...packages, ...MEISTER_RENTAL_DISPLAYS].map((pkg) => (
                       <tr key={pkg.model}>
                         <th scope="row" className="whitespace-nowrap px-4 py-4 font-semibold text-navy">
                           {pkg.model}

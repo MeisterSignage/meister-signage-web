@@ -7,7 +7,7 @@ import { faqSchema } from "@/lib/schema/faq";
 import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
 import { serviceSchema } from "@/lib/schema/service";
 import { rentalOfferSchema } from "@/lib/schema/product";
-import { RENTAL_PACKAGES, RENTAL_FAQS } from "@/lib/rental-pricing";
+import { RENTAL_PACKAGES, RENTAL_FAQS, RENTAL_TERMS, MEISTER_RENTAL_DISPLAYS, MEISTER_DISPLAY_DETAILS, MEISTER_RENTAL_CONDITIONS } from "@/lib/rental-pricing";
 
 const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = `${SITE_URL}/digital-signage-mieten`;
@@ -46,6 +46,50 @@ const RENTAL_OFFERS = RENTAL_PACKAGES.map((pkg) => ({
   resolution: pkg.spec,
 }));
 
+const MEISTER_RENTAL_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: "Meister Signage Mietgeräte",
+  itemListElement: [
+    ...MEISTER_RENTAL_DISPLAYS.map((display, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      item: {
+        "@type": "Product",
+        name: display.model,
+        description: `${MEISTER_DISPLAY_DETAILS} ${MEISTER_RENTAL_CONDITIONS}`,
+        brand: { "@type": "Brand", name: "Meister Signage" },
+        offers: RENTAL_TERMS.map((months) => ({
+          "@type": "Offer",
+          name: `${months} Monate Laufzeit`,
+          url: PAGE_URL,
+          businessFunction: "http://purl.org/goodrelations/v1#LeaseOut",
+          price: display.monthlyPrices[months],
+          priceCurrency: "CHF",
+          eligibleDuration: { "@type": "QuantitativeValue", value: months, unitCode: "MON" },
+          priceSpecification: {
+            "@type": "UnitPriceSpecification",
+            price: display.monthlyPrices[months],
+            priceCurrency: "CHF",
+            valueAddedTaxIncluded: false,
+            referenceQuantity: { "@type": "QuantitativeValue", value: 1, unitCode: "MON" },
+          },
+        })),
+      },
+    })),
+    {
+      "@type": "ListItem", position: 3,
+      item: { "@type": "Service", name: "Meister Stele 55″ mieten", url: PAGE_URL,
+        description: "55-Zoll-Touch-Stele im Hochformat. Mietpreis auf Anfrage. Transporter erforderlich; Lieferung, Aufstellung und Rückholung separat nach Absprache." },
+    },
+    {
+      "@type": "ListItem", position: 4,
+      item: { "@type": "Service", name: "Meister Board 43″ mieten", url: PAGE_URL,
+        description: "Digitaler Kundenstopper mit Akku, 43 Zoll und 3500 Nits. Mietpreis und Mietdauer auf Anfrage." },
+    },
+  ],
+};
+
 export default function DigitalSignageMietenPage() {
   return (
     <>
@@ -74,6 +118,7 @@ export default function DigitalSignageMietenPage() {
         <JsonLd key={`rental-${i}`} schema={schema as Record<string, unknown>} />
       ))}
 
+      <JsonLd schema={MEISTER_RENTAL_SCHEMA} />
       <DigitalSignageMietenContent />
 
       <InternalLinksSection
