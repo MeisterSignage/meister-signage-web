@@ -85,7 +85,7 @@ const MEISTER_RENTAL_SCHEMA = {
     {
       "@type": "ListItem", position: 4,
       item: { "@type": "Service", name: "Meister Board 43″ mieten", url: PAGE_URL,
-        description: "Digitaler Kundenstopper mit Akku, 43 Zoll und 3’000 Nits. Mietpreis und Mietdauer auf Anfrage." },
+        description: "Digitaler Kundenstopper mit Akku, 43 Zoll und bis zu 3’000 Nits Spitzenhelligkeit. Mietpreis und Mietdauer auf Anfrage." },
     },
   ],
 };

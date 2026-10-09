@@ -58,7 +58,7 @@ export const RENTAL_FAQS = [
   },
   {
     question: "Welche Displays können gemietet werden?",
-    answer: "Unser Mietsortiment umfasst Spark 3, Spark 4, Spark 5 und Spark Q+, Meister Signage 43″ und 55″, die Meister Stele 55″ mit Touch im Hochformat sowie das akkubetriebene Meister Board 43″ mit 3’000 Nits. Die Meister-Displays haben feste Monatsstaffeln. Stele und Board offerieren wir auf Anfrage.",
+    answer: "Unser Mietsortiment umfasst Spark 3, Spark 4, Spark 5 und Spark Q+, Meister Signage 43″ und 55″, die Meister Stele 55″ mit Touch im Hochformat sowie das akkubetriebene Meister Board 43″ mit bis zu 3’000 Nits Spitzenhelligkeit. Die Meister-Displays haben feste Monatsstaffeln. Stele und Board offerieren wir auf Anfrage.",
   },
   {
     question: "Eignen sich Mietdisplays für Events?",
@@ -102,7 +102,7 @@ export const RENTAL_FAQS = [
   },
   {
     question: "Welche Helligkeit hat das Meister Board 43 Zoll?",
-    answer: "Das akkubetriebene Meister Board 43″ hat eine Helligkeit von 3’000 Nits. Es ist ein digitaler Kundenstopper für wechselnde Standorte. Mietpreis und Mietdauer auf Anfrage. Akkulaufzeit und Eignung für den konkreten Aufstellort klären wir vor der Buchung.",
+    answer: "Das akkubetriebene Meister Board 43″ hat eine Spitzenhelligkeit von bis zu 3’000 Nits. Es ist ein digitaler Kundenstopper für wechselnde Standorte. Mietpreis und Mietdauer auf Anfrage. Akkulaufzeit und Eignung für den konkreten Aufstellort klären wir vor der Buchung.",
   },
   {
     question: "Kann ich später kaufen statt mieten?",
