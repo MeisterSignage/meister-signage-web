@@ -154,7 +154,7 @@ export default function DatenschutzPage() {
             <h2 className="mb-3 text-navy">7. Microsoft Clarity</h2>
             <p className="card-body mb-3">
               Diese Website nutzt Microsoft Clarity, einen Analysedienst der Microsoft Corporation,
-              One Microsoft Way, Redmond, WA 98052, USA. Clarity zeichnet anonymisierte
+              One Microsoft Way, Redmond, WA 98052, USA. Clarity erfasst pseudonyme
               Nutzungsdaten auf, darunter Mausbewegungen, Klicks und Scrollverhalten (Heatmaps und
               Session-Recordings).
             </p>
@@ -174,7 +174,7 @@ export default function DatenschutzPage() {
                 privacy.microsoft.com
               </a>
               . Sie können die Erfassung durch Clarity verhindern, indem Sie im Cookie-Banner
-              auf «Ablehnen» klicken.
+              auf «Ablehnen» klicken oder Ihre Auswahl über «Cookie-Einstellungen» im Footer ändern.
             </p>
           </section>
 
@@ -184,7 +184,7 @@ export default function DatenschutzPage() {
             <p className="card-body mb-3">
               Wenn Sie uns per E-Mail, Telefon oder Kontaktformular kontaktieren, werden die von
               Ihnen übermittelten Daten zur Bearbeitung Ihrer Anfrage gespeichert und verarbeitet.
-              Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
+              Zur Bearbeitung setzen wir die nachfolgend genannten Dienstleister ein. Eine Weitergabe erfolgt nur soweit für die Abwicklung erforderlich oder gesetzlich vorgesehen.
             </p>
             <h2 className="mb-2 text-navy mt-5">WhatsApp</h2>
             <p className="card-body">
@@ -211,10 +211,10 @@ export default function DatenschutzPage() {
             <p className="card-body mb-3">
               Das Kontaktformular auf dieser Website wird über den Dienst Formspree (Formspree Inc.,
               USA) bereitgestellt. Bei Absenden des Formulars werden Ihre Angaben (Name, E-Mail-Adresse,
-              Nachricht) an Formspree übermittelt und per E-Mail an uns weitergeleitet.
+              Nachricht sowie freiwillige Firmen-, Herkunfts- und Mietangaben) an Formspree übermittelt und per E-Mail an uns weitergeleitet.
             </p>
             <p className="card-body">
-              Formspree speichert die übermittelten Daten vorübergehend auf Servern in den USA.
+              Formspree verarbeitet und speichert die übermittelten Daten auf Servern in den USA.
               Die Verarbeitung erfolgt auf Grundlage Ihrer Einwilligung (Absenden des Formulars) und
               zur Bearbeitung Ihrer Anfrage. Weitere Informationen:{" "}
               <a
@@ -229,6 +229,12 @@ export default function DatenschutzPage() {
             </p>
           </section>
 
+          <section className="py-7">
+            <h2 className="mb-3 text-navy">Kundenverwaltung und Angebotsportal</h2>
+            <p className="card-body mb-3">Anfragen werden in unser CRM übernommen, um Offerten, Projekte und die Kundenbetreuung zu bearbeiten. Freiwillige Angaben zur Herkunft einer Anfrage helfen uns, unsere Angebote zu verbessern. Das CRM wird bei Hetzner in Deutschland betrieben. Zugriff haben nur berechtigte Personen und für den Betrieb erforderliche Dienstleister.</p>
+            <p className="card-body mb-3">Bei der Annahme einer Offerte speichern wir Ihren angegebenen Namen, Zeitpunkt, Angebotsinhalt, die akzeptierte AGB-Version und deren vollständigen Text. IP-Adresse und Browserkennung dienen dem Nachweis der Annahme. Portalaufrufe werden zur Angebotsbetreuung erfasst; für den Vergleich von Besuchen wird ein angebotsbezogener Hash der IP-Adresse verwendet. Diese Daten werden nicht als Website-Analyseereignisse an Google Analytics oder Clarity gesendet.</p>
+            <p className="card-body">Wir bewahren Vertragsnachweise so lange auf, wie dies zur Vertragsabwicklung, zur Wahrung rechtlicher Ansprüche oder aufgrund gesetzlicher Aufbewahrungspflichten erforderlich ist; buchführungspflichtige Belege grundsätzlich zehn Jahre. Für darüber hinausgehende Daten prüfen wir den weiteren Bedarf. Die Zustimmung zu AGB ist keine Einwilligung in Werbung oder Analyse-Cookies.</p>
+          </section>
           {/* 8 */}
           <section className="py-7">
             <h2 className="mb-3 text-navy">10. Google Search Console</h2>

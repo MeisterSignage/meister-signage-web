@@ -22,10 +22,10 @@ export default function VersandUndRueckgabePage() {
         <div className="mb-10 border-b border-navy/10 pb-8">
           <p className="eyebrow mb-2">Rechtliches</p>
           <h1 className="mb-2 text-navy">Versand & Rückgabe</h1>
-          <p className="text-sm text-cgray">Stand: Mai 2026</p>
+          <p className="text-sm text-cgray">Stand: Oktober 2026</p>
           <p className="mt-4 text-sm text-cgray">
             Diese Seite fasst die Lieferbedingungen, Rückgaberegelung und Gewährleistung für den
-            Kauf von Digital-Signage-Hardware bei Meister Signage zusammen.
+            Kauf von Digital-Signage-Hardware bei Meister Signage zusammen. Massgeblich sind Ihre Offerte und die einbezogenen <Link href="/agb/" className="text-magenta underline">AGB</Link>.
           </p>
         </div>
 
@@ -65,7 +65,7 @@ export default function VersandUndRueckgabePage() {
                 chris@meister-signage.ch
               </a>{" "}
               genügt) zu melden. Bitte fotografieren Sie die Verpackung und das Gerät vor dem
-              Auspacken, damit eine Versicherungsabwicklung möglich ist.
+              Auspacken, damit eine Versicherungsabwicklung möglich ist. Gesetzliche Mängelrechte bleiben vorbehalten; die genannte Frist ist eine organisatorische Bitte.
             </p>
           </section>
 
@@ -98,7 +98,7 @@ export default function VersandUndRueckgabePage() {
             <h2 className="mb-3 text-navy">Gewährleistung & Herstellergarantie</h2>
             <p className="card-body mb-3">
               Auf alle gelieferten Geräte gilt die jeweilige <strong>Herstellergarantie</strong>{" "}
-              mit dem für das jeweilige Modell ausgewiesenen Umfang und der vereinbarten Laufzeit. Garantiebedingungen, Vorgehen bei Defekten und zusätzliche Serviceleistungen werden vor dem Kauf geklärt.
+              mit dem für das jeweilige Modell ausgewiesenen Umfang und der vereinbarten Laufzeit. Sie ersetzt gesetzliche Gewährleistungsrechte gegenüber Meister Signage nicht automatisch. Garantiebedingungen, Vorgehen bei Defekten und zusätzliche Serviceleistungen werden vor dem Kauf geklärt.
             </p>
             <p className="card-body">
               Darüber hinaus bietet Meister Signage auf Wunsch erweiterte Servicevereinbarungen

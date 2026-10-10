@@ -234,6 +234,7 @@ export default function Footer() {
             >
               Datenschutz
             </Link>
+            <Link href="/agb/" className="text-[12px] transition-colors duration-150 hover:!text-white" style={{ color: "#d1d5db" }}>AGB</Link>
             <CookieSettingsButton />
             <Link
               href="/impressum/"

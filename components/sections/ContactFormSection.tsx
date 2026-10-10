@@ -206,7 +206,7 @@ export default function ContactFormSection({ rental = false }: { rental?: boolea
                 </button>
               </div>
             ) : (
-              <form
+              <form data-clarity-mask="true"
                 onSubmit={handleSubmit}
                 onChange={trackStart}
                 className="flex flex-col gap-5"
@@ -298,6 +298,12 @@ export default function ContactFormSection({ rental = false }: { rental?: boolea
                     <legend className="px-2 font-semibold text-navy">Ihre Mietanfrage</legend>
                     <p className="text-sm text-cgray">Tragen Sie ein, was schon feststeht. Die Angaben sind optional; mehrere Geräte können Sie in der Nachricht nennen. Ihre Anfrage ist unverbindlich.</p>
                     <div>
+                      <label htmlFor={`${id}-anlass`} className="mb-1 block text-sm font-semibold text-navy">Anlass / Einsatzzweck</label>
+                      <select id={`${id}-anlass`} name="mietanlass" className={inputNormal}>
+                        <option value="">Noch offen</option><option>Messe oder Ausstellung</option><option>Konferenz oder Firmenevent</option><option>Hotel oder Gastronomie</option><option>Verkaufslokal oder Schaufenster</option><option>Gemeinde oder öffentliche Information</option><option>Anderer Einsatzzweck</option>
+                      </select>
+                    </div>
+                    <div>
                       <label htmlFor={`${id}-geraet`} className="mb-1 block text-sm font-semibold text-navy">Gewünschtes Gerät</label>
                       <select id={`${id}-geraet`} name="mietgeraet" value={device} onChange={(e) => setDevice(e.target.value)} className={inputNormal}>
                         <option value="">Noch offen / Beratung gewünscht</option>
@@ -335,7 +341,7 @@ export default function ContactFormSection({ rental = false }: { rental?: boolea
                       <label htmlFor={`${id}-zugang`} className="mb-1 block text-sm font-semibold text-navy">Zufahrt, Treppen, Lift und Aufbau</label>
                       <textarea id={`${id}-zugang`} name="zugang_aufbau" rows={2} placeholder="z. B. ebenerdig, 1. Stock mit Warenlift, Aufbau ab 8 Uhr" className={inputNormal} />
                     </div>
-                    <p className="text-sm text-cgray">Bereitstellung inklusive. Lieferung, Aufbau vor Ort und Rückholung offerieren wir separat. Stele und Battery Board: Mietpreis auf Anfrage.</p>
+                    <p className="text-sm text-cgray">Bereitstellung inklusive. Lieferung, Aufbau vor Ort und Rückholung offerieren wir separat. Stele und Battery Board: Mietpreis auf Anfrage. Mit dieser Anfrage buchen Sie noch nichts. Die <a href="/agb/" target="_blank" rel="noopener noreferrer" className="text-magenta underline">AGB</a> bestätigen Sie erst bei Annahme der Offerte.</p>
                   </fieldset>
                 )}
 
