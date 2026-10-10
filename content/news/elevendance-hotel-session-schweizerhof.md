@@ -18,13 +18,11 @@ Ein Motiv über drei Displays zieht sich durch die gesamte Installation. Im näc
 <figure style="margin:24px 0"><img src="/images/projekte/elevendance/einzelinhalte.jpg" alt="Drei Displays mit unterschiedlichen Sequenzen bei der elevendance Hotel Session" width="1600" height="1200" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:12px" /><figcaption>Einzelne Inhalte auf denselben drei Screens.</figcaption></figure>
 
 
-## So funktioniert die Videri Wall
+## So funktioniert die Meister Signage Wall
 
-Videri nennt die Funktion «Wireless Orchestration». Mehrere Displays lassen sich als gemeinsame Wall bespielen und im selben Ablauf wieder für einzelne Inhalte nutzen. Auch Abstände zwischen den Screens werden bei der Einrichtung des Layouts berücksichtigt.
+Mit der Meister Signage Wall lassen sich mehrere Displays als gemeinsame Wall bespielen und im selben Ablauf wieder für einzelne Inhalte nutzen. Auch Abstände zwischen den Screens werden bei der Einrichtung des Layouts berücksichtigt.
 
 Die Synchronisierung erfolgt kabellos. Zwischen den Displays sind dafür keine Videokabel, Splitter oder separaten Video-Wall-Controller nötig. Jedes Display benötigt weiterhin einen Stromanschluss. So kann die Anordnung für einen Anlass eingerichtet werden, während sich Wall-Motive und Einzelinhalte über die Software wechseln lassen.
-
-Die technischen Funktionen beschreibt [Videri auf seiner Plattformseite](https://videri.com/platform/).
 
 ## Zehn Sekunden aus der Hotel Session
 
