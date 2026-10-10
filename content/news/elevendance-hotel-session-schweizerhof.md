@@ -24,7 +24,7 @@ Mit der Meister Signage Wall lassen sich mehrere Displays als gemeinsame Wall be
 
 Die Synchronisierung erfolgt kabellos über WLAN. Dafür müssen die Displays mit einem WLAN verbunden sein. Zwischen den Displays sind dafür keine Videokabel, Splitter oder separaten Video-Wall-Controller nötig. Jedes Display benötigt weiterhin einen Stromanschluss. So kann die Anordnung für einen Anlass eingerichtet werden, während sich Wall-Motive und Einzelinhalte über die Software wechseln lassen.
 
-## Zehn Sekunden aus der Hotel Session
+## Die Hotel Session
 
 <video controls playsinline preload="none" poster="/images/projekte/elevendance/display-wall.jpg" width="1280" height="720" aria-label="Drei Screens bei elevendance, anschliessend ein Schwenk in den Veranstaltungssaal" style="width:100%;height:auto;max-height:75vh;border-radius:12px"><source src="/videos/projekte/elevendance-hotel-session-10s.mp4" type="video/mp4" />Ihr Browser unterstützt das Video nicht. <a href="/videos/projekte/elevendance-hotel-session-10s.mp4">Video öffnen</a>.</video>
 
