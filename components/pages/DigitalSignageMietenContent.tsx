@@ -1163,6 +1163,15 @@ export default function DigitalSignageMietenContent() {
         </div>
       </section>
 
+      <section className="w-full bg-offwhite" aria-labelledby="eventreferenz">
+        <div className="section-inner">
+          <span className="eyebrow">Echter Eventeinsatz</span>
+          <h2 id="eventreferenz" className="mt-3 text-3xl font-light text-navy">Vier Spark-Displays für AI in Marketing.</h2>
+          <p className="mt-4 max-w-2xl leading-relaxed text-cgray">Drei Spark 4 und ein Spark 5 für die Konferenz im The Circle in Zürich: Meister Signage übernahm Lieferung, Installation und Aufbau. Der Projektbericht zeigt die Programmanzeigen vor Ort und das Feedback des Veranstaltungsteams.</p>
+          <Link href="/news/ai-in-marketing-event-displays/" className="mt-6 inline-flex items-center gap-2 font-semibold text-magenta hover:text-navy">Eventbericht mit Originalfotos ansehen <ArrowRight className="h-4 w-4" /></Link>
+        </div>
+      </section>
+
       <div id="mietanfrage" className="scroll-mt-24">
         <ContactFormSection rental />
       </div>
