@@ -545,6 +545,22 @@ export default function DigitalSignageKaufenContent() {
         </div>
       </section>
 
+      <section className="w-full bg-offwhite" aria-labelledby="spark-praxis">
+        <div className="section-inner grid items-center gap-10 md:grid-cols-2">
+          <figure className="mx-auto w-full max-w-sm">
+            <Image src="/images/projekte/gemeinde/wanddisplay.jpg" alt="Spark 5 im Hochformat am Eingang des Gemeindehauses mit Abteilungsübersicht" width={1152} height={1536} sizes="(max-width: 768px) 100vw, 384px" className="h-auto w-full rounded-2xl" />
+            <figcaption className="mt-3 text-sm text-cgray">Spark 5 · 50 Zoll · Besucherinformation im Gemeindehaus</figcaption>
+          </figure>
+          <div>
+            <span className="eyebrow">Aus der Praxis</span>
+            <h2 id="spark-praxis" className="mt-3 text-3xl font-light tracking-tight text-navy">Spark 5 im Gemeindehaus.</h2>
+            <p className="mt-5 leading-relaxed text-cgray">Dieses Spark 5 zeigt im Eingangsbereich, welche Abteilungen sich auf welchem Stockwerk befinden. Die Gemeinde testete die Lösung über die Sommerferien und entschied sich anschliessend für den Kauf. Mitarbeitende können die Informationen selbst aktualisieren.</p>
+            <p className="mt-4 leading-relaxed text-cgray">Das Originalfoto zeigt das 50-Zoll-Display als Wandmontage im Hochformat. Im Projektbericht finden Sie weitere Bilder, den Ablauf und das Kundenfeedback.</p>
+            <Link href="/news/gemeindehaus-besucherinformation/" className="mt-6 inline-flex items-center gap-2 font-semibold text-magenta hover:text-navy">Gemeindeprojekt ansehen <ArrowRight className="h-4 w-4" /></Link>
+          </div>
+        </div>
+      </section>
+
       {/* ── 3b. COMPARISON TABLE ─────────────────────────────────────────── */}
       <section className="w-full bg-white" id="vergleich">
         <div className="section-inner">

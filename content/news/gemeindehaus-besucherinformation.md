@@ -1,9 +1,9 @@
 ---
 title: "Besucherinformation im Gemeindehaus: vom Alltagstest zum Kauf"
 seoTitle: "Gemeindehaus: Digital Signage in der Praxis"
-description: "Eine Gemeinde testete die Bildschirmlösung über die Sommerferien und entschied sich danach für ein 50-Zoll-Display zur Besucherinformation."
+description: "Eine Gemeinde testete die Bildschirmlösung über die Sommerferien und entschied sich danach für ein Spark 5 mit 50 Zoll zur Besucherinformation."
 date: "2026-10-07T12:00:00+02:00"
-dateModified: "2026-10-07"
+dateModified: "2026-10-10"
 category: "Kundenprojekt"
 image: "/images/projekte/gemeinde/empfang.jpg"
 slug: "gemeindehaus-besucherinformation"
@@ -14,7 +14,9 @@ Ein Bildschirm im Gemeindehaus soll Besucherinnen und Besuchern helfen, die rich
 
 ## Die Aufgabe: Abteilungen und Stockwerke sichtbar machen
 
-Heute zeigt ein 50-Zoll-Display, auf welchen Stockwerken sich die Abteilungen befinden. Mitarbeitende können die Informationen selbst aktualisieren. Damit steht die einfache Orientierung im Gebäude im Mittelpunkt.
+Heute zeigt ein Spark 5 mit 50 Zoll, auf welchen Stockwerken sich die Abteilungen befinden. Mitarbeitende können die Informationen selbst aktualisieren. Damit steht die einfache Orientierung im Gebäude im Mittelpunkt.
+
+Das eingesetzte Modell stellen wir im [Spark-5-Produktbericht](/news/spark5-neues-modell/) vor.
 
 ## Erst ausprobieren, dann entscheiden
 
@@ -24,7 +26,7 @@ Die Gemeinde nutzte die Testphase, um die Lösung im eigenen Betrieb kennenzuler
 | --- | --- |
 | Einsatzort | Gemeindehaus |
 | Aufgabe | Abteilungen den Stockwerken zuordnen |
-| Display | 50 Zoll |
+| Display | Spark 5, 50 Zoll, als Wanddisplay im Hochformat |
 | Vorgehen | Test über die Sommerferien, anschliessend Kauf |
 | Inhaltspflege | Durch Mitarbeitende aktualisierbar |
 | Touch oder automatischer Check-in | Für dieses Projekt nicht als Funktion dokumentiert |

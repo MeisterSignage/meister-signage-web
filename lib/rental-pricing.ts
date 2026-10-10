@@ -51,6 +51,18 @@ export const OPTIONAL_FLOOR_STAND_MONTHLY = 50;
 export const RENTAL_FOOTNOTE = "Preise pro Display und Monat bei einer Laufzeit von 12 Monaten. Standardeinrichtung, Softwarelizenz und Wandhalterung inklusive.";
 
 export const RENTAL_FAQS = [
+  {
+    question: "Battery Board, Touch-Stele oder Display: Was passt zu meinem Einsatz?",
+    answer: "Für wechselnde Aufstellorte ohne Stromanschluss eignet sich das akkubetriebene Meister Board 43″. Es zeigt Inhalte ohne Touchbedienung. Die Meister Stele 55″ bietet Touch im Hochformat; für interaktive Funktionen braucht es passende Inhalte oder eine Anwendung. Sie benötigt einen Transporter und eine geplante Aufstellung. Spark- und Meister-Signage-Displays passen zu Wandmontage oder einem optionalen Ständer und benötigen Strom. Entscheidend sind Standort, Bedienung und Transport.",
+  },
+  {
+    question: "Was kostet ein Mietdisplay für einen Anlass inklusive Ständer und Transport?",
+    answer: "Ein Spark 5 kostet bei einem Monat Mietdauer CHF 459. Mit einem optionalen Displayständer für CHF 50 ergibt das CHF 509 für diesen Monat, vor allfälligen Steuern und zusätzlich vereinbarten Leistungen. Die Bereitstellung ist enthalten. Lieferung, Aufbau vor Ort, Rückholung und individuelle Inhalte werden separat offeriert. Für diese Leistungen benötigen wir Einsatzort, Termin, Geräteanzahl sowie Angaben zu Zufahrt, Treppen und Lift. Kürzere Events sowie Meister Board und Stele offerieren wir auf Anfrage.",
+  },
+  {
+    question: "Reichen 450 oder 500 Nits oder brauche ich ein helleres Display?",
+    answer: "Spark bietet 450 Nits, Meister Signage 43″ und 55″ bieten 500 Nits. Ob das genügt, hängt von Tageslicht, Reflexionen und Aufstellrichtung ab. Auch 700 oder 1’500 Nits sind keine pauschale Garantie für Lesbarkeit in direkter Sonne. Das Meister Board 43″ erreicht bis zu 3’000 Nits Spitzenhelligkeit und besitzt IP65-Schutz. Spitzenhelligkeit ist kein garantierter Dauerwert; hohe Helligkeit beeinflusst die Akkulaufzeit. Für Schaufenster oder Aussenflächen prüfen wir zusätzlich Temperatur und Wettereinfluss am konkreten Standort.",
+  },
   { question: "Was gilt für Rückgabe, Schäden und Verlängerung?", answer: "Rückgabetermin, Rückholung, Zustand bei Rückgabe, Umgang mit Schäden, allfällige Kaution und eine Verlängerung halten wir vor Mietbeginn schriftlich fest. Ein Monatsbetrag bedeutet keine freie monatliche Kündigung: Es gilt die vereinbarte Laufzeit. Ein vorzeitiger Wechsel oder Kauf wird gesondert vereinbart." },
   {
     question: "Was kostet die Display-Miete?",

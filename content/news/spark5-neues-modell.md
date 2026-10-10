@@ -6,7 +6,7 @@ date: "2026-04-22"
 category: "Produkte"
 image: "/images/products/Spark5-Design.webp"
 slug: "spark5-neues-modell"
-dateModified: "2026-10-07"
+dateModified: "2026-10-10"
 status: published
 carousel:
   hook: "Soll Ihr Schaufenster auch aus Distanz wirken?"
@@ -69,6 +69,14 @@ Eine Besonderheit, die wir in der [Vergleichstabelle](/digital-signage-anbieter-
 50 Zoll sind nicht für jeden Standort die richtige Wahl. Eine kompakte Theke oder ein kleines Empfangs­büro wirkt mit dem Spark 5 schnell überdimensioniert. Eine pauschale Distanzformel genügt nicht. Prüfen Sie Schriftgrösse, Informationsmenge und Sichtabstand anhand eines realen Musterlayouts. Eine detaillierte Anleitung findet sich im Ratgeber [Digital Signage Grösse wählen](/wissen/digital-signage-groesse-waehlen/).
 
 Für die anderen Einsatz­bereiche stehen die kompakteren Modelle bereit: Der [Spark 3](/digital-signage-kaufen/) für Theke und POS, der [Spark 4](/digital-signage-kaufen/) als Bestseller für mittlere Räume.
+
+## Spark 5 im Gemeindehaus: ein echtes Praxisbeispiel
+
+Eine Gemeinde setzt das Spark 5 mit 50 Zoll als Wanddisplay im Hochformat ein. Die Anzeige ordnet Abteilungen den Stockwerken zu; Mitarbeitende können die Informationen selbst aktualisieren. Nach einem Alltagstest über die Sommerferien entschied sich die Gemeinde für den Kauf.
+
+<figure style="margin:24px 0;max-width:640px"><img src="/images/projekte/gemeinde/wanddisplay.jpg" alt="Spark 5 im Hochformat neben dem Eingang eines Gemeindehauses mit einer Übersicht der Abteilungen" width="1152" height="1536" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:12px" /><figcaption>Spark 5 mit 50 Zoll als Besucherinformation im Gemeindehaus.</figcaption></figure>
+
+Weitere Originalbilder, den Projektablauf und das Kundenfeedback finden Sie im [Projektbericht zur Besucherinformation im Gemeindehaus](/news/gemeindehaus-besucherinformation/).
 
 ## Preise
 
