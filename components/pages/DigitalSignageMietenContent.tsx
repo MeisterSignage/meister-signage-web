@@ -1169,6 +1169,20 @@ export default function DigitalSignageMietenContent() {
           <h2 id="eventreferenz" className="mt-3 text-3xl font-light text-navy">Vier Spark-Displays für AI in Marketing.</h2>
           <p className="mt-4 max-w-2xl leading-relaxed text-cgray">Drei Spark 4 und ein Spark 5 für die Konferenz im The Circle in Zürich: Meister Signage übernahm Lieferung, Installation und Aufbau. Der Projektbericht zeigt die Programmanzeigen vor Ort und das Feedback des Veranstaltungsteams.</p>
           <Link href="/news/ai-in-marketing-event-displays/" className="mt-6 inline-flex items-center gap-2 font-semibold text-magenta hover:text-navy">Eventbericht mit Originalfotos ansehen <ArrowRight className="h-4 w-4" /></Link>
+          <h3 className="mt-10 text-xl font-semibold text-navy">Weitere Einblicke aus der Praxis</h3>
+          <div className="mt-5 grid gap-4 sm:grid-cols-2">
+            {[
+              { href: "/news/culinary-heights-chedi-displays/", title: "Culinary Heights im The Chedi", text: "Screen-Sponsoring für den kulinarischen Anlass im März 2025." },
+              { href: "/news/connect-com-energieversorger-symposium/", title: "Energieversorger-Symposium bei Connect Com", text: "Informationstafel mit Begrüssung und Programm, inklusive Aufbau und Inhaltsorganisation." },
+              { href: "/news/chedi-andermatt-regionale-angebote/", title: "Mehrmonatige Miete im The Chedi", text: "Drei Screens für regionale Ausflugs- und Mietangebote, mit Originalvideo." },
+              { href: "/news/elevendance-hotel-session-schweizerhof/", title: "elevendance im Schweizerhof Luzern", text: "Drei Screens als Wall und mit Einzelinhalten, mit einem kurzen Eventvideo." },
+            ].map((project) => (
+              <Link key={project.href} href={project.href} className="rounded-xl border border-navy/10 bg-white p-5 transition-colors hover:border-magenta/40">
+                <span className="font-semibold text-navy">{project.title}</span>
+                <span className="mt-2 block text-sm leading-relaxed text-cgray">{project.text}</span>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
