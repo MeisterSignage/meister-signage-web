@@ -1,4 +1,5 @@
 import Link from "next/link";
+import CookieSettingsButton from "./CookieSettingsButton";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { CONTACT } from "@/lib/contact";
@@ -222,7 +223,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="flex flex-col gap-4 py-7 sm:flex-row sm:items-center sm:justify-between">
-          <div className="flex items-center gap-6">
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
             <span className="text-[12px]" style={{ color: "#d1d5db" }}>
               © {year} Meister Signage
             </span>
@@ -233,6 +234,7 @@ export default function Footer() {
             >
               Datenschutz
             </Link>
+            <CookieSettingsButton />
             <Link
               href="/impressum/"
               className="text-[12px] transition-colors duration-150 hover:!text-white"

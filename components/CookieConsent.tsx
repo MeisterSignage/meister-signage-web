@@ -22,6 +22,12 @@ export default function CookieConsent() {
     }
   }, []);
 
+  useEffect(() => {
+    const openSettings = () => setVisible(true);
+    window.addEventListener("open-cookie-settings", openSettings);
+    return () => window.removeEventListener("open-cookie-settings", openSettings);
+  }, []);
+
   const accept = useCallback(() => {
     localStorage.setItem(STORAGE_KEY, "granted");
     setConsent("granted");
@@ -32,7 +38,9 @@ export default function CookieConsent() {
     localStorage.setItem(STORAGE_KEY, "denied");
     setConsent("denied");
     setVisible(false);
-  }, []);
+    // Unmounting Script does not stop analytics code already running.
+    if (consent === "granted") window.location.reload();
+  }, [consent]);
 
   return (
     <>
