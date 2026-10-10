@@ -1,7 +1,8 @@
 "use client";
 
-import { useState, useId } from "react";
+import { useState, useId, useRef } from "react";
 import { Phone, Mail, MessageCircle, MapPin, Clock } from "lucide-react";
+import { trackEvent } from "@/lib/analytics";
 import { CONTACT } from "@/lib/contact";
 
 type FormState = "idle" | "submitting" | "success" | "error";
@@ -49,6 +50,17 @@ const inputInvalid = inputBase + " border-red-400 focus:border-red-500 focus:rin
 
 export default function ContactFormSection({ rental = false }: { rental?: boolean }) {
   const id = useId();
+  const started = useRef(false);
+  const sending = useRef(false);
+  function trackForm(event: string, details: Record<string, string | number> = {}) {
+    trackEvent(event, { form_name: "kontaktformular", inquiry_type: isRental ? "rental" : "general", ...details });
+  }
+  function trackStart() {
+    if (!started.current) {
+      trackForm("lead_form_start");
+      started.current = true;
+    }
+  }
   const [isRental, setIsRental] = useState(rental);
   const [device, setDevice] = useState("");
   const [state, setState] = useState<FormState>("idle");
@@ -67,6 +79,7 @@ export default function ContactFormSection({ rental = false }: { rental?: boolea
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    if (sending.current) return;
     const form = e.currentTarget;
     const data = new FormData(form);
 
@@ -82,6 +95,7 @@ export default function ContactFormSection({ rental = false }: { rental?: boolea
     }
     data.set("anfrageart", isRental ? "Mietanfrage" : "Allgemeine Anfrage");
     if (Object.keys(validationErrors).length > 0) {
+      trackForm("lead_form_validation_error", { error_count: Object.keys(validationErrors).length });
       setErrors(validationErrors);
       const firstKey = Object.keys(validationErrors)[0] as keyof FieldErrors;
       const el = form.elements.namedItem(firstKey);
@@ -91,6 +105,9 @@ export default function ContactFormSection({ rental = false }: { rental?: boolea
 
     setErrors({});
     setState("submitting");
+    sending.current = true;
+    trackForm("lead_form_submit_attempt");
+    data.set("anfrageseite", window.location.pathname);
 
     /* Enrich submission with Formspree control fields */
     const senderName = (data.get("name") as string)?.trim() ?? "Kontaktformular";
@@ -106,19 +123,20 @@ export default function ContactFormSection({ rental = false }: { rental?: boolea
 
       if (res.ok) {
         setState("success");
-        // GA4-Conversion: abgesendete Kontaktanfrage (nur nach Consent aktiv)
-        const gtag = (window as unknown as { gtag?: (...args: unknown[]) => void }).gtag;
-        if (typeof gtag === "function") {
-          gtag("event", "generate_lead", { form_name: "kontaktformular" });
-        }
+        trackForm("generate_lead");
+        started.current = false;
         form.reset();
         setDatenschutz(false);
         setDevice("");
       } else {
+        trackForm("lead_form_error", { error_type: "server" });
         setState("error");
       }
     } catch {
+      trackForm("lead_form_error", { error_type: "network" });
       setState("error");
+    } finally {
+      sending.current = false;
     }
   }
 
@@ -190,6 +208,7 @@ export default function ContactFormSection({ rental = false }: { rental?: boolea
             ) : (
               <form
                 onSubmit={handleSubmit}
+                onChange={trackStart}
                 className="flex flex-col gap-5"
                 noValidate
                 aria-label="Kontaktformular"
@@ -342,6 +361,21 @@ export default function ContactFormSection({ rental = false }: { rental?: boolea
                       {errors.nachricht}
                     </p>
                   )}
+                </div>
+
+                <div className="flex flex-col gap-1.5">
+                  <label htmlFor={`${id}-quelle`} className="text-sm font-semibold text-navy">Wie sind Sie auf uns aufmerksam geworden? (optional)</label>
+                  <select id={`${id}-quelle`} name="aufmerksam_geworden" className={inputNormal} defaultValue="">
+                    <option value="">Bitte auswählen</option>
+                    <option>Google oder andere Suchmaschine</option>
+                    <option>ChatGPT oder andere KI</option>
+                    <option>LinkedIn</option>
+                    <option>Instagram</option>
+                    <option>Persönliche Empfehlung</option>
+                    <option>Event oder Display vor Ort</option>
+                    <option>Bereits Kunde</option>
+                    <option>Andere Quelle</option>
+                  </select>
                 </div>
 
                 {/* DSGVO-Checkbox */}

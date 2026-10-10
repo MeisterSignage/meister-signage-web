@@ -102,8 +102,7 @@ export default function DatenschutzPage() {
             <p className="card-body mb-3">
               Zusätzlich setzen wir Analyse-Cookies ein (Google Analytics 4 und Microsoft Clarity).
               Diese werden erst nach Ihrer ausdrücklichen Einwilligung über den Cookie-Banner aktiviert.
-              Ihre Einwilligung können Sie jederzeit widerrufen, indem Sie die gespeicherten
-              Browserdaten löschen und die Website erneut aufrufen.
+              Ihre Einwilligung können Sie jederzeit widerrufen, über «Cookie-Einstellungen» im Footer und dort «Ablehnen».
             </p>
             <p className="card-body">
               Wenn Sie im Cookie-Banner auf «Ablehnen» klicken, werden keine Analyse-Cookies gesetzt
@@ -123,7 +122,7 @@ export default function DatenschutzPage() {
             <p className="card-body mb-3">
               Google Analytics wird ausschliesslich nach Ihrer Einwilligung über den Cookie-Banner
               aktiviert. Die erhobenen Daten (z.&nbsp;B. aufgerufene Seiten, Verweildauer, Gerätetyp,
-              ungefährer Standort) werden an Google-Server übertragen und können in die USA
+              ungefährer Standort, Klicks auf Angebots- und Kontaktlinks sowie Formularbeginn, Fehler und erfolgreicher Versand ohne Feldinhalte) werden an Google-Server übertragen und können in die USA
               übermittelt werden.
             </p>
             <p className="card-body">

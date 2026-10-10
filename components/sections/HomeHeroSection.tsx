@@ -113,13 +113,14 @@ export default function HomeHeroSection({
 
             {/* Layer 4: CTAs */}
             <div className="flex flex-col gap-3 pt-1 sm:flex-row sm:flex-wrap sm:items-center">
-              <Link href={primaryCta.href} className="btn-primary gap-2.5">
+              <Link data-cta="home_hero_consultation" href={primaryCta.href} className="btn-primary gap-2.5">
                 {primaryCta.label}
                 <ArrowRight className="h-4 w-4 shrink-0" strokeWidth={2.5} />
               </Link>
               {secondaryCta && (
                 <Link
                   href={secondaryCta.href}
+                  data-cta="home_hero_solutions"
                   className="inline-flex items-center gap-2 rounded-[7px] px-5 py-3.5 text-[16px] font-semibold transition-all duration-200 hover:border-white/30 hover:text-white"
                   style={{
                     border: "1px solid rgba(255,255,255,0.18)",
@@ -132,7 +133,10 @@ export default function HomeHeroSection({
               )}
             </div>
 
-
+            <nav aria-label="Direkt zum passenden Angebot" className="flex flex-wrap gap-x-6 gap-y-3 text-sm font-semibold text-white">
+              <Link href="/digital-signage-mieten/" data-cta="home_hero_rental" className="underline underline-offset-4 hover:text-magenta">Displays mieten →</Link>
+              <Link href="/digital-signage-kaufen/" data-cta="home_hero_purchase" className="underline underline-offset-4 hover:text-magenta">Displays kaufen →</Link>
+            </nav>
           </div>
 
           {/* ── Layer 4: Display Visual ── */}
