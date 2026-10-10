@@ -11,6 +11,8 @@ interface FieldErrors {
   email?: string;
   nachricht?: string;
   datenschutz?: string;
+  mietende?: string;
+  mietanzahl?: string;
 }
 
 const FORMSPREE_ENDPOINT = "https://formspree.io/f/xlgzyjvk";
@@ -45,8 +47,10 @@ const inputBase =
 const inputNormal = inputBase + " border-navy/20 focus:border-magenta focus:ring-magenta";
 const inputInvalid = inputBase + " border-red-400 focus:border-red-500 focus:ring-red-400";
 
-export default function ContactFormSection() {
+export default function ContactFormSection({ rental = false }: { rental?: boolean }) {
   const id = useId();
+  const [isRental, setIsRental] = useState(rental);
+  const [device, setDevice] = useState("");
   const [state, setState] = useState<FormState>("idle");
   const [errors, setErrors] = useState<FieldErrors>({});
   const [datenschutz, setDatenschutz] = useState(false);
@@ -67,6 +71,16 @@ export default function ContactFormSection() {
     const data = new FormData(form);
 
     const validationErrors = validateForm(data, datenschutz);
+    const start = String(data.get("mietbeginn") ?? "");
+    const end = String(data.get("mietende") ?? "");
+    if (isRental && start && end && end < start) {
+      validationErrors.mietende = "Das Mietende darf nicht vor dem Mietbeginn liegen.";
+    }
+    const quantity = String(data.get("mietanzahl") ?? "");
+    if (isRental && quantity && (!Number.isInteger(Number(quantity)) || Number(quantity) < 1)) {
+      validationErrors.mietanzahl = "Bitte geben Sie eine ganze Anzahl ab 1 ein.";
+    }
+    data.set("anfrageart", isRental ? "Mietanfrage" : "Allgemeine Anfrage");
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
       const firstKey = Object.keys(validationErrors)[0] as keyof FieldErrors;
@@ -80,7 +94,7 @@ export default function ContactFormSection() {
 
     /* Enrich submission with Formspree control fields */
     const senderName = (data.get("name") as string)?.trim() ?? "Kontaktformular";
-    data.set("_subject", `Neue Anfrage von ${senderName} — Meister Signage`);
+    data.set("_subject", `${isRental ? "Mietanfrage" : "Neue Anfrage"} von ${senderName} — Meister Signage`);
     data.set("_replyto", (data.get("email") as string)?.trim() ?? "");
 
     try {
@@ -99,6 +113,7 @@ export default function ContactFormSection() {
         }
         form.reset();
         setDatenschutz(false);
+        setDevice("");
       } else {
         setState("error");
       }
@@ -254,6 +269,56 @@ export default function ContactFormSection() {
                     </p>
                   )}
                 </div>
+
+                <label className="flex items-center gap-3 text-sm font-semibold text-navy">
+                  <input type="checkbox" checked={isRental} onChange={(e) => { setIsRental(e.target.checked); clearError("mietende"); }} className="h-4 w-4 accent-magenta" />
+                  Ich möchte Displays mieten
+                </label>
+                {isRental && (
+                  <fieldset className="flex min-w-0 flex-col gap-4 rounded-xl border border-navy/15 bg-offwhite p-4">
+                    <legend className="px-2 font-semibold text-navy">Ihre Mietanfrage</legend>
+                    <p className="text-sm text-cgray">Tragen Sie ein, was schon feststeht. Die Angaben sind optional; mehrere Geräte können Sie in der Nachricht nennen. Ihre Anfrage ist unverbindlich.</p>
+                    <div>
+                      <label htmlFor={`${id}-geraet`} className="mb-1 block text-sm font-semibold text-navy">Gewünschtes Gerät</label>
+                      <select id={`${id}-geraet`} name="mietgeraet" value={device} onChange={(e) => setDevice(e.target.value)} className={inputNormal}>
+                        <option value="">Noch offen / Beratung gewünscht</option>
+                        {["Spark 3 (32 Zoll)", "Spark 4 (43 Zoll)", "Spark 5 (50 Zoll)", "Spark Q+ (33 Zoll)", "Meister Signage 43 Zoll", "Meister Signage 55 Zoll", "Meister Stele 55 Zoll (Touch)", "Meister Board 43 Zoll (Akku)", "Mehrere Modelle"].map((model) => <option key={model}>{model}</option>)}
+                      </select>
+                    </div>
+                    <div>
+                      <label htmlFor={`${id}-anzahl`} className="mb-1 block text-sm font-semibold text-navy">Anzahl Geräte</label>
+                      <input id={`${id}-anzahl`} name="mietanzahl" type="number" min="1" step="1" placeholder="z. B. 2" onChange={() => clearError("mietanzahl")} aria-invalid={!!errors.mietanzahl} aria-describedby={errors.mietanzahl ? `${id}-anzahl-err` : undefined} className={errors.mietanzahl ? inputInvalid : inputNormal} />
+                      {errors.mietanzahl && <p id={`${id}-anzahl-err`} role="alert" className="text-sm text-red-600">{errors.mietanzahl}</p>}
+                    </div>
+                    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                      <div>
+                        <label htmlFor={`${id}-beginn`} className="mb-1 block text-sm font-semibold text-navy">Mietbeginn</label>
+                        <input id={`${id}-beginn`} name="mietbeginn" type="date" onChange={() => clearError("mietende")} className={inputNormal} />
+                      </div>
+                      <div>
+                        <label htmlFor={`${id}-ende`} className="mb-1 block text-sm font-semibold text-navy">Mietende</label>
+                        <input id={`${id}-ende`} name="mietende" type="date" onChange={() => clearError("mietende")} aria-invalid={!!errors.mietende} aria-describedby={errors.mietende ? `${id}-ende-err` : undefined} className={errors.mietende ? inputInvalid : inputNormal} />
+                      </div>
+                    </div>
+                    {errors.mietende && <p id={`${id}-ende-err`} role="alert" className="text-sm text-red-600">{errors.mietende}</p>}
+                    <div>
+                      <label htmlFor={`${id}-ort`} className="mb-1 block text-sm font-semibold text-navy">Einsatzort / PLZ</label>
+                      <input id={`${id}-ort`} name="einsatzort" type="text" placeholder="Veranstaltungsort, Ort oder PLZ" className={inputNormal} />
+                    </div>
+                    <div>
+                      <label htmlFor={`${id}-transport`} className="mb-1 block text-sm font-semibold text-navy">Transport</label>
+                      <select id={`${id}-transport`} name="transport" className={inputNormal}>
+                        <option>Noch offen</option><option>Selbst abholen und zurückbringen</option><option>Lieferung und Rückholung gewünscht</option><option>Lieferung, Aufbau und Rückholung gewünscht</option>
+                      </select>
+                    </div>
+                    {(device.includes("Stele") || device === "Mehrere Modelle") && <p className="text-sm text-navy">Die Meister Stele benötigt einen geeigneten Transporter. Bitte beschreiben Sie Zufahrt, Treppen und Lift im folgenden Feld.</p>}
+                    <div>
+                      <label htmlFor={`${id}-zugang`} className="mb-1 block text-sm font-semibold text-navy">Zufahrt, Treppen, Lift und Aufbau</label>
+                      <textarea id={`${id}-zugang`} name="zugang_aufbau" rows={2} placeholder="z. B. ebenerdig, 1. Stock mit Warenlift, Aufbau ab 8 Uhr" className={inputNormal} />
+                    </div>
+                    <p className="text-sm text-cgray">Bereitstellung inklusive. Lieferung, Aufbau vor Ort und Rückholung offerieren wir separat. Stele und Battery Board: Mietpreis auf Anfrage.</p>
+                  </fieldset>
+                )}
 
                 {/* Nachricht */}
                 <div className="flex flex-col gap-1.5">

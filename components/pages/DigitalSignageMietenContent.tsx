@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import ContactFormSection from "@/components/sections/ContactFormSection";
 import Link from "next/link";
 import { useState } from "react";
 import { m as motion, useReducedMotion } from "framer-motion";
@@ -275,7 +276,7 @@ export default function DigitalSignageMietenContent() {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <Link href="/kontakt/" className="btn-primary gap-2.5" id="pakete">
+              <Link href="#mietanfrage" className="btn-primary gap-2.5" id="pakete">
                 Beratung anfragen
                 <ArrowRight className="h-4 w-4 shrink-0" strokeWidth={2} />
               </Link>
@@ -482,7 +483,7 @@ export default function DigitalSignageMietenContent() {
                     )}
                   </ul>
                   <Link
-                    href="/kontakt/"
+                    href="#mietanfrage"
                     className="mt-auto inline-flex items-center gap-1.5 text-[12px] font-bold uppercase tracking-[0.1em] text-magenta transition-colors duration-150 hover:text-navy"
                   >
                     Anfragen
@@ -513,7 +514,7 @@ export default function DigitalSignageMietenContent() {
                   <h3 className="text-lg font-semibold text-navy">{display.model}</h3>
                   <p className="mt-3 text-xl font-semibold text-navy">Ab CHF {display.monthlyPrices[12]} / Monat</p>
                   <p className="mt-2 text-sm text-cgray">Bei 12 Monaten Laufzeit, exkl. MWST. Weitere Laufzeiten im Vergleich unten.</p>
-                  <Link href="/kontakt/" className="btn-secondary mt-5">Miete anfragen</Link>
+                  <Link href="#mietanfrage" className="btn-secondary mt-5">Miete anfragen</Link>
                 </article>
               ))}
             </div>
@@ -744,7 +745,7 @@ export default function DigitalSignageMietenContent() {
               </p>
             </div>
             <Link
-              href="/kontakt/"
+              href="#mietanfrage"
               className="btn-primary mt-4 inline-flex shrink-0 items-center gap-2 sm:mt-0"
             >
               Mietanfrage senden
@@ -1162,6 +1163,10 @@ export default function DigitalSignageMietenContent() {
         </div>
       </section>
 
+      <div id="mietanfrage" className="scroll-mt-24">
+        <ContactFormSection rental />
+      </div>
+
       {/* ── 6. FAQ ───────────────────────────────────────────────────────── */}
       <section className="w-full bg-white">
         <div className="section-inner">
@@ -1248,7 +1253,7 @@ export default function DigitalSignageMietenContent() {
               Schildern Sie kurz Ihren Einsatz. Wir zeigen Ihnen das passende Paket und was es kostet — persönlich, innert 24h.
             </p>
             <div className="mt-2 flex flex-wrap justify-center gap-4">
-              <Link href="/kontakt/" className="btn-primary gap-2.5">
+              <Link href="#mietanfrage" className="btn-primary gap-2.5">
                 Beratung anfragen
                 <ArrowRight className="h-4 w-4 shrink-0" strokeWidth={2} />
               </Link>
