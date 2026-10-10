@@ -22,7 +22,7 @@ Ein Motiv über drei Displays zieht sich durch die gesamte Installation. Im näc
 
 Mit der Meister Signage Wall lassen sich mehrere Displays als gemeinsame Wall bespielen und im selben Ablauf wieder für einzelne Inhalte nutzen. Auch Abstände zwischen den Screens werden bei der Einrichtung des Layouts berücksichtigt.
 
-Die Synchronisierung erfolgt kabellos. Zwischen den Displays sind dafür keine Videokabel, Splitter oder separaten Video-Wall-Controller nötig. Jedes Display benötigt weiterhin einen Stromanschluss. So kann die Anordnung für einen Anlass eingerichtet werden, während sich Wall-Motive und Einzelinhalte über die Software wechseln lassen.
+Die Synchronisierung erfolgt kabellos über WLAN. Dafür müssen die Displays mit einem WLAN verbunden sein. Zwischen den Displays sind dafür keine Videokabel, Splitter oder separaten Video-Wall-Controller nötig. Jedes Display benötigt weiterhin einen Stromanschluss. So kann die Anordnung für einen Anlass eingerichtet werden, während sich Wall-Motive und Einzelinhalte über die Software wechseln lassen.
 
 ## Zehn Sekunden aus der Hotel Session
 
