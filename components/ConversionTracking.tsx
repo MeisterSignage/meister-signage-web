@@ -12,7 +12,10 @@ export default function ConversionTracking() {
       const method = href.startsWith("tel:") ? "phone"
         : href.startsWith("mailto:") ? "email"
         : /^https:\/\/(wa\.me|api\.whatsapp\.com)\//i.test(href) ? "whatsapp" : null;
-      if (method) trackEvent("contact_click", { method });
+      if (method) {
+        trackEvent("contact_click", { method });
+        trackEvent(`contact_${method}_click`);
+      }
       const cta = a.getAttribute("data-cta");
       if (cta) trackEvent("cta_click", { cta_name: cta });
     }
