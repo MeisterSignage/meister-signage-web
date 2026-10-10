@@ -36,6 +36,8 @@ export default function CookieConsent() {
 
   const decline = useCallback(() => {
     localStorage.setItem(STORAGE_KEY, "denied");
+    const clarity = (window as unknown as { clarity?: (...args: unknown[]) => void }).clarity;
+    clarity?.("consentv2", { analytics_Storage: "denied", ad_Storage: "denied" });
     setConsent("denied");
     setVisible(false);
     // Unmounting Script does not stop analytics code already running.
@@ -60,7 +62,7 @@ export default function CookieConsent() {
       {/* Clarity — only after consent */}
       {consent === "granted" && (
         <Script id="clarity-init" strategy="afterInteractive">
-          {`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","${CLARITY_ID}");`}
+          {`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};c[a]("consentv2",{analytics_Storage:"granted",ad_Storage:"denied"});t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","${CLARITY_ID}");`}
         </Script>
       )}
 
