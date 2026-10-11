@@ -245,7 +245,7 @@ export default function DigitalSignageMietenContent() {
           {/* Text */}
           <motion.div
             className="z-10 max-w-xl"
-            initial={reduced ? false : { opacity: 0, y: 28 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: easeOut }}
           >
@@ -321,7 +321,7 @@ export default function DigitalSignageMietenContent() {
           {/* Hero image */}
           <motion.div
             className="relative flex items-center justify-center lg:justify-end"
-            initial={reduced ? false : { opacity: 0, scale: 0.96, x: 20 }}
+            initial={false}
             animate={{ opacity: 1, scale: 1, x: 0 }}
             transition={{ duration: 0.9, ease: easeOut, delay: 0.15 }}
           >
@@ -1168,7 +1168,7 @@ export default function DigitalSignageMietenContent() {
           <span className="eyebrow">Echter Eventeinsatz</span>
           <h2 id="eventreferenz" className="mt-3 text-3xl font-light text-navy">Vier Spark-Displays für AI in Marketing.</h2>
           <p className="mt-4 max-w-2xl leading-relaxed text-cgray">Drei Spark 4 und ein Spark 5 für die Konferenz im The Circle in Zürich: Meister Signage übernahm Lieferung, Installation und Aufbau. Der Projektbericht zeigt die Programmanzeigen vor Ort und das Feedback des Veranstaltungsteams.</p>
-          <Link href="/news/ai-in-marketing-event-displays/" className="mt-6 inline-flex items-center gap-2 font-semibold text-magenta hover:text-navy">Eventbericht mit Originalfotos ansehen <ArrowRight className="h-4 w-4" /></Link>
+          <Link href="/news/ai-in-marketing-event-displays/" className="mt-6 inline-flex items-center gap-2 font-semibold text-[#b00068] hover:text-navy">Eventbericht mit Originalfotos ansehen <ArrowRight className="h-4 w-4" /></Link>
           <h3 className="mt-10 text-xl font-semibold text-navy">Weitere Einblicke aus der Praxis</h3>
           <div className="mt-5 grid gap-4 sm:grid-cols-2">
             {[

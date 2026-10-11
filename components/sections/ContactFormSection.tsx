@@ -341,7 +341,7 @@ export default function ContactFormSection({ rental = false }: { rental?: boolea
                       <label htmlFor={`${id}-zugang`} className="mb-1 block text-sm font-semibold text-navy">Zufahrt, Treppen, Lift und Aufbau</label>
                       <textarea id={`${id}-zugang`} name="zugang_aufbau" rows={2} placeholder="z. B. ebenerdig, 1. Stock mit Warenlift, Aufbau ab 8 Uhr" className={inputNormal} />
                     </div>
-                    <p className="text-sm text-cgray">Bereitstellung inklusive. Lieferung, Aufbau vor Ort und Rückholung offerieren wir separat. Stele und Battery Board: Mietpreis auf Anfrage. Mit dieser Anfrage buchen Sie noch nichts. Die <a href="/agb/" target="_blank" rel="noopener noreferrer" className="text-magenta underline">AGB</a> bestätigen Sie erst bei Annahme der Offerte.</p>
+                    <p className="text-sm text-cgray">Bereitstellung inklusive. Lieferung, Aufbau vor Ort und Rückholung offerieren wir separat. Stele und Battery Board: Mietpreis auf Anfrage. Mit dieser Anfrage buchen Sie noch nichts. Die <a href="/agb/" target="_blank" rel="noopener noreferrer" className="text-[#b00068] underline">AGB</a> bestätigen Sie erst bei Annahme der Offerte.</p>
                   </fieldset>
                 )}
 
@@ -458,7 +458,7 @@ export default function ContactFormSection({ rental = false }: { rental?: boolea
                 </div>
 
                 <div className="flex flex-col gap-1 pt-1">
-                  <p className="flex items-center gap-1.5 text-xs text-cgray/70">
+                  <p className="flex items-center gap-1.5 text-xs text-cgray">
                     <Clock className="h-3 w-3 shrink-0" strokeWidth={1.75} />
                     Antwort innert 24h · Kostenlos & unverbindlich
                   </p>

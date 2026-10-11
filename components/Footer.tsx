@@ -74,7 +74,7 @@ function NavColumn({
       </p>
       <nav className="flex flex-col gap-3">
         {links.map(({ label, href }) => (
-          <Link
+          <Link prefetch={false}
             key={href}
             href={href}
             className="group/link relative w-fit text-[14px] transition-colors duration-200"
@@ -135,7 +135,7 @@ export default function Footer() {
           {/* Brand column */}
           <div className="flex flex-col gap-8 lg:col-span-4">
 
-            <Link href="/" className="inline-block w-fit">
+            <Link prefetch={false} href="/" className="inline-block w-fit">
               <Image
                 src="/logo.svg"
                 alt="Meister Signage"
@@ -169,7 +169,7 @@ export default function Footer() {
             </p>
 
             {/* CTA button */}
-            <Link
+            <Link prefetch={false}
               href="/kontakt/"
               className="group/cta inline-flex w-fit items-center gap-2.5 rounded-[8px] border border-white/20 px-5 py-3 text-[13px] font-semibold transition-all duration-200 hover:border-white/35 hover:bg-white/[0.04]"
               style={{ color: "#f3f4f6" }}
@@ -227,30 +227,30 @@ export default function Footer() {
             <span className="text-[12px]" style={{ color: "#d1d5db" }}>
               © {year} Meister Signage
             </span>
-            <Link
+            <Link prefetch={false}
               href="/datenschutz/"
               className="text-[12px] transition-colors duration-150 hover:!text-white"
               style={{ color: "#d1d5db" }}
             >
               Datenschutz
             </Link>
-            <Link href="/agb/" className="text-[12px] transition-colors duration-150 hover:!text-white" style={{ color: "#d1d5db" }}>AGB</Link>
+            <Link prefetch={false} href="/agb/" className="text-[12px] transition-colors duration-150 hover:!text-white" style={{ color: "#d1d5db" }}>AGB</Link>
             <CookieSettingsButton />
-            <Link
+            <Link prefetch={false}
               href="/impressum/"
               className="text-[12px] transition-colors duration-150 hover:!text-white"
               style={{ color: "#d1d5db" }}
             >
               Impressum
             </Link>
-            <Link
+            <Link prefetch={false}
               href="/versand-und-rueckgabe/"
               className="text-[12px] transition-colors duration-150 hover:!text-white"
               style={{ color: "#d1d5db" }}
             >
               Versand & Rückgabe
             </Link>
-            <Link
+            <Link prefetch={false}
               href="/redaktionelle-richtlinien/"
               className="text-[12px] transition-colors duration-150 hover:!text-white"
               style={{ color: "#d1d5db" }}

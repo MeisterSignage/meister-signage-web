@@ -200,7 +200,7 @@ export default function LandingPageContent({
           {/* Text */}
           <motion.div
             className={`z-10 ${hasImage ? "max-w-xl" : "max-w-3xl"}`}
-            initial={reduced ? false : { opacity: 0, y: 28 }}
+            initial={false}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, ease: easeOut }}

@@ -92,7 +92,7 @@ export default function Nav() {
       <div className="mx-auto flex h-[68px] max-w-content items-center justify-between px-4 md:px-10">
 
         {/* Logo */}
-        <Link href="/" className="flex shrink-0 items-center">
+        <Link prefetch={false} href="/" className="flex shrink-0 items-center">
           <Image
             src="/logo.svg"
             alt="Meister Signage"
@@ -109,7 +109,7 @@ export default function Nav() {
             const hasMenu = !!(item.dropdown || item.groups);
             if (!hasMenu) {
               return (
-                <Link
+                <Link prefetch={false}
                   key={item.href}
                   href={item.href}
                   className={`text-[15px] font-medium tracking-wide transition-colors duration-150 ${
@@ -131,7 +131,7 @@ export default function Nav() {
 
             return (
               <div key={item.href} className="group relative">
-                <Link
+                <Link prefetch={false}
                   href={item.href}
                   className={`flex items-center gap-1 text-[15px] font-medium tracking-wide transition-colors duration-150 ${
                     isActive(item.href) ? "text-magenta" : "text-navy/70 hover:text-navy"
@@ -158,7 +158,7 @@ export default function Nav() {
                               {group.heading}
                             </p>
                             {group.items.map((d) => (
-                              <Link
+                              <Link prefetch={false}
                                 key={d.href}
                                 href={d.href}
                                 className="group/item flex flex-col rounded-[10px] px-3 py-2.5 transition-colors duration-100 hover:bg-offwhite"
@@ -183,7 +183,7 @@ export default function Nav() {
                         }
                       >
                         {simpleList.map((d) => (
-                          <Link
+                          <Link prefetch={false}
                             key={d.href}
                             href={d.href}
                             className="group/item flex flex-col rounded-[10px] px-4 py-3 transition-colors duration-100 hover:bg-offwhite"
@@ -209,7 +209,7 @@ export default function Nav() {
 
         {/* Desktop CTA */}
         <div className="hidden items-center gap-2 lg:flex">
-          <Link
+          <Link prefetch={false}
             href="/news/"
             className={`inline-flex items-center rounded-[7px] border border-magenta/35 px-4 py-2 text-[14px] font-semibold tracking-wide transition-all duration-150 hover:border-magenta hover:bg-magenta/[0.06] ${
               isActive("/news") ? "text-magenta" : "text-magenta/85 hover:text-magenta"
@@ -217,7 +217,7 @@ export default function Nav() {
           >
             Blog
           </Link>
-          <Link
+          <Link prefetch={false}
             href="/kontakt/"
             className="inline-flex items-center rounded-[7px] border border-magenta bg-magenta px-4 py-2 text-[14px] font-semibold tracking-wide text-white shadow-[0_4px_14px_rgba(254,1,154,0.25)] transition-all duration-150 hover:border-[#d9007c] hover:bg-[#d9007c] hover:shadow-[0_6px_18px_rgba(254,1,154,0.35)]"
           >
@@ -252,7 +252,7 @@ export default function Nav() {
                 const renderItem = (d: DropdownItem) => {
                   const childActive = pathname === d.href;
                   return (
-                    <Link
+                    <Link prefetch={false}
                       key={d.href}
                       href={d.href}
                       className="flex flex-col py-3"
@@ -313,7 +313,7 @@ export default function Nav() {
                         )}
                       </>
                     ) : (
-                      <Link
+                      <Link prefetch={false}
                         href={item.href}
                         className={`block py-4 text-[16px] font-medium transition-colors ${
                           itemActive ? "text-magenta" : "text-navy/80 active:text-navy"
@@ -328,7 +328,7 @@ export default function Nav() {
               })}
 
               {/* Blog — mobile only (sits in desktop CTA area on lg) */}
-              <Link
+              <Link prefetch={false}
                 href="/news/"
                 className={`block py-4 text-[16px] font-medium transition-colors ${
                   isActive("/news") ? "text-magenta" : "text-navy/80 active:text-navy"
@@ -340,7 +340,7 @@ export default function Nav() {
             </nav>
 
             <div className="mt-5 border-t border-navy/10 pt-5">
-              <Link
+              <Link prefetch={false}
                 href="/kontakt/"
                 className="btn-primary w-full justify-center"
                 onClick={() => setMenuOpen(false)}
