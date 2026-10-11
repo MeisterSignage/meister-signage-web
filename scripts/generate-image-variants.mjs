@@ -78,6 +78,9 @@ async function main() {
   let generated = 0;
   let skipped = 0;
   for await (const src of walkWebp(ROOT)) {
+    if (/Spark[345Q]-Design\.webp$/.test(src)) {
+      await maybeGenerate(src, { suffix: "-600w", width: 600, minSourceWidth: 600 });
+    }
     for (const v of VARIANTS) {
       const out = await maybeGenerate(src, v);
       if (out) {

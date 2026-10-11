@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import RentalSparkImage from "@/components/RentalSparkImage";
 import ContactFormSection from "@/components/sections/ContactFormSection";
 import Link from "next/link";
 import { useState } from "react";
@@ -334,13 +335,11 @@ export default function DigitalSignageMietenContent() {
               }}
             />
             <div className="relative w-full max-w-[560px]">
-              <Image
+              <RentalSparkImage
                 src="/images/products/Spark5-Design.webp"
                 alt="Meister Signage Spark 5 — 50 Zoll Display mieten"
-                width={1400}
-                height={900}
-                className="w-full"
-          fetchPriority="high"
+                hero
+                sizes="(min-width: 1200px) 560px, (min-width: 1024px) calc((100vw - 80px) / 2), (min-width: 640px) 560px, calc(100vw - 48px)"
                 style={{
                   filter:
                     "drop-shadow(0 0 2px rgba(254,1,154,0.9)) drop-shadow(0 0 6px rgba(254,1,154,0.35))",
@@ -433,12 +432,12 @@ export default function DigitalSignageMietenContent() {
                       "linear-gradient(145deg, #0d1628 0%, #1a2744 60%, #0a1020 100%)",
                   }}
                 >
-                  <Image
+                  <RentalSparkImage
                     src={pkg.imageSrc}
                     alt={`${pkg.model} – Digital Signage Display mieten`}
-                    fill
-                    className="object-contain p-6 transition-transform duration-500 ease-out will-change-transform group-hover:scale-[1.05]"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    sizes={pkg.imageSrc.includes("SparkQ-")
+                      ? "(min-width: 1200px) 151px, (min-width: 1024px) calc(18.75vw - 74.25px), (min-width: 768px) calc(37.5vw - 85.5px), (min-width: 640px) calc(37.5vw - 67.5px), calc(75vw - 72px)"
+                      : "(min-width: 1200px) 217px, (min-width: 1024px) calc(25vw - 83px), (min-width: 768px) calc(50vw - 98px), (min-width: 640px) calc(50vw - 74px), calc(100vw - 80px)"}
                   />
                   {pkg.badge && (
                     <div className="absolute left-4 top-4">
