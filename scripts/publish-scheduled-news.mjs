@@ -8,9 +8,9 @@
  * to:
  *   - status: published
  *
- * Used by .github/workflows/publish-scheduled.yml on a weekly cron.
+ * Used by .github/workflows/publish-scheduled.yml on a recurring cron.
  *
- * Exits with 0 in all cases. The workflow checks `git status` afterwards
+ * Exits nonzero on failure. The workflow checks `git status` afterwards
  * to decide whether to commit and push.
  */
 
@@ -55,7 +55,9 @@ async function main() {
       flipped++;
       const slugMatch = frontmatter.match(/^slug:\s*"?([^"\n]+?)"?\s*$/m);
       const slug = (slugMatch ? slugMatch[1] : file.replace(/\.md$/, "")).trim();
-      published.push(slug);
+      // LinkedIn imports are already scheduled on the social platform.
+      // Publish their blog article without sending a duplicate social post.
+      if (!/^share_social:\s*false\s*$/m.test(frontmatter)) published.push(slug);
       console.log(`[publish] ${file} (scheduled date ${dateRaw})`);
     }
   }

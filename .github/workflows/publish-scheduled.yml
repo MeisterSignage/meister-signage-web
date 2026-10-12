@@ -1,13 +1,16 @@
 name: Publish Scheduled News
 
-# Runs every Tuesday at ~04:07 UTC = 06:07 CEST (Apr–Oct) / 05:07 CET (Nov–Mar).
-# Minute is offset from :00 on purpose: GitHub's scheduled runs at the top of
-# the hour are the most heavily congested and are frequently delayed or dropped.
-# GitHub-Cron is UTC-only; small DST drift accepted.
+# Check due posts every 30 minutes on publishing days. UTC dates in each
+# article preserve Europe/Zurich summer/winter time. GitHub and deploy latency
+# mean publication is shortly after, not guaranteed at the exact minute.
 on:
   schedule:
-    - cron: "7 4 * * 2"
+    - cron: "7,37 * * * 2,4"
   workflow_dispatch:  # allow manual run via GitHub UI ("Run workflow")
+
+concurrency:
+  group: publish-scheduled-news
+  cancel-in-progress: false
 
 permissions:
   contents: write  # so the job can push back the commit
