@@ -5,7 +5,7 @@ date: "2026-10-13T07:00:00.000Z"
 category: "Battery-Board"
 image: "/images/blog/battery-board-sonnige-standorte/1.webp"
 slug: "battery-board-sonnige-standorte"
-status: scheduled
+status: published
 share_social: false
 source_post: P01
 ---
