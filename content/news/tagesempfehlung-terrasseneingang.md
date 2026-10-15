@@ -5,7 +5,7 @@ date: "2026-10-15T14:00:00.000Z"
 category: "Battery-Board"
 image: "/images/blog/tagesempfehlung-terrasseneingang/1.webp"
 slug: "tagesempfehlung-terrasseneingang"
-status: scheduled
+status: published
 share_social: false
 source_post: P02
 ---
