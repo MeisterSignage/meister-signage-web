@@ -5,7 +5,7 @@ date: "2026-10-20T07:00:00.000Z"
 category: "LED-Wand"
 image: "/images/blog/led-wand-lcd-videowand-unterschied/1.webp"
 slug: "led-wand-lcd-videowand-unterschied"
-status: scheduled
+status: published
 share_social: false
 source_post: P11
 ---
