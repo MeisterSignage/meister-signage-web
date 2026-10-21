@@ -6,7 +6,7 @@ import JsonLd from "@/components/JsonLd";
 import { faqSchema } from "@/lib/schema/faq";
 import { breadcrumbSchema } from "@/lib/schema/breadcrumb";
 import { serviceSchema } from "@/lib/schema/service";
-import { rentalOfferSchema } from "@/lib/schema/product";
+import { rentalServiceSchema } from "@/lib/schema/rental";
 import { RENTAL_PACKAGES, RENTAL_FAQS, RENTAL_TERMS, MEISTER_RENTAL_DISPLAYS, MEISTER_DISPLAY_DETAILS, MEISTER_RENTAL_CONDITIONS } from "@/lib/rental-pricing";
 
 const SITE_URL = "https://www.meister-signage.ch";
@@ -34,16 +34,14 @@ export const metadata: Metadata = {
   },
 };
 
-// Miet-Angebote als Product/Offer mit priceSpecification (monatlich) — für
-// Rich Results & KI-Zitierbarkeit. Preise = zentrale Miet-Preise des Spark-Sortiments.
+// Mietleistungen mit monatlichen Offer-Preisen aus der zentralen Preisliste.
+// Product-Rich-Results sind für diese Mietübersicht nicht vorgesehen.
 const RENTAL_OFFERS = RENTAL_PACKAGES.map((pkg) => ({
   name: `Meister Signage ${pkg.model} – ${pkg.size} Display mieten`,
   description: `${pkg.desc} Monatsmiete bei 12 Monaten Laufzeit, inklusive Standardeinrichtung, Softwarelizenz, Wandhalterung und persönlicher Betreuung.`,
   monthlyPrice: pkg.monthlyPrices[12],
   rentalDurationMonths: 12,
   image: pkg.imageSrc,
-  screenSize: pkg.size,
-  resolution: pkg.spec,
 }));
 
 const MEISTER_RENTAL_SCHEMA = {
@@ -55,8 +53,12 @@ const MEISTER_RENTAL_SCHEMA = {
       "@type": "ListItem",
       position: index + 1,
       item: {
-        "@type": "Product",
-        name: display.model,
+        "@type": "Service",
+        name: `${display.model} mieten`,
+        url: PAGE_URL,
+        serviceType: "Bildschirmvermietung",
+        provider: { "@id": `${SITE_URL}/#organization` },
+        areaServed: { "@type": "Country", name: "Schweiz" },
         description: `${MEISTER_DISPLAY_DETAILS} ${MEISTER_RENTAL_CONDITIONS}`,
         brand: { "@type": "Brand", name: "Meister Signage" },
         offers: RENTAL_TERMS.map((months) => ({
@@ -113,7 +115,7 @@ export default function DigitalSignageMietenPage() {
         }
       />
 
-      {rentalOfferSchema(RENTAL_OFFERS, PAGE_URL).map((schema, i) => (
+      {rentalServiceSchema(RENTAL_OFFERS, PAGE_URL).map((schema, i) => (
         <JsonLd key={`rental-${i}`} schema={schema as Record<string, unknown>} />
       ))}
 
