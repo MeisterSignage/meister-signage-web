@@ -1,5 +1,13 @@
 export const PURCHASE_FAQS = [
   {
+    question: "Was ist beim Kauf eines LCD-Displays für Digital Signage wichtig?",
+    answer: "Ein LCD-Display allein ist noch kein vollständiges Digital-Signage-System. Prüfen Sie Helligkeit am Standort, Auflösung, Betriebsdauer, Hoch- oder Querformat und Anschlüsse. Für zentral wechselnde Inhalte benötigen Sie zusätzlich einen kompatiblen integrierten oder externen Player und die passende Software. Hardware, Einrichtung und Software werden im Angebot getrennt aufgeführt.",
+  },
+  {
+    question: "Kann ich statt eines Signage-Displays einen Fernseher verwenden?",
+    answer: "Für einen einfachen Test kann ein vorhandener Fernseher mit passendem Player genügen. Für den dauerhaften gewerblichen Einsatz müssen Betriebsdauer, Fernsteuerung, Hochformat und Garantiebedingungen des konkreten Geräts passen. Die passende Lösung richtet sich nach Standort und Anwendung; ein Fernseher bietet diese Eigenschaften nicht automatisch.",
+  },
+  {
     question: "Was ist im Kaufpreis enthalten?",
     answer: "Im Kaufpreis ist die Hardware enthalten. Software-Lizenz, Einrichtung, Versand und laufender Support werden separat ausgewiesen und im Angebot transparent aufgeführt.",
   },

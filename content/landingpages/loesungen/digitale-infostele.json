@@ -107,6 +107,10 @@
     {
       "question": "Welche Angaben brauche ich für eine Offerte für eine Infostele?",
       "answer": "Hilfreich sind ein Foto des Standorts, die verfügbare Stellfläche, gewünschte Inhalte, tägliche Betriebszeiten und die Entscheidung Anzeige oder Touch. Nennen Sie auch Strom- und Netzwerkzugang sowie den gewünschten Termin. Für eine interaktive Stele klären wir zusätzlich Bedienablauf, Sprachversionen und benötigte Schnittstellen."
+    },
+    {
+      "question": "Welche Funktionen braucht ein digitales Gebäudeverzeichnis oder Directory Kiosk?",
+      "answer": "Eine reine Verzeichnisanzeige braucht gut lesbare Ziele, Etagen und verständliche Wegangaben. Ein interaktiver Directory Kiosk benötigt zusätzlich eine Touch-Anwendung mit Suche oder Zielauswahl, klarer Navigation und einer Rückkehr zur Startansicht. Mehrsprachigkeit, erreichbare Bedienhöhe und die Aktualisierung von Raumdaten werden mitgeplant. Eine automatische Routenberechnung oder Anbindung an Gebäudedaten ist eine separat zu prüfende Funktion."
     }
   ],
   "internalLinks": [
@@ -291,5 +295,5 @@
       }
     ]
   },
-  "updatedAt": "2026-10-09"
+  "updatedAt": "2026-10-21"
 }

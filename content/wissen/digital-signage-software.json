@@ -6,10 +6,10 @@
   "eyebrow": "Wissen · Software",
   "h1": "Digital Signage Software einfach erklärt.",
   "intro": "Digital-Signage-Software einfach erklärt: was sie tut, wie sie funktioniert, worauf es ankommt. Die Software ist das Herzstück jeder Digital-Signage-Lösung. Sie entscheidet darüber, wie einfach Inhalte aktualisiert, geplant und über mehrere Displays ausgespielt werden können.",
-  "definition": "Digital Signage Software ist die zentrale Oberfläche, über die Inhalte für ein oder mehrere Displays verwaltet, geplant und ausgespielt werden – ohne USB-Stick und ohne lokales Eingreifen am Bildschirm.",
+  "definition": "Digital-Signage-Software ist das Content-Management-System (CMS) für Bildschirme: Sie verwaltet Medien, Playlists, Zeitpläne und die Zuordnung zu Geräten oder Standorten. Ein kompatibler integrierter oder externer Media-Player übernimmt die Wiedergabe am Display. CMS, Player und Bildschirm erfüllen unterschiedliche Aufgaben.",
   "explanation": [
     "Ohne zentrale Software müssten Inhalte an jedem Bildschirm einzeln aktualisiert werden – per USB-Stick, vor Ort, manuell. Mit Software werden Inhalte einmal vorbereitet und automatisch an die gewünschten Displays ausgespielt.",
-    "Gute Digital Signage Software ist webbasiert, benötigt keine lokale Installation und lässt sich von jedem Gerät aus bedienen. Inhalte können stunden-, tages- oder wochenbasiert geplant werden.",
+    "Bei einer Cloud-Lösung wird das CMS im Webbrowser bedient. Die Mitarbeitenden laden Medien hoch, stellen Playlists zusammen und wählen die Zielgeräte sowie den Zeitplan. Der Player muss die gewählte Software, die Medienformate und die Auflösung unterstützen. Ein Browser-Login für die Verwaltung ersetzt keinen kompatiblen Player am Display.",
     "Die Meister Signage Software ist auf den schweizerischen KMU-Alltag zugeschnitten: klare Oberfläche, vorbereitete Templates, mehrere Benutzer und Standorte – ohne IT-Aufwand."
   ],
   "examples": [
@@ -54,6 +54,26 @@
     {
       "question": "Können mehrere Standorte zentral gesteuert werden?",
       "answer": "Ja. Standorte lassen sich in Gruppen organisieren und gezielt mit passenden Inhalten versorgen – aus einer zentralen Oberfläche."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Signage-CMS und Media-Player?",
+      "answer": "Das CMS verwaltet und plant Inhalte; der Player lädt sie und gibt sie am Bildschirm wieder. Der Player kann im Display integriert sein oder extern angeschlossen werden. Vor der Auswahl werden Betriebssystem, Medienformate, Auflösung und die Verbindung zwischen CMS und Player geprüft."
+    },
+    {
+      "question": "Worauf sollte ich beim Vergleich von Digital-Signage-Software achten?",
+      "answer": "Prüfen Sie die Kompatibilität Ihrer Displays und Player, unterstützte Medienformate, Zeitplanung, Geräteverwaltung, Benutzerrechte und das Offline-Verhalten. Klären Sie ausserdem die Lizenzierung je Display, Support, Datenverarbeitung und mögliche Zusatzkosten für Vorlagen oder Schnittstellen. Testen Sie einen eigenen Beispielinhalt auf dem vorgesehenen Gerät."
+    },
+    {
+      "question": "Kann Digital-Signage-Software einen vorhandenen Fernseher steuern?",
+      "answer": "Ein vorhandener Fernseher kann Inhalte über einen passenden externen Player anzeigen, wenn Anschlüsse und Konfiguration stimmen. Fernsteuerung, Ein- und Ausschaltzeiten oder Statusüberwachung sind dadurch nicht automatisch verfügbar. Auch Betriebsdauer, Hochformat und Garantiebedingungen des Fernsehers müssen für den Einsatz passen."
+    },
+    {
+      "question": "Gibt es kostenlose Digital-Signage-Software?",
+      "answer": "Es gibt kostenlose und quelloffene Signage-Lösungen. Prüfen Sie jeweils die aktuellen Lizenzbedingungen, erlaubte Gerätezahl, Medienformate und den Funktionsumfang. Kostenlos bedeutet nicht automatisch, dass Hosting, Player, Einrichtung und Betreuung enthalten sind. Die Meister-Signage-Lizenz ist kostenpflichtig beziehungsweise im vereinbarten Spark-Mietpaket enthalten."
+    },
+    {
+      "question": "Was bedeutet Cloud Digital Signage?",
+      "answer": "Bei Cloud Digital Signage werden Inhalte und Zeitpläne über eine online erreichbare Verwaltungsplattform gepflegt. Die zugeordneten Player rufen die Inhalte ab und geben sie auf den Displays wieder. Lokale Zwischenspeicherung kann die Wiedergabe bei Verbindungsunterbrüchen ermöglichen; aktuelle Webseiten und Live-Daten benötigen weiterhin Internet."
     }
   ],
   "internalLinks": [
@@ -83,5 +103,45 @@
     }
   ],
   "datePublished": "2026-05-17",
-  "dateModified": "2026-10-07"
+  "dateModified": "2026-10-21",
+  "comparison": {
+    "title": "CMS, Player und Display: Wer übernimmt welche Aufgabe?",
+    "columns": [
+      "Aufgabe",
+      "Vor dem Einsatz prüfen"
+    ],
+    "rows": [
+      {
+        "label": "CMS / Software",
+        "values": [
+          "Medien verwalten, Playlists und Zeitpläne erstellen",
+          "Benutzerrechte, Lizenzumfang und benötigte Schnittstellen"
+        ]
+      },
+      {
+        "label": "Media-Player",
+        "values": [
+          "Inhalte abrufen, gegebenenfalls lokal speichern und wiedergeben",
+          "Kompatibilität mit CMS, Medienformaten und Auflösung"
+        ]
+      },
+      {
+        "label": "Display",
+        "values": [
+          "Die vom Player gelieferten Inhalte sichtbar darstellen",
+          "Helligkeit, Betriebsdauer, Ausrichtung und Anschlüsse"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "label": "Software-Demo und Funktionen",
+        "href": "/loesungen/software/"
+      },
+      {
+        "label": "Geeignete Displays vergleichen",
+        "href": "/loesungen/displays/"
+      }
+    ]
+  }
 }
