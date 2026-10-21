@@ -87,6 +87,18 @@
     {
       "question": "Was unterscheidet Digital Signage von einem Fernseher mit USB-Stick?",
       "answer": "Ein Fernseher mit USB-Wiedergabe kann für einfache Inhalte ausreichen. Digital Signage ergänzt je nach System Zeitpläne, Vorlagen, zentrale Aktualisierung und die Verwaltung mehrerer Bildschirme. Bei der Hardware zählen die freigegebene Betriebsdauer, Hochformat-Eignung, Helligkeit und unterstützte Anschlüsse. Ein professionelles System muss zur Aufgabe passen; mehr Funktionen sind nicht automatisch erforderlich."
+    },
+    {
+      "question": "Was ist ein LCD-Display und was bedeutet LCD?",
+      "answer": "LCD steht für Liquid Crystal Display, auf Deutsch Flüssigkristallanzeige. Flüssigkristalle steuern, wie viel Licht der Hintergrundbeleuchtung durch die einzelnen Bildpunkte gelangt. Ein LCD-Display kann Texte, Bilder und Videos darstellen. Für Digital Signage kommen ein integrierter oder externer Player und eine Software zur Inhaltsverwaltung hinzu."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen LCD-Display und LED-Wall?",
+      "answer": "Bei einem LCD-Display wird das Bild durch eine Flüssigkristallschicht erzeugt; häufig liefern LEDs die Hintergrundbeleuchtung. Eine direkt emittierende LED-Wall erzeugt das Bild dagegen mit den LEDs ihrer Module. Die Bezeichnung «LED-Display» allein ist deshalb nicht eindeutig. Bei der Auswahl zählen die konkrete Bauart, Betrachtungsabstand, Helligkeit, Format und Einsatzort."
+    },
+    {
+      "question": "Was bedeuten Digital Screen, Digital Display und Display System?",
+      "answer": "Digital Screen und Digital Display sind englische Bezeichnungen für einen digitalen Bildschirm. Sie sagen allein nichts über zentrale Inhaltsverwaltung oder Vernetzung aus. Ein Digital-Signage-System verbindet Display, Player, CMS und Inhalte zu einer steuerbaren Lösung. Ein Display System kann je nach Kontext auch ein anderes Anzeigesystem meinen."
     }
   ],
   "internalLinks": [
@@ -133,10 +145,14 @@
     {
       "label": "Digitale Kundenstopper mit Akku",
       "href": "/loesungen/digitale-kundenstopper/"
+    },
+    {
+      "label": "LCD-Displays und LED Walls vergleichen",
+      "href": "/loesungen/displays/"
     }
   ],
   "datePublished": "2026-05-17",
-  "dateModified": "2026-10-07",
+  "dateModified": "2026-10-21",
   "comparison": {
     "title": "Welche Digital-Signage-Lösung passt zu Ihrer Aufgabe?",
     "intro": "Zuerst die Aufgabe festlegen, danach Bildschirm und Software auswählen. Eine Informationsanzeige hat andere Anforderungen als eine interaktive Anwendung.",

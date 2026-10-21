@@ -168,6 +168,18 @@
     {
       "question": "Wo werden Inhalte gespeichert?",
       "answer": "Die Verwaltung erfolgt über eine Cloud-Plattform; geeignete Player speichern Medien zusätzlich lokal für die Wiedergabe. Hostingstandort, Datenverarbeitung und benötigte Zugriffsrechte klären wir für Ihre konkrete Plattform, bevor sensible Daten eingebunden werden."
+    },
+    {
+      "question": "Wie wird aus Bildschirmen ein Digital-Signage-System?",
+      "answer": "Das CMS verwaltet Inhalte und Zeitpläne, ein kompatibler Player übernimmt die Wiedergabe und das Display zeigt die Inhalte an. Der Ablauf ist: Medien hochladen, Playlist erstellen, Display oder Gruppe auswählen und Veröffentlichung planen. Ob neue Inhalte angekommen sind und korrekt dargestellt werden, wird bei der Einrichtung mit einem Testinhalt geprüft."
+    },
+    {
+      "question": "Wie prüfe ich die Software vor dem Kauf?",
+      "answer": "Bringen Sie eine eigene Datei und einen typischen Zeitplan in die Demo mit. Prüfen Sie die Darstellung auf dem vorgesehenen Player, die Aktualisierung mehrerer Displays, Benutzerrechte und das Verhalten ohne Internet. Lassen Sie die enthaltenen Funktionen, Gerätekompatibilität, Lizenzierung und Zusatzleistungen im Angebot festhalten."
+    },
+    {
+      "question": "Was gehört zur Fernverwaltung von Digital-Signage-Geräten?",
+      "answer": "Inhaltsverwaltung und Gerätesteuerung sind unterschiedliche Funktionen. Je nach Player und Plattform können Online-Status, Vorschau, Neustart und Ein- oder Ausschaltzeiten verfügbar sein. Welche Befehle das konkrete Display tatsächlich unterstützt und welche Netzwerkfreigaben nötig sind, prüfen wir vorab; ein neues Playlist-Element ist noch kein Nachweis für eine funktionierende Hardware-Fernsteuerung."
     }
   ],
   "internalLinks": [
@@ -241,7 +253,7 @@
       }
     ]
   },
-  "updatedAt": "2026-10-07",
+  "updatedAt": "2026-10-21",
   "comparison": {
     "title": "Software: Was gehört dazu, was braucht zusätzliche Planung?",
     "intro": "Die Tabelle trennt die zentrale Inhaltsverwaltung von individuellen Erweiterungen. Der verbindliche Umfang steht in Ihrer Offerte.",

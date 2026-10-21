@@ -52,6 +52,10 @@
     {
       "question": "Kann das Display mit dem Kalender oder einer Datenbank verbunden werden?",
       "answer": "Integrationen sind möglich, aber nicht immer nötig. Einfache Lösungen ohne Anbindung funktionieren für viele Betriebe gut. Wir besprechen das individuell."
+    },
+    {
+      "question": "Was ist ein digitales schwarzes Brett oder Digital Notice Board?",
+      "answer": "Ein digitales schwarzes Brett zeigt wechselnde Mitteilungen wie Termine, interne Hinweise, Öffnungszeiten oder Veranstaltungshinweise auf einem Bildschirm. Die Inhalte werden über ein CMS gepflegt und einem Display oder einer Gruppe zugeordnet. Ein Empfangsdisplay kann diese Aufgabe übernehmen; für vertrauliche Informationen werden Standort, Zugriffsrechte und sichtbarer Inhalt vorab festgelegt."
     }
   ],
   "internalLinks": [
@@ -137,5 +141,5 @@
       }
     ]
   },
-  "updatedAt": "2026-10-07"
+  "updatedAt": "2026-10-21"
 }

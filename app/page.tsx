@@ -40,6 +40,10 @@ export const metadata: Metadata = {
 
 const HOME_FAQS = [
   {
+    question: "Was gehört zu einem Digital-Signage-System?",
+    answer: "Ein Digital-Signage-System verbindet Bildschirm, Media-Player, Software und Inhalte. Das Display zeigt Informationen an, der integrierte oder externe Player gibt sie wieder und das CMS verwaltet Medien und Zeitpläne. Meister Signage stimmt diese Bestandteile auf Einsatzort, Betriebsdauer und die Pflege durch Ihr Team ab.",
+  },
+  {
     question: "Was kostet eine Digital-Signage-Lösung?",
     answer: "Ein Spark 3 mit 32 Zoll kostet ab CHF 1’399 für das Gerät, zuzüglich CHF 149 Standardeinrichtung und einer Softwarelizenz ab CHF 180 pro Jahr. Die Miete beginnt bei CHF 119 pro Display und Monat bei 12 Monaten Laufzeit, inklusive Standardeinrichtung, Softwarelizenz und Wandhalterung. Lieferung, Montage vor Ort und individuelle Inhalte werden separat offeriert. Es wird keine MWST verrechnet.",
   },

@@ -70,6 +70,13 @@ export default function DisplaysOverviewPage() {
         eyebrow="Displays"
         title="Digital Signage Displays – das passende für jeden Einsatz."
         intro="Welcher Display-Typ passt zu Ihrem Vorhaben? Hier finden Sie alle Digital-Signage-Displays im Überblick – vom klassischen Indoor-Bildschirm über grossflächige LED Walls und ultrabreite Stretched Bars bis zu transparenten, doppelseitigen, hellen und mobilen Lösungen. Jeder Typ ist auf Einsatzort, Sichtbarkeit und Budget abgestimmt. Persönliche Beratung, Schweizer Service und Hardware für den 24/7-Betrieb – je nach Display-Typ als Kauf oder zur Miete. Für Spark-Displays gelten feste Monatsraten je Laufzeit; Stelen und Battery-Boards zur Miete offerieren wir auf Anfrage. Entscheidend sind Betrachtungsabstand, Umgebungslicht, Montageart und die Frage, wie häufig Inhalte wechseln. Wir vergleichen diese Faktoren gemeinsam, empfehlen eine passende Grösse und berücksichtigen Stromversorgung, Netzwerk und Bedienung schon in der Planung. So entsteht keine isolierte Bildschirmanschaffung, sondern eine betriebsbereite Lösung, die sich im Alltag zuverlässig aktualisieren lässt und später um weitere Standorte ergänzt werden kann."
+        outro={{
+          heading: "LCD-Display, LED-Wall oder komplettes Display-System?",
+          paragraphs: [
+            "LCD steht für Liquid Crystal Display: Eine Flüssigkristallschicht steuert das Licht einer Hintergrundbeleuchtung. Viele LCD-Bildschirme nutzen dafür LEDs. Eine direkt emittierende LED-Wall erzeugt das Bild dagegen mit LED-Modulen. Die Begriffe LCD und LED bezeichnen deshalb nicht immer zwei gegensätzliche Bildschirmarten.",
+            "Digital Display und Digital Screen bedeuten zunächst digitaler Bildschirm. Für eine zentral steuerbare Digital-Signage-Lösung braucht es zusätzlich einen kompatiblen Player, Software und passende Inhalte. Beim Vergleich zählen Betrachtungsabstand, Licht am Standort, Betriebsdauer und Montage; Bildschirmgrösse allein genügt nicht.",
+          ],
+        }}
         heroImage="/images/products/Loesungen-Meister-Signage.webp"
         groups={[
           {

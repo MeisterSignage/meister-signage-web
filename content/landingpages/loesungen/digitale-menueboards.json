@@ -66,6 +66,14 @@
     {
       "question": "Was kostet ein digitales Menüboard?",
       "answer": "Ein Spark 3 mit 32 Zoll kostet ab CHF 1’399 für das Gerät, zuzüglich CHF 149 Standardeinrichtung und einer Softwarelizenz ab CHF 180 pro Jahr. Die Miete beginnt bei CHF 119 pro Display und Monat bei 12 Monaten Laufzeit, inklusive Standardeinrichtung, Softwarelizenz und Wandhalterung. Lieferung, Montage vor Ort und individuelle Inhalte werden separat offeriert. Es wird keine MWST verrechnet."
+    },
+    {
+      "question": "Was ist ein Menu Screen oder Digital Menu Board?",
+      "answer": "Ein Menu Screen beziehungsweise Digital Menu Board ist ein Bildschirm für Speisekarten, Getränke, Preise und Tagesangebote. Ein geeignetes Display zeigt die Inhalte, ein Player gibt sie wieder und die Signage-Software verwaltet Gestaltung und Zeitpläne. Ein Kassenanschluss ist dafür nicht grundsätzlich nötig."
+    },
+    {
+      "question": "Wie plane ich Inhalte für einen Menübildschirm?",
+      "answer": "Beginnen Sie mit den Informationen, die Gäste aus der Warteschlange lesen müssen: Gericht, Preis und gegebenenfalls Verfügbarkeit. Prüfen Sie Schriftgrösse, Kontrast und Lesedauer am Standort. Frühstück, Mittagsmenü und Abendangebot lassen sich als getrennte Inhalte zeitlich planen. Eine automatische Übernahme aus dem Kassensystem benötigt eine gesondert geprüfte Schnittstelle."
     }
   ],
   "internalLinks": [
@@ -151,5 +159,5 @@
       }
     ]
   },
-  "updatedAt": "2026-10-07"
+  "updatedAt": "2026-10-21"
 }
