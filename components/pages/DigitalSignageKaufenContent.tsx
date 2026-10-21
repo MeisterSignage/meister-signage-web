@@ -559,7 +559,10 @@ export default function DigitalSignageKaufenContent() {
           </motion.div>
 
           <motion.div
-            className="-mx-6 overflow-x-auto px-6 sm:mx-0 sm:px-0"
+            className="relative w-full min-w-0 overflow-x-auto focus-visible:outline-2 focus-visible:outline-magenta"
+            role="region"
+            aria-label="Spark-Displays im Vergleich"
+            tabIndex={0}
             initial={reduced ? false : { opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={viewport}
