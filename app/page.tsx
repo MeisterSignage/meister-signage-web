@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import DisplayPurchaseSection from "@/components/sections/DisplayPurchaseSection";
 import HomeHeroSection from "@/components/sections/HomeHeroSection";
 import LinkedInPostSection from "@/components/sections/LinkedInPostSection";
 import EditorialNewsSection from "@/components/sections/EditorialNewsSection";
@@ -19,21 +20,21 @@ const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = SITE_URL;
 
 export const metadata: Metadata = {
-  title: { absolute: "Digital Signage & Displays Zentralschweiz | Meister Signage" },
-  description: "Schlüsselfertige Digital-Signage-Lösungen für Gastronomie, Retail und Events. Persönlicher Service aus der Zentralschweiz. Kein IT-Aufwand.",
+  title: { absolute: "Digital Signage Schweiz – Displays kaufen | Meister Signage" },
+  description: "Professionelle Digital-Signage-Displays in der Schweiz kaufen. Ultraflache Displays, einfache Cloud-Steuerung, Installation und persönliche Beratung aus einer Hand.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "website",
     locale: "de_CH",
     url: PAGE_URL,
     siteName: "Meister Signage",
-    title: "Meister Signage – Digital Signage Luzern & Zentralschweiz",
-    description: "Schlüsselfertige Digital-Signage-Lösungen für Gastronomie, Retail und Events. Persönlicher Service aus der Zentralschweiz. Kein IT-Aufwand.",
+    title: "Digital Signage Schweiz – Displays kaufen | Meister Signage",
+    description: "Professionelle Digital-Signage-Displays in der Schweiz kaufen. Ultraflache Displays, einfache Cloud-Steuerung, Installation und persönliche Beratung aus einer Hand.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Meister Signage – Digital Signage Luzern & Zentralschweiz",
-    description: "Schlüsselfertige Digital-Signage-Lösungen für Gastronomie, Retail und Events. Persönlicher Service aus der Zentralschweiz.",
+    title: "Digital Signage Schweiz – Displays kaufen | Meister Signage",
+    description: "Professionelle Digital-Signage-Displays in der Schweiz kaufen. Ultraflache Displays, einfache Cloud-Steuerung, Installation und persönliche Beratung aus einer Hand.",
   },
 };
 
@@ -73,6 +74,8 @@ export default function Home() {
       {/* Inhalte gepflegt im CMS: Globale Daten → Homepage-Hero
           (content/site/homepage.json). Hier keine Props mehr nötig. */}
       <HomeHeroSection />
+      <DisplayPurchaseSection />
+      <IndustriesSection />
 
 
       {/* 3 — Premium benefit grid */}
@@ -92,13 +95,25 @@ export default function Home() {
       {/* 3.6 — Software teaser */}
       <SoftwareTeaserSection />
 
-      {/* 4 — Industries bento (Branchen + Anwendungen zusammengeführt) */}
-      <IndustriesSection />
+      {/* Branchen stehen direkt nach dem Display-Sortiment. */}
 
 
       {/* 6 — Trust & process */}
       <TrustProcessSection />
 
+      <CTASection
+        eyebrow="Displays kaufen"
+        title="Einmal investieren. Langfristig profitieren."
+        subtitle="Mit einem eigenen Digital-Signage-Display vermeiden Sie dauerhafte Hardware-Mietkosten und behalten die volle Kontrolle über Ihre digitale Kommunikation. Software und laufende Betreuung können individuell ergänzt werden."
+        primaryCta={{ label: "Displayangebot anfordern", href: "/kontakt" }}
+      />
+      <LinkedInPostSection />
+      <CTASection
+        eyebrow="Für zeitlich begrenzte Einsätze"
+        title="Displays für Events und Projekte mieten"
+        subtitle="Für Veranstaltungen und temporäre Einsätze bieten wir auch Mietdisplays. Geräte, Leistungen und vereinbarte Laufzeiten finden Sie in der Mietübersicht."
+        primaryCta={{ label: "Mietmöglichkeiten ansehen", href: "/digital-signage-mieten" }}
+      />
       {/* 7 — FAQ */}
       <JsonLd schema={faqSchema(HOME_FAQS) as Record<string, unknown>} />
       <ModernFAQSection
@@ -110,7 +125,6 @@ export default function Home() {
 
       {/* 7 — Editorial news */}
       <EditorialNewsSection posts={latestPosts} />
-      <LinkedInPostSection />
 
       {/* 8 — Internal links */}
       <InternalLinksSection
@@ -136,7 +150,7 @@ export default function Home() {
         eyebrow="Projekt besprechen"
         title="Bereit für den ersten Schritt? Wir machen es einfach."
         subtitle="Beschreiben Sie kurz Ihren Betrieb und Ihr Ziel – wir antworten persönlich innert 24h mit einer konkreten Einschätzung."
-        primaryCta={{ label: "Beratung anfragen", href: "/kontakt" }}
+        primaryCta={{ label: "Displayangebot anfordern", href: "/kontakt" }}
         secondaryCta={{ label: "Kosten & Preise ansehen", href: "/was-kostet-digital-signage-schweiz" }}
       />
 

@@ -71,7 +71,6 @@ const MEISTER_RENTAL_SCHEMA = {
             "@type": "UnitPriceSpecification",
             price: display.monthlyPrices[months],
             priceCurrency: "CHF",
-            valueAddedTaxIncluded: false,
             referenceQuantity: { "@type": "QuantitativeValue", value: 1, unitCode: "MON" },
           },
         })),

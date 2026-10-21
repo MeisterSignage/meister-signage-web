@@ -91,8 +91,8 @@ export default function HomeHeroSection({
             {/* Headline */}
             <h1
               style={{
-                fontSize: "clamp(2.5rem, 4.8vw, 4.4rem)",
-                fontWeight: 900,
+                fontSize: "clamp(2rem, 3.2vw, 3.25rem)",
+                fontWeight: 700,
                 lineHeight: 1.04,
                 letterSpacing: "-0.03em",
                 color: "#f3f4f6",
