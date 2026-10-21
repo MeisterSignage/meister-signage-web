@@ -63,7 +63,7 @@ const navItems: NavItem[] = [
       { label: "Gesundheit & Praxis", href: "/branchen/gesundheit", desc: "Praxen, Kliniken, Apotheken" },
     ],
   },
-  { label: "Vermietung", href: "/digital-signage-mieten" },
+  { label: "Displays kaufen", href: "/digital-signage-kaufen" },
   {
     label: "Wissen",
     href: "/wissen",

@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import CTASection from "@/components/sections/CTASection";
 import RentalSparkImage from "@/components/RentalSparkImage";
 import ContactFormSection from "@/components/sections/ContactFormSection";
 import Link from "next/link";
@@ -265,15 +266,15 @@ export default function DigitalSignageMietenContent() {
                 color: "#f3f4f6",
               }}
             >
-              Digital Signage mieten, wenn{" "}
-              <span style={{ color: "#ffffff" }}>Flexibilität zählt.</span>
+              Digital Signage Displays mieten –{" "}
+              <span style={{ color: "#ffffff" }}>flexibel für Events und Unternehmen</span>
             </h1>
 
             <p
               className="mb-10 max-w-[440px] leading-relaxed"
               style={{ fontSize: "clamp(1rem, 1.5vw, 1.15rem)", color: "rgba(209,213,219,0.9)" }}
             >
-              Einen professionellen Bildschirm mieten statt kaufen: Unsere Digital-Signage-Displays eignen sich für Events, Messen, Pop-ups und den laufenden Einsatz. Ab CHF {packages[0].monthlyPrices[12]} pro Display und Monat* bei 12 Monaten Laufzeit – inklusive Einrichtung, Softwarelizenz und Wandhalterung.
+              Mieten Sie professionelle Digital-Signage-Displays für Veranstaltungen, Messen, Pop-up-Stores oder zeitlich begrenzte Projekte. Unsere Mietlösungen kombinieren hochwertige Hardware mit einfacher Inhaltssteuerung und persönlicher Betreuung. Spark-Pakete: Ab CHF {packages[0].monthlyPrices[12]} pro Display und Monat* bei 12 Monaten Laufzeit – inklusive Einrichtung, Softwarelizenz und Wandhalterung.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -512,13 +513,14 @@ export default function DigitalSignageMietenContent() {
                 <article key={display.model} className="rounded-xl border border-navy/10 p-5">
                   <h3 className="text-lg font-semibold text-navy">{display.model}</h3>
                   <p className="mt-3 text-xl font-semibold text-navy">Ab CHF {display.monthlyPrices[12]} / Monat</p>
-                  <p className="mt-2 text-sm text-cgray">Bei 12 Monaten Laufzeit, exkl. MWST. Weitere Laufzeiten im Vergleich unten.</p>
+                  <p className="mt-2 text-sm text-cgray">Bei 12 Monaten Laufzeit, ohne MWST. Weitere Laufzeiten im Vergleich unten.</p>
                   <Link href="#mietanfrage" className="btn-secondary mt-5">Miete anfragen</Link>
                 </article>
               ))}
             </div>
             <p className="mt-5 text-sm leading-relaxed text-cgray">{MEISTER_RENTAL_CONDITIONS}</p>
           </section>
+
 
           <details className="group/terms mt-8 rounded-[18px] border border-navy/10 bg-white">
             <summary className="flex cursor-pointer list-none items-center justify-between gap-4 rounded-[18px] px-5 py-6 text-[16px] font-semibold text-navy focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-magenta sm:px-7 [&::-webkit-details-marker]:hidden">
@@ -530,7 +532,7 @@ export default function DigitalSignageMietenContent() {
             </summary>
             <div className="border-t border-navy/10 px-5 pb-6 pt-5 sm:px-7">
               <p className="mb-4 text-[14px] leading-relaxed text-cgray">
-                Alle Beträge gelten pro Display und Monat für die angegebene Laufzeit. Spark inklusive Standardeinrichtung, Softwarelizenz und Wandhalterung. Meister-Displays inklusive Bereitstellung, Funktionsprüfung, kurzer Einweisung und normaler Reinigung; Preise exkl. MWST.
+                Alle Beträge gelten pro Display und Monat für die angegebene Laufzeit. Spark inklusive Standardeinrichtung, Softwarelizenz und Wandhalterung. Meister-Displays inklusive Bereitstellung, Funktionsprüfung, kurzer Einweisung und normaler Reinigung. Alle Preise in CHF. Meister Signage ist nicht mehrwertsteuerpflichtig. Es wird keine MWST ausgewiesen oder verrechnet.
               </p>
               <div
                 role="region"
@@ -589,6 +591,12 @@ export default function DigitalSignageMietenContent() {
 
         </div>
       </section>
+
+      <CTASection
+        title="Mieten oder kaufen – was lohnt sich?"
+        subtitle="Für einmalige Veranstaltungen und zeitlich begrenzte Einsätze ist die Miete eine praktische Lösung. Bei dauerhaftem Einsatz kann sich der Kauf langfristig finanziell lohnen. Gerne vergleichen wir beide Varianten für Ihr Projekt."
+        primaryCta={{ label: "Displays kaufen", href: "/digital-signage-kaufen" }}
+      />
 
       {/* ── 2.2 HARDWARE-HIGHLIGHTS ────────────────────────────────────── */}
       <section className="w-full bg-white" id="hardware-highlights">

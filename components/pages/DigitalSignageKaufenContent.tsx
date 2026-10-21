@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { PURCHASE_FAQS } from "@/lib/purchase-faqs";
 import Link from "next/link";
 import { useState } from "react";
 import { m as motion, useReducedMotion } from "framer-motion";
@@ -53,7 +54,7 @@ const benefits = [
   {
     icon: TrendingUp,
     title: "Langfristige Investition",
-    desc: "Nach der Amortisation arbeitet Ihr Display ohne laufende Hardwarekosten für Sie — über viele Jahre.",
+    desc: "Mit eigener Hardware entfallen laufende Hardware-Mietkosten. Software, Betreuung und allfällige Reparaturen planen wir separat.",
   },
   {
     icon: Banknote,
@@ -143,32 +144,7 @@ const trustItems = [
   { icon: Zap,       label: "Kein IT-Aufwand",          desc: "Plug & Play — wir kümmern uns um die Technik" },
 ];
 
-const faqs = [
-  {
-    question: "Was ist im Kaufpreis enthalten?",
-    answer: "Im Kaufpreis ist die Hardware enthalten. Software-Lizenz, Einrichtung, Versand und laufender Support werden separat ausgewiesen und im Angebot transparent aufgeführt.",
-  },
-  {
-    question: "Wie lange dauert die Einrichtung und Inbetriebnahme?",
-    answer: "In vielen Fällen ist eine einfache Lösung innerhalb weniger Stunden betriebsbereit. Bei komplexeren Projekten mit mehreren Standorten planen wir gemeinsam den Ablauf – transparent und ohne Überraschungen.",
-  },
-  {
-    question: "Gibt es Garantie auf die Hardware?",
-    answer: "Ja. Die Geräte kommen mit Herstellergarantie. Für darüber hinausgehende Servicevereinbarungen sprechen wir die Bedingungen individuell ab.",
-  },
-  {
-    question: "Kann ich die Inhalte selbst anpassen?",
-    answer: "Ja. Die Lösung wird so eingerichtet, dass Inhalte einfach und zentral aktualisiert werden können – ohne IT-Kenntnisse. Auf Wunsch übernehmen wir auch die laufende Inhaltspflege.",
-  },
-  {
-    question: "Ist späteres Erweitern auf mehrere Screens möglich?",
-    answer: "Ja. Viele Betriebe starten mit einem Screen und erweitern Schritt für Schritt. Die Plattform ist darauf ausgelegt, mehrere Standorte und Anzeigeflächen zentral zu steuern.",
-  },
-  {
-    question: "Was ist der Unterschied zwischen kaufen und mieten?",
-    answer: "Beim Kauf investieren Sie einmalig in eigene Hardware – langfristig günstiger und mit mehr Kontrolle. Die Miete eignet sich für temporäre Einsätze oder wenn zunächst kein Kapital gebunden werden soll.",
-  },
-];
+const faqs = PURCHASE_FAQS;
 
 /* ─── FAQ Accordion ──────────────────────────────────────────────────────── */
 
@@ -285,9 +261,7 @@ export default function DigitalSignageKaufenContent() {
                 color: "#f3f4f6",
               }}
             >
-              Ihr Display. <span style={{ color: "#ffffff" }}>Ihr Eigentum.</span>
-              <br />
-              Kommunizieren Sie <span style={{ color: "#ffffff" }}>dauerhaft.</span>
+              Digital Signage Displays kaufen – <span style={{ color: "#ffffff" }}>für Unternehmen in der Schweiz</span>
             </h1>
 
             <p
@@ -299,7 +273,7 @@ export default function DigitalSignageKaufenContent() {
 
             <div className="flex flex-wrap gap-4">
               <Link href="/kontakt/" className="btn-primary gap-2.5">
-                Beratung anfragen
+                Displayangebot anfordern
                 <ArrowRight className="h-4 w-4 shrink-0" strokeWidth={2} />
               </Link>
               <Link
@@ -523,7 +497,7 @@ export default function DigitalSignageKaufenContent() {
                     href="/kontakt/"
                     className="mt-auto inline-flex items-center gap-1.5 text-[12px] font-bold uppercase tracking-[0.1em] text-magenta transition-colors duration-150 hover:text-navy"
                   >
-                    Anfragen
+                    Displayangebot anfordern
                     <ArrowRight className="h-3 w-3 transition-transform duration-200 group-hover:translate-x-1" strokeWidth={2.5} />
                   </Link>
                 </div>
@@ -539,7 +513,7 @@ export default function DigitalSignageKaufenContent() {
             viewport={viewport}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            Alle Preise aufgrund der Unternehmensform ohne MWST. Einrichtung, Versand und Software separat ausgewiesen. Individuelle Angebote auf Anfrage.
+            Alle Preise in CHF. Meister Signage ist nicht mehrwertsteuerpflichtig. Es wird keine MWST ausgewiesen oder verrechnet. Einrichtung, Versand und Software separat ausgewiesen. Individuelle Angebote auf Anfrage.
           </motion.p>
 
         </div>
@@ -585,7 +559,10 @@ export default function DigitalSignageKaufenContent() {
           </motion.div>
 
           <motion.div
-            className="-mx-6 overflow-x-auto px-6 sm:mx-0 sm:px-0"
+            className="relative w-full min-w-0 overflow-x-auto focus-visible:outline-2 focus-visible:outline-magenta"
+            role="region"
+            aria-label="Spark-Displays im Vergleich"
+            tabIndex={0}
             initial={reduced ? false : { opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={viewport}
@@ -1168,7 +1145,7 @@ export default function DigitalSignageKaufenContent() {
             </p>
             <div className="mt-2 flex flex-wrap justify-center gap-4">
               <Link href="/kontakt/" className="btn-primary gap-2.5">
-                Beratung anfragen
+                Displayangebot anfordern
                 <ArrowRight className="h-4 w-4 shrink-0" strokeWidth={2} />
               </Link>
               <Link

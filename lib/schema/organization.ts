@@ -1,3 +1,5 @@
+import { CONTACT } from "@/lib/contact";
+
 const BASE = "https://www.meister-signage.ch";
 
 export const organizationSchema = {
@@ -17,7 +19,7 @@ export const organizationSchema = {
   description:
     "Digital-Signage-Lösungen für Gastronomie, Retail, Hotellerie, Unternehmen und Events in der Schweiz. Schlüsselfertig geplant und persönlich betreut aus der Zentralschweiz.",
   telephone: "+41764526687",
-  email: "chris@meister-signage.ch",
+  email: CONTACT.email,
   address: {
     "@type": "PostalAddress",
     streetAddress: "Chriesimatt 20",
@@ -40,7 +42,7 @@ export const organizationSchema = {
       "@type": "ContactPoint",
       contactType: "customer service",
       telephone: "+41764526687",
-      email: "chris@meister-signage.ch",
+      email: CONTACT.email,
       areaServed: "CH",
       availableLanguage: ["de", "en"],
     },
@@ -48,7 +50,7 @@ export const organizationSchema = {
       "@type": "ContactPoint",
       contactType: "sales",
       telephone: "+41764526687",
-      email: "chris@meister-signage.ch",
+      email: CONTACT.email,
       areaServed: "CH",
       availableLanguage: ["de", "en"],
     },

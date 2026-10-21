@@ -417,7 +417,7 @@ export default function WasKostetDigitalSignagePage() {
           { label: "Eigentum am Gerät", values: ["Gerät gehört Ihnen", "Gerät bleibt Mietgerät"] },
           { label: "Halterung und Betreuung", values: ["Umfang gemäss Offerte", "Wandhalterung und persönliche Betreuung enthalten"] },
         ],
-        note: "Keine vollständige Gesamtkostenrechnung: Lieferung, Montage vor Ort, Zubehör und individuelle Inhalte kommen je nach Projekt hinzu. Beim Kauf fällt die Softwarelizenz auch in Folgejahren an. Preise ohne MWST aufgrund der Unternehmensform.",
+        note: "Keine vollständige Gesamtkostenrechnung: Lieferung, Montage vor Ort, Zubehör und individuelle Inhalte kommen je nach Projekt hinzu. Beim Kauf fällt die Softwarelizenz auch in Folgejahren an. Alle Preise in CHF. Meister Signage ist nicht mehrwertsteuerpflichtig. Es wird keine MWST ausgewiesen oder verrechnet.",
         links: [{ label: "Spark-Modelle vergleichen", href: "/digital-signage-kaufen/#vergleich" }, { label: "Mietlaufzeiten vergleichen", href: "/digital-signage-mieten/" }],
       }} />
 

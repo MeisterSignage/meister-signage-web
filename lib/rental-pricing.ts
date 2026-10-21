@@ -44,7 +44,7 @@ export const MEISTER_RENTAL_DISPLAYS = [
 ];
 
 export const MEISTER_DISPLAY_DETAILS = "4K UHD (3840 × 2160), 500 Nits, Android 14, 4 GB RAM und 64 GB Speicher. LCD im Format 16:9, ohne Touch, mit integrierten Lautsprechern (2 × 5 W).";
-export const MEISTER_RENTAL_CONDITIONS = "Bereitstellung, Funktionsprüfung, kurze Einweisung und normale Reinigung inklusive. Displayständer optional CHF 50 pro Ständer und Monat. Lieferung, Montage vor Ort und Rückholung separat nach Absprache. Preise exkl. MWST.";
+export const MEISTER_RENTAL_CONDITIONS = "Bereitstellung, Funktionsprüfung, kurze Einweisung und normale Reinigung inklusive. Displayständer optional CHF 50 pro Ständer und Monat. Lieferung, Montage vor Ort und Rückholung separat nach Absprache. Alle Preise in CHF. Meister Signage ist nicht mehrwertsteuerpflichtig. Es wird keine MWST ausgewiesen oder verrechnet.";
 
 export const RENTAL_INCLUDED = ["Standardeinrichtung", "Software-Lizenz", "Wandhalterung"];
 export const OPTIONAL_FLOOR_STAND_MONTHLY = 50;
@@ -106,7 +106,7 @@ export const RENTAL_FAQS = [
   },
   {
     question: "Was kosten Meister Signage 43 und 55 Zoll zur Miete?",
-    answer: "Meister Signage 43″ kostet bei 1, 3, 6 oder 12 Monaten Laufzeit jeweils CHF 439, 239, 179 oder 129 pro Monat. Meister Signage 55″ kostet entsprechend CHF 459, 259, 189 oder 139 pro Monat. Alle Preise exkl. MWST, Bereitstellung inklusive. Beide Modelle bieten 4K UHD, 500 Nits, Android 14, 4 GB RAM und 64 GB Speicher; sie haben keinen Touchscreen.",
+    answer: "Meister Signage 43″ kostet bei 1, 3, 6 oder 12 Monaten Laufzeit jeweils CHF 439, 239, 179 oder 129 pro Monat. Meister Signage 55″ kostet entsprechend CHF 459, 259, 189 oder 139 pro Monat. Bereitstellung inklusive. Alle Preise in CHF. Meister Signage ist nicht mehrwertsteuerpflichtig. Es wird keine MWST ausgewiesen oder verrechnet. Beide Modelle bieten 4K UHD, 500 Nits, Android 14, 4 GB RAM und 64 GB Speicher; sie haben keinen Touchscreen.",
   },
   {
     question: "Kann ich die Mietgeräte selbst transportieren?",
