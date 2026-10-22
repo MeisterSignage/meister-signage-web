@@ -5,7 +5,7 @@ date: "2026-10-22T14:00:00.000Z"
 category: "LED-Wand"
 image: "/images/blog/led-wand-buehne-lesbarkeit/1.webp"
 slug: "led-wand-buehne-lesbarkeit"
-status: scheduled
+status: published
 share_social: false
 source_post: P13
 ---
