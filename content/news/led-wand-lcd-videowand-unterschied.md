@@ -1,6 +1,7 @@
 ---
 title: "LED-Wand und LCD-Videowand sind nicht dasselbe"
-description: "LED-Wand und LCD-Videowand: ähnliche Aufgabe, unterschiedliche Technik."
+seoTitle: "LED-Wand oder LCD-Videowand?"
+description: "LED-Wand oder LCD-Videowand: Unterschiede bei Aufbau und Auswahl verstehen. Sichtabstand, Inhalte und Montage helfen bei der Planung Ihrer Bildfläche."
 date: "2026-10-20T07:00:00.000Z"
 category: "LED-Wand"
 image: "/images/blog/led-wand-lcd-videowand-unterschied/1.webp"

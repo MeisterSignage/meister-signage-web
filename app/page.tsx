@@ -20,21 +20,21 @@ const SITE_URL = "https://www.meister-signage.ch";
 const PAGE_URL = SITE_URL;
 
 export const metadata: Metadata = {
-  title: { absolute: "Digital Signage Schweiz – Displays kaufen | Meister Signage" },
-  description: "Professionelle Digital-Signage-Displays in der Schweiz kaufen. Ultraflache Displays, einfache Cloud-Steuerung, Installation und persönliche Beratung aus einer Hand.",
+  title: { absolute: "Digital Signage Schweiz kaufen | Meister Signage" },
+  description: "Digital Signage in der Schweiz: Displays kaufen, Inhalte per Cloud steuern und Installation planen. Persönliche Beratung von Meister Signage in Baar.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "website",
     locale: "de_CH",
     url: PAGE_URL,
     siteName: "Meister Signage",
-    title: "Digital Signage Schweiz – Displays kaufen | Meister Signage",
-    description: "Professionelle Digital-Signage-Displays in der Schweiz kaufen. Ultraflache Displays, einfache Cloud-Steuerung, Installation und persönliche Beratung aus einer Hand.",
+    title: "Digital Signage Schweiz kaufen | Meister Signage",
+    description: "Digital Signage in der Schweiz: Displays kaufen, Inhalte per Cloud steuern und Installation planen. Persönliche Beratung von Meister Signage in Baar.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Digital Signage Schweiz – Displays kaufen | Meister Signage",
-    description: "Professionelle Digital-Signage-Displays in der Schweiz kaufen. Ultraflache Displays, einfache Cloud-Steuerung, Installation und persönliche Beratung aus einer Hand.",
+    title: "Digital Signage Schweiz kaufen | Meister Signage",
+    description: "Digital Signage in der Schweiz: Displays kaufen, Inhalte per Cloud steuern und Installation planen. Persönliche Beratung von Meister Signage in Baar.",
   },
 };
 

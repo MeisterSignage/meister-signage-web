@@ -266,15 +266,15 @@ export default function DigitalSignageMietenContent() {
                 color: "#f3f4f6",
               }}
             >
-              Digital Signage Displays mieten –{" "}
-              <span style={{ color: "#ffffff" }}>flexibel für Events und Unternehmen</span>
+              Bildschirm mieten in der Schweiz –{" "}
+              <span style={{ color: "#ffffff" }}>Digital Signage für Events und Unternehmen</span>
             </h1>
 
             <p
               className="mb-10 max-w-[440px] leading-relaxed"
               style={{ fontSize: "clamp(1rem, 1.5vw, 1.15rem)", color: "rgba(209,213,219,0.9)" }}
             >
-              Mieten Sie professionelle Digital-Signage-Displays für Veranstaltungen, Messen, Pop-up-Stores oder zeitlich begrenzte Projekte. Unsere Mietlösungen kombinieren hochwertige Hardware mit einfacher Inhaltssteuerung und persönlicher Betreuung. Spark-Pakete: Ab CHF {packages[0].monthlyPrices[12]} pro Display und Monat* bei 12 Monaten Laufzeit – inklusive Einrichtung, Softwarelizenz und Wandhalterung.
+              Mieten Sie einen professionellen Bildschirm für Veranstaltungen, Messen, Pop-up-Stores oder den Empfang. Wir stimmen Display, Inhaltssteuerung und Laufzeit auf Ihren Einsatz ab. Kurze Eventmieten offerieren wir auf Anfrage. Spark-Pakete: Ab CHF {packages[0].monthlyPrices[12]} pro Display und Monat* bei 12 Monaten Laufzeit – inklusive Einrichtung, Softwarelizenz und Wandhalterung.
             </p>
 
             <div className="flex flex-wrap gap-4">

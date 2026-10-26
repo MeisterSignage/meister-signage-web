@@ -1,6 +1,7 @@
 ---
 title: "Die Bühnenfläche vom Publikum aus planen"
-description: "Hinten im Saal zählt Lesbarkeit mehr als Bildschirmgrösse."
+seoTitle: "LED-Wand für Bühnen: Lesbarkeit planen"
+description: "LED-Wand für Konferenzen planen: Sichtabstand, Bestuhlung und echte Präsentationsfolien prüfen. So werden Inhalte auch aus den hinteren Reihen lesbar."
 date: "2026-10-22T14:00:00.000Z"
 category: "LED-Wand"
 image: "/images/blog/led-wand-buehne-lesbarkeit/1.webp"
