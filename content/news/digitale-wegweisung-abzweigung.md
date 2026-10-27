@@ -5,7 +5,7 @@ date: "2026-10-27T08:00:00.000Z"
 category: "Digitale Stele"
 image: "/images/blog/digitale-wegweisung-abzweigung/1.webp"
 slug: "digitale-wegweisung-abzweigung"
-status: scheduled
+status: published
 share_social: false
 source_post: P21
 ---
