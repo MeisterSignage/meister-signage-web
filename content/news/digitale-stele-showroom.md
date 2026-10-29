@@ -5,7 +5,7 @@ date: "2026-10-29T15:00:00.000Z"
 category: "Digitale Stele"
 image: "/images/blog/digitale-stele-showroom/1.webp"
 slug: "digitale-stele-showroom"
-status: scheduled
+status: published
 share_social: false
 source_post: P22
 ---
