@@ -5,7 +5,7 @@ date: "2026-11-03T08:00:00.000Z"
 category: "Spark-Sortiment"
 image: "/images/blog/spark3-kleine-theke-planen/1.webp"
 slug: "spark3-kleine-theke-planen"
-status: scheduled
+status: published
 share_social: false
 source_post: P26
 ---
