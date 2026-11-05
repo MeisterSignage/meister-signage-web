@@ -5,7 +5,7 @@ date: "2026-11-05T15:00:00.000Z"
 category: "Projektbriefing"
 image: "/images/blog/display-anfrage-vorbereiten/1.webp"
 slug: "display-anfrage-vorbereiten"
-status: scheduled
+status: published
 share_social: false
 source_post: P45
 ---
