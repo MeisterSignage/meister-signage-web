@@ -5,7 +5,7 @@ date: "2026-11-10T08:00:00.000Z"
 category: "Inhaltspflege"
 image: "/images/blog/digital-signage-inhaltscheck/1.webp"
 slug: "digital-signage-inhaltscheck"
-status: scheduled
+status: published
 share_social: false
 source_post: P50
 ---
