@@ -5,7 +5,7 @@ date: "2026-11-12T15:00:00.000Z"
 category: "Spark-Sortiment"
 image: "/images/blog/spark-quadrat-inhalte-gestalten/1.webp"
 slug: "spark-quadrat-inhalte-gestalten"
-status: scheduled
+status: published
 share_social: false
 source_post: P29
 ---
