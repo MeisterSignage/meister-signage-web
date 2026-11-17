@@ -5,7 +5,7 @@ date: "2026-11-17T08:00:00.000Z"
 category: "LED-Wand"
 image: "/images/blog/led-wand-hotellobby-aufgabe/1.webp"
 slug: "led-wand-hotellobby-aufgabe"
-status: scheduled
+status: published
 share_social: false
 source_post: P12
 ---
