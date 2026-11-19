@@ -5,7 +5,7 @@ date: "2026-11-19T15:00:00.000Z"
 category: "Grundlagen"
 image: "/images/blog/digital-signage-konkrete-aufgabe/1.webp"
 slug: "digital-signage-konkrete-aufgabe"
-status: scheduled
+status: published
 share_social: false
 source_post: P25
 ---
