@@ -5,7 +5,7 @@ date: "2026-11-24T08:00:00.000Z"
 category: "Gastronomie"
 image: "/images/blog/gastronomie-inhaltsplan-tageszeiten/1.webp"
 slug: "gastronomie-inhaltsplan-tageszeiten"
-status: scheduled
+status: published
 share_social: false
 source_post: P32
 ---
