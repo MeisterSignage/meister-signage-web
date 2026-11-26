@@ -5,7 +5,7 @@ date: "2026-11-26T15:00:00.000Z"
 category: "Battery-Board"
 image: "/images/blog/kundenstopper-blickweg-planen/1.webp"
 slug: "kundenstopper-blickweg-planen"
-status: scheduled
+status: published
 share_social: false
 source_post: P09
 ---
